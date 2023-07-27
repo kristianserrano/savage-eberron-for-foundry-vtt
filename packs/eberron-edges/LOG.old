@@ -1,8 +1,15 @@
-2023/07/27-17:37:13.592489 70000a7a8000 Recovering log #187
-2023/07/27-17:37:13.593799 70000a7a8000 Delete type=0 #187
-2023/07/27-17:37:13.593916 70000a7a8000 Delete type=3 #185
-2023/07/27-17:38:00.986444 70000b02e000 Level-0 table #193: started
-2023/07/27-17:38:00.986463 70000b02e000 Level-0 table #193: 0 bytes OK
-2023/07/27-17:38:00.986635 70000b02e000 Delete type=0 #191
-2023/07/27-17:38:00.986731 70000b02e000 Manual compaction at level-0 from '!folders!8hnpzMqu320tkWo3' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)
-2023/07/27-17:38:00.988354 70000b02e000 Manual compaction at level-1 from '!folders!8hnpzMqu320tkWo3' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)
+2023/07/27-18:05:29.460209 70000bd32000 Recovering log #196
+2023/07/27-18:05:29.461514 70000bd32000 Delete type=3 #194
+2023/07/27-18:05:29.461680 70000bd32000 Delete type=0 #196
+2023/07/27-18:30:42.723263 70000bdb5000 Level-0 table #201: started
+2023/07/27-18:30:42.723803 70000bdb5000 Level-0 table #201: 8471 bytes OK
+2023/07/27-18:30:42.724022 70000bdb5000 Delete type=0 #199
+2023/07/27-18:30:42.724264 70000bdb5000 Manual compaction at level-0 from '!folders!8hnpzMqu320tkWo3' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)
+2023/07/27-18:30:42.724301 70000bdb5000 Manual compaction at level-1 from '!folders!8hnpzMqu320tkWo3' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at '!items!TJwk3WEdmfT4YqeL' @ 662 : 1
+2023/07/27-18:30:42.724313 70000bdb5000 Compacting 1@1 + 1@2 files
+2023/07/27-18:30:42.726221 70000bdb5000 Generated table #202@1: 83 keys, 96113 bytes
+2023/07/27-18:30:42.726248 70000bdb5000 Compacted 1@1 + 1@2 files => 96113 bytes
+2023/07/27-18:30:42.726428 70000bdb5000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/07/27-18:30:42.726524 70000bdb5000 Delete type=2 #189
+2023/07/27-18:30:42.727190 70000bdb5000 Delete type=2 #201
+2023/07/27-18:30:42.728665 70000bdb5000 Manual compaction at level-1 from '!items!TJwk3WEdmfT4YqeL' @ 662 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)

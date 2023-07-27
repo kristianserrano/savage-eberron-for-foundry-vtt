@@ -1,8 +1,15 @@
-2023/07/27-17:38:48.522614 700009fa5000 Recovering log #200
-2023/07/27-17:38:48.524034 700009fa5000 Delete type=0 #200
-2023/07/27-17:38:48.524129 700009fa5000 Delete type=3 #198
-2023/07/27-17:39:00.939191 70000b02e000 Level-0 table #206: started
-2023/07/27-17:39:00.939212 70000b02e000 Level-0 table #206: 0 bytes OK
-2023/07/27-17:39:00.939374 70000b02e000 Delete type=0 #204
-2023/07/27-17:39:00.939719 70000b02e000 Manual compaction at level-0 from '!folders!8duy0r5LaiffI3GL' @ 72057594037927935 : 1 .. '!items.effects!uPMabHulIYMts8JA.QUmjEr1eM9OtD1gU' @ 0 : 0; will stop at (end)
-2023/07/27-17:39:00.939755 70000b02e000 Manual compaction at level-1 from '!folders!8duy0r5LaiffI3GL' @ 72057594037927935 : 1 .. '!items.effects!uPMabHulIYMts8JA.QUmjEr1eM9OtD1gU' @ 0 : 0; will stop at (end)
+2023/07/27-18:31:24.684131 700010025000 Recovering log #209
+2023/07/27-18:31:24.685759 700010025000 Delete type=3 #207
+2023/07/27-18:31:24.686015 700010025000 Delete type=0 #209
+2023/07/27-18:49:40.954797 7000108ab000 Level-0 table #215: started
+2023/07/27-18:49:40.956674 7000108ab000 Level-0 table #215: 133834 bytes OK
+2023/07/27-18:49:40.956928 7000108ab000 Delete type=0 #213
+2023/07/27-18:49:40.958825 7000108ab000 Manual compaction at level-0 from '!folders!8duy0r5LaiffI3GL' @ 72057594037927935 : 1 .. '!items.effects!uPMabHulIYMts8JA.QUmjEr1eM9OtD1gU' @ 0 : 0; will stop at (end)
+2023/07/27-18:49:40.958873 7000108ab000 Manual compaction at level-1 from '!folders!8duy0r5LaiffI3GL' @ 72057594037927935 : 1 .. '!items.effects!uPMabHulIYMts8JA.QUmjEr1eM9OtD1gU' @ 0 : 0; will stop at '!items.effects!uPMabHulIYMts8JA.QUmjEr1eM9OtD1gU' @ 529 : 0
+2023/07/27-18:49:40.958880 7000108ab000 Compacting 1@1 + 1@2 files
+2023/07/27-18:49:40.960434 7000108ab000 Generated table #216@1: 98 keys, 61596 bytes
+2023/07/27-18:49:40.960450 7000108ab000 Compacted 1@1 + 1@2 files => 61596 bytes
+2023/07/27-18:49:40.960589 7000108ab000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/07/27-18:49:40.960654 7000108ab000 Delete type=2 #215
+2023/07/27-18:49:40.960750 7000108ab000 Delete type=2 #211
+2023/07/27-18:49:40.962918 7000108ab000 Manual compaction at level-1 from '!items.effects!uPMabHulIYMts8JA.QUmjEr1eM9OtD1gU' @ 529 : 0 .. '!items.effects!uPMabHulIYMts8JA.QUmjEr1eM9OtD1gU' @ 0 : 0; will stop at (end)
