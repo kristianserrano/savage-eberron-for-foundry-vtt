@@ -1,0 +1,111 @@
+{
+  "id": "savage-eberron",
+  "title": "Eberron for Savage Worlds: Campaign Setting",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "styles": [
+    "savage-eberron.css"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "swade-core-rules",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "swade-fantasy-companion",
+        "type": "module"
+      }
+    ],
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "The Immaterial Plane",
+      "email": "contact@immaterialplane.com",
+      "url": "https://immaterialplane.com"
+    }
+  ],
+  "packs": [
+    {
+      "name": "eberron-ancestries",
+      "label": "Eberron Ancestries",
+      "path": "packs/eberron-ancestries",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eberron-abilities",
+      "label": "Eberron Abilities",
+      "path": "packs/eberron-abilities",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eberron-edges",
+      "label": "Eberron Edges",
+      "path": "packs/eberron-edges",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eberron-gear",
+      "label": "Eberron Gear",
+      "path": "packs/eberron-gear",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eberron-powers",
+      "label": "Eberron Powers",
+      "path": "packs/eberron-powers",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Eberron for Savage Worlds",
+      "sorting": "m",
+      "color": "#653729",
+      "packs": [
+        "eberron-ancestries",
+        "eberron-edges",
+        "eberron-gear",
+        "eberron-powers",
+        "eberron-abilities"
+      ],
+      "folders": []
+    }
+  ]
+}

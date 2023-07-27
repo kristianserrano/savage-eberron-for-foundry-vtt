@@ -1,0 +1,9 @@
+.savage-eberron--epic-modifier {
+    list-style-type: '★';
+    padding-left: 1ch;
+    margin-left: -1ch;
+}
+
+.savage-eberron--epic-modifier::marker {
+    font-size: 0.9em;
+}
