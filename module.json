@@ -18,7 +18,8 @@
       },
       {
         "id": "swade-fantasy-companion",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       }
     ],
     "systems": [
@@ -38,8 +39,21 @@
   ],
   "packs": [
     {
+      "name": "eberron-book",
+      "label": "Book",
+      "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
+      "path": "packs/eberron-book",
+      "type": "JournalEntry",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "eberron-ancestries",
       "label": "Eberron Ancestries",
+      "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
       "path": "packs/eberron-ancestries",
       "type": "Item",
       "system": "swade",
@@ -49,19 +63,21 @@
       }
     },
     {
-      "name": "eberron-abilities",
-      "label": "Eberron Abilities",
-      "path": "packs/eberron-abilities",
+      "name": "eberron-skills",
+      "label": "Eberron Skills",
+      "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
+      "path": "packs/eberron-skills",
       "type": "Item",
-      "system": "swade",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "swade"
     },
     {
       "name": "eberron-edges",
       "label": "Eberron Edges",
+      "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
       "path": "packs/eberron-edges",
       "type": "Item",
       "system": "swade",
@@ -73,6 +89,7 @@
     {
       "name": "eberron-gear",
       "label": "Eberron Gear",
+      "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
       "path": "packs/eberron-gear",
       "type": "Item",
       "system": "swade",
@@ -84,8 +101,45 @@
     {
       "name": "eberron-powers",
       "label": "Eberron Powers",
+      "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
       "path": "packs/eberron-powers",
       "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eberron-organizations",
+      "label": "Eberron Organizations",
+      "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
+      "path": "packs/eberron-organizations",
+      "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eberron-abilities",
+      "label": "Eberron Abilities",
+      "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
+      "path": "packs/eberron-abilities",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eberron-bestiary",
+      "label": "Eberron Bestiary",
+      "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
+      "path": "packs/eberron-bestiary",
+      "type": "Actor",
       "system": "swade",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -99,13 +153,26 @@
       "sorting": "m",
       "color": "#653729",
       "packs": [
+        "eberron-book",
         "eberron-ancestries",
+        "eberron-skills",
         "eberron-edges",
         "eberron-gear",
         "eberron-powers",
-        "eberron-abilities"
+        "eberron-organizations",
+        "eberron-abilities",
+        "eberron-bestiary"
       ],
       "folders": []
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/savage-eberron/assets/logos/savage-eberron-logo.webp",
+      "thumbnail": "modules/savage-eberron/assets/logos/savage-eberron-logo.webp",
+      "loop": false,
+      "flags": {}
     }
   ]
 }
