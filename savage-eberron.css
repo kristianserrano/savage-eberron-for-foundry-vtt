@@ -1,9 +1,268 @@
+@font-face {
+    font-family: "Masoch-Dirach";
+    font-style: normal;
+    font-weight: 400;
+    src: url(assets/fonts/md.otf) format("opentype");
+}
+
+.app:has(.savage-eberron--article) {
+    background: none;
+    background-color: #222;
+}
+
+.journal-sheet:has(.savage-eberron--article) .journal-header .title {
+    font-family: "Masoch-Dirach";
+    font-weight: normal;
+    font-size: 3em;
+    paint-order: stroke fill;
+    -webkit-text-stroke: 1px #000000;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000, 0 0 4px #000;
+    border: none;
+    background: #22222299;
+}
+
+.sheet.journal-entry .journal-entry-content:has(.savage-eberron--article) {
+    background: none;
+    background-image: url(assets/layout/AdobeStock_341143_v3.webp), url(assets/layout/AdobeStock_211027748_BW.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat, repeat;
+    padding-bottom: 4cqmin;
+}
+
+.sheet.journal-entry .journal-entry-content:has(.savage-eberron--article) .journal-page-header h1 {
+    all: revert;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em;
+    padding: 1em;
+    font-family: "Masoch-Dirach";
+    font-size: 5em;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sheet.journal-entry .journal-entry-content:has(.savage-eberron--article) .journal-page-header h1:before {
+    content: '';
+    height: 1em;
+    margin-top: -4em;
+    width: 80%;
+    position: absolute;
+    background-image: url(assets/layout/AdobeStock_341143_v3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.sheet.journal-entry .journal-entry-content:has(.savage-eberron--article) .journal-page-header h1:after {
+    content: '';
+    height: 1em;
+    margin-bottom: -4em;
+    width: 80%;
+    position: absolute;
+    background-image: url(assets/layout/AdobeStock_341143_v3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.savage-eberron--article * {
+    all: revert;
+}
+
+.savage-eberron--article {
+    position: relative;
+    font-family: "Palatino Linotype", "EB Garamond", serif;
+    font-size: 16px;
+    padding: 2em;
+}
+
+.savage-eberron--article .credits p {
+    margin-bottom: 0.5em;
+    text-indent: 0;
+}
+
+.savage-eberron--article p {
+    margin: 0;
+}
+
+.savage-eberron--article > h1 {
+    display: none;
+}
+
+.savage-eberron--article h1, .savage-eberron--article h2, .savage-eberron--article h3, .savage-eberron--article h4, .savage-eberron--article h5, .savage-eberron--article h6 {
+    margin-bottom: 0.5em;
+    font-family: "Masoch-Dirach";
+    font-weight: normal;
+    text-wrap: balance;
+    text-transform: uppercase;
+}
+
+.savage-eberron--article p {
+    text-indent: 1em;
+    margin-bottom: 0;
+}
+
+.savage-eberron--article p:first-of-type {
+    text-indent: 0;
+}
+
+.savage-eberron--article p:has(> .inline-heading) {
+    text-indent: 0;
+}
+
+.savage-eberron--article .inline-heading.---minor {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.savage-eberron--article :is(p:has(> .inline-subheading) + p:has(> .inline-heading),p:has(> .inline-heading.---minor)) {
+    margin-top: .5em;
+}
+
+.savage-eberron--article :is(.inline-heading, .inline-subheading) {
+    font-weight: 600;
+}
+
+.savage-eberron--article section > p:first-of-type:has(strong):not(:has(+ p:has(strong))) {
+    margin-bottom: .5em;
+}
+
+.savage-eberron--article h2 {
+    margin-bottom: 0.25em;
+    font-size: 2.125em;
+    border-bottom: 4px solid #000;
+}
+
+.savage-eberron--article h3 {
+    margin: 0.5em 0;
+    font-size: 1.8em;
+}
+
+.savage-eberron--article h4 {
+    margin: 0.5em 0 0 0;
+    font-size: 1.5em;
+}
+
+.savage-eberron--article h5 {
+    font-size: 1.25em;
+    margin-top: 1em;
+}
+
+.savage-eberron--article section:has(> .improved-edge) {
+    margin-left: 2em;
+}
+
+.savage-eberron--article .improved-edge {
+    font-style: italic;
+}
+
+.savage-eberron--article ul {
+    margin-top: 0;
+    list-style-type: square;
+}
+
+.savage-eberron--article table {
+    margin: 0 auto;
+    min-width: 100%;
+    border: 1px solid #222;
+    border-collapse: collapse;
+}
+
+.savage-eberron--article tbody tr:nth-of-type(even) {
+    background-color: #ccc;
+}
+
+.savage-eberron--article thead {
+    color: #fff;
+    background-color: #222;
+    text-transform: uppercase;
+}
+
+.savage-eberron--article :is(th,td) {
+    padding: 0.5em;
+}
+
+.savage-eberron--article th {
+    vertical-align: bottom;
+}
+
+
+.savage-eberron--article td {
+    vertical-align: top;
+}
+
+.savage-eberron--article td:first-of-type {
+    padding-left: .5em;
+}
+
+.savage-eberron--article th:first-of-type:not([scope='colgroup']) {
+    text-align: left;
+}
+
+.savage-eberron--article td:not(:first-of-type) {
+    text-align: left;
+}
+
+.savage-eberron--logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.savage-eberron--article .savage-eberron--subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+}
+
+.savage-eberron--article .wild-card:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.125em;
+    background: url(assets/layout/wyrm_swirl.svg) no-repeat;
+    background-position: bottom;
+}
+
 .savage-eberron--epic-modifier {
-    list-style-type: '★';
+    list-style-type: "★";
     padding-left: 1ch;
     margin-left: -1ch;
 }
 
 .savage-eberron--epic-modifier::marker {
     font-size: 0.9em;
+}
+
+:is(.savage-eberron--article, .swadefc-wrapper) :is(a, a.content-link) {
+    all: revert;
+    color: #30445a;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+:is(.savage-eberron--article, .swadefc-wrapper) :is(a, a.content-link):hover {
+    text-shadow: 0 0 0.2em #30445a;
+}
+
+:is(.savage-eberron--article, .swadefc-wrapper) a.content-link .fas {
+    display: none;
+}
+
+:is(.savage-eberron--article, .swadefc-wrapper) aside {
+    float: right;
+    width: 33%;
+    margin: 1em;
+    padding: 1em;
+    background-color: #c7bc9550;
+    border: 2px solid #c7bc95;
+    border-radius: 8px;
+}
+
+:is(.savage-eberron--article, .swadefc-wrapper) .swadefc-wrapper aside h2 {
+    margin: 0;
 }
