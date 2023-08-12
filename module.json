@@ -68,11 +68,11 @@
       "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
       "path": "packs/eberron-skills",
       "type": "Item",
+      "system": "swade",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "swade"
+      }
     },
     {
       "name": "eberron-edges",
