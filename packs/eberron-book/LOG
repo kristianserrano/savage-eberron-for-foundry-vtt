@@ -1,8 +1,15 @@
-2023/08/11-21:25:24.917184 70000d40c000 Recovering log #152
-2023/08/11-21:25:24.918786 70000d40c000 Delete type=3 #150
-2023/08/11-21:25:24.918944 70000d40c000 Delete type=0 #152
-2023/08/11-21:25:28.995718 70000e495000 Level-0 table #157: started
-2023/08/11-21:25:28.995736 70000e495000 Level-0 table #157: 0 bytes OK
-2023/08/11-21:25:28.995947 70000e495000 Delete type=0 #155
-2023/08/11-21:25:28.996702 70000e495000 Manual compaction at level-0 from '!journal!UJKi3vHyLEnrGlkx' @ 72057594037927935 : 1 .. '!journal.pages!UJKi3vHyLEnrGlkx.yxi608tE4wzR0pjy' @ 0 : 0; will stop at (end)
-2023/08/11-21:25:28.996743 70000e495000 Manual compaction at level-1 from '!journal!UJKi3vHyLEnrGlkx' @ 72057594037927935 : 1 .. '!journal.pages!UJKi3vHyLEnrGlkx.yxi608tE4wzR0pjy' @ 0 : 0; will stop at (end)
+2023/08/13-14:26:14.690189 700012350000 Recovering log #169
+2023/08/13-14:26:14.691669 700012350000 Delete type=3 #167
+2023/08/13-14:26:14.691865 700012350000 Delete type=0 #169
+2023/08/13-16:14:05.511101 7000133d9000 Level-0 table #175: started
+2023/08/13-16:14:05.524962 7000133d9000 Level-0 table #175: 982268 bytes OK
+2023/08/13-16:14:05.525443 7000133d9000 Delete type=0 #173
+2023/08/13-16:14:05.528420 7000133d9000 Manual compaction at level-0 from '!journal!UJKi3vHyLEnrGlkx' @ 72057594037927935 : 1 .. '!journal.pages!UJKi3vHyLEnrGlkx.yxi608tE4wzR0pjy' @ 0 : 0; will stop at (end)
+2023/08/13-16:14:05.528782 7000133d9000 Manual compaction at level-1 from '!journal!UJKi3vHyLEnrGlkx' @ 72057594037927935 : 1 .. '!journal.pages!UJKi3vHyLEnrGlkx.yxi608tE4wzR0pjy' @ 0 : 0; will stop at '!journal.pages!UJKi3vHyLEnrGlkx.yxi608tE4wzR0pjy' @ 640 : 1
+2023/08/13-16:14:05.528797 7000133d9000 Compacting 1@1 + 1@2 files
+2023/08/13-16:14:05.532909 7000133d9000 Generated table #176@1: 11 keys, 136893 bytes
+2023/08/13-16:14:05.532930 7000133d9000 Compacted 1@1 + 1@2 files => 136893 bytes
+2023/08/13-16:14:05.533095 7000133d9000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/13-16:14:05.533207 7000133d9000 Delete type=2 #175
+2023/08/13-16:14:05.533350 7000133d9000 Delete type=2 #171
+2023/08/13-16:14:05.533838 7000133d9000 Manual compaction at level-1 from '!journal.pages!UJKi3vHyLEnrGlkx.yxi608tE4wzR0pjy' @ 640 : 1 .. '!journal.pages!UJKi3vHyLEnrGlkx.yxi608tE4wzR0pjy' @ 0 : 0; will stop at (end)
