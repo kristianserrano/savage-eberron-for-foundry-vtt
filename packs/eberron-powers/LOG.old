@@ -1,8 +1,15 @@
-2023/08/13-12:25:41.761985 7000106ce000 Recovering log #445
-2023/08/13-12:25:41.763187 7000106ce000 Delete type=3 #443
-2023/08/13-12:25:41.763388 7000106ce000 Delete type=0 #445
-2023/08/13-13:31:04.681340 700011757000 Level-0 table #450: started
-2023/08/13-13:31:04.681374 700011757000 Level-0 table #450: 0 bytes OK
-2023/08/13-13:31:04.681604 700011757000 Delete type=0 #448
-2023/08/13-13:31:04.682106 700011757000 Manual compaction at level-0 from '!items!CfscQ3htdj1OA6Zh' @ 72057594037927935 : 1 .. '!items!vs86j4NjMF0tbTFr' @ 0 : 0; will stop at (end)
-2023/08/13-13:31:04.682199 700011757000 Manual compaction at level-1 from '!items!CfscQ3htdj1OA6Zh' @ 72057594037927935 : 1 .. '!items!vs86j4NjMF0tbTFr' @ 0 : 0; will stop at (end)
+2023/08/16-13:34:47.008659 70000d2b8000 Recovering log #478
+2023/08/16-13:34:47.009869 70000d2b8000 Delete type=3 #476
+2023/08/16-13:34:47.010058 70000d2b8000 Delete type=0 #478
+2023/08/16-19:31:07.871497 70000db3e000 Level-0 table #484: started
+2023/08/16-19:31:07.872156 70000db3e000 Level-0 table #484: 16284 bytes OK
+2023/08/16-19:31:07.872429 70000db3e000 Delete type=0 #482
+2023/08/16-19:31:07.873723 70000db3e000 Manual compaction at level-0 from '!items!CfscQ3htdj1OA6Zh' @ 72057594037927935 : 1 .. '!items!vs86j4NjMF0tbTFr' @ 0 : 0; will stop at (end)
+2023/08/16-19:31:07.875432 70000db3e000 Manual compaction at level-1 from '!items!CfscQ3htdj1OA6Zh' @ 72057594037927935 : 1 .. '!items!vs86j4NjMF0tbTFr' @ 0 : 0; will stop at '!items!vs86j4NjMF0tbTFr' @ 145 : 1
+2023/08/16-19:31:07.875447 70000db3e000 Compacting 1@1 + 1@2 files
+2023/08/16-19:31:07.876759 70000db3e000 Generated table #485@1: 12 keys, 16860 bytes
+2023/08/16-19:31:07.876785 70000db3e000 Compacted 1@1 + 1@2 files => 16860 bytes
+2023/08/16-19:31:07.876963 70000db3e000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/16-19:31:07.877054 70000db3e000 Delete type=2 #484
+2023/08/16-19:31:07.877210 70000db3e000 Delete type=2 #480
+2023/08/16-19:31:07.879018 70000db3e000 Manual compaction at level-1 from '!items!vs86j4NjMF0tbTFr' @ 145 : 1 .. '!items!vs86j4NjMF0tbTFr' @ 0 : 0; will stop at (end)
