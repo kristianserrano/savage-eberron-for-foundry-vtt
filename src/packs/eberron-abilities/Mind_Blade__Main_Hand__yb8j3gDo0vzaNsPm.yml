@@ -1,0 +1,91 @@
+name: Mind Blade (Main Hand)
+type: weapon
+img: icons/skills/melee/blade-tip-smoke-green.webp
+system:
+  description: >-
+    <p>As a limited free action, a soulknife can manifest a blade made of pure
+    semisolid, psychic energy. The
+    @UUID[Compendium.savage-eberron.eberron-abilities.Item.yb8j3gDo0vzaNsPm]{mind
+    blade} is about the size of a short sword and does Str+d6 damage and is
+    considered a magic weapon for purposes of exploiting weaknesses. The nature
+    of the mind blade reduces the minimum Strength requirement of the weapon by
+    one die type. It has Hardness 10 and can be sundered. If destroyed, the mind
+    blade dissipates, and the soulknife may form a new mind blade on their next
+    turn.</p><p>Mind blades are susceptible to
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel}</em>
+    or other sources that might nullify psionic effects.</p>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 0
+  price: 0
+  equippable: false
+  equipStatus: 0
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: Fighting
+    skillMod: ''
+    dmgMod: ''
+    additional:
+      sgHN9yNE:
+        name: Athletics (throwing)
+        type: skill
+        skillOverride: Athletics
+        skillMod: ''
+        rof: null
+        shotsUsed: null
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  category: Special Weapons
+  grants: []
+  grantOn: 1
+  damage: '@str+d6'
+  range: 3/6/12
+  rof: '1'
+  ap: null
+  parry: 0
+  minStr: d4
+  shots: 0
+  currentShots: 0
+  ammo: ''
+  reloadType: none
+  ppReloadCost: 2
+  trademark: 0
+  isHeavyWeapon: false
+  source: Eberron for Savage Worlds
+effects:
+  - a8Aww25NEhcTiilj
+folder: bJK8hgKcEoR91feK
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1668906766458
+  modifiedTime: 1692210978944
+  lastModifiedBy: Xbne19Xghka479we
+_id: yb8j3gDo0vzaNsPm
+sort: 0
+_key: '!items!yb8j3gDo0vzaNsPm'

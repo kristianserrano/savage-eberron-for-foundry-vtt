@@ -1,0 +1,43 @@
+name: Charismatic
+type: ability
+img: icons/skills/social/diplomacy-peace-alliance.webp
+system:
+  description: >-
+    <p><span style="font-family: "Roboto Slab", Signika, serif">Kalashtar have
+    the @Compendium[swade-core-rules.swade-edges.3jFwJEuUKJJ7YLgz]{Charismatic}
+    Edge. Through their strong presence and psychic subtleties, they are adept
+    at influencing others.</span></p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Kalashtar
+  subtype: special
+  grantsPowers: false
+  grants:
+    - name: Charismatic
+      img: systems/swade/assets/icons/edge.svg
+      uuid: Compendium.swade-core-rules.swade-edges.Item.3jFwJEuUKJJ7YLgz
+  source: Eberron for Savage Worlds
+effects: []
+folder: oldWVWKsIM3coKB9
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+  core:
+    sheetClass: swade.SWADEFCItem
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.306'
+  createdTime: 1668135723997
+  modifiedTime: 1690927136447
+  lastModifiedBy: Xbne19Xghka479we
+_id: 74AfFMKmvu3TvlRz
+sort: 300000
+_key: '!items!74AfFMKmvu3TvlRz'

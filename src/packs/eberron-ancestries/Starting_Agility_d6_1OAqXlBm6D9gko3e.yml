@@ -1,0 +1,29 @@
+icon: icons/skills/movement/feet-winged-sandals-tan.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+changes:
+  - key: system.attributes.agility.die.sides
+    mode: 2
+    value: '2'
+    priority: null
+transfer: true
+name: Starting Agility d6
+_id: 1OAqXlBm6D9gko3e
+disabled: false
+description: >-
+  <p>A half-elf may start with a d6 in Agility instead of a d4 (which also
+  increases his Agility maximum to d12+1).</p>
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!DWmQMb6hQ4hboFBY.1OAqXlBm6D9gko3e'

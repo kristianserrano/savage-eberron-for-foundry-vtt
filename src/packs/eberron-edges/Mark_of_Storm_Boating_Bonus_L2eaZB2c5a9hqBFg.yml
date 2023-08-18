@@ -1,0 +1,28 @@
+icon: icons/environment/people/charge.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+    favorite: true
+changes:
+  - key: '@Skill{Boating}[system.die.modifier]'
+    mode: 2
+    value: '1'
+    priority: null
+transfer: true
+name: Mark of Storm Boating Bonus
+_id: L2eaZB2c5a9hqBFg
+disabled: false
+description: <p>+1 to Boating rolls</p>
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!IWSJ4jLrqfmWFEJV.L2eaZB2c5a9hqBFg'

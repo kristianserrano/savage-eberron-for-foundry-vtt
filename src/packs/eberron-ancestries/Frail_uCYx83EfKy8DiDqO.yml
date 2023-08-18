@@ -1,0 +1,25 @@
+icon: icons/skills/wounds/bone-broken-knee-beam.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+changes:
+  - key: system.stats.toughness.value
+    mode: 2
+    value: '-1'
+    priority: null
+transfer: true
+name: Frail
+_id: uCYx83EfKy8DiDqO
+disabled: false
+description: ''
+origin: null
+statuses: []
+_key: '!items.effects!u0wuyyPEcuxsIZml.uCYx83EfKy8DiDqO'

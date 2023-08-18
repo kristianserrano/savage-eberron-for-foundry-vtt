@@ -1,0 +1,16 @@
+name: Soulknife Edges
+sorting: a
+folder: yhaG3t6RuulkN2AF
+type: Item
+_id: zgVZxCBwB6RSXpkz
+sort: 100000
+color: null
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690392976881
+  modifiedTime: 1692321428839
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!folders!zgVZxCBwB6RSXpkz'

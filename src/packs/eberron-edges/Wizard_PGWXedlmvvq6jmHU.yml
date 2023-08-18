@@ -1,0 +1,113 @@
+folder: yhaG3t6RuulkN2AF
+name: Wizard
+type: edge
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>As presented in the
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.oGSyPBu3dsepNotm]{Fantasy
+    Companion}</em> but with the following
+    changes.</p><ul><li><p><strong>Available Powers:</strong>
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.qjflUvZxnhUF91dS]{Arcane
+    protection},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.YRQtMHpu0GyC5iFY]{banish},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.0TRRYoKZecpUZMBv]{barrier},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.O6mvldoWWXTYSY2F]{beast
+    friend},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.FxOCy159uyCtmvST]{blast},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.gFuuLSXl02lUajWK]{blind},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.Jgm2DqNWxAxi62Ur]{bolt},
+    @UUID[Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh]{boost/lower
+    Trait},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.BXORrKNOSAwAXW3m]{burrow},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.ypEHp2qylYsib3Td]{burst},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.FxiWV5YVRzqxioo7]{confusion},
+    @UUID[Compendium.savage-eberron.eberron-powers.Item.gLvcL3EA1Zu0dtRO]{conjure
+    item},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.N3wnx79MsEhUDhc1]{curse},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.AlM4OxVDzViyoFiE]{darksight},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.pnhihi2oBjsjsh4N]{deflection},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{detect/conceal
+    arcana},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nz69DP0tjQGxYtcI]{disguise},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.bJZE6nFC5rDZL39D]{divination},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.HgP5zrN7Hv6swMEr]{drain
+    Power Points},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.MEjY7RhNahJGbfRC]{elemental
+    manipulation},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.TVoDtWckWRZ0AnxZ]{empathy},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.QWIWVdAJ2wvLP7Zz]{entangle},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.N7AS7Joyq6QbLf25]{environmental
+    protection},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.WZqqKZ1mnquK2fdo]{farsight},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.FKawDwaCdCRij7eO]{fear},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.lPSFNaeFMJlbZXYM]{fly},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.4naHN0itZM4uEdYg]{growth/shrink},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.Y74fi2WLf0Mr8d9W]{havoc},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.RzVIX959WTYhdwwh]{illusion},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.6pIk2UHMWPBiAmCk]{invisibility},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.bTcP0C22uRVijOeU]{light/darkness},
+    @UUID[Compendium.savage-eberron.eberron-powers.Item.rFmzKP8HDWYHdsP9]{locate},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.WhkZOWfcSvplAtjf]{lock/unlock},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.9Lr4apB7k81zuTPo]{mystic
+    intervention},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.7cDWA5azwTrmZaiq]{object
+    reading},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.IKNDFzBAzkz7Nc9l]{planar
+    binding},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.mVT0AsyhtjeltTHF]{puppet},
+    @UUID[Compendium.savage-eberron.eberron-powers.Item.nEeEtrIevelGu2kZ]{scrying},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.fK9adaURLKcCGv99]{shape
+    change},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.H5H71b5WDDMJ7nCL]{sloth/speed},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.UFQy5B0Egwhm96uM]{slumber},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.8r70sKYB6GfzzapQ]{smite},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.6bHl26mVNSdtQ0Tl]{sound/silence},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.MCXIMSN4YAWaM5Ei]{speak
+    language},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.xz2NXG2RXvT8wo22]{stun},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cq3fgyvvCp1oCIv7]{summon
+    ally},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.GLIypDUlcU2UCCje]{summon
+    animal},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.XBDtTsq9FjhUPE5S]{summon
+    monster},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nE0AIeWGCGWjxxi6]{telekinesis},
+    @UUID[Compendium.savage-eberron.eberron-powers.Item.HI4K2kkaTq91VlfG]{teleport},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.78W6gGRMe6CcsgGh]{time
+    stop},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.7UEQMywtDyAR1zSf]{wall
+    walker},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.ZvYOVQ9Rn5PbQswT]{warrior’s
+    gift},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.71XmuBH9MopmRZPL]{wish}</em>.</p></li></ul>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Arcane Backgrounds
+  isArcaneBackground: false
+  requirements:
+    value: Smarts d6+
+  grants:
+    - name: Wizard
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+      uuid: Compendium.swade-fantasy-companion.swade-fc-edges.Item.oGSyPBu3dsepNotm
+  source: Eberron for Savage Worlds
+effects: []
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691452743285
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_id: PGWXedlmvvq6jmHU
+sort: 0
+_key: '!items!PGWXedlmvvq6jmHU'

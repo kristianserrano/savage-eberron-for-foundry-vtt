@@ -1,0 +1,16 @@
+name: Halfling Abilities
+sorting: a
+folder: null
+type: Item
+_id: 8duy0r5LaiffI3GL
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.306'
+  createdTime: 1690318649526
+  modifiedTime: 1690512518175
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!folders!8duy0r5LaiffI3GL'

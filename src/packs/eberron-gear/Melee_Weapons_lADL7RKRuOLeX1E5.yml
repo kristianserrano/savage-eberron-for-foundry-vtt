@@ -1,0 +1,16 @@
+name: Melee Weapons
+sorting: a
+folder: nUJ2YgGzDrhooBf1
+type: Item
+_id: lADL7RKRuOLeX1E5
+sort: 100000
+color: null
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: null
+  modifiedTime: 1691352650747
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!folders!lADL7RKRuOLeX1E5'

@@ -1,0 +1,35 @@
+name: Keen Vision
+type: ability
+img: icons/creatures/eyes/human-single-blue.webp
+system:
+  description: <p>Elves have +2 to Notice rolls to detect obscured or hidden features.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Elf
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+effects: []
+folder: RSLTAQckZnWQhzEX
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.305'
+    systemVersion: 3.0.5
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.306'
+  createdTime: 1671077996257
+  modifiedTime: 1690927136663
+  lastModifiedBy: Xbne19Xghka479we
+_id: rAsWCVdFOiO76xgI
+sort: 0
+_key: '!items!rAsWCVdFOiO76xgI'

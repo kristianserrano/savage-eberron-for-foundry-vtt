@@ -1,0 +1,34 @@
+icon: icons/skills/movement/figure-running-gray.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+    favorite: true
+changes:
+  - key: system.stats.speed.value
+    mode: 2
+    value: '2'
+    priority: null
+  - key: system.stats.speed.runningDie
+    mode: 2
+    value: '2'
+    priority: null
+transfer: true
+name: Elite Longstride Shifting
+_id: rJeFkeehCJiXzAjt
+disabled: true
+description: >-
+  <p>The shifter’s Pace increases by an additional +2, and her running die
+  increases by another die type.</p>
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!9MDKnD2hdpvmqMS6.rJeFkeehCJiXzAjt'

@@ -1,0 +1,38 @@
+name: Frail
+type: ability
+img: icons/skills/wounds/bone-broken-knee-beam.webp
+system:
+  description: >-
+    <p>Elves aren’t as sturdy as most other ancestries. Their Toughness is
+    reduced by 1.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Elf
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+effects:
+  - uCYx83EfKy8DiDqO
+folder: RSLTAQckZnWQhzEX
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.305'
+    systemVersion: 3.0.5
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.306'
+  createdTime: 1671077539663
+  modifiedTime: 1690927136676
+  lastModifiedBy: Xbne19Xghka479we
+_id: u0wuyyPEcuxsIZml
+sort: 300000
+_key: '!items!u0wuyyPEcuxsIZml'

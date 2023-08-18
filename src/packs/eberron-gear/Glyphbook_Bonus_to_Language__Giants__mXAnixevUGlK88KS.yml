@@ -1,0 +1,28 @@
+icon: icons/sundries/books/book-embossed-bound-brown.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+    favorite: true
+changes:
+  - key: '@Skill{Language (Giant)}[system.die.modifier]'
+    mode: 2
+    value: '2'
+    priority: null
+transfer: true
+name: Glyphbook Bonus to Language (Giants)
+_id: mXAnixevUGlK88KS
+disabled: false
+description: ''
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!cNTrf2OQ1DC6STtV.mXAnixevUGlK88KS'

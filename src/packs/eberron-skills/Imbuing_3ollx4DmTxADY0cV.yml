@@ -1,0 +1,34 @@
+name: Imbuing
+type: skill
+_id: 3ollx4DmTxADY0cV
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp
+system:
+  description: >-
+    <p>This is the skill artificers use to embed magical infusions into an
+    object or construct (see Artificer in Arcana).</p>
+  notes: ''
+  additionalStats: {}
+  attribute: smarts
+  isCoreSkill: false
+  die:
+    sides: 4
+    modifier: 0
+  wild-die:
+    sides: 6
+  effects: []
+  source: Eberron for Savage Worlds
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.306'
+  createdTime: 1690860517502
+  modifiedTime: 1690860716944
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!3ollx4DmTxADY0cV'

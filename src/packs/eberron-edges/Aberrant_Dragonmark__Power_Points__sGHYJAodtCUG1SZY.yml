@@ -1,0 +1,27 @@
+_id: sGHYJAodtCUG1SZY
+name: Aberrant Dragonmark (Power Points)
+icon: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp
+changes:
+  - key: system.powerPoints[Aberrant Dragonmark].max
+    mode: 2
+    value: '15'
+    priority: null
+disabled: false
+duration:
+  startTime: 0
+  seconds: null
+  combat: null
+  rounds: null
+  turns: null
+  startRound: null
+  startTurn: null
+description: ''
+origin: null
+transfer: true
+statuses: []
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+tint: null
+_key: '!items.effects!RVTvWKJxEtdJPCJz.sGHYJAodtCUG1SZY'

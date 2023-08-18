@@ -1,0 +1,16 @@
+name: Dragonshards
+sorting: m
+folder: gMuDgwFXTBOSz8ID
+type: Item
+_id: 3YYAHzepUzTTBf7c
+sort: 100000
+color: null
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691341962254
+  modifiedTime: 1691351983076
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!folders!3YYAHzepUzTTBf7c'

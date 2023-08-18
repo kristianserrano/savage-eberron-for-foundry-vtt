@@ -1,0 +1,65 @@
+name: Locate
+type: power
+_id: rFmzKP8HDWYHdsP9
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp
+system:
+  description: >-
+    <article><p>Sometimes it's literally impossible to find something via
+    mundane means. <em>Locate</em> allows the caster to find these hidden
+    things.</p><p>When casters use this power, they choose an object, creature,
+    or location. If the caster has never seen the target, the roll is at -2. A
+    success gives a sense of the general direction and distance of the target. A
+    raise also gives an impression of the target (e.g., the creature is asleep,
+    the object is in a strongbox, the secret door is behind a
+    bookshelf).</p><p><strong>Running Water:</strong> Running water blocks
+    <em>locate</em> if it's in the path between the caster and the
+    target.</p><div><p><strong>Modifiers</strong></p></div><ul><li
+    class="savage-eberron--epic-modifier"><strong>Discern Location
+    (+2):</strong> The caster can learn the exact location of the creature or
+    object, and running water does not block the power.</li><li><strong>Find the
+    Path (+1):</strong> In addition to the direction and distance to a target,
+    the caster also has a supernatural sense of the best or fastest way to
+    navigate to its general area.</li></ul></article>
+  notes: ''
+  additionalStats: {}
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  rank: Novice
+  pp: '3'
+  damage: ''
+  range: Self
+  duration: 10 minutes
+  trapping: A floating crystal over a map, message in the clouds, a ray of light.
+  arcane: ''
+  ap: 0
+  innate: false
+  modifiers: []
+  source: Eberron for Savage Worlds
+effects: []
+folder: null
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690212243598
+  modifiedTime: 1692290508224
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!items!rFmzKP8HDWYHdsP9'

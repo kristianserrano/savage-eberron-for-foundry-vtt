@@ -1,0 +1,28 @@
+icon: icons/environment/people/charge.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+    favorite: true
+changes:
+  - key: '@Skill{Thievery}[system.die.modifier]'
+    mode: 2
+    value: '1'
+    priority: null
+transfer: true
+name: Mark of Warding Thievery Bonus
+_id: L2eaZB2c5a9hqBFg
+disabled: true
+description: <p>+1 to Thievery rolls related to locks or traps</p>
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!Hj02hRlHCtztp4Gg.L2eaZB2c5a9hqBFg'

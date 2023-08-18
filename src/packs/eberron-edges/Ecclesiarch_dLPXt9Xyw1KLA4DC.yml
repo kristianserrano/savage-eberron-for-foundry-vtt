@@ -1,0 +1,38 @@
+folder: SHGqlJRi0fgFO00o
+name: Ecclesiarch
+type: edge
+_id: dLPXt9Xyw1KLA4DC
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The adventurer is more easily able to gather information about a given
+    community from the clergy of the local churches. He gains +2 to Persuasion
+    rolls when Networking among the clergy of that community. Additionally,
+    after successfully gathering information from the local clergy, they may
+    then add +2 to Common Knowledge rolls pertaining to leadership and notable
+    figures of that community.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Professional Edges
+  isArcaneBackground: false
+  requirements:
+    value: Novice, Faith d6+
+  grants: []
+  source: Eberron for Savage Worlds
+effects:
+  - bXi3hiRghUh8au6w
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690693087185
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!dLPXt9Xyw1KLA4DC'

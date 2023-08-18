@@ -1,0 +1,57 @@
+folder: rmMZ8nKTRru5pDGY
+name: Letter of Marque
+type: gear
+_id: 8Hr4GGWgop2ZyStC
+img: icons/sundries/documents/document-sealed-beige-red.webp
+system:
+  description: >-
+    <p>The concept of letters of marque originated during the Last War, when the
+    rulers of the warring nations granted adventurers permission to attack ships
+    and assets belonging to other nations. The Treaty of Thronehold declared
+    void all letters of marque that existed at the time, but the idea survives
+    in Breland, though in a rather altered form. The king of Breland now issues
+    papers granting adventurers permission to explore and plunder the ruins of
+    Xen’drik. Though such permission is not technically necessary, wise
+    adventurers are sure to secure it before using Sharn as a launching point
+    for expeditions to Xen’drik. Those who try to sell treasures from Xen’drik
+    on the open market in Breland must produce a letter of marque or face stiff
+    fines—on top of forfeiting the treasure they won on their adventures.</p>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 0
+  price: 500
+  equippable: false
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  favorite: false
+  category: Documents
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  source: Eberron for Savage Worlds
+effects: []
+sort: 500000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691347449023
+  modifiedTime: 1691347552003
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!8Hr4GGWgop2ZyStC'

@@ -1,0 +1,26 @@
+icon: icons/tools/smithing/plate-steel-grey.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    favorite: true
+changes:
+  - key: '@Skill{Repair}[system.die.modifier]'
+    mode: 2
+    value: '1'
+    priority: null
+transfer: true
+name: Warforged Repair Kits Bonus to Repair
+_id: bDdaG6N5PJAuCOnT
+disabled: true
+description: ''
+origin: null
+statuses: []
+_key: '!items.effects!V3BV2OcL80HWy9vO.bDdaG6N5PJAuCOnT'

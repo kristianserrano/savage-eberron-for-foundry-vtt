@@ -1,0 +1,36 @@
+folder: Iq2Miinm5I7HDEfG
+name: Vermin Shape
+type: edge
+_id: 9ptjXS7OXogcX9vv
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>When using
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.fK9adaURLKcCGv99]{shape
+    change} to turn into vermin such as rodents and insects—including giant
+    versions—the druid may access creatures as if their Rank is one higher. For
+    example, a Veteran druid can shape change into a giant scorpion.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Druid Edges
+  isArcaneBackground: false
+  requirements:
+    value: Seasoned, Child of Winter
+  grants: []
+  source: Eberron for Savage Worlds
+effects: []
+sort: 700000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691425779691
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!9ptjXS7OXogcX9vv'

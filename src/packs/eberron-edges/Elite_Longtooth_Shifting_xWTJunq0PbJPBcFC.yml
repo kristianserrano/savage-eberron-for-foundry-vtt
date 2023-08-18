@@ -1,0 +1,31 @@
+name: Elite Longtooth Shifting
+transfer: true
+_id: xWTJunq0PbJPBcFC
+changes:
+  - key: '@Weapon{Bite}[system.damage]'
+    mode: 2
+    value: '+4'
+    priority: null
+disabled: true
+duration:
+  startTime: 0
+  seconds: null
+  combat: null
+  rounds: null
+  turns: null
+  startRound: null
+  startTurn: null
+description: >-
+  <p>Wounds dealt by the shifter’s bite attacks bleed copiously. Whenever the
+  shifter makes a successful damage roll from a bite attack, she adds +4 to the
+  damage.</p>
+icon: icons/creatures/abilities/fangs-teeth-bite.webp
+origin: null
+statuses: []
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+    favorite: true
+tint: null
+_key: '!items.effects!6Dza6CWARVmBvXML.xWTJunq0PbJPBcFC'

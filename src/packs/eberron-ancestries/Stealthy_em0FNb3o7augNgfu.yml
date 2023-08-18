@@ -1,0 +1,39 @@
+name: Stealthy
+type: ability
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+system:
+  description: >-
+    <p>Halflings begin play with a d6 in
+    @Compendium[swade-core-rules.swade-skills.bFaYnzftXwQ9p4Si]{Stealth}. This
+    increases their maximum Stealth to d12+1.</p>
+  notes: Racial
+  additionalStats: {}
+  favorite: false
+  category: Halfling
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+effects:
+  - aEdOZ9gR6wd5p8ms
+folder: 8duy0r5LaiffI3GL
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.306'
+  createdTime: 1668046428244
+  modifiedTime: 1690927136597
+  lastModifiedBy: Xbne19Xghka479we
+_id: em0FNb3o7augNgfu
+sort: 0
+_key: '!items!em0FNb3o7augNgfu'

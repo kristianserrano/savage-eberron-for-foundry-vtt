@@ -1,0 +1,28 @@
+sort: 400000
+name: 'Chapter 1: Setting Rules'
+type: text
+_id: TiR58SCTyUsFxVZX
+title:
+  show: true
+  level: 1
+image: {}
+text:
+  format: 1
+  content: "<article class=\"savage-eberron --article\"><p>Employing these setting rules can further emphasize the themes and styles of play commonly expressed in an <cite>Eberron</cite>\_adventure. Not all of these Setting Rules are required, and the Prophesier should choose which to employ based on the themes and tone desired.</p><section><h2>Everyone Has a Past</h2><p>Whether as a means of survival or as a way of life, all adventurers have had some past before becoming an adventurer. During character creation, characters get one free Background or Professional Edge to reflect their previous lives. The character must still meet the Edge requirements.</p></section><section><h2>Additional Setting Rules</h2><p>Default Setting Rules are marked with an asterisk. The Prophesier should choose from among the others which to employ based on the themes and tone desired.</p><section><h3>Savage Worlds</h3><ul><li><p><span class=\"inline-heading\">Born a Hero*:</span>\_As in the <cite>Savage Worlds</cite>\_core rules but Edges can be no higher than Veteran rank.</p></li><li><span class=\"inline-heading\">Conviction*</span></li><li><span class=\"inline-heading\">Creative Combat</span></li><li><span class=\"inline-heading\">Fanatics</span></li><li><span class=\"inline-heading\">Fast Healing</span></li><li><span class=\"inline-heading\">Heroes Never Die</span></li><li><span class=\"inline-heading\">More Skill Points*</span></li><li><span class=\"inline-heading\">Multiple Languages*:</span>\_See <strong>Languages</strong>\_under <strong>New Skills</strong>\_for a complete list.</li><li><span class=\"inline-heading\">Unarmored Hero</span></li><li><span class=\"inline-heading\">Wound Cap</span></li></ul></section><section><h3>Savage Worlds Fantasy Companion</h3><ul><li><span class=\"inline-heading\">Limited Actions*</span></li><li><span class=\"inline-heading\">Desperate Attack</span></li><li><span class=\"inline-heading\">Stream Template*</span></li><li><span class=\"inline-heading\">Components</span></li><li><span class=\"inline-heading\">Betrayal</span></li><li><span class=\"inline-heading\">Downtime</span></li><li><span class=\"inline-heading\">Villainous Conviction*</span></li></ul></section><section><h3>Savage Worlds Horror Companion</h3><ul><li><span class=\"inline-heading\">Environmental Phenomena:</span>\_The rules for Graveyard, Profane Ground, and Sacred/Holy Ground are recommended. Clerics of good or evil faiths are treated as supernaturally good or evil for purposes of these effects.</li><li><span class=\"inline-heading\">Binds:</span>\_Binds can be used to constrain outsiders of any type or to perform exorcisms. Using a small Khyber shard with a binding circle adds +2 to the Occult roll for binding the outsider, and using a greater Khyber shard with a binding circle adds +4.</li></ul></section></section></article>"
+video:
+  controls: true
+  volume: 0.5
+src: null
+system: {}
+ownership:
+  default: -1
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691633238503
+  modifiedTime: 1691869496759
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!journal.pages!UJKi3vHyLEnrGlkx.TiR58SCTyUsFxVZX'

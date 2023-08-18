@@ -1,0 +1,80 @@
+name: Mind Blade (Offhand)
+type: weapon
+img: icons/skills/melee/blade-tip-smoke-green.webp
+system:
+  description: ''
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 0
+  price: 0
+  equippable: false
+  equipStatus: 0
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: Fighting
+    skillMod: ''
+    dmgMod: ''
+    additional:
+      sgHN9yNE:
+        name: Athletics (throwing)
+        type: skill
+        skillOverride: Athletics
+        skillMod: ''
+        rof: null
+        shotsUsed: null
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  category: Special Weapons
+  grants: []
+  grantOn: 1
+  damage: '@str+d6'
+  range: 3/6/12
+  rof: '1'
+  ap: null
+  parry: 0
+  minStr: d4
+  shots: 0
+  currentShots: 0
+  ammo: ''
+  reloadType: none
+  ppReloadCost: 2
+  trademark: 0
+  isHeavyWeapon: false
+  source: Eberron for Savage Worlds
+effects:
+  - NclC7yN9Y5luowfo
+folder: zgVZxCBwB6RSXpkz
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1668906766458
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_id: qCwIu33VcYihLb5I
+sort: 600000
+_key: '!items!qCwIu33VcYihLb5I'

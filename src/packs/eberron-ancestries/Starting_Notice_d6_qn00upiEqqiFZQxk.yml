@@ -1,0 +1,26 @@
+icon: icons/magic/perception/eye-slit-orange.webp
+duration:
+  rounds: null
+  startTime: 288
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+changes:
+  - key: '@Skill{Notice}[system.die.sides]'
+    mode: 2
+    value: '2'
+    priority: null
+transfer: true
+_id: qn00upiEqqiFZQxk
+disabled: false
+origin: null
+tint: null
+name: Starting Notice d6
+description: ''
+statuses: []
+_key: '!items.effects!78DV1QeFkjdgKphc.qn00upiEqqiFZQxk'

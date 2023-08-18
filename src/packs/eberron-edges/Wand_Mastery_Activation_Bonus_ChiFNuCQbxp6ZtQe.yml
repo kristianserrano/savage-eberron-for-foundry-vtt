@@ -1,0 +1,30 @@
+icon: icons/weapons/wands/wand-gem-red.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    favorite: true
+    loseTurnOnHold: false
+changes:
+  - key: system.stats.globalMods.trait
+    mode: 2
+    value: '2'
+    priority: null
+transfer: true
+name: Wand Mastery Activation Bonus
+_id: ChiFNuCQbxp6ZtQe
+disabled: true
+description: >-
+  <p>When wielding a wand, the crafter has a +2 bonus to skill rolls to activate
+  the power.</p>
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!EqxfHhfYN1M2JKiQ.ChiFNuCQbxp6ZtQe'

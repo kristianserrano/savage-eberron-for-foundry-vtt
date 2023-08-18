@@ -1,0 +1,34 @@
+folder: yw2Gg9xnt8dNDDh9
+name: Wand Mastery
+type: edge
+_id: EqxfHhfYN1M2JKiQ
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The crafter has become adept at eking out power from wands. When wielding
+    a wand, the crafter has a +2 bonus to skill rolls to activate the power.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Power Edges
+  isArcaneBackground: false
+  requirements:
+    value: Legendary, Craft Magic Items, Occult d10+
+  grants: []
+  source: Eberron for Savage Worlds
+effects:
+  - ChiFNuCQbxp6ZtQe
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690672190774
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!EqxfHhfYN1M2JKiQ'

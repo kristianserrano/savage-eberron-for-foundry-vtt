@@ -1,0 +1,46 @@
+folder: Iq2Miinm5I7HDEfG
+name: Greensinger Initiate
+type: edge
+_id: 1GlwqlyEHFSCai8z
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>A druid with this Edge has embraced the druidic traditions of the
+    Greensingers, a chaotic Eldeen Reaches sect with close ties to the fey.
+    Greensinger initiates gain a +1 bonus to
+    @UUID[Compendium.swade-core-rules.swade-skills.Item.UVdSzNvdAPmGk0iO]{Performance},
+    @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion},
+    and
+    @UUID[Compendium.swade-core-rules.swade-skills.Item.yFPvkPIm0IR6eqch]{Taunt}
+    rolls, and they add the following powers to their list of available powers:
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.TVoDtWckWRZ0AnxZ]{empathy}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.DRY74t2m98JCjUpo]{intangibility}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.urLA1HNU0GqTpP9g]{plane
+    shift}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.mVT0AsyhtjeltTHF]{puppet}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.xz2NXG2RXvT8wo22]{stun}</em>.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Druid Edges
+  isArcaneBackground: false
+  requirements:
+    value: Novice, Arcane Background (Druid)
+  grants: []
+  source: Eberron for Savage Worlds
+effects:
+  - cJCuRk0a6Np1hvjs
+sort: 1000000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690583278261
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!1GlwqlyEHFSCai8z'

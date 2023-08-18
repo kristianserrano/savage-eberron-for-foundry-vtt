@@ -1,0 +1,35 @@
+folder: FN4247Nt3Srx9EDb
+name: Heritage (Human)
+type: ability
+img: icons/commodities/treasure/medal-ribbon-striped-gold-red.webp
+system:
+  description: >-
+    <p>Half-elves may express the grace of elves or human adaptability and
+    ingenuity. A half-elf may either start with a free
+    @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000#edges]{Edge}
+    of his choice or a d6 in Agility instead of a d4 (which also increases his
+    Agility maximum to d12+1).</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Half-elf
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+effects: []
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.306'
+  createdTime: 1690321175145
+  modifiedTime: 1690927136602
+  lastModifiedBy: Xbne19Xghka479we
+_id: eq7dLOZfxRaO8SqU
+sort: 0
+_key: '!items!eq7dLOZfxRaO8SqU'

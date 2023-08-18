@@ -1,0 +1,28 @@
+icon: icons/environment/people/charge.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+    favorite: true
+changes:
+  - key: '@Skill{Crafting}[system.die.modifier]'
+    mode: 2
+    value: '1'
+    priority: null
+transfer: true
+name: Mark of Making Crafting Bonus
+_id: L2eaZB2c5a9hqBFg
+disabled: false
+description: <p>+1 to Crafting rolls</p>
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!K98y5ZmAzgBUPFUH.L2eaZB2c5a9hqBFg'

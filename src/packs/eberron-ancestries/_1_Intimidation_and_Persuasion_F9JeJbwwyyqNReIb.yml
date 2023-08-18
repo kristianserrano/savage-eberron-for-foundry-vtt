@@ -1,0 +1,30 @@
+icon: icons/skills/social/intimidation-impressing.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    favorite: false
+changes:
+  - key: '@Skill{Intimidation}[system.die.modifier]'
+    mode: 2
+    value: '1'
+    priority: null
+  - key: '@Skill{Persuasion}[system.die.modifier]'
+    mode: 2
+    value: '1'
+    priority: null
+transfer: true
+name: +1 Intimidation and Persuasion
+_id: F9JeJbwwyyqNReIb
+disabled: false
+description: ''
+origin: null
+statuses: []
+_key: '!items.effects!inlXaRhVkwZzzVN6.F9JeJbwwyyqNReIb'

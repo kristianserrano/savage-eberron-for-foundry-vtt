@@ -1,0 +1,40 @@
+folder: Iq2Miinm5I7HDEfG
+name: Ashbound
+type: edge
+_id: w4XgbcnASKJoVnxB
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>As nature’s avengers, Ashbound
+    @UUID[Compendium.savage-eberron.eberron-edges.Item.8ppOSrh2g3v2pYNa]{druids}
+    consider arcane magic to be unnatural and destructive. They use their divine
+    nature magic to call upon the very creatures they defend, empowering them to
+    fight alongside them.</p><p>When an Ashbound druid activates
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.GLIypDUlcU2UCCje]{summon
+    animal}</em>, the power is automatically extended once without having to pay
+    an additional Power Point at the end of its duration, and the creature gains
+    a +1 bonus to all Fighting rolls.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Druid Edges
+  isArcaneBackground: false
+  requirements:
+    value: Novice, Arcane Background (Druid), summon animal
+  grants: []
+  source: Eberron for Savage Worlds
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691418387354
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!w4XgbcnASKJoVnxB'

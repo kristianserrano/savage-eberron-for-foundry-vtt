@@ -1,0 +1,16 @@
+name: Artificer Abilities
+sorting: m
+folder: null
+type: Item
+_id: L5qO4cEl5MoMhAsT
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691429874560
+  modifiedTime: 1691429874560
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!folders!L5qO4cEl5MoMhAsT'

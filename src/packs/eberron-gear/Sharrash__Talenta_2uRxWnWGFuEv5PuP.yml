@@ -1,0 +1,79 @@
+folder: lADL7RKRuOLeX1E5
+name: Sharrash, Talenta
+type: weapon
+_id: 2uRxWnWGFuEv5PuP
+img: icons/weapons/sickles/scythe-wrapped-red.webp
+system:
+  description: >-
+    <p>Reach 1, Two Hands. Cannot use against adjacent foes. May use Fighting
+    instead of Strength or Athletics for a Push maneuver to knock the target
+    Prone.</p>
+  notes: >-
+    Reach 1, Two Hands. Cannot use against adjacent foes. May use Fighting
+    instead of Strength or Athletics for a Push maneuver to knock the target
+    Prone.
+  additionalStats: {}
+  quantity: 1
+  weight: 10
+  price: 18
+  equippable: false
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: Fighting
+    skillMod: ''
+    dmgMod: ''
+    additional:
+      QkYPLBls:
+        name: Push Prone (Fighting)
+        type: skill
+        skillOverride: Fighting
+        skillMod: ''
+        rof: null
+        shotsUsed: null
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  category: Melee Weapons
+  grants: []
+  grantOn: 1
+  damage: '@str+d10'
+  range: ''
+  rof: '1'
+  ap: 0
+  parry: 0
+  minStr: d10
+  shots: 0
+  currentShots: 0
+  ammo: ''
+  reloadType: none
+  ppReloadCost: 2
+  trademark: 0
+  isHeavyWeapon: false
+  source: Eberron for Savage Worlds
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691352970250
+  modifiedTime: 1691353350764
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!2uRxWnWGFuEv5PuP'

@@ -1,0 +1,46 @@
+transfer: true
+_id: a8Aww25NEhcTiilj
+changes:
+  - key: '@weapon{Mind Blade (Main Hand)}[system.equipStatus]'
+    mode: 5
+    value: '4'
+    priority: null
+  - key: '@weapon{Mind Blade (Main Hand)}[system.favorite]'
+    mode: 5
+    value: '1'
+    priority: null
+disabled: true
+duration:
+  startTime: 0
+  seconds: null
+  combat: null
+  rounds: null
+  turns: null
+  startRound: null
+  startTurn: null
+icon: systems/swade/assets/icons/active-effect.svg
+origin: null
+tint: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+    favorite: true
+  ActiveAuras:
+    isAura: false
+    aura: None
+    radius: ''
+    alignment: ''
+    type: ''
+    ignoreSelf: false
+    height: false
+    hidden: false
+    displayTemp: false
+    hostile: false
+    onlyOnce: false
+    wildcard: false
+    extra: false
+name: Manifest Mind Blade
+description: ''
+statuses: []
+_key: '!items.effects!yb8j3gDo0vzaNsPm.a8Aww25NEhcTiilj'

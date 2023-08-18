@@ -1,0 +1,28 @@
+icon: icons/tools/scribal/magnifying-glass.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+    favorite: true
+changes:
+  - key: '@Skill{Notice}[system.die.modifier]'
+    mode: 2
+    value: '2'
+    priority: null
+transfer: true
+name: Inquisitive's Kit Bonus to Notice
+_id: mcTxgcosIb1sY1SB
+disabled: true
+description: ''
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!LFeFgMa8Up4IGiLo.mcTxgcosIb1sY1SB'

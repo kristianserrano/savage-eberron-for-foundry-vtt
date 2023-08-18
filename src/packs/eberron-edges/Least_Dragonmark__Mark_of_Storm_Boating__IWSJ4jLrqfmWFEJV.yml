@@ -1,0 +1,142 @@
+folder: UBWpVAtmD7QL4GE1
+name: Least Dragonmark (Mark of Storm—Boating)
+type: edge
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The adventurer has a true dragonmark inherited from their biological
+    ancestral lineage. Adventurers with an
+    @UUID[Compendium.savage-eberron.eberron-edges.Item.RVTvWKJxEtdJPCJz]{Aberrant
+    Mark} are unable to manifest a true dragonmark.</p><p>The dragonmark grants
+    the ability to use dragonmark focus items and a power granted by the mark
+    regardless of its Rank requirement. The adventurer has 10 dedicated Power
+    Points that recharge normally. As a limited free action, the hero
+    automatically activates the power with success for its regular cost. For 2
+    additional Power Points, the power can be activated with a raise.</p><p>Some
+    powers apply penalties for certain conditions or levels of difficulty. The
+    adventurer can ignore 2 points of penalties per additional Power Point
+    spent. This does not apply to penalties outside of the power’s effect such
+    as Wound, Fatigue, or Multi-Action penalties.</p><p>The least dragonmark
+    does not grant access to any Modifiers when using the power unless
+    specifically listed in the description. In some cases, a Modifier or Epic
+    Modifier is listed with a requirement of Lesser or Greater Dragonmark for
+    clarification.</p><p>The mark also grants a bonus to a specific skill as
+    indicated in the mark’s description (see <strong>Dragonmark
+    Abilities</strong> below).</p><p>A dragonmarked adventurer may improvise
+    with their dragonmark power by activating a cantrip based on that power (see
+    @UUID[Compendium.swade-fantasy-companion.swade-fc.JournalEntry.swadefcp04arcana.JournalEntryPage.04cantrips000000#cantrips]{Cantrips}
+    in the <em>Fantasy Companion</em>). This improvised cantrip requires a
+    Spirit roll for activation as a limited free action. On a critical failure,
+    the dragonmarked adventurer loses 1 Power Point, or if he does not have any
+    Power Points available, gains a level of Fatigue.</p><p>A dragonmark doesn’t
+    grant access to Edges that require an Arcane Background except for the Power
+    Points and Soul Drain Edges. If the adventurer also has an Arcane
+    Background, none of its Edges or abilities can be used with the dragonmark
+    powers and vice versa.</p><table
+    style="border:none;border-collapse:collapse;"><colgroup><col><col><col><col></colgroup><thead><tr><th
+    scope="col"><p>Mark</p></th><th scope="col"><p dir="ltr" style="line-height:
+    1.38; margin-top: 0pt; margin-bottom: 0pt; text-align:
+    center">Ancestry</p></th><th scope="col"><p dir="ltr" style="line-height:
+    1.38; margin-top: 0pt; margin-bottom: 0pt; text-align:
+    center">Powers</p></th><th scope="col"><p dir="ltr" style="line-height:
+    1.38; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Skill
+    Bonus</p></th></tr></thead><tbody><tr><td><p>Mark of
+    Detection</p></td><td><p>Half-elf</p></td><td><p><em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{Detect
+    arcana}</em> (without Identify),
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.7cDWA5azwTrmZaiq]{object
+    reading}</em></p></td><td><p>+1 to Notice rolls</p></td></tr><tr><td><p>Mark
+    of Finding</p></td><td><p>Half-orc or
+    human</p></td><td><p><em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{Detect
+    arcana}</em> (Identify only),
+    <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.rFmzKP8HDWYHdsP9]{locate}</em></p></td><td><p>+1
+    to Survival rolls</p></td></tr><tr><td><p>Mark of
+    Handling</p></td><td><p>Human</p></td><td><p><em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.O6mvldoWWXTYSY2F]{Beast
+    friend}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.TVoDtWckWRZ0AnxZ]{empathy}</em>
+    (animals only),
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.GLIypDUlcU2UCCje]{summon
+    animal}</em></p></td><td><p>+1 to Persuasion when dealing with animals or
+    Riding (choose one)</p></td></tr><tr><td><p>Mark of
+    Healing</p></td><td><p>Halfling</p></td><td><p><em>@UUID[Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh]{Boost
+    Vigor}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.XR6ezIMYpEj53GHT]{healing}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.QlGf5bxHPpHwrAU5]{relief}</em></p></td><td><p>+1
+    to Healing rolls</p></td></tr><tr><td><p>Mark of
+    Hospitality</p></td><td><p>Halfling</p></td><td><p><em>@UUID[Compendium.savage-eberron.eberron-powers.Item.gLvcL3EA1Zu0dtRO]{Conjure
+    item}</em> (Create Food and Water only),
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.TVoDtWckWRZ0AnxZ]{empathy}</em>
+    (species of human intelligence only),
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.MEjY7RhNahJGbfRC]{elemental
+    manipulation}</em> (air, fire, and water only; Special Effects only),
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.urLA1HNU0GqTpP9g]{plane
+    shift}</em> (Extra-dimensional Space only; requires Greater
+    Dragonmark)</p></td><td><p>+1 to Persuasion when dealing with beings of
+    human-like sentience and intelligence</p></td></tr><tr><td><p>Mark of
+    Making</p></td><td><p>Human</p></td><td><p><em>@UUID[Compendium.savage-eberron.eberron-powers.Item.gLvcL3EA1Zu0dtRO]{Conjure
+    item}</em> (without Create Food and Water),
+    <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.v9sX5Hp9PoBEyODv]{repairing}</em></p></td><td><p>+1
+    to Crafting rolls</p></td></tr><tr><td><p>Mark of
+    Passage</p></td><td><p>Human</p></td><td><p><em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.lPSFNaeFMJlbZXYM]{Fly}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.H5H71b5WDDMJ7nCL]{speed}</em>,
+    <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.HI4K2kkaTq91VlfG]{teleport}</em></p></td><td><p>+1
+    to Driving or Riding rolls (choose one)</p></td></tr><tr><td><p>Mark of
+    Scribing</p></td><td><p>Gnome</p></td><td><p><em>@UUID[Compendium.savage-eberron.eberron-powers.Item.XOu5NA90SagVeHT5]{Illusion}
+    </em>(documents only; Duration and Strong only),
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind
+    link}</em> (without Broadcast),
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.MCXIMSN4YAWaM5Ei]{speak
+    language}</em></p></td><td><p>+1 to Research
+    rolls</p></td></tr><tr><td><p>Mark of
+    Sentinel</p></td><td><p>Human</p></td><td><p><em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.pnhihi2oBjsjsh4N]{Deflection}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cq3fgyvvCp1oCIv7]{summon
+    ally}</em> (bodyguard and mirror self only),
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.ZvYOVQ9Rn5PbQswT]{warrior’s
+    gift}</em></p></td><td><p>+1 to Fighting rolls</p></td></tr><tr><td><p>Mark
+    of
+    Shadow</p></td><td><p>Elf</p></td><td><p><em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.bTcP0C22uRVijOeU]{Darkness}</em>
+    (shadow),
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nz69DP0tjQGxYtcI]{disguise}</em>,
+    <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.XOu5NA90SagVeHT5]{illusion}</em>,
+    <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.nEeEtrIevelGu2kZ]{scrying}</em></p></td><td><p>+1
+    to Stealth rolls</p></td></tr><tr><td><p>Mark of
+    Storm</p></td><td><p>Half-elf</p></td><td><p><em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.bTcP0C22uRVijOeU]{Darkness}</em>
+    (fog),
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.MEjY7RhNahJGbfRC]{elemental
+    manipulation} </em>(air and water only; Move and Push only),
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.N7AS7Joyq6QbLf25]{environmental
+    protection}</em></p></td><td><p>+1 to Boating or Piloting rolls (choose
+    one)</p></td></tr><tr><td><p>Mark of
+    Warding</p></td><td><p>Dwarf</p></td><td><p><em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.0TRRYoKZecpUZMBv]{Barrier}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{conceal
+    arcana}</em>,<em>
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.WhkZOWfcSvplAtjf]{lock/unlock}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cq3fgyvvCp1oCIv7]{summon
+    ally}</em> (attendant and sentinel only)</p></td><td><p>+1 to Thievery rolls
+    related to locks or traps</p></td></tr></tbody></table>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Background Edges
+  isArcaneBackground: false
+  requirements:
+    value: Novice, Half-Elf
+  grants: []
+  source: Eberron for Savage Worlds
+effects:
+  - L2eaZB2c5a9hqBFg
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690138421288
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_id: IWSJ4jLrqfmWFEJV
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!items!IWSJ4jLrqfmWFEJV'

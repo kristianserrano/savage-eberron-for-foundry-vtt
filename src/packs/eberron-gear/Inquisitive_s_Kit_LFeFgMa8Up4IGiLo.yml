@@ -1,0 +1,47 @@
+folder: 7hy4KW6bL662vETu
+name: Inquisitive's Kit
+type: gear
+_id: LFeFgMa8Up4IGiLo
+img: icons/tools/scribal/magnifying-glass.webp
+system:
+  description: ''
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 4
+  price: 300
+  equippable: false
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  favorite: false
+  category: Tools and Skill Kits
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  source: Eberron for Savage Worlds
+effects:
+  - mcTxgcosIb1sY1SB
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691348391743
+  modifiedTime: 1691348794785
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!LFeFgMa8Up4IGiLo'

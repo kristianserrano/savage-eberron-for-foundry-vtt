@@ -1,0 +1,67 @@
+folder: RHde3H5ZIzmTa0aj
+name: Alchemist's Spark
+type: weapon
+img: icons/consumables/potions/flask-corked-yellow-glow.webp
+system:
+  description: <p>Heavy Weapon. Those within the template take d6 electrical damage.</p>
+  notes: Heavy Weapon. Those within the template take d6 electrical damage.
+  additionalStats: {}
+  quantity: 1
+  weight: 1
+  price: 25
+  equippable: false
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: Athletics
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: true
+    medium: false
+    large: false
+  category: Special Substances and Items
+  grants: []
+  grantOn: 1
+  damage: 2d4
+  range: 2/4/8
+  rof: '1'
+  ap: 0
+  parry: 0
+  minStr: ''
+  shots: 0
+  currentShots: 0
+  ammo: ''
+  reloadType: none
+  ppReloadCost: 2
+  trademark: 0
+  isHeavyWeapon: true
+  source: Eberron for Savage Worlds
+effects: []
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691364744014
+  modifiedTime: 1691366318623
+  lastModifiedBy: Xbne19Xghka479we
+_id: 059nYMvbKq6scfmm
+sort: 200000
+_key: '!items!059nYMvbKq6scfmm'

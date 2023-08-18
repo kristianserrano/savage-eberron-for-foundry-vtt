@@ -1,0 +1,68 @@
+folder: yhaG3t6RuulkN2AF
+name: Bard
+type: edge
+_id: pKOzO0oK0DuP50Jt
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>As per the
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.Soc9kIMvpY7zHwuI]{Fantasy
+    Companion}</em> but with the following
+    changes.</p><ul><li><p><strong>Available Powers:</strong>
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.qjflUvZxnhUF91dS]{Arcane
+    protection},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.O6mvldoWWXTYSY2F]{beast
+    friend},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.FxiWV5YVRzqxioo7]{confusion},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{detect/conceal
+    arcana},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nz69DP0tjQGxYtcI]{disguise},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.bJZE6nFC5rDZL39D]{divination},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.HgP5zrN7Hv6swMEr]{drain
+    Power Points},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.TVoDtWckWRZ0AnxZ]{empathy},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.FKawDwaCdCRij7eO]{fear},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.XR6ezIMYpEj53GHT]{healing},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind
+    link},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.GMTgL2vLUZ0BTZ1w]{mind
+    reading},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.mVT0AsyhtjeltTHF]{puppet},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.QlGf5bxHPpHwrAU5]{relief},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.H5H71b5WDDMJ7nCL]{sloth/speed},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.UFQy5B0Egwhm96uM]{slumber},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.8r70sKYB6GfzzapQ]{smite},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.MCXIMSN4YAWaM5Ei]{speak
+    language},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.xz2NXG2RXvT8wo22]{stun},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nE0AIeWGCGWjxxi6]{telekinesis},
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.ZvYOVQ9Rn5PbQswT]{warrior’s
+    gift}.</em></p></li></ul>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Arcane Backgrounds
+  isArcaneBackground: true
+  requirements:
+    value: Spirit d6+
+  grants:
+    - name: Bard
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+      uuid: Compendium.swade-fantasy-companion.swade-fc-edges.Item.Soc9kIMvpY7zHwuI
+  source: Eberron for Savage Worlds
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691368982970
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!pKOzO0oK0DuP50Jt'

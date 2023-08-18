@@ -1,0 +1,34 @@
+folder: lY3diYO8H1ieW2L2
+name: Master Artificer
+type: edge
+_id: VPgI7pBnbyYCtix9
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>As presented in the
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.pzQCAhU6AtZVA8rU]{Fantasy
+    Companion}</em> but with the above requirements.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Artificer Edges
+  isArcaneBackground: false
+  requirements:
+    value: Veteran, Arcane Background (Artificer), Craft Magic Items, Occult d8+
+  grants: []
+  source: Eberron for Savage Worlds
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691430900769
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!VPgI7pBnbyYCtix9'

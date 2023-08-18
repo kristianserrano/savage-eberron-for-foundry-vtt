@@ -1,0 +1,26 @@
+icon: icons/magic/perception/eye-slit-orange.webp
+duration:
+  rounds: 5
+  startTime: 288
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: 2
+changes:
+  - key: '@Skill{Notice}[system.die.modifier]'
+    mode: 2
+    value: '2'
+    priority: null
+transfer: true
+_id: I55YAM3sUOZ0msqs
+disabled: false
+origin: null
+tint: null
+name: Alertness
+description: ''
+statuses: []
+_key: '!items.effects!gGVagk0USYLO1Ckl.I55YAM3sUOZ0msqs'

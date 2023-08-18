@@ -1,0 +1,70 @@
+name: Repairing
+type: power
+_id: v9sX5Hp9PoBEyODv
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp
+system:
+  description: >-
+    <p><em>Repairing</em> fixes damage to objects, including constructs and
+    living constructs, that have taken damage but are not entirely broken or
+    destroyed.</p><p>For a Wild Card, each use of <em>repairing</em> removes a
+    Wound with a success, two with a raise. The power may be cast additional
+    times to remove additional Wounds.</p><p>For Extras or objects, the
+    Prophesier must first determine if the construct or object is already
+    destroyed. If so, no repair may be attempted. Otherwise, a successful arcane
+    skill roll repairs the construct or object.</p><p>If the target is a living
+    construct that was inert, a successful <em>repairing</em> revives
+    them.</p><p><strong>Modifiers</strong></p><ul><li
+    class="savage-eberron--epic-modifier"><p><strong>Greater Repairing
+    (+10):</strong> <em>Greater repairing</em> can rebuild objects that are
+    completely broken but only if all parts are still available. This spell may
+    also be used to restore constructs (but not living constructs) that have
+    perished.</p></li><li><p><strong>Crippling Injuries (+15):</strong> For
+    living constructs, the power can repair a permanent Crippling Injury (see
+    <strong>Incapacitation</strong> in <em>Savage Worlds</em>). This requires an
+    hour of preparation and only one casting is permitted per injury. If it
+    fails, this caster cannot repair that particular injury (but someone else
+    may try). If successful, the subject is Exhausted for 24
+    hours.</p></li></ul>
+  notes: ''
+  additionalStats: {}
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  rank: Novice
+  pp: '3'
+  damage: ''
+  range: Touch
+  duration: Instant
+  trapping: The caster must touch the object with at least one free hand.
+  arcane: ''
+  ap: 0
+  innate: false
+  modifiers: []
+  source: Eberron for Savage Worlds
+effects: []
+folder: null
+sort: 1100000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690140820087
+  modifiedTime: 1692290508224
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!v9sX5Hp9PoBEyODv'

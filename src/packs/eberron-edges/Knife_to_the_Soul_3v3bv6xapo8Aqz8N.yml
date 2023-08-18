@@ -1,0 +1,57 @@
+folder: zgVZxCBwB6RSXpkz
+name: Knife to the Soul
+type: edge
+_id: 3v3bv6xapo8Aqz8N
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>A
+    @UUID[Compendium.savage-eberron.eberron-abilities.Item.Q7vEwImap0FspKU7]{mind
+    blade} has the potential to cut deep into the victim’s psyche. The soulknife
+    adds
+    <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh]{lower
+    Trait}</em> (Smarts and Spirit only) to his list of known powers. The Range
+    of the power is Touch only and delivered through his mind blade with a
+    successful attack or touch attack. The soulknife benefits from these
+    limitations as usual. Activating lower Trait on a mind blade is a limited
+    free action.</p><p>The mind blade is then “charged” with the power until the
+    next successful attack or touch attack. If the attack misses, the charge
+    continues to hold for the remainder of the encounter or until it is
+    dismissed. If the mind blade is broken or dismissed before the power is
+    delivered, the charge is lost.</p><p></p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Soulknife Edges
+  isArcaneBackground: false
+  requirements:
+    value: Heroic, Arcane Background (Soulknife), Psionics d10+
+  grants:
+    - name: Boost/Lower Trait
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp
+      uuid: Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh
+      mutation:
+        name: Lower Trait (Smarts and Spirit only, touch)
+        system:
+          range: Touch
+  source: Eberron for Savage Worlds
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: eberron-for-savage-worlds
+    system: swade
+    coreVersion: '11.307'
+    systemVersion: 3.0.6
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690400967484
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!3v3bv6xapo8Aqz8N'

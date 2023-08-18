@@ -1,0 +1,62 @@
+name: Dimensional Lock
+type: power
+_id: op5cRg9jiossKu2D
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp
+system:
+  description: >-
+    <p><em>Dimensional lock</em> creates a visible magical barrier the size of a
+    Medium Blast Template that blocks all extradimensional movement such as
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.DRY74t2m98JCjUpo]{intangibility}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.urLA1HNU0GqTpP9g]{plane
+    shift}</em>, or
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t]{teleport}</em>
+    into or out of the area.</p><p>If a creature is already in an
+    <em>intangible</em> form, <em>dimensional lock</em> does not interfere with
+    that effect. A <em>dimensional lock</em> also does not prevent a summoned
+    creature from disappearing at the end of the summoning power’s
+    duration.</p><p><strong>Modifiers</strong></p><ul><li><p><strong>Area of
+    Effect (+1):</strong> The area of effect is increased to the size of a Large
+    Blast Template.</p></li></ul><p></p>
+  notes: ''
+  additionalStats: {}
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: true
+    large: true
+  rank: Legendary
+  pp: '3'
+  damage: ''
+  range: Smarts ×2
+  duration: 1 day
+  trapping: gestures and verbal incantations
+  arcane: ''
+  ap: 0
+  innate: false
+  modifiers: []
+  source: Eberron for Savage Worlds
+effects: []
+folder: null
+sort: 900000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690168327948
+  modifiedTime: 1692290508224
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!op5cRg9jiossKu2D'

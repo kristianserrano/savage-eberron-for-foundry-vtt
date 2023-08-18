@@ -1,0 +1,26 @@
+icon: icons/equipment/back/cloak-collared-purple-gold.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+changes:
+  - key: '@Skill{Persuasion}[system.die.modifier]'
+    mode: 2
+    value: '1'
+transfer: true
+name: Tailored Formal Clothes Bonus to Persuasion
+_id: cl8kX6a07Xh6nFKP
+disabled: true
+description: ''
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!R1d9lt5xYjjQzHPz.cl8kX6a07Xh6nFKP'

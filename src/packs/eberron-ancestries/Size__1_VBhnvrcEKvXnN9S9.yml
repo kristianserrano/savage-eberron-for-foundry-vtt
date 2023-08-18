@@ -1,0 +1,40 @@
+name: Size -1
+type: ability
+img: icons/magic/control/silhouette-grow-shrink-tan.webp
+system:
+  description: >-
+    <p>Gnomes are considered
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size}
+    −1 and have −1
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}.</p>
+  notes: Racial
+  additionalStats: {}
+  favorite: false
+  category: Gnome
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+effects:
+  - XxV5APC8EXg7pNed
+folder: JMdHl51LHgGFlyNx
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.306'
+  createdTime: 1668046440817
+  modifiedTime: 1690927136576
+  lastModifiedBy: Xbne19Xghka479we
+_id: VBhnvrcEKvXnN9S9
+sort: 0
+_key: '!items!VBhnvrcEKvXnN9S9'

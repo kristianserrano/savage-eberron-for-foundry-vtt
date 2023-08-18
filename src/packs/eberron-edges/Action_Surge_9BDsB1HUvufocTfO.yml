@@ -1,0 +1,35 @@
+folder: w0ssAJ3pLdh323mi
+name: Action Surge
+type: edge
+_id: 9BDsB1HUvufocTfO
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The adventurer can spend a Benny to take one additional action on her
+    turn. This action does not add or include a Multi-Action penalty. Any other
+    actions on that turn are still accounted for when determining the penalty
+    for those other actions.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Combat Edges
+  isArcaneBackground: false
+  requirements:
+    value: Seasoned, Wild Card
+  grants: []
+  source: Eberron for Savage Worlds
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690669750385
+  modifiedTime: 1692321428893
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!9BDsB1HUvufocTfO'

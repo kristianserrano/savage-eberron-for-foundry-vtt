@@ -1,0 +1,16 @@
+name: Dragonmarks
+sorting: a
+folder: 8hnpzMqu320tkWo3
+type: Item
+_id: s3SVj2RF8CXpDh3d
+sort: 100000
+color: null
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690238518866
+  modifiedTime: 1692321428839
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!folders!s3SVj2RF8CXpDh3d'

@@ -1,0 +1,30 @@
+name: Elite Razorclaw Shifting
+transfer: true
+_id: MYMJkNWsBZRypsaF
+changes:
+  - key: '@Weapon{Claw}[system.damage]'
+    mode: 2
+    value: '+4'
+    priority: null
+disabled: true
+duration:
+  startTime: 0
+  seconds: null
+  combat: null
+  rounds: null
+  turns: null
+  startRound: null
+  startTurn: null
+description: >-
+  <p>If the shifter can charge at least 6” before attacking a target with her
+  claws, she can make two claw attacks at the end of the charge. The shifter
+  also adds +4 to damage rolls for each claw attack.</p>
+icon: icons/creatures/claws/claw-straight-brown.webp
+origin: null
+statuses: []
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+tint: null
+_key: '!items.effects!kXE1Uak9aNq57L2n.MYMJkNWsBZRypsaF'

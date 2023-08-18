@@ -1,0 +1,27 @@
+icon: icons/magic/control/debuff-energy-snare-blue.webp
+duration:
+  rounds: null
+  startTime: 43230
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+changes:
+  - key: system.attributes.agility.die.sides
+    mode: 2
+    value: '2'
+    priority: null
+transfer: true
+_id: BqiwXPQyZARtUJM5
+disabled: false
+origin: null
+tint: null
+name: Starting Agility d6
+description: ''
+statuses: []
+_key: '!items.effects!D2CwKxrkCDmu9hlZ.BqiwXPQyZARtUJM5'

@@ -1,0 +1,28 @@
+sort: 200000
+name: Credits
+type: text
+_id: 5pAtFc7m6914yzHu
+title:
+  show: true
+  level: 1
+image: {}
+text:
+  format: 1
+  content: "<article id=\"credits\" class=\"savage-eberron --article\"><p><span class=\"inline-heading\"><cite>Eberron Campaign Setting</cite></span></p><p><span class=\"inline-heading\">Eberron Created by</span>\_Keith Baker</p><p><span class=\"inline-heading\">World and Story Development:</span>\_Bill Slavicsek</p><p><span class=\"inline-heading\">Game Design:</span>\_Keith Baker, Bill Slavicsek, and James Wyatt</p><p><span class=\"inline-heading\">Game Development:</span>\_Jesse Decker, Michael Donais, Andrew J. Finch</p><p><span class=\"inline-heading\">Design Manager:</span>\_Christopher Perkins</p><p><span class=\"inline-heading\">Development Manager:</span>\_Andrew J. Finch</p><p><span class=\"inline-heading\">Managing Editor:</span>\_Kim Mohan</p><p><span class=\"inline-heading\"><cite>Eberron for Savage Worlds</cite></span></p><p><span class=\"inline-heading\">Savage Worlds Conversion:</span>\_Kristian Serrano</p><p><span class=\"inline-heading\">Editing:</span>\_Michael Greszler</p><p><span class=\"inline-heading\">Layout and Graphic Design:</span>\_Aaron Acevedo and Karl Keesler</p><p><span class=\"inline-heading\">Character Sheet Design:</span>\_Karl Keesler and Charlotte Irrgang</p><p><span class=\"inline-heading\">Playtesters, Contributors, and Supporters:</span>\_Ian Alloway, M. Sydney Andrews, Donovan Bailey, Clint Black, Jodi Black, Ron Blessing, Dylan Brooks, David Ginsburg, Michael Greszler, Jan Jetmar, Stirling Netzlaw, Elly Runnalls, Manuel Sambs, Richard Woolcock, and many more members of both the <cite>Eberron</cite>\_and <cite>Savage Worlds</cite>\_communities. Thank you all for exploring with me!</p><p><em>Thank you, Keith, for continuing to pour your heart into the world of Eberron far beyond your original draft of <cite>Thrilling Tales of Swords and Sorcery</cite>\_all those years ago, and for being my friend.</em></p><p><em>Dedicated to Jenn Sutcliffe for supporting and encouraging me in following through with this passion project, and to my parents for introducing me to the fantastic films and books that ignited my imagination as a young boy.</em></p></article>"
+video:
+  controls: true
+  volume: 0.5
+src: null
+system: {}
+ownership:
+  default: -1
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1691633123130
+  modifiedTime: 1691953861306
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!journal.pages!UJKi3vHyLEnrGlkx.5pAtFc7m6914yzHu'

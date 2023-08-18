@@ -1,0 +1,28 @@
+icon: icons/skills/social/wave-halt-stop.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    favorite: true
+    loseTurnOnHold: false
+changes:
+  - key: '@Skill{Persuasion}[system.die.modifier]'
+    mode: 2
+    value: '-2'
+    priority: null
+transfer: true
+name: –2 Persuasion
+_id: UwjC1kQvRI2wH1Q0
+disabled: true
+description: ''
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!KE7TjnyaBkeVhzU8.UwjC1kQvRI2wH1Q0'

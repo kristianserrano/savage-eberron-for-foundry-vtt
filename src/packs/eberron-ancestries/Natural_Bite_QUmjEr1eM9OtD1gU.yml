@@ -1,0 +1,23 @@
+icon: icons/creatures/abilities/mouth-teeth-long-red.webp
+duration:
+  rounds: 5
+  startTime: 288
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: 2
+    loseTurnOnHold: false
+changes: []
+transfer: true
+_id: QUmjEr1eM9OtD1gU
+disabled: false
+origin: null
+tint: null
+name: Natural Bite
+description: ''
+statuses: []
+_key: '!items.effects!uPMabHulIYMts8JA.QUmjEr1eM9OtD1gU'

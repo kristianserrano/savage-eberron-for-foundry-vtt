@@ -1,0 +1,23 @@
+icon: icons/skills/movement/figure-running-gray.webp
+duration:
+  rounds: 5
+  startTime: 288
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: 2
+    loseTurnOnHold: false
+changes: []
+transfer: true
+_id: 9r2vT5niQWmbLlWT
+disabled: false
+origin: null
+tint: null
+name: Free Runner
+description: ''
+statuses: []
+_key: '!items.effects!APhbuPvQt95Z1E8C.9r2vT5niQWmbLlWT'

@@ -1,0 +1,29 @@
+icon: icons/skills/movement/feet-winged-sandals-tan.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+changes:
+  - key: '@Skill{Athletics}[system.die.sides]'
+    mode: 2
+    value: '2'
+    priority: null
+transfer: true
+name: Starting Athletics d6
+_id: rx3YOVmYsu0KDACS
+disabled: false
+description: >-
+  <p>Start with a d6 in Athletics instead of a d4. This increases their maximum
+  Athletics to d12+1.</p>
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!29clVk6oxj4dNNLd.rx3YOVmYsu0KDACS'

@@ -1,0 +1,31 @@
+icon: systems/swade/assets/icons/active-effect.svg
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+changes:
+  - key: '@Skill{Common Knowledge}[system.die.modifier]'
+    mode: 2
+    value: '-2'
+    priority: null
+transfer: true
+name: Common Knowledge Unskilled Modifier
+_id: FaSfNYNdWE9rbk67
+disabled: false
+description: >-
+  <p>Warforged do not have
+  @UUID[Compendium.swade-core-rules.swade-skills.Item.su7eyijoB0RFpRB1]{Common
+  Knowledge} as a core skill. Delete this effect if the individual warforged has
+  Common Knowledge.</p>
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!H8FEEzyGYVStIqB4.FaSfNYNdWE9rbk67'

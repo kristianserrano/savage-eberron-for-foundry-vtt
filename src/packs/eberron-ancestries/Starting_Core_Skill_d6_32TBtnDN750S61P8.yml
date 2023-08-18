@@ -1,0 +1,26 @@
+icon: systems/swade/assets/icons/skill.svg
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+changes:
+  - key: '@Skill{Core Skill}[system.die.sides]'
+    mode: 2
+    value: '2'
+transfer: true
+name: Starting Core Skill d6
+_id: 32TBtnDN750S61P8
+disabled: true
+description: ''
+origin: null
+statuses: []
+tint: null
+_key: '!items.effects!Fl45JyWxIjcUQz25.32TBtnDN750S61P8'
