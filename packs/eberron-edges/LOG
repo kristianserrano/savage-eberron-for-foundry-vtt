@@ -1,8 +1,15 @@
-2023/08/17-10:55:30.175456 7000075ad000 Recovering log #492
-2023/08/17-10:55:30.176682 7000075ad000 Delete type=3 #490
-2023/08/17-10:55:30.176848 7000075ad000 Delete type=0 #492
-2023/08/17-10:55:43.712324 700008636000 Level-0 table #498: started
-2023/08/17-10:55:43.712346 700008636000 Level-0 table #498: 0 bytes OK
-2023/08/17-10:55:43.712603 700008636000 Delete type=0 #496
-2023/08/17-10:55:43.712709 700008636000 Manual compaction at level-0 from '!folders!2pI7uD4O4dPHpft2' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)
-2023/08/17-10:55:43.712746 700008636000 Manual compaction at level-1 from '!folders!2pI7uD4O4dPHpft2' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)
+2023/08/17-20:38:57.016067 7000084a6000 Recovering log #504
+2023/08/17-20:38:57.016981 7000084a6000 Delete type=0 #504
+2023/08/17-20:38:57.017133 7000084a6000 Delete type=3 #501
+2023/08/17-21:45:25.830493 700008529000 Level-0 table #511: started
+2023/08/17-21:45:25.833440 700008529000 Level-0 table #511: 164651 bytes OK
+2023/08/17-21:45:25.833765 700008529000 Delete type=0 #509
+2023/08/17-21:45:25.834077 700008529000 Manual compaction at level-0 from '!folders!2pI7uD4O4dPHpft2' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)
+2023/08/17-21:45:25.834132 700008529000 Manual compaction at level-1 from '!folders!2pI7uD4O4dPHpft2' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 1759 : 0
+2023/08/17-21:45:25.834145 700008529000 Compacting 1@1 + 1@2 files
+2023/08/17-21:45:25.837818 700008529000 Generated table #512@1: 142 keys, 150295 bytes
+2023/08/17-21:45:25.837842 700008529000 Compacted 1@1 + 1@2 files => 150295 bytes
+2023/08/17-21:45:25.838011 700008529000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/17-21:45:25.838110 700008529000 Delete type=2 #507
+2023/08/17-21:45:25.838300 700008529000 Delete type=2 #511
+2023/08/17-21:45:25.839213 700008529000 Manual compaction at level-1 from '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 1759 : 0 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)
