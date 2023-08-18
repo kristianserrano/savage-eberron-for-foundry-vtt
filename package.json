@@ -1,0 +1,20 @@
+{
+  "name": "savage-eberron",
+  "version": "1.0.0",
+  "description": "Eberron for Savage Worlds: Campaign Setting",
+  "main": "index.js",
+  "scripts": {
+    "pullYMLtoLDB": "bash ./tools/pullYMLtoLDB.sh",
+    "pushLDBtoYML": "bash ./tools/pushLDBtoYML.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristianserrano/savage-eberron-for-foundry-vtt.git"
+  },
+  "author": "The Immaterial Plane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristianserrano/savage-eberron-for-foundry-vtt/issues"
+  },
+  "homepage": "https://github.com/kristianserrano/savage-eberron-for-foundry-vtt#readme"
+}
