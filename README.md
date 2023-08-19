@@ -10,7 +10,15 @@ Additionally, _Eberron for Savage Worlds_ is also available as a [premium PDF](h
 
 ## About the Module
 
-Work on this module is incomplete but ongoing. Below is a list of what content is or will be available.
+This module requires the following:
+
+- [_Savage Worlds Adventure Edition_ system for Foundry VTT](https://foundryvtt.com/packages/swade)
+- [_Savage Worlds Adventure Edition Core Rules_ module for Foundry VTT](https://foundryvtt.com/packages/swade-core-rules)
+- [_Savage Worlds Fantasy Companion_ module for Foundry VTT](https://foundryvtt.com/packages/swade-fantasy-companion)
+
+The [_Savage Worlds Adventure Deck_ module for Foundry VTT](https://foundryvtt.com/packages/adventure-deck) is optional.
+
+Work on this module is incomplete but ongoing. Below is a list of what content is or will be available as development continues.
 
 - [x] Journal Entry with complete contents of the book styled similarly to the premium PDF
 - [ ] Items:
