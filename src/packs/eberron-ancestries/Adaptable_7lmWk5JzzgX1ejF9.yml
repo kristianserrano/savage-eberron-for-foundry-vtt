@@ -1,4 +1,4 @@
-folder: null
+folder: eCJqtpXb79wfr94X
 name: Adaptable
 type: ability
 _id: 7lmWk5JzzgX1ejF9
@@ -25,9 +25,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.0.6
-  coreVersion: '11.306'
+  systemVersion: 3.1.0
+  coreVersion: '11.307'
   createdTime: 1690322403381
-  modifiedTime: 1690927136461
+  modifiedTime: 1692644319875
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!7lmWk5JzzgX1ejF9'
