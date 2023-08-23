@@ -22,7 +22,8 @@ system:
   grantsPowers: false
   grants: []
   source: Eberron for Savage Worlds
-effects: []
+effects:
+  - K5BBjAfnB1mzw1Wb
 folder: gVJBnQp2agFQhF0c
 ownership:
   default: 0
@@ -36,10 +37,10 @@ flags:
     systemVersion: 3.0.5
 _stats:
   systemId: swade
-  systemVersion: 3.0.6
-  coreVersion: '11.306'
+  systemVersion: 3.1.0
+  coreVersion: '11.307'
   createdTime: 1668044953571
-  modifiedTime: 1690927136695
+  modifiedTime: 1692646929792
   lastModifiedBy: Xbne19Xghka479we
 _id: zcsIqHzoA2qVzLx4
 sort: 0

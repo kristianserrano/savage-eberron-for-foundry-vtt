@@ -65,17 +65,17 @@ system:
   effects: []
   source: Eberron for Savage Worlds
 effects: []
-folder: null
-sort: 0
+folder: ktcv7W97mLQMloS8
+sort: 2800000
 ownership:
   default: 0
   Xbne19Xghka479we: 3
 flags: {}
 _stats:
   systemId: swade
-  systemVersion: 3.0.6
-  coreVersion: '11.306'
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
   createdTime: 1690860753470
-  modifiedTime: 1690927136708
+  modifiedTime: 1692763114301
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!YIcSj4d2fHUVlk6N'

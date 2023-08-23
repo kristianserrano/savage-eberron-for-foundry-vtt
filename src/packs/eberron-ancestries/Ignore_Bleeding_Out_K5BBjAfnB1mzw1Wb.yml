@@ -1,0 +1,29 @@
+name: Ignore Bleeding Out
+transfer: true
+_id: K5BBjAfnB1mzw1Wb
+changes:
+  - key: flags.swade.ignoreBleedOut
+    mode: 5
+    value: 'true'
+    priority: null
+disabled: false
+duration:
+  startTime: 0
+  seconds: null
+  combat: null
+  rounds: null
+  turns: null
+  startRound: null
+  startTurn: null
+description: >-
+  <p>With a failed Vigor roll when Incapacitated, living constructs become
+  automatically stabilized but inert and helpless.</p>
+icon: systems/swade/assets/icons/active-effect.svg
+origin: null
+statuses: []
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+tint: null
+_key: '!items.effects!zcsIqHzoA2qVzLx4.K5BBjAfnB1mzw1Wb'
