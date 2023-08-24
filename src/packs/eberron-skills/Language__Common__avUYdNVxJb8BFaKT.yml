@@ -3,8 +3,9 @@ type: skill
 img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp
 system:
   description: >-
-    <p>The world of Eberron features many cultures and races. Use the Multiple
-    Languages Setting Rule as presented in Savage Worlds to determine how many
+    <p>The world of Eberron features many cultures and races. Use the
+    @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple
+    Languages} Setting Rule as presented in Savage Worlds to determine how many
     skills an adventurer knows at the start of play. Refer to the Languages
     table for a complete list.</p><table
     style="border:none;border-collapse:collapse"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical
@@ -74,7 +75,7 @@ _stats:
   systemVersion: 3.1.1
   coreVersion: '11.307'
   createdTime: 1690860753470
-  modifiedTime: 1692763114301
+  modifiedTime: 1692845945416
   lastModifiedBy: Xbne19Xghka479we
 _id: avUYdNVxJb8BFaKT
 sort: 2300000

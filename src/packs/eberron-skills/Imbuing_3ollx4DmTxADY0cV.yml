@@ -15,7 +15,6 @@ system:
     modifier: 0
   wild-die:
     sides: 6
-  effects: []
   source: Eberron for Savage Worlds
 effects: []
 folder: null
@@ -23,12 +22,13 @@ sort: 100000
 ownership:
   default: 0
   Xbne19Xghka479we: 3
-flags: {}
+flags:
+  core: {}
 _stats:
   systemId: swade
   systemVersion: 3.1.1
   coreVersion: '11.307'
   createdTime: 1690860517502
-  modifiedTime: 1692763015309
+  modifiedTime: 1692845945416
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!3ollx4DmTxADY0cV'

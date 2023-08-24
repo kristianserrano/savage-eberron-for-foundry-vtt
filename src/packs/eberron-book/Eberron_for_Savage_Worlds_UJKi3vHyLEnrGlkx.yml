@@ -19,11 +19,12 @@ ownership:
 flags:
   core:
     sheetClass: ''
+    searchMode: name
 _stats:
   systemId: swade
-  systemVersion: 3.0.6
+  systemVersion: 3.1.1
   coreVersion: '11.307'
   createdTime: 1691620216286
-  modifiedTime: 1692139290531
+  modifiedTime: 1692827337994
   lastModifiedBy: Xbne19Xghka479we
 _key: '!journal!UJKi3vHyLEnrGlkx'
