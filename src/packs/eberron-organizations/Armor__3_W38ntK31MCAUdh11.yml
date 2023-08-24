@@ -1,0 +1,37 @@
+_id: W38ntK31MCAUdh11
+effects:
+  - Y3wo7jWK1uj4rspz
+img: systems/swade/assets/icons/ability.svg
+name: Armor +3
+sort: 0
+type: ability
+system:
+  description: >-
+    <article class="swade-core"><p><span
+    class="lead-bold">@Compendium[swade-core-rules.swade-racial-abilities.Armor]{Armor
+    +3}: </span>Scaly hide.</p></article>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Positive
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: SWADE Core Rules
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-racial-abilities.Item.ARMOsFXsFJvZsIwc
+  swade:
+    hasGranted: []
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692137467391
+  modifiedTime: 1692139876064
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!W0ZGeEoKtF4ERK4i.W38ntK31MCAUdh11'

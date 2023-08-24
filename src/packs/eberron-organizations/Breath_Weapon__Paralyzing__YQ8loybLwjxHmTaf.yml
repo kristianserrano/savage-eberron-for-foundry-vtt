@@ -1,0 +1,78 @@
+name: Breath Weapon (Paralyzing)
+type: weapon
+system:
+  description: >-
+    <p>Cone Template (paralyzing gas), major
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.xz2NXG2RXvT8wo22]{stun}</em>.</p>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 0
+  price: 0
+  equippable: false
+  equipStatus: 4
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    dmgMod: ''
+    additional:
+      V0KO78rj:
+        name: Resist Stun
+        type: resist
+        isHeavyWeapon: false
+      nh8rx9Ar:
+        name: Resist Stun w/ Raise
+        type: resist
+        isHeavyWeapon: false
+    trait: ''
+    traitMod: ''
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: true
+    stream: false
+    small: false
+    medium: false
+    large: false
+  category: ''
+  grants: []
+  grantOn: 1
+  damage: ''
+  range: ''
+  rof: 1
+  ap: 0
+  parry: 0
+  minStr: ''
+  shots: 0
+  currentShots: 0
+  ammo: ''
+  reloadType: none
+  ppReloadCost: 2
+  trademark: 0
+  isHeavyWeapon: false
+  source: ''
+img: systems/swade/assets/icons/weapon.svg
+effects: []
+folder: null
+sort: 225000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Actor.W0ZGeEoKtF4ERK4i.Item.L6GoD3DpBkmLnimT
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692137694016
+  modifiedTime: 1692139718940
+  lastModifiedBy: Xbne19Xghka479we
+_id: YQ8loybLwjxHmTaf
+_key: '!actors.items!W0ZGeEoKtF4ERK4i.YQ8loybLwjxHmTaf'

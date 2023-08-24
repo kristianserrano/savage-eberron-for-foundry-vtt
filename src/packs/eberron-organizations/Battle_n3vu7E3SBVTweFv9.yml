@@ -1,0 +1,38 @@
+_id: n3vu7E3SBVTweFv9
+effects: []
+folder: null
+img: systems/swade/assets/icons/skills/battle-gear.svg
+name: Battle
+sort: 0
+type: skill
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  attribute: smarts
+  description: >-
+    <article class="swade-core"><p>Battle is an individual’s command of strategy
+    and tactics. It can be used for general military knowledge and is critical
+    when commanding troops in @Compendium[swade-core-rules.swade-rules.Mass
+    Battles]{Mass Battles}.</p></article>
+  die:
+    modifier: 0
+    sides: 8
+  isCoreSkill: false
+  notes: ''
+  wild-die:
+    sides: 6
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-skills.Item.B0IirU8L6QzIN2fI
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692845043385
+  modifiedTime: 1692845046020
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!6ynkoYvz2xEciD7b.n3vu7E3SBVTweFv9'

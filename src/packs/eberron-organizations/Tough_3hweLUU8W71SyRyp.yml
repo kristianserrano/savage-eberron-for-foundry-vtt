@@ -1,0 +1,39 @@
+name: Tough
+type: ability
+img: icons/magic/control/buff-strength-muscle-damage.webp
+system:
+  description: >-
+    <p>Dwarves are genetically stout and tough. They start with a d6 in Vigor
+    instead of a d4. This increases their maximum Vigor to d12+1. They also have
+    a +1 bonus to resist poisons, powers, and supernatural abilities that behave
+    similarly to powers.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Dwarf
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+effects: []
+folder: aXo6xVVmiLyAK44L
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.305'
+    systemVersion: 3.0.5
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1671075836315
+  modifiedTime: 1692061962542
+  lastModifiedBy: Xbne19Xghka479we
+_id: 3hweLUU8W71SyRyp
+sort: 0
+_key: '!actors.items!8pArTn9TfiHb0a7G.3hweLUU8W71SyRyp'

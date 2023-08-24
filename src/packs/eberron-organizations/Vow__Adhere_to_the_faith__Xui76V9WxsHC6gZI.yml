@@ -1,0 +1,53 @@
+_id: Xui76V9WxsHC6gZI
+effects: []
+folder: null
+img: systems/swade/assets/icons/hindrance.svg
+name: Vow (Adhere to the faith)
+sort: 0
+type: hindrance
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  description: >-
+    <article class="swade-core">
+
+    <p>(MINOR OR MAJOR)</p>
+
+    <p>The character has sworn an oath to someone or something he believes
+    in.</p>
+
+    <p>The danger in fulfilling the Vow and how often it might occur determines
+    the level of the
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrance}.
+    A
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Minor}
+    Vow might be to serve an order with a broad mandate that rarely conflicts
+    with the party’s goals.</p>
+
+    <p>A
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Major}
+    Vow makes long-term and frequent demands on the servant’s time and results
+    in great risks to his life.</p>
+
+    </article>
+  major: true
+  notes: ''
+  favorite: false
+  grants: []
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-hindrances.Item.97ulajnqpnVgGb63
+  swade:
+    hasGranted: []
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692736701586
+  modifiedTime: 1692736789780
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!uDeXDscxqoTIkKio.Xui76V9WxsHC6gZI'

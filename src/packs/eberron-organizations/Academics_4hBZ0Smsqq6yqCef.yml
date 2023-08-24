@@ -1,0 +1,37 @@
+effects: []
+folder: 8aQxNRrcNXPC1mrR
+img: systems/swade/assets/icons/skills/graduate-cap.svg
+name: Academics
+type: skill
+system:
+  description: >-
+    <article class="swade-core"><p>Academics reflects knowledge of the liberal
+    arts, social sciences, literature, history, archaeology, and similar fields.
+    If an explorer wants to remember when the Mayan calendar ended or cite a
+    line from <cite>Macbeth</cite>, this is the skill to have.</p></article>
+  notes: ''
+  additionalStats: {}
+  attribute: smarts
+  isCoreSkill: false
+  die:
+    sides: 8
+    modifier: 0
+  wild-die:
+    sides: 6
+  source: ''
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-skills.Item.m5TZJMJA0lePG3AB
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690923159702
+  modifiedTime: 1692061984217
+  lastModifiedBy: Xbne19Xghka479we
+_id: 4hBZ0Smsqq6yqCef
+sort: 0
+_key: '!actors.items!8pArTn9TfiHb0a7G.4hBZ0Smsqq6yqCef'

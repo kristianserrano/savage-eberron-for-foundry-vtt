@@ -1,0 +1,27 @@
+icon: icons/magic/control/buff-strength-muscle-damage-orange.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    favorite: true
+changes:
+  - key: system.attributes.strength.die.modifier
+    mode: 2
+    value: '2'
+    priority: null
+transfer: true
+_id: 1wQzbJq5vnB2AasU
+disabled: true
+origin: null
+tint: null
+name: Stability
+description: ''
+statuses: []
+_key: '!actors.items.effects!8pArTn9TfiHb0a7G.oI9V4XsfrMf6JP61.1wQzbJq5vnB2AasU'

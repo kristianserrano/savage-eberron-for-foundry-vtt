@@ -1,0 +1,214 @@
+folder: whNERinkBMTo6GGv
+name: Aurum Concordian
+type: npc
+_id: 8pArTn9TfiHb0a7G
+img: modules/swade-fantasy-companion/assets/tokens/fc_token_A_15.webp
+system:
+  attributes:
+    agility:
+      die:
+        sides: 4
+        modifier: 0
+      wild-die:
+        sides: 6
+    smarts:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+      animal: false
+    spirit:
+      unShakeBonus: 0
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+    strength:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+      encumbranceSteps: 0
+    vigor:
+      unStunBonus: 0
+      soakBonus: 0
+      bleedOut:
+        modifier: 0
+        ignoreWounds: false
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+  stats:
+    speed:
+      runningDie: 6
+      runningMod: 0
+      value: 6
+    toughness:
+      value: 0
+      armor: 0
+      modifier: 0
+    parry:
+      value: 0
+      modifier: 0
+      shield: 0
+    size: 0
+  details:
+    autoCalcToughness: true
+    autoCalcParry: true
+    archetype: ''
+    appearance: ''
+    notes: ''
+    goals: ''
+    biography:
+      value: ''
+    species:
+      name: ''
+    currency: 0
+    wealth:
+      die: 6
+      modifier: 0
+      wild-die: 6
+    conviction:
+      value: 0
+      active: false
+  powerPoints:
+    general:
+      value: 0
+      max: 0
+  fatigue:
+    value: 0
+    max: 2
+    ignored: 0
+  wounds:
+    value: 0
+    max: 0
+    ignored: 0
+  woundsOrFatigue:
+    ignored: 0
+  advances:
+    mode: expanded
+    value: 0
+    rank: Novice
+    details: ''
+    list: []
+  bennies:
+    value: 2
+    max: 2
+  status:
+    isShaken: false
+    isDistracted: false
+    isVulnerable: false
+    isStunned: false
+    isEntangled: false
+    isBound: false
+    isIncapacitated: false
+  initiative:
+    hasHesitant: false
+    hasLevelHeaded: false
+    hasImpLevelHeaded: false
+    hasQuick: false
+  additionalStats: {}
+  wildcard: false
+prototypeToken:
+  name: Aurum Concordian
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/swade-fantasy-companion/assets/tokens/fc_token_A_15.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  flags: {}
+  randomImg: false
+items:
+  - ye4RUjcRqBWifYZL
+  - EWTBz5hAJM188iBW
+  - oI9V4XsfrMf6JP61
+  - BM9wlc0jKRaix2wZ
+  - 3hweLUU8W71SyRyp
+  - VoDT0SvrNEbgDBMI
+  - zOVBNQPotTuUGQb8
+  - 4hBZ0Smsqq6yqCef
+  - 2lmZD0pYS6HNLqeA
+  - wZcGRHHYUtQkiO3d
+  - Uzi1u4xMhuwk016G
+  - Pj9OwFRxhBHI2W81
+  - denU9wRF2jLFIHso
+  - NyMgVruG3IWnpkqA
+  - MDkNuNerbc2gZNjv
+  - VIQsBGt8mEbiZ9JN
+  - esd0rF23800AWK6A
+  - CKLzvUK0Vqhe5oCH
+  - 8jV7FSLwqEJ7YWUM
+  - YGvpXxn1uatnAtu6
+  - yrT1qRVd7qRJhY2t
+  - SKgTrQYjeqe51r2B
+  - QHpUnqo62iKdBa1H
+  - cTWO1eKxZ8JaznSI
+  - acqIpXFDeqptvBGa
+  - j4ceIsAZybipnPvc
+effects: []
+flags:
+  core:
+    sheetClass: ''
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692061956178
+  modifiedTime: 1692846742727
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!actors!8pArTn9TfiHb0a7G'

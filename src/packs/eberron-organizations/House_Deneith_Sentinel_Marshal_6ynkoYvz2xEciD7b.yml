@@ -1,0 +1,220 @@
+folder: 60oZUurgqUx9pdS9
+name: House Deneith Sentinel Marshal
+type: npc
+_id: 6ynkoYvz2xEciD7b
+img: modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp
+system:
+  attributes:
+    agility:
+      die:
+        sides: 10
+        modifier: 0
+      wild-die:
+        sides: 6
+    smarts:
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      animal: false
+    spirit:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+      unShakeBonus: 0
+    strength:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+      encumbranceSteps: 0
+    vigor:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+      unStunBonus: 0
+      soakBonus: 0
+      bleedOut:
+        modifier: 0
+        ignoreWounds: false
+  stats:
+    speed:
+      runningDie: 6
+      runningMod: 0
+      value: 6
+    toughness:
+      value: 0
+      armor: 0
+      modifier: 0
+    parry:
+      value: 0
+      shield: 0
+      modifier: 0
+    size: 0
+  details:
+    autoCalcToughness: true
+    autoCalcParry: true
+    archetype: ''
+    appearance: ''
+    notes: ''
+    goals: ''
+    biography:
+      value: ''
+    species:
+      name: ''
+    currency: 0
+    wealth:
+      die: 6
+      modifier: 0
+      wild-die: 6
+    conviction:
+      value: 0
+      active: false
+  powerPoints:
+    general:
+      value: null
+      max: 0
+  fatigue:
+    value: 0
+    max: 2
+    ignored: 0
+  wounds:
+    value: 0
+    max: 0
+    ignored: 0
+  woundsOrFatigue:
+    ignored: 0
+  bennies:
+    value: 0
+    max: 2
+  advances:
+    mode: expanded
+    value: 0
+    rank: Novice
+    details: ''
+    list: []
+  status:
+    isShaken: false
+    isDistracted: false
+    isVulnerable: false
+    isStunned: false
+    isEntangled: false
+    isBound: false
+    isIncapacitated: false
+  initiative:
+    hasHesitant: false
+    hasLevelHeaded: false
+    hasImpLevelHeaded: false
+    hasQuick: false
+  additionalStats: {}
+  wildcard: false
+prototypeToken:
+  name: House Deneith Sentinel Marshal
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  flags: {}
+  randomImg: false
+items:
+  - SE36GznRRFaMdi7y
+  - 3c224A15sXLPljK8
+  - QH5x8OaE8KrgMtYN
+  - ii6RpBaprCMDeeSD
+  - n3vu7E3SBVTweFv9
+  - IrVfj0DS5stqDpqG
+  - ui83YoJZPwGG18HY
+  - DUaGmArbe9748eon
+  - 1rQu8oUj7Hg5kU0j
+  - EUs3334KqwiPq45T
+  - KO9Oa2MG8yOibXzf
+  - BcgOFI4p2I7sH0s5
+  - qbgC0AhXQNmZSFDV
+  - 8af4diOi3hxZ8bVy
+  - eXjJ3ctQwD0fVrk1
+  - FkzczULDZ5fkiSnR
+  - 4ReunYIthkTYCBby
+  - BSiIEQvXi6YsMK3P
+  - ErwqalakBD8K9B8X
+  - sFFxTjUHHiLiFDYr
+  - 2vhmpaKNpMbpQD59
+  - ilkANezIF7xTsFWT
+  - eKYVQqzte84pul49
+  - pRZ53sY2YzYMJJVt
+  - hGMHdCIL64ja9jod
+  - 3tOSqbAVUO7uR0zg
+  - lhv7j0gqRiVQwEdr
+  - FIYeIGfvmXqAkpiZ
+  - i6mTi0OB7EwDMDtR
+  - zW6UiqeIFVacsOm2
+  - NxUcyG4k7MDa9DTq
+  - jNCoZcUht6s4Bgtd
+  - cxR8p01bYQqqAE7P
+  - ulloODnpdgSzdYHo
+effects: []
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692843972546
+  modifiedTime: 1692846742727
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!actors!6ynkoYvz2xEciD7b'

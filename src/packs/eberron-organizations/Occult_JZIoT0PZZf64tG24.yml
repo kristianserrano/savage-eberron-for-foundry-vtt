@@ -1,0 +1,45 @@
+_id: JZIoT0PZZf64tG24
+effects: []
+folder: null
+img: systems/swade/assets/icons/skills/curled-tentacle.svg
+name: Occult
+sort: 0
+type: skill
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  attribute: smarts
+  description: >-
+    <article class="swade-core"><p>Occult reflects knowledge and experience with
+    the paranormal most others don’t even believe exists. It can be used to
+    decipher strange pictograms, recall information about supernatural
+    creatures, remember cures for monstrous maladies like lycanthropy or
+    vampirism, or perform rituals.</p>
+
+    <p>Finding information in a library, newspaper morgue, old tome, the
+    internet, etc., uses the
+    @Compendium[swade-core-rules.swade-skills.Research]{Research} skill. As
+    noted there, however, if the investigator’s Occult skill is higher she may
+    use that instead.</p></article>
+  die:
+    modifier: 0
+    sides: 6
+  isCoreSkill: false
+  notes: ''
+  wild-die:
+    sides: 6
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-skills.Item.XMNmVhwrZmL47Vhg
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692826609098
+  modifiedTime: 1692826613787
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!ibbHwKlbWp2IWiah.JZIoT0PZZf64tG24'

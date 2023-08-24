@@ -1,0 +1,61 @@
+folder: 7hy4KW6bL662vETu
+name: Holy Symbol, flametouched iron
+type: gear
+_id: E2S4y5JiqET1EGn8
+img: icons/magic/holy/barrier-shield-winged-blue.webp
+system:
+  description: >-
+    <p>When brandishing the holy symbol while using the
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-weapons.Item.tyHmc5eVHolP1nog]{Destroy
+    Undead} Edge, the damage increases to 3d6 (or 4d6 for two Power Points)</p>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 1
+  price: 750
+  equippable: false
+  equipStatus: 3
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    dmgMod: ''
+    additional:
+      WwKpe9sx:
+        name: Turn Undead 3d6
+        type: damage
+        isHeavyWeapon: false
+        override: 3d6
+      u2RKbs8l:
+        name: Turn Undead 4d6
+        type: damage
+        isHeavyWeapon: false
+        override: 4d6
+    trait: ''
+    traitMod: ''
+  favorite: false
+  category: Tools and Skill Kits
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  source: Eberron for Savage Worlds
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.savage-eberron.eberron-gear.Item.y3BicMFIsnN7vPlB
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1691347847052
+  modifiedTime: 1692741036435
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!uDeXDscxqoTIkKio.E2S4y5JiqET1EGn8'

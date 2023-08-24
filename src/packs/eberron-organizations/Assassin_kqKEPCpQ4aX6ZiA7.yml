@@ -1,0 +1,44 @@
+_id: kqKEPCpQ4aX6ZiA7
+effects: []
+folder: null
+img: systems/swade/assets/icons/edge.svg
+name: Assassin
+sort: 0
+type: edge
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  description: >-
+    <article class="swade-core">
+
+    <p>Assassins are trained killers who know how to kill even the toughest
+    foes. They add +2 to damage rolls when their foe is
+    @Compendium[swade-core-rules.swade-rules.Distracted and
+    Vulnerable]{Vulnerable} or they have
+    @Compendium[swade-core-rules.swade-rules.The Drop]{The Drop}</p>
+
+    </article>
+  isArcaneBackground: false
+  notes: ''
+  requirements:
+    value: Novice, Agility d8+, Fighting d6+, Stealth d8+
+  category: Professional
+  favorite: false
+  grants: []
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-edges.Item.SQWwXROHkknpRJk9
+  swade:
+    hasGranted: []
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692676942941
+  modifiedTime: 1692676942965
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!IkMjWChiTfe0Rbmn.kqKEPCpQ4aX6ZiA7'

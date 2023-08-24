@@ -1,0 +1,50 @@
+_id: HjUxOgAU9sBpQJsJ
+name: Favored Power (summon monster)
+type: edge
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  source: Fantasy Companion
+  description: >-
+    <article class="swadefc"><h3>Favored Power</h3>
+
+    <section class="description">
+
+    <p>The caster has dedicated his time to mastering a particular spell,
+    miracle, or weird science device.</p>
+
+    <p>
+     Choose one of your character's powers. She may ignore up to two points of
+     <em>any</em> penalties (Multi-Action, Wounds, Fatigue, etc.) when activating that power.
+     </p>
+    </section></article>
+  notes: ''
+  additionalStats: {}
+  isArcaneBackground: false
+  requirements:
+    value: Seasoned, Arcane Background (Any), arcane skill d8+
+  category: Power
+  favorite: false
+  grants: []
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-edges.Item.brMue3rsealebfXu
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+  swade:
+    hasGranted: []
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692676959955
+  modifiedTime: 1692676974617
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!IkMjWChiTfe0Rbmn.HjUxOgAU9sBpQJsJ'

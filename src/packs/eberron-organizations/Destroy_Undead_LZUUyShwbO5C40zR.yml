@@ -1,0 +1,59 @@
+_id: LZUUyShwbO5C40zR
+name: Destroy Undead
+type: edge
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  source: Fantasy Companion
+  description: |-
+    <article class="swadefc"><h3>Destroy Undead</h3>
+    <p>
+     The undead are abominations to good clerics. The dead have passed on to their just rewards and should not return
+     to the land of the living. It is little wonder then that these holy men and women are so often called to stand
+     against the raging hordes of the undead.
+     </p>
+    <p>
+     Evil clerics can also destroy those undead creatures that stand in their path. Perhaps it is their affinity with
+     unnatural things, or perhaps their deity simply grants the power to clear their servants' path to greater mayhem.
+     </p>
+    <p>
+     As a limited action, the champion spends one Power Point to channel positive energy in a Large Blast Template
+     centered on herself. Every undead creature within the template automatically takes 2d6 damage (or 3d6 damage for
+     two Power Points).
+     </p></article>
+  notes: ''
+  additionalStats: {}
+  isArcaneBackground: false
+  requirements:
+    value: Seasoned, Arcane Background (Cleric)
+  category: Cleric
+  grants:
+    - name: Destroy Undead
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Faith.webp
+      uuid: Compendium.swade-fantasy-companion.swade-fc-powers.Item.dvZ37wLDjTqrT1BF
+      mutation:
+        name: Destroy Undead
+  favorite: false
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-edges.Item.WuXVpDUll8DzKTRr
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+  swade:
+    hasGranted:
+      - KKnhWEU8uCUrzsUL
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692742354920
+  modifiedTime: 1692742354997
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!uDeXDscxqoTIkKio.LZUUyShwbO5C40zR'

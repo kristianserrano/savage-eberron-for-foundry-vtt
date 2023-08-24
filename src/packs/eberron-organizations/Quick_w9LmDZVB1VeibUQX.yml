@@ -1,0 +1,38 @@
+_id: w9LmDZVB1VeibUQX
+changes:
+  - key: system.initiative.hasQuick
+    mode: 5
+    value: 'True'
+    priority: null
+disabled: false
+duration:
+  startTime: 12
+  seconds: null
+  combat: null
+  rounds: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags: {}
+icon: systems/swade/assets/icons/edge.svg
+name: Quick
+tint: null
+transfer: true
+description: >-
+  <article class="swade-core">
+
+  <p>Quick characters have lightning-fast reflexes and a cool head. Whenever you
+  are dealt an @Compendium[swade-core-rules.swade-rules.Action Cards
+  (Initiative)]{Action Card} of Five or lower, you may discard it and draw again
+  until you get a card higher than Five.</p>
+
+  <p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Characters}
+  with both the @Compendium[swade-core-rules.swade-edges.Level Headed]{Level
+  Headed} and Quick Edges first draw their additional card and choose which to
+  take. If that card is a Five or less, the Quick Edge may be used to draw a
+  replacement until it’s Six or higher.</p>
+
+  </article>
+origin: null
+statuses: []
+_key: '!actors.items.effects!IkMjWChiTfe0Rbmn.EZQL8L9MEbkCEdik.w9LmDZVB1VeibUQX'

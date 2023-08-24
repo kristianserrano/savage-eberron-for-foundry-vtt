@@ -1,0 +1,86 @@
+_id: N3id12OBQ0Te7g30
+effects: []
+folder: null
+img: systems/swade/assets/icons/skills/hidden.svg
+name: Stealth
+sort: 0
+type: skill
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  attribute: agility
+  description: >-
+    <article class="swade-core">
+
+    <p>Stealth is the ability to hide and move quietly. A simple
+    @Compendium[swade-core-rules.swade-rules.Trait Rolls]{success} on a Stealth
+    roll means the character avoids detection if enemies aren’t particularly
+    alert. If the character @Compendium[swade-core-rules.swade-rules.Trait
+    Rolls]{fails} the roll, the enemy realizes something is amiss and begins
+    actively searching for whatever roused them.</p>
+
+    <p>Once foes are alerted and active, Stealth is opposed by
+    @Compendium[swade-core-rules.swade-skills.Notice]{Notice} (a
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{group
+    roll} if there are many foes.</p>
+
+    <p>The GM should apply any circumstantial penalties to
+    @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls for
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{darkness},
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{cover},
+    noise, distractions, and any difference in the target’s
+    @Compendium[swade-core-rules.swade-rules.Size and Scale]{Scale} (just like
+    when attacking). Sneaking through dry leaves might subtract 2 from the
+    Stealth roll, for example, while spotting someone in the dark uses the
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination}
+    penalty (−4). Don’t apply the same modifier to both rolls, however. If
+    Stealth is at −2 for the leaves, don’t give Notice a +2 for them as
+    well.</p>
+
+    <p><strong>Sneak Attack: </strong> Sneaking up close enough to make a melee
+    attack <em>always</em> requires an
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed}
+    Stealth roll versus the target’s
+    @Compendium[swade-core-rules.swade-skills.Notice]{Notice}, whether the guard
+    is actively looking for trouble or not. If successful, the victim is
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{Vulnerable}
+    to the attacker, but only until the attacker’s turn ends. With a raise, the
+    attacker has
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{The
+    Drop} instead.</p>
+
+    <p><strong>Movement:</strong> In combat, characters roll Stealth each turn
+    as a
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free
+    action} at the end of their move or any action the GM thinks might draw
+    attention.</p>
+
+    <p>Out of combat, the distance moved depends entirely on the situation. The
+    GM might want a roll every minute if the group is sneaking around the
+    perimeter of a defensive position, or every few miles if they’re trying to
+    quietly walk the path through a dark forest without alerting the creatures
+    that live there.</p>
+
+    </article>
+  die:
+    modifier: 0
+    sides: 4
+  isCoreSkill: false
+  notes: ''
+  wild-die:
+    sides: 6
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692826642122
+  modifiedTime: 1692826642122
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!ibbHwKlbWp2IWiah.N3id12OBQ0Te7g30'

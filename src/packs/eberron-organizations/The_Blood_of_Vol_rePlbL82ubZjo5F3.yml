@@ -1,0 +1,16 @@
+name: The Blood of Vol
+sorting: a
+folder: null
+type: Actor
+_id: rePlbL82ubZjo5F3
+sort: 200000
+color: null
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692670137310
+  modifiedTime: 1692846742570
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!folders!rePlbL82ubZjo5F3'

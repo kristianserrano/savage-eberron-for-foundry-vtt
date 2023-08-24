@@ -1,0 +1,116 @@
+_id: 54DmYqztmm8gx8KW
+name: Zombie
+type: power
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+system:
+  description: >-
+    <article class="swadefc"><p>
+      <em>Zombie</em> grants animation and basic intelligence to the remains of a once-living being. The summoned horror
+        is obedient but literal-minded in its duties. It isn't telepathic, and must be controlled by voice.
+      </p>
+    <p>
+        The being has the physical skills it had in life, but its Smarts, Spirit, and related skills are reset to d4. A
+        raise on the casting roll increases any one of their Traits one die type (caster's choice).
+      </p>
+    <p>
+        See Savage Worlds for the standard profile of a human zombie. Corpses aren't summoned by this ability, so there must
+        actually be a supply of bodies in Range (GM's call).
+      </p>
+    <p>An undead Incapacitated by damage can't be raised with this power
+    again.</p>
+
+    <div><strong>Modifiers</strong></div>
+
+    <ul>
+
+    <li>
+
+    <strong>Additional Zombies (+1):</strong> A larger horde can be raised in a
+    single casting by paying an additional
+          1 Power Point for each extra <em>zombie</em> raised.
+        </li>
+    <li>
+
+    <strong>Armed &amp; Armored (+1 per Zombie):</strong> The dead rise with +2
+    armor and weapons common to their
+          background or environment. Choose one:
+          <ul>
+    <li><strong>Hand Weapon:</strong> Str+d6.</li>
+
+    <li><strong>Ranged Weapon:</strong> Range 12/24/48, Damage 2d6.</li>
+
+    </ul>
+
+    </li>
+
+    <li>
+
+    <strong>Mind Rider (+1):</strong> The caster can communicate and sense
+    through one of the undead he's conjured in
+          this casting.
+        </li>
+    <li>
+
+    <strong>Permanent (0):</strong> The <em>zombie</em> is given unlife until
+    Incapacitated by Wounds. The Power
+          Points used to raise it are “invested” and unavailable until it's destroyed. The necromancer may terminate his
+          creations' unlife at any time, regardless of sight, distance, or other factors. His Power Points then begin
+          recharging normally.
+          <p>Permanent zombies remain animated even if their creator is slain!</p>
+    </li>
+
+    <li>
+
+    <strong>Skeletal (+1 per Zombie):</strong> The corpse sloughs off the anchor
+    of dead flesh and rises as a
+          skeleton. Use the skeleton profile instead of the zombie.
+        </li>
+    </ul></article>
+  notes: ''
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  rank: Veteran
+  pp: 3
+  damage: ''
+  range: Smarts
+  duration: One hour
+  trapping: Carving symbols on corpses, throwing bones, graveyards.
+  arcane: ''
+  ap: 0
+  innate: false
+  modifiers: []
+  source: Fantasy Companion
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-powers.Item.9LqSSV7O3rJi3uPS
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692066875384
+  modifiedTime: 1692066875384
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!5l0SaRBXT8mht8dL.54DmYqztmm8gx8KW'

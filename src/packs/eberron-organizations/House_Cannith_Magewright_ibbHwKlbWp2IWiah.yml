@@ -1,0 +1,217 @@
+folder: 60oZUurgqUx9pdS9
+name: House Cannith Magewright
+type: npc
+_id: ibbHwKlbWp2IWiah
+img: modules/swade-fantasy-companion/assets/tokens/fc_token_M_15.webp
+system:
+  attributes:
+    agility:
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+    smarts:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+      animal: false
+    spirit:
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      unShakeBonus: 0
+    strength:
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      encumbranceSteps: 0
+    vigor:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+      unStunBonus: 0
+      soakBonus: 0
+      bleedOut:
+        modifier: 0
+        ignoreWounds: false
+  stats:
+    speed:
+      runningDie: 6
+      runningMod: 0
+      value: 6
+    toughness:
+      value: 0
+      armor: 0
+      modifier: 0
+    parry:
+      value: 0
+      shield: 0
+      modifier: 0
+    size: 0
+  details:
+    autoCalcToughness: true
+    autoCalcParry: true
+    archetype: ''
+    appearance: ''
+    notes: ''
+    goals: ''
+    biography:
+      value: ''
+    species:
+      name: ''
+    currency: 0
+    wealth:
+      die: 6
+      modifier: 0
+      wild-die: 6
+    conviction:
+      value: 0
+      active: false
+  powerPoints:
+    general:
+      value: 10
+      max: 10
+    Magewright:
+      value: 0
+      max: 0
+  fatigue:
+    value: 0
+    max: 2
+    ignored: 0
+  wounds:
+    value: 0
+    max: 0
+    ignored: 0
+  woundsOrFatigue:
+    ignored: 0
+  bennies:
+    value: 0
+    max: 2
+  advances:
+    mode: expanded
+    value: 0
+    rank: Novice
+    details: ''
+    list: []
+  status:
+    isShaken: false
+    isDistracted: false
+    isVulnerable: false
+    isStunned: false
+    isEntangled: false
+    isBound: false
+    isIncapacitated: false
+  initiative:
+    hasHesitant: false
+    hasLevelHeaded: false
+    hasImpLevelHeaded: false
+    hasQuick: false
+  additionalStats: {}
+  wildcard: false
+prototypeToken:
+  name: House Cannith Magewright
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/swade-fantasy-companion/assets/tokens/fc_token_M_15.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  flags: {}
+  randomImg: false
+items:
+  - UxQM5gZQ0FEbETWT
+  - YmrmQs3LtK3dqnXL
+  - B8zut9U2wKVE6wZu
+  - RL2iiAbPwVawMgFl
+  - fxOeUauroSq708Q2
+  - 2Jm5Yni0m6ezpYh4
+  - qzzRGisd75fRazzV
+  - JZIoT0PZZf64tG24
+  - Zyy32sM1e6cTRb4k
+  - rGX8TJYaBMcd0Kix
+  - N3id12OBQ0Te7g30
+  - wbb3Z2lnECJsP5kx
+  - ywxdwOX4RUDIoaRs
+  - VWmRObaih7P9xyud
+  - 9NPaaBcgzjfbgcTC
+  - yoSrqA6QHRDdKbuv
+  - 82uThVcMw9N55FsV
+  - TMpayUilpc90ga56
+  - hzH8qO3I6bxZVyd8
+  - WveUxTtgBu9j9zl4
+  - 5e1S2ULr799gytSO
+  - haVgZZEvW6hdOlxX
+  - pQfGShzsnwFd3o8Q
+  - DaYbJUbiJD4KhtVw
+  - 1PAMfdEjeTEn1VfL
+  - eTFM4KT4RVOsbUfk
+  - s3T7mCSyoVtC6GDQ
+  - 51EGyieQx4Nzx65E
+effects: []
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692761776332
+  modifiedTime: 1692846742727
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!actors!ibbHwKlbWp2IWiah'

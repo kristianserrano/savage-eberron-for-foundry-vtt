@@ -1,0 +1,33 @@
+folder: eCJqtpXb79wfr94X
+name: Adaptable
+type: ability
+_id: 1zHCH9NRmUUJzlKW
+img: icons/commodities/treasure/medal-ribbon-striped-gold-red.webp
+system:
+  description: >-
+    <p>Humans begin play with one free
+    @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000#edges]{Edge}.
+    They must meet its Requirements as usual.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Human
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1690322403381
+  modifiedTime: 1692736175315
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!uDeXDscxqoTIkKio.1zHCH9NRmUUJzlKW'

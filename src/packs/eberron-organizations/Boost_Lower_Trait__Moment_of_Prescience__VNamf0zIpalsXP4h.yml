@@ -1,0 +1,58 @@
+name: Boost/Lower Trait (Moment of Prescience)
+type: power
+_id: VNamf0zIpalsXP4h
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp
+system:
+  description: >-
+    <p>As per the
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nDlqRLIhrZBc8Lko]{Fantasy
+    Companion}</em> but with the following additional Epic Power
+    Modifier.</p><p><strong>Modifiers</strong></p><ul><li
+    class="savage-eberron--epic-modifier"><p><strong>Moment of Prescience
+    (+2):</strong> <em>Boost Trait</em> only. Add a +1 bonus for 2 additional
+    Power Points each (+4 maximum) to a single roll made during the power’s
+    duration.</p></li></ul><p></p>
+  notes: ''
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  rank: Novice
+  pp: 0
+  damage: ''
+  range: ''
+  duration: ''
+  trapping: ''
+  arcane: ''
+  ap: 0
+  innate: false
+  modifiers: []
+  source: Eberron for Savage Worlds
+effects: []
+folder: null
+sort: 100000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1690159738989
+  modifiedTime: 1692066787918
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!5l0SaRBXT8mht8dL.VNamf0zIpalsXP4h'

@@ -1,0 +1,37 @@
+_id: flupjX1hrD0eAll4
+effects: []
+folder: null
+img: systems/swade/assets/icons/skills/gift-of-knowledge.svg
+name: Common Knowledge
+sort: 0
+type: skill
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  attribute: smarts
+  description: >-
+    <article class="swade-core"><p>Characters roll Common Knowledge to know
+    people, places, and things of their world, including etiquette, geography,
+    culture, popular technology, contacts, and customs.</p></article>
+  die:
+    modifier: 0
+    sides: 8
+  isCoreSkill: false
+  notes: ''
+  wild-die:
+    sides: 6
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-skills.Item.su7eyijoB0RFpRB1
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692670292615
+  modifiedTime: 1692670295045
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!W0ZGeEoKtF4ERK4i.flupjX1hrD0eAll4'

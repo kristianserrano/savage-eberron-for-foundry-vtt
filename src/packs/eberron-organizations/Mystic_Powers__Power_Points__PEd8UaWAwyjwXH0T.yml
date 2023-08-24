@@ -1,0 +1,23 @@
+_id: PEd8UaWAwyjwXH0T
+name: Mystic Powers (Power Points)
+icon: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp
+changes:
+  - key: system.powerPoints.general.max
+    mode: 2
+    value: '10'
+    priority: null
+disabled: false
+duration:
+  startTime: 12
+  seconds: null
+  combat: null
+  rounds: null
+  turns: null
+  startRound: null
+  startTurn: null
+description: ''
+origin: null
+transfer: true
+statuses: []
+flags: {}
+_key: '!actors.items.effects!6ynkoYvz2xEciD7b.BSiIEQvXi6YsMK3P.PEd8UaWAwyjwXH0T'

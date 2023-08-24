@@ -1,0 +1,43 @@
+_id: 6Ccb5FeDrM4mRsvv
+effects: []
+folder: null
+img: systems/swade/assets/icons/skills/punch.svg
+name: Fighting
+sort: 0
+type: skill
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  attribute: agility
+  description: >-
+    <article class="swade-core">
+
+    <p>Fighting covers all hand-to-hand (melee) attacks, whether it’s with
+    fists, axes, laser swords, or martial arts. See
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{Chapter
+    Three} for the combat rules and the various maneuvers a warrior might
+    attempt.</p>
+
+    </article>
+  die:
+    modifier: 0
+    sides: 4
+  isCoreSkill: false
+  notes: ''
+  wild-die:
+    sides: 6
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692736260329
+  modifiedTime: 1692736260329
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!uDeXDscxqoTIkKio.6Ccb5FeDrM4mRsvv'

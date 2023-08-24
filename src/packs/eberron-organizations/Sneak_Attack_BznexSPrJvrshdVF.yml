@@ -1,0 +1,25 @@
+_id: BznexSPrJvrshdVF
+name: Sneak Attack
+icon: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+changes:
+  - key: system.stats.globalMods.damage
+    mode: 2
+    value: 1d6
+    priority: null
+flags:
+  swade:
+    conditionalEffect: true
+disabled: false
+duration:
+  startTime: 12
+  seconds: null
+  combat: null
+  rounds: null
+  turns: null
+  startRound: null
+  startTurn: null
+description: ''
+origin: null
+transfer: true
+statuses: []
+_key: '!actors.items.effects!IkMjWChiTfe0Rbmn.obgATOTqpNrL2Eud.BznexSPrJvrshdVF'

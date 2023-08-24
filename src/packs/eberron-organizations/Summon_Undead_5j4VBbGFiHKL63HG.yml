@@ -1,0 +1,244 @@
+_id: 5j4VBbGFiHKL63HG
+name: Summon Undead
+type: power
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+system:
+  description: >-
+    <article class="swadefc"><p>
+        The <em>@Compendium[swade-fantasy-companion.swade-fc-powers.Zombie]{zombie}</em> power raises basic undead that serve a necromancer's whims for an hour. Summon
+        undead doesn't require existing corpses but brings them from wherever they currently haunt to the necromancer's
+        current location. They serve for a limited time, but are much more powerful than those typically summoned in
+        groaning hordes of walking dead or clinking mobs of chattering skeletons.
+      </p>
+    <p>
+        Summoned undead appear as listed in the Bestiary of this book or <em>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor00introd.JournalEntryPage.00introduction00]{Savage Worlds}</em>, including any equipment in their profile.
+      </p>
+    <p>When the power expires, the loathsome dead fade back through shadow to
+    their original location.</p>
+
+    <div><strong>Modifiers</strong></div>
+
+    <ul>
+
+    <li class="epic-power-icon">
+
+    <strong>Additional Undead (Varies):</strong> Additional undead of the same
+    type may be summoned at the same time
+          for half the Power Points cost of the original summons (total cost including modifiers, rounded up).
+        </li>
+    <li>
+
+    <strong>Increased Trait (+1):</strong> The caster can increase the monster's
+    Trait one die type for one Power
+          Point. She may do this for as many Traits as she likes, but only once per Trait.
+        </li>
+    <li><strong>Mind Rider (+1):</strong> The caster can communicate and sense
+    through the undead.</li>
+
+    </ul>
+
+    <section class="info-table-wrapper">
+
+    <table data-id="lNHu29uxB7bxztVc">
+
+    <colgroup>
+
+    <col/>
+
+    <col/>
+
+    <col/>
+
+    </colgroup>
+
+    <tbody>
+
+    <tr>
+
+    <td colspan="3">Summon Undead</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Monster</td>
+
+    <td>Rank</td>
+
+    <td>Cost</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Ghost Blade</td>
+
+    <td>S</td>
+
+    <td>8</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Ghoul</td>
+
+    <td>S</td>
+
+    <td>5</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Grave Guardian</td>
+
+    <td>S</td>
+
+    <td>6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Guardian Mummy</td>
+
+    <td>S</td>
+
+    <td>5</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Shadow</td>
+
+    <td>S</td>
+
+    <td>6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Skeleton</td>
+
+    <td>N</td>
+
+    <td>3</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Skeleton, Flaming</td>
+
+    <td>S</td>
+
+    <td>6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Skeleton, Motley</td>
+
+    <td>S</td>
+
+    <td>6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Skeleton, Giant</td>
+
+    <td>S</td>
+
+    <td>5</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Wight</td>
+
+    <td>S</td>
+
+    <td>7</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Zombie</td>
+
+    <td>N</td>
+
+    <td>3</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Ghost</td>
+
+    <td>N</td>
+
+    <td>4</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+    </section></article>
+  notes: ''
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  rank: Novice
+  pp: 0
+  damage: ''
+  range: Smarts
+  duration: '5'
+  trapping: Clay figure that grows into a servant, a tattoo.
+  arcane: ''
+  ap: 0
+  innate: false
+  modifiers: []
+  source: Fantasy Companion
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-powers.Item.hiEt02H8XQBVjgfS
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692066867160
+  modifiedTime: 1692066867160
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!5l0SaRBXT8mht8dL.5j4VBbGFiHKL63HG'

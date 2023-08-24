@@ -1,0 +1,84 @@
+_id: pQfGShzsnwFd3o8Q
+name: Alchemist's Fire
+type: weapon
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Science.webp
+system:
+  source: Fantasy Companion
+  description: >-
+    <article class="swadefc">
+
+    <em>Notes:</em> A sticky, flammable liquid that ignites on impact. Heavy
+    Weapon. Those within the template
+              take 2d4 damage when hit and 2d4-2 damage at the start of their next turn unless dowsed with water. Target
+              might catch Fire (see <em>Savage Worlds</em>).</article>
+  notes: >-
+    <article class="swadefc"><em>Notes:</em> Thrown like a grenade. A sticky,
+    flammable liquid that ignites on impact. Heavy Weapon. Those  within the
+    template take 2d4 damage when hit and 2d4–2 damage at          the start of
+    their next turn unless dowsed with water. Target  might catch Fire (see
+    <em>Savage Worlds</em>).</article>
+  additionalStats: {}
+  quantity: 1
+  weight: 1
+  price: 20
+  equippable: true
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    dmgMod: ''
+    trait: Athletics
+    traitMod: ''
+    additional: {}
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: true
+    medium: false
+    large: false
+  category: Alchemical Weapons
+  grants: []
+  grantOn: 1
+  damage: 2d4
+  range: 3/6/12
+  rof: 1
+  ap: 0
+  parry: 0
+  minStr: d6
+  shots: 0
+  currentShots: 0
+  ammo: ''
+  reloadType: none
+  ppReloadCost: 0
+  trademark: 0
+  isHeavyWeapon: false
+  equipStatus: 4
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-weapons.Item.we3gPBklANCR0001
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+    fullDescription: ' | Ranged Weapons | '
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692843638872
+  modifiedTime: 1692843654517
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!ibbHwKlbWp2IWiah.pQfGShzsnwFd3o8Q'

@@ -1,0 +1,238 @@
+folder: jVMGstLOWrh7UtRw
+name: Silver Flame Priest
+type: npc
+_id: uDeXDscxqoTIkKio
+img: modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp
+system:
+  attributes:
+    agility:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+    smarts:
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      animal: false
+    spirit:
+      die:
+        sides: 10
+        modifier: 0
+      wild-die:
+        sides: 6
+      unShakeBonus: 0
+    strength:
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      encumbranceSteps: 0
+    vigor:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+      unStunBonus: 0
+      soakBonus: 0
+      bleedOut:
+        modifier: 0
+        ignoreWounds: false
+  stats:
+    speed:
+      runningDie: 6
+      runningMod: 0
+      value: 6
+    toughness:
+      value: 0
+      armor: 0
+      modifier: 0
+    parry:
+      value: 0
+      shield: 0
+      modifier: 0
+    size: 0
+  details:
+    autoCalcToughness: true
+    autoCalcParry: true
+    archetype: ''
+    appearance: ''
+    notes: ''
+    goals: ''
+    biography:
+      value: ''
+    species:
+      name: ''
+    currency: 0
+    wealth:
+      die: 6
+      modifier: 0
+      wild-die: 6
+    conviction:
+      value: 0
+      active: false
+  powerPoints:
+    general:
+      value: 10
+      max: 10
+    Miracles:
+      value: 0
+      max: 0
+    Cleric:
+      value: 0
+      max: 0
+  fatigue:
+    value: 0
+    max: 2
+    ignored: 0
+  wounds:
+    value: 0
+    max: 0
+    ignored: 0
+  woundsOrFatigue:
+    ignored: 0
+  bennies:
+    value: 0
+    max: 2
+  advances:
+    mode: expanded
+    value: 0
+    rank: Novice
+    details: ''
+    list: []
+  status:
+    isShaken: false
+    isDistracted: false
+    isVulnerable: false
+    isStunned: false
+    isEntangled: false
+    isBound: false
+    isIncapacitated: false
+  initiative:
+    hasHesitant: false
+    hasLevelHeaded: false
+    hasImpLevelHeaded: false
+    hasQuick: false
+  additionalStats: {}
+  wildcard: false
+prototypeToken:
+  name: Silver Flame Priest
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  flags: {}
+  randomImg: false
+items:
+  - fPw05R795pvywNJV
+  - 1zHCH9NRmUUJzlKW
+  - 9sC2Pzs3vzaSvj2e
+  - WCaYPVT2BZYPSqu2
+  - pjDeScpdMAyZ0Eo8
+  - idgaue3cbjizONbF
+  - 6Ccb5FeDrM4mRsvv
+  - AuLTHwzVtdGHx4OC
+  - iU8PZIpkr2tv7UyE
+  - HWZdckRLeCwIDFiC
+  - 1ax2PtjQwzh8Fsfy
+  - MijHHNYTXdEH3TWk
+  - xmHzVoDm7PpRtN5d
+  - i2BeEQ41x22xJ4OS
+  - KuFUIyX3BWnvG349
+  - i0oiF7WIB70Adpyo
+  - Xui76V9WxsHC6gZI
+  - THqqAbNqsQVJxnUo
+  - FNEAjJP6BUfoFAqU
+  - OTHGpZdyvjb2XtPn
+  - BwgLajSiqfAGv0GN
+  - JGNyb4m4OSAJXy0U
+  - r0jPOk4PCblBift1
+  - XrDnE9pRUXLeICQc
+  - 2iKC0GdFYuxP8bTU
+  - FGgKwSlFoWp8fUFz
+  - Zn6mCXpFaIIjLlG7
+  - A4FvhKj8odUJ3agt
+  - t17EXH7pC3SSTGNF
+  - zVGWsm5np4jNevS3
+  - w2BQNU6riDOd5Sfe
+  - E2S4y5JiqET1EGn8
+  - C36mq1vheHFG80Oi
+  - FgZyoAUAZg54RX55
+  - qBnjv5LM6kOkPjgJ
+  - oJVfBQNJXAO4LtUp
+  - M32ncIEuBghJZDlx
+  - ovOD4H78EJOTaaO1
+  - 05zob0rpFk8cRExL
+  - KcIC9x3FNRKZd7jn
+  - 924NAEsD8PrBHysr
+  - HSlqVCnoVtIutVtD
+  - CcaTAWKLD1a6O5Pf
+  - APcb4QForBrbU9CK
+  - LZUUyShwbO5C40zR
+  - KKnhWEU8uCUrzsUL
+effects: []
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692735772446
+  modifiedTime: 1692846742727
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!actors!uDeXDscxqoTIkKio'

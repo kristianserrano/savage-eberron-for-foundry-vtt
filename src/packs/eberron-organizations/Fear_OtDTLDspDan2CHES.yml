@@ -1,0 +1,75 @@
+_id: OtDTLDspDan2CHES
+name: Fear
+type: power
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+system:
+  description: >-
+    <article class="swadefc"><p>
+        This power causes overwhelming dread and horror. The target makes a Fear check. Extras who fail are Panicked and
+        Wild Cards roll on the <strong>Fear Table</strong>. If the power is cast with a raise, the Fear roll is at -2 and
+        Wild Cards add +2 to <strong>Fear Table</strong> results.
+      </p>
+    <div><strong>Modifiers</strong></div>
+
+    <ul>
+
+    <li>
+
+    <strong>Area of Effect (+2/+3):</strong> For +2 points the power affects
+    everyone in a Small or Medium Blast
+          Template (caster's choice). For +3 points the area of effect is increased to a Large Blast Template.
+        </li>
+    <li class="epic-power-icon">
+
+    <strong>Greater Fear (+2):</strong> Fear rolls are made at -2, or -4 if cast
+    with a raise.
+        </li>
+    </ul></article>
+  notes: ''
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: true
+    medium: true
+    large: true
+  rank: Novice
+  pp: 2
+  damage: ''
+  range: Smarts
+  duration: Instant
+  trapping: Gusty winds, wings, broomsticks.
+  arcane: ''
+  ap: 0
+  innate: false
+  modifiers: []
+  source: Fantasy Companion
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-powers.Item.FKawDwaCdCRij7eO
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692066803851
+  modifiedTime: 1692066803851
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!5l0SaRBXT8mht8dL.OtDTLDspDan2CHES'

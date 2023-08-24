@@ -1,0 +1,35 @@
+_id: KcIC9x3FNRKZd7jn
+effects: []
+folder: null
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Faith.webp
+name: Faith
+sort: 0
+type: skill
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  attribute: spirit
+  description: >-
+    <article class="swade-core"><p>Faith is the arcane skill required for
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr03]{Arcane
+    Background (Miracles)}.</p></article>
+  die:
+    modifier: 0
+    sides: 4
+  isCoreSkill: false
+  notes: ''
+  wild-die:
+    sides: 6
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692742341202
+  modifiedTime: 1692742341202
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!uDeXDscxqoTIkKio.KcIC9x3FNRKZd7jn'

@@ -1,0 +1,47 @@
+_id: ii6RpBaprCMDeeSD
+effects: []
+folder: null
+img: systems/swade/assets/icons/skills/jump-across.svg
+name: Athletics
+sort: 0
+type: skill
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  attribute: agility
+  description: >-
+    <article class="swade-core">
+
+    <p>Athletics combines an individual’s coordin­ation with learned skills such
+    as climbing, jumping, balancing, biking, wrestling, skiing, swimming,
+    throwing, or catching. Characters who rely on physical power more than
+    coordination can take the
+    @Compendium[swade-core-rules.swade-edges.Brute]{Brute} Edge to link this
+    skill to
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength}
+    instead of
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility}.</p>
+
+    </article>
+  die:
+    modifier: 0
+    sides: 4
+  isCoreSkill: false
+  notes: ''
+  wild-die:
+    sides: 6
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-skills.Item.qc2GOKFIXIJEpTw1
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692845037468
+  modifiedTime: 1692845037468
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!6ynkoYvz2xEciD7b.ii6RpBaprCMDeeSD'

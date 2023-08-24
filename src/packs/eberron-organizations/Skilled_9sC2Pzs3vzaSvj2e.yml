@@ -1,0 +1,41 @@
+folder: eCJqtpXb79wfr94X
+name: Skilled
+type: ability
+img: icons/skills/trades/smithing-anvil-horseshoe.webp
+system:
+  description: >-
+    <p>Humans start with a d4 in any two
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000#skills]{skills}
+    based on their experiences, education, training, or culture. If the chosen
+    skill is a core skill, it starts at d6 and the skill’s maximum increases to
+    d12+1.</p>
+  notes: Racial
+  additionalStats: {}
+  favorite: false
+  category: Human
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+effects:
+  - ia6oaUEkyeWL4Uvw
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1668046060853
+  modifiedTime: 1692736175315
+  lastModifiedBy: Xbne19Xghka479we
+_id: 9sC2Pzs3vzaSvj2e
+sort: 0
+_key: '!actors.items!uDeXDscxqoTIkKio.9sC2Pzs3vzaSvj2e'

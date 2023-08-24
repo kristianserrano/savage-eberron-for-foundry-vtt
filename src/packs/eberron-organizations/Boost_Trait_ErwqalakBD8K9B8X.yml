@@ -1,0 +1,94 @@
+_id: ErwqalakBD8K9B8X
+name: Boost Trait
+type: power
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+system:
+  description: >-
+    <article class="swadefc"><p>This power allows a character to increase or
+    decrease a target's Trait (attribute or skill).</p>
+
+    <p><em>Boosting</em> an ally's Trait increases the selected Trait one die
+    type, or two with a raise.</p>
+
+    <p>
+
+    <em>Lowering</em> an enemy's Trait has a Duration of Instant and lowers the
+    selected attribute or skill a die type
+        with success, or two with a raise (to a minimum of d4). A victim automatically tries to shake off the effect with a
+        Spirit roll as a free action at the end of his following turns. Success improves
+      </p>
+    <p>the effect one die type, and a raise removes the effect entirely.</p>
+
+    <p>Additional castings don't stack on a single Trait (take the highest), but
+    may affect <em>different</em> Traits.</p>
+
+    <div><strong>Modifiers</strong></div>
+
+    <ul>
+
+    <li>
+
+    <strong>Additional Recipients (+2):</strong> The power may affect more than
+    one target for 1 additional Power
+          Point each.
+        </li>
+    <li class="epic-power-icon">
+
+    <strong>Greater Boost/Lower Trait (+2):</strong> With success, the selected
+    Trait gains a free reroll once per
+          round, or once per action with a raise. For <em>lower Trait </em>the target applies a -2 penalty to the affected
+          Trait's rolls.
+        </li>
+    <li>
+
+    <strong>Strong (+1):</strong> <em>Lower Trait </em>only. The Spirit roll to
+    shake off the effect is made at -2.
+        </li>
+    </ul></article>
+  notes: Fighting and Spirit only. Boost only. Personal Limitation.
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  rank: Novice
+  pp: 2
+  damage: ''
+  range: Smarts
+  duration: 5 (boost, Instant (lower)
+  trapping: Physical change, glowing aura, potions.
+  arcane: ''
+  modifiers: []
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  ap: 0
+  innate: false
+  source: Fantasy Companion
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692846174133
+  modifiedTime: 1692846598557
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!6ynkoYvz2xEciD7b.ErwqalakBD8K9B8X'

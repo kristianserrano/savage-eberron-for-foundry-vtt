@@ -1,0 +1,76 @@
+_id: XrDnE9pRUXLeICQc
+name: Mind Reading
+type: power
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+system:
+  description: >-
+    <article class="swadefc"><p>
+
+    <em>Mind reading</em> is an opposed roll versus the target's Smarts. Success
+    allows the character to gain one
+        truthful answer from the subject. The target is aware of the mental intrusion unless the mind reader gets a raise.
+        The GM may apply modifiers based on the subject's mental Hindrances or current state of mind.
+      </p>
+    <div><strong>Modifiers</strong></div>
+
+    <ul>
+
+    <li class="epic-power-icon">
+
+    <strong>Mind Walk (+2):</strong> The caster has greater access to the
+    target's mind and memories, unlocking an
+          entire scene or chain of related memories (GM's call).
+        </li>
+    </ul></article>
+  notes: ''
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional:
+      Ed1DDjV3:
+        name: Smarts
+        type: resist
+        isHeavyWeapon: false
+    trait: Faith
+    traitMod: ''
+  rank: Novice
+  pp: 2
+  damage: ''
+  range: Smarts
+  duration: Instant
+  trapping: Psionic invasion, soulsight.
+  arcane: Cleric
+  modifiers: []
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  ap: 0
+  innate: false
+  source: Fantasy Companion
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-powers.Item.GMTgL2vLUZ0BTZ1w
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692738183849
+  modifiedTime: 1692742389980
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!uDeXDscxqoTIkKio.XrDnE9pRUXLeICQc'

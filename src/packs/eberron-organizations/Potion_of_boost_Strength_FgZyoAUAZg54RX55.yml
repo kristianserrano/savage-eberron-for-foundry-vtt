@@ -1,0 +1,46 @@
+name: Potion of boost Strength
+type: consumable
+_id: FgZyoAUAZg54RX55
+img: icons/consumables/potions/bottle-ornate-bat-teal.webp
+system:
+  description: ''
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  quantity: 1
+  weight: 0
+  price: 0
+  category: ''
+  equippable: false
+  equipStatus: 0
+  grants: []
+  grantOn: 1
+  charges:
+    value: 1
+    max: 1
+  messageOnUse: true
+  destroyOnEmpty: false
+  subtype: regular
+  source: ''
+  actions:
+    trait: ''
+    traitMod: ''
+    dmgMod: ''
+    additional: {}
+effects: []
+folder: bleP2Wt0N9W2v4A5
+sort: -300000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Item.kvZJmK3jPAxq4MvX
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692123939991
+  modifiedTime: 1692741551670
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!uDeXDscxqoTIkKio.FgZyoAUAZg54RX55'

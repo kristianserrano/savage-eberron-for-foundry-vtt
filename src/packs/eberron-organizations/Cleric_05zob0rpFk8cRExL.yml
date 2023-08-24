@@ -1,0 +1,119 @@
+_id: 05zob0rpFk8cRExL
+name: Cleric
+type: edge
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  source: Fantasy Companion
+  description: >-
+    <article class="swadefc"><h1>Cleric</h1>
+
+    <p>
+        Clerics draw their power from a divine presence of some sort, including gods, nature, spirits, or their revered
+        ancestors. They invoke miracles from these entities by reciting prayers or performing rituals they believe are in
+        their deity's best interests.
+      </p>
+    <p>
+        A cleric's particular service depends on the deity he serves. A list of “domains” the Game Master can assign to a
+        particular source of power can be found here.
+      </p>
+    <ul>
+
+    <li><strong>Requirements:</strong> Spirit d6+</li>
+
+    <li><strong>Arcane Skill:</strong> Faith (Spirit)</li>
+
+    <li>
+
+    <strong>Starting Powers:</strong>
+    <em>@Compendium[swade-fantasy-companion.swade-fc-powers.Healing]{Healing},
+    @UUID[Compendium.swade-fc.swade-fc-powers.cvxABXzInlhAa7cA]{sanctuary}</em>,
+    and three other powers from their chosen Domain. If healing
+        </li>
+    <li><strong>Power Points:</strong> 10</li>
+
+    <li>
+
+    <strong>Available Powers:</strong> Choose a domain from those listed or
+    create your
+          own based on the world and the divine beings that watch over it.
+        </li>
+    <li><strong>Miracles:</strong> Clerics may take Edges that require 
+    @UUID[Compendium.swade-core-rules.swade-edges.Item.7d5eiEX0NEiaCuCJ]{Arcane
+    Background (Miracles)} .</li>
+
+    <li>
+
+    <strong>Holy Symbol:</strong> Clerics who prominently display the symbol of
+    their deity or religion in one hand
+          get a free reroll on all Faith rolls. This means they cannot hold a shield or weapon in that hand.
+        </li>
+    <li>
+
+    <strong>Vow:</strong> Clerics must have a Vow (Major) to their deity or
+    religion. If they
+          fail to uphold their deity's values, they subtract 2 from Faith rolls for a week. Truly sacrilegious acts might
+          rob them of their powers entirely until they atone in some way.
+        </li>
+    </ul></article>
+  notes: ''
+  additionalStats: {}
+  isArcaneBackground: true
+  requirements:
+    value: Spirit d6+
+  category: Arcane Background
+  grants:
+    - name: Faith
+      img: >-
+        modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp
+      uuid: Compendium.swade-core-rules.swade-skills.Item.5qXzjDHdjaeYnBod
+      mutation:
+        name: Faith
+        img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Faith.webp
+    - name: Vow
+      img: >-
+        modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp
+      uuid: Compendium.swade-core-rules.swade-hindrances.Item.97ulajnqpnVgGb63
+      mutation:
+        isMajor: true
+    - name: Holy Symbol
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+      uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-abilities.Item.A3ZKWLhzVcT8OqWM
+      mutation: {}
+    - name: Healing
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+      uuid: Compendium.swade-fantasy-companion.swade-fc-powers.Item.XR6ezIMYpEj53GHT
+      mutation: {}
+    - name: Sanctuary
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+      uuid: Compendium.swade-fantasy-companion.swade-fc-powers.Item.cvxABXzInlhAa7cA
+      mutation: {}
+  favorite: false
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-edges.Item.dyIk1uwEZzoGN4zi
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+  swade:
+    hasGranted:
+      - KcIC9x3FNRKZd7jn
+      - 924NAEsD8PrBHysr
+      - HSlqVCnoVtIutVtD
+      - CcaTAWKLD1a6O5Pf
+      - APcb4QForBrbU9CK
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692742341155
+  modifiedTime: 1692742341248
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!uDeXDscxqoTIkKio.05zob0rpFk8cRExL'

@@ -1,0 +1,46 @@
+_id: nsFntRUK4VdT523P
+effects: []
+folder: null
+img: systems/swade/assets/icons/edge.svg
+name: Dodge
+sort: 0
+type: edge
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  description: >-
+    <article class="swade-core">
+
+    <p>The hero can anticipate attacks or move erratically under fire. Unless
+    the victim of a surprise attack and taken completely unaware, Dodge
+    subtracts 2 from all
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03attacks0000000]{ranged
+    attacks} made against the character. Dodge does not stack with actual
+    @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{cover},
+    however</p>
+
+    </article>
+  isArcaneBackground: false
+  notes: ''
+  requirements:
+    value: Seasoned, Agility d8+
+  category: Combat
+  favorite: false
+  grants: []
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-edges.Item.V1WWGHUtlFTVTAM9
+  swade:
+    hasGranted: []
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692670468859
+  modifiedTime: 1692670468886
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!W0ZGeEoKtF4ERK4i.nsFntRUK4VdT523P'

@@ -1,0 +1,34 @@
+name: Magecrafting
+type: skill
+_id: 9NPaaBcgzjfbgcTC
+img: >-
+  modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Spellcasting_v2.webp
+system:
+  description: >-
+    <p>This is the skill magewrights use to activate their powers while plying
+    their trade.</p>
+  notes: ''
+  source: Eberron for Savage Worlds
+  additionalStats: {}
+  attribute: ''
+  isCoreSkill: false
+  die:
+    sides: 6
+    modifier: 0
+  wild-die:
+    sides: 6
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692826722545
+  modifiedTime: 1692842467364
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!ibbHwKlbWp2IWiah.9NPaaBcgzjfbgcTC'

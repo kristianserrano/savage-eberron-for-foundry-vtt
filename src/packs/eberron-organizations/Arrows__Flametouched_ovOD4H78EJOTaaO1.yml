@@ -1,0 +1,55 @@
+_id: ovOD4H78EJOTaaO1
+name: Arrows, Flametouched
+type: gear
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Shooting_v1.webp
+system:
+  source: Fantasy Companion
+  description: >-
+    <article class="swadefc"><p>For all types of bows. Treated as good-aligned
+    for purposes of extra damage to creatures with such a
+    weakness.</p></article>
+  notes: ''
+  additionalStats: {}
+  quantity: 25
+  weight: 0.15
+  price: 1000
+  equippable: false
+  equipStatus: 0
+  isVehicular: false
+  mods: 1
+  favorite: false
+  category: Ammunition
+  grants: []
+  grantOn: 1
+  isAmmo: true
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  actions:
+    trait: ''
+    traitMod: ''
+    dmgMod: ''
+    additional: {}
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-gear.Item.wYPPOcfBbmHR0000
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692741943540
+  modifiedTime: 1692742092964
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!uDeXDscxqoTIkKio.ovOD4H78EJOTaaO1'

@@ -1,0 +1,80 @@
+_id: Ey6c3pOe4SG3XLDa
+effects: []
+folder: null
+img: systems/swade/assets/icons/skills/convince.svg
+name: Persuasion
+sort: 1000000
+type: skill
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  attribute: spirit
+  description: >-
+    <article class="swade-core">
+
+    <p>Persuasion is the ability to convince others to do what you want through
+    reason, cajoling, deception, rewards, or other friendly means. Persuasion
+    isn’t mind control. It can change someone’s attitude but not their goals. A
+    bandit may let you keep a sentimental piece of jewelry with a good
+    Persuasion roll but still takes all your other goods.</p>
+
+    <p>When used to
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{Support}
+    allies it’s an unopposed roll. If the target is resistant, it’s an
+    @JournalEntry[JBxsGv2wAoAmoCDe]{opposed} roll vs. the target’s
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit}.
+    The GM should modify the roll as she sees fit based on roleplaying, any
+    pertinent
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edges}
+    or
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrances}
+    that affect the conversation, and the circumstances.</p>
+
+    <p><strong>Reaction Level:</strong> How much a person is willing to
+    cooperate depends largely on their attitude toward whoever’s talking to
+    them. The Game Master can decide how nonplayer characters feel based on the
+    setting, or roll on the @Compendium[swade-core-rules.swade-tables.Reaction
+    Table]{Reaction Table} if she has no preconceived notions.</p>
+
+    <p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success}
+    improves the target’s attitude one level and a raise improves it two.
+    Further increases aren’t generally possible in the same encounter—it takes
+    individuals a little time to adjust their biases.</p>
+
+    <p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Failure}
+    means the target won’t change his mind this scene or until the situation
+    changes in some important way. A
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical
+    Failure} also <em>reduces</em> the target’s attitude two levels.</p>
+
+    <p>Only one roll should generally be allowed per interaction unless new
+    information is revealed, a substantial reward is offered, etc.</p>
+
+    <p><strong>Networking: </strong>Characters can also use Persuasion as a
+    “macro skill,” simulating a few hours or an evening’s time hobnobbing and
+    socializing to gain favors or information. See
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{Networking}.</p>
+
+    </article>
+  die:
+    modifier: 0
+    sides: 4
+  isCoreSkill: false
+  notes: ''
+  wild-die:
+    sides: 6
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692673655932
+  modifiedTime: 1692673882047
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!IkMjWChiTfe0Rbmn.Ey6c3pOe4SG3XLDa'

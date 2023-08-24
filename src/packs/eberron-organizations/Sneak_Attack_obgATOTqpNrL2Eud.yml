@@ -1,0 +1,46 @@
+_id: obgATOTqpNrL2Eud
+name: Sneak Attack
+type: edge
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  source: Fantasy Companion
+  description: |-
+    <article class="swadefc"><h3>Sneak Attack</h3>
+    <section class="description">
+    <p>
+     The +2 bonus from the Assassin Edge is replaced by a d6, which may Ace as usual. This applies to Athletics
+     (throwing), Fighting, or Shooting attacks.
+     </p>
+    </section></article>
+  notes: ''
+  additionalStats: {}
+  isArcaneBackground: false
+  requirements:
+    value: Seasoned, Assassin
+  category: Combat
+  favorite: false
+  grants: []
+effects:
+  - BznexSPrJvrshdVF
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-edges.Item.RYYOmIL0PZqAe7SS
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+  swade:
+    hasGranted: []
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692676991041
+  modifiedTime: 1692676991067
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!IkMjWChiTfe0Rbmn.obgATOTqpNrL2Eud'

@@ -1,0 +1,82 @@
+name: Dwarf
+type: ability
+_id: ye4RUjcRqBWifYZL
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp
+system:
+  description: >-
+    <ul><li><p><strong>Darkvision (+1):</strong> Dwarven eyes are accustomed to
+    the dark of the underearth. They can see in Pitch Darkness up to 10” (20
+    yards), ignoring all Illumination penalties and up to 2 points of penalties
+    from invisibility or similar powers. </p></li><li><p><strong>Reduced Pace
+    (−1):</strong> Dwarves have short legs compared to human-sized ancestries.
+    Decrease their Pace by 1 and their running die one die type.
+    </p></li><li><p><strong>Stonecunning (+1):</strong> Generations of delving
+    into the depths of the Mror Holds has taught the Dwarves how to identify
+    unusual stonework, granting them the Stonecunning
+    Edge.</p></li><li><p><strong>Tough (+3):</strong> Dwarves are genetically
+    stout and tough. They start with a d6 in Vigor instead of a d4. This
+    increases their maximum Vigor to d12+1. They also have a +1 bonus to resist
+    poisons, powers, and supernatural abilities that behave similarly to
+    powers.</p></li></ul>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Ancestry
+  subtype: race
+  grantsPowers: false
+  grants:
+    - name: Dark Vision
+      img: >-
+        modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp
+      uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y
+      mutation:
+        name: Darkvision
+        img: icons/magic/perception/eye-slit-orange.webp
+    - name: Stability
+      img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+      uuid: Compendium.savage-eberron.eberron-ancestries.Item.JgPgk2Vv8FCuYIbr
+      mutation: {}
+    - name: Stonecunning
+      img: icons/skills/trades/construction-mason-stonecutter-sculpture.webp
+      uuid: Compendium.savage-eberron.eberron-ancestries.Item.q96wqaai9bJmKjUN
+      mutation: {}
+    - name: Tough
+      img: icons/magic/control/buff-strength-muscle-damage.webp
+      uuid: Compendium.savage-eberron.eberron-ancestries.Item.UsAhusaNzWYJkxqk
+      mutation: {}
+    - name: Reduced Pace
+      img: icons/skills/movement/figure-running-gray.webp
+      uuid: Compendium.savage-eberron.eberron-ancestries.Item.U18fu5U8IY35oqG1
+      mutation: {}
+  source: Eberron for Savage Worlds
+effects: []
+folder: null
+flags:
+  core:
+    sourceId: Compendium.savage-eberron.eberron-ancestries.Item.Mpv3gzJfpDt4xqoY
+  exportSource:
+    world: eberron-for-savage-worlds
+    system: swade
+    coreVersion: '11.305'
+    systemVersion: 3.0.5
+  swade:
+    hasGranted:
+      - EWTBz5hAJM188iBW
+      - oI9V4XsfrMf6JP61
+      - BM9wlc0jKRaix2wZ
+      - 3hweLUU8W71SyRyp
+      - VoDT0SvrNEbgDBMI
+      - zOVBNQPotTuUGQb8
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1689255596862
+  modifiedTime: 1692061962572
+  lastModifiedBy: Xbne19Xghka479we
+sort: 1800000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!actors.items!8pArTn9TfiHb0a7G.ye4RUjcRqBWifYZL'

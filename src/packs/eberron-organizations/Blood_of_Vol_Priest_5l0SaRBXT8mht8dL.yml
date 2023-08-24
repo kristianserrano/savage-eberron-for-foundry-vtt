@@ -1,0 +1,230 @@
+folder: rePlbL82ubZjo5F3
+name: Blood of Vol Priest
+type: npc
+_id: 5l0SaRBXT8mht8dL
+img: modules/swade-fantasy-companion/assets/tokens/fc_token_B_15.webp
+system:
+  attributes:
+    agility:
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+    smarts:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+      animal: false
+    spirit:
+      unShakeBonus: 0
+      die:
+        sides: 10
+        modifier: 0
+      wild-die:
+        sides: 6
+    strength:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+      encumbranceSteps: 0
+    vigor:
+      unStunBonus: 0
+      soakBonus: 0
+      bleedOut:
+        modifier: 0
+        ignoreWounds: false
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+  stats:
+    speed:
+      runningDie: 6
+      runningMod: 0
+      value: 6
+    toughness:
+      value: 0
+      armor: 0
+      modifier: 0
+    parry:
+      value: 0
+      modifier: 0
+      shield: 0
+    size: 0
+  details:
+    autoCalcToughness: true
+    autoCalcParry: true
+    archetype: ''
+    appearance: ''
+    notes: ''
+    goals: ''
+    biography:
+      value: ''
+    species:
+      name: ''
+    currency: 0
+    wealth:
+      die: 6
+      modifier: 0
+      wild-die: 6
+    conviction:
+      value: 0
+      active: false
+  powerPoints:
+    general:
+      value: 15
+      max: 15
+  fatigue:
+    value: 0
+    max: 2
+    ignored: 0
+  wounds:
+    value: 0
+    max: 0
+    ignored: 0
+  woundsOrFatigue:
+    ignored: 0
+  advances:
+    mode: expanded
+    value: 0
+    rank: Novice
+    details: ''
+    list: []
+  bennies:
+    value: 2
+    max: 2
+  status:
+    isShaken: false
+    isDistracted: false
+    isVulnerable: false
+    isStunned: false
+    isEntangled: false
+    isBound: false
+    isIncapacitated: false
+  initiative:
+    hasHesitant: false
+    hasLevelHeaded: false
+    hasImpLevelHeaded: false
+    hasQuick: false
+  additionalStats: {}
+  wildcard: false
+prototypeToken:
+  name: Blood of Vol Priest
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/swade-fantasy-companion/assets/tokens/fc_token_B_15.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  flags: {}
+  randomImg: false
+items:
+  - p8S9eJB1ZlFKkDk7
+  - TbRKWBVS7sTTupJy
+  - 1rg1FXPesMJvkPS9
+  - lSm7ls2UwChgcHLb
+  - aJQkIn7SHD769H3v
+  - UuidBu9khVIQlcbW
+  - FWGxfgE3ZJ1Zhysh
+  - 60dENN27tEW7mlLC
+  - 9PlJVZHVbxl1ph1q
+  - RhNW7WLYL7mWId46
+  - 5nImQWXjdjRvwToA
+  - WDI5qHqj6Ei36GRc
+  - 7XavCdSAY8Uz89F8
+  - WWH7irE2PtGOzlXm
+  - vdwTUv3L3ScPlFGA
+  - fcaWcCwK9Hs4x68o
+  - Ac1JFzHK6o7RJ5dr
+  - 2iKIyxlWojx4jqPW
+  - s13p59OHcoud9pku
+  - wNkLb9AnVt8Gajto
+  - eX2FVOUHTol2fJ9M
+  - VNamf0zIpalsXP4h
+  - Edw35ztA0yCJk1Eg
+  - OtDTLDspDan2CHES
+  - ql29yqD1YDspUQWB
+  - 5j4VBbGFiHKL63HG
+  - 54DmYqztmm8gx8KW
+  - RiAO8MDerFTQmLl0
+  - 5bfxnseLeWm2A63r
+  - GnVfSJS1d5wRPfEY
+  - kAltg10ycaMs3pPZ
+  - XHGm22RsUoEZcpSj
+  - JYcrRj4NXh7YaDNA
+  - VG1hx8a6A3tM0NS3
+  - Sodq7ZkNqXO25ik9
+  - lyuTUqCHJB2wAE7K
+  - MVdktiQ51tRsnRkq
+  - o0PhO4CuWgEUdiNI
+  - p8HPXiQX8xNGGJpE
+  - ZolcjwSQ41f2ZH1Q
+  - k4SE0Sg9LDYLPl2z
+  - QO9IEAc9LaM9k8gJ
+effects: []
+flags:
+  core:
+    sheetClass: ''
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692124729083
+  modifiedTime: 1692846742727
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!actors!5l0SaRBXT8mht8dL'

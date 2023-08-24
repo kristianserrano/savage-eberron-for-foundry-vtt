@@ -1,0 +1,81 @@
+name: Conjure Item
+type: power
+_id: OTHGpZdyvjb2XtPn
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp
+system:
+  description: >-
+    <article><p>The caster can create an object weighing up to one pound for
+    every 2 Power Points spent. The item must be a simple, mundane object made
+    of a common material (GM's call) such as a 10-foot pole, blanket, shield,
+    etc. A raise on the arcane skill roll produces a more durable version of the
+    conjured item.</p><p>Conjured items appear in the hands of the caster or on
+    the ground nearby. Once the Duration expires, the item fades from reality.
+    This can cause issues, for example, if the conjured item holds a door open
+    or was given as a
+    gift.</p><div><p><strong>Modifiers</strong></p></div><ul><li><strong>Complete
+    (+1):</strong> The object is a complete set, such as a chess set or a quiver
+    of arrows. The set must fit under the weight limit.</li><li><strong>Create
+    Food and Water (Special):</strong> Instead of an object, every 1 Power Point
+    creates enough food and water to sustain a Size 0 humanoid for one day. The
+    nourishing food is permanent (doesn't disappear after you eat it), though it
+    decays and is inedible after 24 hours if not consumed. The water is just
+    like clean rainwater and does not spoil.</li><li><strong>Enduring (+1 per
+    pound):</strong> The object's Duration becomes “permanent” until dispelled.
+    The Power Points are “invested” and unavailable until it's destroyed,
+    dispelled, or dismissed by the caster. The conjurer may dismiss the object
+    at any time, regardless of sight, distance, or other factors. His Power
+    Points then begin recharging normally.</li><li
+    class="savage-eberron--epic-modifier"><strong>Major Creation [+5]:</strong>
+    The item is crafted from a special material such as adamantine, bronzewood,
+    byeshk, etc.</li><li class="savage-eberron--epic-modifier"><strong>True
+    Creation [+10]:</strong> When used with the Durable modifier, the object is
+    created with matter displaced from another location on the material plane.
+    Because it is composed of native material, it is regarded as very real in
+    every way and cannot be dispelled or dismissed. Although the item is
+    permanent, Power Points are not permanently invested.</li></ul></article>
+  notes: ''
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: Faith
+    traitMod: ''
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  rank: Novice
+  pp: 2
+  damage: ''
+  range: Smarts
+  duration: One hour
+  trapping: >-
+    Light that forms the item's silhouette, reaching into a magic bag, shaping
+    dirt or clay    into the item, pulling the item from a drawing or painting.
+  arcane: Cleric
+  ap: 0
+  innate: false
+  modifiers: []
+  source: Eberron for Savage Worlds
+effects: []
+folder: null
+flags:
+  core:
+    sourceId: Compendium.savage-eberron.eberron-powers.Item.gLvcL3EA1Zu0dtRO
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1690160222393
+  modifiedTime: 1692742389777
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!actors.items!uDeXDscxqoTIkKio.OTHGpZdyvjb2XtPn'

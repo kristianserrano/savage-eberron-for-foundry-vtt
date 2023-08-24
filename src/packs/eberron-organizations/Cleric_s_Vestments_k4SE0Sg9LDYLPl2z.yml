@@ -1,0 +1,71 @@
+_id: k4SE0Sg9LDYLPl2z
+name: Cleric's Vestments
+type: armor
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Armor.webp
+system:
+  description: >-
+    <article class="swadefc"><span>Cloth / Light</span> Leather Characters with
+    the Armor Interference Hindrance
+              may wear cloth or light leather armor without penalty.</article>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 8
+  price: 10
+  equippable: true
+  equipStatus: 3
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  favorite: false
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  category: ''
+  grants: []
+  grantOn: 1
+  minStr: d4
+  armor: 1
+  toughness: 0
+  isNaturalArmor: false
+  isHeavyArmor: false
+  locations:
+    head: true
+    torso: true
+    arms: true
+    legs: false
+  source: Fantasy Companion
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-armor.Item.P8eEjsQujF3o0005
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+    fullDescription: >-
+      Cloth / Light Leather Characters with the Armor Interference Hindrance may
+      wear cloth or light leather armor without penalty. |  | Armor | Cloth /
+      Light Leather Characters with the Armor Interference Hindrance may wear
+      cloth or light leather armor without penalty.
+  swade:
+    hasGranted: []
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692136410687
+  modifiedTime: 1692762179711
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!5l0SaRBXT8mht8dL.k4SE0Sg9LDYLPl2z'

@@ -1,0 +1,55 @@
+_id: VIQsBGt8mEbiZ9JN
+effects:
+  - GMhfERXYVbrjQhhk
+folder: null
+img: systems/swade/assets/icons/edge.svg
+name: Aristocrat
+sort: 0
+type: edge
+system:
+  description: >-
+    <article class="swade-core">
+
+    <p>This individual was born into privilege or came into it later in life.
+    She may or may not have money (the
+    @Compendium[swade-core-rules.swade-edges.Rich]{Rich} or
+    @Compendium[swade-core-rules.swade-edges.Filthy Rich]{Filthy Rich} Edge),
+    but she still walks in the elite social circles of the setting.</p>
+
+    <p>Aristocrats add +2 to
+    @Compendium[swade-core-rules.swade-skills.Persuasion]{Persuasion} when
+    <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{Networking}
+    </strong>with the local elite, captains of industry, nobles, or other
+    aristocrats. They also add +2 to
+    @Compendium[swade-core-rules.swade-skills.Common Knowledge]{Common
+    Knowledge} rolls made to know the etiquette of the upper class, recognize
+    family trees or heraldry, or recall gossip concerning others of their
+    station</p>
+
+    </article>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Background
+  isArcaneBackground: false
+  requirements:
+    value: Novice
+  grants: []
+  source: SWADE Core Rules
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-edges.Item.5sfBwuq0xgsQEppt
+  swade:
+    hasGranted: []
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692063303735
+  modifiedTime: 1692063303787
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!8pArTn9TfiHb0a7G.VIQsBGt8mEbiZ9JN'

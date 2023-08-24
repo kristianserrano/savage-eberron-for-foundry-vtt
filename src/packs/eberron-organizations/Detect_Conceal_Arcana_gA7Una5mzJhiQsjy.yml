@@ -1,0 +1,121 @@
+_id: gA7Una5mzJhiQsjy
+name: Detect/Conceal Arcana
+type: power
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+system:
+  description: >-
+    <article class="swadefc"><p>
+
+    <em>Detect arcana</em> allows the recipient of the power to see and detect
+    all supernatural persons, objects, or
+        effects in sight for five rounds. This includes <em>invisible</em> foes, enchantments on people or items, and so on.
+        With a raise, the caster knows the type of enchantment as well.
+      </p>
+    <p>
+        When used on a supernatural creature, the caster learns its active powers and arcane abilities. With a raise, he
+        knows Weaknesses common to that creature type. This doesn't reveal Weaknesses of unique individuals, if any. Those
+        must usually be discovered through research or trial and error.
+      </p>
+    <p>
+
+    <strong>Invisible Creatures:</strong> <em>Detect arcana</em> also allows a
+    character to ignore up to 4 points of
+        penalties when attacking foes hidden by magical darkness, invisibility, or similar abilities (or all penalties with
+        a raise).
+      </p>
+    <p>
+
+    <em>Conceal arcana</em> obscures one being or item of Normal Scale or
+    smaller from the detect magic ability for one
+        hour (see Detect Magic and the@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{Size} Table in <em>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor00introd.JournalEntryPage.00introduction00]{Savage Worlds}</em>). For larger creatures, increase the cost by the Scale modifier (+2 PPs for Large, +4 PPs for Huge, or +6 PPs for
+        Gargantuan).
+      </p>
+    <p>
+        With a success, attempts to <em>detect arcana </em>on the being or item suffer a -2 penalty or -4 with a raise. If
+        <em>detect arcana</em> fails, the character cannot see through the ruse with this casting and is not aware it is
+        concealed unless presented with obvious evidence of such (for example, the attack of an invisible foe).
+      </p>
+    <div><strong>Modifiers</strong></div>
+
+    <ul>
+
+    <li>
+
+    <strong>Additional Recipients (+1):</strong> The power may affect more than
+    one viewer for <em>detect</em>, or
+          item for <em>conceal</em>, for 1 additional Power Point each.
+        </li>
+    <li>
+
+    <strong>Alignment Sense (+1):</strong> The caster can sense the presence and
+    exact location of supernatural good
+          or evil within range. <em>Detect arcana</em> activated with Alignment Sense no longer requires line of sight to
+          locate creatures.
+        </li>
+    <li>
+
+    <strong>Area of Effect (+1/+2):</strong> <em>Conceal</em> only. The power
+    affects everything in a sphere the size
+          of a Medium Blast Template for +1 points, or a Large Blast Template for +2.
+        </li>
+    <li>
+
+    <strong>Identify (+1):</strong> The caster can identify a magic item's
+    powers and how they work. Success reveals
+          its powers and how they work, but only a raise reveals any cursed powers.
+        </li>
+    <li>
+
+    <strong>Strong (+1):</strong> <em>Conceal</em> only. <em>Detection</em>
+    rolls to see through the concealment are
+          made at -2. This stacks with the additional penalty for casting with a raise.
+        </li>
+    </ul></article>
+  notes: ''
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: Spellcasting
+    traitMod: ''
+  rank: Novice
+  pp: 2
+  damage: ''
+  range: Smarts
+  duration: 5 (detect); one hour (conceal)
+  trapping: Waving hands, whispered words.
+  arcane: Magic
+  modifiers: []
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: true
+    large: true
+  ap: 0
+  innate: false
+  source: Fantasy Companion
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692670654755
+  modifiedTime: 1692673267494
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!W0ZGeEoKtF4ERK4i.gA7Una5mzJhiQsjy'

@@ -1,0 +1,57 @@
+folder: rmMZ8nKTRru5pDGY
+name: Identification Papers
+type: gear
+_id: NxUcyG4k7MDa9DTq
+img: icons/sundries/documents/document-official-capital.webp
+system:
+  description: >-
+    <p>Most people of the middle and upper classes, at least in the most
+    civilized areas of Khorvaire (Aundair, Breland, Karrnath, Thrane, Zilargo,
+    and the Mror Holds) carry identification papers with them at all times.
+    Issued by national governments and notarized by House Sivis, these papers
+    present a detailed physical description of a person (the wealthy sometimes
+    commission small portraits of themselves), the person’s name and residence,
+    and in some cases additional information about the person’s affiliations
+    (particularly including any connection to a dragonmarked house, royalty, or
+    a large institution).</p>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 0
+  price: 2
+  equippable: false
+  equipStatus: 3
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  favorite: false
+  category: Documents
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  source: Eberron for Savage Worlds
+effects: []
+sort: 300000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.savage-eberron.eberron-gear.Item.EdL1Z0EfYcIF3tK8
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1691347302346
+  modifiedTime: 1692846508891
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!6ynkoYvz2xEciD7b.NxUcyG4k7MDa9DTq'

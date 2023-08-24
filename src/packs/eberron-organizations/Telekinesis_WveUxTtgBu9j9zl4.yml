@@ -1,0 +1,130 @@
+_id: WveUxTtgBu9j9zl4
+name: Telekinesis
+type: power
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+system:
+  description: >-
+    <article class="swadefc"><p>
+
+    <em>Telekinesis</em> is the ability to move objects or creatures (including
+    oneself) with arcane will. It has a
+        Strength of d10, or d12 with a raise. On activation, the caster may immediately perform one of the “uses” below.
+        Subsequent uses are actions and use the arcane skill (but are not activation rolls and therefore not subject to
+        Backlash from @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03rules000000000]{Critical Failures}).
+      </p>
+    <p>
+        Unwilling beings targeted by telekinesis resist the caster's arcane skill with an opposed Spirit roll when first
+        targeted, and at the start of each of their turns thereafter until they're released. Successful resistance does not
+        mean the spell fails-the caster may try again on his next turn.
+      </p>
+    <p><strong>Uses:</strong></p>
+
+    <ul>
+
+    <li><strong>Bash:</strong> The target may be bashed into the floor, ceiling,
+    or walls for Str+d6 damage.</li>
+
+    <li>
+
+    <strong>Change Targets:</strong> The caster may release a victim or tool as
+    a free action. Picking up a new weapon
+          is a free action. Selecting a new unwilling target is an action and is resisted as above.
+        </li>
+    <li>
+
+    <strong>Manipulate:</strong> The caster may use tools to perform simple
+    tasks or wield a weapon, using the
+          caster's arcane skill. (This doesn't alter the caster's Parry if wielding a weapon if his arcane skill is
+          different from his Fighting skill.)
+        </li>
+    <li>
+
+    <strong>Move:</strong> The target or tool may be moved up to the caster's
+    Smarts as a
+          limited free action.
+        </li>
+    </ul>
+
+    <div><strong>Modifiers</strong></div>
+
+    <ul>
+
+    <li class="epic-power-icon">
+
+    <strong>Power (+3):</strong> The Strength of <em>telekinesis</em> is d12, or
+    d12+2 with a raise. Bashing victims
+          inflicts Str+d8 damage. Objects weighing 500 pounds or more are treated as Heavy Weapons.
+        </li>
+    </ul></article>
+  notes: ''
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional:
+      WPznhrOT:
+        name: Bash
+        type: damage
+        override: 1d10+1d6
+        isHeavyWeapon: false
+      YwgwwMPi:
+        name: Bash (Raise)
+        type: damage
+        override: 1d12+1d6
+        isHeavyWeapon: false
+      y8K2mEXp:
+        name: Bash (Power)
+        type: damage
+        override: 1d10+1d8
+        isHeavyWeapon: false
+      6ysabHKF:
+        name: Bash (Raise+Power)
+        type: damage
+        override: 1d12+1d8
+        isHeavyWeapon: false
+      pZQQQlzV:
+        name: Unwilling Target
+        type: resist
+        isHeavyWeapon: false
+    trait: Magecrafting
+    traitMod: ''
+  rank: Seasoned
+  pp: 5
+  damage: ''
+  range: Smarts ×2
+  duration: '5'
+  trapping: A wave of the hand, magic wand, steely gaze.
+  arcane: Magewright
+  modifiers: []
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  ap: 0
+  innate: false
+  source: Fantasy Companion
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-powers.Item.nE0AIeWGCGWjxxi6
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692843569799
+  modifiedTime: 1692843752073
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!ibbHwKlbWp2IWiah.WveUxTtgBu9j9zl4'

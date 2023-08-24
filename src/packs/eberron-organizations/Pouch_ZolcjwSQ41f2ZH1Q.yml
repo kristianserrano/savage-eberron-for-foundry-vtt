@@ -1,0 +1,52 @@
+name: Pouch
+type: gear
+system:
+  description: >-
+    <ul><li><p>[[/r 2d6 # Number of black onyx gems worth 50 gp each]]{2d6}
+    black onyx gems worth 50 gp
+    each</p></li><li><p><em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.9LqSSV7O3rJi3uPS]{zombie}</em>
+    material component</p></li></ul>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 0
+  price: 0
+  equippable: false
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  favorite: false
+  category: ''
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  source: ''
+_id: ZolcjwSQ41f2ZH1Q
+img: icons/containers/bags/coinpouch-leather-grey.webp
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  swade:
+    hasGranted: []
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692135779831
+  modifiedTime: 1692136058183
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!5l0SaRBXT8mht8dL.ZolcjwSQ41f2ZH1Q'

@@ -1,0 +1,57 @@
+_id: DaYbJUbiJD4KhtVw
+name: Tindertwig
+type: gear
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Science.webp
+system:
+  source: Fantasy Companion
+  description: >-
+    <article class="swadefc">
+
+    <em>Notes:</em> A thin stick that alights with flame when struck against a
+    hard surface. It allows torches and
+              other flammable substances to be lit in a single action.</article>
+  notes: ''
+  additionalStats: {}
+  quantity: 6
+  weight: 0.1
+  price: 1
+  equippable: false
+  equipStatus: 0
+  isVehicular: false
+  mods: 1
+  favorite: false
+  category: Alchemical Items
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  actions:
+    trait: ''
+    traitMod: ''
+    dmgMod: ''
+    additional: {}
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-gear.Item.we3gPBklANCR0009
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692843662542
+  modifiedTime: 1692843668901
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!ibbHwKlbWp2IWiah.DaYbJUbiJD4KhtVw'

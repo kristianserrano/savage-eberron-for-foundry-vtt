@@ -1,0 +1,39 @@
+_id: EUs3334KqwiPq45T
+effects: []
+folder: null
+img: systems/swade/assets/icons/skills/saddle.svg
+name: Riding
+sort: 0
+type: skill
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  attribute: agility
+  description: >-
+    <article class="swade-core"><p>Riding allows a hero to mount, control, and
+    ride any beast or beast-drawn vehicle common to his setting. This includes
+    horses, camels, dragons, wagons, chariots, and the like. See
+    @Compendium[swade-core-rules.swade-rules.Mounted Combat]{Mounted
+    Combat}.</p></article>
+  die:
+    modifier: 0
+    sides: 6
+  isCoreSkill: false
+  notes: ''
+  wild-die:
+    sides: 6
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-skills.Item.CGECIfK29PAeTupp
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692845081180
+  modifiedTime: 1692845083365
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!6ynkoYvz2xEciD7b.EUs3334KqwiPq45T'

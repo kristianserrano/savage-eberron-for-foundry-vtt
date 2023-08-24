@@ -1,0 +1,28 @@
+_id: We48tELFzE9qCZ5E
+changes:
+  - key: system.wounds.max
+    mode: 2
+    value: '2'
+    priority: null
+disabled: false
+duration:
+  startTime: 12
+  seconds: null
+  combat: null
+  rounds: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+    loseTurnOnHold: false
+    favorite: false
+icon: systems/swade/assets/icons/ability.svg
+name: Very Resilient
+tint: null
+transfer: true
+description: ''
+origin: null
+statuses: []
+_key: '!actors.items.effects!W0ZGeEoKtF4ERK4i.F9LZaTnssIxmIKqd.We48tELFzE9qCZ5E'

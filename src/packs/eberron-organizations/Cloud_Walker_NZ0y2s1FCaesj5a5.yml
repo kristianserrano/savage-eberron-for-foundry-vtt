@@ -1,0 +1,33 @@
+name: Cloud Walker
+type: ability
+system:
+  description: >-
+    <p>Silver dragons can walk and run on clouds or fog at their full Pace, as
+    if on solid ground.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: ''
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: ''
+_id: NZ0y2s1FCaesj5a5
+img: systems/swade/assets/icons/ability.svg
+effects: []
+folder: null
+sort: 50000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  swade:
+    hasGranted: []
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692139739066
+  modifiedTime: 1692139878864
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!W0ZGeEoKtF4ERK4i.NZ0y2s1FCaesj5a5'

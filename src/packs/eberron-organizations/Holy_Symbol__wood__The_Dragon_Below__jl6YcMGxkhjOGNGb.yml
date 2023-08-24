@@ -1,0 +1,52 @@
+_id: jl6YcMGxkhjOGNGb
+name: Holy Symbol, wood (The Dragon Below)
+type: gear
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Gear.webp
+system:
+  source: Fantasy Companion
+  description: <article class="swadefc"></article>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 0
+  price: 1
+  equippable: false
+  equipStatus: 0
+  isVehicular: false
+  mods: 1
+  favorite: false
+  category: General Gear
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  actions:
+    trait: ''
+    traitMod: ''
+    dmgMod: ''
+    additional: {}
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-gear.Item.99NObbYTcoUc0028
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692711449313
+  modifiedTime: 1692711463240
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!IkMjWChiTfe0Rbmn.jl6YcMGxkhjOGNGb'

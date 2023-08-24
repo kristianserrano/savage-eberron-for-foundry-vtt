@@ -1,0 +1,47 @@
+_id: UPNflRrXTEIheOjV
+changes:
+  - key: system.stats.globalMods.damage
+    mode: 2
+    value: '2'
+    priority: null
+disabled: false
+duration:
+  startTime: 12
+  seconds: null
+  combat: null
+  rounds: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    conditionalEffect: true
+icon: systems/swade/assets/icons/edge.svg
+name: Champion
+tint: null
+transfer: true
+description: >-
+  <article class="swade-core">
+
+  <p>Champions are holy (or unholy) men and women chosen to fight for a
+  particular deity or religion. Most are pious souls ready and willing to lay
+  down their lives for a greater cause, but some may have been born into the
+  role and follow their path with some reluctance.</p>
+
+  <p>Champions fight the forces of darkness (or good), adding +2 damage when
+  attacking supernaturally evil (or good if they’re evil) creatures. The bonus
+  applies to
+  @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{area
+  effect damage},
+  @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03attacks0000000]{ranged
+  attacks},
+  @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{powers},
+  etc.</p>
+
+  <p>The GM must decide which foes this bonus applies to, but generally it’s any
+  evil (or good!) creature born of magic or with any supernatural abilities.</p>
+
+  </article>
+origin: null
+statuses: []
+_key: '!actors.items.effects!6ynkoYvz2xEciD7b.FkzczULDZ5fkiSnR.UPNflRrXTEIheOjV'

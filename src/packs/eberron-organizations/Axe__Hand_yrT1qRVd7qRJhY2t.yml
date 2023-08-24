@@ -1,0 +1,80 @@
+_id: yrT1qRVd7qRJhY2t
+name: Axe, Hand
+type: weapon
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Shooting_v1.webp
+system:
+  description: ''
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 3
+  price: 6
+  equippable: true
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    dmgMod: ''
+    additional:
+      Oua8J0HaKkFjZdBr:
+        name: Fighting
+        type: trait
+        override: Fighting
+        isHeavyWeapon: false
+    trait: Athletics
+    traitMod: ''
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: true
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  category: Ranged Weapons
+  grants: []
+  grantOn: 1
+  damage: '@str+d6'
+  range: 3/6/12
+  rof: 1
+  ap: 0
+  parry: 0
+  minStr: d6
+  shots: 0
+  currentShots: 0
+  ammo: ''
+  reloadType: none
+  ppReloadCost: 0
+  trademark: 0
+  isHeavyWeapon: false
+  source: Fantasy Companion
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-weapons.Item.gwkrWnCEl0V90000
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+    fullDescription: ' | Ranged Weapons | '
+  swade:
+    hasGranted: []
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692065547869
+  modifiedTime: 1692065841910
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!8pArTn9TfiHb0a7G.yrT1qRVd7qRJhY2t'

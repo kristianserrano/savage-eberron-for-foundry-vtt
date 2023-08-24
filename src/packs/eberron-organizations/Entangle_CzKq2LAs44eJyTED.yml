@@ -1,0 +1,100 @@
+_id: CzKq2LAs44eJyTED
+name: Entangle
+type: power
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+system:
+  description: >-
+    <article class="swadefc"><p>
+
+    <em>Entangle</em> restrain a target with ice, bands of energy, vines,
+    disembodied hands, etc (Hardness 8). If cast
+        successfully, the target is Entangled (or Bound with a raise on the arcane skill roll).
+      </p>
+    <p>
+        Victims may try to break free on their turn as detailed under @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{Bound and Entangled} <em>in Savage Worlds</em> and @UUID[Compendium.swade-fantasy-companion.swade-fc.JournalEntry.swadefcp03settin.JournalEntryPage.03chapterthree00#bound-and-entangled]{update here}.
+      </p>
+    <div><strong>Modifiers</strong></div>
+
+    <ul>
+
+    <li>
+
+    <strong>Area of Effect (+2/+3):</strong> For +2 points the power affects
+    everyone in a Medium Blast Template. For
+          +3 points the area of effect is increased to a Large Blast Template or use the Stream Template.
+        </li>
+    <li><strong>Damage (+2):</strong> Entangled targets take 2d4 damage at the
+    end of their turn.</li>
+
+    <li class="epic-power-icon">
+
+    <strong>Deadly (+4):</strong> Entangled targets take 2d6 damage at the end
+    of their turn. Does not stack with
+          Damage.
+        </li>
+    <li>
+
+    <strong>Tough (+1):</strong> The entangling material is particularly
+    resilient. Increase its Hardness to 10.
+        </li>
+    </ul></article>
+  notes: ''
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional:
+      qbETZtas:
+        name: Damage (2d4)
+        type: damage
+        override: 2d4
+        isHeavyWeapon: false
+        modifier: ''
+      roS9oGG0:
+        name: Deadly (2d6)
+        type: damage
+        override: 2d6
+        isHeavyWeapon: false
+        modifier: ''
+    trait: Spellcasting
+    traitMod: ''
+  rank: Novice
+  pp: 2
+  damage: ''
+  range: Smarts
+  duration: Instant
+  trapping: Glue bomb, vines, webs.
+  arcane: Magic
+  modifiers: []
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: true
+    large: true
+  ap: 0
+  innate: false
+  source: Fantasy Companion
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-powers.Item.QWIWVdAJ2wvLP7Zz
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692670661372
+  modifiedTime: 1692673247860
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!W0ZGeEoKtF4ERK4i.CzKq2LAs44eJyTED'

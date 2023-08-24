@@ -1,0 +1,16 @@
+name: The Church of the Silver Flame
+sorting: a
+folder: null
+type: Actor
+_id: jVMGstLOWrh7UtRw
+sort: 400000
+color: null
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692670168524
+  modifiedTime: 1692846742570
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!folders!jVMGstLOWrh7UtRw'

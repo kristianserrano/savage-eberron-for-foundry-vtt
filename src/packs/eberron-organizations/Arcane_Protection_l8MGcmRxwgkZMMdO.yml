@@ -1,0 +1,79 @@
+_id: l8MGcmRxwgkZMMdO
+name: Arcane Protection
+type: power
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+system:
+  description: >-
+    <article class="swadefc"><p>
+        Success with <em>arcane protection</em> means hostile powers suffer a -2 penalty (-4 with a raise) to affect this
+        character. If the hostile power fails to affect the target due to this penalty, it still activates and consumes
+        Power Points (and may still affect other targets). If the power causes harm, damage is also reduced a like amount
+        for the protected target.
+      </p>
+    <p><em>Arcane protection</em> stacks with Arcane Resistance should the
+    recipient have both!</p>
+
+    <div><strong>Modifiers</strong></div>
+
+    <ul>
+
+    <li>
+
+    <strong>Additional Recipients (+1):</strong> The power may affect more than
+    one target for 1 additional Power
+          Point each.
+        </li>
+    <li class="epic-power-icon">
+
+    <strong>Greater Arcane Protection (+2):</strong> Hostile powers suffer a -4
+    penalty (-6 with a raise).
+        </li>
+    </ul></article>
+  notes: ''
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: Spellcasting
+    traitMod: ''
+  rank: Novice
+  pp: 1
+  damage: ''
+  range: Smarts
+  duration: '5'
+  trapping: Concentration, a dull glow around the protected character, a fetish.
+  arcane: Magic
+  modifiers: []
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  ap: 0
+  innate: false
+  source: Fantasy Companion
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-powers.Item.qjflUvZxnhUF91dS
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692670631784
+  modifiedTime: 1692673276449
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!W0ZGeEoKtF4ERK4i.l8MGcmRxwgkZMMdO'

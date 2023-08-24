@@ -1,0 +1,38 @@
+_id: 6n7z6vbDglkT95Te
+effects: []
+folder: null
+img: systems/swade/assets/icons/ability.svg
+name: Fear (−2)
+sort: 0
+type: ability
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  description: >-
+    <article
+    class="swade-core"><ul><li><strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili10]{Fear}
+    (−2):</strong> Anyone who sees a mighty dragon must make a Fear check at
+    −2.</li></ul></article>
+  grantsPowers: false
+  notes: ''
+  subtype: special
+  category: Special Ability
+  favorite: false
+  grants: []
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-specialabilities.Item.R3jRGWNOjNFFanZy
+  swade:
+    hasGranted: []
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692669404134
+  modifiedTime: 1692669467692
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!W0ZGeEoKtF4ERK4i.6n7z6vbDglkT95Te'

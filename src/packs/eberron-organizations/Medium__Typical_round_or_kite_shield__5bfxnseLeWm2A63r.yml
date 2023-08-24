@@ -1,0 +1,55 @@
+_id: 5bfxnseLeWm2A63r
+name: Medium (Typical round or kite shield)
+type: shield
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Shield.webp
+system:
+  description: ''
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 8
+  price: 0
+  equippable: true
+  equipStatus: 3
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  category: Shields
+  grants: []
+  grantOn: 1
+  minStr: d8
+  parry: 2
+  cover: -2
+  source: Fantasy Companion
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-armor.Item.eSVI4BZBUW5B0001
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+    fullDescription: ' |  | Shields | '
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692066918108
+  modifiedTime: 1692066918108
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!5l0SaRBXT8mht8dL.5bfxnseLeWm2A63r'

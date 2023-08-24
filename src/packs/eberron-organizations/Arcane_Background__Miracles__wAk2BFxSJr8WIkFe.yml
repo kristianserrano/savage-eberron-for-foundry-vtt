@@ -1,0 +1,68 @@
+_id: wAk2BFxSJr8WIkFe
+effects: []
+folder: null
+img: systems/swade/assets/icons/edge.svg
+name: Arcane Background (Miracles)
+sort: 0
+type: edge
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  description: >-
+    <article class="swade-core">
+
+    <ul>
+
+    <li>Arcane Skill: @Compendium[swade-core-rules.swade-skills.Faith]{Faith}
+    (Spirit)</li>
+
+    <li>Starting
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{Powers}:
+    3</li>
+
+    <li>@UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{Power
+    Points}: 10</li>
+
+    </ul>
+
+    <p>Those who invoke miracles draw their power from a divine presence of some
+    sort, including gods, nature, or spirits. Their powers are usually invoked
+    with a few words of prayer or by performing established rituals. </p>
+
+    <p>Those who cast miracles are champions of their particular religions. They
+    typically have
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrances}
+    that pertain to their service, such as
+    @Compendium[swade-core-rules.swade-hindrances.Vow]{Vow} or
+    @Compendium[swade-core-rules.swade-hindrances.Obligation]{Obligation}. They
+    might also have
+    @Compendium[swade-core-rules.swade-edges.Connections]{Connections} to others
+    of their religion who can help them out when their divine energies wane <br
+    style="font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px"
+    /><br /></p>
+
+    </article>
+  isArcaneBackground: true
+  notes: ''
+  requirements:
+    value: Novice
+  category: Background
+  favorite: false
+  grants: []
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-edges.Item.7d5eiEX0NEiaCuCJ
+  swade:
+    hasGranted: []
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692676950335
+  modifiedTime: 1692676950362
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!IkMjWChiTfe0Rbmn.wAk2BFxSJr8WIkFe'

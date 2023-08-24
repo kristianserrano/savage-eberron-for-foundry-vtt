@@ -1,0 +1,76 @@
+_id: ql29yqD1YDspUQWB
+name: Protection
+type: power
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+system:
+  description: >-
+    <article class="swadefc"><p>
+
+    <em>Protection</em> creates a field of energy or armor around a character,
+    giving him 2 points of Armor. With a
+        raise, the bonus is applied to Toughness instead (and therefore immune to Armor Piercing modifiers).
+      </p>
+    <p>Whether the <em>protection</em> is visible or not depends on the
+    Trapping-this is entirely up to the caster.</p>
+
+    <p><em>Protection</em> stacks with all other armor, natural or worn.</p>
+
+    <div><strong>Modifiers</strong></div>
+
+    <ul>
+
+    <li>
+
+    <strong>Additional Recipients (+1):</strong> The power may affect additional
+    targets at a cost of 1 Power Point
+          each.
+        </li>
+    </ul></article>
+  notes: ''
+  additionalStats: {}
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  rank: Novice
+  pp: 1
+  damage: ''
+  range: Smarts
+  duration: '5'
+  trapping: A mystical glow, bark skin, mage armor, ethereal armor
+  arcane: ''
+  ap: 0
+  innate: false
+  modifiers: []
+  source: Fantasy Companion
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692066853640
+  modifiedTime: 1692066853640
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!5l0SaRBXT8mht8dL.ql29yqD1YDspUQWB'

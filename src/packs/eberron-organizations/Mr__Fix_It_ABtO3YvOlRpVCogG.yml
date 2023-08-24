@@ -1,0 +1,35 @@
+_id: ABtO3YvOlRpVCogG
+name: Mr. Fix It
+changes:
+  - key: '@Skill{Repair}[system.die.modifier]'
+    mode: 2
+    value: '2'
+    priority: null
+disabled: false
+duration:
+  startTime: 12
+  seconds: null
+  combat: null
+  rounds: null
+  turns: null
+  startRound: null
+  startTurn: null
+icon: systems/swade/assets/icons/edge.svg
+tint: null
+transfer: true
+description: >-
+  <article class="swade-core">
+
+  <p>The mechanic adds +2 to
+  @Compendium[swade-core-rules.swade-skills.Repair]{Repair} rolls. With a raise,
+  he halves the time normally required to fix something. This means if a
+  particular Repair job says a raise repairs it in half the time, a Mr. Fix It
+  can finish the job in one quarter the time with a raise.</p>
+
+  </article>
+flags:
+  swade:
+    conditionalEffect: false
+origin: null
+statuses: []
+_key: '!actors.items.effects!ibbHwKlbWp2IWiah.ywxdwOX4RUDIoaRs.ABtO3YvOlRpVCogG'

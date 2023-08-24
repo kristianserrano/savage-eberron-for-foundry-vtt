@@ -1,0 +1,49 @@
+_id: UuidBu9khVIQlcbW
+effects: []
+folder: null
+img: systems/swade/assets/icons/hindrance.svg
+name: Vow
+sort: 0
+type: hindrance
+system:
+  description: >-
+    <article class="swade-core">
+
+    <p>(MINOR OR MAJOR)</p>
+
+    <p>The character has sworn an oath to someone or something he believes
+    in.</p>
+
+    <p>The danger in fulfilling the Vow and how often it might occur determines
+    the level of the
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrance}.
+    A
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Minor}
+    Vow might be to serve an order with a broad mandate that rarely conflicts
+    with the party&rsquo;s goals.</p>
+
+    <p>A
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Major}
+    Vow makes long-term and frequent demands on the servant&rsquo;s time and
+    results in great risks to his life.</p>
+
+    </article>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  major: false
+  grants: []
+  source: SWADE Core Rules
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692066641687
+  modifiedTime: 1692066641687
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!5l0SaRBXT8mht8dL.UuidBu9khVIQlcbW'

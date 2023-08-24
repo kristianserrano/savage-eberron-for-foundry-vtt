@@ -1,0 +1,50 @@
+name: 8 Rings
+type: gear
+system:
+  description: >-
+    <p>Each worth 10 copper, silver, gold, or platinum based on their member
+    status.</p>
+  notes: ''
+  additionalStats: {}
+  quantity: 8
+  weight: 0
+  price: 0
+  equippable: true
+  equipStatus: 3
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  favorite: false
+  category: ''
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  source: ''
+_id: SKgTrQYjeqe51r2B
+img: icons/equipment/finger/ring-faceted-gold-purple.webp
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  swade:
+    hasGranted: []
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692065665598
+  modifiedTime: 1692065817422
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!8pArTn9TfiHb0a7G.SKgTrQYjeqe51r2B'

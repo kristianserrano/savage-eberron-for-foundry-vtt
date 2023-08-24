@@ -1,0 +1,37 @@
+folder: yw2Gg9xnt8dNDDh9
+name: Craft Magic Items
+type: edge
+_id: wbb3Z2lnECJsP5kx
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>This is a renamed version of the
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.CW5Infpnc7pZYWTu]{Artificer}
+    Edge as presented in the <em>Savage Worlds Fantasy Companion</em>.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Power Edges
+  isArcaneBackground: false
+  requirements:
+    value: ''
+  grants: []
+  source: Eberron for Savage Worlds
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.savage-eberron.eberron-edges.Item.okibGFSAYG3qKlXT
+  swade:
+    hasGranted: []
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1690671479852
+  modifiedTime: 1692834347496
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!ibbHwKlbWp2IWiah.wbb3Z2lnECJsP5kx'

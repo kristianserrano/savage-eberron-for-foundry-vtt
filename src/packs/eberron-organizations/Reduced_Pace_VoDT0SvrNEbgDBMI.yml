@@ -1,0 +1,38 @@
+name: Reduced Pace
+type: ability
+img: icons/skills/movement/figure-running-gray.webp
+system:
+  description: >-
+    <p>Dwarves have short legs compared to human-sized ancestries. Decrease
+    their Pace by 1 and their running die one die type.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Dwarf
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+effects:
+  - d7E4snlTUokCbg8H
+folder: aXo6xVVmiLyAK44L
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1668895717346
+  modifiedTime: 1692061962542
+  lastModifiedBy: Xbne19Xghka479we
+_id: VoDT0SvrNEbgDBMI
+sort: 150000
+_key: '!actors.items!8pArTn9TfiHb0a7G.VoDT0SvrNEbgDBMI'

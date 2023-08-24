@@ -1,0 +1,45 @@
+_id: zOVBNQPotTuUGQb8
+name: Stonecunning
+type: edge
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: |-
+    <article class="swadefc"><h3>Stonecunning</h3>
+    <section class="description">
+    <p>
+     Those who spend their lives around worked stone quickly perceive imperfections or alterations within its design.
+     Assuming they can see or feel the work, they get one free Notice roll at +2 to detect traps, hidden doors, or
+     compartments in stonework within 10 feet of their person. Success means they know some alteration has been made,
+     and a raise gives them insight into its general purpose.
+     </p>
+    </section></article>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Professional
+  isArcaneBackground: false
+  requirements:
+    value: Novice, Repair d6+
+  grants: []
+  source: Fantasy Companion
+effects:
+  - cqP4rHkJLTpfaEb9
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.0.6
+  coreVersion: '11.307'
+  createdTime: 1692061962542
+  modifiedTime: 1692061962542
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!8pArTn9TfiHb0a7G.zOVBNQPotTuUGQb8'

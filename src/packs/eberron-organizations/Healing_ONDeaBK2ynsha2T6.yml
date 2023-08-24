@@ -1,0 +1,57 @@
+_id: ONDeaBK2ynsha2T6
+effects: []
+folder: null
+img: systems/swade/assets/icons/skills/medical-pack.svg
+name: Healing
+sort: 500000
+type: skill
+system:
+  source: SWADE Core Rules
+  additionalStats: {}
+  attribute: smarts
+  description: >-
+    <article class="swade-core">
+
+    <p>Healing has multiple uses, from treating
+    @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wounds} to
+    diagnosing diseases and analyzing certain kinds of forensic evidence.</p>
+
+    <p>See
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Healing}
+    for rules on mending and treating
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wounds},
+    and
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{Hazards}
+    for treatment of disease or poison.</p>
+
+    <p><strong>Forensics: </strong> Healing can also be used to analyze evidence
+    that relates to anatomical trauma, including cause and time of death, angle
+    of attack, and similar matters.
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success}
+    provides basic information and a
+    @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise} increases the
+    details uncovered.</p>
+
+    </article>
+  die:
+    modifier: 0
+    sides: 4
+  isCoreSkill: false
+  notes: ''
+  wild-die:
+    sides: 6
+ownership:
+  7ntJSLixH2Phv2jV: 3
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core:
+    sourceId: Compendium.swade-core-rules.swade-skills.Item.Syo1BvITMeRV2Aat
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692673633140
+  modifiedTime: 1692673882047
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!IkMjWChiTfe0Rbmn.ONDeaBK2ynsha2T6'

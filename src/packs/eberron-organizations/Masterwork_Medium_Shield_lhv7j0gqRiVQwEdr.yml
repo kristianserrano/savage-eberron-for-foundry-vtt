@@ -1,0 +1,55 @@
+_id: lhv7j0gqRiVQwEdr
+name: Masterwork Medium Shield
+type: shield
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Shield.webp
+system:
+  source: Fantasy Companion
+  category: Shields
+  description: ''
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 8
+  price: 300
+  equippable: true
+  actions:
+    dmgMod: ''
+    additional: {}
+    trait: ''
+    traitMod: ''
+  minStr: d6
+  parry: 2
+  cover: -2
+  equipStatus: 3
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  grants: []
+  grantOn: 1
+effects: []
+sort: 125000
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-armor.Item.eSVI4BZBUW5B0001
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+    fullDescription: ' |  | Shields | '
+folder: LUzssiMl3ax9E9z3
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692761928418
+  modifiedTime: 1692846385119
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!6ynkoYvz2xEciD7b.lhv7j0gqRiVQwEdr'

@@ -1,0 +1,50 @@
+_id: PUOsMiWZfgprx4kZ
+name: Epic Mastery
+type: edge
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  source: Fantasy Companion
+  description: |-
+    <article class="swadefc"><h3>Epic Mastery</h3>
+    <section class="description">
+    <p>
+     The spellcaster is so well-versed in her arcane or divine craft that she has learned new ways to manipulate her
+     powers. She gains access to the Epic Power Modifiers for all her powers.
+     </p>
+    <p>
+     Epic Mastery applies to all a hero's Arcane Backgrounds if she has more than one, though she must meet the
+     arcane skill requirement for each before she can use Epic Power Modifiers with that background's powers.
+     </p>
+    <p>See Chapter Four for a complete list of Epic Power Modifiers.</p>
+    </section></article>
+  notes: ''
+  additionalStats: {}
+  isArcaneBackground: false
+  requirements:
+    value: Veteran, Arcane Background (Any), arcane skill d6+
+  category: Power
+  favorite: false
+  grants: []
+effects: []
+sort: 0
+flags:
+  core:
+    sheetClass: swade.SWADEFCItem
+    sourceId: Compendium.swade-fantasy-companion.swade-fc-edges.Item.u6T4PbGGO1rmF2F0
+  singleSource:
+    version: 2.0.0-alpha
+    module: swade-fantasy-companion
+  swade:
+    hasGranted: []
+folder: null
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_stats:
+  systemId: swade
+  systemVersion: 3.1.1
+  coreVersion: '11.307'
+  createdTime: 1692670479023
+  modifiedTime: 1692670479051
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!actors.items!W0ZGeEoKtF4ERK4i.PUOsMiWZfgprx4kZ'
