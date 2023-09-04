@@ -14,7 +14,7 @@ system:
   category: Power Edges
   isArcaneBackground: false
   requirements:
-    value: ''
+    value: 'Seasoned, Arcane Background (Any)'
   grants: []
   source: Eberron for Savage Worlds
 effects: []
