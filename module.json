@@ -178,5 +178,15 @@
       "loop": false,
       "flags": {}
     }
-  ]
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css"
+      ],
+      "paths": [
+        "savage-eberron.css"
+      ]
+    }
+  }
 }
