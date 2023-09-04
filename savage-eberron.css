@@ -268,12 +268,11 @@
 }
 
 .savage-eberron.--article table {
-    margin: 0 auto;
     width: 100%;
-    border: 1px solid #222;
+    margin: 0 auto;
     border-collapse: collapse;
-    overflow: scroll;
 }
+
 
 .savage-eberron.--article table caption {
     padding: 0.125em;
@@ -298,7 +297,6 @@
     background-color: #ccc;
 }
 
-
 .savage-eberron.--article thead {
     font-size: .9em;
     color: #fff;
@@ -311,36 +309,34 @@
     padding: 0.5em;
 }
 
-.savage-eberron.--article th[scope="colgroup"] {
-    position:relative;
+.savage-eberron.--article tbody th {
+    padding: 0;
+    margin: 0;
+}
+
+.savage-eberron.--article tbody th .table-subheading {
     width: 100%;
-    padding: 0.5em 1em;
-    color: #fff;
+    padding: 0.25em 0;
+    display: inline-flex;
+    gap: 1em;
+    justify-content: space-evenly;
+    align-items: center;
     font-family: "Masoch-Dirach";
     font-size: 1.25em;
     font-weight: normal;
     text-transform: uppercase;
+    color: #fff;
     background-color: #222;
 }
 
-.savage-eberron.--article th[scope="colgroup"]::before {
+.savage-eberron.--article tbody th .table-subheading::before,
+.savage-eberron.--article tbody th .table-subheading::after {
     content: '';
-    position: absolute;
-    left: 1em;
-    top: 45%;
-    width: calc(100% / 3 - 0.5em);
-    border-top: 4px solid #fff;
+    margin: 0.25em;
+    align-self: start;
+    flex-grow: 1;
+    border-top: 5px solid #fff;
 }
-
-.savage-eberron.--article th[scope="colgroup"]::after {
-    position: absolute;
-    content: '';
-    right: 1em;
-    top: 45%;
-    width: calc(100% / 3 - 0.5em);
-    border-top: 4px solid #fff;
-}
-
 
 .savage-eberron.--article td {
     vertical-align: top;
