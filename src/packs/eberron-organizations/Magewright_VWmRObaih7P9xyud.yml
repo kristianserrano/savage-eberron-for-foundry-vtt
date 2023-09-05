@@ -29,7 +29,7 @@ system:
       mutation: {}
   isArcaneBackground: true
   requirements:
-    value: 'Smarts d6+'
+    value: Smarts d6+
 effects: []
 sort: 0
 ownership:

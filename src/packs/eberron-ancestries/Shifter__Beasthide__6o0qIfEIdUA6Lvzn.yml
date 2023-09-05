@@ -36,7 +36,7 @@ system:
   additionalStats: {}
   favorite: false
   category: Ancestry
-  subtype: special
+  subtype: race
   grantsPowers: false
   grants:
     - name: Shifting (Beasthide)

@@ -28,7 +28,7 @@ system:
       uuid: Compendium.savage-eberron.eberron-skills.Item.x4BoB8YN8PT8ASus
   isArcaneBackground: true
   requirements:
-    value: 'Smarts d6+'
+    value: Smarts d6+
 effects: []
 sort: 0
 ownership:

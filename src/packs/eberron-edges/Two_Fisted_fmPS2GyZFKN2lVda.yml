@@ -11,7 +11,7 @@ system:
   category: Combat Edges
   isArcaneBackground: false
   requirements:
-    value: 'Novice, Agility d8+'
+    value: Novice, Agility d8+
   grants: []
   source: Eberron for Savage Worlds
 effects: []
