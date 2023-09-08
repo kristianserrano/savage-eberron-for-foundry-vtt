@@ -40,7 +40,7 @@ system:
   rof: '1'
   ap: 0
   parry: 0
-  minStr: ''
+  minStr: d4
   shots: 0
   currentShots: 0
   ammo: ''

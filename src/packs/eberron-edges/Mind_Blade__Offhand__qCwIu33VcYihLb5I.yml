@@ -44,7 +44,7 @@ system:
   damage: '@str+d6'
   range: 3/6/12
   rof: '1'
-  ap: null
+  ap: 0
   parry: 0
   minStr: d4
   shots: 0

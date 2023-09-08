@@ -37,12 +37,12 @@ system:
   category: Warforged
   grants: []
   grantOn: 1
-  damage: '@str+d8'
+  damage: '@str+d4'
   range: ''
   rof: '0'
   ap: 0
   parry: 0
-  minStr: ''
+  minStr: d4
   shots: null
   currentShots: 0
   ammo: ''
