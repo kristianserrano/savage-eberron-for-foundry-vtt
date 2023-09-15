@@ -28,7 +28,7 @@ system:
   category: Clothing
   grants: []
   grantOn: 1
-  minStr: ''
+  minStr: d4
   armor: 1
   toughness: 0
   isNaturalArmor: false
