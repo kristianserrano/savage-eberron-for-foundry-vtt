@@ -33,10 +33,10 @@ Work on this module is incomplete but ongoing. Below is a list of what content i
   - [ ] Bestiary
 - [ ] Cross-linked content linking Foundry VTT Document Types (Items, Actors, and Journal Entries) to one another
 
-## Support This Module
+<!-- ## Support This Module
 
 If you'd like to support ongoing development and support for this module, please consider joining [my Patreon](https://www.patreon.com/SavageEberronFoundryVTT/).
-
+ -->
 ## Installation Instructions
 
 Copy the following URL:
