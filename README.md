@@ -33,10 +33,10 @@ Work on this module is incomplete but ongoing. Below is a list of what content i
   - [ ] Bestiary
 - [ ] Cross-linked content linking Foundry VTT Document Types (Items, Actors, and Journal Entries) to one another
 
-<!-- ## Support This Module
+## Support This Module
 
-If you'd like to support ongoing development and support for this module, please consider joining [my Patreon](https://www.patreon.com/SavageEberronFoundryVTT/).
- -->
+If you'd like to support ongoing development and support for this module, please consider joining [my Patreon](https://www.patreon.com/KristianSerrano/).
+
 ## Installation Instructions
 
 Copy the following URL:
@@ -46,5 +46,3 @@ https://github.com/kristianserrano/savage-eberron-for-foundry-vtt/releases/lates
 ```
 
 Follow the instructions on [this Foundry VTT Knowledge Base article](https://foundryvtt.com/article/modules/#:~:text=Installing%20via%20Manifest%20URL) for Installing new modules with a manifest URL.
-
-
