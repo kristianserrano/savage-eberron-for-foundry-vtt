@@ -95,9 +95,44 @@ system:
   requirements:
     value: Spirit d6+
   grants:
-    - name: Warlock/Witch
+    - uuid: Compendium.swade-core-rules.swade-skills.Item.Ii5r0pBeYHQvdYIp
+      img: systems/swade/assets/icons/skills/spell-book.svg
+      name: Spellcasting
+      mutation: {}
+    - uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-hindrances.Item.XrAAZ5rqTGjdQ5oe
+      img: >-
+        modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp
+      name: Corruption
+      mutation: {}
+    - uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-hindrances.Item.g78Sft2Y46sxY5z3
+      img: >-
+        modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp
+      name: Armor Interference
+      mutation:
+        system:
+          major: true
+    - uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-hindrances.Item.MykOIqoms17ugdwa
+      img: >-
+        modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp
+      name: Material Components
+      mutation: {}
+    - uuid: Compendium.swade-fantasy-companion.swade-fc-edges.Item.8wNCC0idkPbufaeX
       img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
-      uuid: Compendium.swade-fantasy-companion.swade-fc-edges.Item.F6KTUe4mMeDhsnIn
+      name: Familiar
+      mutation: {}
+    - uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-abilities.Item.oKyWnnq0ZKu8RQiG
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+      name: Coven
+      mutation: {}
+    - uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-abilities.Item.AMNggxEnby2MCpVr
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+      name: Prepared Powers
+      mutation: {}
   source: Eberron for Savage Worlds
 effects: []
 sort: 0
@@ -108,9 +143,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.0.6
-  coreVersion: '11.307'
+  systemVersion: 3.1.4
+  coreVersion: '11.313'
   createdTime: 1691452743285
-  modifiedTime: 1692321428893
+  modifiedTime: 1697076807129
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!koOwagS62BnU61WG'

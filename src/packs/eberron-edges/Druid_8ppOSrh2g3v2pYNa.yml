@@ -66,9 +66,51 @@ system:
   requirements:
     value: Spirit d6+
   grants:
-    - name: Druid
+    - uuid: Compendium.swade-core-rules.swade-skills.Item.5qXzjDHdjaeYnBod
+      img: systems/swade/assets/icons/skills/prayer.svg
+      name: Faith
+      mutation: {}
+    - uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-hindrances.Item.g78Sft2Y46sxY5z3
+      img: >-
+        modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp
+      name: Armor Interference
+      mutation:
+        system:
+          major: false
+    - uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-hindrances.Item.MykOIqoms17ugdwa
+      img: >-
+        modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp
+      name: Material Components
+      mutation: {}
+    - uuid: Compendium.swade-core-rules.swade-hindrances.Item.97ulajnqpnVgGb63
+      img: systems/swade/assets/icons/hindrance.svg
+      name: Vow
+      mutation:
+        system:
+          major: true
+    - uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-abilities.Item.8QckJSkKuffLb8gb
       img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
-      uuid: Compendium.swade-fantasy-companion.swade-fc-edges.Item.YkiiDygDNOy7A1fO
+      name: One with Nature
+      mutation: {}
+    - uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-abilities.Item.JkHlLuMj4ZkptEde
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+      name: Wilderness Walk
+      mutation: {}
+    - uuid: Compendium.swade-fantasy-companion.swade-fc-powers.Item.O6mvldoWWXTYSY2F
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+      name: Beast Friend
+      mutation: {}
+    - uuid: Compendium.swade-fantasy-companion.swade-fc-powers.Item.N7AS7Joyq6QbLf25
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+      name: Environmental Protection
+      mutation: {}
+    - name: Shape Change
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+      uuid: Compendium.swade-fantasy-companion.swade-fc-powers.Item.fK9adaURLKcCGv99
   source: Eberron for Savage Worlds
 effects: []
 sort: 0
@@ -79,9 +121,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.0.6
-  coreVersion: '11.307'
+  systemVersion: 3.1.4
+  coreVersion: '11.313'
   createdTime: 1691415767710
-  modifiedTime: 1692321428893
+  modifiedTime: 1697076208404
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!8ppOSrh2g3v2pYNa'
