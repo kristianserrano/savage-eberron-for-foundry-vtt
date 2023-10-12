@@ -47,9 +47,22 @@ system:
   requirements:
     value: Spirit d6+
   grants:
-    - name: Bard
+    - uuid: Compendium.swade-core-rules.swade-skills.Item.UVdSzNvdAPmGk0iO
+      img: systems/swade/assets/icons/skills/drama-masks.svg
+      name: Performance
+      mutation: {}
+    - uuid: >-
+        Compendium.swade-fantasy-companion.swade-fc-abilities.Item.01wnCxmd9MqqlOUs
       img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
-      uuid: Compendium.swade-fantasy-companion.swade-fc-edges.Item.Soc9kIMvpY7zHwuI
+      name: Sharp Tongued
+      mutation: {}
+    - uuid: Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp
+      name: Boost/Lower Trait
+      mutation: {}
+    - name: Sound/Silence
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+      uuid: Compendium.swade-fantasy-companion.swade-fc-powers.Item.6bHl26mVNSdtQ0Tl
   source: Eberron for Savage Worlds
 effects: []
 sort: 0
@@ -60,9 +73,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.0.6
-  coreVersion: '11.307'
+  systemVersion: 3.1.4
+  coreVersion: '11.313'
   createdTime: 1691368982970
-  modifiedTime: 1692321428893
-  lastModifiedBy: Xbne19Xghka479we
+  modifiedTime: 1696785763471
+  lastModifiedBy: gnhMzhHlhdZ0SrHo
 _key: '!items!pKOzO0oK0DuP50Jt'

@@ -1,0 +1,25 @@
+name: Starting Vigor d6
+icon: icons/magic/control/buff-strength-muscle-damage.webp
+duration:
+  rounds: null
+  startTime: 0
+  seconds: null
+  combat: null
+  turns: null
+  startRound: null
+  startTurn: null
+flags:
+  swade:
+    expiration: null
+changes:
+  - key: system.attributes.vigor.die.sides
+    mode: 2
+    value: '2'
+    priority: null
+transfer: true
+_id: jmXZJ6SozUFEyZnh
+disabled: false
+description: ''
+origin: null
+statuses: []
+_key: '!items.effects!UsAhusaNzWYJkxqk.jmXZJ6SozUFEyZnh'
