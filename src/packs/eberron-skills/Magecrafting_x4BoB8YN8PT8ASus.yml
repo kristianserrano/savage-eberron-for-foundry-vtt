@@ -10,7 +10,7 @@ system:
   notes: ''
   source: Eberron for Savage Worlds
   additionalStats: {}
-  attribute: ''
+  attribute: smarts
   isCoreSkill: false
   die:
     sides: 4
