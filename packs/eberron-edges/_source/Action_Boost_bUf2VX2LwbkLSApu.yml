@@ -1,0 +1,38 @@
+folder: w0ssAJ3pLdh323mi
+name: Action Boost
+type: edge
+_id: bUf2VX2LwbkLSApu
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The adventurer’s Wild Die increases one die type when spending a Benny to
+    reroll a Trait roll.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Combat
+  isArcaneBackground: false
+  requirements:
+    - type: rank
+      value: 1
+      combinator: and
+    - type: wildCard
+      value: true
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: action-boost
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.2
+  coreVersion: '11.313'
+  createdTime: 1690669461967
+  modifiedTime: 1698641771072
+  lastModifiedBy: gnhMzhHlhdZ0SrHo
+_key: '!items!bUf2VX2LwbkLSApu'

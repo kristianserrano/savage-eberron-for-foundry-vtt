@@ -1,0 +1,38 @@
+folder: UHDztcridWmtOb49
+name: Psychic Enervation
+type: ability
+_id: QpQXOjd3ni0HKSWp
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp
+system:
+  description: >-
+    <p>Enhancing a power manifestation with a Psychic Surge can take a toll on a
+    psion. After performing a
+    @UUID[Compendium.savage-eberron.eberron-abilities.Item.0pU1D7qQI806xZVu]{Psychic
+    Surge}, the psion must immediately make a Spirit roll. Failure means the
+    psion is
+    @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00#shaken]{Shaken}.
+    A Critical Failure means she is
+    @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03stunned0000000]{Stunned}.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Psion Abilities
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: psychic-enervation
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1691428384124
+  modifiedTime: 1697662968613
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!QpQXOjd3ni0HKSWp'

@@ -1,0 +1,75 @@
+folder: SZffm2obpWe103fG
+name: Boomerang, Xen'drik
+type: weapon
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Weapon.webp
+system:
+  description: >-
+    <p>If the wielder fails her Athletics (throwing) roll for the ranged attack,
+    the boomerang misses the target and returns normally. On a critical failure,
+    the boomerang deviates from the thrower, including behind the thrower (see
+    @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00#deviation]{Deviation}
+    under
+    @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00#area-effect-attacks]{Area
+    Effect Attacks} in <em>Savage Worlds</em>).</p>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 2
+  price: 20
+  equippable: false
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  category: Ranged Weapons
+  grants: []
+  grantOn: 1
+  damage: '@str+d6'
+  range: 4/8/16
+  rof: '1'
+  ap: 0
+  parry: 0
+  minStr: d6
+  shots: 0
+  currentShots: 0
+  ammo: ''
+  reloadType: none
+  ppReloadCost: 2
+  trademark: 0
+  isHeavyWeapon: false
+  source: Eberron for Savage Worlds
+  swid: boomerang-xendrik
+effects: []
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1691353436711
+  modifiedTime: 1697662968162
+  lastModifiedBy: Xbne19Xghka479we
+_id: 3IYVivv6ug4mzlj4
+sort: 0
+_key: '!items!3IYVivv6ug4mzlj4'

@@ -1,0 +1,41 @@
+folder: Iq2Miinm5I7HDEfG
+name: Totem Companion
+type: edge
+_id: zgLL38E6IZSvePua
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The druid chooses a magical beast that is the same as their
+    @UUID[Compendium.savage-eberron.eberron-edges.Item.Rjquo5anM7Md4Hi2]{totem
+    beast} as a pet. They can cast spells on the totem companion that normally
+    target animals only.</p><table><colgroup><col><col></colgroup><thead><tr><th
+    scope="col"><p>Rank</p></th><th
+    scope="col"><p>Beast</p></th></tr></thead><tbody><tr><td><p>Veteran</p></td><td><p>Basilisk,
+    frost wolf</p></td></tr><tr><td><p>Heroic</p></td><td><p>Burrower,
+    unicorn</p></td></tr><tr><td><p>Legendary</p></td><td><p>Chimera, drake,
+    great basilisk</p></td></tr></tbody></table>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Druid
+  isArcaneBackground: false
+  requirements:
+    value: Veteran, Beast Master, Beast Totem, Spirit d10+
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: totem-companion
+effects: []
+sort: 400000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1691424703675
+  modifiedTime: 1697662967739
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!zgLL38E6IZSvePua'

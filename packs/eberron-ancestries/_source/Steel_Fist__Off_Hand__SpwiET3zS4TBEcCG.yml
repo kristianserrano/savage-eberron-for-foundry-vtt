@@ -1,0 +1,76 @@
+name: Steel Fist (Off-Hand)
+type: weapon
+img: icons/equipment/hand/gauntlet-plate-steel-grey.webp
+system:
+  description: >-
+    <p>Warforged may attack with their
+    @UUID[Compendium.savage-eberron.eberron-ancestries.Item.SpwiET3zS4TBEcCG]{steel
+    fists} and deal Str+d4 damage.</p>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 0
+  price: 0
+  equippable: true
+  equipStatus: 2
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: Fighting
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: true
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  category: Warforged
+  grants: []
+  grantOn: 1
+  damage: '@str+d4'
+  range: ''
+  rof: '0'
+  ap: 0
+  parry: 0
+  minStr: d4
+  shots: null
+  currentShots: 0
+  ammo: ''
+  reloadType: none
+  ppReloadCost: 2
+  trademark: 0
+  isHeavyWeapon: false
+  source: Eberron for Savage Worlds
+  swid: steel-fist-off-hand
+effects: []
+folder: gVJBnQp2agFQhF0c
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1665117200190
+  modifiedTime: 1697662967445
+  lastModifiedBy: Xbne19Xghka479we
+_id: SpwiET3zS4TBEcCG
+sort: 0
+_key: '!items!SpwiET3zS4TBEcCG'

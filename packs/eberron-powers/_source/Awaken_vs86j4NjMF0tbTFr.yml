@@ -1,0 +1,66 @@
+name: Awaken
+type: power
+_id: vs86j4NjMF0tbTFr
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp
+system:
+  description: >-
+    <p>The caster can <em>awaken</em> an animal or tree to have both
+    consciousness and self-awareness. The <em>awakened</em> tree or animal is a
+    Wild Card in all regards.</p><p>Draw a card from the Action Deck for Smarts
+    and Spirit each. Consult the table below to determine the die type of the
+    respective attribute based on the suit of the
+    card.</p><table><colgroup><col><col></colgroup><thead><tr><th
+    scope="col"><p>Suit</p></th><th scope="col"><p>Die
+    Type</p></th></tr></thead><tbody><tr><td><p>Clubs</p></td><td><p>d4</p></td></tr><tr><td><p>Diamonds</p></td><td><p>d6</p></td></tr><tr><td><p>Hearts</p></td><td><p>d8</p></td></tr><tr><td><p>Spades</p></td><td><p>d10</p></td></tr><tr><td><p>Joker</p></td><td><p>d12</p></td></tr></tbody></table><p>Upon
+    <em>awakening</em>, the target has a friendly disposition toward the caster.
+    It can speak one language that the caster knows plus and a number of
+    additional languages the caster knows equal to half its Smarts.</p><p>If the
+    target is a tree, the tree can move its roots, limbs, vines, etc.</p><p>An
+    <em>awakened</em> animal cannot serve as a familiar nor can a character with
+    the Beast Master Edge affect the animal. Additionally,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.O6mvldoWWXTYSY2F]{beast
+    friend}</em> does not affect the animal.</p>
+  notes: ''
+  additionalStats: {}
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  rank: Veteran
+  pp: '10'
+  damage: ''
+  range: Touch
+  duration: Permanent
+  trapping: Channeling consciousness and self-awareness into a tree or animal.
+  arcane: ''
+  ap: 0
+  innate: false
+  modifiers: []
+  source: Eberron for Savage Worlds
+  swid: awaken
+effects: []
+folder: null
+sort: 1200000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1690158900359
+  modifiedTime: 1697662968238
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!vs86j4NjMF0tbTFr'

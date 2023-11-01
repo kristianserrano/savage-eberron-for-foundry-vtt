@@ -1,0 +1,77 @@
+folder: oldWVWKsIM3coKB9
+name: Naturally Psionic (Psion)
+type: ability
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
+system:
+  description: >-
+    <p>Kalashtar have the Arcane Background (Psion or Soulknife) Edge with
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind
+    link}</em> as one of their starting powers. They also have
+    @UUID[Compendium.swade-core-rules.swade-skills.Item.bkrB9AajSCSA6eIY]{Psionics}
+    as a core skill.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Kalashtar
+  subtype: special
+  grantsPowers: false
+  grants:
+    - name: Mind Link
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+      uuid: Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw
+      mutation:
+        system:
+          arcane: Psion
+    - name: Psion
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+      uuid: Compendium.savage-eberron.eberron-edges.Item.RPLQ1P3xyCDPo1uu
+  source: Eberron for Savage Worlds
+  swid: naturally-psionic-psion
+effects:
+  - icon: icons/magic/control/hypnosis-mesmerism-eye.webp
+    duration:
+      rounds: null
+      startTime: 0
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    flags:
+      swade:
+        expiration: null
+        loseTurnOnHold: false
+    changes:
+      - key: '@Skill{Psionics}[system.die.sides]'
+        mode: 2
+        value: '2'
+        priority: null
+    transfer: true
+    name: Starts with d6 in Psionics
+    _id: 7XvDTONypJ5jQCzN
+    disabled: false
+    description: ''
+    origin: null
+    statuses: []
+    tint: null
+    _key: '!items.effects!vC7NFuXsCZV2Qvru.7XvDTONypJ5jQCzN'
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: eberron-for-savage-worlds
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.6
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1690495629038
+  modifiedTime: 1697662967639
+  lastModifiedBy: Xbne19Xghka479we
+_id: vC7NFuXsCZV2Qvru
+sort: 0
+_key: '!items!vC7NFuXsCZV2Qvru'

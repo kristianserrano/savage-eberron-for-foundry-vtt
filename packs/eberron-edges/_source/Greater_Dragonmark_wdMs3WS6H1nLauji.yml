@@ -1,0 +1,36 @@
+folder: s3SVj2RF8CXpDh3d
+name: Greater Dragonmark
+type: edge
+_id: wdMs3WS6H1nLauji
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The adventurer’s dragonmark again grows in both complexity and size. The
+    adventurer gains access to a third power associated with their dragonmark if
+    one is available. A greater dragonmark also grants access to their
+    dragonmark powers’ Epic Modifiers.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Background
+  isArcaneBackground: false
+  requirements:
+    value: Veteran, Lesser Dragonmark
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: greater-dragonmark
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1690238350251
+  modifiedTime: 1697662967738
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!items!wdMs3WS6H1nLauji'

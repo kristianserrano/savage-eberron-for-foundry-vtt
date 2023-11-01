@@ -1,0 +1,44 @@
+folder: L5qO4cEl5MoMhAsT
+name: Infusions
+type: ability
+_id: csNtkRNznBXvj4vY
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>As a limited action, artificers can imbue powers into objects or
+    constructs, including
+    @UUID[Compendium.savage-eberron.eberron-abilities.Item.anNvwvvbyIlESkm5]{living
+    constructs}, as infusions by channeling and manipulating raw magical energy
+    into the target. Infusions with a Duration measured in rounds instead are
+    measured in minutes.</p><ul><li><p><strong>Maintaining Powers:</strong>
+    Artificers cannot maintain a power at the end of the power’s
+    Duration.</p></li><li><p><strong>Limitations:</strong> Artificer infusions
+    all have a range of Touch. Powers that normally have a range greater than
+    Touch or are available with only one aspect such as boost Trait or light
+    benefit from applying these
+    @UUID[Compendium.swade-fantasy-companion.swade-fc.JournalEntry.swadefcp04arcana.JournalEntryPage.04trappings00000#limitations]{Limitations}.</p></li><li><p><strong>Single
+    Targets:</strong> Infusions may not use the Additional Recipients
+    Modifier.</p></li></ul>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Artificer Abilities
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: infusions
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1691429894762
+  modifiedTime: 1697662968613
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!csNtkRNznBXvj4vY'

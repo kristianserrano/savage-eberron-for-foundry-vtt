@@ -1,0 +1,38 @@
+folder: 2pI7uD4O4dPHpft2
+name: Expanded Knowledge
+type: edge
+_id: jdGwnT5cvlIr06js
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>Through meditation and training, the psion has learned to open her mind
+    to manifest more powers than most are normally capable of mastering.
+    Whenever she takes the
+    @UUID[Compendium.swade-core-rules.swade-edges.Item.IoAJtiObDgf46BQE]{New
+    Powers} Edge, she learns three powers instead of two. She also immediately
+    learns one new power when taking this Edge.</p><p></p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Psion
+  isArcaneBackground: false
+  requirements:
+    value: Novice, Arcane Background (Psion)
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: expanded-knowledge
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1691430337819
+  modifiedTime: 1697662967734
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!jdGwnT5cvlIr06js'

@@ -1,0 +1,35 @@
+folder: 8hnpzMqu320tkWo3
+name: Shifting Recovery
+type: edge
+_id: 64XCJKRpglpCj6kK
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>After shifting ends, the recovery time to remove a level of Fatigue is
+    halved. This Edge can be taken multiple times, each time halving the
+    recovery time to a minimum of 15 minutes.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Background
+  isArcaneBackground: false
+  requirements:
+    value: Novice, Shifter
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: shifting-recovery
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1690318158419
+  modifiedTime: 1697662967721
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!items!64XCJKRpglpCj6kK'

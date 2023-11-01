@@ -1,0 +1,75 @@
+folder: 7hy4KW6bL662vETu
+name: Inquisitive's Kit
+type: gear
+_id: LFeFgMa8Up4IGiLo
+img: icons/tools/scribal/magnifying-glass.webp
+system:
+  description: ''
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 4
+  price: 300
+  equippable: false
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  favorite: false
+  category: Tools and Skill Kits
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  source: Eberron for Savage Worlds
+  swid: inquisitives-kit
+effects:
+  - icon: icons/tools/scribal/magnifying-glass.webp
+    duration:
+      rounds: null
+      startTime: 0
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    flags:
+      swade:
+        expiration: null
+        loseTurnOnHold: false
+        favorite: true
+    changes:
+      - key: '@Skill{Notice}[system.die.modifier]'
+        mode: 2
+        value: '2'
+        priority: null
+    transfer: true
+    name: Inquisitive's Kit Bonus to Notice
+    _id: mcTxgcosIb1sY1SB
+    disabled: true
+    description: ''
+    origin: null
+    statuses: []
+    tint: null
+    _key: '!items.effects!LFeFgMa8Up4IGiLo.mcTxgcosIb1sY1SB'
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1691348391743
+  modifiedTime: 1697662968194
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!LFeFgMa8Up4IGiLo'

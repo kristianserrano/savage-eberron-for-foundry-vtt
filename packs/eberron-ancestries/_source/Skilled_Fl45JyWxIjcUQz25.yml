@@ -1,0 +1,69 @@
+folder: FN4247Nt3Srx9EDb
+name: Skilled
+type: ability
+img: icons/skills/trades/smithing-anvil-horseshoe.webp
+system:
+  description: >-
+    <p>Sharing the ingenuity of their human relatives as well as having slightly
+    longer life spans, half-elves start with a d4 in any
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000#skills]{skill}
+    based on their experiences, education, training, or culture. If the chosen
+    skill is a core skill, it starts at d6 and the skill’s maximum increases to
+    d12+1</p>
+  notes: Racial
+  additionalStats: {}
+  favorite: false
+  category: Half-elf
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: skilled
+effects:
+  - icon: systems/swade/assets/icons/skill.svg
+    duration:
+      rounds: null
+      startTime: 0
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    flags:
+      swade:
+        expiration: null
+        loseTurnOnHold: false
+    changes:
+      - key: '@Skill{Core Skill}[system.die.sides]'
+        mode: 2
+        value: '2'
+        priority: null
+    transfer: true
+    name: Starting Core Skill d6
+    _id: 32TBtnDN750S61P8
+    disabled: true
+    description: ''
+    origin: null
+    statuses: []
+    tint: null
+    _key: '!items.effects!Fl45JyWxIjcUQz25.32TBtnDN750S61P8'
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1668046060853
+  modifiedTime: 1697662967531
+  lastModifiedBy: Xbne19Xghka479we
+_id: Fl45JyWxIjcUQz25
+sort: 0
+_key: '!items!Fl45JyWxIjcUQz25'

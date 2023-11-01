@@ -1,0 +1,38 @@
+folder: 8hnpzMqu320tkWo3
+name: Extra Shifter Ability (Longstride)
+type: edge
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The adventurer comes from a mixed lineage of shifters and has one
+    additional shifter ability. They can manifest this additional ability while
+    shifted as well.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Background
+  isArcaneBackground: false
+  requirements:
+    value: Novice, Shifter
+  grants:
+    - name: Shifting (Longstride)
+      img: icons/creatures/abilities/bear-roar-bite-brown-green.webp
+      uuid: Compendium.savage-eberron.eberron-ancestries.Item.LY2SGGr9RXatWEte
+  source: Eberron for Savage Worlds
+  swid: extra-shifter-ability-longstride
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1689985243955
+  modifiedTime: 1697662967728
+  lastModifiedBy: Xbne19Xghka479we
+_id: OE2f1HnCfYalQ7yI
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!items!OE2f1HnCfYalQ7yI'

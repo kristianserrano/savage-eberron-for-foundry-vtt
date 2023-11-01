@@ -1,0 +1,79 @@
+folder: kPypf6AXI4Ae3Tbk
+name: Siberys Dragonmark (Mark of Handling, Summon Animal)
+type: edge
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>An heir of Siberys manifests a Siberys dragonmark—the rarest and most
+    powerful form of a dragonmark—across his entire body. This grants the heir
+    of Siberys a major
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-abilities.Item.LxomYrz417VxjMhA]{Innate
+    Power} that can be activated once per day. If the power specifies one or
+    more Power Modifiers, the power is always activated with those Power
+    Modifiers unless stated otherwise. Using an Epic Modifier for this power
+    does not require the
+    @UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.u6T4PbGGO1rmF2F0]{Epic
+    Mastery} Edge.</p><table><colgroup><col><col></colgroup><thead><tr><th
+    scope="col"><p>Mark</p></th><th scope="col"><p>Major
+    Powers</p></th></tr></thead><tbody><tr><td><p>Mark of
+    Detection</p></td><td><p>Boost Trait (Moment of Prescience, self
+    only)</p><p></p></td></tr><tr><td><p>Mark of Finding</p></td><td><p>Locate
+    (Discern Location)</p><p></p></td></tr><tr><td><p>Mark of
+    Handling</p></td><td><p>Awaken or <em>summon animal</em> (Increased Trait
+    ×3)</p><p></p></td></tr><tr><td><p>Mark of Healing</p></td><td><p>Healing
+    (Mass Healing)</p><p></p></td></tr><tr><td><p>Mark of
+    Hospitality</p></td><td><p>Teleport
+    (Refuge)</p><p></p></td></tr><tr><td><p>Mark of
+    Making</p></td><td><p>Conjure item (Durable, True Creation, and (optionally)
+    Major Creation)</p><p></p></td></tr><tr><td><p>Mark of
+    Passage</p></td><td><p>Teleport (Greater
+    Teleport)</p><p></p></td></tr><tr><td><p>Mark of
+    Scribing</p></td><td><p>Illusion (documents with Duration, Permanent, and
+    Strong)</p><p></p></td></tr><tr><td><p>Mark of Sentinel</p></td><td><p>Mind
+    blank</p></td></tr><tr><td><p>Mark of Shadow</p></td><td><p>Scrying (Greater
+    Scrying)</p><p></p></td></tr><tr><td><p>Mark of
+    Storm</p></td><td><p>Elemental manipulation
+    (Weather)</p><p></p></td></tr><tr><td><p>Mark of
+    Warding</p></td><td><p>Barrier (Damage (solid wall), Deadly, Hardened, and
+    Size)</p><p></p></td></tr></tbody></table>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Weird
+  isArcaneBackground: true
+  requirements:
+    value: >-
+      Heroic, any ancestry of a dragonmarked lineage, d12+ in any two skills,
+      cannot have Aberrant Dragonmark or Dragonmark
+  grants:
+    - name: Summon Animal
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+      uuid: Compendium.swade-fantasy-companion.swade-fc-powers.Item.GLIypDUlcU2UCCje
+      mutation:
+        name: Summon Animal (Increased Trait ×3)
+        system:
+          arcane: Siberys Mark of Handling
+          innate: true
+  source: Eberron for Savage Worlds
+  swid: siberys-dragonmark-mark-of-handling-summon-animal
+effects: []
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: eberron-for-savage-worlds
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.6
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1690694751873
+  modifiedTime: 1697662967731
+  lastModifiedBy: Xbne19Xghka479we
+_id: XyPJzxRzIRW5NJ4E
+sort: 850000
+_key: '!items!XyPJzxRzIRW5NJ4E'

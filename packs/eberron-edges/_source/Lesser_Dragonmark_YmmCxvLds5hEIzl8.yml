@@ -1,0 +1,40 @@
+folder: s3SVj2RF8CXpDh3d
+name: Lesser Dragonmark
+type: edge
+_id: YmmCxvLds5hEIzl8
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The hero’s dragonmark changes into a larger, more complex pattern and
+    increases in power. The adventurer gains access to a second power listed
+    under their dragonmark and may use Modifiers (but not Epic Modifiers) when
+    activating their powers by paying the additional Power Point cost. If a
+    power is listed with a mandatory Modifier, then the power must always use
+    that Modifier and any contradictory Modifiers cannot be applied.</p><p>The
+    character also gets a free reroll when using the skill associated with their
+    dragonmark.</p><p></p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Background
+  isArcaneBackground: false
+  requirements:
+    value: Seasoned, Least Dragonmark
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: lesser-dragonmark
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1690139745283
+  modifiedTime: 1697662967731
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!items!YmmCxvLds5hEIzl8'

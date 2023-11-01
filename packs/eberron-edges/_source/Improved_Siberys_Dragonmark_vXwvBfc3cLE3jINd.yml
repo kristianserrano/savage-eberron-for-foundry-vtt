@@ -1,0 +1,34 @@
+folder: kPypf6AXI4Ae3Tbk
+name: Improved Siberys Dragonmark
+type: edge
+_id: vXwvBfc3cLE3jINd
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The Heir of Siberys is able to activate their Siberys dragonmark power
+    one additional time per day.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Weird
+  isArcaneBackground: false
+  requirements:
+    value: Legendary, Siberys Dragonmark
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: improved-siberys-dragonmark
+effects: []
+sort: 1600000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1690695670568
+  modifiedTime: 1697662967738
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!vXwvBfc3cLE3jINd'

@@ -1,0 +1,51 @@
+folder: 7hy4KW6bL662vETu
+name: Spellshard, Wizard's (blank)
+type: gear
+_id: cLkh8vURSNjHl5Cl
+img: icons/commodities/gems/gem-faceted-radiant-red.webp
+system:
+  description: >-
+    <p>A wizard may imprint up to five spells into a spellshard to access even
+    if his spellbook is not available.</p>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 0.5
+  price: 3
+  equippable: false
+  equipStatus: 1
+  isArcaneDevice: true
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints:
+    value: null
+    max: null
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  favorite: false
+  category: ''
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  source: ''
+  swid: spellshard-wizards-blank
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1691348854911
+  modifiedTime: 1697662968165
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!cLkh8vURSNjHl5Cl'

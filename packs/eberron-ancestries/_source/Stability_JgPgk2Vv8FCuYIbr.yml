@@ -1,0 +1,65 @@
+name: Stability
+type: ability
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+system:
+  description: >-
+    <p>Dwarves have a +2 bonus to opposed Strength rolls for resisting Push
+    attacks.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Dwarf
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: stability
+effects:
+  - icon: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    duration:
+      rounds: null
+      startTime: 0
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    flags:
+      swade:
+        expiration: null
+        favorite: true
+    changes:
+      - key: system.attributes.strength.die.modifier
+        mode: 2
+        value: '2'
+        priority: null
+    transfer: true
+    _id: 1wQzbJq5vnB2AasU
+    disabled: true
+    origin: null
+    tint: null
+    name: Stability
+    description: ''
+    statuses: []
+    _key: '!items.effects!JgPgk2Vv8FCuYIbr.1wQzbJq5vnB2AasU'
+folder: aXo6xVVmiLyAK44L
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.305'
+    systemVersion: 3.0.5
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1671074788510
+  modifiedTime: 1697662967547
+  lastModifiedBy: Xbne19Xghka479we
+_id: JgPgk2Vv8FCuYIbr
+sort: 0
+_key: '!items!JgPgk2Vv8FCuYIbr'

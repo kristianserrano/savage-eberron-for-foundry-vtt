@@ -1,0 +1,36 @@
+folder: 8hnpzMqu320tkWo3
+name: Berserk Luck
+type: edge
+_id: tbOHBlIVSUQv8h46
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>When going Berserk, the adventurer has a greater ability to alter her
+    luck than most others do. This Edge grants 1 temporary Benny while going
+    Berserk. If the adventurer doesn’t use this Benny while going Berserk, it
+    disappears when it ends.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Background
+  isArcaneBackground: false
+  requirements:
+    value: Novice, Wild Card, Berserk
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: berserk-luck
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1689895787413
+  modifiedTime: 1697662967737
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!items!tbOHBlIVSUQv8h46'

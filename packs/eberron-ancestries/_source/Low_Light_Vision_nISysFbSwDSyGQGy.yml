@@ -1,0 +1,39 @@
+folder: JMdHl51LHgGFlyNx
+name: Low Light Vision
+type: ability
+img: icons/magic/perception/eye-ringed-green.webp
+system:
+  description: >-
+    <p>Gnomes ignore penalties for Dim and Dark
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination}
+    (but not Pitch Darkness).</p>
+  notes: Racial
+  additionalStats: {}
+  favorite: false
+  category: Gnome
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: low-light-vision
+effects: []
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1668045742153
+  modifiedTime: 1697662967449
+  lastModifiedBy: Xbne19Xghka479we
+_id: nISysFbSwDSyGQGy
+sort: 400000
+_key: '!items!nISysFbSwDSyGQGy'

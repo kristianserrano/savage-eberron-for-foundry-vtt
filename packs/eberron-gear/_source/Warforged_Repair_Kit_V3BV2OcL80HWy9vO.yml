@@ -1,0 +1,75 @@
+folder: 7hy4KW6bL662vETu
+name: Warforged Repair Kit
+type: gear
+_id: V3BV2OcL80HWy9vO
+img: icons/tools/smithing/plate-steel-grey.webp
+system:
+  description: >-
+    <p>Grants a +1 bonus on Repair rolls made to remove a warforged's
+    Wounds.</p>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 1
+  price: 50
+  equippable: false
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  favorite: false
+  category: ''
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  source: ''
+  swid: warforged-repair-kit
+effects:
+  - icon: icons/tools/smithing/plate-steel-grey.webp
+    duration:
+      rounds: null
+      startTime: 0
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    flags:
+      swade:
+        expiration: null
+        favorite: true
+    changes:
+      - key: '@Skill{Repair}[system.die.modifier]'
+        mode: 2
+        value: '1'
+        priority: null
+    transfer: true
+    name: Warforged Repair Kits Bonus to Repair
+    _id: bDdaG6N5PJAuCOnT
+    disabled: true
+    description: ''
+    origin: null
+    statuses: []
+    _key: '!items.effects!V3BV2OcL80HWy9vO.bDdaG6N5PJAuCOnT'
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1691349195332
+  modifiedTime: 1697662968206
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!V3BV2OcL80HWy9vO'

@@ -1,0 +1,44 @@
+folder: bJK8hgKcEoR91feK
+name: Mind Blade
+type: ability
+_id: Q7vEwImap0FspKU7
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>As a limited free action, a soulknife can manifest a blade made of pure
+    semisolid, psychic energy. The
+    @UUID[Compendium.savage-eberron.eberron-abilities.Item.yb8j3gDo0vzaNsPm]{mind
+    blade} is about the size of a short sword and does Str+d6 damage and is
+    considered a magic weapon for purposes of exploiting weaknesses. The nature
+    of the mind blade reduces the minimum Strength requirement of the weapon by
+    one die type. It has Hardness 10 and can be sundered. If destroyed, the mind
+    blade dissipates, and the soulknife may form a new mind blade on their next
+    turn.</p><p>Mind blades are susceptible to
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel}</em>
+    or other sources that might nullify psionic effects.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Soulknife Abilities
+  subtype: special
+  grantsPowers: false
+  grants:
+    - name: Mind Blade (Main Hand)
+      img: icons/skills/melee/blade-tip-smoke-green.webp
+      uuid: Compendium.savage-eberron.eberron-abilities.Item.yb8j3gDo0vzaNsPm
+  source: Eberron for Savage Worlds
+  swid: mind-blade
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1691428887372
+  modifiedTime: 1697662968613
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!Q7vEwImap0FspKU7'

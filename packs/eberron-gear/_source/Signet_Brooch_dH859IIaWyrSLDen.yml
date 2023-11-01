@@ -1,0 +1,50 @@
+folder: rmMZ8nKTRru5pDGY
+name: Signet Brooch
+type: gear
+_id: dH859IIaWyrSLDen
+img: icons/commodities/treasure/broach-jewel-gold-blue.webp
+system:
+  description: >-
+    <p>Members of a house, whether actual scions or high-standing employees,
+    sometimes wear signet brooches instead of arcane signet rings to identify
+    their affiliation. Signet brooches don’t contain arcane marks.</p>
+  notes: ''
+  additionalStats: {}
+  quantity: 1
+  weight: 0
+  price: 75
+  equippable: true
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  favorite: false
+  category: Documents
+  grants: []
+  grantOn: 1
+  isAmmo: false
+  source: Eberron for Savage Worlds
+  swid: signet-brooch
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1691346312043
+  modifiedTime: 1697662968165
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!dH859IIaWyrSLDen'

@@ -1,0 +1,41 @@
+folder: Iq2Miinm5I7HDEfG
+name: Beast Shape
+type: edge
+_id: bJU5Mw9WLSg5Djt1
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The druid can call upon the power of their
+    @UUID[Compendium.savage-eberron.eberron-edges.Item.Rjquo5anM7Md4Hi2]{beast
+    totem} to take its form using shape change. This ability can be used once
+    per day.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Druid
+  isArcaneBackground: false
+  requirements:
+    - type: rank
+      value: 4
+      combinator: and
+    - type: edge
+      label: Beast Totem
+      selector: beast-totem
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: beast-shape
+effects: []
+sort: 300000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.2
+  coreVersion: '11.313'
+  createdTime: 1691421535125
+  modifiedTime: 1698647083745
+  lastModifiedBy: gnhMzhHlhdZ0SrHo
+_key: '!items!bJU5Mw9WLSg5Djt1'

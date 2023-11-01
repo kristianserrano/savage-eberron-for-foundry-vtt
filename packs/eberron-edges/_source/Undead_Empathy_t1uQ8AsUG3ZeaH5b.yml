@@ -1,0 +1,37 @@
+folder: kPypf6AXI4Ae3Tbk
+name: Undead Empathy
+type: edge
+_id: t1uQ8AsUG3ZeaH5b
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>It is said that some individuals have enough charisma to charm the dead,
+    and for some, it’s literally true. The adventurer can make Persuasion rolls
+    to influence the attitude of mindless undead. Due to the mindless nature of
+    the undead creature, the Persuasion roll has the ability to shift the
+    creature’s attitude one level per raise.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Weird
+  isArcaneBackground: false
+  requirements:
+    value: Veteran, Charismatic
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: undead-empathy
+effects: []
+sort: 1500000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1690695842074
+  modifiedTime: 1697662967737
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!t1uQ8AsUG3ZeaH5b'

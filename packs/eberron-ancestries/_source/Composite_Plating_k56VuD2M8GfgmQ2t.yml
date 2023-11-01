@@ -1,0 +1,71 @@
+name: Composite Plating
+type: ability
+img: icons/equipment/chest/breastplate-sculpted-grey.webp
+system:
+  description: >-
+    <p>A warforged is covered in tough plating made of magically-treated woods
+    and metals. Warforged gain +4
+    @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili01]{Armor}.
+    The composite plating is considered light armor. Warforged are unable to
+    wear additional armor.</p>
+  notes: Racial
+  additionalStats: {}
+  favorite: false
+  category: Warforged
+  subtype: special
+  grantsPowers: false
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: composite-plating
+effects:
+  - icon: icons/equipment/chest/breastplate-sculpted-grey.webp
+    duration:
+      rounds: null
+      startTime: 288
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    flags:
+      swade:
+        expiration: null
+        loseTurnOnHold: false
+    changes:
+      - key: system.stats.toughness.armor
+        mode: 2
+        value: '4'
+        priority: null
+    transfer: true
+    _id: 0X7nZmpMHpxBryJe
+    disabled: false
+    origin: null
+    tint: null
+    name: Composite Plating Armor Bonus
+    description: >-
+      <p>A warforged is covered in tough plating made of magically-treated woods
+      and metals. Warforged gain +4 Armor. The composite plating is considered
+      light armor. Warforged are unable to wear additional armor.</p>
+    statuses: []
+    _key: '!items.effects!k56VuD2M8GfgmQ2t.0X7nZmpMHpxBryJe'
+folder: gVJBnQp2agFQhF0c
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1668044951852
+  modifiedTime: 1697662967609
+  lastModifiedBy: Xbne19Xghka479we
+_id: k56VuD2M8GfgmQ2t
+sort: 0
+_key: '!items!k56VuD2M8GfgmQ2t'

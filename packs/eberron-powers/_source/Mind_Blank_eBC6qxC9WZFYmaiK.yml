@@ -1,0 +1,66 @@
+name: Mind Blank
+type: power
+_id: eBC6qxC9WZFYmaiK
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp
+system:
+  description: >-
+    <p><em>Mind blank</em> protects the target from all powers that detect,
+    influence, or read emotions or thoughts such as
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.TVoDtWckWRZ0AnxZ]{empathy}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind
+    link}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.GMTgL2vLUZ0BTZ1w]{mind
+    reading}</em>,
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.CY4sDvByxW25VtbL]{mind
+    wipe}</em>. This power also protects against
+    <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.nEeEtrIevelGu2kZ]{scrying}</em>
+    and
+    <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.71XmuBH9MopmRZPL]{wish}</em>
+    when they are used to gain information about the target or affect its
+    mind.</p><p><strong>Modifiers</strong></p><ul><li><p><strong>Additional
+    Recipients (+1):</strong> The power may affect more than one target for 1
+    additional Power Point each.</p></li></ul><p></p>
+  notes: ''
+  additionalStats: {}
+  actions:
+    skill: ''
+    skillMod: ''
+    dmgMod: ''
+    additional: {}
+  bonusDamageDie: 6
+  bonusDamageDice: 1
+  favorite: false
+  templates:
+    cone: false
+    stream: false
+    small: false
+    medium: false
+    large: false
+  rank: Heroic
+  pp: '5'
+  damage: ''
+  range: Smarts
+  duration: 24 hours
+  trapping: headband, meditation, psionic block
+  arcane: ''
+  ap: 0
+  innate: false
+  modifiers: []
+  source: Eberron for Savage Worlds
+  swid: mind-blank
+effects: []
+folder: null
+sort: 500000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1690212337358
+  modifiedTime: 1697662968237
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!eBC6qxC9WZFYmaiK'

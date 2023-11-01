@@ -1,0 +1,51 @@
+name: Half-Elf (Elf Heritage)
+type: ability
+_id: ZiHlDK7Q8xWHFJ4P
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp
+system:
+  description: >-
+    <ul><li><p><strong>Heritage (+2):</strong> Half-elves may express the grace
+    of elves or human adaptability and ingenuity. A half-elf may either start
+    with a free Edge of his choice or a d6 in Agility instead of a d4 (which
+    also increases his Agility maximum to d12+1).</p></li><li><p><strong>Low
+    Light Vision (+1):</strong> Half-elves ignore penalties for Dim and Dark
+    Illumination (but not Pitch Darkness).</p></li><li><p><strong>Skilled
+    (+1):</strong> Sharing the ingenuity of their human relatives as well as
+    having slightly longer life spans, half-elves start with a d4 in any skill
+    based on their experiences, education, training, or culture. If the chosen
+    skill is a core skill, it starts at d6 and the skill’s maximum increases to
+    d12+1.</p></li></ul>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Ancestry
+  subtype: race
+  grantsPowers: false
+  grants:
+    - name: Heritage (Elf)
+      img: icons/skills/movement/feet-winged-sandals-tan.webp
+      uuid: Compendium.savage-eberron.eberron-ancestries.Item.DWmQMb6hQ4hboFBY
+    - name: Low Light Vision
+      img: icons/magic/perception/eye-ringed-green.webp
+      uuid: Compendium.savage-eberron.eberron-ancestries.Item.o4Tat7oLxmyfdSX9
+    - name: Skilled
+      img: icons/skills/trades/smithing-anvil-horseshoe.webp
+      uuid: Compendium.savage-eberron.eberron-ancestries.Item.Fl45JyWxIjcUQz25
+  source: Eberron for Savage Worlds
+  swid: half-elf-elf-heritage
+effects: []
+folder: null
+sort: 600000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1690320782224
+  modifiedTime: 1697662967447
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!ZiHlDK7Q8xWHFJ4P'

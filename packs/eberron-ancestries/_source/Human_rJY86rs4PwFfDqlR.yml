@@ -1,0 +1,43 @@
+name: Human
+type: ability
+_id: rJY86rs4PwFfDqlR
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp
+system:
+  description: >-
+    <ul><li><p><strong>Adaptable (+2):</strong> Humans begin play with one free
+    Edge. They must meet its Requirements as
+    usual.</p></li><li><p><strong>Skilled (+2):</strong> Humans start with a d4
+    in any two skills based on their experiences, education, training, or
+    culture. If the chosen skill is a core skill, it starts at d6 and the
+    skill’s maximum increases to d12+1.</p></li></ul>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Ancestry
+  subtype: special
+  grantsPowers: false
+  grants:
+    - name: Adaptable
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+      uuid: Compendium.savage-eberron.eberron-ancestries.Item.7lmWk5JzzgX1ejF9
+    - name: Skilled
+      img: icons/skills/trades/smithing-anvil-horseshoe.webp
+      uuid: Compendium.savage-eberron.eberron-ancestries.Item.AtRKjuc5As163muk
+  source: Eberron for Savage Worlds
+  swid: human
+effects: []
+folder: null
+sort: 900000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1690322237079
+  modifiedTime: 1697662967451
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!rJY86rs4PwFfDqlR'

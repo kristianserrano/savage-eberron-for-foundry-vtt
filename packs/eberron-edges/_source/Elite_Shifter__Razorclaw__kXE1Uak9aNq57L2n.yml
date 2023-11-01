@@ -1,0 +1,80 @@
+folder: 8hnpzMqu320tkWo3
+name: Elite Shifter (Razorclaw)
+type: edge
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>Either inherently or through conditioning, the shifter’s ability is
+    enhanced beyond its normal abilities. All abilities are in effect only while
+    shifting.</p><ul><li><p><strong>Beasthide:</strong> The shifter gains +2
+    Toughness.</p></li><li><p><strong>Cliffwalk:</strong> The shifter gets a
+    free reroll on Athletics (climbing)
+    rolls.</p></li><li><p><strong>Longstride:</strong> The shifter’s Pace
+    increases by an additional +2, and her running die increases by another die
+    type.</p></li><li><p><strong>Longtooth:</strong> Wounds dealt by the
+    shifter’s bite attacks bleed copiously. Whenever the shifter makes a
+    successful damage roll from a bite attack, she adds +4 to the
+    damage.</p></li><li><p><strong>Razorclaw:</strong> If the shifter can charge
+    at least 6” before attacking a target with her claws, she can make two claw
+    attacks at the end of the charge. The shifter also adds +4 to damage rolls
+    for each claw attack.</p></li><li><p><strong>Wildhunt:</strong> Non-visual
+    senses improve to such a degree that the shifter’s Notice skill increases by
+    one die size. This increase applies to non-visual senses
+    only.</p></li></ul><p>Shifters with the Extra Shifter Ability Edge may take
+    this Edge a second time to enhance the second trait.</p><p></p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Background
+  isArcaneBackground: false
+  requirements:
+    value: Novice, Shifter
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: elite-shifter-razorclaw
+effects:
+  - name: Elite Razorclaw Shifting
+    transfer: true
+    _id: MYMJkNWsBZRypsaF
+    changes:
+      - key: '@Weapon{Claw}[system.damage]'
+        mode: 2
+        value: '+4'
+        priority: null
+    disabled: true
+    duration:
+      startTime: 0
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>If the shifter can charge at least 6” before attacking a target with
+      her claws, she can make two claw attacks at the end of the charge. The
+      shifter also adds +4 to damage rolls for each claw attack.</p>
+    icon: icons/creatures/claws/claw-straight-brown.webp
+    origin: null
+    statuses: []
+    flags:
+      swade:
+        expiration: null
+        loseTurnOnHold: false
+    tint: null
+    _key: '!items.effects!kXE1Uak9aNq57L2n.MYMJkNWsBZRypsaF'
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1689900280888
+  modifiedTime: 1697662968064
+  lastModifiedBy: Xbne19Xghka479we
+_id: kXE1Uak9aNq57L2n
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!items!kXE1Uak9aNq57L2n'

@@ -1,0 +1,78 @@
+folder: 8hnpzMqu320tkWo3
+name: Shifter Agility
+type: edge
+_id: yCWGqGte7ZZBuM5l
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The shifter’s lineage makes him even more agile and light-footed. When
+    shifting, he adds +2 to Agility and Agility-based skill rolls. The shifter
+    also adds +1 to Parry.</p>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Background
+  isArcaneBackground: false
+  requirements:
+    - type: rank
+      value: 0
+      combinator: and
+    - type: other
+      label: Shifter (Cliffwalk or Longstride)
+      combinator: and
+    - type: skill
+      label: Athletics
+      selector: athletics
+      value: 8
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: shifter-agility
+effects:
+  - icon: icons/creatures/abilities/cougar-pounce-stalk-black.webp
+    duration:
+      rounds: null
+      startTime: 0
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    flags:
+      swade:
+        expiration: null
+        loseTurnOnHold: false
+        favorite: true
+    changes:
+      - key: system.stats.globalMods.agility
+        mode: 2
+        value: '2'
+        priority: null
+      - key: system.stats.parry.value
+        mode: 2
+        value: '1'
+        priority: null
+    transfer: true
+    name: Shifter Agility Bonuses
+    _id: Ye4vSQeJLQUzwIGd
+    disabled: true
+    description: >-
+      <ul><li><p>+2 to Agility and Agility-based skill rolls.</p></li><li><p>+1
+      to Parry.</p></li></ul>
+    origin: null
+    statuses: []
+    tint: null
+    _key: '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd'
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.2
+  coreVersion: '11.313'
+  createdTime: 1690315511822
+  modifiedTime: 1698646937489
+  lastModifiedBy: gnhMzhHlhdZ0SrHo
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!items!yCWGqGte7ZZBuM5l'

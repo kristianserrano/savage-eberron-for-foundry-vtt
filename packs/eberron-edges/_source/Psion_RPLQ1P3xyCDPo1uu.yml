@@ -1,0 +1,51 @@
+name: Psion
+type: edge
+_id: RPLQ1P3xyCDPo1uu
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: "<p>Psionicists tap into their own mental energy to manipulate matter, read minds, and far more. Some are agents in the employ of a vast government agency, while others are often on the run from them! Some may have years of training or they might have developed their incredible powers in isolation</p><ul><li><p><strong>Requirements:</strong> Smarts d6+</p></li><li><p><strong>Arcane Skill:</strong> Psionics (Smarts)</p></li><li><p><strong>Starting Powers:</strong> 3</p></li><li><p><strong>Power Points:</strong> 15</p></li><li><p><strong>Available Powers:</strong> <em>@Compendium[swade-core-rules.swade-powers.YCK7uLmPENKq0Zdb]{Arcane Protection}, @Compendium[swade-core-rules.swade-powers.7NIb4wEEMXV5tRQd]{Barrier}, @Compendium[swade-core-rules.swade-powers.TPcYlGDTi3S42xbu]{Blast}, @Compendium[swade-core-rules.swade-powers.GxPhaUI4jQtFiXIr]{Blind}, @Compendium[swade-core-rules.swade-powers.DmaBkW6YbpYoYBPB]{Bolt}, @Compendium[swade-core-rules.swade-powers.FSwGNyzYvYRMhOkV]{Boost/Lower Trait}, @Compendium[swade-core-rules.swade-powers.oo3oR3kVNYcSNApZ]{Burst}, @Compendium[swade-core-rules.swade-powers.Ewds3tTHCxbtl6i9]{Confusion}, @Compendium[swade-core-rules.swade-powers.NJViHErRJmmNKMxC]{Damage Field}, @Compendium[swade-core-rules.swade-powers.Jtns0lIegvPI6ym7]{Darksight}, @Compendium[swade-core-rules.swade-powers.Tvr0FZJPP3ygOl94]{Deflection}, @Compendium[swade-core-rules.swade-powers.BZrNgowPgJsa2zhV]{Detect/Conceal Arcana}, @Compendium[swade-core-rules.swade-powers.WRxYTnILZKlA53ct]{Disguise}, @Compendium[swade-core-rules.swade-powers.meXlKxyVpDAOJWid]{Dispel}, @Compendium[swade-core-rules.swade-powers.a4EWHMzO4vIQZpMV]{Drain Power Points}, @Compendium[swade-core-rules.swade-powers.tvkJEXvT34m8Xx9c]{Elemental Manipulation}, @Compendium[swade-core-rules.swade-powers.oKfNj3eBIdd0Z5yB]{Empathy}, @Compendium[swade-core-rules.swade-powers.iKXcfTdWNfNMX3FS]{Entangle} </em>(ectoplasm)<em>, @Compendium[swade-core-rules.swade-powers.COGgjIqWUMnrpjv4]{Farsight}, @Compendium[swade-core-rules.swade-powers.J1sBXophcEfZYrR7]{Fear}, @Compendium[swade-core-rules.swade-powers.kTZvicSOKqEr3QOk]{Fly}, @Compendium[swade-core-rules.swade-powers.R7PJ0KAU43GgLQC9]{Healing}</em> (self only)<em>, @Compendium[swade-core-rules.swade-powers.triR6qt9CpkMTJsl]{Illusion}, @Compendium[swade-core-rules.swade-powers.2WMVbzAqJG5EO3hd]{Intangibility}, @Compendium[swade-core-rules.swade-powers.iS3duGwyTywaMOF7]{Invisibility}</em> (cloud mind)<em>, @Compendium[swade-core-rules.swade-powers.AkdBstIqWvUAzJbl]{Light / Darkness}, @UUID[Compendium.savage-eberron.eberron-powers.Item.rFmzKP8HDWYHdsP9]{locate}, @UUID[Compendium.savage-eberron.eberron-powers.Item.eBC6qxC9WZFYmaiK]{mind block}, @Compendium[swade-core-rules.swade-powers.WGoNElsK8VbvIma8]{Mind Link}, @Compendium[swade-core-rules.swade-powers.AitNGEL0f6BQxmuE]{Mind Reading}, @Compendium[swade-core-rules.swade-powers.UrVLn6Ml3BtQr1bE]{Mind Wipe}, @Compendium[swade-core-rules.swade-powers.36FhlwJ4rGpS9rX9]{Object Reading}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.urLA1HNU0GqTpP9g]{plane shift}, @Compendium[swade-core-rules.swade-powers.9Ia8jJNOCy0z7yXn]{Protection}, @Compendium[swade-core-rules.swade-powers.oRef4wp8YizkFo8u]{Puppet}, @Compendium[swade-core-rules.swade-powers.Gv4Koefqaap6qKbM]{Relief}</em> (self only)<em>, @Compendium[swade-core-rules.swade-powers.zCMcQuzYNvkEiw1r]{Sloth/Speed}, @Compendium[swade-core-rules.swade-powers.QElMPOZK7jJDDGCP]{Slumber}, @Compendium[swade-core-rules.swade-powers.AlGYtSZmjUDRfUGM]{Smite}, @Compendium[swade-core-rules.swade-powers.BCqS75qt9fyw0JW1]{Speak Language}, @Compendium[swade-core-rules.swade-powers.YqwqnsbNoQQQTLt6]{Stun}, @Compendium[swade-core-rules.swade-powers.DhwUMdLPrbUiZDwv]{Summon Ally} </em>(astral construct)<em>, @Compendium[swade-core-rules.swade-powers.NlhNCYkXrUDrCkra]{Telekinesis}, @Compendium[swade-core-rules.swade-powers.JM23jM4gErdmLhAp]{Teleport}, @Compendium[swade-core-rules.swade-powers.VExCzgzDejsraifN]{Wall Walker}, @Compendium[swade-core-rules.swade-powers.R3CtmF3sFkFIh3UQ]{Warrior's Gift}</em>.</p></li><li><p><strong>Psionics:</strong> Psions may take Edges that require Arcane Background (Psionics).</p></li><li><p><strong>Psychic Surge:</strong> Psions can draw from their Power Points to enhance the manifestation of their powers. For 1 Power Point, they can add +1 to their Psionics roll, or +2 for 3 Power Points. This ability may not be used to improve a Critical Failure.</p></li><li><p><strong>Psychic Enervation:</strong> Enhancing a power manifestation with a Psychic Surge can take a toll on a psion. After performing a Psychic Surge, the psion must immediately make a Spirit roll. Failure means the psion is Shaken. A Critical Failure means she is Stunned.\_</p></li></ul>"
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Arcane Backgrounds
+  isArcaneBackground: true
+  requirements:
+    value: Smarts d6+
+  grants:
+    - name: Psionics
+      img: systems/swade/assets/icons/skills/psychic-waves.svg
+      uuid: Compendium.swade-core-rules.swade-skills.Item.bkrB9AajSCSA6eIY
+    - name: Psychic Surge
+      img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+      uuid: Compendium.savage-eberron.eberron-abilities.Item.0pU1D7qQI806xZVu
+    - name: Psychic Enervation
+      img: >-
+        modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp
+      uuid: Compendium.savage-eberron.eberron-abilities.Item.QpQXOjd3ni0HKSWp
+  source: Eberron for Savage Worlds
+  swid: psion
+effects: []
+folder: yhaG3t6RuulkN2AF
+flags:
+  cf:
+    color: '#000000'
+    id: temp_neny3715hqg
+    path: Edges#/CF_SEP/Background Edges
+  core: {}
+  exportSource:
+    world: convergence-manifesto
+    system: swade
+    coreVersion: '11.306'
+    systemVersion: 3.0.5
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1668463079656
+  modifiedTime: 1697662967729
+  lastModifiedBy: Xbne19Xghka479we
+sort: 100000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!items!RPLQ1P3xyCDPo1uu'

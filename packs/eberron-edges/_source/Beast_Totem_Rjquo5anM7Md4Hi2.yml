@@ -1,0 +1,42 @@
+folder: Iq2Miinm5I7HDEfG
+name: Beast Totem
+type: edge
+_id: Rjquo5anM7Md4Hi2
+img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+system:
+  description: >-
+    <p>The druid chooses a magical beast from the table below as her beast
+    totem. She gains +2 to rolls to either avoid or resist the effects. If the
+    attack does not allow for such a roll, she can apply the bonus to Soak rolls
+    to prevent Wounds from the attack. This stacks with other Edges that grant a
+    similar bonus.</p><table
+    style="border:none;border-collapse:collapse;"><colgroup><col><col></colgroup><thead><tr><th
+    scope="col"><p>Beast</p></th><th scope="col"><p>Attack
+    Form</p></th></tr></thead><tbody><tr><td><p>Chimera</p></td><td><p>Breath
+    weapons</p></td></tr><tr><td><p>Burrower</p></td><td><p>Acid</p></td></tr><tr><td><p>Basilisk</p></td><td><p>Petrification</p></td></tr><tr><td><p>Drake</p></td><td><p>Fear</p></td></tr><tr><td><p>Unicorn</p></td><td><p>Poison</p></td></tr><tr><td><p>Frost
+    wolf</p></td><td><p>Cold</p></td></tr></tbody></table>
+  notes: ''
+  additionalStats: {}
+  favorite: false
+  category: Druid
+  isArcaneBackground: false
+  requirements:
+    value: Novice, Arcane Background (Druid), beast friend
+  grants: []
+  source: Eberron for Savage Worlds
+  swid: beast-totem
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.0
+  coreVersion: '11.313'
+  createdTime: 1691420578523
+  modifiedTime: 1697662967729
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!Rjquo5anM7Md4Hi2'
