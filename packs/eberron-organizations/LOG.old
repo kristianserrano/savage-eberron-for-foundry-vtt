@@ -1,8 +1,15 @@
-2023/11/04-12:58:37.529909 70000b638000 Recovering log #1300
-2023/11/04-12:58:37.531336 70000b638000 Delete type=3 #1298
-2023/11/04-12:58:37.531512 70000b638000 Delete type=0 #1300
-2023/11/04-13:54:26.345814 70000b6bb000 Level-0 table #1305: started
-2023/11/04-13:54:26.345842 70000b6bb000 Level-0 table #1305: 0 bytes OK
-2023/11/04-13:54:26.346051 70000b6bb000 Delete type=0 #1303
-2023/11/04-13:54:26.346462 70000b6bb000 Manual compaction at level-0 from '!actors!5l0SaRBXT8mht8dL' @ 72057594037927935 : 1 .. '!folders!whNERinkBMTo6GGv' @ 0 : 0; will stop at (end)
-2023/11/04-13:54:26.346507 70000b6bb000 Manual compaction at level-1 from '!actors!5l0SaRBXT8mht8dL' @ 72057594037927935 : 1 .. '!folders!whNERinkBMTo6GGv' @ 0 : 0; will stop at (end)
+2023/11/04-14:00:29.945185 70000ae35000 Recovering log #1304
+2023/11/04-14:00:29.946914 70000ae35000 Delete type=3 #1302
+2023/11/04-14:00:29.947150 70000ae35000 Delete type=0 #1304
+2023/11/04-14:01:38.283716 70000b6bb000 Level-0 table #1309: started
+2023/11/04-14:01:38.291779 70000b6bb000 Level-0 table #1309: 417621 bytes OK
+2023/11/04-14:01:38.292231 70000b6bb000 Delete type=0 #1307
+2023/11/04-14:01:38.292901 70000b6bb000 Manual compaction at level-0 from '!actors!5l0SaRBXT8mht8dL' @ 72057594037927935 : 1 .. '!folders!whNERinkBMTo6GGv' @ 0 : 0; will stop at (end)
+2023/11/04-14:01:38.293986 70000b6bb000 Manual compaction at level-1 from '!actors!5l0SaRBXT8mht8dL' @ 72057594037927935 : 1 .. '!folders!whNERinkBMTo6GGv' @ 0 : 0; will stop at '!folders!whNERinkBMTo6GGv' @ 5726 : 1
+2023/11/04-14:01:38.294008 70000b6bb000 Compacting 1@1 + 1@2 files
+2023/11/04-14:01:38.307077 70000b6bb000 Generated table #1310@1: 390 keys, 412623 bytes
+2023/11/04-14:01:38.307112 70000b6bb000 Compacted 1@1 + 1@2 files => 412623 bytes
+2023/11/04-14:01:38.307452 70000b6bb000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/04-14:01:38.307602 70000b6bb000 Delete type=2 #1309
+2023/11/04-14:01:38.307860 70000b6bb000 Delete type=2 #1105
+2023/11/04-14:01:38.311174 70000b6bb000 Manual compaction at level-1 from '!folders!whNERinkBMTo6GGv' @ 5726 : 1 .. '!folders!whNERinkBMTo6GGv' @ 0 : 0; will stop at (end)
