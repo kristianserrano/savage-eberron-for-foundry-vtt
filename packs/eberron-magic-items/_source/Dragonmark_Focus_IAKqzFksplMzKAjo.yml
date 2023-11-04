@@ -1,0 +1,50 @@
+name: Dragonmark Focus
+type: gear
+_id: IAKqzFksplMzKAjo
+img: icons/commodities/gems/gem-faceted-octagon-yellow.webp
+system:
+  description: >-
+    <p>A dragonmark focus allows the dragonmarked heir to activate a dragonmark
+    power with an automatic raise without the additional Power Point cost.</p>
+  notes: ''
+  source: Eberron for Savage Worlds
+  swid: dragonmark-focus
+  additionalStats: {}
+  quantity: 1
+  weight: 0
+  price: 2000
+  equippable: false
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    trait: ''
+    traitMod: ''
+    dmgMod: ''
+    additional: {}
+  favorite: false
+  category: Siberys Shard Items
+  grants: []
+  grantOn: 1
+  isAmmo: false
+effects: []
+folder: RDVcJmXAAV39dSOd
+sort: 200000
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+flags:
+  core: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
+  createdTime: 1699125534540
+  modifiedTime: 1699128656199
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!items!IAKqzFksplMzKAjo'

@@ -1,0 +1,16 @@
+name: Greater Dragonmark Focus Items
+sorting: a
+folder: C4Awp3iFhRhYqMg1
+type: Item
+_id: X9UIT9nSgHXZTXb5
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
+  createdTime: 1699126800054
+  modifiedTime: 1699128656188
+  lastModifiedBy: Xbne19Xghka479we
+_key: '!folders!X9UIT9nSgHXZTXb5'

@@ -1,0 +1,52 @@
+folder: WnZpbSF9eq4wJqZ3
+name: Aureon’s Spellshard
+type: gear
+_id: PX6OLRu65gH9SzJv
+img: icons/commodities/gems/gem-faceted-radiant-red.webp
+system:
+  description: >-
+    <p>This large Eberron shard is similar to a wizard’s spellshard, but it
+    allows a wizard to imprint up to 20 spells from his collection of spellbooks
+    rather than just the handful of spells stored by a regular spellshard. This
+    enables the wizard to benefit from the Eldritch Inspiration and Spellbooks
+    Edges even if his spellbooks are not available.</p>
+  notes: ''
+  source: Eberron for Savage Worlds
+  swid: aureons-spellshard
+  additionalStats: {}
+  quantity: 1
+  weight: 0.5
+  price: 6250
+  equippable: false
+  equipStatus: 1
+  isArcaneDevice: false
+  arcaneSkillDie:
+    sides: 4
+    modifier: 0
+  powerPoints: {}
+  isVehicular: false
+  mods: 1
+  actions:
+    trait: ''
+    traitMod: ''
+    dmgMod: ''
+    additional: {}
+  favorite: false
+  category: Eberron Shard Items
+  grants: []
+  grantOn: 1
+  isAmmo: false
+effects: []
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
+  createdTime: 1699127895378
+  modifiedTime: 1699128656211
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!items!PX6OLRu65gH9SzJv'
