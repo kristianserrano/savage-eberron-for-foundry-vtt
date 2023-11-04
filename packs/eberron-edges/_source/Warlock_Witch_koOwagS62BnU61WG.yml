@@ -93,7 +93,12 @@ system:
   category: Arcane Backgrounds
   isArcaneBackground: false
   requirements:
-    value: Spirit d6+
+    - type: rank
+      value: 0
+      combinator: and
+    - type: attribute
+      selector: spirit
+      value: 6
   grants:
     - uuid: Compendium.swade-core-rules.swade-skills.Item.Ii5r0pBeYHQvdYIp
       img: systems/swade/assets/icons/skills/spell-book.svg
@@ -144,9 +149,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1691452743285
-  modifiedTime: 1697662967735
+  modifiedTime: 1699130864995
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!koOwagS62BnU61WG'

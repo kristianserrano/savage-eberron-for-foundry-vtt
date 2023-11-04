@@ -15,7 +15,15 @@ system:
   category: Background
   isArcaneBackground: false
   requirements:
-    value: Novice, Wild Card, Berserk
+    - type: rank
+      value: 0
+      combinator: and
+    - type: wildCard
+      value: true
+      combinator: and
+    - type: edge
+      label: Berserk
+      selector: berserk
   grants: []
   source: Eberron for Savage Worlds
   swid: berserk-luck
@@ -24,10 +32,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1689895787413
-  modifiedTime: 1697662967737
+  modifiedTime: 1699129084787
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

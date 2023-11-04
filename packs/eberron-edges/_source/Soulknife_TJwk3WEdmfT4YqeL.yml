@@ -64,7 +64,12 @@ system:
   category: Arcane Backgrounds
   isArcaneBackground: true
   requirements:
-    value: Spirit d6+
+    - type: rank
+      value: 0
+      combinator: and
+    - type: attribute
+      selector: spirit
+      value: 6
   grants:
     - name: Psionics
       img: systems/swade/assets/icons/skills/psychic-waves.svg
@@ -97,10 +102,10 @@ flags:
     systemVersion: 3.0.6
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1668463079656
-  modifiedTime: 1697662967730
+  modifiedTime: 1699130847144
   lastModifiedBy: Xbne19Xghka479we
 _id: TJwk3WEdmfT4YqeL
 sort: 200000

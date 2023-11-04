@@ -1,5 +1,11 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.0.6
+
+- Adds a few new Actors and some dragonshard Items.
+- Converts Edge requirements to new parsed format.
+- Fixes data on some Items.
+
 ## v1.0.5
 
 - Fixes and updates some Items data and Item grants.

@@ -17,7 +17,12 @@ system:
   category: Psion
   isArcaneBackground: false
   requirements:
-    value: Novice, Arcane Background (Psion)
+    - type: rank
+      value: 0
+      combinator: and
+    - type: edge
+      label: Arcane Background (Psion)
+      selector: psion
   grants: []
   source: Eberron for Savage Worlds
   swid: expanded-knowledge
@@ -30,9 +35,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1691430337819
-  modifiedTime: 1697662967734
+  modifiedTime: 1699130983021
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!jdGwnT5cvlIr06js'

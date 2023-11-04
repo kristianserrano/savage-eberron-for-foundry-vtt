@@ -1,8 +1,15 @@
-2023/11/04-15:16:08.030484 70000b638000 Recovering log #1632
-2023/11/04-15:16:08.031775 70000b638000 Delete type=0 #1632
-2023/11/04-15:16:08.031887 70000b638000 Delete type=3 #1631
-2023/11/04-16:11:13.400453 70000b6bb000 Level-0 table #1636: started
-2023/11/04-16:11:13.400490 70000b6bb000 Level-0 table #1636: 0 bytes OK
-2023/11/04-16:11:13.400690 70000b6bb000 Delete type=0 #1634
-2023/11/04-16:11:13.401293 70000b6bb000 Manual compaction at level-0 from '!folders!2pI7uD4O4dPHpft2' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)
-2023/11/04-16:11:13.401369 70000b6bb000 Manual compaction at level-1 from '!folders!2pI7uD4O4dPHpft2' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)
+2023/11/04-16:14:39.261001 70000b638000 Recovering log #1638
+2023/11/04-16:14:39.262342 70000b638000 Delete type=0 #1638
+2023/11/04-16:14:39.262450 70000b638000 Delete type=3 #1637
+2023/11/04-17:01:24.175282 70000b6bb000 Level-0 table #1642: started
+2023/11/04-17:01:24.177962 70000b6bb000 Level-0 table #1642: 129899 bytes OK
+2023/11/04-17:01:24.178287 70000b6bb000 Delete type=0 #1640
+2023/11/04-17:01:24.183751 70000b6bb000 Manual compaction at level-0 from '!folders!2pI7uD4O4dPHpft2' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)
+2023/11/04-17:01:24.183838 70000b6bb000 Manual compaction at level-1 from '!folders!2pI7uD4O4dPHpft2' @ 72057594037927935 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at '!items!zgLL38E6IZSvePua' @ 4624 : 1
+2023/11/04-17:01:24.183852 70000b6bb000 Compacting 1@1 + 1@2 files
+2023/11/04-17:01:24.189077 70000b6bb000 Generated table #1643@1: 143 keys, 160244 bytes
+2023/11/04-17:01:24.189102 70000b6bb000 Compacted 1@1 + 1@2 files => 160244 bytes
+2023/11/04-17:01:24.189289 70000b6bb000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/04-17:01:24.189392 70000b6bb000 Delete type=2 #1550
+2023/11/04-17:01:24.190578 70000b6bb000 Delete type=2 #1642
+2023/11/04-17:01:24.191377 70000b6bb000 Manual compaction at level-1 from '!items!zgLL38E6IZSvePua' @ 4624 : 1 .. '!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd' @ 0 : 0; will stop at (end)

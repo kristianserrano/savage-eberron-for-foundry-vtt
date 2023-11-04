@@ -25,7 +25,17 @@ system:
   category: Soulknife
   isArcaneBackground: false
   requirements:
-    value: Heroic, Arcane Background (Soulknife), Psionics d10+
+    - type: rank
+      value: 3
+      combinator: and
+    - type: edge
+      label: Arcane Background (Soulknife)
+      selector: soulknife
+      combinator: and
+    - type: skill
+      label: Psionics
+      selector: psionics
+      value: 10
   grants:
     - name: Boost/Lower Trait
       img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp
@@ -50,9 +60,9 @@ flags:
     systemVersion: 3.0.6
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690400967484
-  modifiedTime: 1697662967720
+  modifiedTime: 1699130928982
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!3v3bv6xapo8Aqz8N'

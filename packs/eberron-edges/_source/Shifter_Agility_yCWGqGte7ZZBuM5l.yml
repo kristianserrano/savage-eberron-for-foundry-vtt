@@ -17,8 +17,9 @@ system:
     - type: rank
       value: 0
       combinator: and
-    - type: other
+    - type: ancestry
       label: Shifter (Cliffwalk or Longstride)
+      selector: shifter
       combinator: and
     - type: skill
       label: Athletics
@@ -67,10 +68,10 @@ flags:
 _stats:
   systemId: swade
   systemVersion: 3.2.2
-  coreVersion: '11.313'
+  coreVersion: '11.314'
   createdTime: 1690315511822
-  modifiedTime: 1698646937489
-  lastModifiedBy: gnhMzhHlhdZ0SrHo
+  modifiedTime: 1699129295711
+  lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:
   default: 0

@@ -14,7 +14,12 @@ system:
   category: Background
   isArcaneBackground: false
   requirements:
-    value: Novice, Shifter
+    - type: rank
+      value: 0
+      combinator: and
+    - type: ancestry
+      label: Shifter
+      selector: shifter
   grants: []
   source: Eberron for Savage Worlds
   swid: shifting-recovery
@@ -23,10 +28,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690318158419
-  modifiedTime: 1697662967721
+  modifiedTime: 1699129202683
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

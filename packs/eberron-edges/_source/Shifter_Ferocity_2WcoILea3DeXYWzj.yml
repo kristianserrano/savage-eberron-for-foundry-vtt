@@ -14,7 +14,16 @@ system:
   category: Background
   isArcaneBackground: false
   requirements:
-    value: Seasoned, Shifter, Hard to Kill
+    - type: rank
+      value: 1
+      combinator: and
+    - type: ancestry
+      label: Shifter
+      selector: shifter
+      combinator: and
+    - type: edge
+      label: Hard to Kill
+      selector: hard-to-kill
   grants: []
   source: Eberron for Savage Worlds
   swid: shifter-ferocity
@@ -23,10 +32,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690316278552
-  modifiedTime: 1697662967720
+  modifiedTime: 1699129280430
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

@@ -27,7 +27,12 @@ system:
   category: Background
   isArcaneBackground: false
   requirements:
-    value: Novice, Elf
+    - type: rank
+      value: 0
+      combinator: and
+    - type: ancestry
+      label: Elf
+      selector: elf
   grants: []
   source: Eberron for Savage Worlds
   swid: right-of-counsel
@@ -36,10 +41,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1689985606993
-  modifiedTime: 1697662967720
+  modifiedTime: 1699129304874
   lastModifiedBy: Xbne19Xghka479we
 _id: 1t2pF2HHKgZ556EZ
 sort: 0

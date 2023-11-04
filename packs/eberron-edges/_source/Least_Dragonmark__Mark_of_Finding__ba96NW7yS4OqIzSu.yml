@@ -120,7 +120,16 @@ system:
   category: Background
   isArcaneBackground: false
   requirements:
-    value: Novice, Half-Orc or Human
+    - type: rank
+      value: 0
+      combinator: and
+    - type: ancestry
+      label: Half-Orc
+      selector: half-orc
+      combinator: or
+    - type: ancestry
+      label: Human
+      selector: human
   grants: []
   source: Eberron for Savage Worlds
   swid: least-dragonmark-mark-of-finding
@@ -157,10 +166,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690138421288
-  modifiedTime: 1697662968028
+  modifiedTime: 1699129959448
   lastModifiedBy: Xbne19Xghka479we
 _id: ba96NW7yS4OqIzSu
 sort: 0

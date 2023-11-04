@@ -16,7 +16,12 @@ system:
   category: Druid
   isArcaneBackground: false
   requirements:
-    value: Seasoned, Gatekeeper Initiate
+    - type: rank
+      value: 1
+      combinator: and
+    - type: edge
+      label: Gatekeeper Initiate
+      selector: gatekeeper-initiate
   grants: []
   source: Eberron for Savage Worlds
   swid: repel-aberration
@@ -29,9 +34,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1691426881737
-  modifiedTime: 1697662967735
+  modifiedTime: 1699131344544
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!oIjn6iSx5lk9SQWs'

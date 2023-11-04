@@ -120,7 +120,12 @@ system:
   category: Background
   isArcaneBackground: false
   requirements:
-    value: Novice, Human
+    - type: rank
+      value: 0
+      combinator: and
+    - type: ancestry
+      label: Human
+      selector: human
   grants: []
   source: Eberron for Savage Worlds
   swid: least-dragonmark-mark-of-handlingpersuasion
@@ -157,10 +162,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690138421288
-  modifiedTime: 1697662967811
+  modifiedTime: 1699129921877
   lastModifiedBy: Xbne19Xghka479we
 _id: 2TomLZEfcDEaTvGl
 sort: 0

@@ -15,7 +15,16 @@ system:
   category: Background
   isArcaneBackground: false
   requirements:
-    value: Seasoned, Shifter, Vigor d8+
+    - type: rank
+      value: 1
+      combinator: and
+    - type: ancestry
+      label: Shifter
+      selector: shifter
+      combinator: and
+    - type: attribute
+      selector: vigor
+      value: 8
   grants: []
   source: Eberron for Savage Worlds
   swid: healing-factor
@@ -24,10 +33,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1689985606993
-  modifiedTime: 1697662967728
+  modifiedTime: 1699129248614
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

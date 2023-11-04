@@ -16,7 +16,17 @@ system:
   category: Power
   isArcaneBackground: false
   requirements:
-    value: Veteran, Craft Magic Items, Occult d10+
+    - type: rank
+      value: 2
+      combinator: and
+    - type: edge
+      label: Craft Magic Items
+      selector: craft-magic-items
+      combinator: and
+    - type: skill
+      label: Occult
+      selector: occult
+      value: 10
   grants: []
   source: Eberron for Savage Worlds
   swid: exceptional-artisan
@@ -29,9 +39,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690671578626
-  modifiedTime: 1697662967727
+  modifiedTime: 1699130292773
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!LFG7nI07nNdPDGaT'

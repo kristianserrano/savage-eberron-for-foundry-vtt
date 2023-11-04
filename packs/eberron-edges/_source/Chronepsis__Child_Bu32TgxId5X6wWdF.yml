@@ -23,17 +23,33 @@ system:
       value: true
   grants: []
   source: Eberron for Savage Worlds
-  swid: chronepsis-child
+  swid: destinys-child
 effects: []
 flags:
   core: {}
+  swade:
+    auras:
+      aura1:
+        enabled: false
+        walls: false
+        radius: null
+        color: ''
+        alpha: 0.5
+        visibleTo: []
+      aura2:
+        enabled: false
+        walls: false
+        radius: null
+        color: ''
+        alpha: 0.5
+        visibleTo: []
 _stats:
   systemId: swade
   systemVersion: 3.2.2
-  coreVersion: '11.313'
+  coreVersion: '11.314'
   createdTime: 1689896178662
-  modifiedTime: 1698646651363
-  lastModifiedBy: gnhMzhHlhdZ0SrHo
+  modifiedTime: 1699129103443
+  lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:
   default: 0

@@ -16,7 +16,16 @@ system:
   category: Combat
   isArcaneBackground: false
   requirements:
-    value: Novice, Natural Weapon, Fighting d6+
+    - type: rank
+      value: 0
+      combinator: and
+    - type: other
+      label: Natural Weapon
+      combinator: and
+    - type: skill
+      label: Fighting
+      selector: fighting
+      value: 6
   grants: []
   source: Eberron for Savage Worlds
   swid: improved-natural-weapon
@@ -29,9 +38,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690670483935
-  modifiedTime: 1697662967731
+  modifiedTime: 1699129561377
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!W7dM1pqO8KONeQlq'

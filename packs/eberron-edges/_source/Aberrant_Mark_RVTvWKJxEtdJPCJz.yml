@@ -36,7 +36,11 @@ system:
   category: Background
   isArcaneBackground: true
   requirements:
-    value: Novice, any ancestry of a dragonmarked lineage
+    - type: rank
+      value: 0
+      combinator: and
+    - type: other
+      label: any ancestry of a dragonmarked lineage
   grants: []
   source: Eberron for Savage Worlds
   swid: aberrant-mark
@@ -73,10 +77,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1689894745260
-  modifiedTime: 1697662967975
+  modifiedTime: 1699129605268
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

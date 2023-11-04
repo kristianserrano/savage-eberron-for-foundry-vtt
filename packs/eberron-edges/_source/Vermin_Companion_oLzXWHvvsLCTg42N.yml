@@ -13,7 +13,20 @@ system:
   category: Druid
   isArcaneBackground: false
   requirements:
-    value: Veteran, Beast Master, Child of Winter, Spirit d10+
+    - type: rank
+      value: 2
+      combinator: and
+    - type: edge
+      label: Beast Master
+      selector: beast-master
+      combinator: and
+    - type: edge
+      label: Child of Winter
+      selector: child-of-winter
+      combinator: and
+    - type: attribute
+      selector: spirit
+      value: 10
   grants: []
   source: Eberron for Savage Worlds
   swid: vermin-companion
@@ -26,9 +39,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1691425673065
-  modifiedTime: 1697662967736
+  modifiedTime: 1699131612291
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!oLzXWHvvsLCTg42N'

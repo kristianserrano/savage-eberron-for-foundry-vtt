@@ -24,7 +24,16 @@ system:
   category: Druid
   isArcaneBackground: false
   requirements:
-    value: Novice, Arcane Background (Druid), summon animal.
+    - type: rank
+      value: 0
+      combinator: and
+    - type: edge
+      label: Arcane Background (Druid)
+      selector: druid
+      combinator: and
+    - type: power
+      label: summon animal.
+      selector: summon-animal
   grants: []
   source: Eberron for Savage Worlds
   swid: warden-initiate
@@ -37,9 +46,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1691427109992
-  modifiedTime: 1697662967727
+  modifiedTime: 1699131538950
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!M7JWzzZcJoq6eRgN'

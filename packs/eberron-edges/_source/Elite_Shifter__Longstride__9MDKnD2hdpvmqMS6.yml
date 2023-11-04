@@ -28,7 +28,12 @@ system:
   category: Background
   isArcaneBackground: false
   requirements:
-    value: Novice, Shifter
+    - type: rank
+      value: 0
+      combinator: and
+    - type: ancestry
+      label: Shifter
+      selector: shifter
   grants: []
   source: Eberron for Savage Worlds
   swid: elite-shifter-longstride
@@ -71,10 +76,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1689900280888
-  modifiedTime: 1697662967865
+  modifiedTime: 1699129431022
   lastModifiedBy: Xbne19Xghka479we
 _id: 9MDKnD2hdpvmqMS6
 sort: 0

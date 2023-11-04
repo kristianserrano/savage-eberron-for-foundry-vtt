@@ -13,7 +13,17 @@ system:
   category: Power
   isArcaneBackground: false
   requirements:
-    value: Legendary, Craft Magic Items, Occult d10+
+    - type: rank
+      value: 4
+      combinator: and
+    - type: edge
+      label: Craft Magic Items
+      selector: craft-magic-items
+      combinator: and
+    - type: skill
+      label: Occult
+      selector: occult
+      value: 10
   grants: []
   source: Eberron for Savage Worlds
   swid: wand-mastery
@@ -56,9 +66,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690672190774
-  modifiedTime: 1697662967901
+  modifiedTime: 1699130750131
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!EqxfHhfYN1M2JKiQ'

@@ -18,7 +18,13 @@ system:
   category: Professional
   isArcaneBackground: false
   requirements:
-    value: Novice, Occult d6+
+    - type: rank
+      value: 0
+      combinator: and
+    - type: skill
+      label: Occult
+      selector: occult
+      value: 6
   grants: []
   source: Eberron for Savage Worlds
   swid: planar-mastery
@@ -31,9 +37,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690693289696
-  modifiedTime: 1697662967726
+  modifiedTime: 1699130237963
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!KNUNX7fUfRqbRNkq'

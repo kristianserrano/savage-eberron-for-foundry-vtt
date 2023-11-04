@@ -120,7 +120,12 @@ system:
   category: Background
   isArcaneBackground: false
   requirements:
-    value: Novice, Half-Elf
+    - type: rank
+      value: 0
+      combinator: and
+    - type: ancestry
+      label: Half-Elf
+      selector: half-elf
   grants: []
   source: Eberron for Savage Worlds
   swid: least-dragonmark-mark-of-stormpiloting
@@ -157,10 +162,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690138421288
-  modifiedTime: 1697662967856
+  modifiedTime: 1699129780819
   lastModifiedBy: Xbne19Xghka479we
 _id: 7T630CQjrjlCiz78
 sort: 0

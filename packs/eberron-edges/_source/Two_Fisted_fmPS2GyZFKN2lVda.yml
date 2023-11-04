@@ -11,7 +11,12 @@ system:
   category: Combat
   isArcaneBackground: false
   requirements:
-    value: Novice, Agility d8+
+    - type: rank
+      value: 0
+      combinator: and
+    - type: attribute
+      selector: agility
+      value: 8
   grants: []
   source: Eberron for Savage Worlds
   swid: two-fisted
@@ -24,9 +29,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690671241234
-  modifiedTime: 1697662967733
+  modifiedTime: 1699129466224
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!fmPS2GyZFKN2lVda'

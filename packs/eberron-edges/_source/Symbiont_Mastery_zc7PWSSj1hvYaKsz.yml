@@ -16,7 +16,12 @@ system:
   category: Weird
   isArcaneBackground: false
   requirements:
-    value: Novice, Spirit d6+
+    - type: rank
+      value: 0
+      combinator: and
+    - type: attribute
+      selector: spirit
+      value: 6
   grants: []
   source: Eberron for Savage Worlds
   swid: symbiont-mastery
@@ -29,9 +34,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690695792809
-  modifiedTime: 1697662967738
+  modifiedTime: 1699130200291
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!zc7PWSSj1hvYaKsz'

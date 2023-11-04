@@ -29,7 +29,17 @@ system:
   category: Soulknife
   isArcaneBackground: false
   requirements:
-    value: Seasoned, Arcane Background (Soulknife), Psionics d8+
+    - type: rank
+      value: 1
+      combinator: and
+    - type: edge
+      label: Arcane Background (Soulknife)
+      selector: soulknife
+      combinator: and
+    - type: skill
+      label: Psionics
+      selector: psionics
+      value: 8
   grants:
     - name: Mind Blade (Long Sword)
       img: icons/skills/melee/blade-tip-smoke-green.webp
@@ -56,9 +66,9 @@ flags:
     systemVersion: 3.0.6
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690391993843
-  modifiedTime: 1697662967733
+  modifiedTime: 1699130958679
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!eYetgGSDZQPco1Uk'

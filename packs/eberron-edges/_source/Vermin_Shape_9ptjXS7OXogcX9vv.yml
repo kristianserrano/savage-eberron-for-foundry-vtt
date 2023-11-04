@@ -16,7 +16,12 @@ system:
   category: Druid
   isArcaneBackground: false
   requirements:
-    value: Seasoned, Child of Winter
+    - type: rank
+      value: 1
+      combinator: and
+    - type: edge
+      label: Child of Winter
+      selector: child-of-winter
   grants: []
   source: Eberron for Savage Worlds
   swid: vermin-shape
@@ -29,9 +34,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1691425779691
-  modifiedTime: 1697662967723
+  modifiedTime: 1699131485112
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!9ptjXS7OXogcX9vv'

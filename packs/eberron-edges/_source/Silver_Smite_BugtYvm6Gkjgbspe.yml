@@ -18,9 +18,24 @@ system:
   category: Cleric
   isArcaneBackground: false
   requirements:
-    value: >-
-      Novice, Arcane Background (Cleric), Follower of the Silver Flame, Faith
-      d8+, smite
+    - type: rank
+      value: 0
+      combinator: and
+    - type: edge
+      label: Arcane Background (Cleric)
+      selector: cleric
+      combinator: and
+    - type: other
+      label: Follower of the Silver Flame
+      combinator: and
+    - type: skill
+      label: Faith
+      selector: faith
+      value: 8
+      combinator: and
+    - type: power
+      label: smite
+      selector: smite
   grants: []
   source: Eberron for Savage Worlds
   swid: silver-smite
@@ -33,9 +48,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1691370341420
-  modifiedTime: 1697662967724
+  modifiedTime: 1699129039604
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!BugtYvm6Gkjgbspe'

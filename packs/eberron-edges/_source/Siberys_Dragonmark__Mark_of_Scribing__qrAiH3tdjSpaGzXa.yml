@@ -55,7 +55,7 @@ system:
           arcane: Siberys Mark of Scribing
           innate: true
   source: Eberron for Savage Worlds
-  swid: siberys-dragonmark-mark-of-scribing
+  swid: siberys-dragonmark
 effects: []
 flags:
   core: {}
@@ -64,12 +64,28 @@ flags:
     system: swade
     coreVersion: '11.306'
     systemVersion: 3.0.6
+  swade:
+    auras:
+      aura1:
+        enabled: false
+        walls: false
+        radius: null
+        color: ''
+        alpha: 0.5
+        visibleTo: []
+      aura2:
+        enabled: false
+        walls: false
+        radius: null
+        color: ''
+        alpha: 0.5
+        visibleTo: []
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690694751873
-  modifiedTime: 1697662967737
+  modifiedTime: 1699130162262
   lastModifiedBy: Xbne19Xghka479we
 _id: qrAiH3tdjSpaGzXa
 sort: 1400000

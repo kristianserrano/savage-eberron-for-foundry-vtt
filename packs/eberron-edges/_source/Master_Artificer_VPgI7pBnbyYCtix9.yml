@@ -14,7 +14,21 @@ system:
   category: Artificer
   isArcaneBackground: false
   requirements:
-    value: Veteran, Arcane Background (Artificer), Craft Magic Items, Occult d8+
+    - type: rank
+      value: 2
+      combinator: and
+    - type: edge
+      label: Arcane Background (Artificer)
+      selector: artificer
+      combinator: and
+    - type: edge
+      label: Craft Magic Items
+      selector: craft-magic-items
+      combinator: and
+    - type: skill
+      label: Occult
+      selector: occult
+      value: 8
   grants: []
   source: Eberron for Savage Worlds
   swid: master-artificer
@@ -27,9 +41,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1691430900769
-  modifiedTime: 1697662967730
+  modifiedTime: 1699128984418
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!VPgI7pBnbyYCtix9'

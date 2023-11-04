@@ -15,7 +15,12 @@ system:
   category: Background
   isArcaneBackground: false
   requirements:
-    value: Veteran, Lesser Dragonmark
+    - type: rank
+      value: 2
+      combinator: and
+    - type: edge
+      label: Lesser Dragonmark
+      selector: lesser-dragonmark
   grants: []
   source: Eberron for Savage Worlds
   swid: greater-dragonmark
@@ -24,10 +29,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690238350251
-  modifiedTime: 1697662967738
+  modifiedTime: 1699129660666
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

@@ -25,7 +25,12 @@ system:
   category: Druid
   isArcaneBackground: false
   requirements:
-    value: Novice, Arcane Background (Druid)
+    - type: rank
+      value: 0
+      combinator: and
+    - type: edge
+      label: Arcane Background (Druid)
+      selector: druid
   grants: []
   source: Eberron for Savage Worlds
   swid: greensinger-initiate
@@ -74,9 +79,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690583278261
-  modifiedTime: 1697662967797
+  modifiedTime: 1699131517245
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!1GlwqlyEHFSCai8z'

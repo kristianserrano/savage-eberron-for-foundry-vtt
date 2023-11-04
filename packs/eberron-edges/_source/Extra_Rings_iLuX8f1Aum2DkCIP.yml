@@ -15,7 +15,17 @@ system:
   category: Power
   isArcaneBackground: false
   requirements:
-    value: Heroic, Craft Magic Items, Occult d10+
+    - type: rank
+      value: 3
+      combinator: and
+    - type: edge
+      label: Craft Magic Items
+      selector: craft-magic-items
+      combinator: and
+    - type: skill
+      label: Occult
+      selector: occult
+      value: 10
   grants: []
   source: Eberron for Savage Worlds
   swid: extra-rings
@@ -28,9 +38,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690671674232
-  modifiedTime: 1697662967734
+  modifiedTime: 1699130351919
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!iLuX8f1Aum2DkCIP'

@@ -55,7 +55,7 @@ system:
           arcane: Siberys Mark of Handling
           innate: true
   source: Eberron for Savage Worlds
-  swid: siberys-dragonmark-mark-of-handling-summon-animal
+  swid: siberys-dragonmark
 effects: []
 ownership:
   default: 0
@@ -67,12 +67,28 @@ flags:
     system: swade
     coreVersion: '11.306'
     systemVersion: 3.0.6
+  swade:
+    auras:
+      aura1:
+        enabled: false
+        walls: false
+        radius: null
+        color: ''
+        alpha: 0.5
+        visibleTo: []
+      aura2:
+        enabled: false
+        walls: false
+        radius: null
+        color: ''
+        alpha: 0.5
+        visibleTo: []
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690694751873
-  modifiedTime: 1697662967731
+  modifiedTime: 1699130135063
   lastModifiedBy: Xbne19Xghka479we
 _id: XyPJzxRzIRW5NJ4E
 sort: 850000

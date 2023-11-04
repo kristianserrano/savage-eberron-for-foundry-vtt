@@ -16,7 +16,17 @@ system:
   category: Power
   isArcaneBackground: false
   requirements:
-    value: Legendary, Exceptional Artisan, Occult d12+
+    - type: rank
+      value: 4
+      combinator: and
+    - type: edge
+      label: Exceptional Artisan
+      selector: exceptional-artisan
+      combinator: and
+    - type: skill
+      label: Occult
+      selector: occult
+      value: 12
   grants: []
   source: Eberron for Savage Worlds
   swid: legendary-artisan
@@ -29,9 +39,9 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1690672122909
-  modifiedTime: 1697662967734
+  modifiedTime: 1699130394506
   lastModifiedBy: Xbne19Xghka479we
 _key: '!items!jRVuWnhmfxhwRwxb'
