@@ -4,6 +4,7 @@
   "description": "Eberron for Savage Worlds: Campaign Setting",
   "main": "index.js",
   "scripts": {
+    "fvttLaunch": "bash ./tools/fvttLaunch.sh",
     "pullYMLtoLDB": "bash ./tools/pullYMLtoLDB.sh",
     "pushLDBtoYML": "bash ./tools/pushLDBtoYML.sh"
   },
