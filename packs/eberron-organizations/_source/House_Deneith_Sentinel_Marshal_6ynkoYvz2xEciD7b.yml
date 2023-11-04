@@ -1005,7 +1005,15 @@ items:
       additionalStats: {}
       isArcaneBackground: false
       requirements:
-        value: Novice, Spirit d8+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Spirit d8+
+          selector: ''
+          value: ''
+          combinator: and
       category: Weird
       favorite: false
       grants: []
@@ -1119,7 +1127,20 @@ items:
       isArcaneBackground: false
       notes: ''
       requirements:
-        value: Novice, Spirit d8+, Fighting d6+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Spirit d8+
+          selector: ''
+          value: ''
+          combinator: and
+        - type: other
+          label: Fighting d6+
+          selector: ''
+          value: ''
+          combinator: and
       category: Weird
       favorite: false
       grants: []
@@ -1176,9 +1197,40 @@ items:
       additionalStats: {}
       isArcaneBackground: false
       requirements:
-        value: >-
-          Novice, Spirit d6+, Strength d8+, Vigor d8+, Fighting d8+, Riding d6+,
-          Obligation (Major-serve their lord)
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Spirit d6+
+          selector: ''
+          value: ''
+          combinator: and
+        - type: other
+          label: Strength d8+
+          selector: ''
+          value: ''
+          combinator: and
+        - type: other
+          label: Vigor d8+
+          selector: ''
+          value: ''
+          combinator: and
+        - type: other
+          label: Fighting d8+
+          selector: ''
+          value: ''
+          combinator: and
+        - type: other
+          label: Riding d6+
+          selector: ''
+          value: ''
+          combinator: and
+        - type: other
+          label: Obligation (Major-serve their lord)
+          selector: ''
+          value: ''
+          combinator: and
       category: Professional
       favorite: false
       grants: []
@@ -1251,7 +1303,15 @@ items:
       additionalStats: {}
       isArcaneBackground: true
       requirements:
-        value: Seasoned; Spirit d8+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Seasoned; Spirit d8+
+          selector: ''
+          value: ''
+          combinator: and
       category: Power
       grants:
         - name: Boost Trait
@@ -2069,6 +2129,7 @@ items:
             resourcesUsed: null
             modifier: ''
             override: ''
+            macroActor: default
         trait: Fighting
         traitMod: ''
       bonusDamageDie: 6
@@ -2445,13 +2506,14 @@ items:
       lastModifiedBy: Xbne19Xghka479we
     _key: '!actors.items!6ynkoYvz2xEciD7b.ulloODnpdgSzdYHo'
 effects: []
-flags: {}
+flags:
+  core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1692843972546
-  modifiedTime: 1697662968476
+  modifiedTime: 1699120882126
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

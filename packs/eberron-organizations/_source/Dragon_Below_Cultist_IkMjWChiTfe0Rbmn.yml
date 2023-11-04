@@ -1349,7 +1349,25 @@ items:
       isArcaneBackground: false
       notes: ''
       requirements:
-        value: Novice, Agility d8+, Fighting d6+, Stealth d8+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Agility d8+
+          selector: ''
+          value: ''
+          combinator: and
+        - type: other
+          label: Fighting d6+
+          selector: ''
+          value: ''
+          combinator: and
+        - type: other
+          label: Stealth d8+
+          selector: ''
+          value: ''
+          combinator: and
       category: Professional
       favorite: false
       grants: []
@@ -1420,7 +1438,10 @@ items:
       isArcaneBackground: true
       notes: ''
       requirements:
-        value: Novice
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
       category: Background
       favorite: false
       grants: []
@@ -1465,7 +1486,20 @@ items:
       additionalStats: {}
       isArcaneBackground: false
       requirements:
-        value: Seasoned, Arcane Background (Any), arcane skill d8+
+        - type: rank
+          value: 1
+          selector: ''
+          combinator: and
+        - type: other
+          label: Arcane Background (Any)
+          selector: ''
+          value: ''
+          combinator: and
+        - type: other
+          label: arcane skill d8+
+          selector: ''
+          value: ''
+          combinator: and
       category: Power
       favorite: false
       grants: []
@@ -1563,7 +1597,15 @@ items:
       isArcaneBackground: false
       notes: ''
       requirements:
-        value: Novice, Agility d8+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Agility d8+
+          selector: ''
+          value: ''
+          combinator: and
       category: Background
       favorite: false
       grants: []
@@ -1603,7 +1645,15 @@ items:
       additionalStats: {}
       isArcaneBackground: false
       requirements:
-        value: Seasoned, Assassin
+        - type: rank
+          value: 1
+          selector: ''
+          combinator: and
+        - type: other
+          label: Assassin
+          selector: ''
+          value: ''
+          combinator: and
       category: Combat
       favorite: false
       grants: []
@@ -1755,6 +1805,7 @@ items:
             type: trait
             dice: 2
             isHeavyWeapon: false
+            macroActor: default
         trait: Fighting
         traitMod: ''
       bonusDamageDie: 6
@@ -1838,6 +1889,7 @@ items:
             resourcesUsed: null
             modifier: ''
             override: ''
+            macroActor: default
         trait: Fighting
         traitMod: ''
       bonusDamageDie: 6
@@ -3138,13 +3190,14 @@ items:
       lastModifiedBy: Xbne19Xghka479we
     _key: '!actors.items!IkMjWChiTfe0Rbmn.Rxw5evxEPMeA80rk'
 effects: []
-flags: {}
+flags:
+  core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1692670066187
-  modifiedTime: 1697662968515
+  modifiedTime: 1699120882126
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

@@ -864,7 +864,15 @@ items:
       category: Power
       isArcaneBackground: false
       requirements:
-        value: Seasoned, Arcane Background (Any)
+        - type: rank
+          value: 1
+          selector: ''
+          combinator: and
+        - type: other
+          label: Arcane Background (Any)
+          selector: ''
+          value: ''
+          combinator: and
       grants: []
       source: Eberron for Savage Worlds
       swid: craft-magic-items
@@ -946,7 +954,15 @@ items:
       isArcaneBackground: false
       notes: ''
       requirements:
-        value: Novice, Repair d8+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Repair d8+
+          selector: ''
+          value: ''
+          combinator: and
       category: Professional
       favorite: false
       grants: []
@@ -999,7 +1015,15 @@ items:
           mutation: {}
       isArcaneBackground: true
       requirements:
-        value: Smarts d6+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Smarts d6+
+          selector: ''
+          value: ''
+          combinator: and
       swid: magewright
     effects: []
     sort: 0
@@ -1508,25 +1532,30 @@ items:
             type: damage
             override: 1d10+1d6
             isHeavyWeapon: false
+            macroActor: default
           YwgwwMPi:
             name: Bash (Raise)
             type: damage
             override: 1d12+1d6
             isHeavyWeapon: false
+            macroActor: default
           y8K2mEXp:
             name: Bash (Power)
             type: damage
             override: 1d10+1d8
             isHeavyWeapon: false
+            macroActor: default
           6ysabHKF:
             name: Bash (Raise+Power)
             type: damage
             override: 1d12+1d8
             isHeavyWeapon: false
+            macroActor: default
           pZQQQlzV:
             name: Unwilling Target
             type: resist
             isHeavyWeapon: false
+            macroActor: default
         trait: Magecrafting
         traitMod: ''
       rank: Seasoned
@@ -2014,13 +2043,14 @@ items:
     sort: 0
     _key: '!actors.items!ibbHwKlbWp2IWiah.51EGyieQx4Nzx65E'
 effects: []
-flags: {}
+flags:
+  core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1692761776332
-  modifiedTime: 1697662968562
+  modifiedTime: 1699120882126
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

@@ -195,7 +195,7 @@ items:
       additionalStats: {}
       favorite: false
       category: Ancestry
-      subtype: race
+      subtype: ancestry
       grantsPowers: false
       grants:
         - name: Dark Vision
@@ -533,7 +533,15 @@ items:
       category: Professional
       isArcaneBackground: false
       requirements:
-        value: Novice, Repair d6+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Repair d6+
+          selector: ''
+          value: ''
+          combinator: and
       grants: []
       source: Fantasy Companion
       swid: stonecunning
@@ -1103,7 +1111,10 @@ items:
       category: Background
       isArcaneBackground: false
       requirements:
-        value: Novice
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
       grants: []
       source: SWADE Core Rules
       swid: aristocrat
@@ -1157,7 +1168,10 @@ items:
       category: Social
       isArcaneBackground: false
       requirements:
-        value: Novice
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
       grants: []
       source: SWADE Core Rules
       swid: connections
@@ -1206,7 +1220,15 @@ items:
       category: Background
       isArcaneBackground: false
       requirements:
-        value: Novice, Rich
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Rich
+          selector: ''
+          value: ''
+          combinator: and
       grants: []
       source: SWADE Core Rules
       swid: filthy-rich
@@ -1295,7 +1317,15 @@ items:
       category: Social
       isArcaneBackground: false
       requirements:
-        value: Novice, Spirit d8+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Spirit d8+
+          selector: ''
+          value: ''
+          combinator: and
       grants: []
       source: SWADE Core Rules
       swid: strong-willed
@@ -1344,6 +1374,7 @@ items:
             type: trait
             dice: 2
             isHeavyWeapon: false
+            macroActor: default
         trait: Fighting
         traitMod: ''
       bonusDamageDie: 6
@@ -1427,6 +1458,7 @@ items:
             type: trait
             override: Fighting
             isHeavyWeapon: false
+            macroActor: default
         trait: Athletics
         traitMod: ''
       bonusDamageDie: 6
@@ -1878,10 +1910,10 @@ flags:
     sheetClass: ''
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1692061956178
-  modifiedTime: 1697662968497
+  modifiedTime: 1699120882126
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

@@ -534,10 +534,12 @@ items:
             name: Resist Stun
             type: resist
             isHeavyWeapon: false
+            macroActor: default
           nh8rx9Ar:
             name: Resist Stun w/ Raise
             type: resist
             isHeavyWeapon: false
+            macroActor: default
         trait: ''
         traitMod: ''
       bonusDamageDie: 6
@@ -1502,7 +1504,20 @@ items:
       isArcaneBackground: false
       notes: ''
       requirements:
-        value: Novice, Agility d8+, Athletics d8+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Agility d8+
+          selector: ''
+          value: ''
+          combinator: and
+        - type: other
+          label: Athletics d8+
+          selector: ''
+          value: ''
+          combinator: and
       category: Professional
       favorite: false
       grants: []
@@ -1563,7 +1578,10 @@ items:
       isArcaneBackground: true
       notes: ''
       requirements:
-        value: Novice
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
       category: Background
       favorite: false
       grants: []
@@ -1610,7 +1628,15 @@ items:
       isArcaneBackground: false
       notes: ''
       requirements:
-        value: Seasoned, Agility d8+
+        - type: rank
+          value: 1
+          selector: ''
+          combinator: and
+        - type: other
+          label: Agility d8+
+          selector: ''
+          value: ''
+          combinator: and
       category: Combat
       favorite: false
       grants: []
@@ -1655,7 +1681,20 @@ items:
       additionalStats: {}
       isArcaneBackground: false
       requirements:
-        value: Veteran, Arcane Background (Any), arcane skill d6+
+        - type: rank
+          value: 2
+          selector: ''
+          combinator: and
+        - type: other
+          label: Arcane Background (Any)
+          selector: ''
+          value: ''
+          combinator: and
+        - type: other
+          label: arcane skill d6+
+          selector: ''
+          value: ''
+          combinator: and
       category: Power
       favorite: false
       grants: []
@@ -1707,7 +1746,15 @@ items:
       isArcaneBackground: false
       notes: ''
       requirements:
-        value: Seasoned, Fighting d8+
+        - type: rank
+          value: 1
+          selector: ''
+          combinator: and
+        - type: other
+          label: Fighting d8+
+          selector: ''
+          value: ''
+          combinator: and
       category: Combat
       favorite: false
       grants: []
@@ -2016,12 +2063,14 @@ items:
             isHeavyWeapon: false
             override: ''
             modifier: ''
+            macroActor: default
           pz6fC1ET:
             name: Push (w/ Power)
             type: resist
             isHeavyWeapon: false
             override: ''
             modifier: ''
+            macroActor: default
         trait: Spellcasting
         traitMod: ''
       rank: Novice
@@ -2118,12 +2167,14 @@ items:
             override: 2d4
             isHeavyWeapon: false
             modifier: ''
+            macroActor: default
           roS9oGG0:
             name: Deadly (2d6)
             type: damage
             override: 2d6
             isHeavyWeapon: false
             modifier: ''
+            macroActor: default
         trait: Spellcasting
         traitMod: ''
       rank: Novice
@@ -2510,30 +2561,35 @@ items:
             override: 1d10+1d6
             isHeavyWeapon: false
             modifier: ''
+            macroActor: default
           YwgwwMPi:
             name: Bash (Raise)
             type: damage
             override: 1d12+1d6
             isHeavyWeapon: false
             modifier: ''
+            macroActor: default
           y8K2mEXp:
             name: Bash (Power)
             type: damage
             override: 1d10+1d8
             isHeavyWeapon: false
             modifier: ''
+            macroActor: default
           6ysabHKF:
             name: Bash (Raise+Power)
             type: damage
             override: 1d12+1d8
             isHeavyWeapon: false
             modifier: ''
+            macroActor: default
           pZQQQlzV:
             name: Unwilling Target
             type: resist
             isHeavyWeapon: false
             override: ''
             modifier: ''
+            macroActor: default
         trait: Spellcasting
         traitMod: ''
       rank: Seasoned
@@ -2653,13 +2709,14 @@ items:
       lastModifiedBy: Xbne19Xghka479we
     _key: '!actors.items!W0ZGeEoKtF4ERK4i.xamtn70v2B2fCMMm'
 effects: []
-flags: {}
+flags:
+  core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1692669731384
-  modifiedTime: 1697662968539
+  modifiedTime: 1699120882126
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

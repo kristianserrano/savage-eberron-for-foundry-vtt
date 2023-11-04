@@ -1196,7 +1196,15 @@ items:
       category: Power
       isArcaneBackground: false
       requirements:
-        value: Seasoned, Arcane Background (Any)
+        - type: rank
+          value: 1
+          selector: ''
+          combinator: and
+        - type: other
+          label: Arcane Background (Any)
+          selector: ''
+          value: ''
+          combinator: and
       grants: []
       source: Eberron for Savage Worlds
       swid: craft-magic-items
@@ -1718,6 +1726,7 @@ items:
             name: Smarts
             type: resist
             isHeavyWeapon: false
+            macroActor: default
         trait: Faith
         traitMod: ''
       rank: Novice
@@ -2195,6 +2204,7 @@ items:
             type: trait
             dice: 2
             isHeavyWeapon: false
+            macroActor: default
         trait: Fighting
         traitMod: ''
       bonusDamageDie: 6
@@ -2351,11 +2361,13 @@ items:
             type: damage
             isHeavyWeapon: false
             override: 3d6
+            macroActor: default
           u2RKbs8l:
             name: Turn Undead 4d6
             type: damage
             isHeavyWeapon: false
             override: 4d6
+            macroActor: default
         trait: ''
         traitMod: ''
       favorite: false
@@ -2783,7 +2795,15 @@ items:
       additionalStats: {}
       isArcaneBackground: true
       requirements:
-        value: Spirit d6+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Spirit d6+
+          selector: ''
+          value: ''
+          combinator: and
       category: Arcane Background
       grants:
         - name: Faith
@@ -3178,7 +3198,15 @@ items:
       additionalStats: {}
       isArcaneBackground: false
       requirements:
-        value: Seasoned, Arcane Background (Cleric)
+        - type: rank
+          value: 1
+          selector: ''
+          combinator: and
+        - type: other
+          label: Arcane Background (Cleric)
+          selector: ''
+          value: ''
+          combinator: and
       category: Cleric
       grants:
         - name: Destroy Undead
@@ -3285,13 +3313,14 @@ items:
       lastModifiedBy: Xbne19Xghka479we
     _key: '!actors.items!uDeXDscxqoTIkKio.KKnhWEU8uCUrzsUL'
 effects: []
-flags: {}
+flags:
+  core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1692735772446
-  modifiedTime: 1697662968589
+  modifiedTime: 1699120882126
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

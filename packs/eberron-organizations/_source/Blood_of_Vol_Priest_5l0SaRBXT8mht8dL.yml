@@ -193,7 +193,7 @@ items:
       additionalStats: {}
       favorite: false
       category: Ancestry
-      subtype: race
+      subtype: ancestry
       grantsPowers: false
       grants:
         - name: Heritage (Elf)
@@ -469,7 +469,15 @@ items:
       category: Arcane Background
       isArcaneBackground: true
       requirements:
-        value: Spirit d6+
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Spirit d6+
+          selector: ''
+          value: ''
+          combinator: and
       grants:
         - name: Faith
           img: >-
@@ -1307,7 +1315,15 @@ items:
       category: Cleric
       isArcaneBackground: false
       requirements:
-        value: Seasoned, Arcane Background (Cleric)
+        - type: rank
+          value: 1
+          selector: ''
+          combinator: and
+        - type: other
+          label: Arcane Background (Cleric)
+          selector: ''
+          value: ''
+          combinator: and
       grants:
         - name: Destroy Undead
           img: >-
@@ -2364,6 +2380,7 @@ items:
             type: trait
             dice: 2
             isHeavyWeapon: false
+            macroActor: default
         trait: Fighting
         traitMod: ''
       bonusDamageDie: 6
@@ -2472,11 +2489,13 @@ items:
             modifier: '-1'
             override: Fighting
             isHeavyWeapon: false
+            macroActor: default
           S7lat7Fk:
             name: +4 Damage to Deathless
             type: damage
             isHeavyWeapon: false
             modifier: '+4'
+            macroActor: default
         trait: Athletics
         traitMod: '-1'
       bonusDamageDie: 6
@@ -3289,10 +3308,10 @@ flags:
     sheetClass: ''
 _stats:
   systemId: swade
-  systemVersion: 3.2.0
-  coreVersion: '11.313'
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
   createdTime: 1692124729083
-  modifiedTime: 1697662968449
+  modifiedTime: 1699120882126
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

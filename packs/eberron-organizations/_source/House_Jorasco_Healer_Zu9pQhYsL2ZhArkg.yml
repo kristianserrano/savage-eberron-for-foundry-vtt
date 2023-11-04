@@ -1,0 +1,2189 @@
+folder: 60oZUurgqUx9pdS9
+name: House Jorasco Healer
+type: npc
+_id: Zu9pQhYsL2ZhArkg
+img: modules/swade-fantasy-companion/assets/tokens/fc_token_H_15.webp
+system:
+  attributes:
+    agility:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+    smarts:
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      animal: false
+    spirit:
+      die:
+        sides: 8
+        modifier: 0
+      wild-die:
+        sides: 6
+      unShakeBonus: 0
+    strength:
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      encumbranceSteps: 0
+    vigor:
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      unStunBonus: 0
+      soakBonus: 0
+      bleedOut:
+        modifier: 0
+        ignoreWounds: false
+  stats:
+    speed:
+      runningDie: 6
+      runningMod: 0
+      value: 6
+    toughness:
+      value: 0
+      armor: 0
+      modifier: 0
+    parry:
+      value: 0
+      shield: 0
+      modifier: 0
+    size: 0
+  details:
+    autoCalcToughness: true
+    autoCalcParry: true
+    archetype: ''
+    appearance: ''
+    notes: ''
+    goals: ''
+    biography:
+      value: ''
+    species:
+      name: ''
+    currency: 0
+    wealth:
+      die: 6
+      modifier: 0
+      wild-die: 6
+    conviction:
+      value: 0
+      active: false
+  powerPoints:
+    general:
+      value: 15
+      max: 15
+  fatigue:
+    value: 0
+    max: 2
+    ignored: 0
+  wounds:
+    value: 0
+    max: 0
+    ignored: 0
+  woundsOrFatigue:
+    ignored: 0
+  bennies:
+    value: 0
+    max: 2
+  advances:
+    mode: expanded
+    value: 0
+    rank: Novice
+    details: ''
+    list: []
+  status:
+    isShaken: false
+    isDistracted: false
+    isVulnerable: false
+    isStunned: false
+    isEntangled: false
+    isBound: false
+    isIncapacitated: false
+  initiative:
+    hasHesitant: false
+    hasLevelHeaded: false
+    hasImpLevelHeaded: false
+    hasQuick: false
+  additionalStats: {}
+  wildcard: false
+prototypeToken:
+  name: House Jorasco Healer
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/swade-fantasy-companion/assets/tokens/fc_token_H_15.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: stats.parry.value
+  bar2:
+    attribute: toughness.total
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  flags: {}
+  randomImg: false
+items:
+  - name: Halfling
+    type: ability
+    _id: 4TCoQaSzGuBYgBT3
+    img: >-
+      modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp
+    system:
+      description: >-
+        <ul><li><p><strong>Athletic (+1):</strong> Halflings are nimble beings.
+        They start with a d6 in Athletics instead of a d4. This increases their
+        maximum Athletics to d12+1.</p></li><li><p><strong>Brave (+2):</strong>
+        Halflings have the Brave Edge. Through cultural inheritance, they retain
+        some amount of fearlessness from their Talentan
+        origins.</p></li><li><p><strong>Lucky (+2):</strong> Halflings have the
+        Luck Edge, seemingly able to find their way out of unideal
+        situations.</p></li><li><p><strong>Reduced Pace (−1):</strong> Halflings
+        have short legs compared to human-sized ancestries. Decrease their Pace
+        by 1 and their running die one die type.</p></li><li><p><strong>Size −1
+        (−1):</strong> Halflings are considered Size −1 and have −1
+        Toughness.</p></li><li><p><strong>Stealthy (+1):</strong> Halflings
+        begin play with a d6 in Stealth. This increases their maximum Stealth to
+        d12+1.</p></li></ul>
+      notes: ''
+      additionalStats: {}
+      favorite: false
+      category: Ancestry
+      subtype: ancestry
+      grantsPowers: false
+      grants:
+        - name: Athletic
+          img: icons/skills/movement/feet-winged-sandals-tan.webp
+          uuid: Compendium.savage-eberron.eberron-ancestries.Item.29clVk6oxj4dNNLd
+          mutation: {}
+        - name: Brave
+          img: icons/magic/control/control-influence-rally-purple.webp
+          uuid: Compendium.savage-eberron.eberron-ancestries.Item.503fYtYLikz9Ki4B
+          mutation: {}
+        - name: Lucky
+          img: icons/magic/control/buff-luck-fortune-clover-green.webp
+          uuid: Compendium.savage-eberron.eberron-ancestries.Item.IqnRHxj6zm6zR8US
+          mutation: {}
+        - name: Size -1
+          img: icons/magic/control/silhouette-grow-shrink-tan.webp
+          uuid: Compendium.savage-eberron.eberron-ancestries.Item.NzYsygatYmC4MBOQ
+          mutation: {}
+        - name: Stealthy
+          img: icons/magic/perception/silhouette-stealth-shadow.webp
+          uuid: Compendium.savage-eberron.eberron-ancestries.Item.em0FNb3o7augNgfu
+          mutation: {}
+        - name: Reduced Pace
+          img: icons/skills/movement/figure-running-gray.webp
+          uuid: Compendium.savage-eberron.eberron-ancestries.Item.tLxkxKVqlU9zVX8r
+          mutation: {}
+      source: Eberron for Savage Worlds
+      swid: halfling
+    effects: []
+    folder: null
+    sort: 700000
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Compendium.savage-eberron.eberron-ancestries.Item.l6ZMBFuf2meW7LmK
+      swade:
+        hasGranted:
+          - fANWaGqsRzoI2OOy
+          - cCpJKfauYdfSkVIX
+          - v7aHJWcVpq8Nkm08
+          - fJgEeqp8tHF755n9
+          - TYbioczUrhvT6oaV
+          - J0lhJAI9WPA6zsHV
+          - dgDdSULnsWrkWn59
+          - k0zEOoc01x5XI9nH
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1690319936949
+      modifiedTime: 1693889451889
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.4TCoQaSzGuBYgBT3'
+  - folder: 8duy0r5LaiffI3GL
+    name: Athletic
+    type: ability
+    _id: fANWaGqsRzoI2OOy
+    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    system:
+      description: >-
+        <p>Halflings are nimble beings. They start with a d6 in Athletics
+        instead of a d4. This increases their maximum Athletics to d12+1.</p>
+      notes: ''
+      additionalStats: {}
+      favorite: false
+      category: Halfling
+      subtype: special
+      grantsPowers: false
+      grants: []
+      source: Eberron for Savage Worlds
+      swid: athletic
+    effects:
+      - icon: icons/skills/movement/feet-winged-sandals-tan.webp
+        duration:
+          rounds: null
+          startTime: 36
+          seconds: null
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        flags:
+          swade:
+            expiration: null
+            loseTurnOnHold: false
+        changes:
+          - key: '@Skill{Athletics}[system.die.sides]'
+            mode: 2
+            value: '2'
+            priority: null
+        transfer: true
+        name: Starting Athletics d6
+        _id: rx3YOVmYsu0KDACS
+        disabled: false
+        description: >-
+          <p>Start with a d6 in Athletics instead of a d4. This increases their
+          maximum Athletics to d12+1.</p>
+        origin: null
+        statuses: []
+        tint: null
+        _key: >-
+          !actors.items.effects!Zu9pQhYsL2ZhArkg.fANWaGqsRzoI2OOy.rx3YOVmYsu0KDACS
+    sort: 0
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core: {}
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1690318710962
+      modifiedTime: 1693889451863
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.fANWaGqsRzoI2OOy'
+  - folder: 8duy0r5LaiffI3GL
+    name: Brave
+    type: ability
+    _id: cCpJKfauYdfSkVIX
+    img: icons/magic/control/control-influence-rally-purple.webp
+    system:
+      description: >-
+        <p>Halflings have the
+        @UUID[Compendium.swade-core-rules.swade-edges.Item.hMTj68saxoF5i5Ul]{Brave
+        Edge}. Through cultural inheritance, they retain some amount of
+        fearlessness from their Talentan origins.</p>
+      notes: ''
+      additionalStats: {}
+      favorite: false
+      category: Halfling
+      subtype: special
+      grantsPowers: false
+      grants:
+        - name: Brave
+          img: systems/swade/assets/icons/edge.svg
+          uuid: Compendium.swade-core-rules.swade-edges.Item.hMTj68saxoF5i5Ul
+          mutation: {}
+      source: Eberron for Savage Worlds
+      swid: brave
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core: {}
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1690319435925
+      modifiedTime: 1693889451863
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.cCpJKfauYdfSkVIX'
+  - folder: 8duy0r5LaiffI3GL
+    name: Lucky
+    type: ability
+    _id: v7aHJWcVpq8Nkm08
+    img: icons/magic/control/buff-luck-fortune-clover-green.webp
+    system:
+      description: >-
+        <p>Halflings have the
+        @UUID[Compendium.swade-core-rules.swade-edges.Item.7huwXlataZ2OaQXL]{Luck
+        Edge}, seemingly able to find their way out of unideal situations.</p>
+      notes: ''
+      additionalStats: {}
+      favorite: false
+      category: Halfling
+      subtype: special
+      grantsPowers: false
+      grants:
+        - name: Luck
+          img: systems/swade/assets/icons/edge.svg
+          uuid: Compendium.swade-core-rules.swade-edges.Item.7huwXlataZ2OaQXL
+          mutation: {}
+      source: Eberron for Savage Worlds
+      swid: lucky
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core: {}
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1690319630902
+      modifiedTime: 1693889451863
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.v7aHJWcVpq8Nkm08'
+  - name: Size -1
+    type: ability
+    img: icons/magic/control/silhouette-grow-shrink-tan.webp
+    system:
+      description: >-
+        <p>Halflings are considered
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size}
+        −1 and have −1
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}.</p>
+      notes: Racial
+      additionalStats: {}
+      favorite: false
+      category: Halfling
+      subtype: special
+      grantsPowers: false
+      grants: []
+      source: Eberron for Savage Worlds
+      swid: size-1
+    effects: []
+    folder: 8duy0r5LaiffI3GL
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core: {}
+      exportSource:
+        world: convergence-manifesto
+        system: swade
+        coreVersion: '11.306'
+        systemVersion: 3.0.5
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1668046440817
+      modifiedTime: 1693889451863
+      lastModifiedBy: Xbne19Xghka479we
+    _id: fJgEeqp8tHF755n9
+    sort: 0
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.fJgEeqp8tHF755n9'
+  - name: Stealthy
+    type: ability
+    img: icons/magic/perception/silhouette-stealth-shadow.webp
+    system:
+      description: >-
+        <p>Halflings begin play with a d6 in
+        @Compendium[swade-core-rules.swade-skills.bFaYnzftXwQ9p4Si]{Stealth}.
+        This increases their maximum Stealth to d12+1.</p>
+      notes: Racial
+      additionalStats: {}
+      favorite: false
+      category: Halfling
+      subtype: special
+      grantsPowers: false
+      grants: []
+      source: Eberron for Savage Worlds
+      swid: stealthy
+    effects:
+      - icon: icons/magic/perception/silhouette-stealth-shadow.webp
+        duration:
+          rounds: null
+          startTime: 36
+          seconds: null
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        flags:
+          swade:
+            expiration: null
+            loseTurnOnHold: false
+        changes:
+          - key: '@Skill{Stealth}[system.die.sides]'
+            mode: 2
+            value: '2'
+            priority: null
+        transfer: true
+        _id: aEdOZ9gR6wd5p8ms
+        disabled: false
+        origin: null
+        tint: null
+        name: Starting Stealth d6
+        description: ''
+        statuses: []
+        _key: >-
+          !actors.items.effects!Zu9pQhYsL2ZhArkg.TYbioczUrhvT6oaV.aEdOZ9gR6wd5p8ms
+    folder: 8duy0r5LaiffI3GL
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core: {}
+      exportSource:
+        world: convergence-manifesto
+        system: swade
+        coreVersion: '11.306'
+        systemVersion: 3.0.5
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1668046428244
+      modifiedTime: 1693889451863
+      lastModifiedBy: Xbne19Xghka479we
+    _id: TYbioczUrhvT6oaV
+    sort: 0
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.TYbioczUrhvT6oaV'
+  - name: Reduced Pace
+    type: ability
+    img: icons/skills/movement/figure-running-gray.webp
+    system:
+      description: >-
+        <p>Halflings have short legs compared to human-sized ancestries.
+        Decrease their Pace by 1 and their running die one die type.</p>
+      notes: ''
+      additionalStats: {}
+      favorite: false
+      category: Halfling
+      subtype: special
+      grantsPowers: false
+      grants: []
+      source: Eberron for Savage Worlds
+      swid: reduced-pace
+    effects: []
+    folder: 8duy0r5LaiffI3GL
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      exportSource:
+        world: convergence-manifesto
+        system: swade
+        coreVersion: '11.306'
+        systemVersion: 3.0.5
+      core: {}
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1668895717346
+      modifiedTime: 1693889451863
+      lastModifiedBy: Xbne19Xghka479we
+    _id: J0lhJAI9WPA6zsHV
+    sort: 0
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.J0lhJAI9WPA6zsHV'
+  - _id: dgDdSULnsWrkWn59
+    effects: []
+    folder: null
+    img: systems/swade/assets/icons/edge.svg
+    name: Brave
+    sort: 0
+    type: edge
+    system:
+      source: SWADE Core Rules
+      additionalStats: {}
+      description: >-
+        <article class="swade-core">
+
+        <p>Those with this Edge have learned to master their fear, or have dealt
+        with so many horrors they’ve become jaded. These valiant explorers add
+        +2 to
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fear0000000000]{Fear}
+        checks and subtract 2 from
+        <strong>@Compendium[swade-core-rules.swade-tables.Fear Table]{Fear
+        Table} </strong>results.</p>
+
+        </article>
+      isArcaneBackground: false
+      notes: ''
+      requirements:
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Spirit d6+
+          selector: ''
+          value: ''
+          combinator: and
+      category: Background
+      favorite: false
+      grants: []
+      swid: brave
+    ownership:
+      7ntJSLixH2Phv2jV: 3
+      default: 0
+      Xbne19Xghka479we: 3
+    flags: {}
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889451863
+      modifiedTime: 1693889451863
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.dgDdSULnsWrkWn59'
+  - _id: k0zEOoc01x5XI9nH
+    effects:
+      - _id: RHUEBuZR1iLofMhq
+        changes:
+          - key: system.bennies.max
+            mode: 2
+            value: '1'
+            priority: null
+        disabled: false
+        duration:
+          startTime: 36
+          seconds: null
+          combat: null
+          rounds: null
+          turns: null
+          startRound: null
+          startTurn: null
+        flags: {}
+        icon: systems/swade/assets/icons/edge.svg
+        name: Luck
+        tint: null
+        transfer: true
+        description: >-
+          <article class="swade-core">
+
+          <p>The adventurer seems to be blessed by fate, karma, the gods, or
+          whatever external forces he believes in (or believe in him!). </p>
+
+          <p>He draws one extra
+          @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{Benny}
+          at the beginning of each game session, allowing him to succeed at
+          important tasks more often than most, and survive incredible
+          dangers.</p>
+
+          </article>
+        origin: null
+        statuses: []
+        _key: >-
+          !actors.items.effects!Zu9pQhYsL2ZhArkg.k0zEOoc01x5XI9nH.RHUEBuZR1iLofMhq
+    flags: {}
+    folder: null
+    img: systems/swade/assets/icons/edge.svg
+    name: Luck
+    sort: 0
+    type: edge
+    system:
+      source: SWADE Core Rules
+      additionalStats: {}
+      description: >-
+        <article class="swade-core">
+
+        <p>The adventurer seems to be blessed by fate, karma, the gods, or
+        whatever external forces he believes in (or believe in him!). </p>
+
+        <p>He draws one extra
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{Benny}
+        at the beginning of each game session, allowing him to succeed at
+        important tasks more often than most, and survive incredible
+        dangers.</p>
+
+        </article>
+      isArcaneBackground: false
+      notes: ''
+      requirements:
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+      category: Background
+      favorite: false
+      grants: []
+      swid: luck
+    ownership:
+      7ntJSLixH2Phv2jV: 3
+      default: 0
+      Xbne19Xghka479we: 3
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889451863
+      modifiedTime: 1693889451863
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.k0zEOoc01x5XI9nH'
+  - _id: R60Su1E1zhF3ngjP
+    effects: []
+    folder: null
+    img: systems/swade/assets/icons/skills/jump-across.svg
+    name: Athletics
+    sort: 0
+    type: skill
+    system:
+      source: SWADE Core Rules
+      additionalStats: {}
+      attribute: agility
+      description: >-
+        <article class="swade-core">
+
+        <p>Athletics combines an individual’s coordin­ation with learned skills
+        such as climbing, jumping, balancing, biking, wrestling, skiing,
+        swimming, throwing, or catching. Characters who rely on physical power
+        more than coordination can take the
+        @Compendium[swade-core-rules.swade-edges.Brute]{Brute} Edge to link this
+        skill to
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength}
+        instead of
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility}.</p>
+
+        </article>
+      die:
+        modifier: 0
+        sides: 4
+      isCoreSkill: false
+      notes: ''
+      wild-die:
+        sides: 6
+      swid: athletics
+    ownership:
+      7ntJSLixH2Phv2jV: 3
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Compendium.swade-core-rules.swade-skills.Item.qc2GOKFIXIJEpTw1
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889539502
+      modifiedTime: 1693889539502
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.R60Su1E1zhF3ngjP'
+  - _id: eUNhTLRTwbMtwExv
+    effects: []
+    folder: null
+    img: systems/swade/assets/icons/skills/gift-of-knowledge.svg
+    name: Common Knowledge
+    sort: 0
+    type: skill
+    system:
+      source: SWADE Core Rules
+      additionalStats: {}
+      attribute: smarts
+      description: >-
+        <article class="swade-core"><p>Characters roll Common Knowledge to know
+        people, places, and things of their world, including etiquette,
+        geography, culture, popular technology, contacts, and
+        customs.</p></article>
+      die:
+        modifier: 0
+        sides: 4
+      isCoreSkill: false
+      notes: ''
+      wild-die:
+        sides: 6
+      swid: common-knowledge
+    ownership:
+      7ntJSLixH2Phv2jV: 3
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Compendium.swade-core-rules.swade-skills.Item.su7eyijoB0RFpRB1
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889551196
+      modifiedTime: 1693889551196
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.eUNhTLRTwbMtwExv'
+  - _id: j2zvknOdBey3vg6j
+    effects: []
+    folder: null
+    img: systems/swade/assets/icons/skills/medical-pack.svg
+    name: Healing
+    sort: 0
+    type: skill
+    system:
+      source: SWADE Core Rules
+      additionalStats: {}
+      attribute: smarts
+      description: >-
+        <article class="swade-core">
+
+        <p>Healing has multiple uses, from treating
+        @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wounds} to
+        diagnosing diseases and analyzing certain kinds of forensic
+        evidence.</p>
+
+        <p>See
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Healing}
+        for rules on mending and treating
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wounds},
+        and
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{Hazards}
+        for treatment of disease or poison.</p>
+
+        <p><strong>Forensics: </strong> Healing can also be used to analyze
+        evidence that relates to anatomical trauma, including cause and time of
+        death, angle of attack, and similar matters.
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success}
+        provides basic information and a
+        @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise} increases
+        the details uncovered.</p>
+
+        </article>
+      die:
+        modifier: 0
+        sides: 8
+      isCoreSkill: false
+      notes: ''
+      wild-die:
+        sides: 6
+      swid: healing
+    ownership:
+      7ntJSLixH2Phv2jV: 3
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Compendium.swade-core-rules.swade-skills.Item.Syo1BvITMeRV2Aat
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889560930
+      modifiedTime: 1693889564461
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.j2zvknOdBey3vg6j'
+  - _id: l0kOxKEMOfv4YqaR
+    effects: []
+    folder: null
+    img: systems/swade/assets/icons/skills/psychic-waves.svg
+    name: Notice
+    sort: 0
+    type: skill
+    system:
+      source: SWADE Core Rules
+      additionalStats: {}
+      attribute: smarts
+      description: >-
+        <article class="swade-core">
+
+        <p>Notice is a hero’s general awareness and alertness. It’s used to
+        sense sights, sounds, tastes, and smells, spot clues, detect ambushes,
+        spot hidden weapons on a foe, or tell if a rival is lying, frightened,
+        happy, etc.</p>
+
+        <p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success}
+        conveys basic information—the character hears movement in the forest,
+        smells distant smoke, or senses someone isn’t being completely
+        truthful.</p>
+
+        <p>A
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise}
+        grants more detail, such as the direction of a sound or odor or what
+        topic a person is avoiding or lying about.</p>
+
+        </article>
+      die:
+        modifier: 0
+        sides: 6
+      isCoreSkill: false
+      notes: ''
+      wild-die:
+        sides: 6
+      swid: notice
+    ownership:
+      7ntJSLixH2Phv2jV: 3
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Compendium.swade-core-rules.swade-skills.Item.Y0545TlaAqRRE2P0
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889576054
+      modifiedTime: 1693889578967
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.l0kOxKEMOfv4YqaR'
+  - _id: ik2eXweLBgGHlp0H
+    effects: []
+    folder: null
+    img: systems/swade/assets/icons/skills/convince.svg
+    name: Persuasion
+    sort: 0
+    type: skill
+    system:
+      source: SWADE Core Rules
+      additionalStats: {}
+      attribute: spirit
+      description: >-
+        <article class="swade-core">
+
+        <p>Persuasion is the ability to convince others to do what you want
+        through reason, cajoling, deception, rewards, or other friendly means.
+        Persuasion isn’t mind control. It can change someone’s attitude but not
+        their goals. A bandit may let you keep a sentimental piece of jewelry
+        with a good Persuasion roll but still takes all your other goods.</p>
+
+        <p>When used to
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{Support}
+        allies it’s an unopposed roll. If the target is resistant, it’s an
+        @JournalEntry[JBxsGv2wAoAmoCDe]{opposed} roll vs. the target’s
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit}.
+        The GM should modify the roll as she sees fit based on roleplaying, any
+        pertinent
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edges}
+        or
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrances}
+        that affect the conversation, and the circumstances.</p>
+
+        <p><strong>Reaction Level:</strong> How much a person is willing to
+        cooperate depends largely on their attitude toward whoever’s talking to
+        them. The Game Master can decide how nonplayer characters feel based on
+        the setting, or roll on the
+        @Compendium[swade-core-rules.swade-tables.Reaction Table]{Reaction
+        Table} if she has no preconceived notions.</p>
+
+        <p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success}
+        improves the target’s attitude one level and a raise improves it two.
+        Further increases aren’t generally possible in the same encounter—it
+        takes individuals a little time to adjust their biases.</p>
+
+        <p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Failure}
+        means the target won’t change his mind this scene or until the situation
+        changes in some important way. A
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical
+        Failure} also <em>reduces</em> the target’s attitude two levels.</p>
+
+        <p>Only one roll should generally be allowed per interaction unless new
+        information is revealed, a substantial reward is offered, etc.</p>
+
+        <p><strong>Networking: </strong>Characters can also use Persuasion as a
+        “macro skill,” simulating a few hours or an evening’s time hobnobbing
+        and socializing to gain favors or information. See
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{Networking}.</p>
+
+        </article>
+      die:
+        modifier: 0
+        sides: 4
+      isCoreSkill: false
+      notes: ''
+      wild-die:
+        sides: 6
+      swid: persuasion
+    ownership:
+      7ntJSLixH2Phv2jV: 3
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889583201
+      modifiedTime: 1693889583201
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.ik2eXweLBgGHlp0H'
+  - _id: mtZ4rJGEQpNXZkxv
+    effects: []
+    folder: null
+    img: systems/swade/assets/icons/skills/hidden.svg
+    name: Stealth
+    sort: 0
+    type: skill
+    system:
+      source: SWADE Core Rules
+      additionalStats: {}
+      attribute: agility
+      description: >-
+        <article class="swade-core">
+
+        <p>Stealth is the ability to hide and move quietly. A simple
+        @Compendium[swade-core-rules.swade-rules.Trait Rolls]{success} on a
+        Stealth roll means the character avoids detection if enemies aren’t
+        particularly alert. If the character
+        @Compendium[swade-core-rules.swade-rules.Trait Rolls]{fails} the roll,
+        the enemy realizes something is amiss and begins actively searching for
+        whatever roused them.</p>
+
+        <p>Once foes are alerted and active, Stealth is opposed by
+        @Compendium[swade-core-rules.swade-skills.Notice]{Notice} (a
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{group
+        roll} if there are many foes.</p>
+
+        <p>The GM should apply any circumstantial penalties to
+        @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls for
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{darkness},
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{cover},
+        noise, distractions, and any difference in the target’s
+        @Compendium[swade-core-rules.swade-rules.Size and Scale]{Scale} (just
+        like when attacking). Sneaking through dry leaves might subtract 2 from
+        the Stealth roll, for example, while spotting someone in the dark uses
+        the
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination}
+        penalty (−4). Don’t apply the same modifier to both rolls, however. If
+        Stealth is at −2 for the leaves, don’t give Notice a +2 for them as
+        well.</p>
+
+        <p><strong>Sneak Attack: </strong> Sneaking up close enough to make a
+        melee attack <em>always</em> requires an
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed}
+        Stealth roll versus the target’s
+        @Compendium[swade-core-rules.swade-skills.Notice]{Notice}, whether the
+        guard is actively looking for trouble or not. If successful, the victim
+        is
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{Vulnerable}
+        to the attacker, but only until the attacker’s turn ends. With a raise,
+        the attacker has
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{The
+        Drop} instead.</p>
+
+        <p><strong>Movement:</strong> In combat, characters roll Stealth each
+        turn as a
+        @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free
+        action} at the end of their move or any action the GM thinks might draw
+        attention.</p>
+
+        <p>Out of combat, the distance moved depends entirely on the situation.
+        The GM might want a roll every minute if the group is sneaking around
+        the perimeter of a defensive position, or every few miles if they’re
+        trying to quietly walk the path through a dark forest without alerting
+        the creatures that live there.</p>
+
+        </article>
+      die:
+        modifier: 0
+        sides: 4
+      isCoreSkill: false
+      notes: ''
+      wild-die:
+        sides: 6
+      swid: stealth
+    ownership:
+      7ntJSLixH2Phv2jV: 3
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889588851
+      modifiedTime: 1693889588851
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.mtZ4rJGEQpNXZkxv'
+  - name: Language (Common)
+    type: skill
+    img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp
+    system:
+      description: >-
+        <p>The world of Eberron features many cultures and races. Use the
+        @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple
+        Languages} Setting Rule as presented in Savage Worlds to determine how
+        many skills an adventurer knows at the start of play. Refer to the
+        Languages table for a complete list.</p><table
+        style="border:none;border-collapse:collapse"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical
+        Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons
+        of
+        Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians
+        of Argonnessen and
+        Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based
+        creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based
+        creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons
+        of
+        Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans,
+        halflings, half-elves,
+        half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians,
+        lawful outsiders of
+        Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr,
+        mind flayers, other aberrations, creatures of
+        Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds,
+        troglodytes, lizardfolk,
+        dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids
+        (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves,
+        drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres,
+        giants,
+        drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins,
+        hobgoblins,
+        bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based
+        creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils
+        of
+        Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids,
+        positive energy users of
+        Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi,
+        chaotic outsiders of
+        Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades,
+        shadows, creatures of
+        Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori,
+        the Inspired,
+        kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower
+        classes of Sarlona</p></td><td><p>Old
+        Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based
+        creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads,
+        eladrins, creatures of
+        Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels
+        of
+        Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns
+        and other earth-based
+        creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers,
+        underground
+        denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>
+      notes: ''
+      additionalStats: {}
+      attribute: smarts
+      isCoreSkill: false
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      source: Eberron for Savage Worlds
+      swid: language-common
+    effects: []
+    folder: ktcv7W97mLQMloS8
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Compendium.savage-eberron.eberron-skills.Item.avUYdNVxJb8BFaKT
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1690860753470
+      modifiedTime: 1693889717412
+      lastModifiedBy: Xbne19Xghka479we
+    _id: waRGi6LJUtNMqS02
+    sort: 2300000
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.waRGi6LJUtNMqS02'
+  - name: Language (Halfling)
+    type: skill
+    img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp
+    system:
+      description: >-
+        <p>The world of Eberron features many cultures and races. Use the
+        @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple
+        Languages} Setting Rule as presented in Savage Worlds to determine how
+        many skills an adventurer knows at the start of play. Refer to the
+        Languages table for a complete list.</p><table
+        style="border:none;border-collapse:collapse"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical
+        Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons
+        of
+        Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians
+        of Argonnessen and
+        Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based
+        creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based
+        creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons
+        of
+        Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans,
+        halflings, half-elves,
+        half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians,
+        lawful outsiders of
+        Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr,
+        mind flayers, other aberrations, creatures of
+        Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds,
+        troglodytes, lizardfolk,
+        dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids
+        (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves,
+        drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres,
+        giants,
+        drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins,
+        hobgoblins,
+        bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based
+        creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils
+        of
+        Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids,
+        positive energy users of
+        Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi,
+        chaotic outsiders of
+        Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades,
+        shadows, creatures of
+        Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori,
+        the Inspired,
+        kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower
+        classes of Sarlona</p></td><td><p>Old
+        Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based
+        creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads,
+        eladrins, creatures of
+        Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels
+        of
+        Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns
+        and other earth-based
+        creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers,
+        underground
+        denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>
+      notes: ''
+      additionalStats: {}
+      attribute: smarts
+      isCoreSkill: false
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      source: Eberron for Savage Worlds
+      swid: language-halfling
+    effects: []
+    folder: ktcv7W97mLQMloS8
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Compendium.savage-eberron.eberron-skills.Item.sVJOJPXxAcNufVt1
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1690860753470
+      modifiedTime: 1693889722606
+      lastModifiedBy: Xbne19Xghka479we
+    _id: RHexudl05APsHu2h
+    sort: 1200000
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.RHexudl05APsHu2h'
+  - name: Language (Language Name)
+    type: skill
+    _id: vgaxqOphWdjkHwmo
+    img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp
+    system:
+      description: >-
+        <p>The world of Eberron features many cultures and races. Use the
+        @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple
+        Languages} Setting Rule as presented in Savage Worlds to determine how
+        many skills an adventurer knows at the start of play. Refer to the
+        Languages table for a complete list.</p><table
+        style="border:none;border-collapse:collapse"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical
+        Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons
+        of
+        Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians
+        of Argonnessen and
+        Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based
+        creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based
+        creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons
+        of
+        Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans,
+        halflings, half-elves,
+        half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians,
+        lawful outsiders of
+        Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr,
+        mind flayers, other aberrations, creatures of
+        Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds,
+        troglodytes, lizardfolk,
+        dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids
+        (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves,
+        drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres,
+        giants,
+        drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins,
+        hobgoblins,
+        bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based
+        creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils
+        of
+        Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids,
+        positive energy users of
+        Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi,
+        chaotic outsiders of
+        Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades,
+        shadows, creatures of
+        Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori,
+        the Inspired,
+        kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower
+        classes of Sarlona</p></td><td><p>Old
+        Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based
+        creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads,
+        eladrins, creatures of
+        Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels
+        of
+        Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns
+        and other earth-based
+        creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers,
+        underground
+        denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>
+      notes: ''
+      additionalStats: {}
+      attribute: smarts
+      isCoreSkill: false
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      source: Eberron for Savage Worlds
+      swid: language-language-name
+    effects: []
+    folder: ktcv7W97mLQMloS8
+    sort: 2800000
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Compendium.savage-eberron.eberron-skills.Item.YIcSj4d2fHUVlk6N
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1690860753470
+      modifiedTime: 1693889728571
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.vgaxqOphWdjkHwmo'
+  - _id: wSem3F3kqbWmqv2p
+    name: Alchemist
+    type: edge
+    img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp
+    system:
+      source: Fantasy Companion
+      description: >-
+        <article class="swadefc"><h1>Alchemist</h1>
+
+        <p>
+         Alchemists create potions, oils, elixirs, and other consumables imbued with magical abilities. Their potions aren’t like those listed  in the Treasure chapter—those last for years, require investment of funds, and are created with the Crafting rules.
+        </p>
+
+        <p>
+         Instead, alchemists imbue their potions, grenades, and oils with the powers they’ve  learned. Narratively, their concoctions are created “off-camera” some time prior to their use. In game terms, they’re “cast” as the player needs them—pulling various vials or containers from their alchemist’s  bag or bandoleer and activating them as needed.</p>
+        <ul>
+
+        <li><strong>Requirements:</strong> Smarts d6+</li>
+
+        <li><strong>Arcane Skill:</strong> Alchemy (Smarts)</li>
+
+        <li>
+
+        <strong>Starting Powers:</strong> Any  three from the list below.
+         </li>
+        <li><strong>Power Points:</strong> 15</li>
+
+        <li>
+
+        <strong>Available Powers:</strong>
+
+        <em>@Compendium[swade-fantasy-companion.swade-fc-powers.Banish]{banish},
+        @Compendium[swade-fantasy-companion.swade-fc-powers.Beast Friend]{beast
+        friend},
+        @Compendium[swade-fantasy-companion.swade-fc-powers.Blast]{blast},
+          @Compendium[swade-fantasy-companion.swade-fc-powers.blind]{blind},
+         @Compendium[swade-fantasy-companion.swade-fc-powers.Boost/Lower Trait]{boost/lower Trait}, @Compendium[swade-fantasy-companion.swade-fc-powers.Burst]{burst} @Compendium[swade-fantasy-companion.swade-fc-powers.Confusion]{confusion}, @Compendium[swade-fantasy-companion.swade-fc-powers.Darksight]{darksight}, @Compendium[swade-fantasy-companion.swade-fc-powers.Deflection]{deflection}, @Compendium[swade-fantasy-companion.swade-fc-powers.Detect/Conceal Arcana]{detect/conceal arcana},  @Compendium[swade-fantasy-companion.swade-fc-powers.Dispel]{dispel}, @Compendium[swade-fantasy-companion.swade-fc-powers.Empathy]{empathy}, @Compendium[swade-fantasy-companion.swade-fc-powers.Entangle]{entangle}, @Compendium[swade-fantasy-companion.swade-fc-powers.Environmental Protection]{environmental protection}, @Compendium[swade-fantasy-companion.swade-fc-powers.Farsight]{farsight}, @Compendium[swade-fantasy-companion.swade-fc-powers.Fear]{fear}, @Compendium[swade-fantasy-companion.swade-fc-powers.Fly]{fly}, @Compendium[swade-fantasy-companion.swade-fc-powers.Growth/Shrink]{growth/shrink},  @Compendium[swade-fantasy-companion.swade-fc-powers.Healing]{healing}, @Compendium[swade-fantasy-companion.swade-fc-powers.Intangibility]{intangibility}, @Compendium[swade-fantasy-companion.swade-fc-powers.Invisibility]{invisibility}, @Compendium[swade-fantasy-companion.swade-fc-powers.Light/Darkness]{light/darkness}, @Compendium[swade-fantasy-companion.swade-fc-powers.Protection]{protection},
+         @Compendium[swade-fantasy-companion.swade-fc-powers.Puppet]{puppet}, @Compendium[swade-fantasy-companion.swade-fc-powers.Relief]{relief}, @Compendium[swade-fantasy-companion.swade-fc-powers.resurrection]{resurrection}, @Compendium[swade-fantasy-companion.swade-fc-powers.Shape Change]{shape change},
+         @Compendium[swade-fantasy-companion.swade-fc-powers.Sloth/Speed]{sloth/speed}, @Compendium[swade-fantasy-companion.swade-fc-powers.Slumber]{slumber}, @Compendium[swade-fantasy-companion.swade-fc-powers.Smite]{smite}, @Compendium[swade-fantasy-companion.swade-fc-powers.Speak Language]{speak language},  @Compendium[swade-fantasy-companion.swade-fc-powers.Wall Walker]{wall walker}, @Compendium[swade-fantasy-companion.swade-fc-powers.Warrior’s Gift]{warrior’s gift}.</em>
+        </li>
+
+        <li><strong>Power Edges:</strong> Alchemists may not take Power Edges
+        except for Artificer, Master Artificer, New Powers, Power Points  and
+        Edges specifically noted for Arcane Background (Alchemist).</li>
+
+        <li>
+
+        <strong>Power Modifiers</strong> Alchemists can’t use the Selective
+        Power Modifier.</li>
+
+        <li>
+
+        <strong>Alchemist’s Bag</strong> Concoctions are stored in an
+        alchemist’s bag, as are the ingredients, glassware, and other scientific
+        equipment alchemists need to create them. They have the
+        @UUID[Compendium.swade-fantasy-companion.swade-fc.swadefcp01charac.JournalEntryPage.01newhindrance00#Material
+        Components (Major)]{Material Components Hindrance}.</li></ul>
+        <h2>Activation</h2>
+
+        <p>When an alchemist “casts” a power, the player must describe how it’s
+        delivered.</p>
+         <p> Powers with a Range of Self or Touch are usually a consumable potion, edible, pill, salve, or oil. Fatigue from Critical Failure  affects the recipient if someone other than the alchemist.</p>
+        <p>Powers with greater Range use misters, bellows, or grenades, with a
+        maximum Range of 12” (24 yards). The alchemist “throws” the grenade or
+        fires the bellows  or mister with his Alchemy skill rather than
+        Athletics or Shooting (but treats other projectiles normally). Critical
+        Failure affects the caster normally—the grenade or mister shatters in
+        his hand, showering him with noxious fumes that cause
+        Fatigue.</p></article>
+      notes: ''
+      additionalStats: {}
+      isArcaneBackground: true
+      requirements:
+        - type: rank
+          value: 0
+          selector: ''
+          combinator: and
+        - type: other
+          label: Smarts d6+
+          selector: ''
+          value: ''
+          combinator: and
+      category: Arcane Background
+      grants:
+        - name: Alchemy
+          img: >-
+            modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp
+          uuid: >-
+            Compendium.swade-fantasy-companion.swade-fc-abilities.Item.z8UPHZifQczEsQFN
+          mutation:
+            name: Alchemy
+            img: >-
+              modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Science.webp
+        - name: Material Components
+          img: >-
+            modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp
+          uuid: >-
+            Compendium.swade-fantasy-companion.swade-fc-hindrances.Item.MykOIqoms17ugdwa
+          mutation: {}
+      favorite: false
+      swid: alchemist
+    effects: []
+    sort: 0
+    flags:
+      core:
+        sheetClass: swade.SWADEFCItem
+        sourceId: >-
+          Compendium.swade-fantasy-companion.swade-fc-edges.Item.Utyvyr0MkCvetJ9S
+      singleSource:
+        version: 2.0.0-alpha
+        module: swade-fantasy-companion
+      swade:
+        hasGranted:
+          - MKcKZPlZBdNS1oYA
+          - nuyX51U6Wj5xVqwP
+    folder: null
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889829479
+      modifiedTime: 1693889829536
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.wSem3F3kqbWmqv2p'
+  - _id: MKcKZPlZBdNS1oYA
+    name: Alchemy
+    type: skill
+    img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Science.webp
+    system:
+      source: Fantasy Companion
+      description: |-
+        <article class="swadefc"><h2>Alchemy (Smarts)</h2>
+        <section class="description">
+        <p>
+              This is the arcane skill for alchemists but may also be used to craft alchemical items. It can be
+              used in place of Science when examining chemical reactions, studying reagents, and other related topics.
+            </p>
+        </section></article>
+      notes: ''
+      additionalStats: {}
+      attribute: smarts
+      isCoreSkill: false
+      die:
+        sides: 6
+        modifier: 0
+      wild-die:
+        sides: 6
+      swid: alchemy
+    effects: []
+    sort: 0
+    flags:
+      core:
+        sheetClass: swade.SWADEFCItem
+        sourceId: >-
+          Compendium.swade-fantasy-companion.swade-fc-abilities.Item.z8UPHZifQczEsQFN
+      singleSource:
+        version: 2.0.0-alpha
+        module: swade-fantasy-companion
+    folder: null
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889829504
+      modifiedTime: 1693889865652
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.MKcKZPlZBdNS1oYA'
+  - _id: nuyX51U6Wj5xVqwP
+    name: Material Components
+    type: hindrance
+    img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp
+    system:
+      source: Fantasy Companion
+      description: >-
+        <article class="swadefc"><section class="description">
+
+        <p>This Hindrance may only be taken by those with an Arcane
+        Background.</p>
+
+        <p>
+              The spellcaster's powers consume material items. Maybe a wizard needs a piece of brimstone to cast a fireball (<em>@Compendium[swade-fantasy-companion.swade-fc-powers.Blast]{blast}</em>
+              with a fire Trapping) or a priestess needs a splash of holy water for her goddess to grant
+              <em>@Compendium[swade-fantasy-companion.swade-fc-powers.Smite]{smite}</em>.
+            </p>
+        <p>
+              Such items are assumed to be at hand-usually in a pocket, bag, or convenient pouch. If the caster is ever stripped
+              of her possessions and can't get the materials she needs, she reduces all arcane skill rolls by 4 until they're
+              restored (50gp × the caster's Rank at a shop or a day's worth of gathering or foraging in an appropriate
+              environment with a Survival roll per Rank).
+            </p>
+        <p>A caster also runs out of material components if she rolls a Critical
+        Failure and may replenish as above.</p>
+
+        </section></article>
+      notes: ''
+      additionalStats: {}
+      major: true
+      favorite: false
+      grants: []
+      swid: material-components
+    effects: []
+    sort: 0
+    flags:
+      core:
+        sheetClass: swade.SWADEFCItem
+      singleSource:
+        version: 2.0.0-alpha
+        module: swade-fantasy-companion
+    folder: null
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889829504
+      modifiedTime: 1693889829504
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.nuyX51U6Wj5xVqwP'
+  - _id: 52DQFcRBHUlLsbrd
+    name: Healing
+    type: power
+    img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+    system:
+      description: >-
+        <article class="swadefc"><p>
+
+        <em>Healing</em> removes Wounds less than an hour old. A success removes
+        one Wound, and a raise removes two. The
+            power may be cast additional times to remove
+          </p>
+        <p>additional Wounds within that hour and as long as the healer has
+        enough Power Points.</p>
+
+        <p>
+            For Extras, the GM must first determine if the ally is still alive (see <strong>Aftermath</strong> in
+            <em>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor00introd.JournalEntryPage.00introduction00]{Savage Worlds}</em>). If so, a successful arcane skill roll returns the ally to action (Shaken if it matters.)
+          </p>
+        <div><strong>Modifiers</strong></div>
+
+        <ul>
+
+        <li>
+
+        <strong>Greater Healing (+10):</strong> <em>Greater healing</em> can
+        restore any Wound, including those more than
+              an hour old.
+            </li>
+        <li>
+
+        <strong>Crippling Injuries (+20):</strong> The power can heal a
+        permanent Crippling Injury. This requires an hour
+              of preparation and only one casting is permitted per injury. If it fails, this caster cannot <em>heal</em> that
+              particular injury (but someone else may try). If successful, the subject is Exhausted for 24 hours.
+            </li>
+        <li class="epic-power-icon">
+
+        <strong>Mass Healing (+2/+3):</strong> For +2 Power Points,
+        <em>healing</em> affects all allies within a Medium
+              Blast Template centered on the caster (or a Large Blast Template for +3).
+            </li>
+        <li>
+
+        <strong>Neutralize Poison or Disease (+1):</strong> A successful
+        <em>healing</em> roll negates any poison or
+              disease. If the poison or disease has a bonus or penalty associated with it, the modifier applies to the arcane
+              skill roll as well.
+            </li>
+        </ul></article>
+      notes: ''
+      additionalStats: {}
+      actions:
+        dmgMod: ''
+        additional: {}
+        trait: ''
+        traitMod: ''
+      rank: Novice
+      pp: 3
+      damage: ''
+      range: Touch
+      duration: Instant
+      trapping: Laying on hands, touching the victim with a holy symbol, prayer.
+      arcane: ''
+      modifiers: []
+      templates:
+        cone: false
+        stream: false
+        small: false
+        medium: true
+        large: true
+      ap: 0
+      innate: false
+      source: Fantasy Companion
+      bonusDamageDie: 6
+      bonusDamageDice: 1
+      favorite: false
+      swid: healing
+    effects: []
+    sort: 0
+    flags:
+      core:
+        sheetClass: swade.SWADEFCItem
+        sourceId: >-
+          Compendium.swade-fantasy-companion.swade-fc-powers.Item.XR6ezIMYpEj53GHT
+      singleSource:
+        version: 2.0.0-alpha
+        module: swade-fantasy-companion
+    folder: null
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889899933
+      modifiedTime: 1693889899933
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.52DQFcRBHUlLsbrd'
+  - _id: uOB40qxsC5yuf1oS
+    name: Relief
+    type: power
+    img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+    system:
+      description: >-
+        <article class="swadefc"><p>Select one of the options listed below:</p>
+
+        <p>
+
+        <strong>Recover:</strong> The caster removes one of the following
+        negative conditions: Shaken, Distracted, or
+            Vulnerable. A raise on the arcane skill roll removes two conditions. If affecting more than one target (via the
+            Additional Recipients modifier), the caster may choose which condition(s) to remove for each ally.
+          </p>
+        <p>
+
+        <em>Relief</em> can't remove negative conditions caused by ongoing
+        effects (Bound or Entangled, Stunned, etc.)
+            unless the source of the effect is removed.
+          </p>
+        <p>
+
+        <strong>Numb:</strong> Reduces the recipient's total penalties from
+        Wounds and Fatigue by one with success, or two
+            with a raise. An Exhausted (-2) hero with three Wounds (-3), for example, reduces her total -5 penalty to -4 with
+            success, and -3 with a raise.
+          </p>
+        <p>
+            This effect lasts one hour. It doesn't remove the Wounds or the Fatigue, it just allows the recipient to ignore the
+            penalties. If the target would be Incapacitated by Wounds or Fatigue, she's still Incapacitated as usual.
+          </p>
+        <div><strong>Modifiers</strong></div>
+
+        <ul>
+
+        <li>
+
+        <strong>Additional Recipients (+1):</strong> The power may affect more
+        than one target for 1 additional Power
+              Point each.
+            </li>
+            <li><strong>Restoration (+3):</strong> If using the Recover option, the caster can restore one die type from an energy draining effect with a success, two with a raise. See <strong>Energy Drain</strong>.</li>
+        <li>
+
+        <strong>Stunned (+1):</strong> If using the Recover option, the caster
+        may also affect the Stunned condition. This
+              completely removes the effects of being Stunned.
+            </li>
+        </ul></article>
+      notes: ''
+      additionalStats: {}
+      actions:
+        dmgMod: ''
+        additional: {}
+        trait: ''
+        traitMod: ''
+      rank: Novice
+      pp: 1
+      damage: ''
+      range: Smarts
+      duration: Instant/One Hour
+      trapping: Prayer, glowing hands, sparkling spirals of magic, a cool breeze.
+      arcane: ''
+      modifiers: []
+      templates:
+        cone: false
+        stream: false
+        small: false
+        medium: false
+        large: false
+      ap: 0
+      innate: false
+      source: Fantasy Companion
+      bonusDamageDie: 6
+      bonusDamageDice: 1
+      favorite: false
+      swid: relief
+    effects: []
+    sort: 0
+    flags:
+      core:
+        sheetClass: swade.SWADEFCItem
+        sourceId: >-
+          Compendium.swade-fantasy-companion.swade-fc-powers.Item.QlGf5bxHPpHwrAU5
+      singleSource:
+        version: 2.0.0-alpha
+        module: swade-fantasy-companion
+    folder: null
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889902946
+      modifiedTime: 1693889902946
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.uOB40qxsC5yuf1oS'
+  - _id: vUTvP4VRs1PX4ps0
+    name: Slumber
+    type: power
+    img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp
+    system:
+      description: >-
+        <article class="swadefc"><p>
+            Those who favor stealth or want to avoid harming their foes are drawn to this spell, which puts its victims into a
+            deep and restful sleep.
+          </p>
+        <p>
+            Anyone affected by <em>slumber</em> must make a Spirit roll (at -2 if the caster got a raise on her arcane skill
+            roll). Those who fail fall asleep for the Duration of the spell. Very loud noises or attempts to physically wake a
+            sleeper (by shaking him, for example), grant another Spirit roll.
+          </p>
+        <div><strong>Modifiers</strong></div>
+
+        <ul>
+
+        <li>
+
+        <strong>Area of Effect (+2/+3):</strong> For +2 points the power affects
+        everyone in a Medium Blast Template. For
+              +3 points the area of effect is increased to a Large Blast Template.
+            </li>
+        </ul></article>
+      notes: ''
+      additionalStats: {}
+      actions:
+        dmgMod: ''
+        additional: {}
+        trait: ''
+        traitMod: ''
+      rank: Seasoned
+      pp: 2
+      damage: ''
+      range: Smarts
+      duration: One hour
+      trapping: A lullaby, blowing powder or sand at targets.
+      arcane: ''
+      modifiers: []
+      templates:
+        cone: false
+        stream: false
+        small: false
+        medium: true
+        large: true
+      ap: 0
+      innate: false
+      source: Fantasy Companion
+      bonusDamageDie: 6
+      bonusDamageDice: 1
+      favorite: false
+      swid: slumber
+    effects: []
+    sort: 0
+    flags:
+      core:
+        sheetClass: swade.SWADEFCItem
+        sourceId: >-
+          Compendium.swade-fantasy-companion.swade-fc-powers.Item.UFQy5B0Egwhm96uM
+      singleSource:
+        version: 2.0.0-alpha
+        module: swade-fantasy-companion
+    folder: null
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693889905195
+      modifiedTime: 1693889905195
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.vUTvP4VRs1PX4ps0'
+  - name: Potion of Healing
+    type: consumable
+    _id: ojNFWumzE1OtSpZR
+    img: icons/consumables/potions/bottle-bulb-corked-glowing-red.webp
+    system:
+      description: ''
+      notes: ''
+      additionalStats: {}
+      favorite: false
+      quantity: 2
+      weight: 0
+      price: 0
+      category: ''
+      equippable: false
+      equipStatus: 0
+      grants: []
+      grantOn: 1
+      charges:
+        value: 1
+        max: 1
+      messageOnUse: true
+      destroyOnEmpty: false
+      subtype: regular
+      source: ''
+      actions:
+        trait: ''
+        traitMod: ''
+        dmgMod: ''
+        additional: {}
+      swid: potion-of-healing
+    effects: []
+    folder: bleP2Wt0N9W2v4A5
+    sort: -300000
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Item.kvZJmK3jPAxq4MvX
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1692123939991
+      modifiedTime: 1693889952853
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.ojNFWumzE1OtSpZR'
+  - _id: fYXlGMMZ4HN5h8er
+    name: Sickle
+    type: weapon
+    img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Weapon.webp
+    system:
+      source: Fantasy Companion
+      description: ''
+      notes: ''
+      additionalStats: {}
+      quantity: 1
+      weight: 2
+      price: 3
+      equippable: true
+      isArcaneDevice: false
+      arcaneSkillDie:
+        sides: 4
+        modifier: 0
+      powerPoints: {}
+      isVehicular: false
+      mods: 1
+      actions:
+        dmgMod: ''
+        additional:
+          uzpkmDl780zz0000:
+            name: Frenzy
+            type: trait
+            dice: 2
+            isHeavyWeapon: false
+            macroActor: default
+        trait: Fighting
+        traitMod: ''
+      bonusDamageDie: 6
+      bonusDamageDice: 1
+      favorite: false
+      templates:
+        cone: false
+        stream: false
+        small: false
+        medium: false
+        large: false
+      category: ''
+      grants: []
+      grantOn: 1
+      damage: '@str+d4'
+      range: ''
+      rof: 1
+      ap: 0
+      parry: 0
+      minStr: d4
+      shots: null
+      currentShots: 0
+      ammo: ''
+      reloadType: none
+      ppReloadCost: 2
+      trademark: 0
+      isHeavyWeapon: false
+      equipStatus: 4
+      swid: sickle
+    effects: []
+    sort: 0
+    flags:
+      core:
+        sheetClass: swade.SWADEFCItem
+        sourceId: >-
+          Compendium.swade-fantasy-companion.swade-fc-weapons.Item.uzpkmDl780zz0028
+      singleSource:
+        version: 2.0.0-alpha
+        module: swade-fantasy-companion
+        fullDescription: ' | Melee Weapons | '
+    folder: null
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693890257847
+      modifiedTime: 1693890257847
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.fYXlGMMZ4HN5h8er'
+  - _id: 15NwuhNRA4ZGKowp
+    name: Sling
+    type: weapon
+    img: >-
+      modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Shooting_v1.webp
+    system:
+      source: Fantasy Companion
+      description: ''
+      notes: ''
+      additionalStats: {}
+      quantity: 1
+      weight: 1
+      price: 0
+      equippable: true
+      isArcaneDevice: false
+      arcaneSkillDie:
+        sides: 4
+        modifier: 0
+      powerPoints: {}
+      isVehicular: false
+      mods: 1
+      actions:
+        dmgMod: ''
+        additional: {}
+        trait: Athletics
+        traitMod: ''
+      bonusDamageDie: 6
+      bonusDamageDice: 1
+      favorite: false
+      templates:
+        cone: false
+        stream: false
+        small: false
+        medium: false
+        large: false
+      category: Ranged Weapons
+      grants: []
+      grantOn: 1
+      damage: '@str+d4'
+      range: 4/8/16
+      rof: 1
+      ap: 0
+      parry: 0
+      minStr: d4
+      shots: 0
+      currentShots: 0
+      ammo: ''
+      reloadType: none
+      ppReloadCost: 0
+      trademark: 0
+      isHeavyWeapon: false
+      equipStatus: 4
+      swid: sling
+    effects: []
+    sort: 0
+    flags:
+      core:
+        sheetClass: swade.SWADEFCItem
+        sourceId: >-
+          Compendium.swade-fantasy-companion.swade-fc-weapons.Item.gwkrWnCEl0V90017
+      singleSource:
+        version: 2.0.0-alpha
+        module: swade-fantasy-companion
+        fullDescription: ' | Ranged Weapons | '
+    folder: null
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693890273646
+      modifiedTime: 1693890281622
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.15NwuhNRA4ZGKowp'
+  - _id: uTYNQzyaBdXMQWrf
+    name: Sling Stones
+    type: gear
+    img: >-
+      modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Shooting_v1.webp
+    system:
+      source: Fantasy Companion
+      description: <article class="swadefc"> Polished stones for slings</article>
+      notes: ''
+      additionalStats: {}
+      quantity: 10
+      weight: 0.05
+      price: 1
+      equippable: false
+      equipStatus: 0
+      isVehicular: false
+      mods: 1
+      favorite: false
+      category: Ammunition
+      grants: []
+      grantOn: 1
+      isAmmo: true
+      isArcaneDevice: false
+      arcaneSkillDie:
+        sides: 4
+        modifier: 0
+      powerPoints: {}
+      actions:
+        trait: ''
+        traitMod: ''
+        dmgMod: ''
+        additional: {}
+      swid: sling-stones
+    effects: []
+    sort: 0
+    flags:
+      core:
+        sheetClass: swade.SWADEFCItem
+        sourceId: Compendium.swade-fantasy-companion.swade-fc-gear.Item.wYPPOcfBbmHR0005
+      singleSource:
+        version: 2.0.0-alpha
+        module: swade-fantasy-companion
+    folder: null
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693890294853
+      modifiedTime: 1693890303842
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.uTYNQzyaBdXMQWrf'
+  - _id: 9nhudl6ifGKZIQW5
+    name: Healer's Kit
+    type: gear
+    img: modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Healing.webp
+    system:
+      source: Fantasy Companion
+      description: >-
+        <article class="swadefc">
+
+        <em>Notes:</em> Five uses, see Healing in <em>Savage
+        Worlds</em>.</article>
+      notes: ''
+      additionalStats: {}
+      quantity: 1
+      weight: 1
+      price: 50
+      equippable: false
+      equipStatus: 3
+      isVehicular: false
+      mods: 1
+      favorite: false
+      category: General Gear
+      grants: []
+      grantOn: 1
+      isAmmo: false
+      isArcaneDevice: false
+      arcaneSkillDie:
+        sides: 4
+        modifier: 0
+      powerPoints: {}
+      actions:
+        trait: ''
+        traitMod: ''
+        dmgMod: ''
+        additional: {}
+      swid: healers-kit
+    effects: []
+    sort: 0
+    flags:
+      core:
+        sheetClass: swade.SWADEFCItem
+        sourceId: Compendium.swade-fantasy-companion.swade-fc-gear.Item.99NObbYTcoUc0027
+      singleSource:
+        version: 2.0.0-alpha
+        module: swade-fantasy-companion
+    folder: null
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1693890311450
+      modifiedTime: 1693890311450
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.9nhudl6ifGKZIQW5'
+  - folder: rmMZ8nKTRru5pDGY
+    name: Identification Papers
+    type: gear
+    _id: 7RvuJpWNFulrCjJr
+    img: icons/sundries/documents/document-official-capital.webp
+    system:
+      description: >-
+        <p>Most people of the middle and upper classes, at least in the most
+        civilized areas of Khorvaire (Aundair, Breland, Karrnath, Thrane,
+        Zilargo, and the Mror Holds) carry identification papers with them at
+        all times. Issued by national governments and notarized by House Sivis,
+        these papers present a detailed physical description of a person (the
+        wealthy sometimes commission small portraits of themselves), the
+        person’s name and residence, and in some cases additional information
+        about the person’s affiliations (particularly including any connection
+        to a dragonmarked house, royalty, or a large institution).</p>
+      notes: ''
+      additionalStats: {}
+      quantity: 1
+      weight: 0
+      price: 2
+      equippable: false
+      equipStatus: 3
+      isArcaneDevice: false
+      arcaneSkillDie:
+        sides: 4
+        modifier: 0
+      powerPoints: {}
+      isVehicular: false
+      mods: 1
+      actions:
+        dmgMod: ''
+        additional: {}
+        trait: ''
+        traitMod: ''
+      favorite: false
+      category: Documents
+      grants: []
+      grantOn: 1
+      isAmmo: false
+      source: Eberron for Savage Worlds
+      swid: identification-papers
+    effects: []
+    sort: 300000
+    ownership:
+      default: 0
+      Xbne19Xghka479we: 3
+    flags:
+      core:
+        sourceId: Compendium.savage-eberron.eberron-gear.Item.EdL1Z0EfYcIF3tK8
+    _stats:
+      systemId: swade
+      systemVersion: 3.1.4
+      coreVersion: '11.308'
+      createdTime: 1691347302346
+      modifiedTime: 1693890333654
+      lastModifiedBy: Xbne19Xghka479we
+    _key: '!actors.items!Zu9pQhYsL2ZhArkg.7RvuJpWNFulrCjJr'
+effects: []
+flags: {}
+_stats:
+  systemId: swade
+  systemVersion: 3.2.2
+  coreVersion: '11.314'
+  createdTime: 1693889176088
+  modifiedTime: 1699120882520
+  lastModifiedBy: Xbne19Xghka479we
+sort: 0
+ownership:
+  default: 0
+  Xbne19Xghka479we: 3
+_key: '!actors!Zu9pQhYsL2ZhArkg'
