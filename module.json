@@ -149,6 +149,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "eberron-magic-items",
+      "label": "Eberron Magic Items",
+      "path": "packs/eberron-magic-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
     }
   ],
   "packFolders": [
@@ -163,6 +174,7 @@
         "eberron-edges",
         "eberron-gear",
         "eberron-powers",
+        "eberron-magic-items",
         "eberron-organizations",
         "eberron-abilities",
         "eberron-bestiary"
