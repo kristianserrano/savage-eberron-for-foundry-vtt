@@ -576,6 +576,7 @@ items:
       grants: []
       source: SWADE Core Rules
       swid: vow
+      severity: either
     ownership:
       7ntJSLixH2Phv2jV: 3
       default: 0
@@ -2410,6 +2411,7 @@ items:
       isHeavyWeapon: false
       source: Fantasy Companion
       swid: 1-fighting-scimitar
+      rangeType: null
     effects:
       - icon: systems/swade/assets/icons/active-effect.svg
         duration:
@@ -2525,6 +2527,7 @@ items:
       isHeavyWeapon: false
       source: Fantasy Companion
       swid: masterwork-targath-dagger
+      rangeType: null
     effects: []
     sort: 0
     flags:
@@ -2601,6 +2604,7 @@ items:
       isHeavyWeapon: false
       source: Fantasy Companion
       swid: bow-short
+      rangeType: null
     effects: []
     sort: 0
     flags:
@@ -3308,10 +3312,10 @@ flags:
     sheetClass: ''
 _stats:
   systemId: swade
-  systemVersion: 3.2.2
-  coreVersion: '11.314'
+  systemVersion: 3.2-dev
+  coreVersion: '11.315'
   createdTime: 1692124729083
-  modifiedTime: 1699120882126
+  modifiedTime: 1699684872069
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

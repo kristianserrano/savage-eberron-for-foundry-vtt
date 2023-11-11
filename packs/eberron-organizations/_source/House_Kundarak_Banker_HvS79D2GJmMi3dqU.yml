@@ -66,7 +66,7 @@ system:
       value: ''
     species:
       name: ''
-    currency: 0
+    currency: 100
     wealth:
       die: 6
       modifier: 0
@@ -1609,6 +1609,7 @@ items:
       isHeavyWeapon: false
       swid: daggerknife
       equipStatus: 4
+      rangeType: null
     effects: []
     sort: 0
     flags:
@@ -2123,10 +2124,10 @@ folder: 60oZUurgqUx9pdS9
 flags: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.2
-  coreVersion: '11.314'
+  systemVersion: 3.2-dev
+  coreVersion: '11.315'
   createdTime: 1694713284616
-  modifiedTime: 1699120882520
+  modifiedTime: 1699684872069
   lastModifiedBy: Xbne19Xghka479we
 _id: HvS79D2GJmMi3dqU
 sort: 0

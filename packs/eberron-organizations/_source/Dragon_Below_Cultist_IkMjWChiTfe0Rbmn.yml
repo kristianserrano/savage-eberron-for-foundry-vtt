@@ -1219,6 +1219,7 @@ items:
       favorite: false
       grants: []
       swid: delusional-believes-to-be-chosen-by-the-dragon-below
+      severity: either
     ownership:
       7ntJSLixH2Phv2jV: 3
       default: 0
@@ -1273,6 +1274,7 @@ items:
       favorite: false
       grants: []
       swid: vow-adhere-to-the-faith
+      severity: either
     ownership:
       7ntJSLixH2Phv2jV: 3
       default: 0
@@ -1309,6 +1311,7 @@ items:
       favorite: false
       grants: []
       swid: impulsive
+      severity: either
     ownership:
       7ntJSLixH2Phv2jV: 3
       default: 0
@@ -1835,6 +1838,7 @@ items:
       isHeavyWeapon: false
       equipStatus: 4
       swid: sword-short
+      rangeType: null
     effects: []
     sort: 300000
     flags:
@@ -1919,6 +1923,7 @@ items:
       isHeavyWeapon: false
       equipStatus: 4
       swid: masterwork-pick-heavy
+      rangeType: null
     effects: []
     sort: 200000
     flags:
@@ -1995,6 +2000,7 @@ items:
       isHeavyWeapon: false
       equipStatus: 4
       swid: bow-composite
+      rangeType: null
     effects: []
     sort: 0
     flags:
@@ -3194,10 +3200,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.2
-  coreVersion: '11.314'
+  systemVersion: 3.2-dev
+  coreVersion: '11.315'
   createdTime: 1692670066187
-  modifiedTime: 1699120882126
+  modifiedTime: 1699684872069
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

@@ -2159,6 +2159,7 @@ items:
       isHeavyWeapon: false
       equipStatus: 4
       swid: 1-fighting-sword-long
+      rangeType: null
     effects: []
     sort: 181250
     flags:
@@ -2441,6 +2442,7 @@ items:
       favorite: false
       grants: []
       swid: vow
+      severity: either
     ownership:
       7ntJSLixH2Phv2jV: 3
       default: 0
@@ -2488,6 +2490,7 @@ items:
       favorite: false
       grants: []
       swid: obligation
+      severity: either
     ownership:
       7ntJSLixH2Phv2jV: 3
       default: 0
@@ -2510,10 +2513,10 @@ flags:
   core: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.2
-  coreVersion: '11.314'
+  systemVersion: 3.2-dev
+  coreVersion: '11.315'
   createdTime: 1692843972546
-  modifiedTime: 1699120882126
+  modifiedTime: 1699684872069
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

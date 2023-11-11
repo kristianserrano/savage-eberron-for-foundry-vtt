@@ -1404,6 +1404,7 @@ items:
       isHeavyWeapon: false
       source: Fantasy Companion
       swid: masterwork-axe-battle
+      rangeType: null
     effects: []
     sort: 0
     flags:
@@ -1488,6 +1489,7 @@ items:
       isHeavyWeapon: false
       source: Fantasy Companion
       swid: axe-hand
+      rangeType: null
     effects: []
     sort: 0
     flags:
@@ -1910,10 +1912,10 @@ flags:
     sheetClass: ''
 _stats:
   systemId: swade
-  systemVersion: 3.2.2
-  coreVersion: '11.314'
+  systemVersion: 3.2-dev
+  coreVersion: '11.315'
   createdTime: 1692061956178
-  modifiedTime: 1699120882126
+  modifiedTime: 1699684872069
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:

@@ -1504,6 +1504,7 @@ items:
       favorite: false
       grants: []
       swid: material-components
+      severity: either
     effects: []
     sort: 0
     flags:
@@ -1905,6 +1906,7 @@ items:
       isHeavyWeapon: false
       equipStatus: 4
       swid: sickle
+      rangeType: null
     effects: []
     sort: 0
     flags:
@@ -1981,6 +1983,7 @@ items:
       isHeavyWeapon: false
       equipStatus: 4
       swid: sling
+      rangeType: null
     effects: []
     sort: 0
     flags:
@@ -2177,10 +2180,10 @@ effects: []
 flags: {}
 _stats:
   systemId: swade
-  systemVersion: 3.2.2
-  coreVersion: '11.314'
+  systemVersion: 3.2-dev
+  coreVersion: '11.315'
   createdTime: 1693889176088
-  modifiedTime: 1699120882520
+  modifiedTime: 1699684872069
   lastModifiedBy: Xbne19Xghka479we
 sort: 0
 ownership:
