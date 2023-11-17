@@ -9,7 +9,7 @@
     "additionalStats": {},
     "favorite": false,
     "category": "Ancestry",
-    "subtype": "special",
+    "subtype": "ancestry",
     "grantsPowers": false,
     "grants": [
       {
@@ -34,15 +34,35 @@
     "Xbne19Xghka479we": 3
   },
   "flags": {
-    "core": {}
+    "core": {},
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
+    }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.0",
-    "coreVersion": "11.313",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.315",
     "createdTime": 1690322237079,
-    "modifiedTime": 1697662967451,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1700249206159,
+    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
   },
   "_key": "!items!rJY86rs4PwFfDqlR"
 }

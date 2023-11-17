@@ -11,9 +11,18 @@
     "favorite": false,
     "category": "Background",
     "isArcaneBackground": false,
-    "requirements": {
-      "value": "Novice, Half-elf"
-    },
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "ancestry",
+        "label": "Half-elf",
+        "selector": "half-elf"
+      }
+    ],
     "grants": [],
     "source": "Eberron for Savage Worlds",
     "swid": "least-dragonmark-mark-of-detection"
@@ -61,11 +70,11 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.0",
-    "coreVersion": "11.313",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.315",
     "createdTime": 1690138421288,
-    "modifiedTime": 1697662968105,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1700239749681,
+    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
   },
   "sort": 0,
   "ownership": {

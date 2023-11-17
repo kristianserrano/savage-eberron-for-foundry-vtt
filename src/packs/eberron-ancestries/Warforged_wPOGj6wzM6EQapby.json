@@ -9,7 +9,7 @@
     "additionalStats": {},
     "favorite": false,
     "category": "Ancestry",
-    "subtype": "race",
+    "subtype": "ancestry",
     "grantsPowers": false,
     "grants": [
       {
@@ -51,11 +51,11 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.0",
-    "coreVersion": "11.313",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.315",
     "createdTime": 1690407848414,
-    "modifiedTime": 1697662967452,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1700249078051,
+    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
   },
   "_id": "wPOGj6wzM6EQapby",
   "sort": 1000000,
