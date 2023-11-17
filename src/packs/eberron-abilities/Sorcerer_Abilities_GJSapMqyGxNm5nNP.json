@@ -1,0 +1,19 @@
+{
+  "name": "Sorcerer Abilities",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "GJSapMqyGxNm5nNP",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.0.6",
+    "coreVersion": "11.307",
+    "createdTime": 1691437070905,
+    "modifiedTime": 1691437070905,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!GJSapMqyGxNm5nNP"
+}

@@ -1,0 +1,54 @@
+{
+  "folder": "8hnpzMqu320tkWo3",
+  "name": "Shifter Ferocity",
+  "type": "edge",
+  "_id": "2WcoILea3DeXYWzj",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>While shifting, a shifter with this Edge continues to fight without penalty if he is Shaken. Additionally, further Shaken results do not cause a Wound.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Background",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and"
+      },
+      {
+        "type": "ancestry",
+        "label": "Shifter",
+        "selector": "shifter",
+        "combinator": "and"
+      },
+      {
+        "type": "edge",
+        "label": "Hard to Kill",
+        "selector": "hard-to-kill"
+      }
+    ],
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "shifter-ferocity"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1690316278552,
+    "modifiedTime": 1699129280430,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!items!2WcoILea3DeXYWzj"
+}

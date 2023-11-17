@@ -1,0 +1,48 @@
+{
+  "folder": "Iq2Miinm5I7HDEfG",
+  "name": "Repel Aberration",
+  "type": "edge",
+  "_id": "oIjn6iSx5lk9SQWs",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>The Gatekeeper druids’ training allows them to ward off aberrations. They can add <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cvxABXzInlhAa7cA]{sanctuary}</em> to their list of available powers, but it affects aberrations specifically instead of evil creatures.</p><p></p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Druid",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and"
+      },
+      {
+        "type": "edge",
+        "label": "Gatekeeper Initiate",
+        "selector": "gatekeeper-initiate"
+      }
+    ],
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "repel-aberration"
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1691426881737,
+    "modifiedTime": 1699131344544,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!oIjn6iSx5lk9SQWs"
+}

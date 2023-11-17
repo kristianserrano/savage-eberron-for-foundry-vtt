@@ -1,0 +1,43 @@
+{
+  "folder": "8duy0r5LaiffI3GL",
+  "name": "Brave",
+  "type": "ability",
+  "_id": "503fYtYLikz9Ki4B",
+  "img": "icons/magic/control/control-influence-rally-purple.webp",
+  "system": {
+    "description": "<p>Halflings have the @UUID[Compendium.swade-core-rules.swade-edges.Item.hMTj68saxoF5i5Ul]{Brave Edge}. Through cultural inheritance, they retain some amount of fearlessness from their Talentan origins.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Halfling",
+    "subtype": "special",
+    "grantsPowers": false,
+    "grants": [
+      {
+        "name": "Brave",
+        "img": "systems/swade/assets/icons/edge.svg",
+        "uuid": "Compendium.swade-core-rules.swade-edges.Item.hMTj68saxoF5i5Ul"
+      }
+    ],
+    "source": "Eberron for Savage Worlds",
+    "swid": "brave"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1690319435925,
+    "modifiedTime": 1697662967440,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!503fYtYLikz9Ki4B"
+}

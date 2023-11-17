@@ -1,0 +1,54 @@
+{
+  "folder": "WnZpbSF9eq4wJqZ3",
+  "name": "Psionic Stone",
+  "type": "gear",
+  "_id": "0LMd4OSj7hoLbt3a",
+  "img": "icons/commodities/gems/gem-cluster-red.webp",
+  "system": {
+    "description": "<p>Psionic beings can store and “read” psionic powers imprinted into Eberron dragonshards, serving as the equivalent of psionic “scrolls.” Kalashtar and the Inspired seek out Eberron shards for this purpose, as do other knowledgeable, psionically powered individuals.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "psionic-stone",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "equippable": false,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "favorite": false,
+    "category": "Eberron Shard Items",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1699128495328,
+    "modifiedTime": 1699128656211,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!items!0LMd4OSj7hoLbt3a"
+}

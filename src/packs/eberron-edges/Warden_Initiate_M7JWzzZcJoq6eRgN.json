@@ -1,0 +1,54 @@
+{
+  "folder": "Iq2Miinm5I7HDEfG",
+  "name": "Warden Initiate",
+  "type": "edge",
+  "_id": "M7JWzzZcJoq6eRgN",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>The Wardens of the Wood are masters of using wooded areas as protection from threats. When fighting within a forest, they are treated as always having @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{Light Cover}.</p><p>The Warden Initiate also adds the following to their list of available powers: <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.YRQtMHpu0GyC5iFY]{banish}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.0TRRYoKZecpUZMBv]{barrier}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cvxABXzInlhAa7cA]{sanctuary}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.GMTgL2vLUZ0BTZ1w]{mind reading}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.pnhihi2oBjsjsh4N]{deflection}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.JT9KsqEAHjZzfCg5]{locate}</em>.</p><p></p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Druid",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "edge",
+        "label": "Arcane Background (Druid)",
+        "selector": "druid",
+        "combinator": "and"
+      },
+      {
+        "type": "power",
+        "label": "summon animal.",
+        "selector": "summon-animal"
+      }
+    ],
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "warden-initiate"
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1691427109992,
+    "modifiedTime": 1699131538950,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!M7JWzzZcJoq6eRgN"
+}

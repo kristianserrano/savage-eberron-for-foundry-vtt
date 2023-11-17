@@ -1,0 +1,19 @@
+{
+  "name": "Clothing",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "1E2gVEbMYoREaBW0",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.0.6",
+    "coreVersion": "11.307",
+    "createdTime": 1691341927268,
+    "modifiedTime": 1691348810662,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!1E2gVEbMYoREaBW0"
+}

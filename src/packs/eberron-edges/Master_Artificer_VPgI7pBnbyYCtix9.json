@@ -1,0 +1,61 @@
+{
+  "folder": "lY3diYO8H1ieW2L2",
+  "name": "Master Artificer",
+  "type": "edge",
+  "_id": "VPgI7pBnbyYCtix9",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>As presented in the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.pzQCAhU6AtZVA8rU]{Fantasy Companion}</em> but with the above requirements.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Artificer",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 2,
+        "combinator": "and"
+      },
+      {
+        "type": "edge",
+        "label": "Arcane Background (Artificer)",
+        "selector": "artificer",
+        "combinator": "and"
+      },
+      {
+        "type": "edge",
+        "label": "Craft Magic Items",
+        "selector": "craft-magic-items",
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Occult",
+        "selector": "occult",
+        "value": 8
+      }
+    ],
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "master-artificer"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1691430900769,
+    "modifiedTime": 1699128984418,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!VPgI7pBnbyYCtix9"
+}

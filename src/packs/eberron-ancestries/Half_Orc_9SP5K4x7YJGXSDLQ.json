@@ -1,0 +1,63 @@
+{
+  "name": "Half-Orc",
+  "type": "ability",
+  "_id": "9SP5K4x7YJGXSDLQ",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "<ul><li><p><strong>Assertive (+1):</strong> Half-orcs start with a d4 in Intimidation.</p></li><li><p><strong>Brute (+2):</strong> Inheriting some of the physical strength of their orcish ancestry, half-orcs have the Brute Edge.</p></li><li><p><strong>Darkvision (+1):</strong> Half-orcs’ eyes are attuned to habitats with dim lighting. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers.</p></li></ul>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Ancestry",
+    "subtype": "race",
+    "grantsPowers": false,
+    "grants": [
+      {
+        "name": "Brute",
+        "img": "systems/swade/assets/icons/edge.svg",
+        "uuid": "Compendium.swade-core-rules.swade-edges.Item.rNOxB5lUz46R7AiY"
+      },
+      {
+        "name": "Intimidation",
+        "img": "systems/swade/assets/icons/skills/arrest.svg",
+        "uuid": "Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId"
+      },
+      {
+        "name": "Dark Vision",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+        "mutation": {
+          "name": "Darkvision",
+          "img": "icons/magic/perception/eye-slit-orange.webp"
+        }
+      }
+    ],
+    "source": "Eberron for Savage Worlds",
+    "swid": "half-orc"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "eberron-for-savage-worlds",
+      "system": "swade",
+      "coreVersion": "11.306",
+      "systemVersion": "3.0.6"
+    }
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1690400937802,
+    "modifiedTime": 1697662967441,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!9SP5K4x7YJGXSDLQ"
+}

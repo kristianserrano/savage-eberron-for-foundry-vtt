@@ -6,7 +6,9 @@
   "scripts": {
     "fvttLaunch": "bash ./tools/fvttLaunch.sh",
     "pullYMLtoLDB": "bash ./tools/pullYMLtoLDB.sh",
-    "pushLDBtoYML": "bash ./tools/pushLDBtoYML.sh"
+    "pushLDBtoYML": "bash ./tools/pushLDBtoYML.sh",
+    "pullJSONtoLDB": "bash ./tools/pullJSONtoLDB.sh",
+    "pushLDBtoJSON": "bash ./tools/pushLDBtoJSON.sh"
   },
   "repository": {
     "type": "git",

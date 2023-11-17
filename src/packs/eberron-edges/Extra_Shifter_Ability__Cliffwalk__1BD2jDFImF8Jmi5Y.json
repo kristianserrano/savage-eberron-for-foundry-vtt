@@ -1,0 +1,54 @@
+{
+  "folder": "8hnpzMqu320tkWo3",
+  "name": "Extra Shifter Ability (Cliffwalk)",
+  "type": "edge",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>The adventurer comes from a mixed lineage of shifters and has one additional shifter ability. They can manifest this additional ability while shifted as well.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Background",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "ancestry",
+        "label": "Shifter",
+        "selector": "shifter"
+      }
+    ],
+    "grants": [
+      {
+        "name": "Shifting (Cliffwalk)",
+        "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.APhbuPvQt95Z1E8C"
+      }
+    ],
+    "source": "Eberron for Savage Worlds",
+    "swid": "extra-shifter-ability-cliffwalk"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1689985243955,
+    "modifiedTime": 1699129370645,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "1BD2jDFImF8Jmi5Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!items!1BD2jDFImF8Jmi5Y"
+}

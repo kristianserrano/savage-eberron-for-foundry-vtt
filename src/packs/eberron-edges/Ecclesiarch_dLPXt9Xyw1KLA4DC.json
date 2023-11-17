@@ -1,0 +1,92 @@
+{
+  "folder": "SHGqlJRi0fgFO00o",
+  "name": "Ecclesiarch",
+  "type": "edge",
+  "_id": "dLPXt9Xyw1KLA4DC",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>The adventurer is more easily able to gather information about a given community from the clergy of the local churches. He gains +2 to Persuasion rolls when Networking among the clergy of that community. Additionally, after successfully gathering information from the local clergy, they may then add +2 to Common Knowledge rolls pertaining to leadership and notable figures of that community.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Professional",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Faith",
+        "selector": "faith",
+        "value": 6
+      }
+    ],
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "ecclesiarch"
+  },
+  "effects": [
+    {
+      "icon": "icons/magic/holy/saint-glass-portrait-halo.webp",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false,
+          "favorite": true
+        }
+      },
+      "changes": [
+        {
+          "key": "@Skill{Persuasion}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "@Skill{Common Knowledge}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "name": "Ecclesiarch Skill Bonuses",
+      "_id": "bXi3hiRghUh8au6w",
+      "disabled": true,
+      "description": "<p>The adventurer is more easily able to gather information about a given community from the clergy of the local churches. He gains +2 to Persuasion rolls when Networking among the clergy of that community. Additionally, after successfully gathering information from the local clergy, they may then add +2 to Common Knowledge rolls pertaining to leadership and notable figures of that community.</p>",
+      "origin": null,
+      "statuses": [],
+      "tint": null,
+      "_key": "!items.effects!dLPXt9Xyw1KLA4DC.bXi3hiRghUh8au6w"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.313",
+    "createdTime": 1690693087185,
+    "modifiedTime": 1698643084927,
+    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+  },
+  "_key": "!items!dLPXt9Xyw1KLA4DC"
+}

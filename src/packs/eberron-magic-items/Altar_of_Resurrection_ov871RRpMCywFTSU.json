@@ -1,0 +1,54 @@
+{
+  "folder": "X9UIT9nSgHXZTXb5",
+  "name": "Altar of Resurrection",
+  "type": "gear",
+  "_id": "ov871RRpMCywFTSU",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Spellcasting_v1.webp",
+  "system": {
+    "description": "<p>A slab of marble embedded with Siberys shards, the <em>altar of resurrection</em> channels the powers of the Mark of Healing. A person with the greater Mark of Healing can spend 5 Power Points to cast resurrection on a creature resting on the <em>altar</em> as if with a raise. A character with the Siberys Mark of Healing can spend a use of their Mass Healing Epic Power Modifier to do the same. This activation of <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.OMxSkQGBaIgzvNGj]{resurrection}</em> does not require an arcane skill roll.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "altar-of-resurrection",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 2000,
+    "price": 13000,
+    "equippable": false,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "favorite": false,
+    "category": "Greater Dragonshard Focus Items",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1699126954426,
+    "modifiedTime": 1699128656211,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!items!ov871RRpMCywFTSU"
+}

@@ -1,0 +1,48 @@
+{
+  "folder": "Iq2Miinm5I7HDEfG",
+  "name": "Gatekeeper Initiate",
+  "type": "edge",
+  "_id": "PtEs3wDNCkG4bTST",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>Gatekeeper initiates gain a +2 to rolls to resist Innate Powers of aberrations and other magical creatures. They also gain a +4 to Occult rolls when identifying aberrations and their special abilities.</p><p>Gatekeeper initiates add the following powers to their list of available powers: <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.IKNDFzBAzkz7Nc9l]{planar binding}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.YRQtMHpu0GyC5iFY]{banish}, @UUID[Compendium.savage-eberron.eberron-powers.Item.op5cRg9jiossKu2D]{dimensional lock}, @UUID[Compendium.savage-eberron.eberron-powers.Item.eBC6qxC9WZFYmaiK]{mind blank}, @UUID[Compendium.savage-eberron.eberron-powers.Item.MW7buU5BhzH2jYFU]{return to nature}</em>.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Druid",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "edge",
+        "label": "Arcane Background (Druid)",
+        "selector": "druid"
+      }
+    ],
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "gatekeeper-initiate"
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1691425870797,
+    "modifiedTime": 1699131320614,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!PtEs3wDNCkG4bTST"
+}

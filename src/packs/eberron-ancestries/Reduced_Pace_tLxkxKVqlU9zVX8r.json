@@ -1,0 +1,43 @@
+{
+  "name": "Reduced Pace",
+  "type": "ability",
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "system": {
+    "description": "<p>Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Halfling",
+    "subtype": "special",
+    "grantsPowers": false,
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "reduced-pace"
+  },
+  "effects": [],
+  "folder": "8duy0r5LaiffI3GL",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "convergence-manifesto",
+      "system": "swade",
+      "coreVersion": "11.306",
+      "systemVersion": "3.0.5"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1668895717346,
+    "modifiedTime": 1697662967451,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "tLxkxKVqlU9zVX8r",
+  "sort": 0,
+  "_key": "!items!tLxkxKVqlU9zVX8r"
+}

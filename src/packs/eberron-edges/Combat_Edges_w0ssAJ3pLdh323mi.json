@@ -1,0 +1,19 @@
+{
+  "name": "Combat Edges",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "w0ssAJ3pLdh323mi",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.0.6",
+    "coreVersion": "11.307",
+    "createdTime": 1690318238732,
+    "modifiedTime": 1692321428839,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!w0ssAJ3pLdh323mi"
+}

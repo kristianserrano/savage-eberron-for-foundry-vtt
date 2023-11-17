@@ -1,0 +1,95 @@
+{
+  "folder": "yhaG3t6RuulkN2AF",
+  "name": "Warlock/Witch",
+  "type": "edge",
+  "_id": "koOwagS62BnU61WG",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>As presented in the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.F6KTUe4mMeDhsnIn]{Fantasy Companion}</em> but with the following changes.</p><ul><li><p><strong>Available Powers:</strong> <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.qjflUvZxnhUF91dS]{Arcane protection}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.YRQtMHpu0GyC5iFY]{banish}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.0TRRYoKZecpUZMBv]{barrier}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.O6mvldoWWXTYSY2F]{beast friend}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.FxOCy159uyCtmvST]{blast}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.RfWeVG22HJW9GyCP]{blessing}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.gFuuLSXl02lUajWK]{blind}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.Jgm2DqNWxAxi62Ur]{bolt}, @UUID[Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh]{boost/lower Trait}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.BXORrKNOSAwAXW3m]{burrow}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.ypEHp2qylYsib3Td]{burst}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.FxiWV5YVRzqxioo7]{confusion}, @UUID[Compendium.savage-eberron.eberron-powers.Item.gLvcL3EA1Zu0dtRO]{conjure item}, corpse sense, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.N3wnx79MsEhUDhc1]{curse}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.AlM4OxVDzViyoFiE]{darksight}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.pnhihi2oBjsjsh4N]{deflection}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{detect/conceal arcana}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nz69DP0tjQGxYtcI]{disguise}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.bJZE6nFC5rDZL39D]{divination}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.HgP5zrN7Hv6swMEr]{drain Power Points}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.MEjY7RhNahJGbfRC]{elemental manipulation}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.TVoDtWckWRZ0AnxZ]{empathy}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.QWIWVdAJ2wvLP7Zz]{entangle}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.N7AS7Joyq6QbLf25]{environmental protection}, exorcism, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.WZqqKZ1mnquK2fdo]{farsight}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.FKawDwaCdCRij7eO]{fear}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.lPSFNaeFMJlbZXYM]{fly}, grave shroud, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.4naHN0itZM4uEdYg]{growth/shrink}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.Y74fi2WLf0Mr8d9W]{havoc}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.XR6ezIMYpEj53GHT]{healing}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.RzVIX959WTYhdwwh]{illusion}, illusionary horrors, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.6pIk2UHMWPBiAmCk]{invisibility}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.bTcP0C22uRVijOeU]{light/darkness}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.WhkZOWfcSvplAtjf]{lock/unlock}, @UUID[Compendium.savage-eberron.eberron-powers.Item.rFmzKP8HDWYHdsP9]{locate}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.9Lr4apB7k81zuTPo]{mystic intervention}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.7cDWA5azwTrmZaiq]{object reading}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.GMTgL2vLUZ0BTZ1w]{mind reading}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.CY4sDvByxW25VtbL]{mind wipe}, nightmares, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.mVT0AsyhtjeltTHF]{puppet}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.QlGf5bxHPpHwrAU5]{relief}, @UUID[Compendium.savage-eberron.eberron-powers.Item.nEeEtrIevelGu2kZ]{scrying}, séance, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.fK9adaURLKcCGv99]{shape change}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.H5H71b5WDDMJ7nCL]{sloth/speed}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.UFQy5B0Egwhm96uM]{slumber}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.8r70sKYB6GfzzapQ]{smite}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.6bHl26mVNSdtQ0Tl]{sound/silence}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.MCXIMSN4YAWaM5Ei]{speak language}, spite, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.xz2NXG2RXvT8wo22]{stun}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cq3fgyvvCp1oCIv7]{summon ally}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.GLIypDUlcU2UCCje]{summon animal}, summon demon, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nE0AIeWGCGWjxxi6]{telekinesis}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.7UEQMywtDyAR1zSf]{wall walker}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.ZvYOVQ9Rn5PbQswT]{warrior’s gift}, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.71XmuBH9MopmRZPL]{wish}</em>.</p></li></ul>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Arcane Backgrounds",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "spirit",
+        "value": 6
+      }
+    ],
+    "grants": [
+      {
+        "uuid": "Compendium.swade-core-rules.swade-skills.Item.Ii5r0pBeYHQvdYIp",
+        "img": "systems/swade/assets/icons/skills/spell-book.svg",
+        "name": "Spellcasting",
+        "mutation": {}
+      },
+      {
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-hindrances.Item.XrAAZ5rqTGjdQ5oe",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp",
+        "name": "Corruption",
+        "mutation": {}
+      },
+      {
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-hindrances.Item.g78Sft2Y46sxY5z3",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp",
+        "name": "Armor Interference",
+        "mutation": {
+          "system": {
+            "major": true
+          }
+        }
+      },
+      {
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-hindrances.Item.MykOIqoms17ugdwa",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp",
+        "name": "Material Components",
+        "mutation": {}
+      },
+      {
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.8wNCC0idkPbufaeX",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+        "name": "Familiar",
+        "mutation": {}
+      },
+      {
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.oKyWnnq0ZKu8RQiG",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+        "name": "Coven",
+        "mutation": {}
+      },
+      {
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.AMNggxEnby2MCpVr",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+        "name": "Prepared Powers",
+        "mutation": {}
+      }
+    ],
+    "source": "Eberron for Savage Worlds",
+    "swid": "warlockwitch"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1691452743285,
+    "modifiedTime": 1699130864995,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!koOwagS62BnU61WG"
+}

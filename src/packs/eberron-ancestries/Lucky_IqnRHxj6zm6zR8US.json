@@ -1,0 +1,43 @@
+{
+  "folder": "8duy0r5LaiffI3GL",
+  "name": "Lucky",
+  "type": "ability",
+  "_id": "IqnRHxj6zm6zR8US",
+  "img": "icons/magic/control/buff-luck-fortune-clover-green.webp",
+  "system": {
+    "description": "<p>Halflings have the @UUID[Compendium.swade-core-rules.swade-edges.Item.7huwXlataZ2OaQXL]{Luck Edge}, seemingly able to find their way out of unideal situations.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Halfling",
+    "subtype": "special",
+    "grantsPowers": false,
+    "grants": [
+      {
+        "name": "Luck",
+        "img": "systems/swade/assets/icons/edge.svg",
+        "uuid": "Compendium.swade-core-rules.swade-edges.Item.7huwXlataZ2OaQXL"
+      }
+    ],
+    "source": "Eberron for Savage Worlds",
+    "swid": "lucky"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1690319630902,
+    "modifiedTime": 1697662967443,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!IqnRHxj6zm6zR8US"
+}

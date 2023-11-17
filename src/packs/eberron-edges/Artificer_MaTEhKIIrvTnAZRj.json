@@ -1,0 +1,64 @@
+{
+  "folder": "yhaG3t6RuulkN2AF",
+  "name": "Artificer",
+  "type": "edge",
+  "_id": "MaTEhKIIrvTnAZRj",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<ul><li><p><strong>Requirements:</strong> Smarts d6+</p></li><li><p><strong>Arcane Skill:</strong> Imbuing (Smarts)</p></li><li><p><strong>Starting Powers:</strong> Three powers chosen from the list below.</p></li><li><p><strong>Power Points:</strong> 10</p></li><li><p><strong>Available Powers:</strong> <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.qjflUvZxnhUF91dS]{Arcane protection}</em>, <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.0TRRYoKZecpUZMBv]{barrier}</em>, <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh]{boost Trait}</em>, <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.pnhihi2oBjsjsh4N]{deflection}</em>, <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{detect arcana}</em>, <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.HgP5zrN7Hv6swMEr]{drain Power Points}</em> (arcane devices only), <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.MEjY7RhNahJGbfRC]{elemental manipulation}</em> (earth only, Move and Special Effects only), <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.N7AS7Joyq6QbLf25]{environmental protection}</em>, <em>@UUID[Compendium.swade-core-rules.swade-powers.Item.AkdBstIqWvUAzJbl]{light}</em>, <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.IKNDFzBAzkz7Nc9l]{planar binding}</em> (elementals only), <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}</em>, <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.v9sX5Hp9PoBEyODv]{repairing}</em>, <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.8r70sKYB6GfzzapQ]{smite}</em>.</p></li><li><p><strong>Infusions:</strong> As a limited action, artificers can imbue powers into objects or constructs, including @UUID[Compendium.savage-eberron.eberron-abilities.Item.anNvwvvbyIlESkm5]{living constructs}, as infusions by channeling and manipulating raw magical energy into the target. Infusions with a Duration measured in rounds instead are measured in minutes.</p><ul><li><p><strong>Maintaining Powers:</strong> Artificers cannot maintain a power at the end of the power’s Duration.</p></li><li><p><strong>Limitations:</strong> Artificer infusions all have a range of Touch. Powers that normally have a range greater than Touch or are available with only one aspect such as boost Trait or light benefit from applying these @UUID[Compendium.swade-fantasy-companion.swade-fc.JournalEntry.swadefcp04arcana.JournalEntryPage.04trappings00000#limitations]{Limitations}.</p></li><li><p><strong>Single Targets:</strong> Infusions may not use the Additional Recipients Modifier.</p></li></ul></li><li><p><strong>Armor Interference (Minor):</strong> Heavy armor interferes with an artificer’s channeling and manipulation of magic while imbuing infusions. Artificers subtract 4 from their Imbuing rolls and from their Agility and Agility-based skill rolls if wearing heavy armor or using a heavy shield.</p></li></ul>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Arcane Backgrounds",
+    "isArcaneBackground": true,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "smarts",
+        "value": 6
+      }
+    ],
+    "grants": [
+      {
+        "name": "Armor Interference",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Hindrance.webp",
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-hindrances.Item.g78Sft2Y46sxY5z3"
+      },
+      {
+        "name": "Imbuing",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp",
+        "uuid": "Compendium.savage-eberron.eberron-skills.Item.3ollx4DmTxADY0cV"
+      },
+      {
+        "name": "Infusions",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+        "uuid": "Compendium.savage-eberron.eberron-abilities.Item.csNtkRNznBXvj4vY"
+      }
+    ],
+    "source": "Eberron for Savage Worlds",
+    "swid": "artificer"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.313",
+    "createdTime": 1690858884612,
+    "modifiedTime": 1698644926132,
+    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+  },
+  "_key": "!items!MaTEhKIIrvTnAZRj"
+}

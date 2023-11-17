@@ -1,0 +1,19 @@
+{
+  "name": "Soulknife Abilities",
+  "sorting": "m",
+  "folder": null,
+  "type": "Item",
+  "_id": "bJK8hgKcEoR91feK",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.0.6",
+    "coreVersion": "11.307",
+    "createdTime": 1691428818107,
+    "modifiedTime": 1691428818107,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!bJK8hgKcEoR91feK"
+}

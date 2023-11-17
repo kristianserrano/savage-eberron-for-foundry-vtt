@@ -1,0 +1,35 @@
+{
+  "folder": "UHDztcridWmtOb49",
+  "name": "Psychic Surge",
+  "type": "ability",
+  "_id": "0pU1D7qQI806xZVu",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>Psions can draw from their Power Points to enhance the manifestation of their powers. For 1 Power Point, they can add +1 to their Psionics roll, or +2 for 3 Power Points. This ability may not be used to improve a Critical Failure.</p><p>After performing a Psychic Surge, the psion might suffer from @UUID[Compendium.savage-eberron.eberron-abilities.Item.QpQXOjd3ni0HKSWp]{Psychic Enervation}.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Psion Abilities",
+    "subtype": "special",
+    "grantsPowers": false,
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "psychic-surge"
+  },
+  "effects": [],
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1691428260026,
+    "modifiedTime": 1697662968612,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!0pU1D7qQI806xZVu"
+}

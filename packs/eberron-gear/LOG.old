@@ -1,8 +1,0 @@
-2023/11/11-01:38:18.145873 700008731000 Recovering log #1761
-2023/11/11-01:38:18.146810 700008731000 Delete type=0 #1761
-2023/11/11-01:38:18.146886 700008731000 Delete type=3 #1759
-2023/11/11-01:44:41.377783 700009fbd000 Level-0 table #1766: started
-2023/11/11-01:44:41.377825 700009fbd000 Level-0 table #1766: 0 bytes OK
-2023/11/11-01:44:41.378095 700009fbd000 Delete type=0 #1764
-2023/11/11-01:44:41.378326 700009fbd000 Manual compaction at level-0 from '!folders!1E2gVEbMYoREaBW0' @ 72057594037927935 : 1 .. '!items.effects!cNTrf2OQ1DC6STtV.mXAnixevUGlK88KS' @ 0 : 0; will stop at (end)
-2023/11/11-01:44:41.378431 700009fbd000 Manual compaction at level-1 from '!folders!1E2gVEbMYoREaBW0' @ 72057594037927935 : 1 .. '!items.effects!cNTrf2OQ1DC6STtV.mXAnixevUGlK88KS' @ 0 : 0; will stop at (end)

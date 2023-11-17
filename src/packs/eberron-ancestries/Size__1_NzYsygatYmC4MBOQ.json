@@ -1,0 +1,43 @@
+{
+  "name": "Size -1",
+  "type": "ability",
+  "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+  "system": {
+    "description": "<p>Halflings are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}.</p>",
+    "notes": "Racial",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Halfling",
+    "subtype": "special",
+    "grantsPowers": false,
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "size-1"
+  },
+  "effects": [],
+  "folder": "8duy0r5LaiffI3GL",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "convergence-manifesto",
+      "system": "swade",
+      "coreVersion": "11.306",
+      "systemVersion": "3.0.5"
+    }
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1668046440817,
+    "modifiedTime": 1697662967444,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "NzYsygatYmC4MBOQ",
+  "sort": 0,
+  "_key": "!items!NzYsygatYmC4MBOQ"
+}

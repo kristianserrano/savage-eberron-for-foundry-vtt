@@ -1,0 +1,48 @@
+{
+  "folder": "8hnpzMqu320tkWo3",
+  "name": "Right of Counsel",
+  "type": "edge",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>By virtue of their hereditary place in their family, elves with Right of Counsel have the legal and sacral right to enter the City of the Dead and seek advice from a deathless elf ancestor who resides there. Generally, the ancestor is an undying councilor. When physically presenting themselves before their ancestor, they gain one of the following benefits.</p><ul><li><p>The ancestor uses one of its Innate Powers, such as <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel}</em> or <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.XR6ezIMYpEj53GHT]{healing}</em>, on the visiting elf’s behalf.</p></li><li><p>The ancestor answers their questions about matters within its experience and learning, up to the limits of its own knowledge.</p></li><li><p>The ancestor seeks supernatural knowledge on the visiting elf’s behalf using the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.bJZE6nFC5rDZL39D]{divination}</em> power.</p></li><li><p>The deathless ancestors in the City of the Dead grow impatient with frequent interruptions and refuse to assist an individual descendant more than once per month.</p></li></ul><p></p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Background",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "ancestry",
+        "label": "Elf",
+        "selector": "elf"
+      }
+    ],
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "right-of-counsel"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1689985606993,
+    "modifiedTime": 1699129304874,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "1t2pF2HHKgZ556EZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!items!1t2pF2HHKgZ556EZ"
+}

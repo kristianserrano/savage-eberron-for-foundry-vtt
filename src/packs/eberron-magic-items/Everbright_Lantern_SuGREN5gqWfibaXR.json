@@ -1,0 +1,54 @@
+{
+  "folder": "WnZpbSF9eq4wJqZ3",
+  "name": "Everbright Lantern",
+  "type": "gear",
+  "_id": "SuGREN5gqWfibaXR",
+  "img": "icons/sundries/lights/lantern-iron-lit-yellow.webp",
+  "system": {
+    "description": "<p>An <em>everbright lantern</em> contains an Eberron shard with the light power imbued upon it. The shard is placed in a setting within a normal bullseye lantern, but its \"flame\" never goes out.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "everbright-lantern",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 3,
+    "price": 212,
+    "equippable": true,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "favorite": false,
+    "category": "Eberron Shard Items",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1699128093306,
+    "modifiedTime": 1699128656211,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!items!SuGREN5gqWfibaXR"
+}

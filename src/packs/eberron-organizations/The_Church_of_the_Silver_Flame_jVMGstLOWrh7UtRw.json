@@ -1,0 +1,19 @@
+{
+  "name": "The Church of the Silver Flame",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "jVMGstLOWrh7UtRw",
+  "sort": 400000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1692670168524,
+    "modifiedTime": 1699684871715,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!jVMGstLOWrh7UtRw"
+}

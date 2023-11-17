@@ -1,0 +1,19 @@
+{
+  "name": "The Aurum",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "whNERinkBMTo6GGv",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1692670118909,
+    "modifiedTime": 1699684871715,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!whNERinkBMTo6GGv"
+}

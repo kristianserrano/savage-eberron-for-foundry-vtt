@@ -1,0 +1,77 @@
+{
+  "folder": "zgVZxCBwB6RSXpkz",
+  "name": "Shape Mind Blade",
+  "type": "edge",
+  "_id": "eYetgGSDZQPco1Uk",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>The @UUID[Compendium.savage-eberron.eberron-edges.Item.TJwk3WEdmfT4YqeL]{soulknife} may change the form of his @UUID[Compendium.savage-eberron.eberron-abilities.Item.Q7vEwImap0FspKU7]{mind blade} as a limited action. He can shape the mind blade to replicate a @UUID[Compendium.savage-eberron.eberron-edges.Item.DHeMliHrqD1jyyeM]{long sword} or a @UUID[Compendium.savage-eberron.eberron-edges.Item.Sh2PXadsSUGdyAcW]{great sword} (see @UUID[Compendium.swade-fantasy-companion.swade-fc.JournalEntry.swadefcp02gear00.JournalEntryPage.02meleeweapons00]{Melee Weapons} in the <em>Fantasy Companion</em>).</p><p>The soulknife also has the option of splitting his mind blade into short swords, one for wielding in each hand. Off-hand and wielding two weapons at once still apply, unless the soulknife has @UUID[Compendium.swade-core-rules.swade-edges.Item.OJ4t6S1cGamjJiLD]{Ambidextrous} or @UUID[Compendium.savage-eberron.eberron-edges.Item.fmPS2GyZFKN2lVda]{Two-Fisted} respectively.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Soulknife",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and"
+      },
+      {
+        "type": "edge",
+        "label": "Arcane Background (Soulknife)",
+        "selector": "soulknife",
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Psionics",
+        "selector": "psionics",
+        "value": 8
+      }
+    ],
+    "grants": [
+      {
+        "name": "Mind Blade (Long Sword)",
+        "img": "icons/skills/melee/blade-tip-smoke-green.webp",
+        "uuid": "Compendium.savage-eberron.eberron-edges.Item.DHeMliHrqD1jyyeM"
+      },
+      {
+        "name": "Mind Blade (Great Sword)",
+        "img": "icons/skills/melee/blade-tip-smoke-green.webp",
+        "uuid": "Compendium.savage-eberron.eberron-edges.Item.Sh2PXadsSUGdyAcW"
+      },
+      {
+        "name": "Mind Blade (Offhand)",
+        "img": "icons/skills/melee/blade-tip-smoke-green.webp",
+        "uuid": "Compendium.savage-eberron.eberron-edges.Item.qCwIu33VcYihLb5I"
+      }
+    ],
+    "source": "Eberron for Savage Worlds",
+    "swid": "shape-mind-blade"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "eberron-for-savage-worlds",
+      "system": "swade",
+      "coreVersion": "11.306",
+      "systemVersion": "3.0.6"
+    }
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1690391993843,
+    "modifiedTime": 1699130958679,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!eYetgGSDZQPco1Uk"
+}

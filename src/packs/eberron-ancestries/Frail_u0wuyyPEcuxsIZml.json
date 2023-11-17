@@ -1,0 +1,77 @@
+{
+  "name": "Frail",
+  "type": "ability",
+  "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
+  "system": {
+    "description": "<p>Elves aren’t as sturdy as most other ancestries. Their Toughness is reduced by 1.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Elf",
+    "subtype": "special",
+    "grantsPowers": false,
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "frail"
+  },
+  "effects": [
+    {
+      "icon": "icons/skills/wounds/bone-broken-knee-beam.webp",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "swade": {
+          "expiration": null
+        }
+      },
+      "changes": [
+        {
+          "key": "system.stats.toughness.value",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "name": "Frail",
+      "_id": "uCYx83EfKy8DiDqO",
+      "disabled": false,
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "_key": "!items.effects!u0wuyyPEcuxsIZml.uCYx83EfKy8DiDqO"
+    }
+  ],
+  "folder": "RSLTAQckZnWQhzEX",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "convergence-manifesto",
+      "system": "swade",
+      "coreVersion": "11.305",
+      "systemVersion": "3.0.5"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1671077539663,
+    "modifiedTime": 1697662967633,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "u0wuyyPEcuxsIZml",
+  "sort": 300000,
+  "_key": "!items!u0wuyyPEcuxsIZml"
+}

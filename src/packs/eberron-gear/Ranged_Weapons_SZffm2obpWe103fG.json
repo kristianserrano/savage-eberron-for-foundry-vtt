@@ -1,0 +1,19 @@
+{
+  "name": "Ranged Weapons",
+  "sorting": "a",
+  "folder": "nUJ2YgGzDrhooBf1",
+  "type": "Item",
+  "_id": "SZffm2obpWe103fG",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.0.6",
+    "coreVersion": "11.307",
+    "createdTime": null,
+    "modifiedTime": 1691352661311,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!SZffm2obpWe103fG"
+}

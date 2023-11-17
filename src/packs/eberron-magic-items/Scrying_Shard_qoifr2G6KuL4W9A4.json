@@ -1,0 +1,54 @@
+{
+  "folder": "WnZpbSF9eq4wJqZ3",
+  "name": "Scrying Shard",
+  "type": "gear",
+  "_id": "qoifr2G6KuL4W9A4",
+  "img": "icons/commodities/gems/pearl-fire-swirl.webp",
+  "system": {
+    "description": "<p>A large Eberron shard attuned to the <em>scrying</em> power serves as a portable focus for that spell. Any adventurer can use the <em>scrying</em> power using the <em>scrying shard</em> as a focus.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "scrying-shard",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 1,
+    "price": 1100,
+    "equippable": false,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "favorite": false,
+    "category": "Eberron Shard Items",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1699128366773,
+    "modifiedTime": 1699128656211,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!items!qoifr2G6KuL4W9A4"
+}

@@ -1,0 +1,37 @@
+{
+  "folder": "oldWVWKsIM3coKB9",
+  "name": "Dreamless",
+  "type": "ability",
+  "img": "icons/magic/time/day-night-sunset-sunrise.webp",
+  "system": {
+    "description": "<p>Kalashtar can sleep, but they do not dream, rendering them immune to the nightmares power (see Horror Companion), but also unable to travel to Dal Quor during their sleep.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Kalashtar",
+    "subtype": "special",
+    "grantsPowers": false,
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "dreamless"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1690512627512,
+    "modifiedTime": 1697662967450,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "pYWOMwN0Rd64OYmW",
+  "sort": 400000,
+  "_key": "!items!pYWOMwN0Rd64OYmW"
+}

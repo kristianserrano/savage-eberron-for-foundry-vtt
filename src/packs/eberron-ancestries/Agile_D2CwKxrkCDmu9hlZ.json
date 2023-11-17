@@ -1,0 +1,79 @@
+{
+  "name": "Agile",
+  "type": "ability",
+  "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+  "system": {
+    "description": "<p>Elves are graceful and agile. They start with a d6 in Agility instead of a d4. This increases their maximum Agility to d12+1.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Elf",
+    "subtype": "special",
+    "grantsPowers": false,
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "agile"
+  },
+  "effects": [
+    {
+      "icon": "icons/magic/control/debuff-energy-snare-blue.webp",
+      "duration": {
+        "rounds": null,
+        "startTime": 43230,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false
+        }
+      },
+      "changes": [
+        {
+          "key": "system.attributes.agility.die.sides",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "BqiwXPQyZARtUJM5",
+      "disabled": false,
+      "origin": null,
+      "tint": null,
+      "name": "Starting Agility d6",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!D2CwKxrkCDmu9hlZ.BqiwXPQyZARtUJM5"
+    }
+  ],
+  "folder": "RSLTAQckZnWQhzEX",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "convergence-manifesto",
+      "system": "swade",
+      "coreVersion": "11.305",
+      "systemVersion": "3.0.5"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1671076809415,
+    "modifiedTime": 1697662967523,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "D2CwKxrkCDmu9hlZ",
+  "sort": 200000,
+  "_key": "!items!D2CwKxrkCDmu9hlZ"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "The Chamber",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "ci6TQRSFt8St9DV9",
+  "sort": 300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1692670155523,
+    "modifiedTime": 1699684871715,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!ci6TQRSFt8St9DV9"
+}

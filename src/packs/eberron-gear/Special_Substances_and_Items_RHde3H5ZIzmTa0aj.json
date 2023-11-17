@@ -1,0 +1,19 @@
+{
+  "name": "Special Substances and Items",
+  "sorting": "m",
+  "folder": null,
+  "type": "Item",
+  "_id": "RHde3H5ZIzmTa0aj",
+  "sort": 700000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.0.6",
+    "coreVersion": "11.307",
+    "createdTime": 1691342504037,
+    "modifiedTime": 1691352797594,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!RHde3H5ZIzmTa0aj"
+}

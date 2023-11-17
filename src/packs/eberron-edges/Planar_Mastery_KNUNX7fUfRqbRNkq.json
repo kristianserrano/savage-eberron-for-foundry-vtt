@@ -1,0 +1,49 @@
+{
+  "folder": "SHGqlJRi0fgFO00o",
+  "name": "Planar Mastery",
+  "type": "edge",
+  "_id": "KNUNX7fUfRqbRNkq",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>Some occultists have expanded their knowledge beyond the supernatural elements of the Material Plane. These adventurers have either experienced the effects of or have studied the other planes of existence that influence the world. Adventurers with this Edge may make Occult rolls to identify the effects, properties, and inhabitants of any of the other 13 planes. They may also use the Occult skill in place of Survival rolls while navigating through a manifest zone or any plane other than their own.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Professional",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Occult",
+        "selector": "occult",
+        "value": 6
+      }
+    ],
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "planar-mastery"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.314",
+    "createdTime": 1690693289696,
+    "modifiedTime": 1699130237963,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!KNUNX7fUfRqbRNkq"
+}

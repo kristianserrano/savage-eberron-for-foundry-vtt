@@ -6,6 +6,6 @@ module="${PWD##*/}"
 fvtt package workon $module --type "Module"
 for dir in packs/*; do
     pack="${dir##*/}"
-    rm ./src/packs/$pack/*.yml
-    fvtt package unpack -n $pack --od ./src/packs/$pack --yaml
+    rm src/packs/$pack/*.yml
+    fvtt package unpack -n $pack --out src/packs/$pack --yaml
 done

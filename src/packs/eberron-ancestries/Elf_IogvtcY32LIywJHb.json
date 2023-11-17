@@ -1,0 +1,75 @@
+{
+  "name": "Elf",
+  "type": "ability",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "<ul><li><p><strong>Agile (+2):</strong> Elves are graceful and agile. They start with a d6 in Agility instead of a d4. This increases their maximum Agility to d12+1.</p></li><li><p><strong>Frail (−1):</strong> Elves aren’t as sturdy as most other ancestries. Their Toughness is reduced by 1.</p></li><li><p><strong>Keen Vision (+1):</strong> Elves have +2 to Notice rolls to detect obscured or hidden features.</p></li><li><p><strong>Low Light Vision (+1):</strong> Elven eyes amplify light. Other ancestries often claim they can see stars in the elves’ eyes. They ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).</p></li><li><p><strong>Trance (+1):</strong> Elves don’t need sleep, but they must meditate in a semiconscious state 4 hours every day.</p></li></ul>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Ancestry",
+    "subtype": "race",
+    "grantsPowers": false,
+    "grants": [
+      {
+        "name": "Agile",
+        "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.D2CwKxrkCDmu9hlZ"
+      },
+      {
+        "name": "Frail",
+        "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.u0wuyyPEcuxsIZml"
+      },
+      {
+        "name": "Keen Vision",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.rAsWCVdFOiO76xgI"
+      },
+      {
+        "name": "Low Light Vision",
+        "img": "systems/swade/assets/icons/ability.svg",
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.LOWLsFXsFJvZsIwc",
+        "mutation": {
+          "img": "icons/creatures/eyes/human-single-blue.webp",
+          "system": {
+            "description": "<p>Elven eyes amplify light. Other ancestries often claim they can see stars in the elves’ eyes. They ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).</p>"
+          }
+        }
+      },
+      {
+        "name": "Trance",
+        "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.HJB99FcK4gTt53RM"
+      }
+    ],
+    "source": "Eberron for Savage Worlds",
+    "swid": "elf"
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "eberron-for-savage-worlds",
+      "system": "swade",
+      "coreVersion": "11.305",
+      "systemVersion": "3.0.5"
+    }
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1689613170202,
+    "modifiedTime": 1697662967443,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "IogvtcY32LIywJHb",
+  "sort": 1600000,
+  "_key": "!items!IogvtcY32LIywJHb"
+}

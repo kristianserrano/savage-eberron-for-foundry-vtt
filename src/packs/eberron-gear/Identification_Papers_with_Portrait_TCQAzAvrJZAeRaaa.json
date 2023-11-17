@@ -1,0 +1,56 @@
+{
+  "folder": "rmMZ8nKTRru5pDGY",
+  "name": "Identification Papers with Portrait",
+  "type": "gear",
+  "img": "icons/sundries/documents/document-official-capital.webp",
+  "system": {
+    "description": "<p>Most people of the middle and upper classes, at least in the most civilized areas of Khorvaire (Aundair, Breland, Karrnath, Thrane, Zilargo, and the Mror Holds) carry identification papers with them at all times. Issued by national governments and notarized by House Sivis, these papers present a detailed physical description of a person (the wealthy sometimes commission small portraits of themselves), the person’s name and residence, and in some cases additional information about the person’s affiliations (particularly including any connection to a dragonmarked house, royalty, or a large institution).</p>",
+    "notes": "",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 0,
+    "price": 5,
+    "equippable": false,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "skill": "",
+      "skillMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "favorite": false,
+    "category": "Documents",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false,
+    "source": "Eberron for Savage Worlds",
+    "swid": "identification-papers-with-portrait"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1691347302346,
+    "modifiedTime": 1697662968164,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "TCQAzAvrJZAeRaaa",
+  "sort": 400000,
+  "_key": "!items!TCQAzAvrJZAeRaaa"
+}

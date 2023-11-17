@@ -1,0 +1,59 @@
+{
+  "folder": "Iq2Miinm5I7HDEfG",
+  "name": "Child of Winter",
+  "type": "edge",
+  "_id": "oJTZyxRvXMVn4hqv",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>The Child of Winter can more efficiently summon giant rodents, insects, and arachnids. The total Power Point cost to summon such vermin is reduced by 2.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Druid",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "edge",
+        "label": "Arcane Background (Druid)",
+        "selector": "druid",
+        "combinator": "and"
+      },
+      {
+        "type": "power",
+        "label": "summon animal",
+        "selector": "summon-animal",
+        "combinator": "and"
+      },
+      {
+        "type": "other",
+        "label": "neutral or evil disposition"
+      }
+    ],
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "child-of-winter"
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.313",
+    "createdTime": 1691425475040,
+    "modifiedTime": 1698644090986,
+    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+  },
+  "_key": "!items!oJTZyxRvXMVn4hqv"
+}

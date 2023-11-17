@@ -1,0 +1,73 @@
+{
+  "folder": "8duy0r5LaiffI3GL",
+  "name": "Athletic",
+  "type": "ability",
+  "_id": "29clVk6oxj4dNNLd",
+  "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+  "system": {
+    "description": "<p>Halflings are nimble beings. They start with a d6 in Athletics instead of a d4. This increases their maximum Athletics to d12+1.</p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Halfling",
+    "subtype": "special",
+    "grantsPowers": false,
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "athletic"
+  },
+  "effects": [
+    {
+      "icon": "icons/skills/movement/feet-winged-sandals-tan.webp",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false
+        }
+      },
+      "changes": [
+        {
+          "key": "@Skill{Athletics}[system.die.sides]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "name": "Starting Athletics d6",
+      "_id": "rx3YOVmYsu0KDACS",
+      "disabled": false,
+      "description": "<p>Start with a d6 in Athletics instead of a d4. This increases their maximum Athletics to d12+1.</p>",
+      "origin": null,
+      "statuses": [],
+      "tint": null,
+      "_key": "!items.effects!29clVk6oxj4dNNLd.rx3YOVmYsu0KDACS"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1690318710962,
+    "modifiedTime": 1697662967492,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!29clVk6oxj4dNNLd"
+}

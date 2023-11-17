@@ -1,0 +1,59 @@
+{
+  "folder": null,
+  "name": "Shifter (Wildhunt)",
+  "type": "ability",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "<ul><li><p><strong>Keen Senses (+1):</strong> Shifters begin with a d6 Notice skill. The skill’s maximum increases to d12+1.</p></li><li><p><strong>Low Light Vision (+1):</strong> Shifters ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).</p></li><li><p><strong>Shifting (+2):</strong> This ability allows a shifter to tap into his lycanthropic heritage. At character creation, the player chooses a shifter ability from the list below. Shifting is a limited free action and lasts up to 5 rounds plus 1 round for each Shifter Edge they have. The shifter can shift back to his normal form at any time before then. While in this animal-like form, the shifter can ignore 1 Wound penalty. When the shifting ends, the shifter takes a level of Fatigue. This level of Fatigue can only be removed after 4 hours of abstaining from shifting.</p><ul><li><p><strong>Beasthide:</strong> The skin of beasthide shifters harden, providing Armor +4.</p></li><li><p><strong>Cliffwalk:</strong> The limbs, hands, and feet of cliffwalk shifters become stronger. They gain the Free Runner Edge.</p></li><li><p><strong>Longstride:</strong> The legs of longstride shifters elongate, and longstride shifters balance on the balls of their feet. They gain the Fleet-Footed Edge.</p></li><li><p><strong>Longtooth:</strong> The face of a longtooth shifter distorts, growing a canine muzzle full of sharp teeth that cause Str+d6 damage (see <strong>Natural Weapons</strong> in <em>Savage Worlds</em>).</p></li><li><p><strong>Razorclaw:</strong> The claws on the hands of razorclaw shifters grow and can be used to make attacks dealing Str+d4 damage (see <strong>Natural Weapons</strong> in <em>Savage Worlds</em>).</p></li><li><p><strong>Wildhunt:</strong> Wildhunt shifters’ sense of smell becomes more sensitive, granting them the Alertness Edge.</p></li></ul></li></ul>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Ancestry",
+    "subtype": "race",
+    "grantsPowers": false,
+    "grants": [
+      {
+        "name": "Keen Senses",
+        "img": "icons/magic/perception/eye-slit-orange.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.78DV1QeFkjdgKphc"
+      },
+      {
+        "name": "Low Light Vision",
+        "img": "icons/magic/perception/eye-ringed-green.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.7NLXiKXG2MOX3ZGJ"
+      },
+      {
+        "name": "Shifting (Wildhunt)",
+        "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.gGVagk0USYLO1Ckl"
+      }
+    ],
+    "source": "Eberron for Savage Worlds",
+    "swid": "shifter-wildhunt"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "eberron-for-savage-worlds",
+      "system": "swade",
+      "coreVersion": "11.306",
+      "systemVersion": "3.0.5"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.0",
+    "coreVersion": "11.313",
+    "createdTime": 1690042144702,
+    "modifiedTime": 1697662967445,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "RHeO9VULhpprjir7",
+  "sort": 500000,
+  "_key": "!items!RHeO9VULhpprjir7"
+}
