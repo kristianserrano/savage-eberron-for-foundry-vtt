@@ -4,7 +4,7 @@
 # because it assumes you're in the root folder
 module="${PWD##*/}"
 fvtt package workon $module --type "Module"
-for dir in packs/*; do
+for dir in src/packs/*; do
     pack="${dir##*/}"
-    fvtt package pack -n $pack --in ./src/packs/$pack --out ./packs
+    fvtt package pack -n $pack --in src/packs/$pack --out packs/
 done
