@@ -19,6 +19,9 @@ for (const pack of packs) {
     await extractPack(
         `./packs/${pack}`,
         `./src/packs/${pack}`,
-        { log: true }
+        {
+            clean: true,
+            log: true,
+        }
     );
 }
