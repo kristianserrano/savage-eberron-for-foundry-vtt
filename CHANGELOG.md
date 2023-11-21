@@ -1,5 +1,9 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.0.7
+
+- Adds House Lyrandar Windwright, House Medani Sentry, and House Orien Courier.
+
 ## v1.0.6
 
 - Adds a few new Actors and some dragonshard Items.
