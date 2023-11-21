@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "fvttLaunch": "bash ./tools/fvttLaunch.sh",
-    "pullYMLtoLDB": "bash ./tools/pullYMLtoLDB.sh",
-    "pushLDBtoYML": "bash ./tools/pushLDBtoYML.sh",
-    "pullJSONtoLDB": "bash ./tools/pullJSONtoLDB.sh",
-    "pushLDBtoJSON": "bash ./tools/pushLDBtoJSON.sh"
+    "pullJSONtoLDB": "node ./tools/pullJSONtoLDB.mjs",
+    "pushLDBtoJSON": "node ./tools/pushLDBtoJSON.mjs"
   },
   "repository": {
     "type": "git",
@@ -19,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/kristianserrano/savage-eberron-for-foundry-vtt/issues"
   },
-  "homepage": "https://github.com/kristianserrano/savage-eberron-for-foundry-vtt#readme"
+  "homepage": "https://github.com/kristianserrano/savage-eberron-for-foundry-vtt#readme",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.1"
+  }
 }
