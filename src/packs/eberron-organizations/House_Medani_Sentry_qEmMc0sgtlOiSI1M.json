@@ -2192,12 +2192,6 @@
   },
   "effects": [],
   "flags": {
-    "importerApp": {
-      "app": "SWADE Stat Block Importer",
-      "id": "swade-npc-importer",
-      "appVersion": "0.2.3",
-      "importDate": "2023-11-21T05:06:16.490Z"
-    },
     "core": {}
   },
   "_id": "qEmMc0sgtlOiSI1M",
