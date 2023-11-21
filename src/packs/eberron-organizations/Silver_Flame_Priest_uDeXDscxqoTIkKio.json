@@ -980,8 +980,7 @@
         "notes": "",
         "favorite": false,
         "grants": [],
-        "swid": "vow-adhere-to-the-faith",
-        "severity": "either"
+        "swid": "vow-adhere-to-the-faith"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1853,8 +1852,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "masterwork-morningstar",
-        "rangeType": null
+        "swid": "masterwork-morningstar"
       },
       "effects": [],
       "sort": 150000,
@@ -2086,8 +2084,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "masterwork-bow-long",
-        "rangeType": null
+        "swid": "masterwork-bow-long"
       },
       "effects": [],
       "sort": 175000,
@@ -2567,8 +2564,7 @@
         "notes": "",
         "favorite": false,
         "grants": [],
-        "swid": "vow",
-        "severity": "either"
+        "swid": "vow"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2900,10 +2896,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1692735772446,
-    "modifiedTime": 1699684872069,
+    "modifiedTime": 1700545507217,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,

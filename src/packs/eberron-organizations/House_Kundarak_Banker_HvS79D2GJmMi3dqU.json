@@ -1429,8 +1429,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "daggerknife",
-        "equipStatus": 4,
-        "rangeType": null
+        "equipStatus": 4
       },
       "effects": [],
       "sort": 0,
@@ -1990,13 +1989,15 @@
   ],
   "effects": [],
   "folder": "60oZUurgqUx9pdS9",
-  "flags": {},
+  "flags": {
+    "core": {}
+  },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1694713284616,
-    "modifiedTime": 1699684872069,
+    "modifiedTime": 1700545507217,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "HvS79D2GJmMi3dqU",

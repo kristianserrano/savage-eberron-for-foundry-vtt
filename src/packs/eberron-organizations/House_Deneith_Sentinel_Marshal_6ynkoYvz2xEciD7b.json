@@ -1913,8 +1913,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "1-fighting-sword-long",
-        "rangeType": null
+        "swid": "1-fighting-sword-long"
       },
       "effects": [],
       "sort": 181250,
@@ -2190,8 +2189,7 @@
         "notes": "",
         "favorite": false,
         "grants": [],
-        "swid": "vow",
-        "severity": "either"
+        "swid": "vow"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2232,8 +2230,7 @@
         "notes": "",
         "favorite": false,
         "grants": [],
-        "swid": "obligation",
-        "severity": "either"
+        "swid": "obligation"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2265,10 +2262,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1692843972546,
-    "modifiedTime": 1699684872069,
+    "modifiedTime": 1700545507217,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,

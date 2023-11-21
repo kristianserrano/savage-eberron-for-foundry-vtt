@@ -1288,8 +1288,7 @@
         "major": true,
         "favorite": false,
         "grants": [],
-        "swid": "material-components",
-        "severity": "either"
+        "swid": "material-components"
       },
       "effects": [],
       "sort": 0,
@@ -1631,8 +1630,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "sickle",
-        "rangeType": null
+        "swid": "sickle"
       },
       "effects": [],
       "sort": 0,
@@ -1717,8 +1715,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "sling",
-        "rangeType": null
+        "swid": "sling"
       },
       "effects": [],
       "sort": 0,
@@ -1934,13 +1931,15 @@
     }
   ],
   "effects": [],
-  "flags": {},
+  "flags": {
+    "core": {}
+  },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1693889176088,
-    "modifiedTime": 1699684872069,
+    "modifiedTime": 1700545507217,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,

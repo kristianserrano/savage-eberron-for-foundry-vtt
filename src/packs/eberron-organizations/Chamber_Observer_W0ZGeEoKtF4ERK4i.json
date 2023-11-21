@@ -424,8 +424,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "",
-        "swid": "breath-weapon-ice",
-        "rangeType": null
+        "swid": "breath-weapon-ice"
       },
       "_id": "UM5A8jgW08gzuehg",
       "img": "systems/swade/assets/icons/weapon.svg",
@@ -504,8 +503,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "",
-        "swid": "tail-slap",
-        "rangeType": null
+        "swid": "tail-slap"
       },
       "_id": "O6OoyqrNWM01SEAg",
       "img": "systems/swade/assets/icons/weapon.svg",
@@ -580,8 +578,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "",
-        "swid": "biteclaws",
-        "rangeType": null
+        "swid": "biteclaws"
       },
       "_id": "40lWiRVFthfq95fy",
       "img": "systems/swade/assets/icons/weapon.svg",
@@ -669,8 +666,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "",
-        "swid": "breath-weapon-paralyzing",
-        "rangeType": null
+        "swid": "breath-weapon-paralyzing"
       },
       "img": "systems/swade/assets/icons/weapon.svg",
       "effects": [],
@@ -1435,8 +1431,7 @@
         "notes": "",
         "favorite": false,
         "grants": [],
-        "swid": "obligation-the-chamber-and-the-dragons-of-argonnessen",
-        "severity": "either"
+        "swid": "obligation-the-chamber-and-the-dragons-of-argonnessen"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1477,8 +1472,7 @@
         "notes": "",
         "favorite": false,
         "grants": [],
-        "swid": "secret-secretly-a-dragon",
-        "severity": "either"
+        "swid": "secret-secretly-a-dragon"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2456,10 +2450,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1692669731384,
-    "modifiedTime": 1699684872069,
+    "modifiedTime": 1700545507217,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,

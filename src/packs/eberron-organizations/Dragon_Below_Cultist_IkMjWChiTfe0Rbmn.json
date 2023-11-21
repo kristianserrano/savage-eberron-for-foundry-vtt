@@ -989,8 +989,7 @@
         "notes": "",
         "favorite": false,
         "grants": [],
-        "swid": "delusional-believes-to-be-chosen-by-the-dragon-below",
-        "severity": "either"
+        "swid": "delusional-believes-to-be-chosen-by-the-dragon-below"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1031,8 +1030,7 @@
         "notes": "",
         "favorite": false,
         "grants": [],
-        "swid": "vow-adhere-to-the-faith",
-        "severity": "either"
+        "swid": "vow-adhere-to-the-faith"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1073,8 +1071,7 @@
         "notes": "",
         "favorite": false,
         "grants": [],
-        "swid": "impulsive",
-        "severity": "either"
+        "swid": "impulsive"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1608,8 +1605,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "sword-short",
-        "rangeType": null
+        "swid": "sword-short"
       },
       "effects": [],
       "sort": 300000,
@@ -1705,8 +1701,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "masterwork-pick-heavy",
-        "rangeType": null
+        "swid": "masterwork-pick-heavy"
       },
       "effects": [],
       "sort": 200000,
@@ -1791,8 +1786,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "bow-composite",
-        "rangeType": null
+        "swid": "bow-composite"
       },
       "effects": [],
       "sort": 0,
@@ -2589,10 +2583,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1692670066187,
-    "modifiedTime": 1699684872069,
+    "modifiedTime": 1700545507217,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,

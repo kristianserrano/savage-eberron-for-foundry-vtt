@@ -594,8 +594,7 @@
         "major": false,
         "grants": [],
         "source": "SWADE Core Rules",
-        "swid": "vow",
-        "severity": "either"
+        "swid": "vow"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1960,8 +1959,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "Fantasy Companion",
-        "swid": "1-fighting-scimitar",
-        "rangeType": null
+        "swid": "1-fighting-scimitar"
       },
       "effects": [
         {
@@ -2096,8 +2094,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "Fantasy Companion",
-        "swid": "masterwork-targath-dagger",
-        "rangeType": null
+        "swid": "masterwork-targath-dagger"
       },
       "effects": [],
       "sort": 0,
@@ -2182,8 +2179,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "Fantasy Companion",
-        "swid": "bow-short",
-        "rangeType": null
+        "swid": "bow-short"
       },
       "effects": [],
       "sort": 0,
@@ -2769,10 +2765,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1692124729083,
-    "modifiedTime": 1699684872069,
+    "modifiedTime": 1700545507217,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,

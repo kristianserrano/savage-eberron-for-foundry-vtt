@@ -899,8 +899,7 @@
         "source": "",
         "swid": "none",
         "favorite": false,
-        "grants": [],
-        "severity": "either"
+        "grants": []
       },
       "type": "hindrance",
       "name": "Various",
@@ -1663,8 +1662,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "club-light",
-        "equipStatus": 4,
-        "rangeType": 0
+        "equipStatus": 4
       },
       "effects": [],
       "sort": 0,
@@ -1844,8 +1842,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "crossbow-light",
-        "equipStatus": 4,
-        "rangeType": 1
+        "equipStatus": 4
       },
       "effects": [],
       "sort": 0,
@@ -2325,14 +2322,15 @@
       "system": "swade",
       "coreVersion": "11.315",
       "systemVersion": "3.2-dev"
-    }
+    },
+    "core": {}
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1699683398483,
-    "modifiedTime": 1699684872457,
+    "modifiedTime": 1700545507217,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,

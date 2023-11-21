@@ -1393,8 +1393,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "Fantasy Companion",
-        "swid": "masterwork-axe-battle",
-        "rangeType": null
+        "swid": "masterwork-axe-battle"
       },
       "effects": [],
       "sort": 0,
@@ -1490,8 +1489,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "Fantasy Companion",
-        "swid": "axe-hand",
-        "rangeType": null
+        "swid": "axe-hand"
       },
       "effects": [],
       "sort": 0,
@@ -1763,10 +1761,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1692061956178,
-    "modifiedTime": 1699684872069,
+    "modifiedTime": 1700545507217,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,

@@ -1146,8 +1146,7 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "1-fighting-short-sword",
-        "rangeType": null
+        "swid": "1-fighting-short-sword"
       },
       "effects": [],
       "sort": 300000,
@@ -2028,13 +2027,15 @@
     }
   ],
   "effects": [],
-  "flags": {},
+  "flags": {
+    "core": {}
+  },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1693887461783,
-    "modifiedTime": 1699684872069,
+    "modifiedTime": 1700545507217,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,
