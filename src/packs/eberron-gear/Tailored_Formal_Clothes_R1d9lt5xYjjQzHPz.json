@@ -3,7 +3,7 @@
   "name": "Tailored Formal Clothes",
   "type": "armor",
   "_id": "R1d9lt5xYjjQzHPz",
-  "img": "icons/equipment/back/cloak-collared-purple-gold.webp",
+  "img": "icons/equipment/chest/robe-layered-red.webp",
   "system": {
     "description": "",
     "notes": "",
@@ -90,10 +90,10 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.0",
-    "coreVersion": "11.313",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.315",
     "createdTime": 1691344586905,
-    "modifiedTime": 1697662968198,
+    "modifiedTime": 1700677160601,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_key": "!items!R1d9lt5xYjjQzHPz"

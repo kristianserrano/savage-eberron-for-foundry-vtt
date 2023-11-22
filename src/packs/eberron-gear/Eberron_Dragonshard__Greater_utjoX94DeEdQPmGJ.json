@@ -2,7 +2,7 @@
   "folder": "3YYAHzepUzTTBf7c",
   "name": "Eberron Dragonshard, Greater",
   "type": "gear",
-  "img": "icons/commodities/gems/gem-rough-navette-red-pink.webp",
+  "img": "icons/commodities/gems/gem-cluster-red.webp",
   "system": {
     "description": "<p>Dragonshards are used as sources of magical power for crafting and powering magic items and as material components when conducting rituals (see @UUID[Compendium.swade-fantasy-companion.swade-fc.JournalEntry.swadefcp04arcana.JournalEntryPage.04preparedpowe00#ritual-magic]{Ritual Magic} in the <em>Savage Worlds Fantasy Companion</em>). An unattuned dragonshard has Hardness 10. The process of attunement softens a stone slightly, reducing its Hardness to 8.<br><span style=\"font-family: monospace\">[[4d4*10]]{Price}</span></p><p>[<strong>Note:</strong> You can overwrite the cost of the dragonshard with the price generated above to randomly determine the price of this specific shard.]</p>",
     "notes": "",
@@ -44,10 +44,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.0",
-    "coreVersion": "11.313",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.315",
     "createdTime": 1691350299768,
-    "modifiedTime": 1697662968167,
+    "modifiedTime": 1700676737877,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "utjoX94DeEdQPmGJ",
