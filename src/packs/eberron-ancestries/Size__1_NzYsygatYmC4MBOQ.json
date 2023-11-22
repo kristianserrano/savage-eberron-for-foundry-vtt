@@ -14,7 +14,43 @@
     "source": "Eberron for Savage Worlds",
     "swid": "size-1"
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Size -1",
+      "icon": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+      "changes": [
+        {
+          "key": "system.stats.size",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "6FvBp41OY8cDbP6A",
+      "disabled": false,
+      "duration": {
+        "startTime": 36,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Halflings are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}.</p>",
+      "origin": null,
+      "statuses": [],
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false
+        }
+      },
+      "tint": null,
+      "_key": "!items.effects!NzYsygatYmC4MBOQ.6FvBp41OY8cDbP6A"
+    }
+  ],
   "folder": "8duy0r5LaiffI3GL",
   "ownership": {
     "default": 0,
@@ -34,8 +70,8 @@
     "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1668046440817,
-    "modifiedTime": 1700249078041,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1700693613012,
+    "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "NzYsygatYmC4MBOQ",
   "sort": 0,
