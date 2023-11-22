@@ -1,5 +1,15 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.0.8
+
+- Adds House Phiarlan Entertainer/Spy and House Sivis Scribe.
+- Changes selected icons for dragonshards to visually seperate various sizes.
+- Fixes currency for House Medani Sentry and House Orien Courier.
+- Adds description to the Gnome's Reduced Pace Active Effect.
+- Fixes missing Halfling Reduced Pace Active Effect.
+- Fixes missing Halfling Size -1 active effect.
+- Updates the House Jorasco and House Ghallanda NPCs with corrected Halfling data.
+
 ## v1.0.7
 
 - Adds House Lyrandar Windwright, House Medani Sentry, and House Orien Courier.
