@@ -14,7 +14,47 @@
     "source": "Eberron for Savage Worlds",
     "swid": "reduced-pace"
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Reduced Pace",
+      "icon": "icons/skills/movement/figure-running-gray.webp",
+      "changes": [
+        {
+          "key": "system.stats.speed.value",
+          "mode": 2,
+          "value": "-1"
+        },
+        {
+          "key": "system.stats.speed.runningDie",
+          "mode": 2,
+          "value": "-2"
+        }
+      ],
+      "transfer": true,
+      "_id": "mS0Bcfrnz5QJs3uu",
+      "disabled": false,
+      "duration": {
+        "startTime": 36,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p>",
+      "origin": null,
+      "statuses": [],
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false
+        }
+      },
+      "tint": null,
+      "_key": "!items.effects!tLxkxKVqlU9zVX8r.mS0Bcfrnz5QJs3uu"
+    }
+  ],
   "folder": "8duy0r5LaiffI3GL",
   "ownership": {
     "default": 0,
@@ -34,8 +74,8 @@
     "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1668895717346,
-    "modifiedTime": 1700249078050,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1700692966845,
+    "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "tLxkxKVqlU9zVX8r",
   "sort": 0,
