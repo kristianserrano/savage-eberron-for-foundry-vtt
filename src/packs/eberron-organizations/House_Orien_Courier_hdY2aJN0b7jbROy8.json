@@ -90,7 +90,7 @@
       "species": {
         "name": ""
       },
-      "currency": 0,
+      "currency": 250,
       "wealth": {
         "die": 6,
         "modifier": 0,
@@ -884,7 +884,7 @@
         "systemVersion": "3.2.2",
         "coreVersion": "11.315",
         "createdTime": 1668046060853,
-        "modifiedTime": 1700544520836,
+        "modifiedTime": 1700544562091,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_id": "ON2qQYABSdbJeh0G",
@@ -2129,7 +2129,12 @@
   },
   "effects": [],
   "flags": {
-    "core": {}
+    "importerApp": {
+      "app": "SWADE Stat Block Importer",
+      "id": "swade-npc-importer",
+      "appVersion": "0.2.3",
+      "importDate": "2023-11-21T05:28:32.448Z"
+    }
   },
   "_id": "hdY2aJN0b7jbROy8",
   "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_C_15.webp",
@@ -2137,8 +2142,8 @@
     "systemId": "swade",
     "systemVersion": "3.2.2",
     "coreVersion": "11.315",
-    "createdTime": 1700544512459,
-    "modifiedTime": 1700545507570,
+    "createdTime": 1668046060853,
+    "modifiedTime": 1700693711367,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,
