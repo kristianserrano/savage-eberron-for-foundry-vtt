@@ -1,0 +1,2025 @@
+{
+  "name": "House Sivis Scribe",
+  "type": "npc",
+  "folder": "60oZUurgqUx9pdS9",
+  "system": {
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": false
+      },
+      "spirit": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "unShakeBonus": 0,
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "strength": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unStunBonus": 0,
+        "soakBonus": 0,
+        "bleedOut": {
+          "modifier": 0,
+          "ignoreWounds": false
+        }
+      }
+    },
+    "stats": {
+      "speed": {
+        "runningDie": 6,
+        "runningMod": 0,
+        "value": 6
+      },
+      "toughness": {
+        "value": 5,
+        "modifier": 0,
+        "armor": 0
+      },
+      "parry": {
+        "value": 6,
+        "shield": 0,
+        "modifier": 0
+      },
+      "size": 0
+    },
+    "details": {
+      "biography": {
+        "value": ""
+      },
+      "autoCalcToughness": true,
+      "autoCalcParry": true,
+      "archetype": "",
+      "appearance": "",
+      "notes": "",
+      "goals": "",
+      "species": {
+        "name": ""
+      },
+      "currency": 0,
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      },
+      "conviction": {
+        "value": 0,
+        "active": false
+      }
+    },
+    "powerPoints": {
+      "general": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "wounds": {
+      "max": 0,
+      "ignored": 0,
+      "value": 0
+    },
+    "initiative": {
+      "hasHesitant": false,
+      "hasLevelHeaded": false,
+      "hasImpLevelHeaded": false,
+      "hasQuick": false
+    },
+    "wildcard": false,
+    "additionalStats": {},
+    "bennies": {
+      "value": 0,
+      "max": 0
+    },
+    "fatigue": {
+      "value": 0,
+      "max": 2,
+      "ignored": 0
+    },
+    "woundsOrFatigue": {
+      "ignored": 0
+    },
+    "advances": {
+      "mode": "expanded",
+      "value": 0,
+      "rank": "Novice",
+      "details": "",
+      "list": []
+    },
+    "status": {
+      "isShaken": false,
+      "isDistracted": false,
+      "isVulnerable": false,
+      "isStunned": false,
+      "isEntangled": false,
+      "isBound": false,
+      "isIncapacitated": false
+    }
+  },
+  "items": [
+    {
+      "name": "Academics",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/graduate-cap.svg",
+      "system": {
+        "description": "<article class=\"swade-core\"><p>Academics reflects knowledge of the liberal arts, social sciences, literature, history, archaeology, and similar fields. If an explorer wants to remember when the Mayan calendar ended or cite a line from <cite>Macbeth</cite>, this is the skill to have.</p></article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "academics",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 10,
+          "modifier": 2
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "_id": "Gabn5sp8PwOdSlwb",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.Gabn5sp8PwOdSlwb"
+    },
+    {
+      "name": "Athletics",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/jump-across.svg",
+      "system": {
+        "description": "<article class=\"swade-core\">\n<p>Athletics combines an individual&rsquo;s coordin&shy;ation with learned skills such as climbing, jumping, balancing, biking, wrestling, skiing, swimming, throwing, or catching. Characters who rely on physical power more than coordination can take the @Compendium[swade-core-rules.swade-edges.Brute]{Brute} Edge to link this skill to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} instead of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility}.</p>\n</article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "athletics",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "_id": "B0IZLtW8vP1YclMw",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.B0IZLtW8vP1YclMw"
+    },
+    {
+      "name": "Common Knowledge",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/gift-of-knowledge.svg",
+      "system": {
+        "description": "<article class=\"swade-core\"><p>Characters roll Common Knowledge to know people, places, and things of their world, including etiquette, geography, culture, popular technology, contacts, and customs.</p></article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "common-knowledge",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": null,
+        "modifiedTime": 1700692372709,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "effects": [],
+      "_id": "qS9divqVeelOqdPv",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.qS9divqVeelOqdPv"
+    },
+    {
+      "name": "Fighting",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/punch.svg",
+      "system": {
+        "description": "<article class=\"swade-core\">\n<p>Fighting covers all hand-to-hand (melee) attacks, whether it&rsquo;s with fists, axes, laser swords, or martial arts. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{Chapter Three} for the combat rules and the various maneuvers a warrior might attempt.</p>\n</article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "fighting",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "_id": "igyoPRDNkgQJTr9X",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.igyoPRDNkgQJTr9X"
+    },
+    {
+      "name": "Notice",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/psychic-waves.svg",
+      "system": {
+        "description": "<article class=\"swade-core\">\n<p>Notice is a hero&rsquo;s general awareness and alertness. It&rsquo;s used to sense sights, sounds, tastes, and smells, spot clues, detect ambushes, spot hidden weapons on a foe, or tell if a rival is lying, frightened, happy, etc.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} conveys basic information&mdash;the character hears movement in the forest, smells distant smoke, or senses someone isn&rsquo;t being completely truthful.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise} grants more detail, such as the direction of a sound or odor or what topic a person is avoiding or lying about.</p>\n</article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "notice",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "_id": "OT3r5cR9fuqEv8kB",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.OT3r5cR9fuqEv8kB"
+    },
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/convince.svg",
+      "system": {
+        "description": "<article class=\"swade-core\">\n<p>Persuasion is the ability to convince others to do what you want through reason, cajoling, deception, rewards, or other friendly means. Persuasion isn&rsquo;t mind control. It can change someone&rsquo;s attitude but not their goals. A bandit may let you keep a sentimental piece of jewelry with a good Persuasion roll but still takes all your other goods.</p>\n<p>When used to @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{Support} allies it&rsquo;s an unopposed roll. If the target is resistant, it&rsquo;s an @JournalEntry[JBxsGv2wAoAmoCDe]{opposed} roll vs. the target&rsquo;s @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit}. The GM should modify the roll as she sees fit based on roleplaying, any pertinent @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edges} or @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrances} that affect the conversation, and the circumstances.</p>\n<p><strong>Reaction Level:</strong> How much a person is willing to cooperate depends largely on their attitude toward whoever&rsquo;s talking to them. The Game Master can decide how nonplayer characters feel based on the setting, or roll on the @Compendium[swade-core-rules.swade-tables.Reaction Table]{Reaction Table} if she has no preconceived notions.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} improves the target&rsquo;s attitude one level and a raise improves it two. Further increases aren&rsquo;t generally possible in the same encounter&mdash;it takes individuals a little time to adjust their biases.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Failure} means the target won&rsquo;t change his mind this scene or until the situation changes in some important way. A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical Failure} also <em>reduces</em> the target&rsquo;s attitude two levels.</p>\n<p>Only one roll should generally be allowed per interaction unless new information is revealed, a substantial reward is offered, etc.</p>\n<p><strong>Networking: </strong>Characters can also use Persuasion as a &ldquo;macro skill,&rdquo; simulating a few hours or an evening&rsquo;s time hobnobbing and socializing to gain favors or information. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{Networking}.</p>\n</article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "persuasion",
+        "additionalStats": {},
+        "attribute": "spirit",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "_id": "qM4nSnwGB6muDwZ7",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.qM4nSnwGB6muDwZ7"
+    },
+    {
+      "name": "Research",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/archive-research.svg",
+      "system": {
+        "description": "<article class=\"swade-core\">\n<p>A character skilled in Research knows how to make good use of libraries, newspaper morgues, the internet, or other written sources of information.</p>\n<p>The amount of time this takes is up to the GM and the situation. Finding something on the internet or a specific passage in a book might be possible in a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{combat round}. Looking through books in a library, searching the internet for a complex topic, or digging up background information on an individual usually takes about an hour.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} finds basic information and a raise provides more detail. @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Failure} means the researcher doesn&rsquo;t find what she&rsquo;s looking for.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical Failure} might mean the researcher finds plausible but incorrect information, triggers the notice of some opposed entity or faction, reads something &ldquo;Humanity Was Not Meant to Know&rdquo; and suffers a mental illness of some sort (a Minor @Compendium[swade-core-rules.swade-hindrances.Phobia]{Phobia}, @Compendium[swade-core-rules.swade-hindrances.Quirk]{Quirk}, etc.), or she might even accidentally destroy the source. The GM is encouraged to be creative when such a mishap occurs, perhaps forcing the party to approach the situation in a different way.</p>\n<p><strong>Related Skills: </strong>If a character has a skill that relates directly to the subject he&rsquo;s researching, he can use that instead of Research. An explorer with @Compendium[swade-core-rules.swade-skills.Occult]{Occult} d10 and Research d6, for example, rolls a d10 when investigating vampire lore at a forgotten library. If he later goes to search for the deed to a house where the vampires are rumored to lair, he rolls his normal Research instead.</p>\n<p><strong>Note: </strong>Research may only provide the clues, especially in a mystery-heavy game. Putting the clues together from the information gathered is up to the players.</p>\n</article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "research",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "_id": "pV4D4sWI0QfnGeLb",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.pV4D4sWI0QfnGeLb"
+    },
+    {
+      "name": "Stealth",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/hidden.svg",
+      "system": {
+        "description": "<article class=\"swade-core\">\n<p>Stealth is the ability to hide and move quietly. A simple @Compendium[swade-core-rules.swade-rules.Trait Rolls]{success} on a Stealth roll means the character avoids detection if enemies aren&rsquo;t particularly alert. If the character @Compendium[swade-core-rules.swade-rules.Trait Rolls]{fails} the roll, the enemy realizes something is amiss and begins actively searching for whatever roused them.</p>\n<p>Once foes are alerted and active, Stealth is opposed by @Compendium[swade-core-rules.swade-skills.Notice]{Notice} (a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{group roll} if there are many foes.</p>\n<p>The GM should apply any circumstantial penalties to @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls for @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{darkness}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{cover}, noise, distractions, and any difference in the target&rsquo;s @Compendium[swade-core-rules.swade-rules.Size and Scale]{Scale} (just like when attacking). Sneaking through dry leaves might subtract 2 from the Stealth roll, for example, while spotting someone in the dark uses the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} penalty (&minus;4). Don&rsquo;t apply the same modifier to both rolls, however. If Stealth is at &minus;2 for the leaves, don&rsquo;t give Notice a +2 for them as well.</p>\n<p><strong>Sneak Attack: </strong> Sneaking up close enough to make a melee attack <em>always</em> requires an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed} Stealth roll versus the target&rsquo;s @Compendium[swade-core-rules.swade-skills.Notice]{Notice}, whether the guard is actively looking for trouble or not. If successful, the victim is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{Vulnerable} to the attacker, but only until the attacker&rsquo;s turn ends. With a raise, the attacker has @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{The Drop} instead.</p>\n<p><strong>Movement:</strong> In combat, characters roll Stealth each turn as a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free action} at the end of their move or any action the GM thinks might draw attention.</p>\n<p>Out of combat, the distance moved depends entirely on the situation. The GM might want a roll every minute if the group is sneaking around the perimeter of a defensive position, or every few miles if they&rsquo;re trying to quietly walk the path through a dark forest without alerting the creatures that live there.</p>\n</article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "stealth",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": true,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "_id": "ayPOZ0tcQWk8Yp7R",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.ayPOZ0tcQWk8Yp7R"
+    },
+    {
+      "name": "Survival",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skills/camping-tent.svg",
+      "system": {
+        "description": "<article class=\"swade-core\">\n<p>Survival allows a character to find food, water, or shelter in hostile environments. It can also be used to navigate wilderness environments, figure out which plants are good to eat and which aren&rsquo;t, and so on.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{successful} Survival roll provides enough food and water for one person for one day; or five people with a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise}.</p>\n<p>More detailed information on @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hunger00000000]{Hunger} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04thirst00000000]{Thirst} can be found under @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{Hazards} section.</p>\n<p><strong>Tracking: </strong>Survival can also be used to detect and follow tracks. Each roll generally covers following the tracks for one mile, but the GM should adjust this as needed for specific circumstances.</p>\n<p>The Game Master should assign a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{bonus or penalty} based on the target, environment, and time. Tracking a large group that recently passed through a snow-covered area might grant a bonus of +4, while following a single person over rocks and streams after more than a day incurs a &minus;4 penalty.</p>\n</article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "survival",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "_id": "6kVsPiPeeYLoZTv4",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.6kVsPiPeeYLoZTv4"
+    },
+    {
+      "name": "Iron Jaw",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "system": {
+        "description": "<article class=\"swade-core\">\n<p>The hero can shrug off even extreme blows. He adds +2 to @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03soakrolls00000]{Soak rolls} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} rolls to avoid <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{Knockout Blows}</strong></p>\n</article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "iron-jaw",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Combat",
+        "grants": [],
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": 0,
+            "selector": "",
+            "combinator": "and"
+          }
+        ]
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [
+        {
+          "_id": "3ApraUkQKIqc2F4k",
+          "name": "Iron Jaw",
+          "changes": [
+            {
+              "key": "system.attributes.vigor.die.modifier",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "systems/swade/assets/icons/edge.svg",
+          "tint": null,
+          "transfer": true,
+          "description": "<article class=\"swade-core\">\n<p>Investigators spend a great deal of time researching ancient legends, working the streets, or deducing devilish mysteries. Some of these heroes are actual private investigators while others are sleuthing mages in a fantasy world or inquisitive college professors stumbling upon Things Man Was Not Meant to Know.</p>\n<p>Investigators add +2 to @Compendium[swade-core-rules.swade-skills.Research]{Research} rolls and @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls made to search through desks for important papers, sift through stacks of junk mail for something of note, or spy obscured items from piles of junk or debris</p>\n</article>",
+          "flags": {
+            "swade": {
+              "conditionalEffect": true
+            }
+          },
+          "origin": null,
+          "statuses": [],
+          "_key": "!actors.items.effects!oSri5RAJWuoi3F0Y.ADAxGivwKrOYbM6l.3ApraUkQKIqc2F4k"
+        }
+      ],
+      "_id": "ADAxGivwKrOYbM6l",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.ADAxGivwKrOYbM6l"
+    },
+    {
+      "name": "Linguist",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "system": {
+        "description": "<article class=\"swade-core\">\n<p>This world-traveler has an ear for languages. She begins play knowing half her @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Smarts} die type in different @Compendium[swade-core-rules.swade-skills.Language]{Language} skills of her choice at d6.</p>\n</article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "linguist",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Background",
+        "grants": [],
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": 0,
+            "selector": "",
+            "combinator": "and"
+          }
+        ]
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "_id": "tTtQAGd2a3lg7Rrt",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.tTtQAGd2a3lg7Rrt"
+    },
+    {
+      "name": "Scholar (Academics)",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "system": {
+        "description": "<article class=\"swade-core\">\n<p>Learned professors, devoted students, and amateur enthusiasts spend great amounts of time and energy studying particular subjects. They become experts in these fields, and rarely fail to answer questions in their particular area of expertise.</p>\n<p>Pick any one of the following skills: @Compendium[swade-core-rules.swade-skills.Academics]{Academics}, @Compendium[swade-core-rules.swade-skills.Battle]{Battle}, @Compendium[swade-core-rules.swade-skills.Occult]{Occult}, @Compendium[swade-core-rules.swade-skills.Science]{Science}, or a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Smarts}-based &ldquo;knowledge&rdquo;-type skill allowed in your setting, and add +2 to the total whenever they&rsquo;re used.</p>\n<p>This Edge may be taken more than once if applied to different skills.</p>\n</article>",
+        "notes": "",
+        "source": "SWADE Core Rules",
+        "swid": "scholar",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Professional",
+        "grants": [],
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": 0,
+            "selector": "",
+            "combinator": "and"
+          }
+        ]
+      },
+      "sort": 0,
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "_id": "5OcjkFRtesLAKjKv",
+      "folder": null,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.5OcjkFRtesLAKjKv"
+    },
+    {
+      "system": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "major": false,
+        "source": "",
+        "swid": "none",
+        "favorite": false,
+        "grants": []
+      },
+      "type": "hindrance",
+      "name": "Various",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "effects": [],
+      "flags": {},
+      "_id": "vH0Y4amQdFngaNOB",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.vH0Y4amQdFngaNOB"
+    },
+    {
+      "system": {
+        "description": "",
+        "equipStatus": 1,
+        "equippable": false,
+        "notes": "",
+        "source": "",
+        "swid": "none",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false
+      },
+      "type": "gear",
+      "name": "Parchment",
+      "img": "icons/sundries/documents/parchment-plain-tan.webp",
+      "effects": [],
+      "flags": {},
+      "_id": "i5ONMoJvxkQoXBP2",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": null,
+        "modifiedTime": 1700691795450,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.i5ONMoJvxkQoXBP2"
+    },
+    {
+      "system": {
+        "description": "",
+        "equipStatus": 1,
+        "equippable": false,
+        "notes": "",
+        "source": "",
+        "swid": "none",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false
+      },
+      "type": "gear",
+      "name": "Pens and Ink",
+      "img": "icons/tools/scribal/pen-steel-grey-brown.webp",
+      "effects": [],
+      "flags": {},
+      "_id": "hZQwObo0DXZoMLzs",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": null,
+        "modifiedTime": 1700691983085,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.hZQwObo0DXZoMLzs"
+    },
+    {
+      "system": {
+        "description": "",
+        "equipStatus": 3,
+        "equippable": true,
+        "notes": "",
+        "source": "",
+        "swid": "none",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false
+      },
+      "type": "gear",
+      "name": "Scholar's Outfit",
+      "img": "icons/equipment/chest/robe-layered-teal.webp",
+      "effects": [],
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_id": "FGjmhCGN4DTLX49p",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": null,
+        "modifiedTime": 1700692145500,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.FGjmhCGN4DTLX49p"
+    },
+    {
+      "name": "Language (Common)",
+      "type": "skill",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
+      "system": {
+        "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "Eberron for Savage Worlds",
+        "swid": "language-common"
+      },
+      "effects": [],
+      "folder": "ktcv7W97mLQMloS8",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.avUYdNVxJb8BFaKT"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690860753470,
+        "modifiedTime": 1700690817629,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "KuCfZzHc44Ixc1q9",
+      "sort": 2300000,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.KuCfZzHc44Ixc1q9"
+    },
+    {
+      "name": "Language (Gnome)",
+      "type": "skill",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
+      "system": {
+        "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "Eberron for Savage Worlds",
+        "swid": "language-gnome"
+      },
+      "effects": [],
+      "folder": "ktcv7W97mLQMloS8",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.25yMsZ2jq21DR9GU"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690860753470,
+        "modifiedTime": 1700690827823,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "bshi5QRKVUHCpQxc",
+      "sort": 1400000,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.bshi5QRKVUHCpQxc"
+    },
+    {
+      "name": "Language (Dwarven)",
+      "type": "skill",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
+      "system": {
+        "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "Eberron for Savage Worlds",
+        "swid": "language-dwarven"
+      },
+      "effects": [],
+      "folder": "ktcv7W97mLQMloS8",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.P61IJY6hPvYW6cSA"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690860753470,
+        "modifiedTime": 1700690836681,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "3OYpap4OVSldNlOH",
+      "sort": 1800000,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.3OYpap4OVSldNlOH"
+    },
+    {
+      "name": "Language (Elven)",
+      "type": "skill",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
+      "system": {
+        "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "Eberron for Savage Worlds",
+        "swid": "language-elven"
+      },
+      "effects": [],
+      "folder": "ktcv7W97mLQMloS8",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.cmhmhrLLJdvKU3a3"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690860753470,
+        "modifiedTime": 1700690840786,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "ZUtS38dQxCMu3src",
+      "sort": 1700000,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.ZUtS38dQxCMu3src"
+    },
+    {
+      "name": "Language (Halfling)",
+      "type": "skill",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
+      "system": {
+        "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "Eberron for Savage Worlds",
+        "swid": "language-halfling"
+      },
+      "effects": [],
+      "folder": "ktcv7W97mLQMloS8",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.sVJOJPXxAcNufVt1"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690860753470,
+        "modifiedTime": 1700690847478,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "cXavupDhAxCD1S8L",
+      "sort": 1200000,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.cXavupDhAxCD1S8L"
+    },
+    {
+      "name": "Language (Goblin)",
+      "type": "skill",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
+      "system": {
+        "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "Eberron for Savage Worlds",
+        "swid": "language-goblin"
+      },
+      "effects": [],
+      "folder": "ktcv7W97mLQMloS8",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.MGKLJpt0OelILz2z"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690860753470,
+        "modifiedTime": 1700690855903,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "ZLM5A29Na9gJZECs",
+      "sort": 1300000,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.ZLM5A29Na9gJZECs"
+    },
+    {
+      "name": "Language (Orc)",
+      "type": "skill",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
+      "system": {
+        "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "Eberron for Savage Worlds",
+        "swid": "language-orc"
+      },
+      "effects": [],
+      "folder": "ktcv7W97mLQMloS8",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.mjXl0MiJLy4uS9tK"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690860753470,
+        "modifiedTime": 1700690863938,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "bNErGyK6pj8HZLZ7",
+      "sort": 600000,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.bNErGyK6pj8HZLZ7"
+    },
+    {
+      "folder": "rmMZ8nKTRru5pDGY",
+      "name": "Identification Papers",
+      "type": "gear",
+      "_id": "4JDUJqmhIy9AcXYZ",
+      "img": "icons/sundries/documents/document-official-capital.webp",
+      "system": {
+        "description": "<p>Most people of the middle and upper classes, at least in the most civilized areas of Khorvaire (Aundair, Breland, Karrnath, Thrane, Zilargo, and the Mror Holds) carry identification papers with them at all times. Issued by national governments and notarized by House Sivis, these papers present a detailed physical description of a person (the wealthy sometimes commission small portraits of themselves), the person’s name and residence, and in some cases additional information about the person’s affiliations (particularly including any connection to a dragonmarked house, royalty, or a large institution).</p>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 2,
+        "equippable": false,
+        "equipStatus": 3,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "",
+          "traitMod": ""
+        },
+        "favorite": false,
+        "category": "Documents",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "source": "Eberron for Savage Worlds",
+        "swid": "identification-papers"
+      },
+      "effects": [],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-gear.Item.EdL1Z0EfYcIF3tK8"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1691347302346,
+        "modifiedTime": 1700691715327,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.4JDUJqmhIy9AcXYZ"
+    },
+    {
+      "folder": "rmMZ8nKTRru5pDGY",
+      "name": "Traveling Papers",
+      "type": "gear",
+      "_id": "XEz8MXzVrjkNXwCe",
+      "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+      "system": {
+        "description": "<p>Anyone who travels across national borders is usually required to carry traveling papers identifying them, their residence, their destination, and their reason for travel. Traveling papers consist of a parchment sheet with the appropriate information and an arcane mark, carried in a leather folder. House Sivis, House Orien, House Deneith, and House Lyrandar all offer traveling papers that are recognized throughout central Khorvaire.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0.2,
+        "equippable": false,
+        "equipStatus": 3,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "",
+          "traitMod": ""
+        },
+        "favorite": false,
+        "category": "Documents",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "source": "Eberron for Savage Worlds",
+        "swid": "traveling-papers"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-gear.Item.7aEWMIrf7xme1Z3R"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1691347568948,
+        "modifiedTime": 1700691716762,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.XEz8MXzVrjkNXwCe"
+    },
+    {
+      "_id": "YQm27YBJljbfNng8",
+      "name": "Cloak of Minor Arcane Protection",
+      "type": "gear",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_MagicItem.webp",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "description": "<article class=\"swadefc\"><p><strong>Cloak of Minor </strong><em><strong>Arcane Protection</strong></em><strong>:</strong> When the wearer of this cloak dons its hood, they benefit from the effects of minor <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.qjflUvZxnhUF91dS]{arcane protection}</em>. Anyone targeting them with a hostile power suffers a −2 penalty.</p><ul><li><strong>Price:</strong> 9,000; <strong>Weight:</strong> 1 lb.</li></ul></article>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 1,
+        "price": 9000,
+        "equippable": true,
+        "equipStatus": 3,
+        "isVehicular": false,
+        "mods": 1,
+        "favorite": false,
+        "category": "Magic Item",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "swid": "cloak-of-protection",
+        "isArcaneDevice": true,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {
+          "value": null,
+          "max": null
+        },
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        }
+      },
+      "effects": [],
+      "sort": 100000,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-gear.Item.vRw5PUklQFgMqCxI"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion",
+          "embeddedInjections": [
+            {
+              "power": {
+                "name": "Protection",
+                "updates": {
+                  "system": {
+                    "innate": true
+                  }
+                },
+                "module": "swade-fantasy-companion"
+              }
+            }
+          ]
+        },
+        "swade": {
+          "embeddedPowers": [
+            [
+              "RDhxSS8v2OD69W70",
+              {
+                "_id": "cuuokKqJ5IgaYdNT",
+                "name": "Protection",
+                "type": "power",
+                "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+                "system": {
+                  "description": "<article class=\"swadefc\"><p>\n<em>Protection</em> creates a field of energy or armor around a character, giving him 2 points of Armor. With a\n    raise, the bonus is applied to Toughness instead (and therefore immune to Armor Piercing modifiers).\n  </p>\n<p>Whether the <em>protection</em> is visible or not depends on the Trapping-this is entirely up to the caster.</p>\n<p><em>Protection</em> stacks with all other armor, natural or worn.</p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Additional Recipients (+1):</strong> The power may affect additional targets at a cost of 1 Power Point\n      each.\n    </li>\n</ul></article>",
+                  "notes": "",
+                  "additionalStats": {},
+                  "equippable": false,
+                  "equipped": false,
+                  "actions": {
+                    "skill": "",
+                    "skillMod": "",
+                    "dmgMod": "",
+                    "additional": {}
+                  },
+                  "rank": "Novice",
+                  "pp": 1,
+                  "damage": "",
+                  "range": "Smarts",
+                  "duration": "5",
+                  "trapping": "A mystical glow, bark skin, mage armor, ethereal armor",
+                  "arcane": "",
+                  "skill": "",
+                  "modifiers": [],
+                  "category": "Novice",
+                  "templates": {
+                    "cone": false,
+                    "stream": false,
+                    "small": false,
+                    "medium": false,
+                    "large": false
+                  },
+                  "ap": 0,
+                  "innate": true,
+                  "source": "Fantasy Companion",
+                  "swid": "protection"
+                },
+                "effects": [],
+                "sort": 0,
+                "flags": {
+                  "core": {
+                    "sheetClass": "swade.SWADEFCItem"
+                  },
+                  "singleSource": {
+                    "version": "2.0.0-alpha",
+                    "module": "swade-fantasy-companion"
+                  }
+                }
+              }
+            ]
+          ]
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1699029844274,
+        "modifiedTime": 1700691741646,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.YQm27YBJljbfNng8"
+    },
+    {
+      "_id": "lhF6XdQFcEUIZ3Zg",
+      "name": "Staff/Quarterstaff",
+      "type": "weapon",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Weapon.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "",
+        "notes": "Parry +1, Reach 1, Two Hands",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 4,
+        "price": 0,
+        "equippable": true,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {
+            "uzpkmDl780zz0000": {
+              "name": "Frenzy",
+              "type": "trait",
+              "dice": 2,
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          },
+          "trait": "Fighting",
+          "traitMod": ""
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false,
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "damage": "@str+d4",
+        "range": "",
+        "rof": 1,
+        "ap": 0,
+        "parry": 1,
+        "minStr": "d4",
+        "shots": null,
+        "currentShots": 0,
+        "ammo": "",
+        "reloadType": "none",
+        "ppReloadCost": 2,
+        "trademark": 0,
+        "isHeavyWeapon": false,
+        "swid": "staffquarterstaff",
+        "equipStatus": 4
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-weapons.Item.uzpkmDl780zz0033"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion",
+          "fullDescription": " | Melee Weapons | "
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700692176527,
+        "modifiedTime": 1700692176527,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.lhF6XdQFcEUIZ3Zg"
+    },
+    {
+      "name": "Gnome",
+      "type": "ability",
+      "_id": "z9BjPUJ7RP4lIsk8",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<ul><li><p><strong>Illusionist (+4):</strong> Gnomes can create imaginary images and sounds using the illusion power with the Sound Modifier at will.</p></li><li><p><strong>Knowledgeable (+1):</strong> Gnomes begin play with a d6 in Common Knowledge. This increases their maximum Common Knowledge to d12+1.</p></li><li><p><strong>Low Light Vision (+1):</strong> Gnomes’ eyes are accustomed to seeing below ground. They ignore attack penalties for Dim and Dark Illumination.</p></li><li><p><strong>Reduced Pace (−1):</strong> Gnomes have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p></li><li><p><strong>Size −1 (−1):</strong> Gnomes are considered Size −1 and have −1 Toughness.</p></li></ul>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Ancestry",
+        "subtype": "ancestry",
+        "grantsPowers": false,
+        "grants": [
+          {
+            "name": "Illusionist",
+            "img": "icons/magic/light/explosion-impact-purple.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.69mlN7RPThOItE0Y",
+            "mutation": {}
+          },
+          {
+            "name": "Knowledgeable",
+            "img": "icons/sundries/books/book-stack.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.PzcGVaFqhlHunIFV",
+            "mutation": {}
+          },
+          {
+            "name": "Low Light Vision",
+            "img": "icons/magic/perception/eye-ringed-green.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.nISysFbSwDSyGQGy",
+            "mutation": {}
+          },
+          {
+            "name": "Reduced Pace",
+            "img": "icons/skills/movement/figure-running-gray.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.zuzt8KlZWojyOykw",
+            "mutation": {}
+          },
+          {
+            "name": "Size -1",
+            "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.VBhnvrcEKvXnN9S9",
+            "mutation": {}
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "gnome"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-ancestries.Item.pFn4fhlTKBM1XI3v"
+        },
+        "swade": {
+          "hasGranted": [
+            "Umqb79uz3K8BxVhA",
+            "zCAmE4MJZoTvkrNH",
+            "qGG6Xz333VNxTMWH",
+            "ON7to6oqxZQgez2b",
+            "lAkba4PEjMEyiq3Q"
+          ]
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690513020903,
+        "modifiedTime": 1700693002980,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.z9BjPUJ7RP4lIsk8"
+    },
+    {
+      "folder": "JMdHl51LHgGFlyNx",
+      "name": "Illusionist",
+      "type": "ability",
+      "_id": "Umqb79uz3K8BxVhA",
+      "img": "icons/magic/light/explosion-impact-purple.webp",
+      "system": {
+        "description": "<p>Gnomes can create imaginary images and sounds using the illusion power with the Sound Modifier at will.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Gnome",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "illusionist"
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1689616216195,
+        "modifiedTime": 1700693002932,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.Umqb79uz3K8BxVhA"
+    },
+    {
+      "folder": "JMdHl51LHgGFlyNx",
+      "name": "Knowledgeable",
+      "type": "ability",
+      "_id": "zCAmE4MJZoTvkrNH",
+      "img": "icons/sundries/books/book-stack.webp",
+      "system": {
+        "description": "<p>Gnomes begin play with a d6 in @UUID[Compendium.swade-core-rules.swade-skills.Item.su7eyijoB0RFpRB1]{Common Knowledge}. This increases their maximum Common Knowledge to d12+1.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Gnome",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "knowledgeable"
+      },
+      "effects": [
+        {
+          "icon": "systems/swade/assets/icons/active-effect.svg",
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null
+            }
+          },
+          "changes": [
+            {
+              "key": "@Skill{Common Knowledge}[system.die.sides]",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "name": "Starting Common Knowledge d6",
+          "_id": "doDw2YFU5hS84V66",
+          "disabled": false,
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "_key": "!actors.items.effects!oSri5RAJWuoi3F0Y.zCAmE4MJZoTvkrNH.doDw2YFU5hS84V66"
+        }
+      ],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690513161502,
+        "modifiedTime": 1700693002932,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.zCAmE4MJZoTvkrNH"
+    },
+    {
+      "folder": "JMdHl51LHgGFlyNx",
+      "name": "Low Light Vision",
+      "type": "ability",
+      "img": "icons/magic/perception/eye-ringed-green.webp",
+      "system": {
+        "description": "<p>Gnomes ignore penalties for Dim and Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} (but not Pitch Darkness).</p>",
+        "notes": "Racial",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Gnome",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "low-light-vision"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.5"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1668045742153,
+        "modifiedTime": 1700693002932,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "qGG6Xz333VNxTMWH",
+      "sort": 400000,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.qGG6Xz333VNxTMWH"
+    },
+    {
+      "name": "Reduced Pace",
+      "type": "ability",
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "system": {
+        "description": "<p>Gnomes have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Gnome",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "reduced-pace"
+      },
+      "effects": [
+        {
+          "icon": "icons/skills/movement/figure-running-gray.webp",
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "changes": [
+            {
+              "key": "system.stats.speed.value",
+              "mode": 2,
+              "value": "-1",
+              "priority": null
+            },
+            {
+              "key": "system.stats.speed.runningDie",
+              "mode": 2,
+              "value": "-2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "d7E4snlTUokCbg8H",
+          "disabled": false,
+          "origin": null,
+          "tint": null,
+          "name": "Reduced Pace",
+          "description": "<p>Gnomes have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p>",
+          "statuses": [],
+          "_key": "!actors.items.effects!oSri5RAJWuoi3F0Y.ON7to6oqxZQgez2b.d7E4snlTUokCbg8H"
+        }
+      ],
+      "folder": "JMdHl51LHgGFlyNx",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.5"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1668895717346,
+        "modifiedTime": 1700693002932,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "ON7to6oqxZQgez2b",
+      "sort": 200000,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.ON7to6oqxZQgez2b"
+    },
+    {
+      "name": "Size -1",
+      "type": "ability",
+      "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+      "system": {
+        "description": "<p>Gnomes are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}.</p>",
+        "notes": "Racial",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Gnome",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "size-1"
+      },
+      "effects": [
+        {
+          "icon": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            },
+            "ActiveAuras": {
+              "isAura": false,
+              "aura": "None",
+              "radius": null,
+              "alignment": "",
+              "type": "",
+              "ignoreSelf": false,
+              "height": false,
+              "hidden": false,
+              "displayTemp": false,
+              "hostile": false,
+              "onlyOnce": false,
+              "wildcard": false,
+              "extra": false
+            }
+          },
+          "changes": [
+            {
+              "key": "system.stats.size",
+              "mode": 2,
+              "value": "-1",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "XxV5APC8EXg7pNed",
+          "disabled": false,
+          "origin": null,
+          "tint": null,
+          "name": "Size -1",
+          "description": "<p>Halflings are considered Size −1 and have −1 Toughness.</p>",
+          "statuses": [],
+          "_key": "!actors.items.effects!oSri5RAJWuoi3F0Y.lAkba4PEjMEyiq3Q.XxV5APC8EXg7pNed"
+        }
+      ],
+      "folder": "JMdHl51LHgGFlyNx",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.5"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1668046440817,
+        "modifiedTime": 1700693002932,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "lAkba4PEjMEyiq3Q",
+      "sort": 0,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.lAkba4PEjMEyiq3Q"
+    }
+  ],
+  "prototypeToken": {
+    "displayName": 0,
+    "disposition": 0,
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "texture": {
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp",
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "name": "House Sivis Scribe",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stats.parry.value"
+    },
+    "bar2": {
+      "attribute": "toughness.total"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "flags": {
+    "importerApp": {
+      "app": "SWADE Stat Block Importer",
+      "id": "swade-npc-importer",
+      "appVersion": "0.2.3",
+      "importDate": "2023-11-22T22:04:43.530Z"
+    },
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        }
+      }
+    },
+    "core": {}
+  },
+  "_id": "oSri5RAJWuoi3F0Y",
+  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp",
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700690683545,
+    "modifiedTime": 1700693711820,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!actors!oSri5RAJWuoi3F0Y"
+}
