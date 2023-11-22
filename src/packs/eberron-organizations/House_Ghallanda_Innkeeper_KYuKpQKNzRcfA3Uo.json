@@ -212,544 +212,6 @@
   },
   "items": [
     {
-      "name": "Halfling",
-      "type": "ability",
-      "_id": "zDqhSlkMdlx84p9o",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "description": "<ul><li><p><strong>Athletic (+1):</strong> Halflings are nimble beings. They start with a d6 in Athletics instead of a d4. This increases their maximum Athletics to d12+1.</p></li><li><p><strong>Brave (+2):</strong> Halflings have the Brave Edge. Through cultural inheritance, they retain some amount of fearlessness from their Talentan origins.</p></li><li><p><strong>Lucky (+2):</strong> Halflings have the Luck Edge, seemingly able to find their way out of unideal situations.</p></li><li><p><strong>Reduced Pace (−1):</strong> Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p></li><li><p><strong>Size −1 (−1):</strong> Halflings are considered Size −1 and have −1 Toughness.</p></li><li><p><strong>Stealthy (+1):</strong> Halflings begin play with a d6 in Stealth. This increases their maximum Stealth to d12+1.</p></li></ul>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Ancestry",
-        "subtype": "ancestry",
-        "grantsPowers": false,
-        "grants": [
-          {
-            "name": "Athletic",
-            "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.29clVk6oxj4dNNLd",
-            "mutation": {}
-          },
-          {
-            "name": "Brave",
-            "img": "icons/magic/control/control-influence-rally-purple.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.503fYtYLikz9Ki4B",
-            "mutation": {}
-          },
-          {
-            "name": "Lucky",
-            "img": "icons/magic/control/buff-luck-fortune-clover-green.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.IqnRHxj6zm6zR8US",
-            "mutation": {}
-          },
-          {
-            "name": "Size -1",
-            "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.NzYsygatYmC4MBOQ",
-            "mutation": {}
-          },
-          {
-            "name": "Stealthy",
-            "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.em0FNb3o7augNgfu",
-            "mutation": {}
-          },
-          {
-            "name": "Reduced Pace",
-            "img": "icons/skills/movement/figure-running-gray.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.tLxkxKVqlU9zVX8r",
-            "mutation": {}
-          }
-        ],
-        "source": "Eberron for Savage Worlds",
-        "swid": "halfling"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 700000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-ancestries.Item.l6ZMBFuf2meW7LmK"
-        },
-        "swade": {
-          "hasGranted": [
-            "WN9QKmLV8AAlZGnM",
-            "JTvalJ6Q86rLnSnl",
-            "YZOy6sP7NdUsyXOk",
-            "yI5HRo2PfyyG3N5g",
-            "FNbwnkzzB2p2SOyr",
-            "5KLdphc4dFgs6ACD",
-            "4EENlZV2nwMlPJMq",
-            "tDDnfQCAVstzB6hf"
-          ]
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1690319936949,
-        "modifiedTime": 1693887480647,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.zDqhSlkMdlx84p9o"
-    },
-    {
-      "folder": "8duy0r5LaiffI3GL",
-      "name": "Athletic",
-      "type": "ability",
-      "_id": "WN9QKmLV8AAlZGnM",
-      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
-      "system": {
-        "description": "<p>Halflings are nimble beings. They start with a d6 in Athletics instead of a d4. This increases their maximum Athletics to d12+1.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Halfling",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "athletic"
-      },
-      "effects": [
-        {
-          "icon": "icons/skills/movement/feet-winged-sandals-tan.webp",
-          "duration": {
-            "rounds": null,
-            "startTime": 36,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "loseTurnOnHold": false
-            }
-          },
-          "changes": [
-            {
-              "key": "@Skill{Athletics}[system.die.sides]",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "name": "Starting Athletics d6",
-          "_id": "rx3YOVmYsu0KDACS",
-          "disabled": false,
-          "description": "<p>Start with a d6 in Athletics instead of a d4. This increases their maximum Athletics to d12+1.</p>",
-          "origin": null,
-          "statuses": [],
-          "tint": null,
-          "_key": "!actors.items.effects!KYuKpQKNzRcfA3Uo.WN9QKmLV8AAlZGnM.rx3YOVmYsu0KDACS"
-        }
-      ],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1690318710962,
-        "modifiedTime": 1693887480617,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.WN9QKmLV8AAlZGnM"
-    },
-    {
-      "folder": "8duy0r5LaiffI3GL",
-      "name": "Brave",
-      "type": "ability",
-      "_id": "JTvalJ6Q86rLnSnl",
-      "img": "icons/magic/control/control-influence-rally-purple.webp",
-      "system": {
-        "description": "<p>Halflings have the @UUID[Compendium.swade-core-rules.swade-edges.Item.hMTj68saxoF5i5Ul]{Brave Edge}. Through cultural inheritance, they retain some amount of fearlessness from their Talentan origins.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Halfling",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [
-          {
-            "name": "Brave",
-            "img": "systems/swade/assets/icons/edge.svg",
-            "uuid": "Compendium.swade-core-rules.swade-edges.Item.hMTj68saxoF5i5Ul",
-            "mutation": {}
-          }
-        ],
-        "source": "Eberron for Savage Worlds",
-        "swid": "brave"
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1690319435925,
-        "modifiedTime": 1693887480617,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.JTvalJ6Q86rLnSnl"
-    },
-    {
-      "folder": "8duy0r5LaiffI3GL",
-      "name": "Lucky",
-      "type": "ability",
-      "_id": "YZOy6sP7NdUsyXOk",
-      "img": "icons/magic/control/buff-luck-fortune-clover-green.webp",
-      "system": {
-        "description": "<p>Halflings have the @UUID[Compendium.swade-core-rules.swade-edges.Item.7huwXlataZ2OaQXL]{Luck Edge}, seemingly able to find their way out of unideal situations.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Halfling",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [
-          {
-            "name": "Luck",
-            "img": "systems/swade/assets/icons/edge.svg",
-            "uuid": "Compendium.swade-core-rules.swade-edges.Item.7huwXlataZ2OaQXL",
-            "mutation": {}
-          }
-        ],
-        "source": "Eberron for Savage Worlds",
-        "swid": "lucky"
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1690319630902,
-        "modifiedTime": 1693887480617,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.YZOy6sP7NdUsyXOk"
-    },
-    {
-      "name": "Size -1",
-      "type": "ability",
-      "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
-      "system": {
-        "description": "<p>Halflings are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}.</p>",
-        "notes": "Racial",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Halfling",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "size-1"
-      },
-      "effects": [],
-      "folder": "8duy0r5LaiffI3GL",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {},
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1668046440817,
-        "modifiedTime": 1693887480617,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_id": "yI5HRo2PfyyG3N5g",
-      "sort": 0,
-      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.yI5HRo2PfyyG3N5g"
-    },
-    {
-      "name": "Stealthy",
-      "type": "ability",
-      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
-      "system": {
-        "description": "<p>Halflings begin play with a d6 in @Compendium[swade-core-rules.swade-skills.bFaYnzftXwQ9p4Si]{Stealth}. This increases their maximum Stealth to d12+1.</p>",
-        "notes": "Racial",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Halfling",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "stealthy"
-      },
-      "effects": [
-        {
-          "icon": "icons/magic/perception/silhouette-stealth-shadow.webp",
-          "duration": {
-            "rounds": null,
-            "startTime": 36,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "loseTurnOnHold": false
-            }
-          },
-          "changes": [
-            {
-              "key": "@Skill{Stealth}[system.die.sides]",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "_id": "aEdOZ9gR6wd5p8ms",
-          "disabled": false,
-          "origin": null,
-          "tint": null,
-          "name": "Starting Stealth d6",
-          "description": "",
-          "statuses": [],
-          "_key": "!actors.items.effects!KYuKpQKNzRcfA3Uo.FNbwnkzzB2p2SOyr.aEdOZ9gR6wd5p8ms"
-        }
-      ],
-      "folder": "8duy0r5LaiffI3GL",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {},
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1668046428244,
-        "modifiedTime": 1693887480617,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_id": "FNbwnkzzB2p2SOyr",
-      "sort": 0,
-      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.FNbwnkzzB2p2SOyr"
-    },
-    {
-      "name": "Reduced Pace",
-      "type": "ability",
-      "img": "icons/skills/movement/figure-running-gray.webp",
-      "system": {
-        "description": "<p>Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Halfling",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "reduced-pace"
-      },
-      "effects": [],
-      "folder": "8duy0r5LaiffI3GL",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1668895717346,
-        "modifiedTime": 1693887480617,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_id": "5KLdphc4dFgs6ACD",
-      "sort": 0,
-      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.5KLdphc4dFgs6ACD"
-    },
-    {
-      "_id": "4EENlZV2nwMlPJMq",
-      "effects": [],
-      "folder": null,
-      "img": "systems/swade/assets/icons/edge.svg",
-      "name": "Brave",
-      "sort": 0,
-      "type": "edge",
-      "system": {
-        "source": "SWADE Core Rules",
-        "additionalStats": {},
-        "description": "<article class=\"swade-core\">\n<p>Those with this Edge have learned to master their fear, or have dealt with so many horrors they’ve become jaded. These valiant explorers add +2 to @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fear0000000000]{Fear} checks and subtract 2 from <strong>@Compendium[swade-core-rules.swade-tables.Fear Table]{Fear Table} </strong>results.</p>\n</article>",
-        "isArcaneBackground": false,
-        "notes": "",
-        "requirements": [
-          {
-            "type": "rank",
-            "value": 0,
-            "selector": "",
-            "combinator": "and"
-          },
-          {
-            "type": "other",
-            "label": "Spirit d6+",
-            "selector": "",
-            "value": "",
-            "combinator": "and"
-          }
-        ],
-        "category": "Background",
-        "favorite": false,
-        "grants": [],
-        "swid": "brave"
-      },
-      "ownership": {
-        "7ntJSLixH2Phv2jV": 3,
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1693887480617,
-        "modifiedTime": 1693887480617,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.4EENlZV2nwMlPJMq"
-    },
-    {
-      "_id": "tDDnfQCAVstzB6hf",
-      "effects": [
-        {
-          "_id": "RHUEBuZR1iLofMhq",
-          "changes": [
-            {
-              "key": "system.bennies.max",
-              "mode": 2,
-              "value": "1",
-              "priority": null
-            }
-          ],
-          "disabled": false,
-          "duration": {
-            "startTime": 36,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {},
-          "icon": "systems/swade/assets/icons/edge.svg",
-          "name": "Luck",
-          "tint": null,
-          "transfer": true,
-          "description": "<article class=\"swade-core\">\n<p>The adventurer seems to be blessed by fate, karma, the gods, or whatever external forces he believes in (or believe in him!). </p>\n<p>He draws one extra @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{Benny} at the beginning of each game session, allowing him to succeed at important tasks more often than most, and survive incredible dangers.</p>\n</article>",
-          "origin": null,
-          "statuses": [],
-          "_key": "!actors.items.effects!KYuKpQKNzRcfA3Uo.tDDnfQCAVstzB6hf.RHUEBuZR1iLofMhq"
-        }
-      ],
-      "flags": {},
-      "folder": null,
-      "img": "systems/swade/assets/icons/edge.svg",
-      "name": "Luck",
-      "sort": 0,
-      "type": "edge",
-      "system": {
-        "source": "SWADE Core Rules",
-        "additionalStats": {},
-        "description": "<article class=\"swade-core\">\n<p>The adventurer seems to be blessed by fate, karma, the gods, or whatever external forces he believes in (or believe in him!). </p>\n<p>He draws one extra @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{Benny} at the beginning of each game session, allowing him to succeed at important tasks more often than most, and survive incredible dangers.</p>\n</article>",
-        "isArcaneBackground": false,
-        "notes": "",
-        "requirements": [
-          {
-            "type": "rank",
-            "value": 0,
-            "selector": "",
-            "combinator": "and"
-          }
-        ],
-        "category": "Background",
-        "favorite": false,
-        "grants": [],
-        "swid": "luck"
-      },
-      "ownership": {
-        "7ntJSLixH2Phv2jV": 3,
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1693887480617,
-        "modifiedTime": 1693887480617,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.tDDnfQCAVstzB6hf"
-    },
-    {
       "_id": "fQogTmSCClTGoICe",
       "effects": [
         {
@@ -786,7 +248,7 @@
       "folder": null,
       "img": "systems/swade/assets/icons/edge.svg",
       "name": "Level Headed",
-      "sort": 0,
+      "sort": 200000,
       "type": "edge",
       "system": {
         "source": "SWADE Core Rules",
@@ -829,10 +291,10 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
         "createdTime": 1693887561282,
-        "modifiedTime": 1693887561316,
+        "modifiedTime": 1700693418058,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!KYuKpQKNzRcfA3Uo.fQogTmSCClTGoICe"
@@ -890,7 +352,7 @@
       "folder": null,
       "img": "systems/swade/assets/icons/edge.svg",
       "name": "Streetwise",
-      "sort": 0,
+      "sort": 300000,
       "type": "edge",
       "system": {
         "source": "SWADE Core Rules",
@@ -933,10 +395,10 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
         "createdTime": 1693887565410,
-        "modifiedTime": 1693887565434,
+        "modifiedTime": 1700693418058,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!KYuKpQKNzRcfA3Uo.QJcYETXvh3KQoQVp"
@@ -1428,7 +890,7 @@
         "description": "<article class=\"swade-core\">\n<p>Athletics combines an individual’s coordin­ation with learned skills such as climbing, jumping, balancing, biking, wrestling, skiing, swimming, throwing, or catching. Characters who rely on physical power more than coordination can take the @Compendium[swade-core-rules.swade-edges.Brute]{Brute} Edge to link this skill to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} instead of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility}.</p>\n</article>",
         "die": {
           "modifier": 0,
-          "sides": 8
+          "sides": 6
         },
         "isCoreSkill": false,
         "notes": "",
@@ -1449,10 +911,10 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
         "createdTime": 1693888594837,
-        "modifiedTime": 1693888682635,
+        "modifiedTime": 1700693385545,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!KYuKpQKNzRcfA3Uo.GeIMok2WQEcmdQGq"
@@ -2024,6 +1486,699 @@
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!KYuKpQKNzRcfA3Uo.SJ4u9JDoohk2eanl"
+    },
+    {
+      "_id": "C5L2Qd7XHL8tBwwm",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/hidden.svg",
+      "name": "Stealth",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Stealth is the ability to hide and move quietly. A simple @Compendium[swade-core-rules.swade-rules.Trait Rolls]{success} on a Stealth roll means the character avoids detection if enemies aren’t particularly alert. If the character @Compendium[swade-core-rules.swade-rules.Trait Rolls]{fails} the roll, the enemy realizes something is amiss and begins actively searching for whatever roused them.</p>\n<p>Once foes are alerted and active, Stealth is opposed by @Compendium[swade-core-rules.swade-skills.Notice]{Notice} (a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{group roll} if there are many foes.</p>\n<p>The GM should apply any circumstantial penalties to @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls for @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{darkness}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{cover}, noise, distractions, and any difference in the target’s @Compendium[swade-core-rules.swade-rules.Size and Scale]{Scale} (just like when attacking). Sneaking through dry leaves might subtract 2 from the Stealth roll, for example, while spotting someone in the dark uses the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} penalty (−4). Don’t apply the same modifier to both rolls, however. If Stealth is at −2 for the leaves, don’t give Notice a +2 for them as well.</p>\n<p><strong>Sneak Attack: </strong> Sneaking up close enough to make a melee attack <em>always</em> requires an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed} Stealth roll versus the target’s @Compendium[swade-core-rules.swade-skills.Notice]{Notice}, whether the guard is actively looking for trouble or not. If successful, the victim is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{Vulnerable} to the attacker, but only until the attacker’s turn ends. With a raise, the attacker has @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{The Drop} instead.</p>\n<p><strong>Movement:</strong> In combat, characters roll Stealth each turn as a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free action} at the end of their move or any action the GM thinks might draw attention.</p>\n<p>Out of combat, the distance moved depends entirely on the situation. The GM might want a roll every minute if the group is sneaking around the perimeter of a defensive position, or every few miles if they’re trying to quietly walk the path through a dark forest without alerting the creatures that live there.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 8
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "stealth"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700693408497,
+        "modifiedTime": 1700693408497,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.C5L2Qd7XHL8tBwwm"
+    },
+    {
+      "name": "Halfling",
+      "type": "ability",
+      "_id": "dLJJgbmSQnmZFEKS",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<ul><li><p><strong>Athletic (+1):</strong> Halflings are nimble beings. They start with a d6 in Athletics instead of a d4. This increases their maximum Athletics to d12+1.</p></li><li><p><strong>Brave (+2):</strong> Halflings have the Brave Edge. Through cultural inheritance, they retain some amount of fearlessness from their Talentan origins.</p></li><li><p><strong>Lucky (+2):</strong> Halflings have the Luck Edge, seemingly able to find their way out of unideal situations.</p></li><li><p><strong>Reduced Pace (−1):</strong> Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p></li><li><p><strong>Size −1 (−1):</strong> Halflings are considered Size −1 and have −1 Toughness.</p></li><li><p><strong>Stealthy (+1):</strong> Halflings begin play with a d6 in Stealth. This increases their maximum Stealth to d12+1.</p></li></ul>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Ancestry",
+        "subtype": "ancestry",
+        "grantsPowers": false,
+        "grants": [
+          {
+            "name": "Athletic",
+            "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.29clVk6oxj4dNNLd",
+            "mutation": {}
+          },
+          {
+            "name": "Brave",
+            "img": "icons/magic/control/control-influence-rally-purple.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.503fYtYLikz9Ki4B",
+            "mutation": {}
+          },
+          {
+            "name": "Lucky",
+            "img": "icons/magic/control/buff-luck-fortune-clover-green.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.IqnRHxj6zm6zR8US",
+            "mutation": {}
+          },
+          {
+            "name": "Size -1",
+            "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.NzYsygatYmC4MBOQ",
+            "mutation": {}
+          },
+          {
+            "name": "Stealthy",
+            "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.em0FNb3o7augNgfu",
+            "mutation": {}
+          },
+          {
+            "name": "Reduced Pace",
+            "img": "icons/skills/movement/figure-running-gray.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.tLxkxKVqlU9zVX8r",
+            "mutation": {}
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "halfling"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-ancestries.Item.l6ZMBFuf2meW7LmK"
+        },
+        "swade": {
+          "hasGranted": [
+            "o11U2r7LPWxUVOyt",
+            "4Qk3p6FOvVsbUsCD",
+            "QO4VaOwc6KytgDsq",
+            "hQFBcka11xNjTgn0",
+            "h5mooCowCugPRWZZ",
+            "REv7uBFwKOde42BY",
+            "3WGQg1m2FPndbazf",
+            "gzenWALWdebzot4w"
+          ]
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690319936949,
+        "modifiedTime": 1700693627815,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.dLJJgbmSQnmZFEKS"
+    },
+    {
+      "folder": "8duy0r5LaiffI3GL",
+      "name": "Athletic",
+      "type": "ability",
+      "_id": "o11U2r7LPWxUVOyt",
+      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+      "system": {
+        "description": "<p>Halflings are nimble beings. They start with a d6 in Athletics instead of a d4. This increases their maximum Athletics to d12+1.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Halfling",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "athletic"
+      },
+      "effects": [
+        {
+          "icon": "icons/skills/movement/feet-winged-sandals-tan.webp",
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "changes": [
+            {
+              "key": "@Skill{Athletics}[system.die.sides]",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "name": "Starting Athletics d6",
+          "_id": "rx3YOVmYsu0KDACS",
+          "disabled": false,
+          "description": "<p>Start with a d6 in Athletics instead of a d4. This increases their maximum Athletics to d12+1.</p>",
+          "origin": null,
+          "statuses": [],
+          "tint": null,
+          "_key": "!actors.items.effects!KYuKpQKNzRcfA3Uo.o11U2r7LPWxUVOyt.rx3YOVmYsu0KDACS"
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690318710962,
+        "modifiedTime": 1700693627720,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.o11U2r7LPWxUVOyt"
+    },
+    {
+      "folder": "8duy0r5LaiffI3GL",
+      "name": "Brave",
+      "type": "ability",
+      "_id": "4Qk3p6FOvVsbUsCD",
+      "img": "icons/magic/control/control-influence-rally-purple.webp",
+      "system": {
+        "description": "<p>Halflings have the @UUID[Compendium.swade-core-rules.swade-edges.Item.hMTj68saxoF5i5Ul]{Brave Edge}. Through cultural inheritance, they retain some amount of fearlessness from their Talentan origins.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Halfling",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [
+          {
+            "name": "Brave",
+            "img": "systems/swade/assets/icons/edge.svg",
+            "uuid": "Compendium.swade-core-rules.swade-edges.Item.hMTj68saxoF5i5Ul",
+            "mutation": {}
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "brave"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690319435925,
+        "modifiedTime": 1700693627720,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.4Qk3p6FOvVsbUsCD"
+    },
+    {
+      "folder": "8duy0r5LaiffI3GL",
+      "name": "Lucky",
+      "type": "ability",
+      "_id": "QO4VaOwc6KytgDsq",
+      "img": "icons/magic/control/buff-luck-fortune-clover-green.webp",
+      "system": {
+        "description": "<p>Halflings have the @UUID[Compendium.swade-core-rules.swade-edges.Item.7huwXlataZ2OaQXL]{Luck Edge}, seemingly able to find their way out of unideal situations.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Halfling",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [
+          {
+            "name": "Luck",
+            "img": "systems/swade/assets/icons/edge.svg",
+            "uuid": "Compendium.swade-core-rules.swade-edges.Item.7huwXlataZ2OaQXL",
+            "mutation": {}
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "lucky"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690319630902,
+        "modifiedTime": 1700693627720,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.QO4VaOwc6KytgDsq"
+    },
+    {
+      "name": "Size -1",
+      "type": "ability",
+      "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+      "system": {
+        "description": "<p>Halflings are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}.</p>",
+        "notes": "Racial",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Halfling",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "size-1"
+      },
+      "effects": [
+        {
+          "name": "Size -1",
+          "icon": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+          "changes": [
+            {
+              "key": "system.stats.size",
+              "mode": 2,
+              "value": "-1",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "6FvBp41OY8cDbP6A",
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>Halflings are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}.</p>",
+          "origin": null,
+          "statuses": [],
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "tint": null,
+          "_key": "!actors.items.effects!KYuKpQKNzRcfA3Uo.hQFBcka11xNjTgn0.6FvBp41OY8cDbP6A"
+        }
+      ],
+      "folder": "8duy0r5LaiffI3GL",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.5"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1668046440817,
+        "modifiedTime": 1700693627720,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "hQFBcka11xNjTgn0",
+      "sort": 0,
+      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.hQFBcka11xNjTgn0"
+    },
+    {
+      "name": "Stealthy",
+      "type": "ability",
+      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+      "system": {
+        "description": "<p>Halflings begin play with a d6 in @Compendium[swade-core-rules.swade-skills.bFaYnzftXwQ9p4Si]{Stealth}. This increases their maximum Stealth to d12+1.</p>",
+        "notes": "Racial",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Halfling",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "stealthy"
+      },
+      "effects": [
+        {
+          "icon": "icons/magic/perception/silhouette-stealth-shadow.webp",
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "changes": [
+            {
+              "key": "@Skill{Stealth}[system.die.sides]",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "aEdOZ9gR6wd5p8ms",
+          "disabled": false,
+          "origin": null,
+          "tint": null,
+          "name": "Starting Stealth d6",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!KYuKpQKNzRcfA3Uo.h5mooCowCugPRWZZ.aEdOZ9gR6wd5p8ms"
+        }
+      ],
+      "folder": "8duy0r5LaiffI3GL",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.5"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1668046428244,
+        "modifiedTime": 1700693627720,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "h5mooCowCugPRWZZ",
+      "sort": 0,
+      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.h5mooCowCugPRWZZ"
+    },
+    {
+      "name": "Reduced Pace",
+      "type": "ability",
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "system": {
+        "description": "<p>Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Halfling",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "reduced-pace"
+      },
+      "effects": [
+        {
+          "name": "Reduced Pace",
+          "icon": "icons/skills/movement/figure-running-gray.webp",
+          "changes": [
+            {
+              "key": "system.stats.speed.value",
+              "mode": 2,
+              "value": "-1",
+              "priority": null
+            },
+            {
+              "key": "system.stats.speed.runningDie",
+              "mode": 2,
+              "value": "-2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "mS0Bcfrnz5QJs3uu",
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p>",
+          "origin": null,
+          "statuses": [],
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "tint": null,
+          "_key": "!actors.items.effects!KYuKpQKNzRcfA3Uo.REv7uBFwKOde42BY.mS0Bcfrnz5QJs3uu"
+        }
+      ],
+      "folder": "8duy0r5LaiffI3GL",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.5"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1668895717346,
+        "modifiedTime": 1700693627720,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "REv7uBFwKOde42BY",
+      "sort": 0,
+      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.REv7uBFwKOde42BY"
+    },
+    {
+      "_id": "3WGQg1m2FPndbazf",
+      "effects": [
+        {
+          "_id": "V1WW7gVzZ4ttLOBh",
+          "name": "Brave",
+          "changes": [
+            {
+              "key": "system.attributes.spirit.die.modifier",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "systems/swade/assets/icons/edge.svg",
+          "tint": null,
+          "transfer": true,
+          "description": "<article class=\"swade-core\">\n<p>Those with this Edge have learned to master their fear, or have dealt with so many horrors they’ve become jaded. These valiant explorers add +2 to @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fear0000000000]{Fear} checks and subtract 2 from <strong>@Compendium[swade-core-rules.swade-tables.Fear Table]{Fear Table} </strong>results.</p>\n</article>",
+          "flags": {
+            "swade": {
+              "conditionalEffect": true
+            }
+          },
+          "origin": null,
+          "statuses": [],
+          "_key": "!actors.items.effects!KYuKpQKNzRcfA3Uo.3WGQg1m2FPndbazf.V1WW7gVzZ4ttLOBh"
+        }
+      ],
+      "folder": null,
+      "img": "systems/swade/assets/icons/edge.svg",
+      "name": "Brave",
+      "sort": 0,
+      "type": "edge",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>Those with this Edge have learned to master their fear, or have dealt with so many horrors they’ve become jaded. These valiant explorers add +2 to @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fear0000000000]{Fear} checks and subtract 2 from <strong>@Compendium[swade-core-rules.swade-tables.Fear Table]{Fear Table} </strong>results.</p>\n</article>",
+        "isArcaneBackground": false,
+        "notes": "",
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 0,
+            "combinator": "and"
+          },
+          {
+            "type": "attribute",
+            "selector": "spirit",
+            "value": 6,
+            "combinator": "and"
+          }
+        ],
+        "category": "Background",
+        "swid": "brave",
+        "favorite": false,
+        "grants": []
+      },
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700693627720,
+        "modifiedTime": 1700693627720,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.3WGQg1m2FPndbazf"
+    },
+    {
+      "_id": "gzenWALWdebzot4w",
+      "effects": [
+        {
+          "_id": "RHUEBuZR1iLofMhq",
+          "changes": [
+            {
+              "key": "system.bennies.max",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {},
+          "icon": "systems/swade/assets/icons/edge.svg",
+          "name": "Luck",
+          "tint": null,
+          "transfer": true,
+          "description": "<article class=\"swade-core\">\n<p>The adventurer seems to be blessed by fate, karma, the gods, or whatever external forces he believes in (or believe in him!). </p>\n<p>He draws one extra @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{Benny} at the beginning of each game session, allowing him to succeed at important tasks more often than most, and survive incredible dangers.</p>\n</article>",
+          "origin": null,
+          "statuses": [],
+          "_key": "!actors.items.effects!KYuKpQKNzRcfA3Uo.gzenWALWdebzot4w.RHUEBuZR1iLofMhq"
+        }
+      ],
+      "flags": {},
+      "folder": null,
+      "img": "systems/swade/assets/icons/edge.svg",
+      "name": "Luck",
+      "sort": 0,
+      "type": "edge",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>The adventurer seems to be blessed by fate, karma, the gods, or whatever external forces he believes in (or believe in him!). </p>\n<p>He draws one extra @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{Benny} at the beginning of each game session, allowing him to succeed at important tasks more often than most, and survive incredible dangers.</p>\n</article>",
+        "isArcaneBackground": false,
+        "notes": "",
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 0,
+            "combinator": "and"
+          }
+        ],
+        "category": "Background",
+        "swid": "luck",
+        "favorite": false,
+        "grants": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700693627720,
+        "modifiedTime": 1700693627720,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!KYuKpQKNzRcfA3Uo.gzenWALWdebzot4w"
     }
   ],
   "effects": [],
@@ -2035,7 +2190,7 @@
     "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1693887461783,
-    "modifiedTime": 1700545507217,
+    "modifiedTime": 1700693711367,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,
