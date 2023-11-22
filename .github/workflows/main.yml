@@ -13,7 +13,7 @@ jobs:
     # Pull the JSON files into packs for packaging
     - run: |
           npm install
-          npm run pullJSONtoLDB
+          npm run packLDB
 
       # Substitute the Manifest and Download URLs in the module.json
     - name: Substitute Manifest and Download Links For Versioned Ones
