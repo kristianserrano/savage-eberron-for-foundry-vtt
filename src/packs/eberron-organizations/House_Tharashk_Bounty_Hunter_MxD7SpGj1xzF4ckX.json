@@ -1,0 +1,2778 @@
+{
+  "name": "House Tharashk Bounty Hunter",
+  "type": "npc",
+  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_B_15.webp",
+  "system": {
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": 10,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": false
+      },
+      "spirit": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unShakeBonus": 0
+      },
+      "strength": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unStunBonus": 0,
+        "soakBonus": 0,
+        "bleedOut": {
+          "modifier": 0,
+          "ignoreWounds": false
+        }
+      }
+    },
+    "stats": {
+      "speed": {
+        "runningDie": 6,
+        "runningMod": 0,
+        "value": 6
+      },
+      "toughness": {
+        "value": 0,
+        "armor": 0,
+        "modifier": 0
+      },
+      "parry": {
+        "value": 0,
+        "shield": 0,
+        "modifier": 0
+      },
+      "size": 0
+    },
+    "details": {
+      "autoCalcToughness": true,
+      "autoCalcParry": true,
+      "archetype": "",
+      "appearance": "",
+      "notes": "",
+      "goals": "",
+      "biography": {
+        "value": ""
+      },
+      "species": {
+        "name": ""
+      },
+      "currency": 0,
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      },
+      "conviction": {
+        "value": 0,
+        "active": false
+      }
+    },
+    "powerPoints": {
+      "general": {
+        "value": 10,
+        "max": 0
+      },
+      "Ranger": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "fatigue": {
+      "value": 0,
+      "max": 2,
+      "ignored": 0
+    },
+    "wounds": {
+      "value": 0,
+      "max": 0,
+      "ignored": 0
+    },
+    "woundsOrFatigue": {
+      "ignored": 0
+    },
+    "bennies": {
+      "value": 0,
+      "max": 2
+    },
+    "advances": {
+      "mode": "expanded",
+      "value": 0,
+      "rank": "Novice",
+      "details": "",
+      "list": []
+    },
+    "status": {
+      "isShaken": false,
+      "isDistracted": false,
+      "isVulnerable": false,
+      "isStunned": false,
+      "isEntangled": false,
+      "isBound": false,
+      "isIncapacitated": false
+    },
+    "initiative": {
+      "hasHesitant": false,
+      "hasLevelHeaded": false,
+      "hasImpLevelHeaded": false,
+      "hasQuick": false
+    },
+    "additionalStats": {},
+    "wildcard": false
+  },
+  "prototypeToken": {
+    "name": "NPC",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_N_15.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stats.parry.value"
+    },
+    "bar2": {
+      "attribute": "toughness.total"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Half-Orc",
+      "type": "ability",
+      "_id": "SlvCBWwifOB91heU",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<ul><li><p><strong>Assertive (+1):</strong> Half-orcs start with a d4 in Intimidation.</p></li><li><p><strong>Brute (+2):</strong> Inheriting some of the physical strength of their orcish ancestry, half-orcs have the Brute Edge.</p></li><li><p><strong>Darkvision (+1):</strong> Half-orcs’ eyes are attuned to habitats with dim lighting. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers.</p></li></ul>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Ancestry",
+        "subtype": "ancestry",
+        "grantsPowers": false,
+        "grants": [
+          {
+            "name": "Brute",
+            "img": "systems/swade/assets/icons/edge.svg",
+            "uuid": "Compendium.swade-core-rules.swade-edges.Item.rNOxB5lUz46R7AiY",
+            "mutation": {}
+          },
+          {
+            "name": "Intimidation",
+            "img": "systems/swade/assets/icons/skills/arrest.svg",
+            "uuid": "Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId",
+            "mutation": {}
+          },
+          {
+            "name": "Dark Vision",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+            "mutation": {
+              "name": "Darkvision",
+              "img": "icons/magic/perception/eye-slit-orange.webp"
+            }
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "half-orc"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-ancestries.Item.9SP5K4x7YJGXSDLQ"
+        },
+        "exportSource": {
+          "world": "eberron-for-savage-worlds",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.6"
+        },
+        "swade": {
+          "hasGranted": [
+            "I5PEQOOsei8cUJn9",
+            "lnxbGfBrXyliXUeF",
+            "Iubbo5jqSCYfgppF"
+          ]
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690400937802,
+        "modifiedTime": 1700759034509,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.SlvCBWwifOB91heU"
+    },
+    {
+      "_id": "I5PEQOOsei8cUJn9",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/edge.svg",
+      "name": "Brute",
+      "sort": 0,
+      "type": "edge",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>Brutes focus on core strength and fitness over coordination and flexibility. They treat @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} as linked to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} instead of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility} for purposes of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{Advancement}. The character may also resist Athletics @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{Tests} with Strength if she chooses. </p>\n<p>Finally, Brutes increase the @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Short Range} of any thrown item by +1. Double that for the adjusted Medium Range, and double again for Long Range. If a thrown item’s Range is 3/6/12, for example, a Brute’s Range is 4/8/16.</p>\n</article>",
+        "isArcaneBackground": false,
+        "notes": "",
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 0,
+            "combinator": "and"
+          },
+          {
+            "type": "attribute",
+            "selector": "strength",
+            "value": 6,
+            "combinator": "and"
+          },
+          {
+            "type": "attribute",
+            "selector": "vigor",
+            "value": 6,
+            "combinator": "and"
+          }
+        ],
+        "category": "Background",
+        "swid": "brute",
+        "favorite": false,
+        "grants": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700759034461,
+        "modifiedTime": 1700759034461,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.I5PEQOOsei8cUJn9"
+    },
+    {
+      "_id": "lnxbGfBrXyliXUeF",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/arrest.svg",
+      "name": "Intimidation",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "spirit",
+        "description": "<article class=\"swade-core\">\n<p>Intimidation is the art of frightening an opponent so that he backs down, reveals information, or flees.</p>\n<p>Intimidation is an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed roll} resisted by the opponent’s @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit}. In combat, this is a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{Test}. Out of combat, a successful roll means the foe backs down for the most part, reveals some information, or slinks away when the opportunity presents itself.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise} might mean he backs down for the remainder of the scene, spills all the beans, or runs away as fast as he can.</p>\n<p>In or out of combat, a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical Failure} means the target is immune to this character’s Intimidation attempts for the remainder of this encounter!</p>\n<p><strong>Networking:</strong> Intimidation can also be used as a “macro” skill to simulate several hours of working the streets. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{Networking} to see how to crack some heads for favors or information.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 6
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "intimidation"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700759034461,
+        "modifiedTime": 1700760515740,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.lnxbGfBrXyliXUeF"
+    },
+    {
+      "_id": "Iubbo5jqSCYfgppF",
+      "name": "Darkvision",
+      "type": "ability",
+      "img": "icons/magic/perception/eye-slit-orange.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "category": "New Ancestral Abilities",
+        "description": "<article class=\"swadefc\"><p><strong>Dark Vision (1):</strong> The species can see in the dark  a short distance, ignoring all illumination penalties and up to 2 points of penalties from <em>invisibility</em>  or similar powers within 10\" (20 yards) distant.</p></article>",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": false,
+        "swid": "dark-vision",
+        "grants": []
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700759034461,
+        "modifiedTime": 1700759034461,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.Iubbo5jqSCYfgppF"
+    },
+    {
+      "_id": "GsPZsIsk6qeReYw1",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/jump-across.svg",
+      "name": "Athletics",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Athletics combines an individual’s coordin­ation with learned skills such as climbing, jumping, balancing, biking, wrestling, skiing, swimming, throwing, or catching. Characters who rely on physical power more than coordination can take the @Compendium[swade-core-rules.swade-edges.Brute]{Brute} Edge to link this skill to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} instead of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility}.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 6
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "athletics"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.qc2GOKFIXIJEpTw1"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700760443166,
+        "modifiedTime": 1700760443166,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.GsPZsIsk6qeReYw1"
+    },
+    {
+      "_id": "qracTDXxIkydIcv2",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/gift-of-knowledge.svg",
+      "name": "Common Knowledge",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\"><p>Characters roll Common Knowledge to know people, places, and things of their world, including etiquette, geography, culture, popular technology, contacts, and customs.</p></article>",
+        "die": {
+          "modifier": 0,
+          "sides": 6
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "common-knowledge"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.su7eyijoB0RFpRB1"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700760456783,
+        "modifiedTime": 1700760456783,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.qracTDXxIkydIcv2"
+    },
+    {
+      "_id": "OUT2vGgZGL9x9tx9",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/punch.svg",
+      "name": "Fighting",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Fighting covers all hand-to-hand (melee) attacks, whether it’s with fists, axes, laser swords, or martial arts. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{Chapter Three} for the combat rules and the various maneuvers a warrior might attempt.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 6
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "fighting"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700760464355,
+        "modifiedTime": 1700760464355,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.OUT2vGgZGL9x9tx9"
+    },
+    {
+      "_id": "Pq6onUUkSH40fhZC",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/medical-pack.svg",
+      "name": "Healing",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\">\n<p>Healing has multiple uses, from treating @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wounds} to diagnosing diseases and analyzing certain kinds of forensic evidence.</p>\n<p>See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Healing} for rules on mending and treating @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wounds}, and @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{Hazards} for treatment of disease or poison.</p>\n<p><strong>Forensics: </strong> Healing can also be used to analyze evidence that relates to anatomical trauma, including cause and time of death, angle of attack, and similar matters. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} provides basic information and a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise} increases the details uncovered.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 6
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "healing"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.Syo1BvITMeRV2Aat"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700760467165,
+        "modifiedTime": 1700760467165,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.Pq6onUUkSH40fhZC"
+    },
+    {
+      "_id": "Hd8LL2HouHXZCzHE",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/psychic-waves.svg",
+      "name": "Notice",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\">\n<p>Notice is a hero’s general awareness and alertness. It’s used to sense sights, sounds, tastes, and smells, spot clues, detect ambushes, spot hidden weapons on a foe, or tell if a rival is lying, frightened, happy, etc.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} conveys basic information—the character hears movement in the forest, smells distant smoke, or senses someone isn’t being completely truthful.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise} grants more detail, such as the direction of a sound or odor or what topic a person is avoiding or lying about.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 6
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "notice"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.Y0545TlaAqRRE2P0"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700760483692,
+        "modifiedTime": 1700760483692,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.Hd8LL2HouHXZCzHE"
+    },
+    {
+      "_id": "5tJGRglBHWEA0U5r",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/convince.svg",
+      "name": "Persuasion",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "spirit",
+        "description": "<article class=\"swade-core\">\n<p>Persuasion is the ability to convince others to do what you want through reason, cajoling, deception, rewards, or other friendly means. Persuasion isn’t mind control. It can change someone’s attitude but not their goals. A bandit may let you keep a sentimental piece of jewelry with a good Persuasion roll but still takes all your other goods.</p>\n<p>When used to @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{Support} allies it’s an unopposed roll. If the target is resistant, it’s an @JournalEntry[JBxsGv2wAoAmoCDe]{opposed} roll vs. the target’s @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit}. The GM should modify the roll as she sees fit based on roleplaying, any pertinent @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edges} or @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrances} that affect the conversation, and the circumstances.</p>\n<p><strong>Reaction Level:</strong> How much a person is willing to cooperate depends largely on their attitude toward whoever’s talking to them. The Game Master can decide how nonplayer characters feel based on the setting, or roll on the @Compendium[swade-core-rules.swade-tables.Reaction Table]{Reaction Table} if she has no preconceived notions.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} improves the target’s attitude one level and a raise improves it two. Further increases aren’t generally possible in the same encounter—it takes individuals a little time to adjust their biases.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Failure} means the target won’t change his mind this scene or until the situation changes in some important way. A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical Failure} also <em>reduces</em> the target’s attitude two levels.</p>\n<p>Only one roll should generally be allowed per interaction unless new information is revealed, a substantial reward is offered, etc.</p>\n<p><strong>Networking: </strong>Characters can also use Persuasion as a “macro skill,” simulating a few hours or an evening’s time hobnobbing and socializing to gain favors or information. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{Networking}.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 4
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "persuasion"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700760487095,
+        "modifiedTime": 1700760487095,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.5tJGRglBHWEA0U5r"
+    },
+    {
+      "_id": "KwlWSOFlANqvrZYm",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/saddle.svg",
+      "name": "Riding",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\"><p>Riding allows a hero to mount, control, and ride any beast or beast-drawn vehicle common to his setting. This includes horses, camels, dragons, wagons, chariots, and the like. See @Compendium[swade-core-rules.swade-rules.Mounted Combat]{Mounted Combat}.</p></article>",
+        "die": {
+          "modifier": 0,
+          "sides": 6
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "riding"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.CGECIfK29PAeTupp"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700760497675,
+        "modifiedTime": 1700760497675,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.KwlWSOFlANqvrZYm"
+    },
+    {
+      "_id": "PTrC3jY40MPY55jp",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/crosshair.svg",
+      "name": "Shooting",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Shooting covers all attempts to hit a target with a ranged weapon such as a bow, pistol, or rocket launcher (thrown weapons use @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics}). See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{Chapter Three} for details on ranged combat.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 6
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "shooting"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.UOYD9aoLPoTZamDS"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700760952656,
+        "modifiedTime": 1700760952656,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.PTrC3jY40MPY55jp"
+    },
+    {
+      "_id": "KqTfEODP2rPHI9fY",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/hidden.svg",
+      "name": "Stealth",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Stealth is the ability to hide and move quietly. A simple @Compendium[swade-core-rules.swade-rules.Trait Rolls]{success} on a Stealth roll means the character avoids detection if enemies aren’t particularly alert. If the character @Compendium[swade-core-rules.swade-rules.Trait Rolls]{fails} the roll, the enemy realizes something is amiss and begins actively searching for whatever roused them.</p>\n<p>Once foes are alerted and active, Stealth is opposed by @Compendium[swade-core-rules.swade-skills.Notice]{Notice} (a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{group roll} if there are many foes.</p>\n<p>The GM should apply any circumstantial penalties to @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls for @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{darkness}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{cover}, noise, distractions, and any difference in the target’s @Compendium[swade-core-rules.swade-rules.Size and Scale]{Scale} (just like when attacking). Sneaking through dry leaves might subtract 2 from the Stealth roll, for example, while spotting someone in the dark uses the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} penalty (−4). Don’t apply the same modifier to both rolls, however. If Stealth is at −2 for the leaves, don’t give Notice a +2 for them as well.</p>\n<p><strong>Sneak Attack: </strong> Sneaking up close enough to make a melee attack <em>always</em> requires an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed} Stealth roll versus the target’s @Compendium[swade-core-rules.swade-skills.Notice]{Notice}, whether the guard is actively looking for trouble or not. If successful, the victim is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{Vulnerable} to the attacker, but only until the attacker’s turn ends. With a raise, the attacker has @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{The Drop} instead.</p>\n<p><strong>Movement:</strong> In combat, characters roll Stealth each turn as a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free action} at the end of their move or any action the GM thinks might draw attention.</p>\n<p>Out of combat, the distance moved depends entirely on the situation. The GM might want a roll every minute if the group is sneaking around the perimeter of a defensive position, or every few miles if they’re trying to quietly walk the path through a dark forest without alerting the creatures that live there.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 6
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "stealth"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700760957068,
+        "modifiedTime": 1700760957068,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.KqTfEODP2rPHI9fY"
+    },
+    {
+      "_id": "dHGk9M7fpUDbQZJC",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/camping-tent.svg",
+      "name": "Survival",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\">\n<p>Survival allows a character to find food, water, or shelter in hostile environments. It can also be used to navigate wilderness environments, figure out which plants are good to eat and which aren’t, and so on.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{successful} Survival roll provides enough food and water for one person for one day; or five people with a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise}.</p>\n<p>More detailed information on @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hunger00000000]{Hunger} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04thirst00000000]{Thirst} can be found under @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{Hazards} section.</p>\n<p><strong>Tracking: </strong>Survival can also be used to detect and follow tracks. Each roll generally covers following the tracks for one mile, but the GM should adjust this as needed for specific circumstances.</p>\n<p>The Game Master should assign a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{bonus or penalty} based on the target, environment, and time. Tracking a large group that recently passed through a snow-covered area might grant a bonus of +4, while following a single person over rocks and streams after more than a day incurs a −4 penalty.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 8
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "survival"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.zf0tDkEA1afk1rcs"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700760960147,
+        "modifiedTime": 1700760960147,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.dHGk9M7fpUDbQZJC"
+    },
+    {
+      "name": "Language (Common)",
+      "type": "skill",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
+      "system": {
+        "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "Eberron for Savage Worlds",
+        "swid": "language-common"
+      },
+      "effects": [],
+      "folder": "ktcv7W97mLQMloS8",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.avUYdNVxJb8BFaKT"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690860753470,
+        "modifiedTime": 1700760980792,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "j8oQnyhnd0CDCvIC",
+      "sort": 2300000,
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.j8oQnyhnd0CDCvIC"
+    },
+    {
+      "name": "Language (Goblin)",
+      "type": "skill",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
+      "system": {
+        "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "Eberron for Savage Worlds",
+        "swid": "language-goblin"
+      },
+      "effects": [],
+      "folder": "ktcv7W97mLQMloS8",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.MGKLJpt0OelILz2z"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690860753470,
+        "modifiedTime": 1700761000722,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "LhQ3JB1WR1xjjrBG",
+      "sort": 1300000,
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.LhQ3JB1WR1xjjrBG"
+    },
+    {
+      "name": "Language (Orc)",
+      "type": "skill",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
+      "system": {
+        "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "source": "Eberron for Savage Worlds",
+        "swid": "language-orc"
+      },
+      "effects": [],
+      "folder": "ktcv7W97mLQMloS8",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.mjXl0MiJLy4uS9tK"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690860753470,
+        "modifiedTime": 1700761010859,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "XpU4UBdylsRXfLNW",
+      "sort": 600000,
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.XpU4UBdylsRXfLNW"
+    },
+    {
+      "name": "Masterwork Studded Leather",
+      "type": "armor",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Armor.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "<article class=\"swadefc\"><span>Light</span> Studded Leather Armor and Natural Armor (thick hide, wood, bone, bark, etc.).</article>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 11,
+        "price": 470,
+        "equippable": true,
+        "equipStatus": 3,
+        "minStr": "d4",
+        "armor": 2,
+        "isNaturalArmor": false,
+        "isHeavyArmor": false,
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "",
+          "traitMod": ""
+        },
+        "locations": {
+          "head": false,
+          "torso": true,
+          "arms": true,
+          "legs": false
+        },
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "toughness": 0,
+        "swid": "masterwork-studded-leather"
+      },
+      "effects": [],
+      "sort": 100000,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-armor.Item.P8eEjsQujF3o0006"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion",
+          "fullDescription": "Light Studded Leather Armor and Natural Armor (thick hide, wood, bone, bark, etc.). |  | Armor | Light Studded Leather Armor and Natural Armor (thick hide, wood, bone, bark, etc.)."
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1692710384940,
+        "modifiedTime": 1700761036689,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "pATKRCxVnQYVQ1QL",
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.pATKRCxVnQYVQ1QL"
+    },
+    {
+      "_id": "f6ycIijSYrviqDpJ",
+      "name": "Axe, Great",
+      "type": "weapon",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Weapon.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "",
+        "notes": "AP 3, Parry -1, Two Hands",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 12,
+        "price": 20,
+        "equippable": true,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {
+            "uzpkmDl780zz0000": {
+              "name": "Frenzy",
+              "type": "trait",
+              "override": "",
+              "modifier": "",
+              "resourcesUsed": null,
+              "dice": 2,
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          },
+          "trait": "Fighting",
+          "traitMod": ""
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false,
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "damage": "@str+d10",
+        "range": "",
+        "rof": 1,
+        "ap": 3,
+        "parry": 0,
+        "minStr": "d10",
+        "shots": null,
+        "currentShots": 0,
+        "ammo": "",
+        "reloadType": "none",
+        "ppReloadCost": 2,
+        "trademark": 0,
+        "isHeavyWeapon": false,
+        "swid": "axe-great",
+        "equipStatus": 5
+      },
+      "effects": [
+        {
+          "name": "Parry -1 (Axe, Great)",
+          "icon": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Weapon.webp",
+          "changes": [
+            {
+              "key": "system.stats.parry.value",
+              "mode": 2,
+              "value": "-1",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "TMoP2uK330TAmfBk",
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "tint": null,
+          "_key": "!actors.items.effects!MxD7SpGj1xzF4ckX.f6ycIijSYrviqDpJ.TMoP2uK330TAmfBk"
+        }
+      ],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-weapons.Item.uzpkmDl780zz0002"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion",
+          "fullDescription": " | Melee Weapons | "
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700761050265,
+        "modifiedTime": 1700761182012,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.f6ycIijSYrviqDpJ"
+    },
+    {
+      "_id": "UKM8JYZKOYggVUNW",
+      "name": "Masterwork Bow, Composite",
+      "type": "weapon",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Shooting_v1.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 3,
+        "price": 400,
+        "equippable": true,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "Shooting",
+          "traitMod": ""
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false,
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "Ranged Weapons",
+        "grants": [],
+        "grantOn": 1,
+        "damage": "@str+d6",
+        "range": "12/24/48",
+        "rof": 1,
+        "ap": 2,
+        "parry": 0,
+        "minStr": "d6",
+        "shots": 0,
+        "currentShots": 0,
+        "ammo": "Arrows",
+        "reloadType": "full",
+        "ppReloadCost": 0,
+        "trademark": 0,
+        "isHeavyWeapon": false,
+        "swid": "bow-composite",
+        "equipStatus": 4
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Item.4q8mKq5eJyzU2raW"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion",
+          "fullDescription": " | Ranged Weapons | "
+        },
+        "swade-item-tables": {
+          "baseStats": {
+            "name": "Bow, Composite",
+            "type": "weapon",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Shooting_v1.webp",
+            "system": {
+              "source": "Fantasy Companion",
+              "description": "",
+              "notes": "",
+              "additionalStats": {},
+              "quantity": 1,
+              "weight": 3,
+              "price": 100,
+              "equippable": true,
+              "isArcaneDevice": false,
+              "arcaneSkillDie": {
+                "sides": 4,
+                "modifier": 0
+              },
+              "powerPoints": {},
+              "isVehicular": false,
+              "mods": 1,
+              "actions": {
+                "dmgMod": "",
+                "additional": {},
+                "trait": "Shooting",
+                "traitMod": ""
+              },
+              "bonusDamageDie": 6,
+              "bonusDamageDice": 1,
+              "favorite": false,
+              "templates": {
+                "cone": false,
+                "stream": false,
+                "small": false,
+                "medium": false,
+                "large": false
+              },
+              "category": "Ranged Weapons",
+              "grants": [],
+              "grantOn": 1,
+              "damage": "@str+d6",
+              "range": "12/24/48",
+              "rof": 1,
+              "ap": 1,
+              "parry": 0,
+              "minStr": "d6",
+              "shots": 0,
+              "currentShots": 0,
+              "ammo": "Arrows",
+              "reloadType": "full",
+              "ppReloadCost": 0,
+              "trademark": 0,
+              "isHeavyWeapon": false,
+              "swid": "bow-composite",
+              "equipStatus": 1
+            },
+            "effects": [],
+            "sort": 0,
+            "flags": {
+              "core": {
+                "sheetClass": "swade.SWADEFCItem"
+              },
+              "singleSource": {
+                "version": "2.0.0-alpha",
+                "module": "swade-fantasy-companion",
+                "fullDescription": " | Ranged Weapons | "
+              }
+            },
+            "folder": null,
+            "ownership": {
+              "default": 0,
+              "Xbne19Xghka479we": 3
+            },
+            "_stats": {
+              "systemId": "swade",
+              "systemVersion": "3.2.2",
+              "coreVersion": "11.315",
+              "createdTime": 1700761238794,
+              "modifiedTime": 1700761238794,
+              "lastModifiedBy": "Xbne19Xghka479we"
+            },
+            "_id": null
+          },
+          "isMasterwork": true
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700761238794,
+        "modifiedTime": 1700761241856,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.UKM8JYZKOYggVUNW"
+    },
+    {
+      "_id": "VwSNIVKDbgK2fUR0",
+      "name": "Cloak of Minor Arcane Protection",
+      "type": "gear",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_MagicItem.webp",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "description": "<article class=\"swadefc\"><p><strong>Cloak of Minor </strong><em><strong>Arcane Protection</strong></em><strong>:</strong> When the wearer of this cloak dons its hood, they benefit from the effects of minor <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.qjflUvZxnhUF91dS]{arcane protection}</em>. Anyone targeting them with a hostile power suffers a −2 penalty.</p><ul><li><strong>Price:</strong> 9,000; <strong>Weight:</strong> 1 lb.</li></ul></article>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 1,
+        "price": 9000,
+        "equippable": true,
+        "equipStatus": 3,
+        "isVehicular": false,
+        "mods": 1,
+        "favorite": false,
+        "category": "Magic Item",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "swid": "cloak-of-protection",
+        "isArcaneDevice": true,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {
+          "value": null,
+          "max": null
+        },
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        }
+      },
+      "effects": [],
+      "sort": 100000,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-gear.Item.vRw5PUklQFgMqCxI"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion",
+          "embeddedInjections": [
+            {
+              "power": {
+                "name": "Protection",
+                "updates": {
+                  "system": {
+                    "innate": true
+                  }
+                },
+                "module": "swade-fantasy-companion"
+              }
+            }
+          ]
+        },
+        "swade": {
+          "embeddedPowers": [
+            [
+              "RDhxSS8v2OD69W70",
+              {
+                "_id": "cuuokKqJ5IgaYdNT",
+                "name": "Protection",
+                "type": "power",
+                "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+                "system": {
+                  "description": "<article class=\"swadefc\"><p>\n<em>Protection</em> creates a field of energy or armor around a character, giving him 2 points of Armor. With a\n    raise, the bonus is applied to Toughness instead (and therefore immune to Armor Piercing modifiers).\n  </p>\n<p>Whether the <em>protection</em> is visible or not depends on the Trapping-this is entirely up to the caster.</p>\n<p><em>Protection</em> stacks with all other armor, natural or worn.</p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Additional Recipients (+1):</strong> The power may affect additional targets at a cost of 1 Power Point\n      each.\n    </li>\n</ul></article>",
+                  "notes": "",
+                  "additionalStats": {},
+                  "equippable": false,
+                  "equipped": false,
+                  "actions": {
+                    "skill": "",
+                    "skillMod": "",
+                    "dmgMod": "",
+                    "additional": {}
+                  },
+                  "rank": "Novice",
+                  "pp": 1,
+                  "damage": "",
+                  "range": "Smarts",
+                  "duration": "5",
+                  "trapping": "A mystical glow, bark skin, mage armor, ethereal armor",
+                  "arcane": "",
+                  "skill": "",
+                  "modifiers": [],
+                  "category": "Novice",
+                  "templates": {
+                    "cone": false,
+                    "stream": false,
+                    "small": false,
+                    "medium": false,
+                    "large": false
+                  },
+                  "ap": 0,
+                  "innate": true,
+                  "source": "Fantasy Companion",
+                  "swid": "protection"
+                },
+                "effects": [],
+                "sort": 0,
+                "flags": {
+                  "core": {
+                    "sheetClass": "swade.SWADEFCItem"
+                  },
+                  "singleSource": {
+                    "version": "2.0.0-alpha",
+                    "module": "swade-fantasy-companion"
+                  }
+                }
+              }
+            ]
+          ]
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1699029844274,
+        "modifiedTime": 1700761264459,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.VwSNIVKDbgK2fUR0"
+    },
+    {
+      "_id": "JkgMO0HX4oy5SMcF",
+      "name": "+2 Damage Arrows",
+      "type": "gear",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Shooting_v1.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "<p>For all types of bows. Masterwork arrows, bolts, or other ammunition subtract 1 point of Range penalty at Long or Extreme Range, and increase the cost 6 gp per unit. Masterwork ammunition loses its bonus after use even if recovered.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 25,
+        "weight": 0.15,
+        "price": 206.05,
+        "equippable": false,
+        "equipStatus": 0,
+        "isVehicular": false,
+        "mods": 1,
+        "favorite": false,
+        "category": "Ammunition",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": true,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "swid": "masterwork-arrows"
+      },
+      "effects": [],
+      "sort": 250000,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-gear.Item.wYPPOcfBbmHR0000"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1692711355879,
+        "modifiedTime": 1700762138084,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.JkgMO0HX4oy5SMcF"
+    },
+    {
+      "name": "Potion of boost Agility",
+      "type": "consumable",
+      "_id": "CDdIiTIDJaVO2z1h",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Science.webp",
+      "system": {
+        "description": "",
+        "notes": "",
+        "source": "",
+        "swid": "potion-of-boost-strength",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "equippable": false,
+        "equipStatus": 0,
+        "favorite": false,
+        "category": "",
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "grants": [],
+        "grantOn": 1,
+        "charges": {
+          "value": 1,
+          "max": 1
+        },
+        "messageOnUse": true,
+        "destroyOnEmpty": true,
+        "subtype": "regular"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.mQRmsGBc4vWNQ2se"
+        },
+        "exportSource": {
+          "world": "swade-v11-test",
+          "system": "swade",
+          "coreVersion": "11.315",
+          "systemVersion": "3.2-dev"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1699683934897,
+        "modifiedTime": 1700762163060,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.CDdIiTIDJaVO2z1h"
+    },
+    {
+      "name": "Potion of Protection",
+      "type": "consumable",
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "system": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "category": "",
+        "equippable": false,
+        "equipStatus": 3,
+        "grants": [],
+        "grantOn": 1,
+        "charges": {
+          "value": 1,
+          "max": 1
+        },
+        "messageOnUse": true,
+        "destroyOnEmpty": false,
+        "subtype": "regular",
+        "source": "",
+        "swid": "potion-of-healing",
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.mYc72FTG933pfI77"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1692123939991,
+        "modifiedTime": 1700762230588,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "lutqE5V2wfBnrRSy",
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.lutqE5V2wfBnrRSy"
+    },
+    {
+      "_id": "o0Y19lhCZdlGrydP",
+      "name": "Bedroll",
+      "type": "gear",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Gear.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "<article class=\"swadefc\"></article>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 5,
+        "price": 0.25,
+        "equippable": false,
+        "equipStatus": 3,
+        "isVehicular": false,
+        "mods": 1,
+        "favorite": false,
+        "category": "General Gear",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "swid": "bedroll",
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-gear.Item.99NObbYTcoUc0006"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700762240701,
+        "modifiedTime": 1700762240701,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.o0Y19lhCZdlGrydP"
+    },
+    {
+      "_id": "RwTwohAQyyHEqAtc",
+      "name": "Tent, bivouac (2 person)",
+      "type": "gear",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Survival.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "<article class=\"swadefc\"></article>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 20,
+        "price": 10,
+        "equippable": false,
+        "equipStatus": 3,
+        "isVehicular": false,
+        "mods": 1,
+        "favorite": false,
+        "category": "General Gear",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "swid": "tent-bivouac",
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-gear.Item.99NObbYTcoUc0060"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700762253193,
+        "modifiedTime": 1700762253193,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.RwTwohAQyyHEqAtc"
+    },
+    {
+      "_id": "lOzLOIHqGTiTswJf",
+      "name": "Water, quart (1 day)",
+      "type": "gear",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Gear.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "<article class=\"swadefc\"></article>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 2,
+        "price": 25,
+        "equippable": false,
+        "equipStatus": 3,
+        "isVehicular": false,
+        "mods": 1,
+        "favorite": false,
+        "category": "Food",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "swid": "water-quart",
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-gear.Item.KRv4OtvuWiUW0009"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700762260850,
+        "modifiedTime": 1700762260850,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.lOzLOIHqGTiTswJf"
+    },
+    {
+      "folder": "rmMZ8nKTRru5pDGY",
+      "name": "Letter of Marque",
+      "type": "gear",
+      "_id": "RzkblyMP4Sc16hOO",
+      "img": "icons/sundries/documents/document-sealed-beige-red.webp",
+      "system": {
+        "description": "<p>The concept of letters of marque originated during the Last War, when the rulers of the warring nations granted adventurers permission to attack ships and assets belonging to other nations. The Treaty of Thronehold declared void all letters of marque that existed at the time, but the idea survives in Breland, though in a rather altered form. The king of Breland now issues papers granting adventurers permission to explore and plunder the ruins of Xen’drik. Though such permission is not technically necessary, wise adventurers are sure to secure it before using Sharn as a launching point for expeditions to Xen’drik. Those who try to sell treasures from Xen’drik on the open market in Breland must produce a letter of marque or face stiff fines—on top of forfeiting the treasure they won on their adventures.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 500,
+        "equippable": false,
+        "equipStatus": 3,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "",
+          "traitMod": ""
+        },
+        "favorite": false,
+        "category": "Documents",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "source": "Eberron for Savage Worlds",
+        "swid": "letter-of-marque"
+      },
+      "effects": [],
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-gear.Item.8Hr4GGWgop2ZyStC"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1691347449023,
+        "modifiedTime": 1700762266038,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.RzkblyMP4Sc16hOO"
+    },
+    {
+      "folder": "rmMZ8nKTRru5pDGY",
+      "name": "Identification Papers",
+      "type": "gear",
+      "_id": "hDm130v9YBhFTFuv",
+      "img": "icons/sundries/documents/document-official-capital.webp",
+      "system": {
+        "description": "<p>Most people of the middle and upper classes, at least in the most civilized areas of Khorvaire (Aundair, Breland, Karrnath, Thrane, Zilargo, and the Mror Holds) carry identification papers with them at all times. Issued by national governments and notarized by House Sivis, these papers present a detailed physical description of a person (the wealthy sometimes commission small portraits of themselves), the person’s name and residence, and in some cases additional information about the person’s affiliations (particularly including any connection to a dragonmarked house, royalty, or a large institution).</p>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 2,
+        "equippable": false,
+        "equipStatus": 3,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "",
+          "traitMod": ""
+        },
+        "favorite": false,
+        "category": "Documents",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "source": "Eberron for Savage Worlds",
+        "swid": "identification-papers"
+      },
+      "effects": [],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-gear.Item.EdL1Z0EfYcIF3tK8"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1691347302346,
+        "modifiedTime": 1700762272227,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.hDm130v9YBhFTFuv"
+    },
+    {
+      "folder": "rmMZ8nKTRru5pDGY",
+      "name": "Traveling Papers",
+      "type": "gear",
+      "_id": "DxBuZSFumkHMJ2Hn",
+      "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+      "system": {
+        "description": "<p>Anyone who travels across national borders is usually required to carry traveling papers identifying them, their residence, their destination, and their reason for travel. Traveling papers consist of a parchment sheet with the appropriate information and an arcane mark, carried in a leather folder. House Sivis, House Orien, House Deneith, and House Lyrandar all offer traveling papers that are recognized throughout central Khorvaire.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0.2,
+        "equippable": false,
+        "equipStatus": 3,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "",
+          "traitMod": ""
+        },
+        "favorite": false,
+        "category": "Documents",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false,
+        "source": "Eberron for Savage Worlds",
+        "swid": "traveling-papers"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-gear.Item.7aEWMIrf7xme1Z3R"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1691347568948,
+        "modifiedTime": 1700762273441,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.DxBuZSFumkHMJ2Hn"
+    },
+    {
+      "folder": "kPypf6AXI4Ae3Tbk",
+      "name": "Beast Master",
+      "type": "edge",
+      "_id": "HqZAEzP2qtDny8RF",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+      "system": {
+        "description": "<p>As per the <em>@UUID[Compendium.swade-core-rules.swade-edges.Item.vMsxDtYquL4hPmjM]{Savage Worlds}</em> core rules, but adventurers with this Edge can select a magebred animal. The magebred animal must be purchased from a business that is a member of House Vadalis’ Handlers Guild. The cost is twice that of its non-magical counterpart.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Weird",
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": 0,
+            "combinator": "and",
+            "selector": ""
+          },
+          {
+            "type": "attribute",
+            "selector": "spirit",
+            "value": 8,
+            "combinator": "and"
+          }
+        ],
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "beast-master"
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-edges.Item.KicLRN2y50XWliKF"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1690694421442,
+        "modifiedTime": 1700763155482,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.HqZAEzP2qtDny8RF"
+    },
+    {
+      "_id": "hvoVntNWxZ6MGj4U",
+      "name": "Double Shot",
+      "type": "edge",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "<article class=\"swadefc\"><h3>Double Shot</h3>\n<section class=\"description\">\n<p>\n Double Shot allows an archer to fire two arrows in one attack with a regular bow or hurl two thrown weapons as a\n single attack.\n </p>\n<p>\n As a limited action, the character rolls two Shooting or Athletics (throwing) dice instead of one (this does not\n increase the Rate of Fire, does not incur Recoil, and uses two projectiles). Each die hits and causes damage\n separately. (The Wild Die may replace either shot as desired.)\n </p>\n<p>\n The attacker must have a handy source of projectiles to accomplish the feat (a quiver, knives on a bandoleer,\n etc.)\n </p>\n</section></article>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 1,
+            "combinator": "and"
+          },
+          {
+            "type": "skill",
+            "selector": "athletics",
+            "value": 8,
+            "combinator": "and",
+            "label": "Athletics"
+          }
+        ],
+        "category": "Combat",
+        "swid": "double-shot",
+        "favorite": false,
+        "grants": []
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.rHoCL2KwWBGQ6LzH"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700239582753,
+        "modifiedTime": 1700763163851,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.hvoVntNWxZ6MGj4U"
+    },
+    {
+      "_id": "JKqPhZyiqoMZVuUw",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/edge.svg",
+      "name": "Marksman",
+      "sort": 0,
+      "type": "edge",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>The hero is a natural with ranged weapons. If she doesn’t move in a turn and fires no more than a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} of 1 as her first action, she may add +1 to an @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} (throwing) or @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll, or ignore up to 2 points of penalties from @Compendium[swade-core-rules.swade-rules.Called Shots]{Called Shots}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{Cover}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{Scale}, or @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03speed000000000]{Speed}. This is a lesser version of the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03aim00000000000]{Aim} maneuver and does not stack with it. Marksman doesn’t apply to additional attacks after the first.</p>\n</article>",
+        "isArcaneBackground": false,
+        "notes": "",
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 1,
+            "combinator": "and"
+          },
+          {
+            "type": "skill",
+            "selector": "athletics",
+            "value": 8,
+            "combinator": "or",
+            "label": "Athletics"
+          },
+          {
+            "type": "skill",
+            "selector": "shooting",
+            "value": 8,
+            "combinator": "or",
+            "label": "Shooting"
+          }
+        ],
+        "category": "Combat",
+        "swid": "marksman",
+        "favorite": false,
+        "grants": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-edges.Item.iQ9C8bCJY1AUOkDw"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700763170046,
+        "modifiedTime": 1700763170084,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.JKqPhZyiqoMZVuUw"
+    },
+    {
+      "_id": "r0ECnEuDZYeKprcF",
+      "name": "Mystic Powers (Ranger)",
+      "type": "edge",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "<article class=\"swadefc\"><h3>Mystic Powers</h3>\n<section class=\"description\">\n<p>\n In worlds where magic is relatively common, disciplined adventurers may learn a few simple powers to help them\n in their quests. Choose one of the packages below. The character has 10 dedicated Power Points that recharge\n normally. As a limited free action, the hero automatically activates the power with success for its regular\n cost, or with a raise for an additional 2 Power Points. She may use applicable Power Modifiers if desired (at\n the usual cost).\n </p>\n<p>\n Mystic Powers doesn't grant access to Edges that require an Arcane Background, but she may take the Power Points\n or Soul Drain Edge. If the hero also has an Arcane Background, none of its Edges or abilities can be used with\n Mystic Powers and vice-versa.\n </p>\n<p>Abilities noted as “Self Only” do not get any additional benefit from that Limitation.</p>\n<ul><li>\n<strong>Ranger (Survival d8+):</strong>\n<em>@Compendium[swade-fantasy-companion.swade-fc-powers.Beast Friend]{Beast friend}, @Compendium[swade-fantasy-companion.swade-fc-powers.Boost/Lower Trait]{boost Trait}</em> (Athletics, Shooting, and Survival only),\n <em>@Compendium[swade-fantasy-companion.swade-fc-powers.Entangle]{entangle}, </em>and<em> @Compendium[swade-fantasy-companion.swade-fc-powers.Farsight]{farsight}</em>. All but <em>entangle</em> and <em>beast friend</em> have the Personal Limitation.\n </li>\n</ul>\n</section></article>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": true,
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 1,
+            "combinator": "and"
+          },
+          {
+            "type": "attribute",
+            "selector": "strength",
+            "value": 8,
+            "combinator": "and"
+          }
+        ],
+        "category": "Power",
+        "grants": [
+          {
+            "name": "Boost Trait",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.nDlqRLIhrZBc8Lko",
+            "mutation": {
+              "name": "Boost Trait",
+              "system": {
+                "notes": "Athletics, Shooting, and Survival only. Boost only. Personal Limitation.",
+                "pp": 1
+              }
+            }
+          },
+          {
+            "name": "Beast Friend",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.O6mvldoWWXTYSY2F",
+            "mutation": {}
+          },
+          {
+            "name": "Entangle",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.QWIWVdAJ2wvLP7Zz",
+            "mutation": {}
+          },
+          {
+            "name": "Farsight",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.WZqqKZ1mnquK2fdo",
+            "mutation": {
+              "system": {
+                "notes": "Personal Limitation.",
+                "pp": 1
+              }
+            }
+          }
+        ],
+        "swid": "mystic-powers-ranger",
+        "favorite": false
+      },
+      "effects": [
+        {
+          "_id": "WfaF3dLS2rEW5Vxg",
+          "name": "Mystic Powers (Power Points)",
+          "icon": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+          "changes": [
+            {
+              "key": "system.powerPoints.general.max",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {},
+          "_key": "!actors.items.effects!MxD7SpGj1xzF4ckX.r0ECnEuDZYeKprcF.WfaF3dLS2rEW5Vxg"
+        }
+      ],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.d2VyKHld3rJ9BbqB"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        },
+        "swade-item-tables": {
+          "arcaneName": "Ranger"
+        },
+        "swade": {
+          "hasGranted": [
+            "0pQZ8oNGrHufQkEv",
+            "37BkleRQcfNLUdMu",
+            "UL8477ngLoFHsbz6",
+            "5Bs2QTb5nbTp7WNc"
+          ]
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700239582746,
+        "modifiedTime": 1700763178578,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.r0ECnEuDZYeKprcF"
+    },
+    {
+      "_id": "0pQZ8oNGrHufQkEv",
+      "name": "Boost Trait",
+      "type": "power",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+      "system": {
+        "description": "<article class=\"swadefc\"><p>This power allows a character to increase or decrease a target's Trait (attribute or skill).</p>\n<p><em>Boosting</em> an ally's Trait increases the selected Trait one die type, or two with a raise.</p>\n<p>\n<em>Lowering</em> an enemy's Trait has a Duration of Instant and lowers the selected attribute or skill a die type\n    with success, or two with a raise (to a minimum of d4). A victim automatically tries to shake off the effect with a\n    Spirit roll as a free action at the end of his following turns. Success improves the effect one die type, and a raise removes the effect entirely.</p>\n<p>Additional castings don't stack on a single Trait (take the highest), but may affect <em>different</em> Traits.</p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Additional Recipients (+2):</strong> The power may affect more than one target for 1 additional Power\n      Point each.\n    </li>\n<li class=\"epic-power-icon\">\n<strong>Greater Boost/Lower Trait (+2):</strong> With success, the selected Trait gains a free reroll once per\n      round, or once per action with a raise. For <em>lower Trait </em>the target applies a -2 penalty to the affected\n      Trait's rolls.\n    </li>\n<li>\n<strong>Strong (+1):</strong> <em>Lower Trait </em>only. The Spirit roll to shake off the effect is made at -2.\n    </li>\n</ul></article>",
+        "notes": "Athletics, Shooting, and Survival only. Boost only. Personal Limitation.",
+        "additionalStats": {},
+        "actions": {
+          "dmgMod": "",
+          "additional": {
+            "RYXZEwcv": {
+              "name": "Shake Off",
+              "type": "resist",
+              "override": "Spirit",
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          },
+          "trait": "",
+          "traitMod": ""
+        },
+        "rank": "Novice",
+        "pp": 1,
+        "damage": "",
+        "range": "Smarts",
+        "duration": "5 (boost, Instant (lower)",
+        "trapping": "Physical change, glowing aura, potions.",
+        "arcane": "Ranger",
+        "modifiers": [],
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "ap": 0,
+        "innate": false,
+        "source": "Fantasy Companion",
+        "swid": "boostlower-trait",
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700763178382,
+        "modifiedTime": 1700763178628,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.0pQZ8oNGrHufQkEv"
+    },
+    {
+      "_id": "37BkleRQcfNLUdMu",
+      "name": "Beast Friend",
+      "type": "power",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+      "system": {
+        "description": "<article class=\"swadefc\"><p>\n    This spell allows an individual to speak with and guide the actions of nature's beasts. The cost to cast is equal to\n    the sum of their Size (minimum 1 per creature; see the creatures in Chapter Six for examples). Controlling five\n    wolves (Size -1) costs 5 points, for example. Controlling a rhino (Size 5) also costs 5 points.\n  </p>\n<p>\n    Success means the creatures obey simple commands, like a well-trained dog. They attack foes and endanger their lives\n    for their master. A raise on the arcane skill roll means the beasts are more obedient. They won't kill themselves\n    but overcome their natural fears (fire, fearful creatures, et.) to follow their orders.\n  </p>\n<p>Swarms can also be controlled. Small Swarms cost 1 point, Medium Swarms cost 2, and Large Swarms cost 3.</p>\n<p>\n<em>Beast friend</em> works only on natural creatures with animal intelligence, not humanoids, and has no effect on\n    conjured, magical, or otherwise “unnatural” animals unless the Bestarium modifier is applied.\n  </p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li class=\"epic-power-icon\">\n<strong>Bestarium (+2):</strong> The caster may affect magical beasts with animal intelligence.\n    </li>\n<li><strong>Duration (+1):</strong> The base Duration increases to 30 minutes.</li>\n<li>\n<strong>Mind Rider (+1):</strong> The caster can communicate and sense through any of the beasts he currently has\n      befriended.\n    </li>\n</ul></article>",
+        "notes": "",
+        "additionalStats": {},
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "",
+          "traitMod": ""
+        },
+        "rank": "Novice",
+        "pp": 0,
+        "damage": "",
+        "range": "Smarts",
+        "duration": "10 minutes",
+        "trapping": "The caster concentrates and gestures with his hands.",
+        "arcane": "Ranger",
+        "modifiers": [],
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "ap": 0,
+        "innate": false,
+        "source": "Fantasy Companion",
+        "swid": "beast-friend",
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700763178382,
+        "modifiedTime": 1700763178628,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.37BkleRQcfNLUdMu"
+    },
+    {
+      "_id": "UL8477ngLoFHsbz6",
+      "name": "Entangle",
+      "type": "power",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+      "system": {
+        "description": "<article class=\"swadefc\"><p>\n<em>Entangle</em> restrain a target with ice, bands of energy, vines, disembodied hands, etc (Hardness 8). If cast\n    successfully, the target is Entangled (or Bound with a raise on the arcane skill roll).\n  </p>\n<p>\n    Victims may try to break free on their turn as detailed under @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{Bound and Entangled} <em>in Savage Worlds</em> and @UUID[Compendium.swade-fantasy-companion.swade-fc.JournalEntry.swadefcp03settin.JournalEntryPage.03chapterthree00#bound-and-entangled]{update here}.\n  </p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Area of Effect (+2/+3):</strong> For +2 points the power affects everyone in a Medium Blast Template. For\n      +3 points the area of effect is increased to a Large Blast Template or use the Stream Template.\n    </li>\n<li><strong>Damage (+2):</strong> Entangled targets take 2d4 damage at the end of their turn.</li>\n<li class=\"epic-power-icon\">\n<strong>Deadly (+4):</strong> Entangled targets take 2d6 damage at the end of their turn. Does not stack with\n      Damage.\n    </li>\n<li>\n<strong>Tough (+1):</strong> The entangling material is particularly resilient. Increase its Hardness to 10.\n    </li>\n</ul></article>",
+        "notes": "",
+        "additionalStats": {},
+        "actions": {
+          "dmgMod": "",
+          "additional": {
+            "qbETZtas": {
+              "name": "Damage (2d4)",
+              "type": "damage",
+              "override": "2d4",
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            },
+            "roS9oGG0": {
+              "name": "Deadly (2d6)",
+              "type": "damage",
+              "override": "2d6",
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          },
+          "trait": "",
+          "traitMod": ""
+        },
+        "rank": "Novice",
+        "pp": 2,
+        "damage": "",
+        "range": "Smarts",
+        "duration": "Instant",
+        "trapping": "Glue bomb, vines, webs.",
+        "arcane": "Ranger",
+        "modifiers": [],
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": true,
+          "large": true
+        },
+        "ap": 0,
+        "innate": false,
+        "source": "Fantasy Companion",
+        "swid": "entangle",
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700763178382,
+        "modifiedTime": 1700763178628,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.UL8477ngLoFHsbz6"
+    },
+    {
+      "_id": "5Bs2QTb5nbTp7WNc",
+      "name": "Farsight",
+      "type": "power",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+      "system": {
+        "description": "<article class=\"swadefc\"><p>\n<em>Farsight</em> allows the recipient to see in detail over great distances. She can read lips or fine print up to\n    a mile distant.\n  </p>\n<p>\n    With a raise, she also halves Range penalties for Shooting, Athletics (throwing), or other abilities affected by\n    Range.\n  </p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Additional Recipients (+1):</strong> The power may affect more than one target for 1 additional Power\n      Point each.\n    </li>\n<li class=\"epic-power-icon\">\n<strong>Greater Farsight (+2):</strong> Allows the recipient to ignore all Range penalties, and a raise doubles\n      sight range.\n    </li>\n</ul></article>",
+        "notes": "Personal Limitation.",
+        "additionalStats": {},
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "",
+          "traitMod": ""
+        },
+        "rank": "Seasoned",
+        "pp": 1,
+        "damage": "",
+        "range": "Smarts",
+        "duration": "5",
+        "trapping": "Invisibly marked targets, guiding winds, eagle eyes.",
+        "arcane": "Ranger",
+        "modifiers": [],
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "ap": 0,
+        "innate": false,
+        "source": "Fantasy Companion",
+        "swid": "farsight",
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700763178382,
+        "modifiedTime": 1700763178628,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.5Bs2QTb5nbTp7WNc"
+    },
+    {
+      "_id": "siaDUWzXyjGd99AN",
+      "effects": [
+        {
+          "_id": "0GFf6otn7L5IcEnG",
+          "name": "Woodsman",
+          "changes": [
+            {
+              "key": "@Skill{Survival}[system.die.modifier]",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            },
+            {
+              "key": "@Skill{Stealth}[system.die.modifier]",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {},
+          "icon": "systems/swade/assets/icons/edge.svg",
+          "tint": null,
+          "transfer": true,
+          "description": "<article class=\"swade-core\">\n<p>Woodsmen are rangers, scouts, and hunters who are more at home in the wilderness than in urban areas. They are skilled trackers and scouts, and know how to live off the land for months at a time.</p>\n<p>Woodsmen add +2 to @Compendium[swade-core-rules.swade-skills.Survival]{Survival} rolls, and @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth} rolls made in the wild (not towns, ruins, or underground).</p>\n</article>",
+          "origin": null,
+          "statuses": [],
+          "_key": "!actors.items.effects!MxD7SpGj1xzF4ckX.siaDUWzXyjGd99AN.0GFf6otn7L5IcEnG"
+        }
+      ],
+      "flags": {
+        "swade": {
+          "conditionalEffect": false,
+          "hasGranted": []
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-edges.Item.Z2gdqy77ueRxL9yv"
+        }
+      },
+      "folder": null,
+      "img": "systems/swade/assets/icons/edge.svg",
+      "name": "Woodsman",
+      "sort": 0,
+      "type": "edge",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>Woodsmen are rangers, scouts, and hunters who are more at home in the wilderness than in urban areas. They are skilled trackers and scouts, and know how to live off the land for months at a time.</p>\n<p>Woodsmen add +2 to @Compendium[swade-core-rules.swade-skills.Survival]{Survival} rolls, and @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth} rolls made in the wild (not towns, ruins, or underground).</p>\n</article>",
+        "isArcaneBackground": false,
+        "notes": "",
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 0,
+            "combinator": "and"
+          },
+          {
+            "type": "attribute",
+            "selector": "spirit",
+            "value": 6,
+            "combinator": "and"
+          },
+          {
+            "type": "skill",
+            "selector": "survival",
+            "value": 8,
+            "combinator": "and",
+            "label": "Survival"
+          }
+        ],
+        "category": "Professional",
+        "swid": "woodsman",
+        "favorite": false,
+        "grants": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2.2",
+        "coreVersion": "11.315",
+        "createdTime": 1700763262861,
+        "modifiedTime": 1700763262915,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.siaDUWzXyjGd99AN"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.2",
+    "coreVersion": "11.315",
+    "createdTime": 1693890215641,
+    "modifiedTime": 1700765915479,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "MxD7SpGj1xzF4ckX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!actors!MxD7SpGj1xzF4ckX"
+}
