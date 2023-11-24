@@ -90,7 +90,7 @@
       "species": {
         "name": ""
       },
-      "currency": 0,
+      "currency": 50,
       "wealth": {
         "die": 6,
         "modifier": 0,
@@ -2003,8 +2003,7 @@
           "visibleTo": []
         }
       }
-    },
-    "core": {}
+    }
   },
   "_id": "oSri5RAJWuoi3F0Y",
   "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp",
@@ -2012,11 +2011,11 @@
     "systemId": "swade",
     "systemVersion": "3.2.2",
     "coreVersion": "11.315",
-    "createdTime": 1700690683545,
-    "modifiedTime": 1700693711820,
+    "createdTime": 1668895717346,
+    "modifiedTime": 1700800042867,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
-  "sort": 0,
+  "sort": 196875,
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3

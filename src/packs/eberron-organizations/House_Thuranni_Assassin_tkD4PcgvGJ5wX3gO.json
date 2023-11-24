@@ -90,7 +90,7 @@
       "species": {
         "name": ""
       },
-      "currency": 0,
+      "currency": 6.1,
       "wealth": {
         "die": 6,
         "modifier": 0,
@@ -2970,20 +2970,18 @@
     }
   ],
   "effects": [],
-  "folder": null,
-  "flags": {
-    "core": {}
-  },
+  "folder": "60oZUurgqUx9pdS9",
+  "flags": {},
   "_stats": {
     "systemId": "swade",
     "systemVersion": "3.2.2",
     "coreVersion": "11.315",
     "createdTime": 1693890215641,
-    "modifiedTime": 1700765915479,
+    "modifiedTime": 1700800042867,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "tkD4PcgvGJ5wX3gO",
-  "sort": 0,
+  "sort": 194532,
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3

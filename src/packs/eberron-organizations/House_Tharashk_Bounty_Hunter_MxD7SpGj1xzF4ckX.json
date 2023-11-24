@@ -1203,7 +1203,7 @@
         "systemVersion": "3.2.2",
         "coreVersion": "11.315",
         "createdTime": 1700761050265,
-        "modifiedTime": 1700761182012,
+        "modifiedTime": 1700761206576,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!MxD7SpGj1xzF4ckX.f6ycIijSYrviqDpJ"
@@ -2756,20 +2756,18 @@
     }
   ],
   "effects": [],
-  "folder": null,
-  "flags": {
-    "core": {}
-  },
+  "folder": "60oZUurgqUx9pdS9",
+  "flags": {},
   "_stats": {
     "systemId": "swade",
     "systemVersion": "3.2.2",
     "coreVersion": "11.315",
-    "createdTime": 1693890215641,
-    "modifiedTime": 1700765915479,
+    "createdTime": 1700761050265,
+    "modifiedTime": 1700800042867,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "MxD7SpGj1xzF4ckX",
-  "sort": 0,
+  "sort": 195313,
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3
