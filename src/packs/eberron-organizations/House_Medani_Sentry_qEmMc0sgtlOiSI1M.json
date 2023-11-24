@@ -754,7 +754,7 @@
         "additionalStats": {},
         "major": false,
         "source": "",
-        "swid": "none",
+        "swid": "various",
         "favorite": false,
         "grants": []
       },
@@ -2199,10 +2199,10 @@
   "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp",
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.2",
+    "systemVersion": "3.2.4",
     "coreVersion": "11.315",
     "createdTime": 1668046060853,
-    "modifiedTime": 1700800042867,
+    "modifiedTime": 1700809445947,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 181250,
