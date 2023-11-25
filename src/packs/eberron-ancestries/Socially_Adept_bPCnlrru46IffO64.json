@@ -1,0 +1,53 @@
+{
+  "folder": "vU9iiEiizKcOJwJT",
+  "name": "Socially Adept",
+  "type": "ability",
+  "_id": "bPCnlrru46IffO64",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "<p>An empty vessel has the @UUID[Compendium.swade-core-rules.swade-edges.Item.3jFwJEuUKJJ7YLgz]{Charismatic}, @UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.wT93ZyyoQCMYgF5u]{Deceptive}, and @UUID[Compendium.swade-core-rules.swade-edges.Item.J5BIeQPPjPicz2Im]{Menacing} Edges. Through their strong presence and psychic subtleties, they are adept at influencing others.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "socially-adept",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Empty Vessel Abilities",
+    "grants": [
+      {
+        "uuid": "Compendium.swade-core-rules.swade-edges.Item.3jFwJEuUKJJ7YLgz",
+        "img": "systems/swade/assets/icons/edge.svg",
+        "name": "Charismatic",
+        "mutation": {}
+      },
+      {
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.wT93ZyyoQCMYgF5u",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+        "name": "Deceptive",
+        "mutation": {}
+      },
+      {
+        "name": "Menacing",
+        "img": "systems/swade/assets/icons/edge.svg",
+        "uuid": "Compendium.swade-core-rules.swade-edges.Item.J5BIeQPPjPicz2Im"
+      }
+    ],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.4",
+    "coreVersion": "11.315",
+    "createdTime": 1700895624599,
+    "modifiedTime": 1700895750845,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!bPCnlrru46IffO64"
+}

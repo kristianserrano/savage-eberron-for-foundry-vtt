@@ -1,0 +1,47 @@
+{
+  "folder": "vU9iiEiizKcOJwJT",
+  "name": "Cosmic Awareness",
+  "type": "ability",
+  "_id": "DCaDEIPxz4J4lIfC",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "<p>An empty vessel adds @UUID[Compendium.swade-core-rules.swade-skills.Item.XMNmVhwrZmL47Vhg]{Occult} as a core skill and has the @UUID[Compendium.savage-eberron.eberron-edges.Item.KNUNX7fUfRqbRNkq]{Planar Mastery} Edge.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "cosmic-awareness",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Empty Vessel Abilities",
+    "grants": [
+      {
+        "uuid": "Compendium.swade-core-rules.swade-skills.Item.XMNmVhwrZmL47Vhg",
+        "img": "systems/swade/assets/icons/skills/curled-tentacle.svg",
+        "name": "Occult",
+        "mutation": {}
+      },
+      {
+        "name": "Planar Mastery",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+        "uuid": "Compendium.savage-eberron.eberron-edges.Item.KNUNX7fUfRqbRNkq"
+      }
+    ],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.4",
+    "coreVersion": "11.315",
+    "createdTime": 1700895768841,
+    "modifiedTime": 1700895893766,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!DCaDEIPxz4J4lIfC"
+}
