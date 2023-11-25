@@ -2193,7 +2193,8 @@
       "id": "swade-npc-importer",
       "appVersion": "0.2.3",
       "importDate": "2023-11-21T05:06:16.490Z"
-    }
+    },
+    "core": {}
   },
   "_id": "qEmMc0sgtlOiSI1M",
   "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp",
@@ -2202,7 +2203,7 @@
     "systemVersion": "3.2.4",
     "coreVersion": "11.315",
     "createdTime": 1668046060853,
-    "modifiedTime": 1700809445947,
+    "modifiedTime": 1700896936472,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 181250,

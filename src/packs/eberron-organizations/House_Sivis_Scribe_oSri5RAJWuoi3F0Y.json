@@ -2003,7 +2003,8 @@
           "visibleTo": []
         }
       }
-    }
+    },
+    "core": {}
   },
   "_id": "oSri5RAJWuoi3F0Y",
   "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp",
@@ -2012,7 +2013,7 @@
     "systemVersion": "3.2.4",
     "coreVersion": "11.315",
     "createdTime": 1668895717346,
-    "modifiedTime": 1700809445927,
+    "modifiedTime": 1700896936472,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 196875,

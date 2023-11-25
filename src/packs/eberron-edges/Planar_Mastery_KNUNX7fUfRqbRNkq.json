@@ -5,7 +5,7 @@
   "_id": "KNUNX7fUfRqbRNkq",
   "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
   "system": {
-    "description": "<p>Some occultists have expanded their knowledge beyond the supernatural elements of the Material Plane. These adventurers have either experienced the effects of or have studied the other planes of existence that influence the world. Adventurers with this Edge may make Occult rolls to identify the effects, properties, and inhabitants of any of the other 13 planes. They may also use the Occult skill in place of Survival rolls while navigating through a manifest zone or any plane other than their own.</p>",
+    "description": "<p>Some occultists have expanded their knowledge beyond the supernatural elements of the Material Plane. These adventurers have either experienced the effects of or have studied the other planes of existence that influence the world. Adventurers with this Edge may make Occult rolls to identify the effects, properties, and inhabitants of any of the other 13 planes. They may also use the @UUID[Compendium.swade-core-rules.swade-skills.Item.XMNmVhwrZmL47Vhg]{Occult} skill in place of Survival rolls while navigating through a manifest zone or any plane other than their own.</p>",
     "notes": "",
     "additionalStats": {},
     "favorite": false,
@@ -42,7 +42,7 @@
     "systemVersion": "3.2.4",
     "coreVersion": "11.315",
     "createdTime": 1690693289696,
-    "modifiedTime": 1700809444613,
+    "modifiedTime": 1700895884275,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_key": "!items!KNUNX7fUfRqbRNkq"

@@ -2971,13 +2971,15 @@
   ],
   "effects": [],
   "folder": "60oZUurgqUx9pdS9",
-  "flags": {},
+  "flags": {
+    "core": {}
+  },
   "_stats": {
     "systemId": "swade",
     "systemVersion": "3.2.4",
     "coreVersion": "11.315",
     "createdTime": 1693890215641,
-    "modifiedTime": 1700809445968,
+    "modifiedTime": 1700896936472,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "tkD4PcgvGJ5wX3gO",
