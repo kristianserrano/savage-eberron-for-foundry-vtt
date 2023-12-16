@@ -1,5 +1,9 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.0.9
+
+- Adds House Tharashk Bounty Hunter and House Thuranni Assassin.
+
 ## v1.0.8
 
 - Adds House Phiarlan Entertainer/Spy and House Sivis Scribe.
