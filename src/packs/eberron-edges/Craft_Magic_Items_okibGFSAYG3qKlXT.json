@@ -18,8 +18,9 @@
         "combinator": "and"
       },
       {
-        "type": "other",
-        "label": "Arcane Background (Any)"
+        "type": "edge",
+        "label": "Arcane Background (Any)",
+        "selector": "arcane-background"
       }
     ],
     "grants": [],
@@ -37,10 +38,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
+    "systemVersion": "3.2-dev",
     "coreVersion": "11.315",
     "createdTime": 1690671479852,
-    "modifiedTime": 1700890169680,
+    "modifiedTime": 1702695218312,
     "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
   },
   "_key": "!items!okibGFSAYG3qKlXT"
