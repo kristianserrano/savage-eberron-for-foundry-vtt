@@ -1,9 +1,9 @@
 {
-  "name": "Siberys Shard Items",
+  "name": "The Dreaming Dark",
   "sorting": "a",
-  "folder": "C4Awp3iFhRhYqMg1",
-  "type": "Item",
-  "_id": "RDVcJmXAAV39dSOd",
+  "folder": null,
+  "type": "Actor",
+  "_id": "Ns4hMh9KgKietVow",
   "sort": 0,
   "color": null,
   "flags": {},
@@ -11,9 +11,9 @@
     "systemId": "swade",
     "systemVersion": "3.2-dev",
     "coreVersion": "11.315",
-    "createdTime": null,
-    "modifiedTime": 1702866604107,
+    "createdTime": 1702874272149,
+    "modifiedTime": 1702874299621,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
-  "_key": "!folders!RDVcJmXAAV39dSOd"
+  "_key": "!folders!Ns4hMh9KgKietVow"
 }

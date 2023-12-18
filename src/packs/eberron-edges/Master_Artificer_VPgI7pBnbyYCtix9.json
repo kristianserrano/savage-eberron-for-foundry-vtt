@@ -41,7 +41,7 @@
     "swid": "master-artificer"
   },
   "effects": [],
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3
@@ -51,11 +51,11 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
+    "systemVersion": "3.2-dev",
     "coreVersion": "11.315",
     "createdTime": 1691430900769,
-    "modifiedTime": 1700890169674,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1702871042411,
+    "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_key": "!items!VPgI7pBnbyYCtix9"
 }
