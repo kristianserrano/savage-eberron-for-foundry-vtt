@@ -1,0 +1,117 @@
+{
+  "name": "Profane Gift",
+  "type": "ability",
+  "system": {
+    "description": "",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "new-ability",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Quori Abilities",
+    "grants": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "effects": [
+    {
+      "name": "Profane Gift (+2 Persuasion)",
+      "icon": "systems/swade/assets/icons/ability.svg",
+      "changes": [
+        {
+          "key": "@Skill{Persuasion}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "670cHAIBrjxTWZyw",
+      "disabled": false,
+      "duration": {
+        "startTime": 36,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Inspired gain an additional +2 to @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} rolls and Tests based on Smarts- or Spirit-linked skills.</p>",
+      "origin": null,
+      "statuses": [],
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false
+        }
+      },
+      "tint": null,
+      "_key": "!items.effects!dGbtlrV3hRd3KEu5.670cHAIBrjxTWZyw"
+    },
+    {
+      "name": "Profane Gift (+2 Sm/Sp linked Tests)",
+      "icon": "systems/swade/assets/icons/ability.svg",
+      "changes": [
+        {
+          "key": "system.stats.globalMods.smarts",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.stats.globalMods.spirit",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "3uLlhwY0vRGj3ZEz",
+      "disabled": false,
+      "duration": {
+        "startTime": 36,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Inspired gain an additional +2 to @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} rolls and Tests based on Smarts- or Spirit-linked skills.</p>",
+      "origin": null,
+      "statuses": [],
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false
+        }
+      },
+      "tint": null,
+      "_key": "!items.effects!dGbtlrV3hRd3KEu5.3uLlhwY0vRGj3ZEz"
+    }
+  ],
+  "folder": "HNWyBFZb7CyIQ477",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "swade": {
+      "hasGranted": []
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1702867189976,
+    "modifiedTime": 1702870679412,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "dGbtlrV3hRd3KEu5",
+  "sort": 500000,
+  "_key": "!items!dGbtlrV3hRd3KEu5"
+}

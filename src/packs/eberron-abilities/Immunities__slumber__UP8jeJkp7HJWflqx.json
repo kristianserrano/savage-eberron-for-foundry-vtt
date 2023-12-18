@@ -1,0 +1,35 @@
+{
+  "folder": "HNWyBFZb7CyIQ477",
+  "name": "Immunities (slumber)",
+  "type": "ability",
+  "_id": "UP8jeJkp7HJWflqx",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "<p>Quori cannot be affected by <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.UFQy5B0Egwhm96uM]{slumber}</em>.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "immunities-slumber",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Quori Abilities",
+    "grants": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1702869233040,
+    "modifiedTime": 1702874182038,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!UP8jeJkp7HJWflqx"
+}

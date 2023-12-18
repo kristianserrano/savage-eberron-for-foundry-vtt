@@ -1,0 +1,37 @@
+{
+  "effects": [],
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "name": "Environmental Resistance (Heat)",
+  "type": "ability",
+  "system": {
+    "source": "Eberron for Savage Worlds",
+    "additionalStats": {},
+    "description": "<p><strong>Environmental Resistance (Heat):</strong> +4 resistance / −4 damage from heat or fire-based effects.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Quori Abilities",
+    "swid": "environmental-resistance",
+    "favorite": false,
+    "grants": []
+  },
+  "folder": "HNWyBFZb7CyIQ477",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1700809448817,
+    "modifiedTime": 1702874175670,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "6iw5lef96WxAvWQa",
+  "sort": 300000,
+  "_key": "!items!6iw5lef96WxAvWQa"
+}

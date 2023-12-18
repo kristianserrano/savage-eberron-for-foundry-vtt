@@ -1,0 +1,41 @@
+{
+  "folder": "HNWyBFZb7CyIQ477",
+  "name": "Possession",
+  "type": "ability",
+  "_id": "R4u8S3JPec3cTach",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "<p><strong>Possession:</strong> A quori can possess any willing human in sight as an action. The human vessel cannot be protected by any form of protection from supernatural evil. First, the quori spirit must depart its physical body on Dal Quor and become an ethereal spirit on the Ethereal Plane. The body remains in a state of suspended animation and is vulnerable to physical attacks and environmental damage. If the quori body is destroyed, the quori spirit dies with it. Casting <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel}</em> on the quori body returns the quori spirit to it. During possession, the quori spirit is in complete control and has access to all the human’s thoughts and memories. Physically harming the human vessel does not harm the quori. If the human vessel dies, the quori returns to the Ethereal Plane and can attempt another possession. The quori spirit can use its powers while possessing a human vessel. It can also use the higher of its or the human vessel’s Smarts and Spirit attributes and combine its skills with the human vessel’s skills. While possessed, the human vessel gains an additional +2 to @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} rolls and Tests based on Smarts- or Spirit-linked skills. Successfully casting the <em>exorcism</em> power on the possessed body as a ritual sends the quori spirit back to Dal Quor.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "possession",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Quori Abilities",
+    "grants": [
+      {
+        "name": "Profane Gift",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+        "uuid": "Compendium.savage-eberron.eberron-abilities.Item.dGbtlrV3hRd3KEu5"
+      }
+    ],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1702869655574,
+    "modifiedTime": 1702870687795,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!R4u8S3JPec3cTach"
+}

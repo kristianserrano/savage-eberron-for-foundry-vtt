@@ -1,0 +1,35 @@
+{
+  "folder": "HNWyBFZb7CyIQ477",
+  "name": "Darksight",
+  "type": "ability",
+  "_id": "I75llent0q7MwS2Y",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "<p>Quori can see in complete darkness.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "darksight",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Quori Abilities",
+    "grants": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1702868942988,
+    "modifiedTime": 1702870679412,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!I75llent0q7MwS2Y"
+}

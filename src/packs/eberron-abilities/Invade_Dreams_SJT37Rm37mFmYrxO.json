@@ -1,0 +1,35 @@
+{
+  "folder": "HNWyBFZb7CyIQ477",
+  "name": "Invade Dreams",
+  "type": "ability",
+  "_id": "SJT37Rm37mFmYrxO",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "<p><strong>Invade Dreams:</strong> A quori on Dal Quor can use <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind link}</em> to communicate with a creature on another plane through its dreams. During this connection, it can change its appearance to any living creature it desires as if using <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nz69DP0tjQGxYtcI]{disguise}</em> or <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.fK9adaURLKcCGv99]{shape change}</em>. It can also use the <em>nightmares</em> power with any dreaming creature while on Dal Quor.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "invade-dreams",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Quori Abilities",
+    "grants": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1702869327062,
+    "modifiedTime": 1702870679412,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!SJT37Rm37mFmYrxO"
+}

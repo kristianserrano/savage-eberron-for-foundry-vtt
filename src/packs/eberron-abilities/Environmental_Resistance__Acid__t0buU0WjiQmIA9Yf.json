@@ -1,0 +1,37 @@
+{
+  "effects": [],
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "name": "Environmental Resistance (Acid)",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules",
+    "additionalStats": {},
+    "description": "<p><strong>Environmental Resistance (Acid):</strong> +4 resistance / −4 damage from acid or acid-based effects.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Positive",
+    "swid": "environmental-resistance",
+    "favorite": false,
+    "grants": []
+  },
+  "folder": "HNWyBFZb7CyIQ477",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1700809448817,
+    "modifiedTime": 1702874163388,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "t0buU0WjiQmIA9Yf",
+  "sort": 800000,
+  "_key": "!items!t0buU0WjiQmIA9Yf"
+}

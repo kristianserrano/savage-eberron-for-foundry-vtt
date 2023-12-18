@@ -1,0 +1,84 @@
+{
+  "name": "Innate Powers",
+  "type": "ability",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "source": "Eberron for Savage Worlds",
+    "category": "Quori Abilities",
+    "description": "<article class=\"swadefc\"><p><strong>@UUID[Compendium.savage-eberron.eberron-abilities.Item.ETINOxDyaOs5zKBl]{Innate Powers}:</strong> Major <em>@UUID[Actor.cGgGcxbsRyDpFFZ9.Item.GfKhAYCL6PMNZ04y]{mind link}</em>, minor<em> @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}</em>, major <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t]{teleport}</em> (Greater Teleport, self only)</p></article>",
+    "notes": "",
+    "additionalStats": {},
+    "subtype": "special",
+    "favorite": false,
+    "grantsPowers": true,
+    "swid": "innate-powers",
+    "grants": [
+      {
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+        "name": "Protection",
+        "mutation": {
+          "name": "Minor Protection",
+          "system": {
+            "arcane": "Innate"
+          }
+        }
+      },
+      {
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+        "name": "Teleport",
+        "mutation": {
+          "name": "Major Teleport (Greater Teleport, self only)",
+          "system": {
+            "arcane": "Innate"
+          }
+        }
+      },
+      {
+        "name": "Mind Link",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw",
+        "mutation": {
+          "name": "Major Mind Link",
+          "system": {
+            "arcane": "Innate"
+          }
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sheetClass": "swade.SWADEFCItem"
+    },
+    "singleSource": {
+      "version": "2.0.0-alpha",
+      "module": "swade-fantasy-companion"
+    },
+    "swade": {
+      "hasGranted": [
+        "ZPWRr6SqTFsdf9uk",
+        "9czjx8ncWbxP98XJ",
+        "WvsNaPKgmK0mZ5lK"
+      ]
+    }
+  },
+  "folder": "HNWyBFZb7CyIQ477",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1700809449585,
+    "modifiedTime": 1702870923399,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "ETINOxDyaOs5zKBl",
+  "sort": 100000,
+  "_key": "!items!ETINOxDyaOs5zKBl"
+}
