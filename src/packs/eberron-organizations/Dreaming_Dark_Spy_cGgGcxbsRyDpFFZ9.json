@@ -1013,7 +1013,8 @@
       "sort": 200000,
       "flags": {
         "core": {
-          "sheetClass": "swade.SWADEFCItem"
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Actor.cGgGcxbsRyDpFFZ9.Item.92OLYogb0mrXEhEh"
         },
         "singleSource": {
           "version": "2.0.0-alpha",
@@ -3407,874 +3408,6 @@
       "_key": "!actors.items!cGgGcxbsRyDpFFZ9.PlLbhf22JB7KGALp"
     },
     {
-      "folder": "HNWyBFZb7CyIQ477",
-      "name": "Quori Abilities",
-      "type": "ability",
-      "_id": "GeyfzrZe4ktmqoxh",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "description": "<p>All quori have the following special abilities.</p><ul><li><p><strong>Arcane Resistance:</strong> Quori have the @UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.3Tkb9OczC6HXzd0Z]{Arcane Resistance} Edge.</p></li><li><p><strong>Darksight:</strong> Quori can see in complete darkness.</p></li><li><p><strong>Environmental Resistance (Acid):</strong> +4 resistance / −4 damage from acid or acid-based effects.</p></li><li><p><strong>Environmental Resistance (Cold):</strong> +4 resistance / −4 damage from cold or ice-based effects.</p></li><li><p><strong>Environmental Resistance (Heat):</strong> +4 resistance / −4 damage from heat or fire-based effects.</p></li><li><p><strong>Fearless:</strong> Quori are immune to @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.FKawDwaCdCRij7eO]{Fear} and @UUID[Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId]{Intimidation}.</p></li><li><p><strong>Immunities:</strong> Quori cannot be affected by <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.UFQy5B0Egwhm96uM]{slumber}</em>.</p></li><li><p><strong>Innate Powers:</strong> Major <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind link}</em>, major teleport (Greater Teleport, self only).</p></li><li><p><strong>Invade Dreams:</strong> A quori on Dal Quor can use <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind link}</em> to communicate with a creature on another plane through its dreams. During this connection, it can change its appearance to any living creature it desires as if using <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nz69DP0tjQGxYtcI]{disguise}</em> or <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.fK9adaURLKcCGv99]{shape change}</em>. It can also use the <em>nightmares</em> power with any dreaming creature while on Dal Quor.</p></li><li><p><strong>Possession:</strong> A quori can possess any willing human in sight as an action. The human vessel cannot be protected by any form of protection from supernatural evil. First, the quori spirit must depart its physical body on Dal Quor and become an ethereal spirit on the Ethereal Plane. The body remains in a state of suspended animation and is vulnerable to physical attacks and environmental damage. If the quori body is destroyed, the quori spirit dies with it. Casting <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel}</em> on the quori body returns the quori spirit to it. During possession, the quori spirit is in complete control and has access to all the human’s thoughts and memories. Physically harming the human vessel does not harm the quori. If the human vessel dies, the quori returns to the Ethereal Plane and can attempt another possession. The quori spirit can use its powers while possessing a human vessel. It can also use the higher of its or the human vessel’s Smarts and Spirit attributes and combine its skills with the human vessel’s skills. While possessed, the human vessel gains an additional +2 to @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} rolls and Tests based on Smarts- or Spirit-linked skills. Successfully casting the <em>exorcism</em> power on the possessed body as a ritual sends the quori spirit back to Dal Quor.</p></li></ul>",
-        "notes": "",
-        "source": "Eberron for Savage Worlds",
-        "swid": "quori",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Quori Abilities",
-        "grants": [
-          {
-            "uuid": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.3Tkb9OczC6HXzd0Z",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
-            "name": "Arcane Resistance",
-            "mutation": {}
-          },
-          {
-            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.I75llent0q7MwS2Y",
-            "img": "systems/swade/assets/icons/ability.svg",
-            "name": "Darksight",
-            "mutation": {}
-          },
-          {
-            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.t0buU0WjiQmIA9Yf",
-            "img": "systems/swade/assets/icons/ability.svg",
-            "name": "Environmental Resistance (Acid)",
-            "mutation": {}
-          },
-          {
-            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.zmLpsTJTFEbdWYAW",
-            "img": "systems/swade/assets/icons/ability.svg",
-            "name": "Environmental Resistance (Cold)",
-            "mutation": {}
-          },
-          {
-            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.6iw5lef96WxAvWQa",
-            "img": "systems/swade/assets/icons/ability.svg",
-            "name": "Environmental Resistance (Heat)",
-            "mutation": {}
-          },
-          {
-            "uuid": "Compendium.swade-core-rules.swade-specialabilities.Item.Vw83SZWDVLs8aVrx",
-            "img": "systems/swade/assets/icons/ability.svg",
-            "name": "Fearless",
-            "mutation": {}
-          },
-          {
-            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.UP8jeJkp7HJWflqx",
-            "img": "systems/swade/assets/icons/ability.svg",
-            "name": "Immunities (slumber)",
-            "mutation": {}
-          },
-          {
-            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.ETINOxDyaOs5zKBl",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-            "name": "Innate Powers",
-            "mutation": {}
-          },
-          {
-            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.SJT37Rm37mFmYrxO",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-            "name": "Invade Dreams",
-            "mutation": {}
-          },
-          {
-            "name": "Possession",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.R4u8S3JPec3cTach",
-            "mutation": {}
-          }
-        ],
-        "subtype": "special",
-        "grantsPowers": false
-      },
-      "effects": [],
-      "sort": 900000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.cLDBMYggYBeEiLQ9"
-        },
-        "swade": {
-          "hasGranted": [
-            "JtjuuYE4YaOIANiw",
-            "mF1fd0dJOseq83Ww",
-            "pLXpjQiP3qYTIBLD",
-            "d67t9MT8CV472SME",
-            "vkxW9f2pig9aQRgL",
-            "wQC54qPZUwekVtid",
-            "Cn5zQO40evd5XXCz",
-            "r6xiirzrY9z02aBr",
-            "okMGHcJasrO7PNnR",
-            "UL8ekfioG7qLteON",
-            "8GW0WPFGEW1pIVjO",
-            "Zw0NG7Gv4H2tPFEB",
-            "0PmZl9tq0DEgT1le",
-            "lCGXrdJWzpDl17Xx"
-          ]
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1702868510005,
-        "modifiedTime": 1702872811492,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.GeyfzrZe4ktmqoxh"
-    },
-    {
-      "_id": "JtjuuYE4YaOIANiw",
-      "name": "Arcane Resistance",
-      "type": "edge",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
-      "system": {
-        "source": "Fantasy Companion",
-        "description": "<article class=\"swadefc\"><h3 class=\"lightning-icon\">Arcane Resistance</h3>\n<section class=\"description\">\n<p>\n Magic and the supernatural hold little sway with this individual. Whether by nature, heritage, or training the\n character is particularly resistant to magic and other supernatural energies.\n </p>\n<p>\n Enemy arcane abilities targeting the hero suffer a -2 penalty and magical damage is reduced by 2 as well. If a\n hostile power fails to affect the hero due to this penalty, it still activates and consumes Power Points (and\n may still affect other targets). This includes magical bonuses granted to weapons, such as the\n <em>smite</em>\n power or the damage bonus of magical weapons.\n </p>\n</section></article>",
-        "notes": "",
-        "additionalStats": {},
-        "isArcaneBackground": false,
-        "requirements": [
-          {
-            "type": "rank",
-            "selector": "",
-            "value": 0,
-            "combinator": "and"
-          },
-          {
-            "type": "attribute",
-            "selector": "spirit",
-            "value": 8,
-            "combinator": "and"
-          }
-        ],
-        "category": "Background",
-        "swid": "arcane-resistance",
-        "favorite": false,
-        "grants": []
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sheetClass": "swade.SWADEFCItem"
-        },
-        "singleSource": {
-          "version": "2.0.0-alpha",
-          "module": "swade-fantasy-companion"
-        }
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1700239582729,
-        "modifiedTime": 1702872811424,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.JtjuuYE4YaOIANiw"
-    },
-    {
-      "folder": "HNWyBFZb7CyIQ477",
-      "name": "Darksight",
-      "type": "ability",
-      "_id": "mF1fd0dJOseq83Ww",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "description": "<p>Quori can see in complete darkness.</p>",
-        "notes": "",
-        "source": "Eberron for Savage Worlds",
-        "swid": "darksight",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Quori Abilities",
-        "grants": [],
-        "subtype": "special",
-        "grantsPowers": false
-      },
-      "effects": [],
-      "sort": 1000000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1702868942988,
-        "modifiedTime": 1702872811424,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.mF1fd0dJOseq83Ww"
-    },
-    {
-      "effects": [],
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "name": "Environmental Resistance (Acid)",
-      "type": "ability",
-      "system": {
-        "source": "SWADE Core Rules",
-        "additionalStats": {},
-        "description": "<p><strong>Environmental Resistance (Acid):</strong> +4 resistance / −4 damage from acid or acid-based effects.</p>",
-        "grantsPowers": false,
-        "notes": "",
-        "subtype": "special",
-        "category": "Positive",
-        "swid": "environmental-resistance",
-        "favorite": false,
-        "grants": []
-      },
-      "folder": "HNWyBFZb7CyIQ477",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1700809448817,
-        "modifiedTime": 1702874050746,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_id": "pLXpjQiP3qYTIBLD",
-      "sort": 800000,
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.pLXpjQiP3qYTIBLD"
-    },
-    {
-      "effects": [],
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "name": "Environmental Resistance (Cold)",
-      "type": "ability",
-      "system": {
-        "source": "SWADE Core Rules",
-        "additionalStats": {},
-        "description": "<p><strong>Environmental Resistance (Cold):</strong> +4 resistance / −4 damage from cold or ice-based effects.</p>",
-        "grantsPowers": false,
-        "notes": "",
-        "subtype": "special",
-        "category": "Positive",
-        "swid": "environmental-resistance",
-        "favorite": false,
-        "grants": []
-      },
-      "folder": "HNWyBFZb7CyIQ477",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1700809448817,
-        "modifiedTime": 1702873999339,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_id": "d67t9MT8CV472SME",
-      "sort": 200000,
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.d67t9MT8CV472SME"
-    },
-    {
-      "effects": [],
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "name": "Environmental Resistance (Heat)",
-      "type": "ability",
-      "system": {
-        "source": "Eberron for Savage Worlds",
-        "additionalStats": {},
-        "description": "<p><strong>Environmental Resistance (Heat):</strong> +4 resistance / −4 damage from heat or fire-based effects.</p>",
-        "grantsPowers": false,
-        "notes": "",
-        "subtype": "special",
-        "category": "Quori Abilities",
-        "swid": "environmental-resistance",
-        "favorite": false,
-        "grants": []
-      },
-      "folder": "HNWyBFZb7CyIQ477",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1700809448817,
-        "modifiedTime": 1702873991484,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_id": "vkxW9f2pig9aQRgL",
-      "sort": 300000,
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.vkxW9f2pig9aQRgL"
-    },
-    {
-      "_id": "wQC54qPZUwekVtid",
-      "effects": [],
-      "folder": null,
-      "img": "systems/swade/assets/icons/ability.svg",
-      "name": "Fearless",
-      "sort": 0,
-      "type": "ability",
-      "system": {
-        "source": "SWADE Core Rules",
-        "additionalStats": {},
-        "description": "<article class=\"swade-core\">\n<p>Mindless creatures, some undead, robots, and the like don’t suffer from the weaknesses of the mortal mind. Fearless creatures are immune to @Compendium[swade-core-rules.swade-powers.Fear]{Fear} effects and @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation}. They may still be @Compendium[swade-core-rules.swade-skills.Taunt]{Taunted}, however (usually because it draws their attention rather than causing emotional distress).</p>\n</article>",
-        "grantsPowers": false,
-        "notes": "",
-        "subtype": "special",
-        "category": "Special Ability",
-        "swid": "fearless",
-        "favorite": false,
-        "grants": []
-      },
-      "ownership": {
-        "7ntJSLixH2Phv2jV": 3,
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1700809449113,
-        "modifiedTime": 1702872811424,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.wQC54qPZUwekVtid"
-    },
-    {
-      "folder": "HNWyBFZb7CyIQ477",
-      "name": "Immunities (slumber)",
-      "type": "ability",
-      "_id": "Cn5zQO40evd5XXCz",
-      "img": "systems/swade/assets/icons/ability.svg",
-      "system": {
-        "description": "<p>Quori cannot be affected by <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.UFQy5B0Egwhm96uM]{slumber}</em>.</p>",
-        "notes": "",
-        "source": "",
-        "swid": "immunities-slumber",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "",
-        "grants": [],
-        "subtype": "special",
-        "grantsPowers": false
-      },
-      "effects": [],
-      "sort": 400000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1702869233040,
-        "modifiedTime": 1702872811424,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.Cn5zQO40evd5XXCz"
-    },
-    {
-      "name": "Innate Powers",
-      "type": "ability",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "source": "Eberron for Savage Worlds",
-        "category": "Quori Abilities",
-        "description": "<article class=\"swadefc\"><p><strong>@UUID[Compendium.savage-eberron.eberron-abilities.Item.ETINOxDyaOs5zKBl]{Innate Powers}:</strong> Major <em>@UUID[Actor.cGgGcxbsRyDpFFZ9.Item.GfKhAYCL6PMNZ04y]{mind link}</em>, minor<em> @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}</em>, major <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t]{teleport}</em> (Greater Teleport, self only)</p></article>",
-        "notes": "",
-        "additionalStats": {},
-        "subtype": "special",
-        "favorite": false,
-        "grantsPowers": true,
-        "swid": "innate-powers",
-        "grants": [
-          {
-            "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
-            "name": "Protection",
-            "mutation": {
-              "name": "Minor Protection",
-              "system": {
-                "arcane": "Innate"
-              }
-            }
-          },
-          {
-            "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
-            "name": "Teleport",
-            "mutation": {
-              "name": "Major Teleport (Greater Teleport, self only)",
-              "system": {
-                "arcane": "Innate"
-              }
-            }
-          },
-          {
-            "name": "Mind Link",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
-            "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw",
-            "mutation": {
-              "name": "Major Mind Link",
-              "system": {
-                "arcane": "Innate"
-              }
-            }
-          }
-        ]
-      },
-      "effects": [],
-      "flags": {
-        "core": {
-          "sheetClass": "swade.SWADEFCItem"
-        },
-        "singleSource": {
-          "version": "2.0.0-alpha",
-          "module": "swade-fantasy-companion"
-        },
-        "swade": {
-          "hasGranted": [
-            "ZPWRr6SqTFsdf9uk",
-            "9czjx8ncWbxP98XJ",
-            "WvsNaPKgmK0mZ5lK"
-          ]
-        }
-      },
-      "folder": "HNWyBFZb7CyIQ477",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1700809449585,
-        "modifiedTime": 1702872811424,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_id": "r6xiirzrY9z02aBr",
-      "sort": 100000,
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.r6xiirzrY9z02aBr"
-    },
-    {
-      "folder": "HNWyBFZb7CyIQ477",
-      "name": "Invade Dreams",
-      "type": "ability",
-      "_id": "okMGHcJasrO7PNnR",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "description": "<p><strong>Invade Dreams:</strong> A quori on Dal Quor can use <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind link}</em> to communicate with a creature on another plane through its dreams. During this connection, it can change its appearance to any living creature it desires as if using <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nz69DP0tjQGxYtcI]{disguise}</em> or <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.fK9adaURLKcCGv99]{shape change}</em>. It can also use the <em>nightmares</em> power with any dreaming creature while on Dal Quor.</p>",
-        "notes": "",
-        "source": "Eberron for Savage Worlds",
-        "swid": "invade-dreams",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Quori Abilities",
-        "grants": [],
-        "subtype": "special",
-        "grantsPowers": false
-      },
-      "effects": [],
-      "sort": 600000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1702869327062,
-        "modifiedTime": 1702872811424,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.okMGHcJasrO7PNnR"
-    },
-    {
-      "folder": "HNWyBFZb7CyIQ477",
-      "name": "Possession",
-      "type": "ability",
-      "_id": "UL8ekfioG7qLteON",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "description": "<p><strong>Possession:</strong> A quori can possess any willing human in sight as an action. The human vessel cannot be protected by any form of protection from supernatural evil. First, the quori spirit must depart its physical body on Dal Quor and become an ethereal spirit on the Ethereal Plane. The body remains in a state of suspended animation and is vulnerable to physical attacks and environmental damage. If the quori body is destroyed, the quori spirit dies with it. Casting <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel}</em> on the quori body returns the quori spirit to it. During possession, the quori spirit is in complete control and has access to all the human’s thoughts and memories. Physically harming the human vessel does not harm the quori. If the human vessel dies, the quori returns to the Ethereal Plane and can attempt another possession. The quori spirit can use its powers while possessing a human vessel. It can also use the higher of its or the human vessel’s Smarts and Spirit attributes and combine its skills with the human vessel’s skills. While possessed, the human vessel gains an additional +2 to @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} rolls and Tests based on Smarts- or Spirit-linked skills. Successfully casting the <em>exorcism</em> power on the possessed body as a ritual sends the quori spirit back to Dal Quor.</p>",
-        "notes": "",
-        "source": "Eberron for Savage Worlds",
-        "swid": "possession",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Quori Abilities",
-        "grants": [
-          {
-            "name": "Profane Gift",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.dGbtlrV3hRd3KEu5",
-            "mutation": {}
-          }
-        ],
-        "subtype": "special",
-        "grantsPowers": false
-      },
-      "effects": [],
-      "sort": 700000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1702869655574,
-        "modifiedTime": 1702872811424,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.UL8ekfioG7qLteON"
-    },
-    {
-      "_id": "8GW0WPFGEW1pIVjO",
-      "name": "Minor Protection",
-      "type": "power",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
-      "system": {
-        "description": "<article class=\"swadefc\"><p>\n<em>Protection</em> creates a field of energy or armor around a character, giving him 2 points of Armor. With a\n    raise, the bonus is applied to Toughness instead (and therefore immune to Armor Piercing modifiers).\n  </p>\n<p>Whether the <em>protection</em> is visible or not depends on the Trapping-this is entirely up to the caster.</p>\n<p><em>Protection</em> stacks with all other armor, natural or worn.</p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Additional Recipients (+1):</strong> The power may affect additional targets at a cost of 1 Power Point\n      each.\n    </li>\n</ul></article>",
-        "notes": "",
-        "additionalStats": {},
-        "actions": {
-          "dmgMod": "",
-          "additional": {},
-          "trait": "Psionics",
-          "traitMod": ""
-        },
-        "rank": "Novice",
-        "pp": 1,
-        "damage": "",
-        "range": "Smarts",
-        "duration": "5",
-        "trapping": "A mystical glow, bark skin, mage armor, ethereal armor",
-        "arcane": "Innate",
-        "modifiers": [],
-        "templates": {
-          "cone": false,
-          "stream": false,
-          "small": false,
-          "medium": false,
-          "large": false
-        },
-        "ap": 0,
-        "innate": false,
-        "source": "Fantasy Companion",
-        "swid": "protection",
-        "bonusDamageDie": 6,
-        "bonusDamageDice": 1,
-        "favorite": false
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sheetClass": "swade.SWADEFCItem"
-        },
-        "singleSource": {
-          "version": "2.0.0-alpha",
-          "module": "swade-fantasy-companion"
-        }
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1700809462135,
-        "modifiedTime": 1702872811539,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.8GW0WPFGEW1pIVjO"
-    },
-    {
-      "_id": "Zw0NG7Gv4H2tPFEB",
-      "name": "Major Teleport (Greater Teleport, self only)",
-      "type": "power",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
-      "system": {
-        "description": "<article class=\"swadefc\"><p>\n<em>Teleport</em> allows a character to disappear and instantly reappear up to 12″ (24 yards) distant, or double\n    that with a raise.\n  </p>\n<p>\n    Opponents adjacent to a character who teleports away don't get a free attack (see\n    <strong>Withdrawing from Melee</strong> in <em>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor00introd.JournalEntryPage.00introduction00]{Savage Worlds}</em>).\n  </p>\n<p>If casting <em>teleport</em> on willing subjects, the caster decides where they move to, not the targets.</p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Additional Recipients (+1):</strong> The power may affect more than one target for 1 additional Power\n      Point each.\n    </li>\n<li class=\"epic-power-icon\">\n<strong>Gate (+5):</strong> Instead of teleporting, the caster opens a temporary portal connecting her current\n      location and the destination. Creatures and objects can travel through this gate from either side for 5 rounds.\n    </li>\n<li class=\"epic-power-icon\">\n<strong>Greater Teleport (+5):</strong> The character can teleport much farther. The caster must concentrate on\n      her destination for at least one round, taking no other actions. This makes her Vulnerable; if Shaken or Stunned,\n      the spell fails.\n      <p>\n        For one round of concentration, the character can teleport up to 100 miles. For two rounds, she can travel 1000\n        miles, and with three rounds, she can go anywhere in the world.\n      </p>\n<p>\n        If the caster has physically been to the desired location previously, there is no penalty to her roll. With\n        success she arrives within 2d6 × 10 feet of her target, or on target with a raise.\n      </p>\n<p>\n        If the caster has a detailed map or has seen it through a power or device, she suffers -2 to the roll. With\n        success, she arrives within 2d6 × 100 feet, or on target with a raise.\n      </p>\n<p>\n        If the caster has a crude map or a general notion of the place on a regional or world map, she suffers a -4. She\n        arrives within 2d10 miles with success, or within 2d6 × 100 feet with a raise.\n      </p>\n<p>In the absence of such information, teleporting is not possible.</p>\n<p>\n        A @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03rules000000000]{Critical Failure} transports the recipient to a random location (GM's call) on the same plane of\n        existence.\n      </p>\n</li>\n<li>\n<strong>Teleport Foe (+2):</strong> Foes may be targeted at a Range of Touch. The foe resists the\n      casting with an opposed Spirit roll against the arcane skill total and is sent up to 12″ away with success and 24″\n      with a raise. Foes may not be teleported into solid objects.\n    </li>\n</ul></article>",
-        "notes": "",
-        "additionalStats": {},
-        "actions": {
-          "dmgMod": "",
-          "additional": {
-            "A56Z1cxo": {
-              "name": "Teleport Foe",
-              "type": "resist",
-              "macroActor": "default",
-              "isHeavyWeapon": false
-            }
-          },
-          "trait": "Psionics",
-          "traitMod": ""
-        },
-        "rank": "Seasoned",
-        "pp": 2,
-        "damage": "",
-        "range": "Smarts",
-        "duration": "Instant",
-        "trapping": "A cloud of smoke, “phasing” out, change into a bolt of lightning.",
-        "arcane": "Innate",
-        "modifiers": [],
-        "templates": {
-          "cone": false,
-          "stream": false,
-          "small": false,
-          "medium": false,
-          "large": false
-        },
-        "ap": 0,
-        "innate": false,
-        "source": "Fantasy Companion",
-        "swid": "teleport",
-        "bonusDamageDie": 6,
-        "bonusDamageDice": 1,
-        "favorite": false
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sheetClass": "swade.SWADEFCItem"
-        },
-        "singleSource": {
-          "version": "2.0.0-alpha",
-          "module": "swade-fantasy-companion"
-        }
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1700809462126,
-        "modifiedTime": 1702872811539,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.Zw0NG7Gv4H2tPFEB"
-    },
-    {
-      "_id": "0PmZl9tq0DEgT1le",
-      "name": "Major Mind Link",
-      "type": "power",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
-      "system": {
-        "description": "<article class=\"swadefc\"><p>\n<em>Mind link</em> creates a telepathic connection between two individuals (which does not necessarily have to\n    include the caster). The link accommodates only willing subjects and communication-thoughts that aren't consciously\n    transmitted aren't relayed.\n  </p>\n<p>Once activated, the Range between linked minds is one mile, or five with a raise.</p>\n<p>\n    If any of the linked characters suffers a Wound, all others must make a Smarts roll or be Shaken (this cannot cause\n    a Wound).\n  </p>\n<p>\n    The speed of communication is that of normal speech, but with a raise members may communicate up to 30 seconds or so\n    of speech on a single combat turn.\n  </p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Additional Recipients (+1):</strong> The power may affect additional individuals for 1 additional Power\n      Point each.\n    </li>\n<li class=\"epic-power-icon\">\n<strong>Broadcast (+2):</strong> The caster can broadcast a short telepathic message to every sentient mind within\n      Smarts ×4 radius (Smarts ×8 with a raise). The caster can only broadcast, she doesn't receive their responses.\n    </li>\n<li class=\"epic-power-icon\">\n<strong>Long Distance Link (+3):</strong> Casters can connect with any mind they're familiar with on the same\n      plane of existence, regardless of distance.\n    </li>\n</ul></article>",
-        "notes": "",
-        "additionalStats": {},
-        "actions": {
-          "dmgMod": "",
-          "additional": {},
-          "trait": "Psionics",
-          "traitMod": ""
-        },
-        "rank": "Novice",
-        "pp": 1,
-        "damage": "",
-        "range": "Smarts",
-        "duration": "30 minutes",
-        "trapping": "Headpieces, talismans to deities.",
-        "arcane": "Innate",
-        "modifiers": [],
-        "templates": {
-          "cone": false,
-          "stream": false,
-          "small": false,
-          "medium": false,
-          "large": false
-        },
-        "ap": 0,
-        "innate": false,
-        "source": "Fantasy Companion",
-        "swid": "mind-link",
-        "bonusDamageDie": 6,
-        "bonusDamageDice": 1,
-        "favorite": false
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sheetClass": "swade.SWADEFCItem"
-        },
-        "singleSource": {
-          "version": "2.0.0-alpha",
-          "module": "swade-fantasy-companion"
-        }
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1700809462136,
-        "modifiedTime": 1702872811539,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.0PmZl9tq0DEgT1le"
-    },
-    {
-      "name": "Profane Gift",
-      "type": "ability",
-      "system": {
-        "description": "",
-        "notes": "",
-        "source": "Eberron for Savage Worlds",
-        "swid": "new-ability",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Quori Abilities",
-        "grants": [],
-        "subtype": "special",
-        "grantsPowers": false
-      },
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "effects": [
-        {
-          "name": "Profane Gift (+2 Persuasion)",
-          "icon": "systems/swade/assets/icons/ability.svg",
-          "changes": [
-            {
-              "key": "@Skill{Persuasion}[system.die.modifier]",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "_id": "670cHAIBrjxTWZyw",
-          "disabled": false,
-          "duration": {
-            "startTime": 36,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "description": "<p>Inspired gain an additional +2 to @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} rolls and Tests based on Smarts- or Spirit-linked skills.</p>",
-          "origin": null,
-          "statuses": [],
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "loseTurnOnHold": false
-            }
-          },
-          "tint": null,
-          "_key": "!actors.items.effects!cGgGcxbsRyDpFFZ9.lCGXrdJWzpDl17Xx.670cHAIBrjxTWZyw"
-        },
-        {
-          "name": "Profane Gift (+2 Sm/Sp linked Tests)",
-          "icon": "systems/swade/assets/icons/ability.svg",
-          "changes": [
-            {
-              "key": "system.stats.globalMods.smarts",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            },
-            {
-              "key": "system.stats.globalMods.spirit",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "_id": "3uLlhwY0vRGj3ZEz",
-          "disabled": false,
-          "duration": {
-            "startTime": 36,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "description": "<p>Inspired gain an additional +2 to @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} rolls and Tests based on Smarts- or Spirit-linked skills.</p>",
-          "origin": null,
-          "statuses": [],
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "loseTurnOnHold": false
-            }
-          },
-          "tint": null,
-          "_key": "!actors.items.effects!cGgGcxbsRyDpFFZ9.lCGXrdJWzpDl17Xx.3uLlhwY0vRGj3ZEz"
-        }
-      ],
-      "folder": "HNWyBFZb7CyIQ477",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "swade": {
-          "hasGranted": []
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1702867189976,
-        "modifiedTime": 1702872811424,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_id": "lCGXrdJWzpDl17Xx",
-      "sort": 500000,
-      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.lCGXrdJWzpDl17Xx"
-    },
-    {
       "name": "Reduced Sleep",
       "type": "ability",
       "system": {
@@ -4388,48 +3521,875 @@
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!cGgGcxbsRyDpFFZ9.72g5pDsPe6I6jtdm"
+    },
+    {
+      "folder": "HNWyBFZb7CyIQ477",
+      "name": "Quori Abilities",
+      "type": "ability",
+      "_id": "BVjFFB79XvHlsdnb",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<p>All quori have the following special abilities.</p><ul><li><p><strong>Arcane Resistance:</strong> Quori have the @UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.3Tkb9OczC6HXzd0Z]{Arcane Resistance} Edge.</p></li><li><p><strong>Darksight:</strong> Quori can see in complete darkness.</p></li><li><p><strong>Environmental Resistance (Acid):</strong> +4 resistance / −4 damage from acid or acid-based effects.</p></li><li><p><strong>Environmental Resistance (Cold):</strong> +4 resistance / −4 damage from cold or ice-based effects.</p></li><li><p><strong>Environmental Resistance (Heat):</strong> +4 resistance / −4 damage from heat or fire-based effects.</p></li><li><p><strong>Fearless:</strong> Quori are immune to @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.FKawDwaCdCRij7eO]{Fear} and @UUID[Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId]{Intimidation}.</p></li><li><p><strong>Immunities:</strong> Quori cannot be affected by <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.UFQy5B0Egwhm96uM]{slumber}</em>.</p></li><li><p><strong>Innate Powers:</strong> Major <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind link}</em>, major teleport (Greater Teleport, self only).</p></li><li><p><strong>Invade Dreams:</strong> A quori on Dal Quor can use <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind link}</em> to communicate with a creature on another plane through its dreams. During this connection, it can change its appearance to any living creature it desires as if using <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nz69DP0tjQGxYtcI]{disguise}</em> or <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.fK9adaURLKcCGv99]{shape change}</em>. It can also use the <em>nightmares</em> power with any dreaming creature while on Dal Quor.</p></li><li><p><strong>Possession:</strong> A quori can possess any willing human in sight as an action. The human vessel cannot be protected by any form of protection from supernatural evil. First, the quori spirit must depart its physical body on Dal Quor and become an ethereal spirit on the Ethereal Plane. The body remains in a state of suspended animation and is vulnerable to physical attacks and environmental damage. If the quori body is destroyed, the quori spirit dies with it. Casting <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel}</em> on the quori body returns the quori spirit to it. During possession, the quori spirit is in complete control and has access to all the human’s thoughts and memories. Physically harming the human vessel does not harm the quori. If the human vessel dies, the quori returns to the Ethereal Plane and can attempt another possession. The quori spirit can use its powers while possessing a human vessel. It can also use the higher of its or the human vessel’s Smarts and Spirit attributes and combine its skills with the human vessel’s skills. While possessed, the human vessel gains an additional +2 to Smarts and Spirit and all linked skills. Successfully casting the <em>exorcism</em> power on the possessed body as a ritual sends the quori spirit back to Dal Quor.</p></li></ul>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "quori",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Quori Abilities",
+        "grants": [
+          {
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.3Tkb9OczC6HXzd0Z",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+            "name": "Arcane Resistance",
+            "mutation": {}
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.I75llent0q7MwS2Y",
+            "img": "systems/swade/assets/icons/ability.svg",
+            "name": "Darksight",
+            "mutation": {}
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.t0buU0WjiQmIA9Yf",
+            "img": "systems/swade/assets/icons/ability.svg",
+            "name": "Environmental Resistance (Acid)",
+            "mutation": {}
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.zmLpsTJTFEbdWYAW",
+            "img": "systems/swade/assets/icons/ability.svg",
+            "name": "Environmental Resistance (Cold)",
+            "mutation": {}
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.6iw5lef96WxAvWQa",
+            "img": "systems/swade/assets/icons/ability.svg",
+            "name": "Environmental Resistance (Heat)",
+            "mutation": {}
+          },
+          {
+            "uuid": "Compendium.swade-core-rules.swade-specialabilities.Item.Vw83SZWDVLs8aVrx",
+            "img": "systems/swade/assets/icons/ability.svg",
+            "name": "Fearless",
+            "mutation": {}
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.UP8jeJkp7HJWflqx",
+            "img": "systems/swade/assets/icons/ability.svg",
+            "name": "Immunities (slumber)",
+            "mutation": {}
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.ETINOxDyaOs5zKBl",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+            "name": "Innate Powers",
+            "mutation": {}
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.SJT37Rm37mFmYrxO",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+            "name": "Invade Dreams",
+            "mutation": {}
+          },
+          {
+            "name": "Possession",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.R4u8S3JPec3cTach",
+            "mutation": {}
+          }
+        ],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "effects": [],
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.cLDBMYggYBeEiLQ9"
+        },
+        "swade": {
+          "hasGranted": [
+            "hPZWOyaTnNZTVcEt",
+            "6gAc2YaVbhPDJXQA",
+            "RXEfrnSrSqCVuJiw",
+            "Uj7IdininhYWkykp",
+            "m7p4hGPWrfg2Ad2z",
+            "ZF7gmObFFKUPFIdK",
+            "Ypd9xODsmbg2GqFB",
+            "0H4KOIqigAEBLVDY",
+            "43hr5VUSrk4FwOaa",
+            "4H5MEp8UynhETLAx",
+            "h265SOn8WAWgJyXQ",
+            "6sM93b2JFLQuuM4x",
+            "lLDr2CFXUNTgUJTq",
+            "PIMHhI07FzLQyLar"
+          ]
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1702868510005,
+        "modifiedTime": 1702931143884,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.BVjFFB79XvHlsdnb"
+    },
+    {
+      "_id": "hPZWOyaTnNZTVcEt",
+      "name": "Arcane Resistance",
+      "type": "edge",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "<article class=\"swadefc\"><h3 class=\"lightning-icon\">Arcane Resistance</h3>\n<section class=\"description\">\n<p>\n Magic and the supernatural hold little sway with this individual. Whether by nature, heritage, or training the\n character is particularly resistant to magic and other supernatural energies.\n </p>\n<p>\n Enemy arcane abilities targeting the hero suffer a -2 penalty and magical damage is reduced by 2 as well. If a\n hostile power fails to affect the hero due to this penalty, it still activates and consumes Power Points (and\n may still affect other targets). This includes magical bonuses granted to weapons, such as the\n <em>smite</em>\n power or the damage bonus of magical weapons.\n </p>\n</section></article>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 0,
+            "combinator": "and"
+          },
+          {
+            "type": "attribute",
+            "selector": "spirit",
+            "value": 8,
+            "combinator": "and"
+          }
+        ],
+        "category": "Background",
+        "swid": "arcane-resistance",
+        "favorite": false,
+        "grants": []
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1700239582729,
+        "modifiedTime": 1702931143840,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.hPZWOyaTnNZTVcEt"
+    },
+    {
+      "folder": "HNWyBFZb7CyIQ477",
+      "name": "Darksight",
+      "type": "ability",
+      "_id": "6gAc2YaVbhPDJXQA",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<p>Quori can see in complete darkness.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "darksight",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Quori Abilities",
+        "grants": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "effects": [],
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1702868942988,
+        "modifiedTime": 1702931143840,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.6gAc2YaVbhPDJXQA"
+    },
+    {
+      "effects": [],
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "name": "Environmental Resistance (Acid)",
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<p><strong>Environmental Resistance (Acid):</strong> +4 resistance / −4 damage from acid or acid-based effects.</p>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Positive",
+        "swid": "environmental-resistance",
+        "favorite": false,
+        "grants": []
+      },
+      "folder": "HNWyBFZb7CyIQ477",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1700809448817,
+        "modifiedTime": 1702931143840,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "RXEfrnSrSqCVuJiw",
+      "sort": 800000,
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.RXEfrnSrSqCVuJiw"
+    },
+    {
+      "effects": [],
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "name": "Environmental Resistance (Cold)",
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<p><strong>Environmental Resistance (Cold):</strong> +4 resistance / −4 damage from cold or ice-based effects.</p>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Positive",
+        "swid": "environmental-resistance",
+        "favorite": false,
+        "grants": []
+      },
+      "folder": "HNWyBFZb7CyIQ477",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1700809448817,
+        "modifiedTime": 1702931143840,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "Uj7IdininhYWkykp",
+      "sort": 200000,
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.Uj7IdininhYWkykp"
+    },
+    {
+      "effects": [],
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "name": "Environmental Resistance (Heat)",
+      "type": "ability",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "additionalStats": {},
+        "description": "<p><strong>Environmental Resistance (Heat):</strong> +4 resistance / −4 damage from heat or fire-based effects.</p>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Quori Abilities",
+        "swid": "environmental-resistance",
+        "favorite": false,
+        "grants": []
+      },
+      "folder": "HNWyBFZb7CyIQ477",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1700809448817,
+        "modifiedTime": 1702931143840,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "m7p4hGPWrfg2Ad2z",
+      "sort": 300000,
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.m7p4hGPWrfg2Ad2z"
+    },
+    {
+      "_id": "ZF7gmObFFKUPFIdK",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/ability.svg",
+      "name": "Fearless",
+      "sort": 0,
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>Mindless creatures, some undead, robots, and the like don’t suffer from the weaknesses of the mortal mind. Fearless creatures are immune to @Compendium[swade-core-rules.swade-powers.Fear]{Fear} effects and @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation}. They may still be @Compendium[swade-core-rules.swade-skills.Taunt]{Taunted}, however (usually because it draws their attention rather than causing emotional distress).</p>\n</article>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Special Ability",
+        "swid": "fearless",
+        "favorite": false,
+        "grants": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1700809449113,
+        "modifiedTime": 1702931143840,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.ZF7gmObFFKUPFIdK"
+    },
+    {
+      "folder": "HNWyBFZb7CyIQ477",
+      "name": "Immunities (slumber)",
+      "type": "ability",
+      "_id": "Ypd9xODsmbg2GqFB",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<p>Quori cannot be affected by <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.UFQy5B0Egwhm96uM]{slumber}</em>.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "immunities-slumber",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Quori Abilities",
+        "grants": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1702869233040,
+        "modifiedTime": 1702931143840,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.Ypd9xODsmbg2GqFB"
+    },
+    {
+      "name": "Innate Powers",
+      "type": "ability",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "category": "Quori Abilities",
+        "description": "<article class=\"swadefc\"><p><strong>@UUID[Compendium.savage-eberron.eberron-abilities.Item.ETINOxDyaOs5zKBl]{Innate Powers}:</strong> Major <em>@UUID[Actor.cGgGcxbsRyDpFFZ9.Item.GfKhAYCL6PMNZ04y]{mind link}</em>, minor<em> @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}</em>, major <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t]{teleport}</em> (Greater Teleport, self only)</p></article>",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": true,
+        "swid": "innate-powers",
+        "grants": [
+          {
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+            "name": "Protection",
+            "mutation": {
+              "name": "Minor Protection",
+              "system": {
+                "arcane": "Innate"
+              }
+            }
+          },
+          {
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+            "name": "Teleport",
+            "mutation": {
+              "name": "Major Teleport (Greater Teleport, self only)",
+              "system": {
+                "arcane": "Innate"
+              }
+            }
+          },
+          {
+            "name": "Mind Link",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw",
+            "mutation": {
+              "name": "Major Mind Link",
+              "system": {
+                "arcane": "Innate"
+              }
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        },
+        "swade": {
+          "hasGranted": [
+            "ZPWRr6SqTFsdf9uk",
+            "9czjx8ncWbxP98XJ",
+            "WvsNaPKgmK0mZ5lK"
+          ]
+        }
+      },
+      "folder": "HNWyBFZb7CyIQ477",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1700809449585,
+        "modifiedTime": 1702931143840,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "0H4KOIqigAEBLVDY",
+      "sort": 100000,
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.0H4KOIqigAEBLVDY"
+    },
+    {
+      "folder": "HNWyBFZb7CyIQ477",
+      "name": "Invade Dreams",
+      "type": "ability",
+      "_id": "43hr5VUSrk4FwOaa",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<p><strong>Invade Dreams:</strong> A quori on Dal Quor can use <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind link}</em> to communicate with a creature on another plane through its dreams. During this connection, it can change its appearance to any living creature it desires as if using <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nz69DP0tjQGxYtcI]{disguise}</em> or <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.fK9adaURLKcCGv99]{shape change}</em>. It can also use the <em>nightmares</em> power with any dreaming creature while on Dal Quor.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "invade-dreams",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Quori Abilities",
+        "grants": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "effects": [],
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1702869327062,
+        "modifiedTime": 1702931143840,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.43hr5VUSrk4FwOaa"
+    },
+    {
+      "folder": "HNWyBFZb7CyIQ477",
+      "name": "Possession",
+      "type": "ability",
+      "_id": "4H5MEp8UynhETLAx",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<p><strong>Possession:</strong> A quori can possess any willing human in sight as an action. The human vessel cannot be protected by any form of protection from supernatural evil. First, the quori spirit must depart its physical body on Dal Quor and become an ethereal spirit on the Ethereal Plane. The body remains in a state of suspended animation and is vulnerable to physical attacks and environmental damage. If the quori body is destroyed, the quori spirit dies with it. Casting <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel}</em> on the quori body returns the quori spirit to it. During possession, the quori spirit is in complete control and has access to all the human’s thoughts and memories. Physically harming the human vessel does not harm the quori. If the human vessel dies, the quori returns to the Ethereal Plane and can attempt another possession. The quori spirit can use its powers while possessing a human vessel. It can also use the higher of its or the human vessel’s Smarts and Spirit attributes and combine its skills with the human vessel’s skills. While possessed, the human vessel gains an additional +2 to @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} rolls and Tests based on Smarts- or Spirit-linked skills. Successfully casting the <em>exorcism</em> power on the possessed body as a ritual sends the quori spirit back to Dal Quor.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "possession",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Quori Abilities",
+        "grants": [
+          {
+            "name": "Profane Gift",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.dGbtlrV3hRd3KEu5",
+            "mutation": {}
+          }
+        ],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "effects": [],
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1702869655574,
+        "modifiedTime": 1702931143840,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.4H5MEp8UynhETLAx"
+    },
+    {
+      "_id": "h265SOn8WAWgJyXQ",
+      "name": "Minor Protection",
+      "type": "power",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+      "system": {
+        "description": "<article class=\"swadefc\"><p>\n<em>Protection</em> creates a field of energy or armor around a character, giving him 2 points of Armor. With a\n    raise, the bonus is applied to Toughness instead (and therefore immune to Armor Piercing modifiers).\n  </p>\n<p>Whether the <em>protection</em> is visible or not depends on the Trapping-this is entirely up to the caster.</p>\n<p><em>Protection</em> stacks with all other armor, natural or worn.</p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Additional Recipients (+1):</strong> The power may affect additional targets at a cost of 1 Power Point\n      each.\n    </li>\n</ul></article>",
+        "notes": "",
+        "additionalStats": {},
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "Psionics",
+          "traitMod": ""
+        },
+        "rank": "Novice",
+        "pp": 1,
+        "damage": "",
+        "range": "Smarts",
+        "duration": "5",
+        "trapping": "A mystical glow, bark skin, mage armor, ethereal armor",
+        "arcane": "Innate",
+        "modifiers": [],
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "ap": 0,
+        "innate": false,
+        "source": "Fantasy Companion",
+        "swid": "protection",
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1700809462135,
+        "modifiedTime": 1702931144023,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.h265SOn8WAWgJyXQ"
+    },
+    {
+      "_id": "6sM93b2JFLQuuM4x",
+      "name": "Major Teleport (Greater Teleport, self only)",
+      "type": "power",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+      "system": {
+        "description": "<article class=\"swadefc\"><p>\n<em>Teleport</em> allows a character to disappear and instantly reappear up to 12″ (24 yards) distant, or double\n    that with a raise.\n  </p>\n<p>\n    Opponents adjacent to a character who teleports away don't get a free attack (see\n    <strong>Withdrawing from Melee</strong> in <em>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor00introd.JournalEntryPage.00introduction00]{Savage Worlds}</em>).\n  </p>\n<p>If casting <em>teleport</em> on willing subjects, the caster decides where they move to, not the targets.</p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Additional Recipients (+1):</strong> The power may affect more than one target for 1 additional Power\n      Point each.\n    </li>\n<li class=\"epic-power-icon\">\n<strong>Gate (+5):</strong> Instead of teleporting, the caster opens a temporary portal connecting her current\n      location and the destination. Creatures and objects can travel through this gate from either side for 5 rounds.\n    </li>\n<li class=\"epic-power-icon\">\n<strong>Greater Teleport (+5):</strong> The character can teleport much farther. The caster must concentrate on\n      her destination for at least one round, taking no other actions. This makes her Vulnerable; if Shaken or Stunned,\n      the spell fails.\n      <p>\n        For one round of concentration, the character can teleport up to 100 miles. For two rounds, she can travel 1000\n        miles, and with three rounds, she can go anywhere in the world.\n      </p>\n<p>\n        If the caster has physically been to the desired location previously, there is no penalty to her roll. With\n        success she arrives within 2d6 × 10 feet of her target, or on target with a raise.\n      </p>\n<p>\n        If the caster has a detailed map or has seen it through a power or device, she suffers -2 to the roll. With\n        success, she arrives within 2d6 × 100 feet, or on target with a raise.\n      </p>\n<p>\n        If the caster has a crude map or a general notion of the place on a regional or world map, she suffers a -4. She\n        arrives within 2d10 miles with success, or within 2d6 × 100 feet with a raise.\n      </p>\n<p>In the absence of such information, teleporting is not possible.</p>\n<p>\n        A @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03rules000000000]{Critical Failure} transports the recipient to a random location (GM's call) on the same plane of\n        existence.\n      </p>\n</li>\n<li>\n<strong>Teleport Foe (+2):</strong> Foes may be targeted at a Range of Touch. The foe resists the\n      casting with an opposed Spirit roll against the arcane skill total and is sent up to 12″ away with success and 24″\n      with a raise. Foes may not be teleported into solid objects.\n    </li>\n</ul></article>",
+        "notes": "",
+        "additionalStats": {},
+        "actions": {
+          "dmgMod": "",
+          "additional": {
+            "A56Z1cxo": {
+              "name": "Teleport Foe",
+              "type": "resist",
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          },
+          "trait": "Psionics",
+          "traitMod": ""
+        },
+        "rank": "Seasoned",
+        "pp": 2,
+        "damage": "",
+        "range": "Smarts",
+        "duration": "Instant",
+        "trapping": "A cloud of smoke, “phasing” out, change into a bolt of lightning.",
+        "arcane": "Innate",
+        "modifiers": [],
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "ap": 0,
+        "innate": false,
+        "source": "Fantasy Companion",
+        "swid": "teleport",
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1700809462126,
+        "modifiedTime": 1702931144023,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.6sM93b2JFLQuuM4x"
+    },
+    {
+      "_id": "lLDr2CFXUNTgUJTq",
+      "name": "Major Mind Link",
+      "type": "power",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+      "system": {
+        "description": "<article class=\"swadefc\"><p>\n<em>Mind link</em> creates a telepathic connection between two individuals (which does not necessarily have to\n    include the caster). The link accommodates only willing subjects and communication-thoughts that aren't consciously\n    transmitted aren't relayed.\n  </p>\n<p>Once activated, the Range between linked minds is one mile, or five with a raise.</p>\n<p>\n    If any of the linked characters suffers a Wound, all others must make a Smarts roll or be Shaken (this cannot cause\n    a Wound).\n  </p>\n<p>\n    The speed of communication is that of normal speech, but with a raise members may communicate up to 30 seconds or so\n    of speech on a single combat turn.\n  </p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Additional Recipients (+1):</strong> The power may affect additional individuals for 1 additional Power\n      Point each.\n    </li>\n<li class=\"epic-power-icon\">\n<strong>Broadcast (+2):</strong> The caster can broadcast a short telepathic message to every sentient mind within\n      Smarts ×4 radius (Smarts ×8 with a raise). The caster can only broadcast, she doesn't receive their responses.\n    </li>\n<li class=\"epic-power-icon\">\n<strong>Long Distance Link (+3):</strong> Casters can connect with any mind they're familiar with on the same\n      plane of existence, regardless of distance.\n    </li>\n</ul></article>",
+        "notes": "",
+        "additionalStats": {},
+        "actions": {
+          "dmgMod": "",
+          "additional": {},
+          "trait": "Psionics",
+          "traitMod": ""
+        },
+        "rank": "Novice",
+        "pp": 1,
+        "damage": "",
+        "range": "Smarts",
+        "duration": "30 minutes",
+        "trapping": "Headpieces, talismans to deities.",
+        "arcane": "Innate",
+        "modifiers": [],
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "ap": 0,
+        "innate": false,
+        "source": "Fantasy Companion",
+        "swid": "mind-link",
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1700809462136,
+        "modifiedTime": 1702931144023,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.lLDr2CFXUNTgUJTq"
+    },
+    {
+      "name": "Profane Gift",
+      "type": "ability",
+      "system": {
+        "description": "<p>While possessed, the human vessel gains an additional +2 to Smarts and Spirit and all linked skills</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "new-ability",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Quori Abilities",
+        "grants": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "effects": [
+        {
+          "name": "Profane Gift",
+          "icon": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+          "changes": [
+            {
+              "key": "system.stats.globalMods.smarts",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            },
+            {
+              "key": "system.stats.globalMods.spirit",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "D3d9zcgpQ0gq06BK",
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>While possessed, the human vessel gains an additional +2 to Smarts and Spirit and all linked skills</p>",
+          "origin": null,
+          "statuses": [],
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "tint": null,
+          "_key": "!actors.items.effects!cGgGcxbsRyDpFFZ9.PIMHhI07FzLQyLar.D3d9zcgpQ0gq06BK"
+        }
+      ],
+      "folder": "HNWyBFZb7CyIQ477",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.2-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1702867189976,
+        "modifiedTime": 1702931143840,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "PIMHhI07FzLQyLar",
+      "sort": 500000,
+      "_key": "!actors.items!cGgGcxbsRyDpFFZ9.PIMHhI07FzLQyLar"
     }
   ],
   "effects": [
     {
-      "name": "Quori Possessed",
+      "name": "Tsucora Quori Traits",
       "icon": "systems/swade/assets/icons/active-effect.svg",
       "changes": [
         {
           "key": "system.attributes.smarts.die.sides",
-          "mode": 2,
-          "value": "2",
-          "priority": null
+          "mode": 5,
+          "value": "12"
         },
         {
           "key": "system.attributes.spirit.die.sides",
-          "mode": 2,
-          "value": "4",
-          "priority": null
+          "mode": 5,
+          "value": "12"
         },
         {
           "key": "@Skill{Notice}[system.die.sides]",
           "mode": 2,
-          "value": "10",
-          "priority": null
+          "value": "10"
         },
         {
           "key": "@Skill{Occult}[system.die.sides]",
           "mode": 2,
-          "value": "4",
-          "priority": null
+          "value": "4"
         },
         {
           "key": "@Skill{Psionics}[system.die.sides]",
           "mode": 2,
-          "value": "4",
-          "priority": null
+          "value": "4"
         },
         {
           "key": "@Skill{Persuasion}[system.die.sides]",
           "mode": 2,
-          "value": "6",
-          "priority": null
+          "value": "6"
         }
       ],
       "transfer": false,
@@ -4468,7 +4428,7 @@
     "systemVersion": "3.2-dev",
     "coreVersion": "11.315",
     "createdTime": 1702867189976,
-    "modifiedTime": 1702874300583,
+    "modifiedTime": 1702944470976,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "cGgGcxbsRyDpFFZ9",
