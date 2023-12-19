@@ -2,7 +2,16 @@
 
 ## v1.0.9
 
-- Adds House Tharashk Bounty Hunter and House Thuranni Assassin.
+- More Organization NPCs
+  - House Tharashk Bounty Hunter
+  - House Thuranni Assassin
+  - House Vadalis Handler
+  - Dreaming Dark Spy
+  - Gatekeeper Initiate
+- Adds Tsucora Quori, Empty Vessel "ancestry", Quori Ability with Ability grants (can be added to any type of Quori and to a possessed being).
+- Adds _talent shards_.
+- Changes Siberys Mark Edges to use Edge requirements array.
+- Fixes power links in Psion Edge description.
 
 ## v1.0.8
 
