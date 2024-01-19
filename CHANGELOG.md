@@ -1,5 +1,11 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.1.1
+
+- Adds actions to Boost/Lower Trait
+  - Shake Off for resisting lower trait
+  - Apply Effects which uses new macro from the premium Core Rules module
+
 ## v1.1.0
 
 - Adds Zakya Rakshasa and Lords of Dust Member
