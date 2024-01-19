@@ -1,5 +1,13 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.10.0
+
+- Adds Zakya Rakshasa and Lords of Dust Member
+- Adds Curse power combining Horror Companion modifier with Fantasy Companion power description.
+- Fixes Zakya Rakshasa and Lords of Dust Member in book Journal Entry
+- Fixes Mind Link document link and Innate Power mutations on Tsucora Quori and Dreaming Dark Agent.
+- Changes default Compendia folder color. (It's the little things.)
+
 ## v1.0.9
 
 - More Organization NPCs
