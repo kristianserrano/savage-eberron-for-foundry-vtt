@@ -1013,8 +1013,7 @@
       "sort": 200000,
       "flags": {
         "core": {
-          "sheetClass": "swade.SWADEFCItem",
-          "sourceId": "Actor.cGgGcxbsRyDpFFZ9.Item.92OLYogb0mrXEhEh"
+          "sheetClass": "swade.SWADEFCItem"
         },
         "singleSource": {
           "version": "2.0.0-alpha",
@@ -4364,32 +4363,38 @@
         {
           "key": "system.attributes.smarts.die.sides",
           "mode": 5,
-          "value": "12"
+          "value": "12",
+          "priority": null
         },
         {
           "key": "system.attributes.spirit.die.sides",
           "mode": 5,
-          "value": "12"
+          "value": "12",
+          "priority": null
         },
         {
           "key": "@Skill{Notice}[system.die.sides]",
           "mode": 2,
-          "value": "10"
+          "value": "10",
+          "priority": null
         },
         {
           "key": "@Skill{Occult}[system.die.sides]",
           "mode": 2,
-          "value": "4"
+          "value": "4",
+          "priority": null
         },
         {
           "key": "@Skill{Psionics}[system.die.sides]",
           "mode": 2,
-          "value": "4"
+          "value": "4",
+          "priority": null
         },
         {
           "key": "@Skill{Persuasion}[system.die.sides]",
           "mode": 2,
-          "value": "6"
+          "value": "6",
+          "priority": null
         }
       ],
       "transfer": false,
@@ -4428,7 +4433,7 @@
     "systemVersion": "3.2-dev",
     "coreVersion": "11.315",
     "createdTime": 1702867189976,
-    "modifiedTime": 1702944470976,
+    "modifiedTime": 1705639989118,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "cGgGcxbsRyDpFFZ9",

@@ -689,7 +689,7 @@
         "systemVersion": "3.2-dev",
         "coreVersion": "11.315",
         "createdTime": 1700809449585,
-        "modifiedTime": 1702869827113,
+        "modifiedTime": 1705635598500,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_id": "xqB5PSxmNsRmCTo3",
@@ -989,7 +989,8 @@
             {
               "key": "@Skill{Notice}[system.die.modifier]",
               "mode": 2,
-              "value": "2"
+              "value": "2",
+              "priority": null
             }
           ],
           "transfer": true,
@@ -1033,7 +1034,7 @@
         "systemVersion": "3.2-dev",
         "coreVersion": "11.315",
         "createdTime": 1702937562326,
-        "modifiedTime": 1702937589166,
+        "modifiedTime": 1702939007613,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!TM3rGE8znPcawDpe.Tf73ihRV8uEJHOrj"
@@ -2746,7 +2747,8 @@
             {
               "key": "system.stats.toughness.armor",
               "mode": 2,
-              "value": "2"
+              "value": "2",
+              "priority": null
             }
           ],
           "transfer": true,
@@ -2859,8 +2861,8 @@
     "systemId": "swade",
     "systemVersion": "3.2-dev",
     "coreVersion": "11.315",
-    "createdTime": 1702866920879,
-    "modifiedTime": 1702944479519,
+    "createdTime": 1702937562326,
+    "modifiedTime": 1705639978066,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,
