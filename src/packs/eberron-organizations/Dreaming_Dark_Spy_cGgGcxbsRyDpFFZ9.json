@@ -3920,7 +3920,7 @@
       "system": {
         "source": "Eberron for Savage Worlds",
         "category": "Quori Abilities",
-        "description": "<article class=\"swadefc\"><p><strong>@UUID[Compendium.savage-eberron.eberron-abilities.Item.ETINOxDyaOs5zKBl]{Innate Powers}:</strong> Major <em>@UUID[Actor.cGgGcxbsRyDpFFZ9.Item.GfKhAYCL6PMNZ04y]{mind link}</em>, minor<em> @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}</em>, major <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t]{teleport}</em> (Greater Teleport, self only)</p></article>",
+        "description": "<article class=\"swadefc\"><p><strong>@UUID[Compendium.savage-eberron.eberron-abilities.Item.ETINOxDyaOs5zKBl]{Innate Powers}:</strong> Major <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind link}</em>, minor<em> @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}</em>, major <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t]{teleport}</em> (Greater Teleport, self only)</p></article>",
         "notes": "",
         "additionalStats": {},
         "subtype": "special",

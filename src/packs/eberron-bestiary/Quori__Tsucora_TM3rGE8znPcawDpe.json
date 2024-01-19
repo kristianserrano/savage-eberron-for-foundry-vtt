@@ -618,7 +618,7 @@
       "system": {
         "source": "Eberron for Savage Worlds",
         "category": "Quori Abilities",
-        "description": "<article class=\"swadefc\"><p><strong>@UUID[Compendium.savage-eberron.eberron-abilities.Item.ETINOxDyaOs5zKBl]{Innate Powers}:</strong> Major <em>@UUID[Actor.cGgGcxbsRyDpFFZ9.Item.GfKhAYCL6PMNZ04y]{mind link}</em>, minor<em> @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}</em>, major <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t]{teleport}</em> (Greater Teleport, self only)</p></article>",
+        "description": "<article class=\"swadefc\"><p><strong>@UUID[Compendium.savage-eberron.eberron-abilities.Item.ETINOxDyaOs5zKBl]{Innate Powers}:</strong> Major <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind link}</em>, minor<em> @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}</em>, major <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t]{teleport}</em> (Greater Teleport, self only)</p></article>",
         "notes": "",
         "additionalStats": {},
         "subtype": "special",
@@ -627,22 +627,37 @@
         "swid": "innate-powers",
         "grants": [
           {
-            "uuid": "Actor.cGgGcxbsRyDpFFZ9.Item.GfKhAYCL6PMNZ04y",
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw",
             "img": "systems/swade/assets/icons/power.svg",
             "name": "Mind Link",
-            "mutation": {}
+            "mutation": {
+              "name": "Major Mind Link",
+              "system": {
+                "arcane": "Innate"
+              }
+            }
           },
           {
             "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT",
             "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
             "name": "Protection",
-            "mutation": {}
+            "mutation": {
+              "name": "Minor Protection",
+              "system": {
+                "arcane": "Innate"
+              }
+            }
           },
           {
             "name": "Teleport",
             "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
             "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t",
-            "mutation": {}
+            "mutation": {
+              "name": "Major Teleport (Greater Teleport, self only)",
+              "system": {
+                "arcane": "Innate"
+              }
+            }
           }
         ]
       },
