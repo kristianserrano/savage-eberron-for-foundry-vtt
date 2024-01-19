@@ -1,0 +1,19 @@
+{
+  "name": "The Lords of Dust",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "23WEnZEjMP57GPc1",
+  "sort": 200391,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1705639037913,
+    "modifiedTime": 1705639988511,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!23WEnZEjMP57GPc1"
+}
