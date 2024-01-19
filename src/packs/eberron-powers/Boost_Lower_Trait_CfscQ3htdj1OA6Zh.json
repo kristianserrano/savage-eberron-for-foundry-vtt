@@ -11,7 +11,25 @@
       "skill": "",
       "skillMod": "",
       "dmgMod": "",
-      "additional": {}
+      "additional": {
+        "deGyoyWV": {
+          "name": "Shake Off",
+          "type": "resist",
+          "override": "Spirit",
+          "modifier": "",
+          "dice": null,
+          "resourcesUsed": null
+        },
+        "ukM8wuZM": {
+          "name": "Apply Effect",
+          "type": "macro",
+          "override": "",
+          "modifier": "",
+          "dice": null,
+          "resourcesUsed": null,
+          "uuid": "Compendium.swade-core-rules.swade-macros.Macro.4I5qklYbBo3trunq"
+        }
+      }
     },
     "bonusDamageDie": 6,
     "bonusDamageDice": 1,
@@ -49,11 +67,11 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
+    "systemVersion": "3.2-dev",
     "coreVersion": "11.315",
     "createdTime": 1690159738989,
-    "modifiedTime": 1700890170195,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1705642332161,
+    "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,
   "ownership": {
