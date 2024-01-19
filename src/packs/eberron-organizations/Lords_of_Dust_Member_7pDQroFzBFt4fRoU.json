@@ -1019,25 +1019,45 @@
             "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.Jgm2DqNWxAxi62Ur",
             "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
             "name": "Bolt",
-            "mutation": {}
+            "mutation": {
+              "name": "Minor Bolt (touch)",
+              "system": {
+                "arcane": "Innate"
+              }
+            }
           },
           {
             "uuid": "Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh",
             "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp",
             "name": "Boost/Lower Trait",
-            "mutation": {}
+            "mutation": {
+              "name": "Major Boost Trait",
+              "system": {
+                "arcane": "Innate"
+              }
+            }
           },
           {
             "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.nz69DP0tjQGxYtcI",
             "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
             "name": "Disguise",
-            "mutation": {}
+            "mutation": {
+              "name": "Major Disguise (self only)",
+              "system": {
+                "arcane": "Innate"
+              }
+            }
           },
           {
             "name": "Mind Reading",
             "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
             "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.GMTgL2vLUZ0BTZ1w",
-            "mutation": {}
+            "mutation": {
+              "name": "Major Mind Reading",
+              "system": {
+                "arcane": "Innate"
+              }
+            }
           }
         ]
       },
