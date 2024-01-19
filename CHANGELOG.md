@@ -1,6 +1,6 @@
 # Eberron for Savage Worlds: Campaign Setting
 
-## v1.10.0
+## v1.1.0
 
 - Adds Zakya Rakshasa and Lords of Dust Member
 - Adds Curse power combining Horror Companion modifier with Fantasy Companion power description.
