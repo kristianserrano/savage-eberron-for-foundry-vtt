@@ -1,5 +1,14 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.1.2
+
+- Adds Morgrave University Professor.
+- Adds missing Active Effect for the Dwarf Ancestry's Reduced Pace.
+- Fixes prototype tokens.
+  - Replaces placeholder NPC name with actual Actor name.
+  - Changes disposition to Neutral, Friendly, or Secret for some.
+- Applies pawns and token images to some Organization NPCs.
+
 ## v1.1.1
 
 - Adds actions to Boost/Lower Trait
