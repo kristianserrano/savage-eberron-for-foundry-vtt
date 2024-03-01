@@ -168,7 +168,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -207,7 +208,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -246,7 +248,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -285,7 +288,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -324,7 +328,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -363,7 +368,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -402,7 +408,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -441,7 +448,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -480,7 +488,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -522,7 +531,8 @@
             "selector": "",
             "combinator": "and"
           }
-        ]
+        ],
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -599,7 +609,8 @@
             "selector": "",
             "combinator": "and"
           }
-        ]
+        ],
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -641,7 +652,8 @@
             "selector": "",
             "combinator": "and"
           }
-        ]
+        ],
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -671,7 +683,9 @@
         "source": "",
         "swid": "various",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": [],
+        "severity": "either"
       },
       "type": "hindrance",
       "name": "Various",
@@ -724,7 +738,8 @@
         "category": "",
         "grants": [],
         "grantOn": 1,
-        "isAmmo": false
+        "isAmmo": false,
+        "choiceSets": []
       },
       "type": "gear",
       "name": "Parchment",
@@ -777,7 +792,8 @@
         "category": "",
         "grants": [],
         "grantOn": 1,
-        "isAmmo": false
+        "isAmmo": false,
+        "choiceSets": []
       },
       "type": "gear",
       "name": "Pens and Ink",
@@ -830,7 +846,8 @@
         "category": "",
         "grants": [],
         "grantOn": 1,
-        "isAmmo": false
+        "isAmmo": false,
+        "choiceSets": []
       },
       "type": "gear",
       "name": "Scholar's Outfit",
@@ -875,7 +892,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-common"
+        "swid": "language-common",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -918,7 +936,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-gnome"
+        "swid": "language-gnome",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -961,7 +980,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-dwarven"
+        "swid": "language-dwarven",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -1004,7 +1024,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-elven"
+        "swid": "language-elven",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -1047,7 +1068,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-halfling"
+        "swid": "language-halfling",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -1090,7 +1112,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-goblin"
+        "swid": "language-goblin",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -1133,7 +1156,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-orc"
+        "swid": "language-orc",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -1193,7 +1217,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "identification-papers"
+        "swid": "identification-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -1251,7 +1276,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "traveling-papers"
+        "swid": "traveling-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1311,7 +1337,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "effects": [],
       "sort": 100000,
@@ -1474,7 +1501,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "staffquarterstaff",
-        "equipStatus": 4
+        "equipStatus": 4,
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1550,7 +1579,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "gnome"
+        "swid": "gnome",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1599,7 +1629,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "illusionist"
+        "swid": "illusionist",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 100000,
@@ -1636,7 +1667,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "knowledgeable"
+        "swid": "knowledgeable",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -1704,7 +1736,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "low-light-vision"
+        "swid": "low-light-vision",
+        "choiceSets": []
       },
       "effects": [],
       "ownership": {
@@ -1746,7 +1779,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "reduced-pace"
+        "swid": "reduced-pace",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -1831,7 +1865,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "size-1"
+        "swid": "size-1",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -1931,10 +1966,11 @@
     "texture": {
       "scaleX": 1,
       "scaleY": 1,
-      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp",
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_lore_master_bien_flores_adrian_rodriguez.webp",
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "tint": null
     },
     "name": "House Sivis Scribe",
     "actorLink": false,
@@ -1948,7 +1984,7 @@
       "attribute": "stats.parry.value"
     },
     "bar2": {
-      "attribute": "toughness.total"
+      "attribute": null
     },
     "light": {
       "alpha": 0.5,
@@ -1970,7 +2006,8 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
@@ -2007,13 +2044,13 @@
     "core": {}
   },
   "_id": "oSri5RAJWuoi3F0Y",
-  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp",
+  "img": "modules/swade-fantasy-companion/assets/pawns/FC_A22_Lore_Master_Bien_Flores_Adrian_Rodriguez.webp",
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1668895717346,
-    "modifiedTime": 1705639989118,
+    "modifiedTime": 1709268078637,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 196875,

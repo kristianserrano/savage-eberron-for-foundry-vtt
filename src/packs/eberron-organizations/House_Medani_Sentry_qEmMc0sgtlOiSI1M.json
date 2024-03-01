@@ -168,7 +168,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -207,7 +208,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -246,7 +248,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -285,7 +288,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -324,7 +328,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 2300000,
       "ownership": {
@@ -365,7 +370,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 1700000,
       "ownership": {
@@ -406,7 +412,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -445,7 +452,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -484,7 +492,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -523,7 +532,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -562,7 +572,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -601,7 +612,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -643,7 +655,8 @@
             "selector": "",
             "combinator": "and"
           }
-        ]
+        ],
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -685,7 +698,8 @@
             "selector": "",
             "combinator": "and"
           }
-        ]
+        ],
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -756,7 +770,9 @@
         "source": "",
         "swid": "various",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": [],
+        "severity": "either"
       },
       "type": "hindrance",
       "name": "Various",
@@ -798,7 +814,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-language-name"
+        "swid": "language-language-name",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -866,7 +883,8 @@
         "category": "",
         "grants": [],
         "grantOn": 1,
-        "toughness": 0
+        "toughness": 0,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1156,7 +1174,8 @@
         "bonusDamageDice": 1,
         "favorite": false,
         "grants": [],
-        "grantOn": 1
+        "grantOn": 1,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1316,7 +1335,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "sword-long",
-        "equipStatus": 4
+        "equipStatus": 4,
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1495,7 +1516,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "bow-composite",
-        "equipStatus": 4
+        "equipStatus": 4,
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1559,7 +1582,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1620,7 +1644,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "effects": [],
       "folder": "bleP2Wt0N9W2v4A5",
@@ -1679,7 +1704,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "identification-papers"
+        "swid": "identification-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -1737,7 +1763,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "traveling-papers"
+        "swid": "traveling-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1797,7 +1824,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1930,7 +1958,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "half-elf-human-heritage"
+        "swid": "half-elf-human-heritage",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1977,7 +2006,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "heritage-human"
+        "swid": "heritage-human",
+        "choiceSets": []
       },
       "effects": [],
       "ownership": {
@@ -2014,7 +2044,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "low-light-vision"
+        "swid": "low-light-vision",
+        "choiceSets": []
       },
       "effects": [],
       "ownership": {
@@ -2057,7 +2088,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "skilled"
+        "swid": "skilled",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -2139,12 +2171,13 @@
       "contrast": 0
     },
     "texture": {
-      "scaleX": 1,
-      "scaleY": 1,
-      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_city_watch_alberto_bontempi.webp",
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "tint": null
     },
     "name": "House Medani Sentry",
     "actorLink": false,
@@ -2158,7 +2191,7 @@
       "attribute": "stats.parry.value"
     },
     "bar2": {
-      "attribute": "toughness.total"
+      "attribute": null
     },
     "light": {
       "alpha": 0.5,
@@ -2180,7 +2213,8 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
@@ -2197,13 +2231,13 @@
     "core": {}
   },
   "_id": "qEmMc0sgtlOiSI1M",
-  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_S_15.webp",
+  "img": "modules/swade-fantasy-companion/assets/pawns/FC_22_City_Watch_Alberto_Bontempi.webp",
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1668046060853,
-    "modifiedTime": 1705639989118,
+    "modifiedTime": 1709268078637,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 181250,

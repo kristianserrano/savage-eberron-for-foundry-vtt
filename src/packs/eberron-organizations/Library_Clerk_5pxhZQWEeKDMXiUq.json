@@ -150,7 +150,7 @@
     "wildcard": false
   },
   "prototypeToken": {
-    "name": "NPC",
+    "name": "Library Clerk",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
@@ -161,20 +161,21 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "tint": null
     },
     "width": 1,
     "height": 1,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
-    "disposition": -1,
+    "disposition": 0,
     "displayBars": 0,
     "bar1": {
       "attribute": "stats.parry.value"
     },
     "bar2": {
-      "attribute": "toughness.total"
+      "attribute": null
     },
     "light": {
       "alpha": 0.5,
@@ -196,7 +197,8 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -260,7 +262,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "gnome"
+        "swid": "gnome",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -309,7 +312,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "illusionist"
+        "swid": "illusionist",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 100000,
@@ -346,7 +350,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "knowledgeable"
+        "swid": "knowledgeable",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -414,7 +419,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "low-light-vision"
+        "swid": "low-light-vision",
+        "choiceSets": []
       },
       "effects": [],
       "ownership": {
@@ -456,7 +462,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "reduced-pace"
+        "swid": "reduced-pace",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -541,7 +548,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "size-1"
+        "swid": "size-1",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -643,7 +651,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "academics"
+        "swid": "academics",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -684,7 +693,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "alchemy"
+        "swid": "alchemy",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -735,7 +745,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "athletics"
+        "swid": "athletics",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -779,7 +790,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "common-knowledge"
+        "swid": "common-knowledge",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -823,7 +835,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "fighting"
+        "swid": "fighting",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -867,7 +880,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "notice"
+        "swid": "notice",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -911,7 +925,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "occult"
+        "swid": "occult",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -955,7 +970,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "persuasion"
+        "swid": "persuasion",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -999,7 +1015,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "research"
+        "swid": "research",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1043,7 +1060,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "shooting"
+        "swid": "shooting",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1087,7 +1105,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "stealth"
+        "swid": "stealth",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1127,7 +1146,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-common"
+        "swid": "language-common",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -1170,7 +1190,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-dwarven"
+        "swid": "language-dwarven",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -1213,7 +1234,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-gnome"
+        "swid": "language-gnome",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -1257,7 +1279,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-language-name"
+        "swid": "language-language-name",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -1300,7 +1323,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-language-name"
+        "swid": "language-language-name",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -1386,7 +1410,8 @@
         "category": "Professional",
         "swid": "scholar",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1473,7 +1498,8 @@
         "category": "Professional",
         "swid": "scholar",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1560,7 +1586,8 @@
         "category": "Professional",
         "swid": "scholar",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1596,7 +1623,9 @@
         "additionalStats": {},
         "favorite": false,
         "grants": [],
-        "major": false
+        "major": false,
+        "choiceSets": [],
+        "severity": "either"
       },
       "_id": "m3gfATpi9tTuoYg3",
       "img": "systems/swade/assets/icons/hindrance.svg",
@@ -1685,7 +1714,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "daggerknife",
-        "equipStatus": 4
+        "equipStatus": 4,
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1759,7 +1790,8 @@
         "category": "",
         "grants": [],
         "grantOn": 1,
-        "toughness": 0
+        "toughness": 0,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1821,7 +1853,8 @@
         "category": "",
         "grants": [],
         "grantOn": 1,
-        "isAmmo": false
+        "isAmmo": false,
+        "choiceSets": []
       },
       "_id": "dojlpftAdHi5S81W",
       "img": "systems/swade/assets/icons/gear.svg",
@@ -1878,7 +1911,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "identification-papers"
+        "swid": "identification-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -1904,13 +1938,15 @@
   ],
   "effects": [],
   "folder": "N5dl60viXPTGYNP6",
-  "flags": {},
+  "flags": {
+    "core": {}
+  },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1700809447525,
-    "modifiedTime": 1705639989818,
+    "modifiedTime": 1709268078637,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "5pxhZQWEeKDMXiUq",

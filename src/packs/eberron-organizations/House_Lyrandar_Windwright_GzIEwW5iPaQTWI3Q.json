@@ -3,7 +3,7 @@
   "name": "House Lyrandar Windwright",
   "type": "npc",
   "_id": "GzIEwW5iPaQTWI3Q",
-  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_W_15.webp",
+  "img": "modules/swade-fantasy-companion/assets/pawns/FC_A29_Swashbuckler_Bien_Flores_Unique_Soparie.webp",
   "system": {
     "attributes": {
       "agility": {
@@ -158,12 +158,13 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_W_15.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_swashbuckler_bien_flores_unique_soparie.webp",
+      "scaleX": 2.5,
+      "scaleY": 2.5,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "tint": null
     },
     "width": 1,
     "height": 1,
@@ -198,7 +199,8 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -234,7 +236,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -273,7 +276,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -312,7 +316,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -351,7 +356,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -390,7 +396,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -429,7 +436,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -468,7 +476,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -507,7 +516,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -546,7 +556,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -585,7 +596,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -624,7 +636,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -663,7 +676,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 1700000,
       "ownership": {
@@ -704,7 +718,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -743,7 +758,8 @@
         },
         "wild-die": {
           "sides": 6
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -785,7 +801,8 @@
             "selector": "",
             "combinator": "and"
           }
-        ]
+        ],
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -827,7 +844,8 @@
             "selector": "",
             "combinator": "and"
           }
-        ]
+        ],
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -869,7 +887,8 @@
             "selector": "",
             "combinator": "and"
           }
-        ]
+        ],
+        "choiceSets": []
       },
       "sort": 0,
       "ownership": {
@@ -899,7 +918,9 @@
         "source": "",
         "swid": "various",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": [],
+        "severity": "either"
       },
       "type": "hindrance",
       "name": "Various",
@@ -956,7 +977,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "half-elf-elf-heritage"
+        "swid": "half-elf-elf-heritage",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1004,7 +1026,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "heritage-elf"
+        "swid": "heritage-elf",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -1077,7 +1100,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "low-light-vision"
+        "swid": "low-light-vision",
+        "choiceSets": []
       },
       "effects": [],
       "ownership": {
@@ -1121,7 +1145,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "skilled"
+        "swid": "skilled",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -1226,7 +1251,8 @@
           "torso": true,
           "arms": false,
           "legs": false
-        }
+        },
+        "choiceSets": []
       },
       "type": "armor",
       "name": "+1 Leather",
@@ -1499,7 +1525,8 @@
         "bonusDamageDice": 1,
         "favorite": false,
         "grants": [],
-        "grantOn": 1
+        "grantOn": 1,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1662,7 +1689,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "club-light",
-        "equipStatus": 4
+        "equipStatus": 4,
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1842,7 +1871,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "crossbow-light",
-        "equipStatus": 4
+        "equipStatus": 4,
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1993,7 +2024,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2057,7 +2089,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "identification-papers"
+        "swid": "identification-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -2116,7 +2149,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "traveling-papers"
+        "swid": "traveling-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2172,7 +2206,8 @@
         },
         "messageOnUse": true,
         "destroyOnEmpty": true,
-        "subtype": "regular"
+        "subtype": "regular",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -2227,7 +2262,8 @@
         },
         "messageOnUse": true,
         "destroyOnEmpty": true,
-        "subtype": "regular"
+        "subtype": "regular",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "gPWNGyP3Gk5koGwu",
@@ -2283,7 +2319,8 @@
         },
         "messageOnUse": true,
         "destroyOnEmpty": true,
-        "subtype": "regular"
+        "subtype": "regular",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "gPWNGyP3Gk5koGwu",
@@ -2321,10 +2358,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1699683398483,
-    "modifiedTime": 1705639989118,
+    "modifiedTime": 1709268078637,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 187500,

@@ -264,7 +264,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "dwarf"
+        "swid": "dwarf",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -319,7 +320,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Fantasy Companion",
-        "swid": "darkvision"
+        "swid": "darkvision",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -361,7 +363,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "stability"
+        "swid": "stability",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -447,7 +450,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "stonecunning"
+        "swid": "stonecunning",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "aXo6xVVmiLyAK44L",
@@ -490,7 +494,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "tough"
+        "swid": "tough",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "aXo6xVVmiLyAK44L",
@@ -533,7 +538,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "reduced-pace"
+        "swid": "reduced-pace",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -632,7 +638,8 @@
         ],
         "grants": [],
         "source": "Fantasy Companion",
-        "swid": "stonecunning"
+        "swid": "stonecunning",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -714,7 +721,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "academics"
+        "swid": "academics",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -757,7 +765,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "athletics"
+        "swid": "athletics",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -800,7 +809,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "common-knowledge"
+        "swid": "common-knowledge",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -843,7 +853,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "fighting"
+        "swid": "fighting",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -886,7 +897,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "notice"
+        "swid": "notice",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -929,7 +941,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "persuasion"
+        "swid": "persuasion",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -972,7 +985,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "shooting"
+        "swid": "shooting",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -1015,7 +1029,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "stealth"
+        "swid": "stealth",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -1100,7 +1115,8 @@
         ],
         "grants": [],
         "source": "SWADE Core Rules",
-        "swid": "aristocrat"
+        "swid": "aristocrat",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1150,7 +1166,8 @@
         ],
         "grants": [],
         "source": "SWADE Core Rules",
-        "swid": "connections"
+        "swid": "connections",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1207,7 +1224,8 @@
         ],
         "grants": [],
         "source": "SWADE Core Rules",
-        "swid": "filthy-rich"
+        "swid": "filthy-rich",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1305,7 +1323,8 @@
         ],
         "grants": [],
         "source": "SWADE Core Rules",
-        "swid": "strong-willed"
+        "swid": "strong-willed",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1393,7 +1412,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "Fantasy Companion",
-        "swid": "masterwork-axe-battle"
+        "swid": "masterwork-axe-battle",
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1489,7 +1510,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "Fantasy Companion",
-        "swid": "axe-hand"
+        "swid": "axe-hand",
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1554,7 +1577,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "",
-        "swid": "8-rings"
+        "swid": "8-rings",
+        "choiceSets": []
       },
       "_id": "SKgTrQYjeqe51r2B",
       "img": "icons/equipment/finger/ring-faceted-gold-purple.webp",
@@ -1599,7 +1623,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-common"
+        "swid": "language-common",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1642,7 +1667,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-dwarven"
+        "swid": "language-dwarven",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1685,7 +1711,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-language-name"
+        "swid": "language-language-name",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1728,7 +1755,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-language-name"
+        "swid": "language-language-name",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1761,10 +1789,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1692061956178,
-    "modifiedTime": 1705639989118,
+    "modifiedTime": 1709268078637,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,

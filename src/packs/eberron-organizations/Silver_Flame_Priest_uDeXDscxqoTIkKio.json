@@ -251,7 +251,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "human"
+        "swid": "human",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -297,7 +298,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "adaptable"
+        "swid": "adaptable",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 100000,
@@ -333,7 +335,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "skilled"
+        "swid": "skilled",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -417,7 +420,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "athletics"
+        "swid": "athletics",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -461,7 +465,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "common-knowledge"
+        "swid": "common-knowledge",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -505,7 +510,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "faith"
+        "swid": "faith",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -549,7 +555,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "fighting"
+        "swid": "fighting",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -593,7 +600,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "healing"
+        "swid": "healing",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -637,7 +645,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "notice"
+        "swid": "notice",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -681,7 +690,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "occult"
+        "swid": "occult",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -725,7 +735,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "persuasion"
+        "swid": "persuasion",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -769,7 +780,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "shooting"
+        "swid": "shooting",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -813,7 +825,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "stealth"
+        "swid": "stealth",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -854,7 +867,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-common"
+        "swid": "language-common",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -897,7 +911,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-language-name"
+        "swid": "language-language-name",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -940,7 +955,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-language-name"
+        "swid": "language-language-name",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -980,7 +996,9 @@
         "notes": "",
         "favorite": false,
         "grants": [],
-        "swid": "vow-adhere-to-the-faith"
+        "swid": "vow-adhere-to-the-faith",
+        "choiceSets": [],
+        "severity": "either"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1035,7 +1053,8 @@
         ],
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "craft-magic-items"
+        "swid": "craft-magic-items",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1097,7 +1116,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "boostlower-trait"
+        "swid": "boostlower-trait",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1163,7 +1183,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "conjure-item"
+        "swid": "conjure-item",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1223,7 +1244,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "detectconceal-arcana"
+        "swid": "detectconceal-arcana",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1288,7 +1310,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "healing"
+        "swid": "healing",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1353,7 +1376,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "protection"
+        "swid": "protection",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1425,7 +1449,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "mind-reading"
+        "swid": "mind-reading",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1490,7 +1515,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "speak-language"
+        "swid": "speak-language",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1555,7 +1581,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "sanctuary"
+        "swid": "sanctuary",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1620,7 +1647,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "smite"
+        "swid": "smite",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1693,7 +1721,8 @@
         "grants": [],
         "grantOn": 1,
         "toughness": 0,
-        "swid": "banded-mail"
+        "swid": "banded-mail",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1759,7 +1788,8 @@
         "favorite": false,
         "grants": [],
         "grantOn": 1,
-        "swid": "medium-shield"
+        "swid": "medium-shield",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1852,7 +1882,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "masterwork-morningstar"
+        "swid": "masterwork-morningstar",
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 150000,
@@ -1926,7 +1958,8 @@
         "grants": [],
         "grantOn": 1,
         "toughness": 0,
-        "swid": "cleric-vestments"
+        "swid": "cleric-vestments",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2006,7 +2039,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "holy-symbol-flametouched-iron"
+        "swid": "holy-symbol-flametouched-iron",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2084,7 +2118,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "masterwork-bow-long"
+        "swid": "masterwork-bow-long",
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 175000,
@@ -2146,7 +2182,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "potion-of-boost-strength"
+        "swid": "potion-of-boost-strength",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "bleP2Wt0N9W2v4A5",
@@ -2202,7 +2239,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "scroll-of-dispel"
+        "swid": "scroll-of-dispel",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "bleP2Wt0N9W2v4A5",
@@ -2261,7 +2299,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "identification-papers"
+        "swid": "identification-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -2319,7 +2358,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "traveling-papers"
+        "swid": "traveling-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2376,7 +2416,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "arrows-flametouched"
+        "swid": "arrows-flametouched",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2470,7 +2511,8 @@
           }
         ],
         "favorite": false,
-        "swid": "cleric"
+        "swid": "cleric",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2530,7 +2572,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "faith"
+        "swid": "faith",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2564,7 +2607,9 @@
         "notes": "",
         "favorite": false,
         "grants": [],
-        "swid": "vow"
+        "swid": "vow",
+        "choiceSets": [],
+        "severity": "either"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2597,7 +2642,8 @@
         "favorite": false,
         "subtype": "special",
         "grantsPowers": false,
-        "swid": "holy-symbol"
+        "swid": "holy-symbol",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2661,7 +2707,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "healing"
+        "swid": "healing",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2725,7 +2772,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "sanctuary"
+        "swid": "sanctuary",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2791,7 +2839,8 @@
           }
         ],
         "favorite": false,
-        "swid": "destroy-undead"
+        "swid": "destroy-undead",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2861,7 +2910,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "destroy-undead"
+        "swid": "destroy-undead",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2896,10 +2946,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1692735772446,
-    "modifiedTime": 1705639989118,
+    "modifiedTime": 1709268078637,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,

@@ -1,12 +1,12 @@
 {
-  "name": "House Kundarak Banker",
+  "name": "Morgrave Professor",
   "type": "npc",
-  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_B_15.webp",
+  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_M_15.webp",
   "system": {
     "attributes": {
       "agility": {
         "die": {
-          "sides": 4,
+          "sides": 6,
           "modifier": 0
         },
         "wild-die": {
@@ -15,7 +15,7 @@
       },
       "smarts": {
         "die": {
-          "sides": 4,
+          "sides": 8,
           "modifier": 0
         },
         "wild-die": {
@@ -25,7 +25,7 @@
       },
       "spirit": {
         "die": {
-          "sides": 4,
+          "sides": 6,
           "modifier": 0
         },
         "wild-die": {
@@ -35,7 +35,7 @@
       },
       "strength": {
         "die": {
-          "sides": 4,
+          "sides": 6,
           "modifier": 0
         },
         "wild-die": {
@@ -45,7 +45,7 @@
       },
       "vigor": {
         "die": {
-          "sides": 4,
+          "sides": 6,
           "modifier": 0
         },
         "wild-die": {
@@ -90,7 +90,7 @@
       "species": {
         "name": ""
       },
-      "currency": 100,
+      "currency": 0,
       "wealth": {
         "die": 6,
         "modifier": 0,
@@ -150,13 +150,13 @@
     "wildcard": false
   },
   "prototypeToken": {
-    "name": "House Kundarak Banker",
+    "name": "Morgrave Professor",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_B_15.webp",
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_M_15.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
@@ -217,7 +217,94 @@
   },
   "items": [
     {
-      "_id": "u93ZGRMtTPmjHAlV",
+      "name": "Various",
+      "type": "hindrance",
+      "system": {
+        "description": "",
+        "notes": "",
+        "source": "",
+        "swid": "new-hindrance",
+        "additionalStats": {},
+        "favorite": false,
+        "grants": [],
+        "choiceSets": [],
+        "severity": "either",
+        "major": false
+      },
+      "_id": "YdlqdNwv24BhwluM",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        },
+        "core": {
+          "sourceId": "Actor.AU02Cn7o69efYGRu.Item.YdlqdNwv24BhwluM"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266516907,
+        "modifiedTime": 1709266522781,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!AU02Cn7o69efYGRu.YdlqdNwv24BhwluM"
+    },
+    {
+      "_id": "uYFROelgfsqbEQSr",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/graduate-cap.svg",
+      "name": "Academics",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\"><p>Academics reflects knowledge of the liberal arts, social sciences, literature, history, archaeology, and similar fields. If an explorer wants to remember when the Mayan calendar ended or cite a line from <cite>Macbeth</cite>, this is the skill to have.</p></article>",
+        "die": {
+          "modifier": 0,
+          "sides": 10
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "academics",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.m5TZJMJA0lePG3AB"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266551352,
+        "modifiedTime": 1709266551352,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!AU02Cn7o69efYGRu.uYFROelgfsqbEQSr"
+    },
+    {
+      "_id": "cTSCzoiy8WU9e4wR",
       "effects": [],
       "folder": null,
       "img": "systems/swade/assets/icons/skills/jump-across.svg",
@@ -233,7 +320,7 @@
           "modifier": 0,
           "sides": 4
         },
-        "isCoreSkill": false,
+        "isCoreSkill": true,
         "notes": "",
         "wild-die": {
           "sides": 6
@@ -253,16 +340,16 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "11.314",
-        "createdTime": 1694714059080,
-        "modifiedTime": 1699029446143,
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266558485,
+        "modifiedTime": 1709266558485,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.u93ZGRMtTPmjHAlV"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.cTSCzoiy8WU9e4wR"
     },
     {
-      "_id": "AzAhCMKSq45G6bDM",
+      "_id": "OoJuwawuYjNHHQBW",
       "effects": [],
       "folder": null,
       "img": "systems/swade/assets/icons/skills/gift-of-knowledge.svg",
@@ -276,7 +363,7 @@
         "description": "<article class=\"swade-core\"><p>Characters roll Common Knowledge to know people, places, and things of their world, including etiquette, geography, culture, popular technology, contacts, and customs.</p></article>",
         "die": {
           "modifier": 0,
-          "sides": 6
+          "sides": 10
         },
         "isCoreSkill": true,
         "notes": "",
@@ -298,106 +385,60 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1694714064998,
-        "modifiedTime": 1694714064998,
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266562992,
+        "modifiedTime": 1709266562992,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.AzAhCMKSq45G6bDM"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.OoJuwawuYjNHHQBW"
     },
     {
-      "_id": "USOafQgRjoE5Obs1",
-      "effects": [],
-      "folder": null,
-      "img": "systems/swade/assets/icons/skills/punch.svg",
-      "name": "Fighting",
-      "sort": 0,
+      "name": "Crafting",
       "type": "skill",
+      "_id": "aedtOovbpH4N5aTC",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Trade_v1.webp",
       "system": {
-        "source": "SWADE Core Rules",
-        "additionalStats": {},
-        "attribute": "agility",
-        "description": "<article class=\"swade-core\">\n<p>Fighting covers all hand-to-hand (melee) attacks, whether it’s with fists, axes, laser swords, or martial arts. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{Chapter Three} for the combat rules and the various maneuvers a warrior might attempt.</p>\n</article>",
-        "die": {
-          "modifier": 0,
-          "sides": 4
-        },
-        "isCoreSkill": false,
+        "description": "<p>Adventurers sometimes take time to create useful items. Creating an item requires appropriate raw materials costing half the item’s market value and appropriate tools. Making something is usually resolved as an extended skill check, with each skill roll representing roughly a day’s work, though this may be smaller for particularly simple jobs.</p><p>The number of successes required and modifiers depend on the complexity, size, and cost of the item to be created, as well as the availability of necessary resources and tools, as determined by the Prophesier. A critical failure on a skill roll means the work has been ruined and the raw materials wasted. </p><p></p>",
         "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
         "wild-die": {
           "sides": 6
         },
-        "swid": "fighting",
+        "source": "Eberron for Savage Worlds",
+        "swid": "crafting",
         "choiceSets": []
       },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
       "ownership": {
-        "7ntJSLixH2Phv2jV": 3,
         "default": 0,
         "Xbne19Xghka479we": 3
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI"
+          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.7QyrSeJtyEwWIoqE"
         }
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1694714072107,
-        "modifiedTime": 1694714072107,
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1690860599837,
+        "modifiedTime": 1709266567070,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.USOafQgRjoE5Obs1"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.aedtOovbpH4N5aTC"
     },
     {
-      "_id": "yfm6BlAAypwWdnKc",
-      "effects": [],
-      "folder": null,
-      "img": "systems/swade/assets/icons/skills/arrest.svg",
-      "name": "Intimidation",
-      "sort": 0,
-      "type": "skill",
-      "system": {
-        "source": "SWADE Core Rules",
-        "additionalStats": {},
-        "attribute": "spirit",
-        "description": "<article class=\"swade-core\">\n<p>Intimidation is the art of frightening an opponent so that he backs down, reveals information, or flees.</p>\n<p>Intimidation is an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed roll} resisted by the opponent’s @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit}. In combat, this is a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{Test}. Out of combat, a successful roll means the foe backs down for the most part, reveals some information, or slinks away when the opportunity presents itself.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise} might mean he backs down for the remainder of the scene, spills all the beans, or runs away as fast as he can.</p>\n<p>In or out of combat, a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical Failure} means the target is immune to this character’s Intimidation attempts for the remainder of this encounter!</p>\n<p><strong>Networking:</strong> Intimidation can also be used as a “macro” skill to simulate several hours of working the streets. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{Networking} to see how to crack some heads for favors or information.</p>\n</article>",
-        "die": {
-          "modifier": 0,
-          "sides": 4
-        },
-        "isCoreSkill": false,
-        "notes": "",
-        "wild-die": {
-          "sides": 6
-        },
-        "swid": "intimidation",
-        "choiceSets": []
-      },
-      "ownership": {
-        "7ntJSLixH2Phv2jV": 3,
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId"
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1694714079146,
-        "modifiedTime": 1694714079146,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.yfm6BlAAypwWdnKc"
-    },
-    {
-      "_id": "vd6dQkm7N0oBiBOe",
+      "_id": "we97TlNjjxoFiFRQ",
       "effects": [],
       "folder": null,
       "img": "systems/swade/assets/icons/skills/psychic-waves.svg",
@@ -411,7 +452,7 @@
         "description": "<article class=\"swade-core\">\n<p>Notice is a hero’s general awareness and alertness. It’s used to sense sights, sounds, tastes, and smells, spot clues, detect ambushes, spot hidden weapons on a foe, or tell if a rival is lying, frightened, happy, etc.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} conveys basic information—the character hears movement in the forest, smells distant smoke, or senses someone isn’t being completely truthful.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise} grants more detail, such as the direction of a sound or odor or what topic a person is avoiding or lying about.</p>\n</article>",
         "die": {
           "modifier": 0,
-          "sides": 8
+          "sides": 4
         },
         "isCoreSkill": true,
         "notes": "",
@@ -433,37 +474,37 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1694714096658,
-        "modifiedTime": 1694714096658,
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266575622,
+        "modifiedTime": 1709266575622,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.vd6dQkm7N0oBiBOe"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.we97TlNjjxoFiFRQ"
     },
     {
-      "_id": "JbxKzxMPnlAuuWT9",
+      "_id": "v1aReHQIZREDUZNo",
       "effects": [],
       "folder": null,
-      "img": "systems/swade/assets/icons/skills/curled-tentacle.svg",
-      "name": "Occult",
+      "img": "systems/swade/assets/icons/skills/drama-masks.svg",
+      "name": "Performance",
       "sort": 0,
       "type": "skill",
       "system": {
         "source": "SWADE Core Rules",
         "additionalStats": {},
-        "attribute": "smarts",
-        "description": "<article class=\"swade-core\"><p>Occult reflects knowledge and experience with the paranormal most others don’t even believe exists. It can be used to decipher strange pictograms, recall information about supernatural creatures, remember cures for monstrous maladies like lycanthropy or vampirism, or perform rituals.</p>\n<p>Finding information in a library, newspaper morgue, old tome, the internet, etc., uses the @Compendium[swade-core-rules.swade-skills.Research]{Research} skill. As noted there, however, if the investigator’s Occult skill is higher she may use that instead.</p></article>",
+        "attribute": "spirit",
+        "description": "<article class=\"swade-core\">\n<p>A good entertainer can lift the spirits, rally a crowd to action, or simply earn a few bucks from the locals. Specifics depend on the situation, setting, and how well the character is known in the area.</p>\n<p>Performance covers singing, acting, playing an instrument, or similar tasks that require an audience to appreciate.</p>\n<p><strong>Raising Funds:</strong> The amount of money a character can raise by performing is extremely subjective, but as a general rule a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{successful} performance raises 20% of the setting's @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Starting Funds} with a success and 30% with a raise. The GM can multiply this amount by the performer's @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{Rank} if she feels it's appropriate. These numbers work for typical performers who might be known in a small establishment or area. Larger performances can greatly boost the performer's fee, but also require more time, energy, and setup.</p>\n<p><strong>Deception: </strong>Performance can be used instead of @Compendium[swade-core-rules.swade-skills.Persuasion]{Persuasion} if the character is attempting to deceive, bluff, or disguise herself and the GM agrees it makes sense in the context of the situation.</p>\n</article>",
         "die": {
           "modifier": 0,
-          "sides": 8
+          "sides": 10
         },
         "isCoreSkill": false,
         "notes": "",
         "wild-die": {
           "sides": 6
         },
-        "swid": "occult",
+        "swid": "performance",
         "choiceSets": []
       },
       "ownership": {
@@ -473,21 +514,21 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.XMNmVhwrZmL47Vhg"
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.UVdSzNvdAPmGk0iO"
         }
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1694714184336,
-        "modifiedTime": 1694714184336,
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266581118,
+        "modifiedTime": 1709266581118,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.JbxKzxMPnlAuuWT9"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.v1aReHQIZREDUZNo"
     },
     {
-      "_id": "XbYKhixdwZXKSpPZ",
+      "_id": "XPGnp9giSpkxJrn5",
       "effects": [],
       "folder": null,
       "img": "systems/swade/assets/icons/skills/convince.svg",
@@ -501,7 +542,7 @@
         "description": "<article class=\"swade-core\">\n<p>Persuasion is the ability to convince others to do what you want through reason, cajoling, deception, rewards, or other friendly means. Persuasion isn’t mind control. It can change someone’s attitude but not their goals. A bandit may let you keep a sentimental piece of jewelry with a good Persuasion roll but still takes all your other goods.</p>\n<p>When used to @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{Support} allies it’s an unopposed roll. If the target is resistant, it’s an @JournalEntry[JBxsGv2wAoAmoCDe]{opposed} roll vs. the target’s @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit}. The GM should modify the roll as she sees fit based on roleplaying, any pertinent @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edges} or @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrances} that affect the conversation, and the circumstances.</p>\n<p><strong>Reaction Level:</strong> How much a person is willing to cooperate depends largely on their attitude toward whoever’s talking to them. The Game Master can decide how nonplayer characters feel based on the setting, or roll on the @Compendium[swade-core-rules.swade-tables.Reaction Table]{Reaction Table} if she has no preconceived notions.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} improves the target’s attitude one level and a raise improves it two. Further increases aren’t generally possible in the same encounter—it takes individuals a little time to adjust their biases.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Failure} means the target won’t change his mind this scene or until the situation changes in some important way. A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical Failure} also <em>reduces</em> the target’s attitude two levels.</p>\n<p>Only one roll should generally be allowed per interaction unless new information is revealed, a substantial reward is offered, etc.</p>\n<p><strong>Networking: </strong>Characters can also use Persuasion as a “macro skill,” simulating a few hours or an evening’s time hobnobbing and socializing to gain favors or information. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{Networking}.</p>\n</article>",
         "die": {
           "modifier": 0,
-          "sides": 8
+          "sides": 4
         },
         "isCoreSkill": true,
         "notes": "",
@@ -523,16 +564,16 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1694714193923,
-        "modifiedTime": 1694714193923,
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266590087,
+        "modifiedTime": 1709266590087,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.XbYKhixdwZXKSpPZ"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.XPGnp9giSpkxJrn5"
     },
     {
-      "_id": "x0x7hI1tmNspswwU",
+      "_id": "r7JUHzHfjXroO3e0",
       "effects": [],
       "folder": null,
       "img": "systems/swade/assets/icons/skills/archive-research.svg",
@@ -546,7 +587,7 @@
         "description": "<article class=\"swade-core\">\n<p>A character skilled in Research knows how to make good use of libraries, newspaper morgues, the internet, or other written sources of information.</p>\n<p>The amount of time this takes is up to the GM and the situation. Finding something on the internet or a specific passage in a book might be possible in a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{combat round}. Looking through books in a library, searching the internet for a complex topic, or digging up background information on an individual usually takes about an hour.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} finds basic information and a raise provides more detail. @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Failure} means the researcher doesn’t find what she’s looking for.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical Failure} might mean the researcher finds plausible but incorrect information, triggers the notice of some opposed entity or faction, reads something “Humanity Was Not Meant to Know” and suffers a mental illness of some sort (a Minor @Compendium[swade-core-rules.swade-hindrances.Phobia]{Phobia}, @Compendium[swade-core-rules.swade-hindrances.Quirk]{Quirk}, etc.), or she might even accidentally destroy the source. The GM is encouraged to be creative when such a mishap occurs, perhaps forcing the party to approach the situation in a different way.</p>\n<p><strong>Related Skills: </strong>If a character has a skill that relates directly to the subject he’s researching, he can use that instead of Research. An explorer with @Compendium[swade-core-rules.swade-skills.Occult]{Occult} d10 and Research d6, for example, rolls a d10 when investigating vampire lore at a forgotten library. If he later goes to search for the deed to a house where the vampires are rumored to lair, he rolls his normal Research instead.</p>\n<p><strong>Note: </strong>Research may only provide the clues, especially in a mystery-heavy game. Putting the clues together from the information gathered is up to the players.</p>\n</article>",
         "die": {
           "modifier": 0,
-          "sides": 4
+          "sides": 8
         },
         "isCoreSkill": false,
         "notes": "",
@@ -568,16 +609,16 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1694714201830,
-        "modifiedTime": 1694714201830,
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266597434,
+        "modifiedTime": 1709266597434,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.x0x7hI1tmNspswwU"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.r7JUHzHfjXroO3e0"
     },
     {
-      "_id": "eabZ9au93owRsuFH",
+      "_id": "44JChnUH5aUkd0cY",
       "effects": [],
       "folder": null,
       "img": "systems/swade/assets/icons/skills/hidden.svg",
@@ -613,13 +654,13 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1694714700798,
-        "modifiedTime": 1694714700798,
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266601475,
+        "modifiedTime": 1709266601475,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.eabZ9au93owRsuFH"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.44JChnUH5aUkd0cY"
     },
     {
       "name": "Language (Common)",
@@ -655,15 +696,15 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
         "createdTime": 1690860753470,
-        "modifiedTime": 1694715120942,
+        "modifiedTime": 1709266616874,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_id": "vtmbBUnBSLBY9rKE",
+      "_id": "i4bsfiWtbFBHjrBL",
       "sort": 2300000,
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.vtmbBUnBSLBY9rKE"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.i4bsfiWtbFBHjrBL"
     },
     {
       "name": "Language (Dwarven)",
@@ -699,20 +740,20 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
         "createdTime": 1690860753470,
-        "modifiedTime": 1694715134608,
+        "modifiedTime": 1709266623992,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_id": "qEqpwlBb1WW9aqAE",
+      "_id": "lr3MnT6Vq22idVVM",
       "sort": 1800000,
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.qEqpwlBb1WW9aqAE"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.lr3MnT6Vq22idVVM"
     },
     {
       "name": "Language (Language Name)",
       "type": "skill",
-      "_id": "jzv2TdQ2gedAD3Pc",
+      "_id": "ff1iLIOnQxteadpf",
       "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
       "system": {
         "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
@@ -745,74 +786,30 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
         "createdTime": 1690860753470,
-        "modifiedTime": 1694715146767,
+        "modifiedTime": 1709266638752,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.jzv2TdQ2gedAD3Pc"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.ff1iLIOnQxteadpf"
     },
     {
-      "name": "Language (Language Name)",
-      "type": "skill",
-      "_id": "82upCpDgNlJPs6kM",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
-      "system": {
-        "description": "<p>The world of Eberron features many cultures and races. Use the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{Multiple Languages} Setting Rule as presented in Savage Worlds to determine how many skills an adventurer knows at the start of play. Refer to the Languages table for a complete list.</p><table style=\"border:none;border-collapse:collapse\"><colgroup><col></col><col></col><col></col></colgroup><thead><tr><th><p>Language</p></th><th><p>Typical Speakers</p></th><th><p>Alphabet</p></th></tr></thead><tbody><tr><td><p>Abyssal</p></td><td><p>Demons of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Argon</p></td><td><p>Barbarians of Argonnessen and Seren</p></td><td><p>Common</p></td></tr><tr><td><p>Aquan</p></td><td><p>Water-based creatures</p></td><td><p>Elven</p></td></tr><tr><td><p>Auran</p></td><td><p>Air-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Celestial</p></td><td><p>Archons of Shavarath</p></td><td><p>Celestial</p></td></tr><tr><td><p>Common</p></td><td><p>Humans, halflings, half-elves, half-orcs</p></td><td><p>Common</p></td></tr><tr><td><p>Daan</p></td><td><p>Formians, lawful outsiders of Daanvi</p></td><td><p>Daan</p></td></tr><tr><td><p>Daelkyr</p></td><td><p>Daelkyr, mind flayers, other aberrations, creatures of Xoriat</p></td><td><p>Daelkyr</p></td></tr><tr><td><p>Draconic</p></td><td><p>Kobolds, troglodytes, lizardfolk, dragons</p></td><td><p>Draconic</p></td></tr><tr><td><p>Druidic</p></td><td><p>Druids (only)</p></td><td><p>Druidic</p></td></tr><tr><td><p>Dwarven</p></td><td><p>Dwarves</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Elven</p></td><td><p>Elves, drow</p></td><td><p>Elven</p></td></tr><tr><td><p>Giant</p></td><td><p>Ogres, giants, drow</p></td><td><p>Giant</p></td></tr><tr><td><p>Gnoll</p></td><td><p>Gnolls</p></td><td><p>Common</p></td></tr><tr><td><p>Gnome</p></td><td><p>Gnomes</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Goblin</p></td><td><p>Goblins, hobgoblins, bugbears</p></td><td><p>Goblin</p></td></tr><tr><td><p>Halfling</p></td><td><p>Halflings</p></td><td><p>Common</p></td></tr><tr><td><p>Ignan</p></td><td><p>Fire-based creatures</p></td><td><p>Draconic</p></td></tr><tr><td><p>Infernal</p></td><td><p>Devils of Shavarath</p></td><td><p>Infernal</p></td></tr><tr><td><p>Irial</p></td><td><p>Ravids, positive energy users of Irian</p></td><td><p>Draconic</p></td></tr><tr><td><p>Kythric</p></td><td><p>Slaadi, chaotic outsiders of Kythri</p></td><td><p>Daan</p></td></tr><tr><td><p>Mabran</p></td><td><p>Nightshades, shadows, creatures of Mabar</p></td><td><p>Draconic</p></td></tr><tr><td><p>Orc</p></td><td><p>Orcs</p></td><td><p>Goblin</p></td></tr><tr><td><p>Quori</p></td><td><p>Quori, the Inspired, kalashtar</p></td><td><p>Quori</p></td></tr><tr><td><p>Riedran</p></td><td><p>Lower classes of Sarlona</p></td><td><p>Old Common</p></td></tr><tr><td><p>Risian</p></td><td><p>Ice-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Sylvan</p></td><td><p>Dryads, eladrins, creatures of Thelanis</p></td><td><p>Elven</p></td></tr><tr><td><p>Syranian</p></td><td><p>Angels of Syrania</p></td><td><p>Celestial</p></td></tr><tr><td><p>Terran</p></td><td><p>Xorns and other earth-based creatures</p></td><td><p>Dwarven</p></td></tr><tr><td><p>Undercommon</p></td><td><p>Chokers, underground denizens</p></td><td><p>Daelkyr</p></td></tr></tbody></table>",
-        "notes": "",
-        "additionalStats": {},
-        "attribute": "smarts",
-        "isCoreSkill": false,
-        "die": {
-          "sides": 6,
-          "modifier": 0
-        },
-        "wild-die": {
-          "sides": 6
-        },
-        "source": "Eberron for Savage Worlds",
-        "swid": "language-language-name",
-        "choiceSets": []
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 700000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-skills.Item.YIcSj4d2fHUVlk6N"
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1690860753470,
-        "modifiedTime": 1694715189315,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.82upCpDgNlJPs6kM"
-    },
-    {
-      "_id": "KphimYNiwTR99HBO",
+      "_id": "H9jzqKDgngI2tLnJ",
       "effects": [
         {
-          "name": "Alertness",
+          "name": "Scholar (Academics)",
           "icon": "systems/swade/assets/icons/edge.svg",
           "changes": [
             {
-              "key": "@Skill{Notice}[system.die.modifier]",
+              "key": "@Skill{Academics}[system.die.modifier]",
               "mode": 2,
               "value": "2",
               "priority": null
             }
           ],
           "transfer": true,
-          "_id": "XwfXyhGcvMcgNJjA",
+          "_id": "mkeLIZdenpWwTw35",
           "disabled": false,
           "duration": {
             "startTime": 36,
@@ -827,32 +824,39 @@
           "origin": null,
           "statuses": [],
           "flags": {},
-          "_key": "!actors.items.effects!HvS79D2GJmMi3dqU.KphimYNiwTR99HBO.XwfXyhGcvMcgNJjA"
+          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.H9jzqKDgngI2tLnJ.mkeLIZdenpWwTw35"
         }
       ],
       "folder": null,
       "img": "systems/swade/assets/icons/edge.svg",
-      "name": "Alertness",
+      "name": "Scholar (Academics)",
       "sort": 0,
       "type": "edge",
       "system": {
         "source": "SWADE Core Rules",
         "additionalStats": {},
-        "description": "<article class=\"swade-core\">\n<p>Not much gets by this hero. He’s very observant and perceptive, and adds +2 to his @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls to hear, see, or otherwise sense the world around him.</p>\n</article>",
+        "description": "<article class=\"swade-core\">\n<p>Learned professors, devoted students, and amateur enthusiasts spend great amounts of time and energy studying particular subjects. They become experts in these fields, and rarely fail to answer questions in their particular area of expertise.</p>\n<p>Pick any one of the following skills: @Compendium[swade-core-rules.swade-skills.Academics]{Academics}, @Compendium[swade-core-rules.swade-skills.Battle]{Battle}, @Compendium[swade-core-rules.swade-skills.Occult]{Occult}, @Compendium[swade-core-rules.swade-skills.Science]{Science}, or a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Smarts}-based “knowledge”-type skill allowed in your setting, and add +2 to the total whenever they’re used.</p>\n<p>This Edge may be taken more than once if applied to different skills.</p>\n</article>",
         "isArcaneBackground": false,
         "notes": "",
         "requirements": [
           {
             "type": "rank",
-            "value": 0,
             "selector": "",
+            "value": 0,
             "combinator": "and"
+          },
+          {
+            "type": "skill",
+            "selector": "research",
+            "value": 8,
+            "combinator": "and",
+            "label": "Research"
           }
         ],
-        "category": "Background",
+        "category": "Professional",
+        "swid": "scholar",
         "favorite": false,
         "grants": [],
-        "swid": "alertness",
         "choiceSets": []
       },
       "ownership": {
@@ -862,7 +866,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.swade-core-rules.swade-edges.Item.M2diZ7X4997YL2pa"
+          "sourceId": "Compendium.swade-core-rules.swade-edges.Item.O3lse5ZxUZPTpwER"
         },
         "swade": {
           "hasGranted": []
@@ -870,51 +874,49 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "11.314",
-        "createdTime": 1694715443246,
-        "modifiedTime": 1699029568703,
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266799169,
+        "modifiedTime": 1709266811302,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.KphimYNiwTR99HBO"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.H9jzqKDgngI2tLnJ"
     },
     {
-      "_id": "P53x6wXNyckfXQj3",
-      "name": "Treasure Hunter",
-      "type": "edge",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+      "_id": "fZELjuQs8HGy8vWl",
+      "name": "Scholar's Outfit",
+      "type": "gear",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Gear.webp",
       "system": {
         "source": "Fantasy Companion",
-        "description": "<article class=\"swadefc\"><h3>Treasure Hunter</h3>\n<section class=\"description\">\n<p>\n Tomb raiders and treasure hunters know what to look for when rifling through piles of gold and goods. They may\n roll Smarts to gauge the value of goods or treasures or get a basic idea of a magic item's abilities. One who\n finds an exploding stone, for example, might know that they're thrown for explosive effect but\n doesn't know the Range increments or damage until he uses it.\n </p>\n<p>\n Finally, when the Game Master rolls for magic items (see <strong>Chapter Five: Treasure</strong>), a Treasure Hunter can spend a Benny to have her roll again.\n </p>\n</section></article>",
+        "description": "<article class=\"swadefc\"></article>",
         "notes": "",
         "additionalStats": {},
-        "isArcaneBackground": false,
-        "requirements": [
-          {
-            "type": "rank",
-            "value": 0,
-            "selector": "",
-            "combinator": "and"
-          },
-          {
-            "type": "other",
-            "label": "Notice d8+",
-            "selector": "",
-            "value": "",
-            "combinator": "and"
-          },
-          {
-            "type": "other",
-            "label": "Occult d8+",
-            "selector": "",
-            "value": "",
-            "combinator": "and"
-          }
-        ],
-        "category": "Professional",
+        "quantity": 1,
+        "weight": 2,
+        "price": 1,
+        "equippable": true,
+        "equipStatus": 3,
+        "isVehicular": false,
+        "mods": 1,
         "favorite": false,
+        "category": "Clothing",
         "grants": [],
-        "swid": "treasure-hunter",
+        "grantOn": 1,
+        "isAmmo": false,
+        "swid": "common-clothing",
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
         "choiceSets": []
       },
       "effects": [],
@@ -922,14 +924,11 @@
       "flags": {
         "core": {
           "sheetClass": "swade.SWADEFCItem",
-          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.8C5KC5txtvx9ArUm"
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-gear.Item.QCSNkV3COehK0002"
         },
         "singleSource": {
           "version": "2.0.0-alpha",
           "module": "swade-fantasy-companion"
-        },
-        "swade": {
-          "hasGranted": []
         }
       },
       "folder": null,
@@ -939,476 +938,29 @@
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.1.4",
-        "coreVersion": "11.308",
-        "createdTime": 1694715450635,
-        "modifiedTime": 1694715450682,
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266975230,
+        "modifiedTime": 1709266983871,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.P53x6wXNyckfXQj3"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.fZELjuQs8HGy8vWl"
     },
     {
-      "_id": "kTEIljomNAQxAbtq",
-      "name": "Masterwork Dagger/Knife",
-      "type": "weapon",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Shooting_v1.webp",
-      "system": {
-        "source": "Fantasy Companion",
-        "description": "",
-        "notes": "",
-        "additionalStats": {},
-        "quantity": 1,
-        "weight": 1,
-        "price": 302,
-        "equippable": true,
-        "isArcaneDevice": false,
-        "arcaneSkillDie": {
-          "sides": 4,
-          "modifier": 0
-        },
-        "powerPoints": {},
-        "isVehicular": false,
-        "mods": 1,
-        "actions": {
-          "dmgMod": "",
-          "additional": {
-            "Oua8l2HaKkFjZdBr": {
-              "name": "Fighting",
-              "type": "trait",
-              "override": "Fighting",
-              "macroActor": "default",
-              "isHeavyWeapon": false,
-              "modifier": "",
-              "dice": null,
-              "resourcesUsed": null
-            }
-          },
-          "trait": "Athletics",
-          "traitMod": ""
-        },
-        "bonusDamageDie": 6,
-        "bonusDamageDice": 1,
-        "favorite": false,
-        "templates": {
-          "cone": false,
-          "stream": false,
-          "small": false,
-          "medium": false,
-          "large": false
-        },
-        "category": "Ranged Weapons",
-        "grants": [],
-        "grantOn": 1,
-        "damage": "@str+d4",
-        "range": "3/6/12",
-        "rof": 1,
-        "ap": 1,
-        "parry": 0,
-        "minStr": "d4",
-        "shots": 0,
-        "currentShots": 0,
-        "ammo": "",
-        "reloadType": "none",
-        "ppReloadCost": 0,
-        "trademark": 0,
-        "isHeavyWeapon": false,
-        "swid": "daggerknife",
-        "equipStatus": 4,
-        "choiceSets": [],
-        "rangeType": null
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sheetClass": "swade.SWADEFCItem",
-          "sourceId": "Item.3GCiB3C0uSXthVbd"
-        },
-        "singleSource": {
-          "version": "2.0.0-alpha",
-          "module": "swade-fantasy-companion",
-          "fullDescription": " | Ranged Weapons | "
-        },
-        "swade-item-tables": {
-          "baseStats": {
-            "name": "Dagger/Knife",
-            "type": "weapon",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Shooting_v1.webp",
-            "system": {
-              "source": "Fantasy Companion",
-              "description": "",
-              "notes": "",
-              "additionalStats": {},
-              "quantity": 1,
-              "weight": 1,
-              "price": 2,
-              "equippable": true,
-              "isArcaneDevice": false,
-              "arcaneSkillDie": {
-                "sides": 4,
-                "modifier": 0
-              },
-              "powerPoints": {},
-              "isVehicular": false,
-              "mods": 1,
-              "actions": {
-                "dmgMod": "",
-                "additional": {
-                  "Oua8l2HaKkFjZdBr": {
-                    "name": "Fighting",
-                    "type": "trait",
-                    "override": "Fighting",
-                    "macroActor": "default",
-                    "isHeavyWeapon": false
-                  }
-                },
-                "trait": "Athletics",
-                "traitMod": ""
-              },
-              "bonusDamageDie": 6,
-              "bonusDamageDice": 1,
-              "favorite": false,
-              "templates": {
-                "cone": false,
-                "stream": false,
-                "small": false,
-                "medium": false,
-                "large": false
-              },
-              "category": "Ranged Weapons",
-              "grants": [],
-              "grantOn": 1,
-              "damage": "@str+d4",
-              "range": "3/6/12",
-              "rof": 1,
-              "ap": 0,
-              "parry": 0,
-              "minStr": "d4",
-              "shots": 0,
-              "currentShots": 0,
-              "ammo": "",
-              "reloadType": "none",
-              "ppReloadCost": 0,
-              "trademark": 0,
-              "isHeavyWeapon": false,
-              "swid": "daggerknife",
-              "equipStatus": 1
-            },
-            "effects": [],
-            "sort": 0,
-            "flags": {
-              "core": {
-                "sheetClass": "swade.SWADEFCItem"
-              },
-              "singleSource": {
-                "version": "2.0.0-alpha",
-                "module": "swade-fantasy-companion",
-                "fullDescription": " | Ranged Weapons | "
-              }
-            },
-            "folder": null,
-            "ownership": {
-              "default": 0,
-              "Xbne19Xghka479we": 3
-            },
-            "_stats": {
-              "systemId": "swade",
-              "systemVersion": "3.2.2",
-              "coreVersion": "11.314",
-              "createdTime": 1699029775348,
-              "modifiedTime": 1699029775348,
-              "lastModifiedBy": "Xbne19Xghka479we"
-            },
-            "_id": null
-          },
-          "isMasterwork": true
-        }
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "11.314",
-        "createdTime": 1699029775348,
-        "modifiedTime": 1699029792099,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.kTEIljomNAQxAbtq"
-    },
-    {
-      "_id": "vg1cwBWDHPFtkACQ",
-      "name": "Cloak of Minor Arcane Protection",
+      "folder": "rmMZ8nKTRru5pDGY",
+      "name": "Letter of Marque",
       "type": "gear",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_MagicItem.webp",
+      "_id": "QxCz9tHpsl7lEj8b",
+      "img": "icons/sundries/documents/document-sealed-beige-red.webp",
       "system": {
-        "source": "Eberron for Savage Worlds",
-        "description": "<article class=\"swadefc\"><p><strong>Cloak of Minor </strong><em><strong>Arcane Protection</strong></em><strong>:</strong> When the wearer of this cloak dons its hood, they benefit from the effects of minor <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.qjflUvZxnhUF91dS]{arcane protection}</em>. Anyone targeting them with a hostile power suffers a −2 penalty.</p><ul><li><strong>Price:</strong> 9,000; <strong>Weight:</strong> 1 lb.</li></ul></article>",
+        "description": "<p>The concept of letters of marque originated during the Last War, when the rulers of the warring nations granted adventurers permission to attack ships and assets belonging to other nations. The Treaty of Thronehold declared void all letters of marque that existed at the time, but the idea survives in Breland, though in a rather altered form. The king of Breland now issues papers granting adventurers permission to explore and plunder the ruins of Xen’drik. Though such permission is not technically necessary, wise adventurers are sure to secure it before using Sharn as a launching point for expeditions to Xen’drik. Those who try to sell treasures from Xen’drik on the open market in Breland must produce a letter of marque or face stiff fines—on top of forfeiting the treasure they won on their adventures.</p>",
         "notes": "",
-        "additionalStats": {},
-        "quantity": 1,
-        "weight": 1,
-        "price": 9000,
-        "equippable": true,
-        "equipStatus": 3,
-        "isVehicular": false,
-        "mods": 1,
-        "favorite": false,
-        "category": "Magic Item",
-        "grants": [],
-        "grantOn": 1,
-        "isAmmo": false,
-        "swid": "cloak-of-protection",
-        "isArcaneDevice": true,
-        "arcaneSkillDie": {
-          "sides": 4,
-          "modifier": 0
-        },
-        "powerPoints": {
-          "value": null,
-          "max": null
-        },
-        "actions": {
-          "trait": "",
-          "traitMod": "",
-          "dmgMod": "",
-          "additional": {}
-        },
-        "choiceSets": []
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sheetClass": "swade.SWADEFCItem",
-          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-gear.Item.vRw5PUklQFgMqCxI"
-        },
-        "singleSource": {
-          "version": "2.0.0-alpha",
-          "module": "swade-fantasy-companion",
-          "embeddedInjections": [
-            {
-              "power": {
-                "name": "Protection",
-                "updates": {
-                  "system": {
-                    "innate": true
-                  }
-                },
-                "module": "swade-fantasy-companion"
-              }
-            }
-          ]
-        },
-        "swade": {
-          "embeddedPowers": [
-            [
-              "RDhxSS8v2OD69W70",
-              {
-                "_id": "cuuokKqJ5IgaYdNT",
-                "name": "Protection",
-                "type": "power",
-                "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
-                "system": {
-                  "description": "<article class=\"swadefc\"><p>\n<em>Protection</em> creates a field of energy or armor around a character, giving him 2 points of Armor. With a\n    raise, the bonus is applied to Toughness instead (and therefore immune to Armor Piercing modifiers).\n  </p>\n<p>Whether the <em>protection</em> is visible or not depends on the Trapping-this is entirely up to the caster.</p>\n<p><em>Protection</em> stacks with all other armor, natural or worn.</p>\n<div><strong>Modifiers</strong></div>\n<ul>\n<li>\n<strong>Additional Recipients (+1):</strong> The power may affect additional targets at a cost of 1 Power Point\n      each.\n    </li>\n</ul></article>",
-                  "notes": "",
-                  "additionalStats": {},
-                  "equippable": false,
-                  "equipped": false,
-                  "actions": {
-                    "skill": "",
-                    "skillMod": "",
-                    "dmgMod": "",
-                    "additional": {}
-                  },
-                  "rank": "Novice",
-                  "pp": 1,
-                  "damage": "",
-                  "range": "Smarts",
-                  "duration": "5",
-                  "trapping": "A mystical glow, bark skin, mage armor, ethereal armor",
-                  "arcane": "",
-                  "skill": "",
-                  "modifiers": [],
-                  "category": "Novice",
-                  "templates": {
-                    "cone": false,
-                    "stream": false,
-                    "small": false,
-                    "medium": false,
-                    "large": false
-                  },
-                  "ap": 0,
-                  "innate": true,
-                  "source": "Fantasy Companion",
-                  "swid": "protection"
-                },
-                "effects": [],
-                "sort": 0,
-                "flags": {
-                  "core": {
-                    "sheetClass": "swade.SWADEFCItem"
-                  },
-                  "singleSource": {
-                    "version": "2.0.0-alpha",
-                    "module": "swade-fantasy-companion"
-                  }
-                }
-              }
-            ]
-          ]
-        }
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "11.314",
-        "createdTime": 1699029844274,
-        "modifiedTime": 1699030500411,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.vg1cwBWDHPFtkACQ"
-    },
-    {
-      "name": "Amethyst Ring",
-      "type": "gear",
-      "system": {
-        "equipStatus": 3,
-        "description": "",
-        "notes": "",
-        "source": "Eberron for Savage Worlds",
-        "swid": "amethyst-ring",
         "additionalStats": {},
         "quantity": 1,
         "weight": 0,
-        "price": 300,
-        "equippable": true,
-        "isArcaneDevice": false,
-        "arcaneSkillDie": {
-          "sides": 4,
-          "modifier": 0
-        },
-        "powerPoints": {},
-        "isVehicular": false,
-        "mods": 1,
-        "actions": {
-          "trait": "",
-          "traitMod": "",
-          "dmgMod": "",
-          "additional": {}
-        },
-        "favorite": false,
-        "category": "Jewelry",
-        "grants": [],
-        "grantOn": 1,
-        "isAmmo": false,
-        "choiceSets": []
-      },
-      "_id": "EMQJUDd0ac5xIBFa",
-      "img": "icons/equipment/finger/ring-cabochon-engraved-purple.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "swade": {
-          "hasGranted": []
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "11.314",
-        "createdTime": 1699030538492,
-        "modifiedTime": 1699030619634,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.EMQJUDd0ac5xIBFa"
-    },
-    {
-      "name": "Platinum Medallion",
-      "type": "gear",
-      "system": {
-        "equipStatus": 3,
-        "description": "",
-        "notes": "",
-        "source": "Eberron for Savage Worlds",
-        "swid": "platinum-medallion",
-        "additionalStats": {},
-        "quantity": 1,
-        "weight": 0,
-        "price": 300,
-        "equippable": true,
-        "isArcaneDevice": false,
-        "arcaneSkillDie": {
-          "sides": 4,
-          "modifier": 0
-        },
-        "powerPoints": {},
-        "isVehicular": false,
-        "mods": 1,
-        "actions": {
-          "trait": "",
-          "traitMod": "",
-          "dmgMod": "",
-          "additional": {}
-        },
-        "favorite": false,
-        "category": "Jewelry",
-        "grants": [],
-        "grantOn": 1,
-        "isAmmo": false,
-        "choiceSets": []
-      },
-      "_id": "LBtlua074NGQSJJV",
-      "img": "icons/equipment/neck/necklace-triquetra-silver.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "swade": {
-          "hasGranted": []
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "11.314",
-        "createdTime": 1699030639813,
-        "modifiedTime": 1699030744228,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.LBtlua074NGQSJJV"
-    },
-    {
-      "name": "Letter of Credit",
-      "type": "gear",
-      "system": {
-        "equipStatus": 1,
-        "description": "",
-        "notes": "",
-        "source": "Eberron for Savage Worlds",
-        "swid": "letter-of-credit",
-        "additionalStats": {},
-        "quantity": 1,
-        "weight": 0,
-        "price": 0,
+        "price": 500,
         "equippable": false,
+        "equipStatus": 3,
         "isArcaneDevice": false,
         "arcaneSkillDie": {
           "sides": 4,
@@ -1418,47 +970,46 @@
         "isVehicular": false,
         "mods": 1,
         "actions": {
-          "trait": "",
-          "traitMod": "",
           "dmgMod": "",
-          "additional": {}
+          "additional": {},
+          "trait": "",
+          "traitMod": ""
         },
         "favorite": false,
         "category": "Documents",
         "grants": [],
         "grantOn": 1,
         "isAmmo": false,
+        "source": "Eberron for Savage Worlds",
+        "swid": "letter-of-marque",
         "choiceSets": []
       },
-      "_id": "LOTYyy21jnGyURXy",
-      "img": "icons/sundries/documents/document-sealed-signatures-red.webp",
       "effects": [],
-      "folder": null,
-      "sort": 0,
+      "sort": 500000,
       "ownership": {
         "default": 0,
         "Xbne19Xghka479we": 3
       },
       "flags": {
-        "swade": {
-          "hasGranted": []
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-gear.Item.8Hr4GGWgop2ZyStC"
         }
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "11.314",
-        "createdTime": 1699030815304,
-        "modifiedTime": 1699034480631,
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1691347449023,
+        "modifiedTime": 1709266989962,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.LOTYyy21jnGyURXy"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.QxCz9tHpsl7lEj8b"
     },
     {
       "folder": "rmMZ8nKTRru5pDGY",
       "name": "Identification Papers",
       "type": "gear",
-      "_id": "mmUFeODJM5c2EHZV",
+      "_id": "9MCIidHvBSq4RJBa",
       "img": "icons/sundries/documents/document-official-capital.webp",
       "system": {
         "description": "<p>Most people of the middle and upper classes, at least in the most civilized areas of Khorvaire (Aundair, Breland, Karrnath, Thrane, Zilargo, and the Mror Holds) carry identification papers with them at all times. Issued by national governments and notarized by House Sivis, these papers present a detailed physical description of a person (the wealthy sometimes commission small portraits of themselves), the person’s name and residence, and in some cases additional information about the person’s affiliations (particularly including any connection to a dragonmarked house, royalty, or a large institution).</p>",
@@ -1468,7 +1019,7 @@
         "weight": 0,
         "price": 2,
         "equippable": false,
-        "equipStatus": 1,
+        "equipStatus": 3,
         "isArcaneDevice": false,
         "arcaneSkillDie": {
           "sides": 4,
@@ -1501,26 +1052,23 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.savage-eberron.eberron-gear.Item.EdL1Z0EfYcIF3tK8"
-        },
-        "swade": {
-          "hasGranted": []
         }
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "11.314",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
         "createdTime": 1691347302346,
-        "modifiedTime": 1699034505913,
+        "modifiedTime": 1709266995604,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.mmUFeODJM5c2EHZV"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.9MCIidHvBSq4RJBa"
     },
     {
       "folder": "rmMZ8nKTRru5pDGY",
       "name": "Traveling Papers",
       "type": "gear",
-      "_id": "4dKmw3QPgV8ynlZY",
+      "_id": "Qy9YzFZz6Shpe4Mx",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
       "system": {
         "description": "<p>Anyone who travels across national borders is usually required to carry traveling papers identifying them, their residence, their destination, and their reason for travel. Traveling papers consist of a parchment sheet with the appropriate information and an arcane mark, carried in a leather folder. House Sivis, House Orien, House Deneith, and House Lyrandar all offer traveling papers that are recognized throughout central Khorvaire.</p>",
@@ -1530,7 +1078,7 @@
         "weight": 0,
         "price": 0.2,
         "equippable": false,
-        "equipStatus": 1,
+        "equipStatus": 3,
         "isArcaneDevice": false,
         "arcaneSkillDie": {
           "sides": 4,
@@ -1563,25 +1111,22 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.savage-eberron.eberron-gear.Item.7aEWMIrf7xme1Z3R"
-        },
-        "swade": {
-          "hasGranted": []
         }
       },
       "_stats": {
         "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "11.314",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
         "createdTime": 1691347568948,
-        "modifiedTime": 1699034524213,
+        "modifiedTime": 1709266999487,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.4dKmw3QPgV8ynlZY"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.Qy9YzFZz6Shpe4Mx"
     },
     {
       "name": "Dwarf",
       "type": "ability",
-      "_id": "7gaHrHN5e2WfAB3Q",
+      "_id": "D04tzQXjZEPc0Y5i",
       "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
       "system": {
         "description": "<ul><li><p><strong>Darkvision (+1):</strong> Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers. </p></li><li><p><strong>Reduced Pace (−1):</strong> Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type. </p></li><li><p><strong>Stonecunning (+1):</strong> Generations of delving into the depths of the Mror Holds has taught the Dwarves how to identify unusual stonework, granting them the Stonecunning Edge.</p></li><li><p><strong>Tough (+3):</strong> Dwarves are genetically stout and tough. They start with a d6 in Vigor instead of a d4. This increases their maximum Vigor to d12+1. They also have a +1 bonus to resist poisons, powers, and supernatural abilities that behave similarly to powers.</p></li></ul>",
@@ -1644,12 +1189,12 @@
         },
         "swade": {
           "hasGranted": [
-            "EwrhHrnTric3Wdxa",
-            "ZoZ0AyBSP6HT4BZf",
-            "cJjlDQixlkiybjqS",
-            "Gigiki54cLc1YiKa",
-            "DM1sbxLZYAF8T0uM",
-            "2Wp9h9G5ealN4Rjw"
+            "tGXNeVKtBuy6WvL7",
+            "ElNmCVwSyIczeLyF",
+            "6BEjpSeG5XoBQy1v",
+            "n0PeUTmHawDGPCHt",
+            "phGcA8iFGQoFeeCr",
+            "UzCiidvXsSvXGcST"
           ]
         }
       },
@@ -1658,7 +1203,7 @@
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
         "createdTime": 1689255596862,
-        "modifiedTime": 1709267212276,
+        "modifiedTime": 1709267183055,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "sort": 1800000,
@@ -1666,10 +1211,10 @@
         "default": 0,
         "Xbne19Xghka479we": 3
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.7gaHrHN5e2WfAB3Q"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.D04tzQXjZEPc0Y5i"
     },
     {
-      "_id": "EwrhHrnTric3Wdxa",
+      "_id": "tGXNeVKtBuy6WvL7",
       "name": "Darkvision",
       "type": "ability",
       "img": "icons/magic/perception/eye-slit-orange.webp",
@@ -1706,11 +1251,11 @@
         "systemId": "swade",
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
-        "createdTime": 1709267212194,
-        "modifiedTime": 1709267212194,
+        "createdTime": 1709267183012,
+        "modifiedTime": 1709267183012,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.EwrhHrnTric3Wdxa"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.tGXNeVKtBuy6WvL7"
     },
     {
       "name": "Stability",
@@ -1763,7 +1308,7 @@
           "name": "Stability",
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!HvS79D2GJmMi3dqU.ZoZ0AyBSP6HT4BZf.1wQzbJq5vnB2AasU"
+          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.ElNmCVwSyIczeLyF.1wQzbJq5vnB2AasU"
         }
       ],
       "folder": "aXo6xVVmiLyAK44L",
@@ -1785,12 +1330,12 @@
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
         "createdTime": 1671074788510,
-        "modifiedTime": 1709267212194,
+        "modifiedTime": 1709267183012,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_id": "ZoZ0AyBSP6HT4BZf",
+      "_id": "ElNmCVwSyIczeLyF",
       "sort": 0,
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.ZoZ0AyBSP6HT4BZf"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.ElNmCVwSyIczeLyF"
     },
     {
       "name": "Stonecunning",
@@ -1836,12 +1381,12 @@
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
         "createdTime": 1671074423996,
-        "modifiedTime": 1709267212194,
+        "modifiedTime": 1709267183012,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_id": "cJjlDQixlkiybjqS",
+      "_id": "6BEjpSeG5XoBQy1v",
       "sort": 50000,
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.cJjlDQixlkiybjqS"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.6BEjpSeG5XoBQy1v"
     },
     {
       "name": "Tough",
@@ -1892,7 +1437,7 @@
           "description": "",
           "origin": null,
           "statuses": [],
-          "_key": "!actors.items.effects!HvS79D2GJmMi3dqU.Gigiki54cLc1YiKa.jmXZJ6SozUFEyZnh"
+          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.n0PeUTmHawDGPCHt.jmXZJ6SozUFEyZnh"
         }
       ],
       "folder": "aXo6xVVmiLyAK44L",
@@ -1914,12 +1459,12 @@
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
         "createdTime": 1671075836315,
-        "modifiedTime": 1709267212194,
+        "modifiedTime": 1709267183012,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_id": "Gigiki54cLc1YiKa",
+      "_id": "n0PeUTmHawDGPCHt",
       "sort": 0,
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.Gigiki54cLc1YiKa"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.n0PeUTmHawDGPCHt"
     },
     {
       "name": "Reduced Pace",
@@ -1972,7 +1517,7 @@
           "origin": null,
           "statuses": [],
           "flags": {},
-          "_key": "!actors.items.effects!HvS79D2GJmMi3dqU.DM1sbxLZYAF8T0uM.maEcJPnpc131go1w"
+          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.phGcA8iFGQoFeeCr.maEcJPnpc131go1w"
         }
       ],
       "folder": "aXo6xVVmiLyAK44L",
@@ -1994,15 +1539,15 @@
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
         "createdTime": 1668895717346,
-        "modifiedTime": 1709267212194,
+        "modifiedTime": 1709267183012,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_id": "DM1sbxLZYAF8T0uM",
+      "_id": "phGcA8iFGQoFeeCr",
       "sort": 150000,
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.DM1sbxLZYAF8T0uM"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.phGcA8iFGQoFeeCr"
     },
     {
-      "_id": "2Wp9h9G5ealN4Rjw",
+      "_id": "UzCiidvXsSvXGcST",
       "name": "Stonecunning",
       "type": "edge",
       "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
@@ -2065,7 +1610,7 @@
           "origin": null,
           "transfer": true,
           "statuses": [],
-          "_key": "!actors.items.effects!HvS79D2GJmMi3dqU.2Wp9h9G5ealN4Rjw.cqP4rHkJLTpfaEb9"
+          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.UzCiidvXsSvXGcST.cqP4rHkJLTpfaEb9"
         }
       ],
       "sort": 0,
@@ -2087,15 +1632,15 @@
         "systemId": "swade",
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
-        "createdTime": 1709267212194,
-        "modifiedTime": 1709267212194,
+        "createdTime": 1709267183012,
+        "modifiedTime": 1709267183012,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!HvS79D2GJmMi3dqU.2Wp9h9G5ealN4Rjw"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.UzCiidvXsSvXGcST"
     }
   ],
   "effects": [],
-  "folder": "60oZUurgqUx9pdS9",
+  "folder": "YF8ZKXqZeb2lQqaJ",
   "flags": {
     "core": {}
   },
@@ -2103,15 +1648,15 @@
     "systemId": "swade",
     "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
-    "createdTime": 1694713284616,
-    "modifiedTime": 1709268078637,
+    "createdTime": 1693890215641,
+    "modifiedTime": 1709268079463,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
-  "_id": "HvS79D2GJmMi3dqU",
-  "sort": 175000,
+  "_id": "AU02Cn7o69efYGRu",
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3
   },
-  "_key": "!actors!HvS79D2GJmMi3dqU"
+  "_key": "!actors!AU02Cn7o69efYGRu"
 }

@@ -1,7 +1,7 @@
 {
   "name": "House Tharashk Bounty Hunter",
   "type": "npc",
-  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_B_15.webp",
+  "img": "modules/swade-fantasy-companion/assets/pawns/FC_48_Orc_Adam_Barker.webp",
   "system": {
     "attributes": {
       "agility": {
@@ -154,31 +154,32 @@
     "wildcard": false
   },
   "prototypeToken": {
-    "name": "NPC",
+    "name": "House Tharashk Bounty Hunter",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_N_15.webp",
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_orc_adam_barker.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "tint": null
     },
     "width": 1,
     "height": 1,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
-    "disposition": -1,
+    "disposition": 0,
     "displayBars": 0,
     "bar1": {
       "attribute": "stats.parry.value"
     },
     "bar2": {
-      "attribute": "toughness.total"
+      "attribute": null
     },
     "light": {
       "alpha": 0.5,
@@ -200,7 +201,8 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -255,7 +257,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "half-orc"
+        "swid": "half-orc",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -329,7 +332,8 @@
         "category": "Background",
         "swid": "brute",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -369,7 +373,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "intimidation"
+        "swid": "intimidation",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -402,7 +407,8 @@
         "favorite": false,
         "grantsPowers": false,
         "swid": "dark-vision",
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -452,7 +458,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "athletics"
+        "swid": "athletics",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -496,7 +503,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "common-knowledge"
+        "swid": "common-knowledge",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -540,7 +548,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "fighting"
+        "swid": "fighting",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -584,7 +593,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "healing"
+        "swid": "healing",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -628,7 +638,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "notice"
+        "swid": "notice",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -672,7 +683,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "persuasion"
+        "swid": "persuasion",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -716,7 +728,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "riding"
+        "swid": "riding",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -760,7 +773,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "shooting"
+        "swid": "shooting",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -804,7 +818,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "stealth"
+        "swid": "stealth",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -848,7 +863,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "survival"
+        "swid": "survival",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -888,7 +904,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-common"
+        "swid": "language-common",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -931,7 +948,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-goblin"
+        "swid": "language-goblin",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -974,7 +992,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-orc"
+        "swid": "language-orc",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -1042,7 +1061,8 @@
         "grants": [],
         "grantOn": 1,
         "toughness": 0,
-        "swid": "masterwork-studded-leather"
+        "swid": "masterwork-studded-leather",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 100000,
@@ -1139,7 +1159,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "axe-great",
-        "equipStatus": 5
+        "equipStatus": 5,
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [
         {
@@ -1263,7 +1285,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "bow-composite",
-        "equipStatus": 4
+        "equipStatus": 4,
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1416,7 +1440,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "effects": [],
       "sort": 100000,
@@ -1550,7 +1575,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "masterwork-arrows"
+        "swid": "masterwork-arrows",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 250000,
@@ -1611,7 +1637,8 @@
         },
         "messageOnUse": true,
         "destroyOnEmpty": true,
-        "subtype": "regular"
+        "subtype": "regular",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1672,7 +1699,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1731,7 +1759,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1794,7 +1823,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1857,7 +1887,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1921,7 +1952,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "letter-of-marque"
+        "swid": "letter-of-marque",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 500000,
@@ -1979,7 +2011,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "identification-papers"
+        "swid": "identification-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -2037,7 +2070,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "traveling-papers"
+        "swid": "traveling-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2089,7 +2123,8 @@
         ],
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "beast-master"
+        "swid": "beast-master",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 100000,
@@ -2144,7 +2179,8 @@
         "category": "Combat",
         "swid": "double-shot",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2215,7 +2251,8 @@
         "category": "Combat",
         "swid": "marksman",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2304,7 +2341,8 @@
           }
         ],
         "swid": "mystic-powers-ranger",
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [
         {
@@ -2418,7 +2456,8 @@
         "swid": "boostlower-trait",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2482,7 +2521,8 @@
         "swid": "beast-friend",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2561,7 +2601,8 @@
         "swid": "entangle",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2625,7 +2666,8 @@
         "swid": "farsight",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2737,7 +2779,8 @@
         "category": "Professional",
         "swid": "woodsman",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2762,10 +2805,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1700761050265,
-    "modifiedTime": 1705639989118,
+    "modifiedTime": 1709268078637,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "MxD7SpGj1xzF4ckX",

@@ -3,7 +3,7 @@
   "name": "House Cannith Magewright",
   "type": "npc",
   "_id": "ibbHwKlbWp2IWiah",
-  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_M_15.webp",
+  "img": "modules/swade-fantasy-companion/assets/pawns/FC_A16_Alchemist_Bien_Flores_Mitch_Mueller.webp",
   "system": {
     "attributes": {
       "agility": {
@@ -162,19 +162,20 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_M_15.webp",
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_alchemist_bien_flores_mitch_mueller.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "tint": null
     },
     "width": 1,
     "height": 1,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
-    "disposition": -1,
+    "disposition": 0,
     "displayBars": 0,
     "bar1": {
       "attribute": null
@@ -202,7 +203,8 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -212,7 +214,8 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
@@ -237,7 +240,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-common"
+        "swid": "language-common",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -280,7 +284,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-gnome"
+        "swid": "language-gnome",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -327,7 +332,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "academics"
+        "swid": "academics",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -371,7 +377,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "athletics"
+        "swid": "athletics",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -415,7 +422,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "common-knowledge"
+        "swid": "common-knowledge",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -456,7 +464,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "crafting"
+        "swid": "crafting",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -502,7 +511,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "notice"
+        "swid": "notice",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -546,7 +556,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "occult"
+        "swid": "occult",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -590,7 +601,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "persuasion"
+        "swid": "persuasion",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -634,7 +646,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "repair"
+        "swid": "repair",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -678,7 +691,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "stealth"
+        "swid": "stealth",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -730,7 +744,8 @@
         ],
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "craft-magic-items"
+        "swid": "craft-magic-items",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -823,7 +838,8 @@
         "category": "Professional",
         "favorite": false,
         "grants": [],
-        "swid": "mr-fix-it"
+        "swid": "mr-fix-it",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -885,7 +901,8 @@
             "combinator": "and"
           }
         ],
-        "swid": "magewright"
+        "swid": "magewright",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -932,7 +949,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "magecrafting"
+        "swid": "magecrafting",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -988,7 +1006,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "boost-trait"
+        "swid": "boost-trait",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1053,7 +1072,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "dispel"
+        "swid": "dispel",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1118,7 +1138,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "light"
+        "swid": "light",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1183,7 +1204,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "repairing"
+        "swid": "repairing",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1278,7 +1300,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "telekinesis"
+        "swid": "telekinesis",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1341,7 +1364,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "artificers-kit"
+        "swid": "artificers-kit",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1404,7 +1428,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "artisans-outfit"
+        "swid": "artisans-outfit",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1488,7 +1513,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "alchemists-fire"
+        "swid": "alchemists-fire",
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1552,7 +1579,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "tindertwig"
+        "swid": "tindertwig",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1616,7 +1644,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "identification-papers"
+        "swid": "identification-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -1667,7 +1696,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "human"
+        "swid": "human",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1713,7 +1743,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "adaptable"
+        "swid": "adaptable",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 100000,
@@ -1749,7 +1780,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "skilled"
+        "swid": "skilled",
+        "choiceSets": []
       },
       "effects": [],
       "ownership": {
@@ -1784,10 +1816,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1692761776332,
-    "modifiedTime": 1705639989118,
+    "modifiedTime": 1709268078637,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 100000,

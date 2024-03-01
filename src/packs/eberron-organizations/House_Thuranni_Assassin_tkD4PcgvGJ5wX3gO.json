@@ -1,7 +1,7 @@
 {
   "name": "House Thuranni Assassin",
   "type": "npc",
-  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_A_15.webp",
+  "img": "modules/swade-fantasy-companion/assets/pawns/FC_A21_Assassin_Bien_Flores_Adrian_Rodriguez.webp",
   "system": {
     "attributes": {
       "agility": {
@@ -154,18 +154,19 @@
     "wildcard": false
   },
   "prototypeToken": {
-    "name": "NPC",
+    "name": "House Thuranni Assassin",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_N_15.webp",
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_assassin_bien_flores_adrian_rodriguez.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "tint": null
     },
     "width": 1,
     "height": 1,
@@ -178,7 +179,7 @@
       "attribute": "stats.parry.value"
     },
     "bar2": {
-      "attribute": "toughness.total"
+      "attribute": null
     },
     "light": {
       "alpha": 0.5,
@@ -200,7 +201,8 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -268,7 +270,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "elf"
+        "swid": "elf",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -322,7 +325,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "agile"
+        "swid": "agile",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -401,7 +405,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "frail"
+        "swid": "frail",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -478,7 +483,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "keen-vision"
+        "swid": "keen-vision",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "RSLTAQckZnWQhzEX",
@@ -524,7 +530,8 @@
         "category": "Positive",
         "swid": "low-light-vision",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "folder": null,
       "ownership": {
@@ -556,7 +563,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "trance"
+        "swid": "trance",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "RSLTAQckZnWQhzEX",
@@ -607,7 +615,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "athletics"
+        "swid": "athletics",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -651,7 +660,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "common-knowledge"
+        "swid": "common-knowledge",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -695,7 +705,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "fighting"
+        "swid": "fighting",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -739,7 +750,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "intimidation"
+        "swid": "intimidation",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -783,7 +795,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "notice"
+        "swid": "notice",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -827,7 +840,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "performance"
+        "swid": "performance",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -871,7 +885,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "persuasion"
+        "swid": "persuasion",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -915,7 +930,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "shooting"
+        "swid": "shooting",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -959,7 +975,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "stealth"
+        "swid": "stealth",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1003,7 +1020,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "thievery"
+        "swid": "thievery",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1070,7 +1088,8 @@
         "category": "Professional",
         "swid": "assassin",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1157,7 +1176,8 @@
         "category": "Combat",
         "swid": "level-headed",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1221,7 +1241,8 @@
         "category": "Combat",
         "swid": "marksman",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1314,7 +1335,8 @@
           }
         ],
         "swid": "mystic-powers-rogue",
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [
         {
@@ -1428,7 +1450,8 @@
         "swid": "boostlower-trait",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1492,7 +1515,8 @@
         "swid": "lockunlock",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1556,7 +1580,8 @@
         "swid": "darksight",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1620,7 +1645,8 @@
         "swid": "wall-walker",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1677,7 +1703,8 @@
         "category": "Combat",
         "swid": "sneak-attack",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "effects": [
         {
@@ -1787,7 +1814,8 @@
         "grants": [],
         "grantOn": 1,
         "toughness": 0,
-        "swid": "masterwork-vambraces-or-gauntlets-arms"
+        "swid": "masterwork-vambraces-or-gauntlets-arms",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 262500,
@@ -2107,7 +2135,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "sword-long",
-        "equipStatus": 4
+        "equipStatus": 4,
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 150000,
@@ -2286,7 +2316,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "swid": "bow-long",
-        "equipStatus": 4
+        "equipStatus": 4,
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -2350,7 +2382,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "masterwork-arrows"
+        "swid": "masterwork-arrows",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 250000,
@@ -2412,7 +2445,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "masterwork-arrows"
+        "swid": "masterwork-arrows",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 250000,
@@ -2486,7 +2520,8 @@
         "category": "",
         "grants": [],
         "grantOn": 1,
-        "toughness": 0
+        "toughness": 0,
+        "choiceSets": []
       },
       "effects": [
         {
@@ -2586,7 +2621,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "sort": 0,
       "flags": {
@@ -2647,7 +2683,8 @@
         "category": "",
         "grants": [],
         "grantOn": 1,
-        "isAmmo": false
+        "isAmmo": false,
+        "choiceSets": []
       },
       "_id": "GgGFBhS4XSqNsh5J",
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-bronze.webp",
@@ -2708,7 +2745,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "traveling-papers"
+        "swid": "traveling-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2766,7 +2804,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "traveling-papers"
+        "swid": "traveling-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2824,7 +2863,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "identification-papers"
+        "swid": "identification-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -2882,7 +2922,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "identification-papers"
+        "swid": "identification-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -2939,7 +2980,8 @@
           "traitMod": "",
           "dmgMod": "",
           "additional": {}
-        }
+        },
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2976,10 +3018,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1693890215641,
-    "modifiedTime": 1705639989118,
+    "modifiedTime": 1709268078637,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "tkD4PcgvGJ5wX3gO",

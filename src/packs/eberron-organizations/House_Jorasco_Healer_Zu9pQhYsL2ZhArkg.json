@@ -163,20 +163,21 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "tint": null
     },
     "width": 1,
     "height": 1,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
-    "disposition": -1,
+    "disposition": 1,
     "displayBars": 0,
     "bar1": {
       "attribute": "stats.parry.value"
     },
     "bar2": {
-      "attribute": "toughness.total"
+      "attribute": null
     },
     "light": {
       "alpha": 0.5,
@@ -198,7 +199,8 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -238,7 +240,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "athletics"
+        "swid": "athletics",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -282,7 +285,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "common-knowledge"
+        "swid": "common-knowledge",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -326,7 +330,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "healing"
+        "swid": "healing",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -370,7 +375,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "notice"
+        "swid": "notice",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -414,7 +420,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "persuasion"
+        "swid": "persuasion",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -458,7 +465,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "stealth"
+        "swid": "stealth",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -498,7 +506,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-common"
+        "swid": "language-common",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -541,7 +550,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-halfling"
+        "swid": "language-halfling",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -585,7 +595,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-language-name"
+        "swid": "language-language-name",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "ktcv7W97mLQMloS8",
@@ -654,7 +665,8 @@
           }
         ],
         "favorite": false,
-        "swid": "alchemist"
+        "swid": "alchemist",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -708,7 +720,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "alchemy"
+        "swid": "alchemy",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -750,7 +763,9 @@
         "major": true,
         "favorite": false,
         "grants": [],
-        "swid": "material-components"
+        "swid": "material-components",
+        "choiceSets": [],
+        "severity": "either"
       },
       "effects": [],
       "sort": 0,
@@ -814,7 +829,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "healing"
+        "swid": "healing",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -879,7 +895,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "relief"
+        "swid": "relief",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -944,7 +961,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "favorite": false,
-        "swid": "slumber"
+        "swid": "slumber",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1005,7 +1023,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "potion-of-healing"
+        "swid": "potion-of-healing",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "bleP2Wt0N9W2v4A5",
@@ -1092,7 +1111,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "sickle"
+        "swid": "sickle",
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1177,7 +1198,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "equipStatus": 4,
-        "swid": "sling"
+        "swid": "sling",
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -1241,7 +1264,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "sling-stones"
+        "swid": "sling-stones",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1304,7 +1328,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "healers-kit"
+        "swid": "healers-kit",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1368,7 +1393,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "identification-papers"
+        "swid": "identification-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -1443,7 +1469,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "halfling"
+        "swid": "halfling",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1495,7 +1522,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "athletic"
+        "swid": "athletic",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -1575,7 +1603,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "brave"
+        "swid": "brave",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1619,7 +1648,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "lucky"
+        "swid": "lucky",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1654,7 +1684,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "size-1"
+        "swid": "size-1",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -1733,7 +1764,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "stealthy"
+        "swid": "stealthy",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -1812,7 +1844,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "reduced-pace"
+        "swid": "reduced-pace",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -1949,7 +1982,8 @@
         "category": "Background",
         "swid": "brave",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -2023,7 +2057,8 @@
         "category": "Background",
         "swid": "luck",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2047,10 +2082,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1668046440817,
-    "modifiedTime": 1705639989118,
+    "modifiedTime": 1709268078637,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 300000,

@@ -3,7 +3,7 @@
   "name": "Blood of Vol Priest",
   "type": "npc",
   "_id": "5l0SaRBXT8mht8dL",
-  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_B_15.webp",
+  "img": "modules/swade-fantasy-companion/assets/pawns/FC_4_Death_Priest_Vincenzo_Sirianni.webp",
   "system": {
     "attributes": {
       "agility": {
@@ -158,12 +158,13 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_B_15.webp",
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_death_priest_vincenzo_sirianni.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "tint": null
     },
     "width": 1,
     "height": 1,
@@ -198,7 +199,8 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -208,7 +210,8 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
@@ -249,7 +252,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "half-elf-elf-heritage"
+        "swid": "half-elf-elf-heritage",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -296,7 +300,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "heritage-elf"
+        "swid": "heritage-elf",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -368,7 +373,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "low-light-vision"
+        "swid": "low-light-vision",
+        "choiceSets": []
       },
       "effects": [],
       "ownership": {
@@ -411,7 +417,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "skilled"
+        "swid": "skilled",
+        "choiceSets": []
       },
       "effects": [
         {
@@ -540,7 +547,8 @@
           }
         ],
         "source": "Fantasy Companion",
-        "swid": "cleric"
+        "swid": "cleric",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -594,7 +602,9 @@
         "major": false,
         "grants": [],
         "source": "SWADE Core Rules",
-        "swid": "vow"
+        "swid": "vow",
+        "choiceSets": [],
+        "severity": "either"
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -627,7 +637,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Fantasy Companion",
-        "swid": "holy-symbol"
+        "swid": "holy-symbol",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -691,7 +702,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Fantasy Companion",
-        "swid": "healing"
+        "swid": "healing",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -755,7 +767,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Fantasy Companion",
-        "swid": "sanctuary"
+        "swid": "sanctuary",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -803,7 +816,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "athletics"
+        "swid": "athletics",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -846,7 +860,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "common-knowledge"
+        "swid": "common-knowledge",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -889,7 +904,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "faith"
+        "swid": "faith",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -932,7 +948,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "fighting"
+        "swid": "fighting",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -975,7 +992,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "notice"
+        "swid": "notice",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -1018,7 +1036,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "occult"
+        "swid": "occult",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -1061,7 +1080,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "persuasion"
+        "swid": "persuasion",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -1104,7 +1124,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "shooting"
+        "swid": "shooting",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -1147,7 +1168,8 @@
           "sides": 6
         },
         "source": "",
-        "swid": "stealth"
+        "swid": "stealth",
+        "choiceSets": []
       },
       "ownership": {
         "default": 0,
@@ -1208,7 +1230,8 @@
           }
         ],
         "source": "Fantasy Companion",
-        "swid": "destroy-undead"
+        "swid": "destroy-undead",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1278,7 +1301,8 @@
         "innate": true,
         "modifiers": [],
         "source": "Fantasy Companion",
-        "swid": "destroy-undead"
+        "swid": "destroy-undead",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1342,7 +1366,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Fantasy Companion",
-        "swid": "boostlower-trait"
+        "swid": "boostlower-trait",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1407,7 +1432,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "boostlower-trait-moment-of-prescience"
+        "swid": "boostlower-trait-moment-of-prescience",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1467,7 +1493,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Fantasy Companion",
-        "swid": "detectconceal-arcana"
+        "swid": "detectconceal-arcana",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1532,7 +1559,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Fantasy Companion",
-        "swid": "fear"
+        "swid": "fear",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1597,7 +1625,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Fantasy Companion",
-        "swid": "protection"
+        "swid": "protection",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1662,7 +1691,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Fantasy Companion",
-        "swid": "summon-undead"
+        "swid": "summon-undead",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1727,7 +1757,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Fantasy Companion",
-        "swid": "zombie"
+        "swid": "zombie",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1800,7 +1831,8 @@
           "legs": false
         },
         "source": "Fantasy Companion",
-        "swid": "masterwork-chain-shirt-torso-arms"
+        "swid": "masterwork-chain-shirt-torso-arms",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1866,7 +1898,8 @@
         "parry": 2,
         "cover": -2,
         "source": "Fantasy Companion",
-        "swid": "medium-typical-round-or-kite-shield"
+        "swid": "medium-typical-round-or-kite-shield",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1959,7 +1992,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "Fantasy Companion",
-        "swid": "1-fighting-scimitar"
+        "swid": "1-fighting-scimitar",
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [
         {
@@ -2094,7 +2129,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "Fantasy Companion",
-        "swid": "masterwork-targath-dagger"
+        "swid": "masterwork-targath-dagger",
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -2179,7 +2216,9 @@
         "trademark": 0,
         "isHeavyWeapon": false,
         "source": "Fantasy Companion",
-        "swid": "bow-short"
+        "swid": "bow-short",
+        "choiceSets": [],
+        "rangeType": null
       },
       "effects": [],
       "sort": 0,
@@ -2243,7 +2282,8 @@
         "grantOn": 1,
         "isAmmo": true,
         "source": "Fantasy Companion",
-        "swid": "arrows"
+        "swid": "arrows",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2307,7 +2347,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Eberron for Savage Worlds",
-        "swid": "identification-papers"
+        "swid": "identification-papers",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -2349,7 +2390,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-common"
+        "swid": "language-common",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -2392,7 +2434,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-elven"
+        "swid": "language-elven",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -2435,7 +2478,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-language-name"
+        "swid": "language-language-name",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -2478,7 +2522,8 @@
           "sides": 6
         },
         "source": "Eberron for Savage Worlds",
-        "swid": "language-language-name"
+        "swid": "language-language-name",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -2534,7 +2579,8 @@
           "dmgMod": "",
           "additional": {}
         },
-        "swid": "potion-of-healing"
+        "swid": "potion-of-healing",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -2590,7 +2636,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "",
-        "swid": "pouch"
+        "swid": "pouch",
+        "choiceSets": []
       },
       "_id": "ZolcjwSQ41f2ZH1Q",
       "img": "icons/containers/bags/coinpouch-leather-grey.webp",
@@ -2660,7 +2707,8 @@
           "legs": false
         },
         "source": "Fantasy Companion",
-        "swid": "clerics-vestments"
+        "swid": "clerics-vestments",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2727,7 +2775,8 @@
         "grantOn": 1,
         "isAmmo": false,
         "source": "Fantasy Companion",
-        "swid": "holy-symbol-silver-blood-of-vol"
+        "swid": "holy-symbol-silver-blood-of-vol",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2765,10 +2814,10 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1692124729083,
-    "modifiedTime": 1705639989118,
+    "modifiedTime": 1709268078637,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,
