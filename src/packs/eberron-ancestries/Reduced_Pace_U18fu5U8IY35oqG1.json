@@ -14,7 +14,43 @@
     "source": "Eberron for Savage Worlds",
     "swid": "reduced-pace"
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Reduced Pace",
+      "icon": "icons/skills/movement/figure-running-gray.webp",
+      "changes": [
+        {
+          "key": "system.stats.speed.value",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.stats.speed.runningDie",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "maEcJPnpc131go1w",
+      "disabled": false,
+      "duration": {
+        "startTime": 36,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "flags": {},
+      "_key": "!items.effects!U18fu5U8IY35oqG1.maEcJPnpc131go1w"
+    }
+  ],
   "folder": "aXo6xVVmiLyAK44L",
   "ownership": {
     "default": 0,
@@ -31,11 +67,11 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1668895717346,
-    "modifiedTime": 1700890169381,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1709267167280,
+    "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "U18fu5U8IY35oqG1",
   "sort": 150000,
