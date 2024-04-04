@@ -297,7 +297,8 @@
           }
         ],
         "subtype": "ancestry",
-        "grantsPowers": false
+        "grantsPowers": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 200000,
@@ -365,7 +366,8 @@
         "category": "Background",
         "swid": "arcane-resistance",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -410,7 +412,8 @@
         "category": "Quori Abilities",
         "grants": [],
         "subtype": "special",
-        "grantsPowers": false
+        "grantsPowers": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 300000,
@@ -444,7 +447,8 @@
         "category": "Positive",
         "swid": "environmental-resistance",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "folder": "HNWyBFZb7CyIQ477",
       "ownership": {
@@ -481,7 +485,8 @@
         "category": "Positive",
         "swid": "environmental-resistance",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "folder": "HNWyBFZb7CyIQ477",
       "ownership": {
@@ -518,7 +523,8 @@
         "category": "Quori Abilities",
         "swid": "environmental-resistance",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "folder": "HNWyBFZb7CyIQ477",
       "ownership": {
@@ -558,7 +564,8 @@
         "category": "Special Ability",
         "swid": "fearless",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -592,7 +599,8 @@
         "category": "",
         "grants": [],
         "subtype": "special",
-        "grantsPowers": false
+        "grantsPowers": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -659,7 +667,8 @@
               }
             }
           }
-        ]
+        ],
+        "choiceSets": []
       },
       "effects": [],
       "flags": {
@@ -712,7 +721,8 @@
         "category": "Quori Abilities",
         "grants": [],
         "subtype": "special",
-        "grantsPowers": false
+        "grantsPowers": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -747,7 +757,8 @@
         "category": "",
         "grants": [],
         "subtype": "special",
-        "grantsPowers": false
+        "grantsPowers": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -805,7 +816,8 @@
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
         "ap": 0,
-        "innate": false
+        "innate": false,
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -863,7 +875,8 @@
         "swid": "protection",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -935,7 +948,8 @@
         "swid": "teleport",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -977,7 +991,8 @@
         "category": "",
         "grants": [],
         "subtype": "special",
-        "grantsPowers": false
+        "grantsPowers": false,
+        "choiceSets": []
       },
       "_id": "Tf73ihRV8uEJHOrj",
       "img": "systems/swade/assets/icons/ability.svg",
@@ -1092,7 +1107,9 @@
         "reloadType": "none",
         "ppReloadCost": 2,
         "trademark": 0,
-        "isHeavyWeapon": false
+        "isHeavyWeapon": false,
+        "choiceSets": [],
+        "rangeType": null
       },
       "_id": "YVoce0euaOnJKN4i",
       "img": "systems/swade/assets/icons/weapon.svg",
@@ -1183,7 +1200,9 @@
         "reloadType": "none",
         "ppReloadCost": 2,
         "trademark": 0,
-        "isHeavyWeapon": false
+        "isHeavyWeapon": false,
+        "choiceSets": [],
+        "rangeType": null
       },
       "_id": "dhTVQp8Whn7F7VVT",
       "img": "systems/swade/assets/icons/weapon.svg",
@@ -1236,7 +1255,8 @@
         "category": "Background",
         "swid": "ambidextrous",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1308,7 +1328,8 @@
           }
         ],
         "source": "Eberron for Savage Worlds",
-        "swid": "psion"
+        "swid": "psion",
+        "choiceSets": []
       },
       "effects": [],
       "folder": "yhaG3t6RuulkN2AF",
@@ -1376,7 +1397,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "psionics"
+        "swid": "psionics",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1410,7 +1432,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "psychic-surge"
+        "swid": "psychic-surge",
+        "choiceSets": []
       },
       "effects": [],
       "sort": -100000,
@@ -1445,7 +1468,8 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "psychic-enervation"
+        "swid": "psychic-enervation",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1538,7 +1562,8 @@
         "category": "Power",
         "swid": "mentalist",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1593,7 +1618,8 @@
         ],
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "planar-mastery"
+        "swid": "planar-mastery",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1681,7 +1707,8 @@
         "category": "Background",
         "swid": "quick",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -1735,7 +1762,8 @@
         ],
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "two-fisted"
+        "swid": "two-fisted",
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1797,7 +1825,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "boostlower-trait"
+        "swid": "boostlower-trait",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -1879,7 +1908,8 @@
         "swid": "fear",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -1944,7 +1974,8 @@
         "swid": "mind-link",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2009,7 +2040,8 @@
         "swid": "disguise",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2087,7 +2119,8 @@
         "swid": "puppet",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2152,7 +2185,8 @@
         "swid": "protection",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2217,7 +2251,8 @@
         "innate": false,
         "modifiers": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "teleport"
+        "swid": "teleport",
+        "choiceSets": []
       },
       "effects": [],
       "folder": null,
@@ -2312,7 +2347,8 @@
         "swid": "telekinesis",
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
-        "favorite": false
+        "favorite": false,
+        "choiceSets": []
       },
       "effects": [],
       "sort": 0,
@@ -2363,7 +2399,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "athletics"
+        "swid": "athletics",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2407,7 +2444,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "common-knowledge"
+        "swid": "common-knowledge",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2451,7 +2489,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "fighting"
+        "swid": "fighting",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2495,7 +2534,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "intimidation"
+        "swid": "intimidation",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2539,7 +2579,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "notice"
+        "swid": "notice",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2583,7 +2624,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "occult"
+        "swid": "occult",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2627,7 +2669,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "persuasion"
+        "swid": "persuasion",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2671,7 +2714,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "stealth"
+        "swid": "stealth",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2715,7 +2759,8 @@
         "wild-die": {
           "sides": 6
         },
-        "swid": "survival"
+        "swid": "survival",
+        "choiceSets": []
       },
       "ownership": {
         "7ntJSLixH2Phv2jV": 3,
@@ -2790,7 +2835,8 @@
         "category": "",
         "swid": "armor",
         "favorite": false,
-        "grants": []
+        "grants": [],
+        "choiceSets": []
       },
       "folder": null,
       "ownership": {
@@ -2828,7 +2874,8 @@
         "category": "",
         "grants": [],
         "subtype": "special",
-        "grantsPowers": false
+        "grantsPowers": false,
+        "choiceSets": []
       },
       "_id": "Supi4t40KpYuawWX",
       "img": "systems/swade/assets/icons/ability.svg",
@@ -2856,13 +2903,15 @@
     }
   ],
   "effects": [],
-  "flags": {},
+  "flags": {
+    "core": {}
+  },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1702937562326,
-    "modifiedTime": 1705639978066,
+    "modifiedTime": 1712203669944,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,
