@@ -1,0 +1,36 @@
+{
+  "folder": "ECEMzex66NcYtYJF",
+  "name": "Environmental Weakness (Targath)",
+  "type": "ability",
+  "_id": "DiNLOt4b8pNJ9Rqp",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "<p><strong>Environmental Weakness:</strong> Targath.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "environmental-weakness-targath",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Deathless Abilities",
+    "grants": [],
+    "choiceSets": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.3-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1712200780216,
+    "modifiedTime": 1712200910438,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!DiNLOt4b8pNJ9Rqp"
+}

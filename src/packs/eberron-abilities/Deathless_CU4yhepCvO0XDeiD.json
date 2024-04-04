@@ -1,0 +1,42 @@
+{
+  "folder": "ECEMzex66NcYtYJF",
+  "name": "Deathless",
+  "type": "ability",
+  "_id": "CU4yhepCvO0XDeiD",
+  "img": "icons/magic/death/skull-flames-white-blue.webp",
+  "system": {
+    "description": "<p>Deathless benefit from the same characteristics as undead (see <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06bestiary000000#special-abilities]{Special Abilities}</strong> in <em>Savage Worlds</em>). The energy used to create and heal deathless is positive energy instead of negative energy. They are affected by negative energy just as living creatures are. Deathless are vulnerable to weapons made of targath which inflict an additional +4 damage to deathless beings.</p>",
+    "notes": "",
+    "source": "",
+    "swid": "deathless",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "",
+    "grants": [
+      {
+        "name": "Environmental Weakness (Targath)",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+        "uuid": "Compendium.savage-eberron.eberron-abilities.Item.DiNLOt4b8pNJ9Rqp"
+      }
+    ],
+    "choiceSets": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.3-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1712198920367,
+    "modifiedTime": 1712200964130,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!CU4yhepCvO0XDeiD"
+}
