@@ -1,0 +1,55 @@
+{
+  "folder": "ECEMzex66NcYtYJF",
+  "name": "Knockback Damage",
+  "type": "action",
+  "_id": "wtAdnOZFCQYkiyFH",
+  "img": "systems/swade/assets/icons/action.svg",
+  "system": {
+    "description": "<p>Successful attack causes the target to fly backwards [[/r 1d4]]”, plus [[/r 1d4]]” for each raise on the attack roll, and an additional +[[/r 1d6x]] damage if it hits a large solid object.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "knockback",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Actions",
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "+1d6x",
+      "additional": {
+        "nP9ti9jj": {
+          "name": "Knockback Damage",
+          "type": "damage",
+          "override": "1d6x",
+          "modifier": "",
+          "dice": null,
+          "resourcesUsed": null
+        }
+      }
+    },
+    "choiceSets": []
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.3-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1712542037727,
+    "modifiedTime": 1712542689787,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!wtAdnOZFCQYkiyFH"
+}

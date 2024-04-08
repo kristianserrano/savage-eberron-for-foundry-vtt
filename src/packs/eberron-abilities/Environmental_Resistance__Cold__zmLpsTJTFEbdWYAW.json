@@ -4,18 +4,18 @@
   "name": "Environmental Resistance (Cold)",
   "type": "ability",
   "system": {
-    "source": "SWADE Core Rules",
+    "source": "Eberron for Savage Worlds",
     "additionalStats": {},
     "description": "<p><strong>Environmental Resistance (Cold):</strong> +4 resistance / −4 damage from cold or ice-based effects.</p>",
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",
-    "category": "Positive",
+    "category": "Special Abilities",
     "swid": "environmental-resistance",
     "favorite": false,
     "grants": []
   },
-  "folder": "HNWyBFZb7CyIQ477",
+  "folder": "ECEMzex66NcYtYJF",
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3
@@ -25,13 +25,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1700809448817,
-    "modifiedTime": 1702874169971,
+    "modifiedTime": 1712542333842,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "zmLpsTJTFEbdWYAW",
-  "sort": 200000,
+  "sort": 800000,
   "_key": "!items!zmLpsTJTFEbdWYAW"
 }
