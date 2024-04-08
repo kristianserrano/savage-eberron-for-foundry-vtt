@@ -10,12 +10,12 @@
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",
-    "category": "Quori Abilities",
+    "category": "Special Abilities",
     "swid": "environmental-resistance",
     "favorite": false,
     "grants": []
   },
-  "folder": "HNWyBFZb7CyIQ477",
+  "folder": "ECEMzex66NcYtYJF",
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3
@@ -25,13 +25,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
+    "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1700809448817,
-    "modifiedTime": 1702874175670,
+    "modifiedTime": 1712542333842,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "6iw5lef96WxAvWQa",
-  "sort": 300000,
+  "sort": 600000,
   "_key": "!items!6iw5lef96WxAvWQa"
 }
