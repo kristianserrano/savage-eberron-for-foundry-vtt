@@ -1,0 +1,1359 @@
+{
+  "name": "Carcass Crab",
+  "type": "npc",
+  "_id": "WoFPkZPiB63jpm3L",
+  "img": "modules/swade-fantasy-companion/assets/pawns/FC_8_Giant_Crab_Vincenzo_Sirianni.webp",
+  "system": {
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": true
+      },
+      "spirit": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unShakeBonus": 0
+      },
+      "strength": {
+        "die": {
+          "sides": 18,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": 14,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unStunBonus": 0,
+        "soakBonus": 0,
+        "bleedOut": {
+          "modifier": 0,
+          "ignoreWounds": false
+        }
+      }
+    },
+    "stats": {
+      "speed": {
+        "runningDie": 6,
+        "runningMod": 0,
+        "value": 6
+      },
+      "toughness": {
+        "value": 0,
+        "armor": 0,
+        "modifier": 0
+      },
+      "parry": {
+        "value": 0,
+        "shield": 0,
+        "modifier": 0
+      },
+      "size": 0
+    },
+    "details": {
+      "autoCalcToughness": true,
+      "autoCalcParry": true,
+      "archetype": "",
+      "appearance": "",
+      "notes": "",
+      "goals": "",
+      "biography": {
+        "value": ""
+      },
+      "species": {
+        "name": ""
+      },
+      "currency": 0,
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      },
+      "conviction": {
+        "value": 0,
+        "active": false
+      }
+    },
+    "powerPoints": {
+      "general": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "fatigue": {
+      "value": 0,
+      "max": 2,
+      "ignored": 0
+    },
+    "woundsOrFatigue": {
+      "ignored": 0
+    },
+    "advances": {
+      "mode": "expanded",
+      "value": 0,
+      "rank": "Novice",
+      "details": "",
+      "list": []
+    },
+    "status": {
+      "isShaken": false,
+      "isDistracted": false,
+      "isVulnerable": false,
+      "isStunned": false,
+      "isEntangled": false,
+      "isBound": false,
+      "isIncapacitated": false
+    },
+    "initiative": {
+      "hasHesitant": false,
+      "hasLevelHeaded": false,
+      "hasImpLevelHeaded": false,
+      "hasQuick": false
+    },
+    "additionalStats": {},
+    "bennies": {
+      "value": 0,
+      "max": 2
+    },
+    "wounds": {
+      "value": 0,
+      "max": 0,
+      "ignored": 0
+    },
+    "wildcard": false
+  },
+  "prototypeToken": {
+    "name": "Carcass Crab",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_giant_crab_vincenzo_sirianni.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 3,
+    "height": 3,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stats.parry.value"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "HGFebyTDthCOtpwS",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/jump-across.svg",
+      "name": "Athletics",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Athletics combines an individual’s coordin­ation with learned skills such as climbing, jumping, balancing, biking, wrestling, skiing, swimming, throwing, or catching. Characters who rely on physical power more than coordination can take the @Compendium[swade-core-rules.swade-edges.Brute]{Brute} Edge to link this skill to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} instead of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility}.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 4
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "athletics",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.qc2GOKFIXIJEpTw1"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712528653503,
+        "modifiedTime": 1712528653503,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.HGFebyTDthCOtpwS"
+    },
+    {
+      "_id": "QdNTUPlZ2KOdav5l",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/punch.svg",
+      "name": "Fighting",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Fighting covers all hand-to-hand (melee) attacks, whether it’s with fists, axes, laser swords, or martial arts. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{Chapter Three} for the combat rules and the various maneuvers a warrior might attempt.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 10
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "fighting",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712528665128,
+        "modifiedTime": 1712528665128,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.QdNTUPlZ2KOdav5l"
+    },
+    {
+      "_id": "nrw9SbHZLvp85w6q",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/psychic-waves.svg",
+      "name": "Notice",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\">\n<p>Notice is a hero’s general awareness and alertness. It’s used to sense sights, sounds, tastes, and smells, spot clues, detect ambushes, spot hidden weapons on a foe, or tell if a rival is lying, frightened, happy, etc.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} conveys basic information—the character hears movement in the forest, smells distant smoke, or senses someone isn’t being completely truthful.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise} grants more detail, such as the direction of a sound or odor or what topic a person is avoiding or lying about.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 8
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "notice",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.Y0545TlaAqRRE2P0"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712528679602,
+        "modifiedTime": 1712528679602,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.nrw9SbHZLvp85w6q"
+    },
+    {
+      "_id": "ABewwVrktDc4Aaju",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/crosshair.svg",
+      "name": "Shooting",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Shooting covers all attempts to hit a target with a ranged weapon such as a bow, pistol, or rocket launcher (thrown weapons use @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics}). See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{Chapter Three} for details on ranged combat.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 4
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "shooting",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.UOYD9aoLPoTZamDS"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712528687311,
+        "modifiedTime": 1712528687311,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.ABewwVrktDc4Aaju"
+    },
+    {
+      "_id": "mQwVwOo7RhFCXgCm",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/hidden.svg",
+      "name": "Stealth",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Stealth is the ability to hide and move quietly. A simple @Compendium[swade-core-rules.swade-rules.Trait Rolls]{success} on a Stealth roll means the character avoids detection if enemies aren’t particularly alert. If the character @Compendium[swade-core-rules.swade-rules.Trait Rolls]{fails} the roll, the enemy realizes something is amiss and begins actively searching for whatever roused them.</p>\n<p>Once foes are alerted and active, Stealth is opposed by @Compendium[swade-core-rules.swade-skills.Notice]{Notice} (a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{group roll} if there are many foes.</p>\n<p>The GM should apply any circumstantial penalties to @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls for @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{darkness}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{cover}, noise, distractions, and any difference in the target’s @Compendium[swade-core-rules.swade-rules.Size and Scale]{Scale} (just like when attacking). Sneaking through dry leaves might subtract 2 from the Stealth roll, for example, while spotting someone in the dark uses the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} penalty (−4). Don’t apply the same modifier to both rolls, however. If Stealth is at −2 for the leaves, don’t give Notice a +2 for them as well.</p>\n<p><strong>Sneak Attack: </strong> Sneaking up close enough to make a melee attack <em>always</em> requires an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed} Stealth roll versus the target’s @Compendium[swade-core-rules.swade-skills.Notice]{Notice}, whether the guard is actively looking for trouble or not. If successful, the victim is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{Vulnerable} to the attacker, but only until the attacker’s turn ends. With a raise, the attacker has @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{The Drop} instead.</p>\n<p><strong>Movement:</strong> In combat, characters roll Stealth each turn as a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free action} at the end of their move or any action the GM thinks might draw attention.</p>\n<p>Out of combat, the distance moved depends entirely on the situation. The GM might want a roll every minute if the group is sneaking around the perimeter of a defensive position, or every few miles if they’re trying to quietly walk the path through a dark forest without alerting the creatures that live there.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 4
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "stealth",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712528692185,
+        "modifiedTime": 1712528692185,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.mQwVwOo7RhFCXgCm"
+    },
+    {
+      "name": "Armor +2",
+      "type": "ability",
+      "system": {
+        "description": "<p><strong>Armor +2:</strong> Naturally adhesive shell covered with weapons, armor, and even corpses.</p>",
+        "notes": "",
+        "source": "",
+        "swid": "new-ability",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "choiceSets": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "_id": "nwJoREz69E6W43XB",
+      "img": "systems/swade/assets/icons/ability.svg",
+      "effects": [
+        {
+          "name": "Armor +2",
+          "icon": "systems/swade/assets/icons/ability.svg",
+          "changes": [
+            {
+              "key": "system.stats.toughness.armor",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "2hcBESIrhT4spusG",
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "flags": {},
+          "_key": "!actors.items.effects!WoFPkZPiB63jpm3L.nwJoREz69E6W43XB.2hcBESIrhT4spusG"
+        }
+      ],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712528791327,
+        "modifiedTime": 1712543195126,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.nwJoREz69E6W43XB"
+    },
+    {
+      "name": "Camouflage",
+      "type": "ability",
+      "system": {
+        "description": "<p><strong>Camouflage:</strong> When hiding among corpses and debris, a carcass crab gains a +4 bonus to its @UUID[Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si]{Stealth} rolls.</p>",
+        "notes": "",
+        "source": "",
+        "swid": "new-ability",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "choiceSets": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "_id": "Fr5Z5PEqXXCf3LYZ",
+      "img": "systems/swade/assets/icons/ability.svg",
+      "effects": [
+        {
+          "name": "Camouflage",
+          "icon": "systems/swade/assets/icons/ability.svg",
+          "changes": [
+            {
+              "key": "@Skill{Stealth}[system.die.modifier]",
+              "mode": 2,
+              "value": "4",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "JUdOkXfujRdlDE3m",
+          "disabled": true,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>When hiding among corpses and debris, a carcass crab gains a +4 bonus to its Stealth rolls.</p>",
+          "origin": null,
+          "statuses": [],
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false,
+              "favorite": true
+            }
+          },
+          "tint": null,
+          "_key": "!actors.items.effects!WoFPkZPiB63jpm3L.Fr5Z5PEqXXCf3LYZ.JUdOkXfujRdlDE3m"
+        }
+      ],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        },
+        "core": {
+          "sourceId": "Actor.WoFPkZPiB63jpm3L.Item.Fr5Z5PEqXXCf3LYZ"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712528847927,
+        "modifiedTime": 1712543195126,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.Fr5Z5PEqXXCf3LYZ"
+    },
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "system": {
+        "equipStatus": 4,
+        "description": "",
+        "notes": "",
+        "source": "",
+        "swid": "claws",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "equippable": false,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "trait": "Fighting",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false,
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "choiceSets": [],
+        "damage": "@str+2d6",
+        "range": "",
+        "rangeType": 0,
+        "rof": 1,
+        "ap": 0,
+        "parry": 0,
+        "minStr": "",
+        "shots": 0,
+        "currentShots": 0,
+        "ammo": "",
+        "reloadType": "none",
+        "ppReloadCost": 2,
+        "trademark": 0,
+        "isHeavyWeapon": false
+      },
+      "_id": "MzzF2fm74zm60fob",
+      "img": "systems/swade/assets/icons/weapon.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712529114914,
+        "modifiedTime": 1712529136007,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.MzzF2fm74zm60fob"
+    },
+    {
+      "name": "Bite (while grappling only)",
+      "type": "weapon",
+      "system": {
+        "equipStatus": 4,
+        "description": "",
+        "notes": "",
+        "source": "",
+        "swid": "bite-while-grappling-only",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "equippable": false,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "trait": "Fighting",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false,
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "choiceSets": [],
+        "damage": "1d4",
+        "range": "",
+        "rangeType": 0,
+        "rof": 1,
+        "ap": 0,
+        "parry": 0,
+        "minStr": "",
+        "shots": 0,
+        "currentShots": 0,
+        "ammo": "",
+        "reloadType": "none",
+        "ppReloadCost": 2,
+        "trademark": 0,
+        "isHeavyWeapon": false
+      },
+      "_id": "bg4ipcbAYxIodrjC",
+      "img": "systems/swade/assets/icons/weapon.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712540054030,
+        "modifiedTime": 1712540084003,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.bg4ipcbAYxIodrjC"
+    },
+    {
+      "name": "Barb",
+      "type": "weapon",
+      "system": {
+        "equipStatus": 4,
+        "description": "",
+        "notes": "",
+        "source": "",
+        "swid": "barb",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "equippable": false,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "trait": "Shooting",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false,
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "choiceSets": [],
+        "damage": "1d4",
+        "range": "3/6/12",
+        "rangeType": 1,
+        "rof": 1,
+        "ap": 0,
+        "parry": 0,
+        "minStr": "",
+        "shots": 0,
+        "currentShots": 0,
+        "ammo": "",
+        "reloadType": "none",
+        "ppReloadCost": 2,
+        "trademark": 0,
+        "isHeavyWeapon": false
+      },
+      "_id": "8qX3KhkMZEKQ1eTj",
+      "img": "systems/swade/assets/icons/weapon.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712540098658,
+        "modifiedTime": 1712540124174,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.8qX3KhkMZEKQ1eTj"
+    },
+    {
+      "_id": "vq2CESXD3irkO7YM",
+      "name": "Dark Vision",
+      "type": "ability",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "category": "New Ancestral Abilities",
+        "description": "<article class=\"swadefc\"><p><strong>Dark Vision (1):</strong> The species can see in the dark  a short distance, ignoring all illumination penalties and up to 2 points of penalties from <em>invisibility</em>  or similar powers within 10\" (20 yards) distant.</p></article>",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": false,
+        "swid": "dark-vision",
+        "grants": [],
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 250000,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712541775975,
+        "modifiedTime": 1712543198238,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.vq2CESXD3irkO7YM"
+    },
+    {
+      "name": "Spiny Defense",
+      "type": "ability",
+      "system": {
+        "description": "<p>A creature that makes a successful @UUID[Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI]{Fighting} roll with natural weapons against a carcass crab takes [[/r 1d6x]] damage from the spears, swords, and other sharp weapons adhering to its shell.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "new-ability",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Special Abilities",
+        "grants": [],
+        "choiceSets": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "_id": "QvT16YLdcHHDUyea",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712542522901,
+        "modifiedTime": 1712543195126,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.QvT16YLdcHHDUyea"
+    },
+    {
+      "name": "Knockback",
+      "type": "ability",
+      "system": {
+        "description": "<p><strong>Knockback:</strong> Successful attack causes the target to fly backwards [[/r 1d4]]”, plus [[/r 1d4]]” for each raise on the attack roll, and an additional +[[/r 1d6x]] damage if it hits a large solid object.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "new-ability",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Special Abilities",
+        "grants": [
+          {
+            "name": "Knockback",
+            "img": "systems/swade/assets/icons/action.svg",
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.wtAdnOZFCQYkiyFH",
+            "mutation": {}
+          }
+        ],
+        "choiceSets": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "effects": [],
+      "folder": "ECEMzex66NcYtYJF",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": [
+            "EQO6zpP6kxHkWrmF"
+          ]
+        },
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.gqE6i9uSd5OEgJj2"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712541868070,
+        "modifiedTime": 1712543195126,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "2nx1HWaGMd9S3lCu",
+      "sort": 300000,
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.2nx1HWaGMd9S3lCu"
+    },
+    {
+      "folder": "ECEMzex66NcYtYJF",
+      "name": "Knockback Damage",
+      "type": "action",
+      "_id": "EQO6zpP6kxHkWrmF",
+      "img": "systems/swade/assets/icons/action.svg",
+      "system": {
+        "description": "<p>Successful attack causes the target to fly backwards [[/r 1d4]]”, plus [[/r 1d4]]” for each raise on the attack roll, and an additional +[[/r 1d6x]] damage if it hits a large solid object.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "knockback",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Actions",
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "+1d6x",
+          "additional": {
+            "nP9ti9jj": {
+              "name": "Knockback Damage",
+              "type": "damage",
+              "dice": null,
+              "resourcesUsed": null,
+              "modifier": "",
+              "override": "1d6x",
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          }
+        },
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.wtAdnOZFCQYkiyFH"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712542037727,
+        "modifiedTime": 1712542705577,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.EQO6zpP6kxHkWrmF"
+    },
+    {
+      "name": "Spiny Defense Action",
+      "type": "action",
+      "system": {
+        "description": "",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "new-action",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Actions",
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {
+            "TNpg9ApR": {
+              "name": "Spiney Defense Damage",
+              "type": "damage",
+              "dice": null,
+              "resourcesUsed": null,
+              "modifier": "",
+              "override": "1d6",
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          }
+        },
+        "choiceSets": []
+      },
+      "_id": "vOrRvCCm9UbrHeIo",
+      "img": "systems/swade/assets/icons/action.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.WoFPkZPiB63jpm3L.Item.vOrRvCCm9UbrHeIo"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712542733033,
+        "modifiedTime": 1712542794273,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.vOrRvCCm9UbrHeIo"
+    },
+    {
+      "_id": "MgF2ngugUkCyhAv7",
+      "effects": [],
+      "folder": null,
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "name": "Poison",
+      "sort": 400000,
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<p>If a target suffers a wound from a barb, the barb injects @UUID[Compendium.swade-core-rules.swade-macros.Macro.MMdRMc5G3ryYwnSo]{Mild poison} (see @UUID[Compendium.swade-core-rules.swade-specialabilities.Item.Dv2xM8QDR4uEJKCe]{Poison} in <em>Savage Worlds</em>).</p>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Special Ability",
+        "swid": "poison",
+        "grants": [
+          {
+            "name": "Poison",
+            "img": "systems/swade/assets/icons/action.svg",
+            "uuid": "Compendium.swade-core-rules.swade-actions.Item.4VtFDcpmEHGeyyaf",
+            "mutation": {}
+          }
+        ],
+        "favorite": false,
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-specialabilities.Item.Dv2xM8QDR4uEJKCe"
+        },
+        "swade": {
+          "hasGranted": [
+            "ZPlCrCIpCGVNE5nI"
+          ]
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712543107281,
+        "modifiedTime": 1712543651812,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.MgF2ngugUkCyhAv7"
+    },
+    {
+      "_id": "ZPlCrCIpCGVNE5nI",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/action.svg",
+      "name": "Poison",
+      "sort": 450000,
+      "type": "action",
+      "system": {
+        "swid": "poison",
+        "source": "SWADE Core Rules",
+        "category": "Special Ability Actions",
+        "additionalStats": {},
+        "description": "<p>If a target suffers a wound from a barb, the barb injects @UUID[Compendium.swade-core-rules.swade-macros.Macro.MMdRMc5G3ryYwnSo]{Mild poison} (see @UUID[Compendium.swade-core-rules.swade-specialabilities.Item.Dv2xM8QDR4uEJKCe]{Poison} in <em>Savage Worlds</em>).</p>",
+        "notes": "",
+        "actions": {
+          "additional": {
+            "resist": {
+              "type": "resist",
+              "name": "Resist (Vigor)",
+              "override": "Vigor",
+              "modifier": "",
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            },
+            "mild": {
+              "type": "macro",
+              "name": "Mild Poison",
+              "uuid": "Compendium.swade-core-rules.swade-macros.Macro.MMdRMc5G3ryYwnSo",
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          },
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": ""
+        },
+        "templates": {
+          "cone": false,
+          "small": false,
+          "medium": false,
+          "large": false,
+          "stream": false
+        },
+        "favorite": false,
+        "choiceSets": []
+      },
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-actions.Item.4VtFDcpmEHGeyyaf"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712543188319,
+        "modifiedTime": 1712543598209,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.ZPlCrCIpCGVNE5nI"
+    },
+    {
+      "_id": "VXprptX1b2Vy1EMc",
+      "effects": [
+        {
+          "name": "Size 8",
+          "icon": "systems/swade/assets/icons/ability.svg",
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "changes": [
+            {
+              "key": "system.stats.size",
+              "mode": 5,
+              "value": "8",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "84dnjLGZ79flRlOw",
+          "disabled": false,
+          "description": "<p>Carcass crabs have a Toughness modifier +8 and a Scale modifier of +4.</p>",
+          "origin": null,
+          "statuses": [],
+          "tint": null,
+          "_key": "!actors.items.effects!WoFPkZPiB63jpm3L.VXprptX1b2Vy1EMc.84dnjLGZ79flRlOw"
+        },
+        {
+          "name": "Huge",
+          "icon": "systems/swade/assets/icons/ability.svg",
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null
+            }
+          },
+          "changes": [
+            {
+              "key": "system.wounds.max",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "ffFAOQlQpKTdGfAr",
+          "disabled": false,
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "_key": "!actors.items.effects!WoFPkZPiB63jpm3L.VXprptX1b2Vy1EMc.ffFAOQlQpKTdGfAr"
+        }
+      ],
+      "img": "systems/swade/assets/icons/ability.svg",
+      "name": "Size 8",
+      "sort": 450000,
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Size +1]{Size +1} +1 (3): </span> The creature is larger than normal. Each point of @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{Size} adds directly to Toughness and increases maximum Strength one step. Large species may have difficulty using equipment designed for more traditional humanoids. See Size and Scale and the @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06sizetable00000]{Size Table}.</article>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Special Abilities",
+        "swid": "size-plus-1",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-racial-abilities.Item.SIZEaFXsFJvZsIwc"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712543645274,
+        "modifiedTime": 1712543785728,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!WoFPkZPiB63jpm3L.VXprptX1b2Vy1EMc"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        }
+      }
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.3-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1712528518762,
+    "modifiedTime": 1712544296142,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!actors!WoFPkZPiB63jpm3L"
+}
