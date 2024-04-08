@@ -1,0 +1,47 @@
+{
+  "name": "Knockback",
+  "type": "ability",
+  "system": {
+    "description": "<p><strong>Knockback:</strong> Successful attack causes the target to fly backwards [[/r 1d4]]”, plus [[/r 1d4]]” for each raise on the attack roll, and an additional +[[/r 1d6x]] damage if it hits a large solid object.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "new-ability",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Special Abilities",
+    "grants": [
+      {
+        "name": "Knockback",
+        "img": "systems/swade/assets/icons/action.svg",
+        "uuid": "Compendium.savage-eberron.eberron-abilities.Item.wtAdnOZFCQYkiyFH"
+      }
+    ],
+    "choiceSets": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "effects": [],
+  "folder": "ECEMzex66NcYtYJF",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "swade": {
+      "hasGranted": []
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.3-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1712541868070,
+    "modifiedTime": 1712542404149,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "gqE6i9uSd5OEgJj2",
+  "sort": 200000,
+  "_key": "!items!gqE6i9uSd5OEgJj2"
+}
