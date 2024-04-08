@@ -8,7 +8,7 @@
     "attributes": {
       "agility": {
         "die": {
-          "sides": 4,
+          "sides": 10,
           "modifier": 0
         },
         "wild-die": {
@@ -17,7 +17,7 @@
       },
       "smarts": {
         "die": {
-          "sides": 4,
+          "sides": 16,
           "modifier": 0
         },
         "wild-die": {
@@ -27,7 +27,7 @@
       },
       "spirit": {
         "die": {
-          "sides": 4,
+          "sides": 18,
           "modifier": 0
         },
         "wild-die": {
@@ -37,7 +37,7 @@
       },
       "strength": {
         "die": {
-          "sides": 4,
+          "sides": 20,
           "modifier": 0
         },
         "wild-die": {
@@ -47,7 +47,7 @@
       },
       "vigor": {
         "die": {
-          "sides": 4,
+          "sides": 16,
           "modifier": 0
         },
         "wild-die": {
@@ -272,7 +272,7 @@
         }
       ],
       "folder": null,
-      "sort": 0,
+      "sort": 100000,
       "ownership": {
         "default": 0,
         "Xbne19Xghka479we": 3
@@ -287,7 +287,7 @@
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
         "createdTime": 1712198668608,
-        "modifiedTime": 1712198801170,
+        "modifiedTime": 1712526737503,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!nFpvWGSVB0nnR8ZW.11y78ZGwRNhA4uPn"
@@ -354,7 +354,7 @@
         }
       ],
       "folder": null,
-      "sort": 0,
+      "sort": 200000,
       "ownership": {
         "default": 0,
         "Xbne19Xghka479we": 3
@@ -369,150 +369,10 @@
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
         "createdTime": 1712198808945,
-        "modifiedTime": 1712202127628,
+        "modifiedTime": 1712526737503,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!nFpvWGSVB0nnR8ZW.0xOHezxWObXFs5Iz"
-    },
-    {
-      "folder": "ECEMzex66NcYtYJF",
-      "name": "Deathless",
-      "type": "ability",
-      "_id": "wSBeXfK55kIOjHku",
-      "img": "icons/magic/death/skull-flames-white-blue.webp",
-      "system": {
-        "description": "<p>Deathless benefit from the same characteristics as undead (see <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06bestiary000000#special-abilities]{Special Abilities}</strong> in <em>Savage Worlds</em>). The energy used to create and heal deathless is positive energy instead of negative energy. They are affected by negative energy just as living creatures are. Deathless are vulnerable to weapons made of targath which inflict an additional +4 damage to deathless beings.</p>",
-        "notes": "",
-        "source": "",
-        "swid": "deathless",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "",
-        "grants": [
-          {
-            "name": "Environmental Weakness (Targath)",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.DiNLOt4b8pNJ9Rqp",
-            "mutation": {}
-          }
-        ],
-        "choiceSets": [],
-        "subtype": "special",
-        "grantsPowers": false
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.CU4yhepCvO0XDeiD"
-        },
-        "swade": {
-          "hasGranted": [
-            "UAu2uE4dkIsb4LBT"
-          ]
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1712198920367,
-        "modifiedTime": 1712200983875,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.wSBeXfK55kIOjHku"
-    },
-    {
-      "folder": "ECEMzex66NcYtYJF",
-      "name": "Environmental Weakness (Targath)",
-      "type": "ability",
-      "_id": "UAu2uE4dkIsb4LBT",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "description": "<p><strong>Environmental Weakness:</strong> Targath.</p>",
-        "notes": "",
-        "source": "Eberron for Savage Worlds",
-        "swid": "environmental-weakness-targath",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Deathless Abilities",
-        "grants": [],
-        "choiceSets": [],
-        "subtype": "special",
-        "grantsPowers": false
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.DiNLOt4b8pNJ9Rqp"
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1712200780216,
-        "modifiedTime": 1712200983856,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.UAu2uE4dkIsb4LBT"
-    },
-    {
-      "_id": "4oDxGzZRqQLcTXhs",
-      "name": "Darkvision",
-      "type": "ability",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "source": "Fantasy Companion",
-        "category": "New Ancestral Abilities",
-        "description": "<article class=\"swadefc\"><p><strong>Darkvision:</strong> Deathless ignore all @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{illumination} penalties and up to 2 points of penalties from <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.6pIk2UHMWPBiAmCk]{invisibility}</em> or similar powers within 10\" (20 yards) distant.</p></article>",
-        "notes": "",
-        "additionalStats": {},
-        "subtype": "special",
-        "favorite": false,
-        "grantsPowers": false,
-        "swid": "dark-vision",
-        "grants": [],
-        "choiceSets": []
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sheetClass": "swade.SWADEFCItem",
-          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y"
-        },
-        "singleSource": {
-          "version": "2.0.0-alpha",
-          "module": "swade-fantasy-companion"
-        },
-        "swade": {
-          "hasGranted": []
-        }
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
-        "createdTime": 1712201296023,
-        "modifiedTime": 1712201568976,
-        "lastModifiedBy": "Xbne19Xghka479we"
-      },
-      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.4oDxGzZRqQLcTXhs"
     },
     {
       "name": "Divine Immunities",
@@ -534,7 +394,7 @@
       "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
       "effects": [],
       "folder": null,
-      "sort": 0,
+      "sort": 550000,
       "ownership": {
         "default": 0,
         "Xbne19Xghka479we": 3
@@ -542,6 +402,9 @@
       "flags": {
         "swade": {
           "hasGranted": []
+        },
+        "core": {
+          "sourceId": "Actor.nFpvWGSVB0nnR8ZW.Item.gBi9gDdILhEyYVkY"
         }
       },
       "_stats": {
@@ -549,7 +412,7 @@
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
         "createdTime": 1712201801843,
-        "modifiedTime": 1712202144010,
+        "modifiedTime": 1712526744867,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!nFpvWGSVB0nnR8ZW.gBi9gDdILhEyYVkY"
@@ -577,10 +440,22 @@
         "isVehicular": false,
         "mods": 1,
         "actions": {
-          "trait": "",
+          "trait": "Fighting",
           "traitMod": "",
           "dmgMod": "",
-          "additional": {}
+          "additional": {
+            "DjrrQqJW": {
+              "name": "Purification (Lower Strength and Spirit)",
+              "type": "macro",
+              "dice": null,
+              "resourcesUsed": null,
+              "modifier": "",
+              "override": "Spirit",
+              "uuid": "Compendium.swade-core-rules.swade-macros.Macro.4I5qklYbBo3trunq",
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          }
         },
         "bonusDamageDie": 6,
         "bonusDamageDice": 1,
@@ -598,7 +473,7 @@
         "choiceSets": [],
         "damage": "@str+2d6+2",
         "range": "",
-        "rangeType": null,
+        "rangeType": 0,
         "rof": 1,
         "ap": 0,
         "parry": 0,
@@ -630,7 +505,7 @@
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
         "createdTime": 1712201994714,
-        "modifiedTime": 1712202092983,
+        "modifiedTime": 1712527357745,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!nFpvWGSVB0nnR8ZW.lbHk0Ip0klpaYrk2"
@@ -639,7 +514,7 @@
       "name": "Purification",
       "type": "ability",
       "system": {
-        "description": "<p><strong>Purification:</strong> Any evil creatures hit by an ascendant councilor’s @UUID[Actor.nFpvWGSVB0nnR8ZW.Item.lbHk0Ip0klpaYrk2]{slam} attack also suffer the effects of <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh]{lower Strength}</em> and @UUID[Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh]{lower Spirit} powers. With a raise on the attack, the purification lowers the evil creature’s Strength and Spirit by 2 die types.</p>",
+        "description": "<p><strong>Purification:</strong> Any evil creatures hit by an ascendant councilor’s @UUID[Actor.nFpvWGSVB0nnR8ZW.Item.lbHk0Ip0klpaYrk2]{slam} attack also suffer the effects of <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh]{lower Strength}</em> and <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh]{lower Spirit}</em> powers. With a raise on the attack, the purification lowers the evil creature’s Strength and Spirit by 2 die types.</p>",
         "notes": "",
         "source": "Eberron for Savage Worlds",
         "swid": "new-ability",
@@ -655,7 +530,7 @@
       "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
       "effects": [],
       "folder": null,
-      "sort": 0,
+      "sort": 800000,
       "ownership": {
         "default": 0,
         "Xbne19Xghka479we": 3
@@ -670,7 +545,7 @@
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
         "createdTime": 1712202155257,
-        "modifiedTime": 1712202269618,
+        "modifiedTime": 1712526790912,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!nFpvWGSVB0nnR8ZW.TTND9cMmlphd6sR1"
@@ -900,7 +775,7 @@
       "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
       "effects": [],
       "folder": null,
-      "sort": 4500000,
+      "sort": 600000,
       "ownership": {
         "default": 0,
         "Xbne19Xghka479we": 3
@@ -936,7 +811,7 @@
         "systemVersion": "3.3-dev",
         "coreVersion": "11.315",
         "createdTime": 1712202676045,
-        "modifiedTime": 1712205512945,
+        "modifiedTime": 1712526737503,
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!nFpvWGSVB0nnR8ZW.wNdtQSuS8bIhi3rc"
@@ -2179,6 +2054,649 @@
         "lastModifiedBy": "Xbne19Xghka479we"
       },
       "_key": "!actors.items!nFpvWGSVB0nnR8ZW.2ZkQwAEiyN6VifT3"
+    },
+    {
+      "_id": "bex2lJtQMhhKRjvj",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/graduate-cap.svg",
+      "name": "Academics",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\"><p>Academics reflects knowledge of the liberal arts, social sciences, literature, history, archaeology, and similar fields. If an explorer wants to remember when the Mayan calendar ended or cite a line from <cite>Macbeth</cite>, this is the skill to have.</p></article>",
+        "die": {
+          "modifier": 3,
+          "sides": 12
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "academics",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.m5TZJMJA0lePG3AB"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712527425697,
+        "modifiedTime": 1712527598938,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.bex2lJtQMhhKRjvj"
+    },
+    {
+      "_id": "rw8vMW9zIsJL6hpb",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/jump-across.svg",
+      "name": "Athletics",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Athletics combines an individual’s coordin­ation with learned skills such as climbing, jumping, balancing, biking, wrestling, skiing, swimming, throwing, or catching. Characters who rely on physical power more than coordination can take the @Compendium[swade-core-rules.swade-edges.Brute]{Brute} Edge to link this skill to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} instead of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility}.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 4
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "athletics",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.qc2GOKFIXIJEpTw1"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712527431095,
+        "modifiedTime": 1712527431095,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.rw8vMW9zIsJL6hpb"
+    },
+    {
+      "_id": "IiLmg8BPJykp6sYN",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/battle-gear.svg",
+      "name": "Battle",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\"><p>Battle is an individual’s command of strategy and tactics. It can be used for general military knowledge and is critical when commanding troops in @Compendium[swade-core-rules.swade-rules.Mass Battles]{Mass Battles}.</p></article>",
+        "die": {
+          "modifier": 3,
+          "sides": 12
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "battle",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.B0IirU8L6QzIN2fI"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712527435573,
+        "modifiedTime": 1712527615482,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.IiLmg8BPJykp6sYN"
+    },
+    {
+      "_id": "uAKxFHJfe6NXHfDZ",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/gift-of-knowledge.svg",
+      "name": "Common Knowledge",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\"><p>Characters roll Common Knowledge to know people, places, and things of their world, including etiquette, geography, culture, popular technology, contacts, and customs.</p></article>",
+        "die": {
+          "modifier": 0,
+          "sides": 12
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "common-knowledge",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.su7eyijoB0RFpRB1"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712527443673,
+        "modifiedTime": 1712527443673,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.uAKxFHJfe6NXHfDZ"
+    },
+    {
+      "_id": "Irtbj8OMJj0y925Z",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/punch.svg",
+      "name": "Fighting",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Fighting covers all hand-to-hand (melee) attacks, whether it’s with fists, axes, laser swords, or martial arts. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{Chapter Three} for the combat rules and the various maneuvers a warrior might attempt.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 12
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "fighting",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712527450606,
+        "modifiedTime": 1712527450606,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.Irtbj8OMJj0y925Z"
+    },
+    {
+      "_id": "zCfJxKubxF2dX4AE",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/psychic-waves.svg",
+      "name": "Notice",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\">\n<p>Notice is a hero’s general awareness and alertness. It’s used to sense sights, sounds, tastes, and smells, spot clues, detect ambushes, spot hidden weapons on a foe, or tell if a rival is lying, frightened, happy, etc.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} conveys basic information—the character hears movement in the forest, smells distant smoke, or senses someone isn’t being completely truthful.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise} grants more detail, such as the direction of a sound or odor or what topic a person is avoiding or lying about.</p>\n</article>",
+        "die": {
+          "modifier": 3,
+          "sides": 12
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "notice",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.Y0545TlaAqRRE2P0"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712527460138,
+        "modifiedTime": 1712527759674,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.zCfJxKubxF2dX4AE"
+    },
+    {
+      "_id": "RvDuM7p4Swg8TiFk",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/curled-tentacle.svg",
+      "name": "Occult",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\"><p>Occult reflects knowledge and experience with the paranormal most others don’t even believe exists. It can be used to decipher strange pictograms, recall information about supernatural creatures, remember cures for monstrous maladies like lycanthropy or vampirism, or perform rituals.</p>\n<p>Finding information in a library, newspaper morgue, old tome, the internet, etc., uses the @Compendium[swade-core-rules.swade-skills.Research]{Research} skill. As noted there, however, if the investigator’s Occult skill is higher she may use that instead.</p></article>",
+        "die": {
+          "modifier": 3,
+          "sides": 12
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "occult",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.XMNmVhwrZmL47Vhg"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712527472967,
+        "modifiedTime": 1712527770974,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.RvDuM7p4Swg8TiFk"
+    },
+    {
+      "_id": "LrKWOMGhjr4mwGKb",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/archive-research.svg",
+      "name": "Research",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\">\n<p>A character skilled in Research knows how to make good use of libraries, newspaper morgues, the internet, or other written sources of information.</p>\n<p>The amount of time this takes is up to the GM and the situation. Finding something on the internet or a specific passage in a book might be possible in a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{combat round}. Looking through books in a library, searching the internet for a complex topic, or digging up background information on an individual usually takes about an hour.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} finds basic information and a raise provides more detail. @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Failure} means the researcher doesn’t find what she’s looking for.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical Failure} might mean the researcher finds plausible but incorrect information, triggers the notice of some opposed entity or faction, reads something “Humanity Was Not Meant to Know” and suffers a mental illness of some sort (a Minor @Compendium[swade-core-rules.swade-hindrances.Phobia]{Phobia}, @Compendium[swade-core-rules.swade-hindrances.Quirk]{Quirk}, etc.), or she might even accidentally destroy the source. The GM is encouraged to be creative when such a mishap occurs, perhaps forcing the party to approach the situation in a different way.</p>\n<p><strong>Related Skills: </strong>If a character has a skill that relates directly to the subject he’s researching, he can use that instead of Research. An explorer with @Compendium[swade-core-rules.swade-skills.Occult]{Occult} d10 and Research d6, for example, rolls a d10 when investigating vampire lore at a forgotten library. If he later goes to search for the deed to a house where the vampires are rumored to lair, he rolls his normal Research instead.</p>\n<p><strong>Note: </strong>Research may only provide the clues, especially in a mystery-heavy game. Putting the clues together from the information gathered is up to the players.</p>\n</article>",
+        "die": {
+          "modifier": 3,
+          "sides": 12
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "research",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.Y1HxgTeyvoqM3SGZ"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712527480056,
+        "modifiedTime": 1712527780383,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.LrKWOMGhjr4mwGKb"
+    },
+    {
+      "_id": "0OIs3FQEb94DaHzy",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/hidden.svg",
+      "name": "Stealth",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Stealth is the ability to hide and move quietly. A simple @Compendium[swade-core-rules.swade-rules.Trait Rolls]{success} on a Stealth roll means the character avoids detection if enemies aren’t particularly alert. If the character @Compendium[swade-core-rules.swade-rules.Trait Rolls]{fails} the roll, the enemy realizes something is amiss and begins actively searching for whatever roused them.</p>\n<p>Once foes are alerted and active, Stealth is opposed by @Compendium[swade-core-rules.swade-skills.Notice]{Notice} (a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{group roll} if there are many foes.</p>\n<p>The GM should apply any circumstantial penalties to @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls for @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{darkness}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{cover}, noise, distractions, and any difference in the target’s @Compendium[swade-core-rules.swade-rules.Size and Scale]{Scale} (just like when attacking). Sneaking through dry leaves might subtract 2 from the Stealth roll, for example, while spotting someone in the dark uses the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} penalty (−4). Don’t apply the same modifier to both rolls, however. If Stealth is at −2 for the leaves, don’t give Notice a +2 for them as well.</p>\n<p><strong>Sneak Attack: </strong> Sneaking up close enough to make a melee attack <em>always</em> requires an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed} Stealth roll versus the target’s @Compendium[swade-core-rules.swade-skills.Notice]{Notice}, whether the guard is actively looking for trouble or not. If successful, the victim is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{Vulnerable} to the attacker, but only until the attacker’s turn ends. With a raise, the attacker has @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{The Drop} instead.</p>\n<p><strong>Movement:</strong> In combat, characters roll Stealth each turn as a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free action} at the end of their move or any action the GM thinks might draw attention.</p>\n<p>Out of combat, the distance moved depends entirely on the situation. The GM might want a roll every minute if the group is sneaking around the perimeter of a defensive position, or every few miles if they’re trying to quietly walk the path through a dark forest without alerting the creatures that live there.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 4
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "stealth",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712527487716,
+        "modifiedTime": 1712527487716,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.0OIs3FQEb94DaHzy"
+    },
+    {
+      "name": "Slam",
+      "type": "weapon",
+      "system": {
+        "equipStatus": 2,
+        "description": "<p><strong>Slam:</strong> Str+2d6+2</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "slam",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "equippable": false,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "trait": "Fighting",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {
+            "DjrrQqJW": {
+              "name": "Purification (Lower Strength and Spirit)",
+              "type": "macro",
+              "dice": null,
+              "resourcesUsed": null,
+              "modifier": "",
+              "override": "Spirit",
+              "uuid": "Compendium.swade-core-rules.swade-macros.Macro.4I5qklYbBo3trunq",
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          }
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false,
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "choiceSets": [],
+        "damage": "@str+2d6+2",
+        "range": "",
+        "rangeType": 0,
+        "rof": 1,
+        "ap": 0,
+        "parry": 0,
+        "minStr": "",
+        "shots": 0,
+        "currentShots": 0,
+        "ammo": "",
+        "reloadType": "none",
+        "ppReloadCost": 2,
+        "trademark": 0,
+        "isHeavyWeapon": false
+      },
+      "_id": "GQ1VIMIYY1BXnsBa",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Fighting.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 50000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.nFpvWGSVB0nnR8ZW.Item.lbHk0Ip0klpaYrk2"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712201994714,
+        "modifiedTime": 1712528001382,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.GQ1VIMIYY1BXnsBa"
+    },
+    {
+      "folder": "ECEMzex66NcYtYJF",
+      "name": "Deathless",
+      "type": "ability",
+      "_id": "7YAsXruLI7xuHVkE",
+      "img": "icons/magic/death/skull-flames-white-blue.webp",
+      "system": {
+        "description": "<p>Deathless benefit from the same characteristics as undead (see <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06bestiary000000#special-abilities]{Special Abilities}</strong> in <em>Savage Worlds</em>). The energy used to create and heal deathless is positive energy instead of negative energy. They are affected by negative energy just as living creatures are. Deathless are vulnerable to weapons made of targath which inflict an additional +4 damage to deathless beings.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "deathless",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "New Special Abilities",
+        "grants": [
+          {
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.DiNLOt4b8pNJ9Rqp",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+            "name": "Environmental Weakness (Targath)",
+            "mutation": {}
+          },
+          {
+            "name": "Dark Vision",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+            "mutation": {
+              "name": "Darkvision"
+            }
+          }
+        ],
+        "choiceSets": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.CU4yhepCvO0XDeiD"
+        },
+        "swade": {
+          "hasGranted": [
+            "inzmPhFNq6HVrnJ6",
+            "0xr2r7xtIO3lwsdD"
+          ]
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712198920367,
+        "modifiedTime": 1712541694857,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.7YAsXruLI7xuHVkE"
+    },
+    {
+      "folder": "ECEMzex66NcYtYJF",
+      "name": "Environmental Weakness (Targath)",
+      "type": "ability",
+      "_id": "inzmPhFNq6HVrnJ6",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<p><strong>Environmental Weakness:</strong> Targath.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "environmental-weakness-targath",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Deathless Abilities",
+        "grants": [],
+        "choiceSets": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712200780216,
+        "modifiedTime": 1712541694787,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.inzmPhFNq6HVrnJ6"
+    },
+    {
+      "_id": "0xr2r7xtIO3lwsdD",
+      "name": "Dark Vision",
+      "type": "ability",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "category": "New Ancestral Abilities",
+        "description": "<article class=\"swadefc\"><p><strong>Dark Vision (1):</strong> The species can see in the dark  a short distance, ignoring all illumination penalties and up to 2 points of penalties from <em>invisibility</em>  or similar powers within 10\" (20 yards) distant.</p></article>",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": false,
+        "swid": "dark-vision",
+        "grants": [],
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1712541694787,
+        "modifiedTime": 1712541694787,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!nFpvWGSVB0nnR8ZW.0xr2r7xtIO3lwsdD"
     }
   ],
   "effects": [],
@@ -2214,7 +2732,7 @@
     "systemVersion": "3.3-dev",
     "coreVersion": "11.315",
     "createdTime": 1712198212280,
-    "modifiedTime": 1712205639535,
+    "modifiedTime": 1712544296030,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,
