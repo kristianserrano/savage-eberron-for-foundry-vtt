@@ -1,0 +1,50 @@
+{
+  "folder": "ECEMzex66NcYtYJF",
+  "name": "Aberration",
+  "type": "ability",
+  "_id": "meN9aCmVv1hCDVv1",
+  "img": "icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp",
+  "system": {
+    "description": "<p>Aberrations are strange and alien monstrosities, often with innate psionic abilities. They have Darkvision and are vulnerable to weapons made of byeshk.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "aberration",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "New Special Abilities",
+    "grants": [
+      {
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+        "name": "Dark Vision",
+        "mutation": {
+          "name": "Darkvision"
+        }
+      },
+      {
+        "name": "Weakness (Byeshk)",
+        "img": "systems/swade/assets/icons/ability.svg",
+        "uuid": "Compendium.savage-eberron.eberron-abilities.Item.06D8ttCVH0oSh3V1"
+      }
+    ],
+    "choiceSets": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.3-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1716674791557,
+    "modifiedTime": 1716675173417,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!meN9aCmVv1hCDVv1"
+}

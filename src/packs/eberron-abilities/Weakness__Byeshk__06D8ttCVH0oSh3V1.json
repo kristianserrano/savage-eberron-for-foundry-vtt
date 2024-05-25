@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "ECEMzex66NcYtYJF",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Weakness (Byeshk)",
+  "type": "ability",
+  "system": {
+    "source": "Eberron for Savage Worlds",
+    "additionalStats": {},
+    "description": "<article class=\"swade-core\">\n<p>Some creatures suffer additional damage or can only be hurt by their Weakness. A creature made of ice, for example, might take double damage from @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fire0000000000]{fire}. See the creature’s description for particular effects.</p>\n</article>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "New Special Abilities",
+    "swid": "weakness",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "ownership": {
+    "7ntJSLixH2Phv2jV": 3,
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.3-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1716674967955,
+    "modifiedTime": 1716675025514,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "06D8ttCVH0oSh3V1",
+  "sort": 0,
+  "_key": "!items!06D8ttCVH0oSh3V1"
+}
