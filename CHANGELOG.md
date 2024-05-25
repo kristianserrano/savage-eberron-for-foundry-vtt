@@ -1,5 +1,9 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.1.3
+
+- Adds Dolgaunts and Dolgrims
+
 ## v1.1.2
 
 - Adds Morgrave University Professor.
