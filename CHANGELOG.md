@@ -1,8 +1,17 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.1.4
+
+- Adds Aberration Special Ability
+- Adds Dolgaunt and Dolgaunt Monk
+- Adds Dolgrim
+
 ## v1.1.3
 
-- Adds Dolgaunts and Dolgrims
+- Adds Ascendant Councilor
+- Adds Carcass Crab
+- Adds Deathless
+- Adds Knockback Ability
 
 ## v1.1.2
 
