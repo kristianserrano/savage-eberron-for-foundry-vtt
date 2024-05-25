@@ -1,0 +1,1049 @@
+{
+  "folder": null,
+  "name": "Dolgaunt",
+  "type": "npc",
+  "_id": "v2v7tLSXHTYiwAlq",
+  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_D_15.webp",
+  "system": {
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": 10,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": false
+      },
+      "spirit": {
+        "die": {
+          "sides": 10,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unShakeBonus": 0
+      },
+      "strength": {
+        "die": {
+          "sides": 10,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unStunBonus": 0,
+        "soakBonus": 0,
+        "bleedOut": {
+          "modifier": 0,
+          "ignoreWounds": false
+        }
+      }
+    },
+    "stats": {
+      "speed": {
+        "runningDie": 6,
+        "runningMod": 0,
+        "value": 6
+      },
+      "toughness": {
+        "value": 0,
+        "armor": 0,
+        "modifier": 0
+      },
+      "parry": {
+        "value": 0,
+        "shield": 0,
+        "modifier": 0
+      },
+      "size": 0
+    },
+    "details": {
+      "autoCalcToughness": true,
+      "autoCalcParry": true,
+      "archetype": "",
+      "appearance": "",
+      "notes": "",
+      "goals": "",
+      "biography": {
+        "value": ""
+      },
+      "species": {
+        "name": ""
+      },
+      "currency": 0,
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      },
+      "conviction": {
+        "value": 0,
+        "active": false
+      }
+    },
+    "powerPoints": {
+      "general": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "fatigue": {
+      "value": 0,
+      "max": 2,
+      "ignored": 0
+    },
+    "woundsOrFatigue": {
+      "ignored": 0
+    },
+    "advances": {
+      "mode": "expanded",
+      "value": 0,
+      "rank": "Novice",
+      "details": "",
+      "list": []
+    },
+    "status": {
+      "isShaken": false,
+      "isDistracted": false,
+      "isVulnerable": false,
+      "isStunned": false,
+      "isEntangled": false,
+      "isBound": false,
+      "isIncapacitated": false
+    },
+    "initiative": {
+      "hasHesitant": false,
+      "hasLevelHeaded": false,
+      "hasImpLevelHeaded": false,
+      "hasQuick": false
+    },
+    "additionalStats": {},
+    "bennies": {
+      "value": 0,
+      "max": 2
+    },
+    "wounds": {
+      "value": 0,
+      "max": 0,
+      "ignored": 0
+    },
+    "wildcard": false
+  },
+  "prototypeToken": {
+    "name": "Dolgaunt",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_D_15.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stats.parry.value"
+    },
+    "bar2": {
+      "attribute": "toughness.total"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "R2G8bXqIbROqJgWo",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/jump-across.svg",
+      "name": "Athletics",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Athletics combines an individual’s coordin­ation with learned skills such as climbing, jumping, balancing, biking, wrestling, skiing, swimming, throwing, or catching. Characters who rely on physical power more than coordination can take the @Compendium[swade-core-rules.swade-edges.Brute]{Brute} Edge to link this skill to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} instead of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility}.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 10
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "athletics",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.qc2GOKFIXIJEpTw1"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716674617180,
+        "modifiedTime": 1716674617180,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.R2G8bXqIbROqJgWo"
+    },
+    {
+      "_id": "jtiuYzyjkymKG7Yu",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/gift-of-knowledge.svg",
+      "name": "Common Knowledge",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\"><p>Characters roll Common Knowledge to know people, places, and things of their world, including etiquette, geography, culture, popular technology, contacts, and customs.</p></article>",
+        "die": {
+          "modifier": 0,
+          "sides": 4
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "common-knowledge",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.su7eyijoB0RFpRB1"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716674623345,
+        "modifiedTime": 1716674623345,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.jtiuYzyjkymKG7Yu"
+    },
+    {
+      "_id": "xrRmidJsFV3jqmtl",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/punch.svg",
+      "name": "Fighting",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Fighting covers all hand-to-hand (melee) attacks, whether it’s with fists, axes, laser swords, or martial arts. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{Chapter Three} for the combat rules and the various maneuvers a warrior might attempt.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 6
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "fighting",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716674630974,
+        "modifiedTime": 1716674630974,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.xrRmidJsFV3jqmtl"
+    },
+    {
+      "_id": "QlbLhomPHKzJT4WW",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/psychic-waves.svg",
+      "name": "Notice",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\">\n<p>Notice is a hero’s general awareness and alertness. It’s used to sense sights, sounds, tastes, and smells, spot clues, detect ambushes, spot hidden weapons on a foe, or tell if a rival is lying, frightened, happy, etc.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} conveys basic information—the character hears movement in the forest, smells distant smoke, or senses someone isn’t being completely truthful.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise} grants more detail, such as the direction of a sound or odor or what topic a person is avoiding or lying about.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 8
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "notice",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.Y0545TlaAqRRE2P0"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716674648048,
+        "modifiedTime": 1716674648048,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.QlbLhomPHKzJT4WW"
+    },
+    {
+      "_id": "t1D3IM9MZH1TA05l",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/hidden.svg",
+      "name": "Stealth",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Stealth is the ability to hide and move quietly. A simple @Compendium[swade-core-rules.swade-rules.Trait Rolls]{success} on a Stealth roll means the character avoids detection if enemies aren’t particularly alert. If the character @Compendium[swade-core-rules.swade-rules.Trait Rolls]{fails} the roll, the enemy realizes something is amiss and begins actively searching for whatever roused them.</p>\n<p>Once foes are alerted and active, Stealth is opposed by @Compendium[swade-core-rules.swade-skills.Notice]{Notice} (a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{group roll} if there are many foes.</p>\n<p>The GM should apply any circumstantial penalties to @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls for @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{darkness}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{cover}, noise, distractions, and any difference in the target’s @Compendium[swade-core-rules.swade-rules.Size and Scale]{Scale} (just like when attacking). Sneaking through dry leaves might subtract 2 from the Stealth roll, for example, while spotting someone in the dark uses the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} penalty (−4). Don’t apply the same modifier to both rolls, however. If Stealth is at −2 for the leaves, don’t give Notice a +2 for them as well.</p>\n<p><strong>Sneak Attack: </strong> Sneaking up close enough to make a melee attack <em>always</em> requires an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed} Stealth roll versus the target’s @Compendium[swade-core-rules.swade-skills.Notice]{Notice}, whether the guard is actively looking for trouble or not. If successful, the victim is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{Vulnerable} to the attacker, but only until the attacker’s turn ends. With a raise, the attacker has @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{The Drop} instead.</p>\n<p><strong>Movement:</strong> In combat, characters roll Stealth each turn as a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free action} at the end of their move or any action the GM thinks might draw attention.</p>\n<p>Out of combat, the distance moved depends entirely on the situation. The GM might want a roll every minute if the group is sneaking around the perimeter of a defensive position, or every few miles if they’re trying to quietly walk the path through a dark forest without alerting the creatures that live there.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 8
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "stealth",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716674653114,
+        "modifiedTime": 1716674653114,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.t1D3IM9MZH1TA05l"
+    },
+    {
+      "_id": "fqox16Ca7dpTV2l0",
+      "effects": [
+        {
+          "_id": "Yo4QABeieRwTm0H7",
+          "name": "Combat Reflexes",
+          "changes": [
+            {
+              "key": "system.attributes.vigor.unStunBonus",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            },
+            {
+              "key": "system.attributes.spirit.unShakeBonus",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {},
+          "icon": "systems/swade/assets/icons/ability.svg",
+          "tint": null,
+          "transfer": true,
+          "description": "<article class=\"swade-core\">\n<p>Your warrior recovers quickly from shock and trauma. He adds +2 to his rolls when attempting to recover from being @Compendium[swade-core-rules.swade-rules.Damage Effects]{Shaken} or @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03stunned0000000]{Stunned}</p>\n</article>",
+          "origin": null,
+          "statuses": [],
+          "_key": "!actors.items.effects!v2v7tLSXHTYiwAlq.fqox16Ca7dpTV2l0.Yo4QABeieRwTm0H7"
+        }
+      ],
+      "folder": null,
+      "img": "systems/swade/assets/icons/edge.svg",
+      "name": "Combat Reflexes",
+      "sort": 0,
+      "type": "edge",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>Your warrior recovers quickly from shock and trauma. He adds +2 to his rolls when attempting to recover from being @Compendium[swade-core-rules.swade-rules.Damage Effects]{Shaken} or @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03stunned0000000]{Stunned}</p>\n</article>",
+        "isArcaneBackground": false,
+        "notes": "",
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 1,
+            "combinator": "and"
+          }
+        ],
+        "category": "Combat",
+        "swid": "combat-reflexes",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-edges.Item.2whgpOchV1t8Kotr"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716674667828,
+        "modifiedTime": 1716674667856,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.fqox16Ca7dpTV2l0"
+    },
+    {
+      "_id": "xQANnlsaasgffwPD",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/edge.svg",
+      "name": "Frenzy",
+      "sort": 0,
+      "type": "edge",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>As a limited action, a character with Frenzy may roll a second @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} die with any one of his Fighting attacks for the turn. The extra die may be allocated to the same or different targets as he sees fit. Resolve each separately</p>\n</article>",
+        "isArcaneBackground": false,
+        "notes": "",
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 1,
+            "combinator": "and"
+          },
+          {
+            "type": "skill",
+            "selector": "fighting",
+            "value": 8,
+            "combinator": "and",
+            "label": "Fighting"
+          }
+        ],
+        "category": "Combat",
+        "grants": [
+          {
+            "name": "Frenzy",
+            "img": "systems/swade/assets/icons/ability.svg",
+            "uuid": "Compendium.swade-core-rules.swade-specialabilities.Item.dp4LdZIgx6xGOty9",
+            "mutation": {}
+          }
+        ],
+        "swid": "frenzy",
+        "favorite": false,
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-edges.Item.7YiLlxxjD750ltXM"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716674679730,
+        "modifiedTime": 1716674679764,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.xQANnlsaasgffwPD"
+    },
+    {
+      "_id": "lmkSQUapSAD1PSxX",
+      "name": "Blindsight",
+      "type": "ability",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "category": "New Special Abilities",
+        "description": "<article class=\"swadefc\"><p>A creature with this ability can perceive its environment using non-visual senses. This includes keen sense of smell, echolocation, or the ability to sense vibrations in the ground or even in the air. They ignore <em>@Compendium[swade-fantasy-companion.swade-fc-powers.Invisibility]{invisibility}, @Compendium[swade-fantasy-companion.swade-fc-powers.Illusion]{illusion}</em>, and all @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} penalties.</p></article>",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": false,
+        "swid": "blindsense",
+        "grants": [],
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 200000,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.L0uxCTWbes0MBVwM"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716675348411,
+        "modifiedTime": 1716677374757,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.lmkSQUapSAD1PSxX"
+    },
+    {
+      "_id": "xqfgPDkQ91omRXiN",
+      "name": "Tentacles",
+      "type": "ability",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "category": "New Special Abilities",
+        "description": "<p>Dolgaunts have two @UUID[Compendium.swade-fantasy-companion.swade-fc-abilities.Item.qRwipE8W83ffO8w0]{tentacles} with Reach 1; +2 to Grapple.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": false,
+        "swid": "tentacles",
+        "grants": [],
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 300000,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.qRwipE8W83ffO8w0"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716675396866,
+        "modifiedTime": 1716677374757,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.xqfgPDkQ91omRXiN"
+    },
+    {
+      "_id": "kuBsZlvNIL63Fw1y",
+      "effects": [
+        {
+          "_id": "LKZ0RCTOAcBQOFDL",
+          "name": "Very Resilient",
+          "changes": [
+            {
+              "key": "system.wounds.max",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {},
+          "icon": "systems/swade/assets/icons/ability.svg",
+          "tint": null,
+          "transfer": true,
+          "description": "<p>Very Resilient Extras can take two @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wounds} before they’re @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Incapacitated}</p>",
+          "origin": null,
+          "statuses": [],
+          "_key": "!actors.items.effects!v2v7tLSXHTYiwAlq.kuBsZlvNIL63Fw1y.LKZ0RCTOAcBQOFDL"
+        }
+      ],
+      "folder": null,
+      "img": "systems/swade/assets/icons/ability.svg",
+      "name": "Very Resilient",
+      "sort": 400000,
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>Elite @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03wildcardsand00]{Extras} are tougher than usual. This might include specially bred @Compendium[swade-core-rules.swade-bestiary.Orc]{orcs} in a fantasy setting, particularly tough thugs or agents in the modern world, or even mutant animals created in the lab of some mad scientist.</p> <p>Resilient Extras can take one @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wound} before they’re @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Incapacitated}, Very Resilient Extras can take two. Wild Cards can’t be Resilient or Very Resilient. The abilities exist to bring select Extras a little closer to the heroes and villains who lead them.</p>\n</article>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Special Ability",
+        "swid": "resilient",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-specialabilities.Item.ckc8WGlXl9uWsyWH"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716675779446,
+        "modifiedTime": 1716677374757,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.kuBsZlvNIL63Fw1y"
+    },
+    {
+      "name": "Vitality Drain",
+      "type": "ability",
+      "system": {
+        "description": "<p>If a dolgaunt gets hold of an opponent, it can burrow into the flesh of its victim and draw out vital fluids using the tendrils that cover its skin. With a raise on a Fighting roll to @UUID[Compendium.swade-core-rules.swade-actions.Item.m2qelopR0MHxX1FG]{grapple}, the dolgaunt decreases the victim’s Vigor by 1 die type (to a minimum of d4) in addition to normal damage. The decrease in Vigor is a temporary @UUID[Compendium.swade-core-rules.swade-tables.RollTable.fRhZBtWUt3kKkbCd]{injury} as per the Incapacitation rules (recovered when all Wounds are healed). An injured dolgaunt recovers 1 Wound every time it successfully uses this ability.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "new-ability",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Dolgaunt Special Abilities",
+        "grants": [],
+        "choiceSets": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "_id": "kUMOlkaabmrTU1gf",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716675814713,
+        "modifiedTime": 1716677374757,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.kUMOlkaabmrTU1gf"
+    },
+    {
+      "folder": "ECEMzex66NcYtYJF",
+      "name": "Aberration",
+      "type": "ability",
+      "_id": "DBr8piXdsnOZE10t",
+      "img": "icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp",
+      "system": {
+        "description": "<p>Aberrations are strange and alien monstrosities, often with innate psionic abilities. They have Darkvision and are vulnerable to weapons made of byeshk.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "aberration",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "New Special Abilities",
+        "grants": [
+          {
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+            "name": "Dark Vision",
+            "mutation": {
+              "name": "Darkvision"
+            }
+          },
+          {
+            "name": "Weakness (Byeshk)",
+            "img": "systems/swade/assets/icons/ability.svg",
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.06D8ttCVH0oSh3V1",
+            "mutation": {}
+          }
+        ],
+        "choiceSets": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.meN9aCmVv1hCDVv1"
+        },
+        "swade": {
+          "hasGranted": [
+            "EnAHHpnK2OOJLQvz",
+            "vs0YNZU54ZIZuVbX"
+          ]
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716674791557,
+        "modifiedTime": 1716677376128,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.DBr8piXdsnOZE10t"
+    },
+    {
+      "_id": "EnAHHpnK2OOJLQvz",
+      "name": "Darkvision",
+      "type": "ability",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "category": "New Ancestral Abilities",
+        "description": "<article class=\"swadefc\"><p><strong>Dark Vision (1):</strong> The species can see in the dark  a short distance, ignoring all illumination penalties and up to 2 points of penalties from <em>invisibility</em>  or similar powers within 10\" (20 yards) distant.</p></article>",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": false,
+        "swid": "dark-vision",
+        "grants": [],
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 250000,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Actor.v2v7tLSXHTYiwAlq.Item.EnAHHpnK2OOJLQvz"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716677304367,
+        "modifiedTime": 1716677380837,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.EnAHHpnK2OOJLQvz"
+    },
+    {
+      "effects": [],
+      "folder": "ECEMzex66NcYtYJF",
+      "img": "systems/swade/assets/icons/ability.svg",
+      "name": "Weakness (Byeshk)",
+      "type": "ability",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>Some creatures suffer additional damage or can only be hurt by their Weakness. A creature made of ice, for example, might take double damage from @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fire0000000000]{fire}. See the creature’s description for particular effects.</p>\n</article>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "New Special Abilities",
+        "swid": "weakness",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716674967955,
+        "modifiedTime": 1716677374757,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "vs0YNZU54ZIZuVbX",
+      "sort": 800000,
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.vs0YNZU54ZIZuVbX"
+    },
+    {
+      "_id": "biIroTZ0BwgEw9h0",
+      "effects": [
+        {
+          "name": "Armor +1",
+          "icon": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+          "changes": [
+            {
+              "key": "system.stats.toughness.armor",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "fnk09uw4OvPILZfv",
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>Dolgaunts have tough, leathery skin.</p>",
+          "origin": null,
+          "statuses": [],
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "tint": null,
+          "_key": "!actors.items.effects!v2v7tLSXHTYiwAlq.biIroTZ0BwgEw9h0.fnk09uw4OvPILZfv"
+        }
+      ],
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "name": "Armor +1",
+      "sort": 100000,
+      "type": "ability",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\"><p>Dolgaunts have tough, leathery skin.</p></article>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Dolgaunt Special Abilities",
+        "swid": "armor",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-racial-abilities.Item.ARMOsFXsFJvZsIwc"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1716677368267,
+        "modifiedTime": 1716677477694,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!v2v7tLSXHTYiwAlq.biIroTZ0BwgEw9h0"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.3-dev",
+    "coreVersion": "11.315",
+    "createdTime": 1716675779446,
+    "modifiedTime": 1716680824611,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!actors!v2v7tLSXHTYiwAlq"
+}
