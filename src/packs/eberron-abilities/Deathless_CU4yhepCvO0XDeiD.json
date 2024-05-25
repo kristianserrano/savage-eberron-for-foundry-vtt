@@ -22,7 +22,11 @@
       {
         "name": "Dark Vision",
         "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-        "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y"
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+        "mutation": {
+          "name": "Darkvision",
+          "img": "icons/magic/perception/eye-slit-orange.webp"
+        }
       }
     ],
     "choiceSets": [],

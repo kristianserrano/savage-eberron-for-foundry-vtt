@@ -828,7 +828,8 @@
             "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
             "name": "Dark Vision",
             "mutation": {
-              "name": "Darkvision"
+              "name": "Darkvision",
+              "img": "icons/magic/perception/eye-slit-orange.webp"
             }
           },
           {
