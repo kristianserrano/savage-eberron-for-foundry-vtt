@@ -1,0 +1,354 @@
+{
+  "folder": "tSQ4QVH5arqk3e53",
+  "name": "Shifting",
+  "type": "ability",
+  "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+  "system": {
+    "description": "<p>This ability allows a shifter to tap into his lycanthropic heritage. At character creation, the player chooses a shifter ability from the list below. Shifting is a limited free action and lasts up to 5 rounds. The shifter can shift back to his normal form at any time before then. While in this animal-like form, the shifter can ignore 1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00#wounds]{Wound} penalty. When the shifting ends, the shifter takes a level of Fatigue. This level of @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{Fatigue} can only be removed after 4 hours of abstaining from shifting.</p><ul><li><p><strong>Beasthide:</strong> The skin of beasthide shifters harden, providing @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili01#armor]{Armor} +4.</p></li><li><p><strong>Cliffwalk:</strong> The limbs, hands, and feet of cliffwalk shifters become stronger. They gain the @Compendium[swade-core-rules.swade-edges.mbuDd4nvPlG7vWrh]{Free Runner} Edge.</p></li><li><p><strong>Longstride:</strong> The legs of longstride shifters elongate, and longstride shifters balance on the balls of their feet. They gain the @Compendium[swade-core-rules.swade-edges.WUNQjbr2nbUlvnR9]{Fleet-Footed} Edge.</p></li><li><p><strong>Longtooth:</strong> The face of a longtooth shifter distorts, growing a canine muzzle full of sharp teeth that cause Str+d6 damage (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03naturalweapo00]{Natural Weapons} in SAVAGE WORLDS).</p></li><li><p><strong>Razorclaw:</strong> The claws on the hands of razorclaw shifters grow and can be used to make attacks dealing Str+d4 damage (see (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03naturalweapo00]{Natural Weapons} in SAVAGE WORLDS).</p></li><li><p><strong>Wildhunt:</strong> Wildhunt shifters' sense of smell becomes more sensitive, granting them the @Compendium[swade-core-rules.swade-edges.M2diZ7X4997YL2pa]{Alertness} Edge.</p></li></ul>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Shifter",
+    "subtype": "special",
+    "grantsPowers": false,
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "shifting-beasthide",
+    "choiceSets": [
+      {
+        "name": "Shifting",
+        "choice": null,
+        "choices": [
+          {
+            "name": "Beasthide",
+            "addToName": true,
+            "mutation": {
+              "effects": [
+                {
+                  "icon": "icons/creatures/abilities/bear-roar-bite-brown.webp",
+                  "duration": {
+                    "rounds": 5,
+                    "startTime": 288,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": 2
+                    }
+                  },
+                  "changes": [
+                    {
+                      "key": "system.stats.toughness.armor",
+                      "mode": 2,
+                      "value": "4",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "_id": "9N0kPj0dMt0HJ16s",
+                  "disabled": true,
+                  "origin": null,
+                  "tint": null,
+                  "name": "Beast Hide",
+                  "description": "",
+                  "statuses": [],
+                  "_key": "!items.effects!8Q3ltEl0u62dobbv.9N0kPj0dMt0HJ16s"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Cliffwalk",
+            "addToName": true,
+            "mutation": {
+              "effects": [
+                {
+                  "icon": "icons/skills/movement/figure-running-gray.webp",
+                  "duration": {
+                    "rounds": 5,
+                    "startTime": 288,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": 2,
+                      "loseTurnOnHold": false
+                    }
+                  },
+                  "changes": [],
+                  "transfer": true,
+                  "_id": "9r2vT5niQWmbLlWT",
+                  "disabled": true,
+                  "origin": null,
+                  "tint": null,
+                  "name": "Free Runner",
+                  "description": "",
+                  "statuses": [],
+                  "_key": "!items.effects!APhbuPvQt95Z1E8C.9r2vT5niQWmbLlWT"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Longstride",
+            "addToName": true,
+            "mutation": {
+              "effects": [
+                {
+                  "icon": "icons/creatures/abilities/paw-print-pair-purple.webp",
+                  "duration": {
+                    "rounds": 5,
+                    "startTime": 288,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": 2
+                    }
+                  },
+                  "changes": [
+                    {
+                      "key": "system.stats.speed.value",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    },
+                    {
+                      "key": "system.stats.speed.runningDie",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "_id": "D3PRDbf90rul7UdD",
+                  "disabled": true,
+                  "origin": null,
+                  "tint": null,
+                  "name": "Fleet-Footed",
+                  "description": "",
+                  "statuses": [],
+                  "_key": "!items.effects!LY2SGGr9RXatWEte.D3PRDbf90rul7UdD"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Longtooth",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Bite",
+                    "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-abilities.Item.U6cz9rAjv6KGbwY3"
+                  }
+                ]
+              },
+              "effects": [
+                {
+                  "icon": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+                  "duration": {
+                    "rounds": 5,
+                    "startTime": 288,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": 2,
+                      "loseTurnOnHold": false
+                    }
+                  },
+                  "changes": [],
+                  "transfer": true,
+                  "_id": "QUmjEr1eM9OtD1gU",
+                  "disabled": true,
+                  "origin": null,
+                  "tint": null,
+                  "name": "Natural Bite",
+                  "description": "",
+                  "statuses": [],
+                  "_key": "!items.effects!uPMabHulIYMts8JA.QUmjEr1eM9OtD1gU"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Razorclaw",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Claw (Main Hand)",
+                    "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-abilities.Item.rGHJTeokcVzifCE6",
+                    "mutation": {
+                      "effects": [
+                        {
+                          "changes": [
+                            {
+                              "key": "@weapon{Claw (Main Hand)}[system.equipStatus]",
+                              "value": "4",
+                              "mode": 5,
+                              "priority": null
+                            },
+                            {
+                              "key": "@weapon{Claw (Main Hand)}[system.favorite]",
+                              "value": "1",
+                              "mode": 5,
+                              "priority": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Claw (Offhand)",
+                    "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-abilities.Item.rGHJTeokcVzifCE6",
+                    "mutation": {
+                      "effects": [
+                        {
+                          "changes": [
+                            {
+                              "key": "@weapon{Claw (Offhand)}[system.equipStatus]",
+                              "value": "2",
+                              "mode": 5,
+                              "priority": null
+                            },
+                            {
+                              "key": "@weapon{Claw (Offhand)}[system.favorite]",
+                              "value": "1",
+                              "mode": 5,
+                              "priority": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "effects": [
+                {
+                  "icon": "icons/creatures/claws/claw-bear-paw-swipe-brown.webp",
+                  "duration": {
+                    "rounds": 5,
+                    "startTime": 288,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": 2,
+                      "loseTurnOnHold": false
+                    }
+                  },
+                  "changes": [],
+                  "transfer": true,
+                  "_id": "QoicVGshwUqpZR9L",
+                  "disabled": true,
+                  "origin": null,
+                  "tint": null,
+                  "name": "Natural Claws",
+                  "description": "",
+                  "statuses": [],
+                  "_key": "!items.effects!GPBbqKlhWGwV1M2N.QoicVGshwUqpZR9L"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Wildhunt",
+            "addToName": true,
+            "mutation": {
+              "effects": [
+                {
+                  "icon": "icons/magic/perception/eye-slit-orange.webp",
+                  "duration": {
+                    "rounds": 5,
+                    "startTime": 288,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": 2
+                    }
+                  },
+                  "changes": [
+                    {
+                      "key": "@Skill{Notice}[system.die.modifier]",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "_id": "I55YAM3sUOZ0msqs",
+                  "disabled": true,
+                  "origin": null,
+                  "tint": null,
+                  "name": "Alertness",
+                  "description": "",
+                  "statuses": [],
+                  "_key": "!items.effects!gGVagk0USYLO1Ckl.I55YAM3sUOZ0msqs"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "convergence-manifesto",
+      "system": "swade",
+      "coreVersion": "11.306",
+      "systemVersion": "3.0.5"
+    }
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1668108180986,
+    "modifiedTime": 1719178417181,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_id": "8Q3ltEl0u62dobbv",
+  "sort": 0,
+  "_key": "!items!8Q3ltEl0u62dobbv"
+}

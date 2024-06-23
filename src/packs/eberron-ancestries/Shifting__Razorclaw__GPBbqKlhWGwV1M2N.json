@@ -11,7 +11,13 @@
     "category": "Shifter",
     "subtype": "special",
     "grantsPowers": false,
-    "grants": [],
+    "grants": [
+      {
+        "name": "Claws",
+        "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
+        "uuid": "Compendium.savage-eberron.eberron-abilities.Item.rGHJTeokcVzifCE6"
+      }
+    ],
     "source": "Eberron for Savage Worlds",
     "swid": "shifting-razorclaw"
   },
@@ -56,11 +62,11 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
+    "systemVersion": "3.4.1",
     "coreVersion": "11.315",
     "createdTime": 1668108180986,
-    "modifiedTime": 1700890169481,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1719182760065,
+    "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "GPBbqKlhWGwV1M2N",
   "sort": 200000,

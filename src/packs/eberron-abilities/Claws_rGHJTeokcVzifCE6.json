@@ -1,0 +1,79 @@
+{
+  "folder": "i6lapkDIgIlh2zR2",
+  "name": "Claws",
+  "type": "weapon",
+  "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
+  "system": {
+    "description": "<p><strong>CLAWS:</strong> +2 to @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} (climbing) rolls on any rough or soft surface (not sheer steel, glass, etc.).</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "claws",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "equippable": false,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "Fighting",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "favorite": false,
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "category": "Natural Weapons",
+    "grants": [],
+    "grantOn": 1,
+    "choiceSets": [],
+    "damage": "@str+d4",
+    "range": "",
+    "rangeType": 0,
+    "rof": 1,
+    "ap": 0,
+    "parry": 0,
+    "minStr": "",
+    "shots": 0,
+    "currentShots": 0,
+    "ammo": "",
+    "reloadType": "none",
+    "ppReloadCost": 2,
+    "trademark": 0,
+    "isHeavyWeapon": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1719181706976,
+    "modifiedTime": 1719182730512,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "rGHJTeokcVzifCE6",
+  "sort": 100000,
+  "_key": "!items!rGHJTeokcVzifCE6"
+}

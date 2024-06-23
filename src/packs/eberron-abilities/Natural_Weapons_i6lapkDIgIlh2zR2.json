@@ -1,0 +1,19 @@
+{
+  "name": "Natural Weapons",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "i6lapkDIgIlh2zR2",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1719182226643,
+    "modifiedTime": 1719182226643,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!i6lapkDIgIlh2zR2"
+}

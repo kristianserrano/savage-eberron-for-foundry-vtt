@@ -11,7 +11,13 @@
     "category": "Shifter",
     "subtype": "special",
     "grantsPowers": false,
-    "grants": [],
+    "grants": [
+      {
+        "name": "Bite",
+        "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+        "uuid": "Compendium.savage-eberron.eberron-abilities.Item.U6cz9rAjv6KGbwY3"
+      }
+    ],
     "source": "Eberron for Savage Worlds",
     "swid": "shifting-longtooth"
   },
@@ -60,11 +66,11 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
+    "systemVersion": "3.4.1",
     "coreVersion": "11.315",
     "createdTime": 1668108180986,
-    "modifiedTime": 1700890169586,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1719182795874,
+    "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_id": "uPMabHulIYMts8JA",
   "sort": 700000,

@@ -1,0 +1,79 @@
+{
+  "folder": "i6lapkDIgIlh2zR2",
+  "name": "Bite",
+  "type": "weapon",
+  "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+  "system": {
+    "description": "<p><strong>BITE:</strong> The creature may bite a target it’s grappled (most attackers can only crush their prey, see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03grappling00000]{Grappling}).</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "claws",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "equippable": false,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "Fighting",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "favorite": false,
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "category": "Natural Weapons",
+    "grants": [],
+    "grantOn": 1,
+    "choiceSets": [],
+    "damage": "@str+d6",
+    "range": "",
+    "rangeType": 0,
+    "rof": 1,
+    "ap": 0,
+    "parry": 0,
+    "minStr": "",
+    "shots": 0,
+    "currentShots": 0,
+    "ammo": "",
+    "reloadType": "none",
+    "ppReloadCost": 2,
+    "trademark": 0,
+    "isHeavyWeapon": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1719181706976,
+    "modifiedTime": 1719182786228,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "U6cz9rAjv6KGbwY3",
+  "sort": 0,
+  "_key": "!items!U6cz9rAjv6KGbwY3"
+}
