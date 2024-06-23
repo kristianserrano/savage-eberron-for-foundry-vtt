@@ -1,5 +1,5 @@
 {
-  "name": "Language (Irial)",
+  "name": "Language",
   "type": "skill",
   "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Language.webp",
   "system": {
@@ -15,8 +15,132 @@
     "wild-die": {
       "sides": 6
     },
+    "choiceSets": [
+      {
+        "title": "Language",
+        "choice": null,
+        "choices": [
+          {
+            "name": "Abyssal",
+            "addToName": true
+          },
+          {
+            "name": "Argon",
+            "addToName": true
+          },
+          {
+            "name": "Aquan",
+            "addToName": true
+          },
+          {
+            "name": "Auran",
+            "addToName": true
+          },
+          {
+            "name": "Celestial",
+            "addToName": true
+          },
+          {
+            "name": "Common",
+            "addToName": true
+          },
+          {
+            "name": "Daan",
+            "addToName": true
+          },
+          {
+            "name": "Draconic",
+            "addToName": true
+          },
+          {
+            "name": "Druidic",
+            "addToName": true
+          },
+          {
+            "name": "Dwarven",
+            "addToName": true
+          },
+          {
+            "name": "Elven",
+            "addToName": true
+          },
+          {
+            "name": "Giant",
+            "addToName": true
+          },
+          {
+            "name": "Gnoll",
+            "addToName": true
+          },
+          {
+            "name": "Gnome",
+            "addToName": true
+          },
+          {
+            "name": "Goblin",
+            "addToName": true
+          },
+          {
+            "name": "Halfling",
+            "addToName": true
+          },
+          {
+            "name": "Ignan",
+            "addToName": true
+          },
+          {
+            "name": "Infernal",
+            "addToName": true
+          },
+          {
+            "name": "Irial",
+            "addToName": true
+          },
+          {
+            "name": "Kythric",
+            "addToName": true
+          },
+          {
+            "name": "Mabran",
+            "addToName": true
+          },
+          {
+            "name": "Orc",
+            "addToName": true
+          },
+          {
+            "name": "Quori",
+            "addToName": true
+          },
+          {
+            "name": "Riedran",
+            "addToName": true
+          },
+          {
+            "name": "Risian",
+            "addToName": true
+          },
+          {
+            "name": "Sylvan",
+            "addToName": true
+          },
+          {
+            "name": "Syranian",
+            "addToName": true
+          },
+          {
+            "name": "Terran",
+            "addToName": true
+          },
+          {
+            "name": "Undercommon",
+            "addToName": true
+          }
+        ]
+      }
+    ],
     "source": "Eberron for Savage Worlds",
-    "swid": "language-irial"
+    "swid": "language-abyssal"
   },
   "effects": [],
   "folder": "ktcv7W97mLQMloS8",
@@ -32,10 +156,10 @@
     "systemVersion": "3.2.4",
     "coreVersion": "11.315",
     "createdTime": 1690860753470,
-    "modifiedTime": 1700890169618,
+    "modifiedTime": 1700890169616,
     "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
   },
-  "_id": "hvDwn1UQ0UZPnO0z",
-  "sort": 900000,
-  "_key": "!items!hvDwn1UQ0UZPnO0z"
+  "_id": "SwmDEutPLkBhOtVX",
+  "sort": 2000000,
+  "_key": "!items!SwmDEutPLkBhOtVX"
 }
