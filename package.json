@@ -4,7 +4,9 @@
   "description": "Eberron for Savage Worlds: Campaign Setting",
   "main": "index.js",
   "scripts": {
-    "fvttLaunch": "bash ./tools/fvttLaunch.sh",
+    "createLink": "bash ./tools/createLink.sh",
+    "fvttLaunch-v11": "bash ./tools/fvttLaunch-v11.sh",
+    "fvttLaunch-v12": "bash ./tools/fvttLaunch-v12.sh",
     "packLDB": "node ./tools/packLDB.mjs",
     "unpackLDB": "node ./tools/unpackLDB.mjs"
   },
