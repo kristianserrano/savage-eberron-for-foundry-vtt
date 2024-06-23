@@ -1,5 +1,5 @@
 {
-  "name": "Kalashtar (Psion)",
+  "name": "Kalashtar",
   "type": "ability",
   "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
   "system": {
@@ -12,38 +12,44 @@
     "grantsPowers": false,
     "grants": [
       {
-        "name": "Charismatic",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.74AfFMKmvu3TvlRz",
         "img": "icons/skills/social/diplomacy-peace-alliance.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.74AfFMKmvu3TvlRz"
+        "name": "Charismatic",
+        "mutation": {}
       },
       {
-        "name": "Dual Mind",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.QSViCOYRActfiwRL",
         "img": "icons/magic/perception/third-eye-blue-red.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.QSViCOYRActfiwRL"
+        "name": "Dual Mind",
+        "mutation": {}
       },
       {
-        "name": "Enemy",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.hhVkBAtLemw4lhym",
         "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.hhVkBAtLemw4lhym"
+        "name": "Enemy",
+        "mutation": {}
       },
       {
-        "name": "Outsider",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.7n8ZbYQejbInG1Iw",
         "img": "icons/skills/social/wave-halt-stop.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.7n8ZbYQejbInG1Iw"
+        "name": "Outsider",
+        "mutation": {}
       },
       {
-        "name": "Naturally Psionic (Psion)",
-        "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.vC7NFuXsCZV2Qvru"
-      },
-      {
-        "name": "Dreamless",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.pYWOMwN0Rd64OYmW",
         "img": "icons/magic/time/day-night-sunset-sunrise.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.pYWOMwN0Rd64OYmW"
+        "name": "Dreamless",
+        "mutation": {}
+      },
+      {
+        "name": "Naturally Psionic",
+        "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.fcYVlZ4gO70hvh1x"
       }
     ],
     "source": "Eberron for Savage Worlds",
-    "swid": "kalashtar-psion"
+    "swid": "kalashtar-psion",
+    "choiceSets": []
   },
   "effects": [],
   "folder": null,
@@ -56,13 +62,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
+    "systemVersion": "3.4.1",
     "coreVersion": "11.315",
     "createdTime": 1690332964983,
-    "modifiedTime": 1700890169376,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1719177488885,
+    "lastModifiedBy": "Xbne19Xghka479we"
   },
-  "_id": "8WLJ1KakQ04jOvpt",
-  "sort": 300000,
-  "_key": "!items!8WLJ1KakQ04jOvpt"
+  "_id": "BAEBKzw0iMwIPB71",
+  "sort": 0,
+  "_key": "!items!BAEBKzw0iMwIPB71"
 }
