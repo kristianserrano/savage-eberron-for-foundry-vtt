@@ -31,9 +31,8 @@
       },
       {
         "type": "ancestry",
-        "label": "Halfling",
-        "selector": "halfling",
-        "combinator": "or"
+        "label": "Gnome",
+        "selector": "gnome"
       },
       {
         "type": "ancestry",
@@ -49,14 +48,15 @@
       },
       {
         "type": "ancestry",
-        "label": "Human",
-        "selector": "human",
+        "label": "Halfling",
+        "selector": "halfling",
         "combinator": "or"
       },
       {
         "type": "ancestry",
-        "label": "Gnome",
-        "selector": "gnome"
+        "label": "Human",
+        "selector": "human",
+        "combinator": "or"
       }
     ],
     "grants": [],
