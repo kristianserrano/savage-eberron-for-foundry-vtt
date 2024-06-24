@@ -1,0 +1,49 @@
+{
+  "folder": "gQBI8ov8J2Rgzgmu",
+  "name": "Siberys Mark of Scribing",
+  "type": "ability",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "siberys-mark-of-detection",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Dragonmarks",
+    "grants": [
+      {
+        "name": "Illusion",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power.webp",
+        "uuid": "Compendium.savage-eberron.eberron-powers.Item.XOu5NA90SagVeHT5",
+        "mutation": {
+          "name": "Illusion (documents with Duration, Permanent, and Strong)",
+          "system": {
+            "arcane": "Siberys Mark of Scribing",
+            "innate": true
+          }
+        }
+      }
+    ],
+    "choiceSets": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1719261628934,
+    "modifiedTime": 1719261935308,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "8x3RiNZwxFxIorjQ",
+  "_key": "!items!8x3RiNZwxFxIorjQ"
+}

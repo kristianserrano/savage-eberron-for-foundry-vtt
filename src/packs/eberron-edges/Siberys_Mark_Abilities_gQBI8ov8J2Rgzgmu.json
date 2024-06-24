@@ -1,0 +1,19 @@
+{
+  "name": "Siberys Mark Abilities",
+  "sorting": "a",
+  "folder": "kPypf6AXI4Ae3Tbk",
+  "type": "Item",
+  "_id": "gQBI8ov8J2Rgzgmu",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1719261604479,
+    "modifiedTime": 1719264062374,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!folders!gQBI8ov8J2Rgzgmu"
+}

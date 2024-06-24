@@ -1,0 +1,49 @@
+{
+  "folder": "gQBI8ov8J2Rgzgmu",
+  "name": "Siberys Mark of Storm",
+  "type": "ability",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "siberys-mark-of-detection",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Dragonmarks",
+    "grants": [
+      {
+        "name": "Elemental Manipulation",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.MEjY7RhNahJGbfRC",
+        "mutation": {
+          "name": "Elemental Manipulation (Weather)",
+          "system": {
+            "arcane": "Siberys Mark of Storm",
+            "innate": true
+          }
+        }
+      }
+    ],
+    "choiceSets": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1719261628934,
+    "modifiedTime": 1719261935308,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "aYdrFVhlPmjDu66a",
+  "_key": "!items!aYdrFVhlPmjDu66a"
+}

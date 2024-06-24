@@ -1,0 +1,49 @@
+{
+  "folder": "gQBI8ov8J2Rgzgmu",
+  "name": "Siberys Mark of Passage",
+  "type": "ability",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "siberys-mark-of-detection",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Dragonmarks",
+    "grants": [
+      {
+        "name": "Teleport",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Power_v1.webp",
+        "uuid": "Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t",
+        "mutation": {
+          "name": "Teleport (Greater Teleport)",
+          "system": {
+            "arcane": "Siberys Mark of Passage",
+            "innate": true
+          }
+        }
+      }
+    ],
+    "choiceSets": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1719261628934,
+    "modifiedTime": 1719261935308,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "X7zzgvNe7319qNf3",
+  "_key": "!items!X7zzgvNe7319qNf3"
+}

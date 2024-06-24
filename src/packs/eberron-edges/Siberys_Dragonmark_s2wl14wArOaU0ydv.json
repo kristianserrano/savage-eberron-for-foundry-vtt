@@ -1,0 +1,279 @@
+{
+  "folder": "kPypf6AXI4Ae3Tbk",
+  "name": "Siberys Dragonmark",
+  "type": "edge",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>An heir of Siberys manifests a Siberys dragonmark—the rarest and most powerful form of a dragonmark—across his entire body. This grants the heir of Siberys a major @UUID[Compendium.swade-fantasy-companion.swade-fc-abilities.Item.LxomYrz417VxjMhA]{Innate Power} that can be activated once per day. If the power specifies one or more Power Modifiers, the power is always activated with those Power Modifiers unless stated otherwise. Using an Epic Modifier for this power does not require the @UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.u6T4PbGGO1rmF2F0]{Epic Mastery} Edge.</p><table><colgroup><col></col><col></col></colgroup><thead><tr><th scope=\"col\"><p>Mark</p></th><th scope=\"col\"><p>Major Powers</p></th></tr></thead><tbody><tr><td><p>Mark of Detection</p></td><td><p>Boost Trait (Moment of Prescience, self only)</p><p></p></td></tr><tr><td><p>Mark of Finding</p></td><td><p>Locate (Discern Location)</p><p></p></td></tr><tr><td><p>Mark of Handling</p></td><td><p>Awaken or <em>summon animal</em> (Increased Trait ×3)</p><p></p></td></tr><tr><td><p>Mark of Healing</p></td><td><p>Healing (Mass Healing)</p><p></p></td></tr><tr><td><p>Mark of Hospitality</p></td><td><p>Teleport (Refuge)</p><p></p></td></tr><tr><td><p>Mark of Making</p></td><td><p>Conjure item (Durable, True Creation, and (optionally) Major Creation)</p><p></p></td></tr><tr><td><p>Mark of Passage</p></td><td><p>Teleport (Greater Teleport)</p><p></p></td></tr><tr><td><p>Mark of Scribing</p></td><td><p>Illusion (documents with Duration, Permanent, and Strong)</p><p></p></td></tr><tr><td><p>Mark of Sentinel</p></td><td><p>Mind blank</p></td></tr><tr><td><p>Mark of Shadow</p></td><td><p>Scrying (Greater Scrying)</p><p></p></td></tr><tr><td><p>Mark of Storm</p></td><td><p>Elemental manipulation (Weather)</p><p></p></td></tr><tr><td><p>Mark of Warding</p></td><td><p>Barrier (Damage (solid wall), Deadly, Hardened, and Size)</p><p></p></td></tr></tbody></table>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Weird",
+    "isArcaneBackground": true,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 3,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "other",
+        "label": "any ancestry of a dragonmarked lineage",
+        "combinator": "and",
+        "selector": "",
+        "value": ""
+      },
+      {
+        "type": "other",
+        "label": "d12+ in any two skills",
+        "combinator": "and",
+        "selector": "",
+        "value": ""
+      },
+      {
+        "type": "other",
+        "label": "cannot have Aberrant Dragonmark or Dragonmark",
+        "selector": "",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "grants": [],
+    "source": "Eberron for Savage Worlds",
+    "swid": "siberys-dragonmark",
+    "choiceSets": [
+      {
+        "title": "Siberys Dragonmark",
+        "choice": null,
+        "choices": [
+          {
+            "name": "Mark of Detection",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Detection",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.pKEXcxJIgd3XCyYz"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Mark of Finding",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Finding",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.J1oKWDcKX8oZos7k"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Mark of Handling",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Handling",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.XSP52q9dDp88ankU"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Mark of Healing",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Healing",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.Lhkal1gk48WsEzZ8"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Mark of Hospitality",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Hospitality",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.NTlqh5QURlu6Hfmb"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Mark of Making",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Making",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.oo3XFRxJRo0aSvVJ"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Mark of Passage",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Passage",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.X7zzgvNe7319qNf3"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Mark of Scribing",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Scribing",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.8x3RiNZwxFxIorjQ"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Mark of Sentinel",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Sentinel",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.gGO2lHqrmPGK8Lvv"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Mark of Shadow",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Shadow",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.oKwLceXBfHDoC12v"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Mark of Storm",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Storm",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.aYdrFVhlPmjDu66a"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Mark of Warding",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Siberys Mark of Warding",
+                    "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+                    "uuid": "Compendium.savage-eberron.eberron-edges.Item.pAm4muLZmsNrjW9q"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "eberron-for-savage-worlds",
+      "system": "swade",
+      "coreVersion": "11.306",
+      "systemVersion": "3.0.6"
+    },
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1690694751873,
+    "modifiedTime": 1719264032139,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "s2wl14wArOaU0ydv",
+  "sort": 0,
+  "_key": "!items!s2wl14wArOaU0ydv"
+}
