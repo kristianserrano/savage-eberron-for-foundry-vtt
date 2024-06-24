@@ -1,5 +1,5 @@
 {
-  "folder": "s3SVj2RF8CXpDh3d",
+  "folder": "8hnpzMqu320tkWo3",
   "name": "Aberrant Mark",
   "type": "edge",
   "_id": "RVTvWKJxEtdJPCJz",
@@ -68,13 +68,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
+    "systemVersion": "3.4.1",
     "coreVersion": "11.315",
     "createdTime": 1689894745260,
-    "modifiedTime": 1700890169920,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1719214049273,
+    "lastModifiedBy": "Xbne19Xghka479we"
   },
-  "sort": 0,
+  "sort": 1250000,
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3
