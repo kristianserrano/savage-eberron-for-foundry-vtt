@@ -32,7 +32,8 @@
       {
         "type": "ancestry",
         "label": "Gnome",
-        "selector": "gnome"
+        "selector": "gnome",
+        "combinator": "or"
       },
       {
         "type": "ancestry",
@@ -55,8 +56,7 @@
       {
         "type": "ancestry",
         "label": "Human",
-        "selector": "human",
-        "combinator": "or"
+        "selector": "human"
       }
     ],
     "grants": [],
@@ -260,7 +260,7 @@
     "systemVersion": "3.4.1",
     "coreVersion": "11.315",
     "createdTime": 1690138421288,
-    "modifiedTime": 1719215610935,
+    "modifiedTime": 1719267670922,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 1400000,
