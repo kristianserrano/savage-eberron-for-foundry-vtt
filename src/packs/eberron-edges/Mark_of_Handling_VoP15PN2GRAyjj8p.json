@@ -1,0 +1,133 @@
+{
+  "folder": "Xy51W61MfX2bpnIZ",
+  "name": "Mark of Handling",
+  "type": "ability",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "mark-of-finding",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Dragonmarks",
+    "grants": [],
+    "choiceSets": [
+      {
+        "title": "Mark of Handling Skill Bonus",
+        "choice": null,
+        "choices": [
+          {
+            "name": "Persuasion",
+            "addToName": false,
+            "mutation": {
+              "effects": [
+                {
+                  "icon": "icons/environment/creatures/horse-brown.webp",
+                  "duration": {
+                    "rounds": null,
+                    "startTime": 0,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": null,
+                      "favorite": true,
+                      "loseTurnOnHold": false
+                    }
+                  },
+                  "changes": [
+                    {
+                      "key": "@Skill{Persuasion}[system.die.modifier]",
+                      "mode": 2,
+                      "value": "1",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "name": "Mark of Handling Persuasion Bonus",
+                  "_id": "cvVMViEM6L6bKEAV",
+                  "disabled": true,
+                  "description": "<p>+1 to Persuasion to dealing with animals</p>",
+                  "origin": null,
+                  "statuses": [],
+                  "tint": null,
+                  "_key": "!items.effects!VoP15PN2GRAyjj8p.cvVMViEM6L6bKEAV"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Riding",
+            "addToName": false,
+            "mutation": {
+              "effects": [
+                {
+                  "icon": "icons/environment/people/charge.webp",
+                  "duration": {
+                    "rounds": null,
+                    "startTime": 0,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": null,
+                      "loseTurnOnHold": false,
+                      "favorite": true
+                    }
+                  },
+                  "changes": [
+                    {
+                      "key": "@Skill{Riding}[system.die.modifier]",
+                      "mode": 2,
+                      "value": "1",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "name": "Mark of Handling Riding Bonus",
+                  "_id": "L2eaZB2c5a9hqBFg",
+                  "disabled": false,
+                  "description": "<p>+1 to Riding</p>",
+                  "origin": null,
+                  "statuses": [],
+                  "tint": null,
+                  "_key": "!items.effects!VoP15PN2GRAyjj8p.L2eaZB2c5a9hqBFg"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1719210084517,
+    "modifiedTime": 1719213982462,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "VoP15PN2GRAyjj8p",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!items!VoP15PN2GRAyjj8p"
+}

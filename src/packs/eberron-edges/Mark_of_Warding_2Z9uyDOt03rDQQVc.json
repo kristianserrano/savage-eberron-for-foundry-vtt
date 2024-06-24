@@ -1,0 +1,75 @@
+{
+  "folder": "Xy51W61MfX2bpnIZ",
+  "name": "Mark of Warding",
+  "type": "ability",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "mark-of-finding",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Dragonmarks",
+    "grants": [],
+    "choiceSets": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [
+    {
+      "icon": "icons/environment/people/charge.webp",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false,
+          "favorite": true
+        }
+      },
+      "changes": [
+        {
+          "key": "@Skill{Thievery}[system.die.modifier]",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "name": "Mark of Warding Thievery Bonus",
+      "_id": "L2eaZB2c5a9hqBFg",
+      "disabled": true,
+      "description": "<p>+1 to Thievery rolls related to locks or traps</p>",
+      "origin": null,
+      "statuses": [],
+      "tint": null,
+      "_key": "!items.effects!2Z9uyDOt03rDQQVc.L2eaZB2c5a9hqBFg"
+    }
+  ],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1719210084517,
+    "modifiedTime": 1719214012659,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "2Z9uyDOt03rDQQVc",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!items!2Z9uyDOt03rDQQVc"
+}

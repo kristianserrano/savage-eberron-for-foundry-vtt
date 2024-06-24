@@ -1,0 +1,75 @@
+{
+  "folder": "Xy51W61MfX2bpnIZ",
+  "name": "Mark of Detection",
+  "type": "ability",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "system": {
+    "description": "",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "mark-of-finding",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Dragonmarks",
+    "grants": [],
+    "choiceSets": [],
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [
+    {
+      "icon": "icons/tools/scribal/magnifying-glass.webp",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "favorite": true,
+          "loseTurnOnHold": false
+        }
+      },
+      "changes": [
+        {
+          "key": "@Skill{Notice}[system.die.modifier]",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "name": "Mark of Detection Notice Bonus",
+      "_id": "cvVMViEM6L6bKEAV",
+      "disabled": false,
+      "description": "<p>+1 to Notice rolls</p>",
+      "origin": null,
+      "statuses": [],
+      "tint": null,
+      "_key": "!items.effects!2dzje7NQqX9Rdepj.cvVMViEM6L6bKEAV"
+    }
+  ],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1719210084517,
+    "modifiedTime": 1719213965216,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "2dzje7NQqX9Rdepj",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!items!2dzje7NQqX9Rdepj"
+}

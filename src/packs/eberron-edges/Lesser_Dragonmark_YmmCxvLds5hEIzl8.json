@@ -1,5 +1,5 @@
 {
-  "folder": "s3SVj2RF8CXpDh3d",
+  "folder": "8hnpzMqu320tkWo3",
   "name": "Lesser Dragonmark",
   "type": "edge",
   "_id": "YmmCxvLds5hEIzl8",
@@ -33,13 +33,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
+    "systemVersion": "3.4.1",
     "coreVersion": "11.315",
     "createdTime": 1690139745283,
-    "modifiedTime": 1700890169675,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1719214052186,
+    "lastModifiedBy": "Xbne19Xghka479we"
   },
-  "sort": 0,
+  "sort": 1212500,
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3
