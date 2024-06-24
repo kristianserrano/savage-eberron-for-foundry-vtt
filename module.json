@@ -165,20 +165,42 @@
     {
       "name": "Eberron for Savage Worlds",
       "sorting": "m",
-      "color": "#2e111a",
+      "color": "#403e3f",
       "packs": [
-        "eberron-book",
-        "eberron-ancestries",
-        "eberron-skills",
-        "eberron-edges",
-        "eberron-gear",
-        "eberron-powers",
-        "eberron-magic-items",
-        "eberron-organizations",
-        "eberron-abilities",
-        "eberron-bestiary"
+        "eberron-book"
       ],
-      "folders": []
+      "folders": [
+        {
+          "name": "Character Options",
+          "sorting": "a",
+          "color": "#403e3f",
+          "packs": [
+            "eberron-ancestries",
+            "eberron-skills",
+            "eberron-edges",
+            "eberron-powers"
+          ]
+        },
+        {
+          "name": "Adventuring Equipment",
+          "sorting": "a",
+          "color": "#403e3f",
+          "packs": [
+            "eberron-gear",
+            "eberron-magic-items"
+          ]
+        },
+        {
+          "name": "Bestiary",
+          "sorting": "a",
+          "color": "#403e3f",
+          "packs": [
+            "eberron-organizations",
+            "eberron-abilities",
+            "eberron-bestiary"
+          ]
+        }
+      ]
     }
   ],
   "media": [
