@@ -1,0 +1,316 @@
+{
+  "folder": "8hnpzMqu320tkWo3",
+  "name": "Elite Shifter",
+  "type": "edge",
+  "_id": "2xPIWDCS1zfQV5CO",
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+  "system": {
+    "description": "<p>Either inherently or through conditioning, the shifter’s ability is enhanced beyond its normal abilities. All abilities are in effect only while shifting.</p><ul><li><p><strong>Beasthide:</strong> The shifter gains +2 Toughness.</p></li><li><p><strong>Cliffwalk:</strong> The shifter gets a free reroll on Athletics (climbing) rolls.</p></li><li><p><strong>Longstride:</strong> The shifter’s Pace increases by an additional +2, and her running die increases by another die type.</p></li><li><p><strong>Longtooth:</strong> Wounds dealt by the shifter’s bite attacks bleed copiously. Whenever the shifter makes a successful damage roll from a bite attack, she adds +4 to the damage.</p></li><li><p><strong>Razorclaw:</strong> If the shifter can charge at least 6” before attacking a target with her claws, she can make two claw attacks at the end of the charge. The shifter also adds +4 to damage rolls for each claw attack.</p></li><li><p><strong>Wildhunt:</strong> Non-visual senses improve to such a degree that the shifter’s Notice skill increases by one die size. This increase applies to non-visual senses only.</p></li></ul><p>Shifters with the Extra Shifter Ability Edge may take this Edge a second time to enhance the second trait.</p><p></p>",
+    "notes": "",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "Background",
+    "isArcaneBackground": false,
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "ancestry",
+        "label": "Shifter",
+        "selector": "shifter"
+      }
+    ],
+    "grants": [],
+    "choiceSets": [
+      {
+        "title": "Elite Shifter Ability",
+        "choice": null,
+        "choices": [
+          {
+            "name": "Beasthide",
+            "addToName": true,
+            "mutation": {
+              "effects": [
+                {
+                  "icon": "icons/commodities/leather/leather-pelt-cured.webp",
+                  "duration": {
+                    "rounds": null,
+                    "startTime": 0,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": null,
+                      "loseTurnOnHold": false,
+                      "favorite": true
+                    }
+                  },
+                  "changes": [
+                    {
+                      "key": "system.stats.toughness.value",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "name": "Elite Beasthide Shifting",
+                  "_id": "90nUyLKq30pMyxz4",
+                  "disabled": true,
+                  "description": "<p>The shifter gains +2 Toughness.</p>",
+                  "origin": null,
+                  "statuses": [],
+                  "tint": null,
+                  "_key": "!items.effects!2xPIWDCS1zfQV5CO.90nUyLKq30pMyxz4"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Cliffwalk",
+            "addToName": true,
+            "mutation": {
+              "effects": [
+                {
+                  "name": "Elite Cliffwalk Shifting",
+                  "transfer": true,
+                  "_id": "8PNzs3rqR3VfEJQ1",
+                  "changes": [],
+                  "disabled": true,
+                  "duration": {
+                    "startTime": 0,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "description": "<p>The shifter gets a free reroll on Athletics (climbing) rolls.</p>",
+                  "icon": "icons/skills/movement/arrow-upward-white.webp",
+                  "origin": null,
+                  "statuses": [],
+                  "flags": {
+                    "swade": {
+                      "expiration": null,
+                      "loseTurnOnHold": false,
+                      "favorite": true
+                    }
+                  },
+                  "tint": null,
+                  "_key": "!items.effects!VxGYOsr6hG0DDpzv.8PNzs3rqR3VfEJQ1"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Longstride",
+            "addToName": true,
+            "mutation": {
+              "effects": [
+                {
+                  "icon": "icons/skills/movement/figure-running-gray.webp",
+                  "duration": {
+                    "rounds": null,
+                    "startTime": 0,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": null,
+                      "loseTurnOnHold": false,
+                      "favorite": true
+                    }
+                  },
+                  "changes": [
+                    {
+                      "key": "system.stats.speed.value",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    },
+                    {
+                      "key": "system.stats.speed.runningDie",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "name": "Elite Longstride Shifting",
+                  "_id": "rJeFkeehCJiXzAjt",
+                  "disabled": true,
+                  "description": "<p>The shifter’s Pace increases by an additional +2, and her running die increases by another die type.</p>",
+                  "origin": null,
+                  "statuses": [],
+                  "tint": null,
+                  "_key": "!items.effects!9MDKnD2hdpvmqMS6.rJeFkeehCJiXzAjt"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Longtooth",
+            "addToName": true,
+            "mutation": {
+              "effects": [
+                {
+                  "name": "Elite Longtooth Shifting",
+                  "transfer": true,
+                  "_id": "xWTJunq0PbJPBcFC",
+                  "changes": [
+                    {
+                      "key": "@Weapon{Bite}[system.damage]",
+                      "mode": 2,
+                      "value": "+4",
+                      "priority": null
+                    }
+                  ],
+                  "disabled": true,
+                  "duration": {
+                    "startTime": 0,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "description": "<p>Wounds dealt by the shifter’s bite attacks bleed copiously. Whenever the shifter makes a successful damage roll from a bite attack, she adds +4 to the damage.</p>",
+                  "icon": "icons/creatures/abilities/fangs-teeth-bite.webp",
+                  "origin": null,
+                  "statuses": [],
+                  "flags": {
+                    "swade": {
+                      "expiration": null,
+                      "loseTurnOnHold": false,
+                      "favorite": true
+                    }
+                  },
+                  "tint": null,
+                  "_key": "!items.effects!6Dza6CWARVmBvXML.xWTJunq0PbJPBcFC"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Razorclaw",
+            "addToName": true,
+            "mutation": {
+              "effects": [
+                {
+                  "name": "Elite Razorclaw Shifting",
+                  "transfer": true,
+                  "_id": "MYMJkNWsBZRypsaF",
+                  "changes": [
+                    {
+                      "key": "@Weapon{Claw}[system.damage]",
+                      "mode": 2,
+                      "value": "+4",
+                      "priority": null
+                    }
+                  ],
+                  "disabled": true,
+                  "duration": {
+                    "startTime": 0,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "description": "<p>If the shifter can charge at least 6” before attacking a target with her claws, she can make two claw attacks at the end of the charge. The shifter also adds +4 to damage rolls for each claw attack.</p>",
+                  "icon": "icons/creatures/claws/claw-straight-brown.webp",
+                  "origin": null,
+                  "statuses": [],
+                  "flags": {
+                    "swade": {
+                      "expiration": null,
+                      "loseTurnOnHold": false
+                    }
+                  },
+                  "tint": null,
+                  "_key": "!items.effects!kXE1Uak9aNq57L2n.MYMJkNWsBZRypsaF"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Wildhunt",
+            "addToName": true,
+            "mutation": {
+              "effects": [
+                {
+                  "icon": "systems/swade/assets/icons/active-effect.svg",
+                  "duration": {
+                    "rounds": null,
+                    "startTime": 0,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": null,
+                      "favorite": true
+                    }
+                  },
+                  "changes": [
+                    {
+                      "key": "@Skill{Notice}[system.die.sides]",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "name": "Elite Wildhunt Shifting",
+                  "_id": "cPVvHSTvsmidQqnU",
+                  "disabled": true,
+                  "description": "",
+                  "origin": null,
+                  "statuses": [],
+                  "_key": "!items.effects!pffyorK0SkY51rwm.cPVvHSTvsmidQqnU"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "source": "Eberron for Savage Worlds",
+    "swid": "elite-shifter-beasthide"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.2.4",
+    "coreVersion": "11.315",
+    "createdTime": 1689900280888,
+    "modifiedTime": 1700890169765,
+    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!items!2xPIWDCS1zfQV5CO"
+}
