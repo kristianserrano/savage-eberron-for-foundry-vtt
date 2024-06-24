@@ -1,5 +1,10 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.2.1
+
+- Consolidates Least Dragonmark into one Edge with choice sets for Dragonmark Special Ability Item Grants (e.g., Mark of Detection).
+- Adds Dragonmark Special Abilities that include active effects and choice sets for skill bonuses for  Mark of Handling, Mark of Passage, and Mark of Storm.
+
 ## v1.2.0
 
 - Removes variants of the following Items and replaces them with a singular version:
