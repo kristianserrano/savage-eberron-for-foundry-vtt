@@ -13,7 +13,7 @@
     "grantsPowers": false,
     "grants": [],
     "source": "Eberron for Savage Worlds",
-    "swid": "shifting-beasthide",
+    "swid": "shifting",
     "choiceSets": [
       {
         "name": "Shifting",
@@ -37,7 +37,8 @@
                   },
                   "flags": {
                     "swade": {
-                      "expiration": 2
+                      "expiration": 2,
+                      "favorite": true
                     }
                   },
                   "changes": [
@@ -54,7 +55,7 @@
                   "origin": null,
                   "tint": null,
                   "name": "Beast Hide",
-                  "description": "",
+                  "description": "<p><strong>Beasthide:</strong> The skin of beasthide shifters harden, providing @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili01#armor]{Armor} +4.</p>",
                   "statuses": [],
                   "_key": "!items.effects!8Q3ltEl0u62dobbv.9N0kPj0dMt0HJ16s"
                 }
@@ -80,7 +81,8 @@
                   "flags": {
                     "swade": {
                       "expiration": 2,
-                      "loseTurnOnHold": false
+                      "loseTurnOnHold": false,
+                      "favorite": true
                     }
                   },
                   "changes": [],
@@ -90,7 +92,7 @@
                   "origin": null,
                   "tint": null,
                   "name": "Free Runner",
-                  "description": "",
+                  "description": "<p><strong>Cliffwalk:</strong> The limbs, hands, and feet of cliffwalk shifters become stronger. They gain the @Compendium[swade-core-rules.swade-edges.mbuDd4nvPlG7vWrh]{Free Runner} Edge.</p>",
                   "statuses": [],
                   "_key": "!items.effects!APhbuPvQt95Z1E8C.9r2vT5niQWmbLlWT"
                 }
@@ -115,7 +117,8 @@
                   },
                   "flags": {
                     "swade": {
-                      "expiration": 2
+                      "expiration": 2,
+                      "favorite": true
                     }
                   },
                   "changes": [
@@ -138,7 +141,7 @@
                   "origin": null,
                   "tint": null,
                   "name": "Fleet-Footed",
-                  "description": "",
+                  "description": "<p><strong>Longstride:</strong> The legs of longstride shifters elongate, and longstride shifters balance on the balls of their feet. They gain the @Compendium[swade-core-rules.swade-edges.WUNQjbr2nbUlvnR9]{Fleet-Footed} Edge.</p>",
                   "statuses": [],
                   "_key": "!items.effects!LY2SGGr9RXatWEte.D3PRDbf90rul7UdD"
                 }
@@ -173,17 +176,29 @@
                   "flags": {
                     "swade": {
                       "expiration": 2,
-                      "loseTurnOnHold": false
+                      "loseTurnOnHold": false,
+                      "favorite": true
                     }
                   },
-                  "changes": [],
+                  "changes": [
+                    {
+                      "key": "@weapon{Bite}[system.equipStatus]",
+                      "mode": 5,
+                      "value": "4"
+                    },
+                    {
+                      "key": "@weapon{Bite}[system.favorite]",
+                      "mode": 5,
+                      "value": "1"
+                    }
+                  ],
                   "transfer": true,
                   "_id": "QUmjEr1eM9OtD1gU",
                   "disabled": true,
                   "origin": null,
                   "tint": null,
                   "name": "Natural Bite",
-                  "description": "",
+                  "description": "<p><strong>Longtooth:</strong> The face of a longtooth shifter distorts, growing a canine muzzle full of sharp teeth that cause Str+d6 damage (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03naturalweapo00]{Natural Weapons} in SAVAGE WORLDS).</p>",
                   "statuses": [],
                   "_key": "!items.effects!uPMabHulIYMts8JA.QUmjEr1eM9OtD1gU"
                 }
@@ -197,53 +212,13 @@
               "system": {
                 "grants": [
                   {
-                    "name": "Claw (Main Hand)",
+                    "name": "Claws",
                     "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
                     "uuid": "Compendium.savage-eberron.eberron-abilities.Item.rGHJTeokcVzifCE6",
                     "mutation": {
-                      "effects": [
-                        {
-                          "changes": [
-                            {
-                              "key": "@weapon{Claw (Main Hand)}[system.equipStatus]",
-                              "value": "4",
-                              "mode": 5,
-                              "priority": null
-                            },
-                            {
-                              "key": "@weapon{Claw (Main Hand)}[system.favorite]",
-                              "value": "1",
-                              "mode": 5,
-                              "priority": null
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "name": "Claw (Offhand)",
-                    "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
-                    "uuid": "Compendium.savage-eberron.eberron-abilities.Item.rGHJTeokcVzifCE6",
-                    "mutation": {
-                      "effects": [
-                        {
-                          "changes": [
-                            {
-                              "key": "@weapon{Claw (Offhand)}[system.equipStatus]",
-                              "value": "2",
-                              "mode": 5,
-                              "priority": null
-                            },
-                            {
-                              "key": "@weapon{Claw (Offhand)}[system.favorite]",
-                              "value": "1",
-                              "mode": 5,
-                              "priority": null
-                            }
-                          ]
-                        }
-                      ]
+                      "system": {
+                        "quantity": 2
+                      }
                     }
                   }
                 ]
@@ -263,17 +238,29 @@
                   "flags": {
                     "swade": {
                       "expiration": 2,
-                      "loseTurnOnHold": false
+                      "loseTurnOnHold": false,
+                      "favorite": true
                     }
                   },
-                  "changes": [],
+                  "changes": [
+                    {
+                      "key": "@weapon{Claws}[system.equipStatus]",
+                      "mode": 5,
+                      "value": "4"
+                    },
+                    {
+                      "key": "@weapon{Claws}[system.favorite]",
+                      "mode": 5,
+                      "value": "1"
+                    }
+                  ],
                   "transfer": true,
                   "_id": "QoicVGshwUqpZR9L",
                   "disabled": true,
                   "origin": null,
                   "tint": null,
                   "name": "Natural Claws",
-                  "description": "",
+                  "description": "<p><strong>Razorclaw:</strong> The claws on the hands of razorclaw shifters grow and can be used to make attacks dealing Str+d4 damage (see (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03naturalweapo00]{Natural Weapons} in SAVAGE WORLDS).</p>",
                   "statuses": [],
                   "_key": "!items.effects!GPBbqKlhWGwV1M2N.QoicVGshwUqpZR9L"
                 }
@@ -298,7 +285,8 @@
                   },
                   "flags": {
                     "swade": {
-                      "expiration": 2
+                      "expiration": 2,
+                      "favorite": true
                     }
                   },
                   "changes": [
@@ -315,7 +303,7 @@
                   "origin": null,
                   "tint": null,
                   "name": "Alertness",
-                  "description": "",
+                  "description": "<p><strong>Wildhunt:</strong> Wildhunt shifters' sense of smell becomes more sensitive, granting them the @Compendium[swade-core-rules.swade-edges.M2diZ7X4997YL2pa]{Alertness} Edge.</p>",
                   "statuses": [],
                   "_key": "!items.effects!gGVagk0USYLO1Ckl.I55YAM3sUOZ0msqs"
                 }
