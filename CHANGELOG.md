@@ -1,5 +1,22 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.2.0
+
+- Removes variants of the following Items and replaces them with a singular version:
+  - Language Skills
+  - Kalashtar Ancestries
+  - Naturally Psionic Abilities
+  - Shifter Ancestries
+  - Shifting Abilities
+  - Extra Shifting Ability Edges
+  - Elite Shifter Edges
+- Adds choice sets to the following, which prompts for a choice of options for each respectively.
+  - Language Skill, which gives a choice of language.
+  - Kalashtar Ancestry, which grants Naturally Psionic, which gives a choice of Arcane Background (Psion or Soulknife).
+  - Shifter Ancestry, which grants Shifting, which gives a choice of Beasthide, Cliffwalk, Longstride, Longtooth, Razorclaw, and Wildhunt.
+  - Extra Shifting Ability Edge, which grants the Shifting Ability mentioned above and gives the same choices accordingly.
+  - Elite Shifter Edge, which grants a choice of Shifter type and its respective Active Effects.
+
 ## v1.1.4
 
 - Adds Aberration Special Ability
