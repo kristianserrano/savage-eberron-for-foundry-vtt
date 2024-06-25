@@ -1,5 +1,10 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.2.2
+
+- Consolidates Siberys Dragonmark into one Edge with choice sets for Siberys Dragonmark Special Ability Item Grants (e.g., Siberys Mark of Detection).
+- Adds Siberys Dragonmark Special Abilities that include grants and a choice set for powers from the Mark of Handling.
+
 ## v1.2.1
 
 - Consolidates Least Dragonmark into one Edge with choice sets for Dragonmark Special Ability Item Grants (e.g., Mark of Detection).
