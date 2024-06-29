@@ -1,0 +1,56 @@
+{
+  "folder": "ECEMzex66NcYtYJF",
+  "name": "Trample Damage",
+  "type": "action",
+  "_id": "FZLgYTjMLYpTUkAS",
+  "img": "systems/swade/assets/icons/action.svg",
+  "system": {
+    "description": "<p><strong>Trample:</strong> Str+d8</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "trample",
+    "additionalStats": {},
+    "favorite": false,
+    "category": "New Special Abilities",
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {
+        "MAt30TXZ": {
+          "name": "Trample",
+          "type": "damage",
+          "override": "@str+d8",
+          "modifier": "",
+          "dice": null,
+          "resourcesUsed": null,
+          "ap": null
+        }
+      }
+    },
+    "choiceSets": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1719638868464,
+    "modifiedTime": 1719639045991,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!FZLgYTjMLYpTUkAS"
+}

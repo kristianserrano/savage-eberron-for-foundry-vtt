@@ -1,0 +1,38 @@
+{
+  "effects": [],
+  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+  "name": "Environmental Resistance (Electricity)",
+  "type": "ability",
+  "system": {
+    "source": "Eberron for Savage Worlds",
+    "additionalStats": {},
+    "description": "<p><strong>Environmental Resistance (Electricity):</strong> +4 resistance / −4 damage from electricity or lightning-based effects.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Special Abilities",
+    "swid": "environmental-resistance",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "folder": "ECEMzex66NcYtYJF",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1700809448817,
+    "modifiedTime": 1719637797226,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "TDzYSq0fpVRiBgvh",
+  "sort": 0,
+  "_key": "!items!TDzYSq0fpVRiBgvh"
+}

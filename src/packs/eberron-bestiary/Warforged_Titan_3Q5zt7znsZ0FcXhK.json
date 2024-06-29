@@ -1,0 +1,1686 @@
+{
+  "name": "Warforged Titan",
+  "type": "npc",
+  "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_W_15.webp",
+  "system": {
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": false
+      },
+      "spirit": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unShakeBonus": 0
+      },
+      "strength": {
+        "die": {
+          "sides": 18,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": 12,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unStunBonus": 0,
+        "soakBonus": 0,
+        "bleedOut": {
+          "modifier": 0,
+          "ignoreWounds": false
+        }
+      }
+    },
+    "stats": {
+      "speed": {
+        "runningDie": 6,
+        "runningMod": 0,
+        "value": 6
+      },
+      "toughness": {
+        "value": 0,
+        "armor": 0,
+        "modifier": 0
+      },
+      "parry": {
+        "value": 0,
+        "shield": 0,
+        "modifier": 0
+      },
+      "size": 0
+    },
+    "details": {
+      "autoCalcToughness": true,
+      "autoCalcParry": true,
+      "archetype": "",
+      "appearance": "",
+      "notes": "",
+      "goals": "",
+      "biography": {
+        "value": ""
+      },
+      "species": {
+        "name": ""
+      },
+      "currency": 0,
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      },
+      "conviction": {
+        "value": 0,
+        "active": false
+      }
+    },
+    "powerPoints": {
+      "general": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "fatigue": {
+      "value": 0,
+      "max": 2,
+      "ignored": 0
+    },
+    "wounds": {
+      "value": 0,
+      "max": 0,
+      "ignored": 0
+    },
+    "woundsOrFatigue": {
+      "ignored": 0
+    },
+    "bennies": {
+      "value": 0,
+      "max": 0
+    },
+    "advances": {
+      "mode": "expanded",
+      "value": 0,
+      "rank": "Novice",
+      "details": "",
+      "list": []
+    },
+    "status": {
+      "isShaken": false,
+      "isDistracted": false,
+      "isVulnerable": false,
+      "isStunned": false,
+      "isEntangled": false,
+      "isBound": false,
+      "isIncapacitated": false
+    },
+    "initiative": {
+      "hasHesitant": false,
+      "hasLevelHeaded": false,
+      "hasImpLevelHeaded": false,
+      "hasQuick": false
+    },
+    "additionalStats": {},
+    "wildcard": false
+  },
+  "prototypeToken": {
+    "name": "Warforged Titan",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_N_15.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stats.parry.value"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Various",
+      "type": "hindrance",
+      "system": {
+        "description": "",
+        "notes": "",
+        "source": "",
+        "swid": "new-hindrance",
+        "additionalStats": {},
+        "favorite": false,
+        "grants": [],
+        "choiceSets": [],
+        "severity": "either",
+        "major": false
+      },
+      "_id": "XkTDH5tQsqyrNVzh",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        },
+        "core": {
+          "sourceId": "Actor.AU02Cn7o69efYGRu.Item.YdlqdNwv24BhwluM"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.3-dev",
+        "coreVersion": "11.315",
+        "createdTime": 1709266516907,
+        "modifiedTime": 1709266669656,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.XkTDH5tQsqyrNVzh"
+    },
+    {
+      "_id": "h0nK09EBjHBkx9Kc",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/jump-across.svg",
+      "name": "Athletics",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Athletics combines an individual’s coordin­ation with learned skills such as climbing, jumping, balancing, biking, wrestling, skiing, swimming, throwing, or catching. Characters who rely on physical power more than coordination can take the @Compendium[swade-core-rules.swade-edges.Brute]{Brute} Edge to link this skill to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} instead of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility}.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 4
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "athletics",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.qc2GOKFIXIJEpTw1"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719637363191,
+        "modifiedTime": 1719637363191,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.h0nK09EBjHBkx9Kc"
+    },
+    {
+      "_id": "pT09YLicYyQbF9zX",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/punch.svg",
+      "name": "Fighting",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Fighting covers all hand-to-hand (melee) attacks, whether it’s with fists, axes, laser swords, or martial arts. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{Chapter Three} for the combat rules and the various maneuvers a warrior might attempt.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 10
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "fighting",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719637394490,
+        "modifiedTime": 1719637394490,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.pT09YLicYyQbF9zX"
+    },
+    {
+      "_id": "Rbueu0qMbohKUgiW",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/psychic-waves.svg",
+      "name": "Notice",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "description": "<article class=\"swade-core\">\n<p>Notice is a hero’s general awareness and alertness. It’s used to sense sights, sounds, tastes, and smells, spot clues, detect ambushes, spot hidden weapons on a foe, or tell if a rival is lying, frightened, happy, etc.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Success} conveys basic information—the character hears movement in the forest, smells distant smoke, or senses someone isn’t being completely truthful.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise} grants more detail, such as the direction of a sound or odor or what topic a person is avoiding or lying about.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 4
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "notice",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.Y0545TlaAqRRE2P0"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719637409521,
+        "modifiedTime": 1719637409521,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.Rbueu0qMbohKUgiW"
+    },
+    {
+      "_id": "ocNIilmpMcKkh5hR",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/hidden.svg",
+      "name": "Stealth",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "agility",
+        "description": "<article class=\"swade-core\">\n<p>Stealth is the ability to hide and move quietly. A simple @Compendium[swade-core-rules.swade-rules.Trait Rolls]{success} on a Stealth roll means the character avoids detection if enemies aren’t particularly alert. If the character @Compendium[swade-core-rules.swade-rules.Trait Rolls]{fails} the roll, the enemy realizes something is amiss and begins actively searching for whatever roused them.</p>\n<p>Once foes are alerted and active, Stealth is opposed by @Compendium[swade-core-rules.swade-skills.Notice]{Notice} (a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{group roll} if there are many foes.</p>\n<p>The GM should apply any circumstantial penalties to @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls for @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{darkness}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{cover}, noise, distractions, and any difference in the target’s @Compendium[swade-core-rules.swade-rules.Size and Scale]{Scale} (just like when attacking). Sneaking through dry leaves might subtract 2 from the Stealth roll, for example, while spotting someone in the dark uses the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} penalty (−4). Don’t apply the same modifier to both rolls, however. If Stealth is at −2 for the leaves, don’t give Notice a +2 for them as well.</p>\n<p><strong>Sneak Attack: </strong> Sneaking up close enough to make a melee attack <em>always</em> requires an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed} Stealth roll versus the target’s @Compendium[swade-core-rules.swade-skills.Notice]{Notice}, whether the guard is actively looking for trouble or not. If successful, the victim is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{Vulnerable} to the attacker, but only until the attacker’s turn ends. With a raise, the attacker has @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{The Drop} instead.</p>\n<p><strong>Movement:</strong> In combat, characters roll Stealth each turn as a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free action} at the end of their move or any action the GM thinks might draw attention.</p>\n<p>Out of combat, the distance moved depends entirely on the situation. The GM might want a roll every minute if the group is sneaking around the perimeter of a defensive position, or every few miles if they’re trying to quietly walk the path through a dark forest without alerting the creatures that live there.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 4
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "stealth",
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719637418582,
+        "modifiedTime": 1719637418582,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.ocNIilmpMcKkh5hR"
+    },
+    {
+      "_id": "ltxRrgdsMCbmhU3o",
+      "name": "Axe",
+      "type": "weapon",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Weapon.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "",
+        "notes": "AP 3, Parry -1, Two Hands",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 12,
+        "price": null,
+        "equippable": true,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {
+            "uzpkmDl780zz0000": {
+              "name": "Frenzy",
+              "type": "trait",
+              "dice": 2,
+              "macroActor": "default",
+              "isHeavyWeapon": false,
+              "resourcesUsed": null,
+              "modifier": "",
+              "override": ""
+            }
+          },
+          "trait": "Fighting",
+          "traitMod": ""
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false,
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "damage": "@str+d10",
+        "range": "",
+        "rof": 1,
+        "ap": 3,
+        "parry": 0,
+        "minStr": "d10",
+        "shots": null,
+        "currentShots": 0,
+        "ammo": "",
+        "reloadType": "none",
+        "ppReloadCost": 2,
+        "trademark": 0,
+        "isHeavyWeapon": false,
+        "swid": "axe-great",
+        "rangeType": 0,
+        "equipStatus": 4,
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion",
+          "fullDescription": " | Melee Weapons | "
+        },
+        "sigil": {
+          "completed": true
+        },
+        "core": {
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-weapons.Item.uzpkmDl780zz0002"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1715543747341,
+        "modifiedTime": 1719637465147,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.ltxRrgdsMCbmhU3o"
+    },
+    {
+      "_id": "EQouETvOPZxSaHGU",
+      "name": "Maul",
+      "type": "weapon",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Weapon.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "",
+        "notes": "AP 2, Two Hands, +2 damage to break objects.",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 10,
+        "price": 12,
+        "equippable": true,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "dmgMod": "",
+          "additional": {
+            "uzpkmDl780zz0000": {
+              "name": "Frenzy",
+              "type": "trait",
+              "dice": 2,
+              "macroActor": "default",
+              "isHeavyWeapon": false,
+              "resourcesUsed": null,
+              "modifier": "",
+              "override": ""
+            }
+          },
+          "trait": "Fighting",
+          "traitMod": ""
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "favorite": false,
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "damage": "@str+d10",
+        "range": "",
+        "rof": 1,
+        "ap": 2,
+        "parry": 0,
+        "minStr": "d10",
+        "shots": null,
+        "currentShots": 0,
+        "ammo": "",
+        "reloadType": "none",
+        "ppReloadCost": 2,
+        "trademark": 0,
+        "isHeavyWeapon": false,
+        "swid": "maul",
+        "rangeType": 0,
+        "equipStatus": 4,
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion",
+          "fullDescription": " | Melee Weapons | "
+        },
+        "sigil": {
+          "completed": true
+        },
+        "core": {
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-weapons.Item.uzpkmDl780zz0021"
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1715543747345,
+        "modifiedTime": 1719637492352,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.EQouETvOPZxSaHGU"
+    },
+    {
+      "_id": "DsqNV4MyeCE1bfkk",
+      "name": "Savagery",
+      "type": "edge",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "<article class=\"swadefc\"><h3>Savagery</h3>\n<section class=\"description\">\n<p>\n Violence is a way of life for some. Those with this Edge hit their foes hard enough that they often don't get to\n reply in kind.\n </p>\n<p>A character with this Edge causes +4 damage when making a Wild Attack rather than +2.</p>\n</section></article>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 0,
+            "combinator": "and"
+          },
+          {
+            "type": "skill",
+            "selector": "fighting",
+            "value": 6,
+            "combinator": "and",
+            "label": "Fighting"
+          }
+        ],
+        "category": "Combat",
+        "swid": "savagery",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "effects": [
+        {
+          "_id": "VIsrjt80CpNHb8pd",
+          "name": "Savagery",
+          "icon": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+          "changes": [
+            {
+              "key": "flags.swade.wildAttackDamage",
+              "mode": 2,
+              "value": "4",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "swade": {
+              "conditionalEffect": true
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "_key": "!actors.items.effects!3Q5zt7znsZ0FcXhK.DsqNV4MyeCE1bfkk.VIsrjt80CpNHb8pd"
+        }
+      ],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.Y6e4JGrxn3snDFBd"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719637505457,
+        "modifiedTime": 1719637505542,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.DsqNV4MyeCE1bfkk"
+    },
+    {
+      "_id": "sEUwyKOIs8K2xoxl",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/edge.svg",
+      "name": "Sweep",
+      "sort": 0,
+      "type": "edge",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>As a limited action, sweep allows a character to make a single @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} attack and apply it against all targets in his @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reach000000000]{Reach} (friends and foes alike). Resolve damage separately for each enemy that’s hit.</p>\n<p>A Sweep made without a two-handed weapon suffers a -2 penalty</p>\n</article>",
+        "isArcaneBackground": false,
+        "notes": "",
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 0,
+            "combinator": "and"
+          },
+          {
+            "type": "attribute",
+            "selector": "strength",
+            "value": 8,
+            "combinator": "and"
+          }
+        ],
+        "category": "Combat",
+        "swid": "sweep",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-edges.Item.u2Mlaku0V2DC5bPU"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719637512735,
+        "modifiedTime": 1719637512812,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.sEUwyKOIs8K2xoxl"
+    },
+    {
+      "effects": [],
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "name": "Environmental Resistance (Electricity)",
+      "type": "ability",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "additionalStats": {},
+        "description": "<p><strong>Environmental Resistance (Electricity):</strong> +4 resistance / −4 damage from electricity or lightning-based effects.</p>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Special Abilities",
+        "swid": "environmental-resistance",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "folder": "ECEMzex66NcYtYJF",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.TDzYSq0fpVRiBgvh"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1700809448817,
+        "modifiedTime": 1719638362966,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "rTW7tUWptAXk83vP",
+      "sort": 25000,
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.rTW7tUWptAXk83vP"
+    },
+    {
+      "effects": [],
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "name": "Environmental Resistance (Acid)",
+      "type": "ability",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "additionalStats": {},
+        "description": "<p><strong>Environmental Resistance (Acid):</strong> +4 resistance / −4 damage from acid or acid-based effects.</p>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Special Abilities",
+        "swid": "environmental-resistance",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "folder": "ECEMzex66NcYtYJF",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.t0buU0WjiQmIA9Yf"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1700809448817,
+        "modifiedTime": 1719637826006,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "N9x9LD9Yied4CbUV",
+      "sort": -100000,
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.N9x9LD9Yied4CbUV"
+    },
+    {
+      "effects": [],
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "name": "Environmental Resistance (Cold)",
+      "type": "ability",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "additionalStats": {},
+        "description": "<p><strong>Environmental Resistance (Cold):</strong> +4 resistance / −4 damage from cold or ice-based effects.</p>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Special Abilities",
+        "swid": "environmental-resistance",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "folder": "ECEMzex66NcYtYJF",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.zmLpsTJTFEbdWYAW"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1700809448817,
+        "modifiedTime": 1719637832390,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "joOywH72d6oxWajq",
+      "sort": -50000,
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.joOywH72d6oxWajq"
+    },
+    {
+      "effects": [],
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "name": "Environmental Resistance (Heat)",
+      "type": "ability",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "additionalStats": {},
+        "description": "<p><strong>Environmental Resistance (Heat):</strong> +4 resistance / −4 damage from heat or fire-based effects.</p>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Special Abilities",
+        "swid": "environmental-resistance",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "folder": "ECEMzex66NcYtYJF",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.6iw5lef96WxAvWQa"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1700809448817,
+        "modifiedTime": 1719638365855,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "hsgEWqkH6CyEzvxN",
+      "sort": 37500,
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.hsgEWqkH6CyEzvxN"
+    },
+    {
+      "effects": [],
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "name": "Environmental Resistance (Sonic)",
+      "type": "ability",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "additionalStats": {},
+        "description": "<p><strong>Environmental Resistance (Heat):</strong> +4 resistance / −4 damage from sound or sonic-based effects.</p>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Special Abilities",
+        "swid": "environmental-resistance",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "folder": "ECEMzex66NcYtYJF",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.4frpFToNUIsXZ0Jd"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1700809448817,
+        "modifiedTime": 1719637905074,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "dF0AiPco7DkyXLi8",
+      "sort": 50000,
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.dF0AiPco7DkyXLi8"
+    },
+    {
+      "name": "Knockback",
+      "type": "ability",
+      "system": {
+        "description": "<p><strong>Knockback:</strong> Successful attack causes the target to fly backwards [[/r 1d4]]”, plus [[/r 1d4]]” for each raise on the attack roll, and an additional +[[/r 1d6x]] damage if it hits a large solid object.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "new-ability",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Special Abilities",
+        "grants": [
+          {
+            "name": "Knockback",
+            "img": "systems/swade/assets/icons/action.svg",
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.wtAdnOZFCQYkiyFH",
+            "mutation": {}
+          }
+        ],
+        "choiceSets": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "effects": [],
+      "folder": "ECEMzex66NcYtYJF",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": [
+            "MvZVuHK8OewogzT4"
+          ]
+        },
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.gqE6i9uSd5OEgJj2"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1712541868070,
+        "modifiedTime": 1719637923949,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "ZH6dmCNCUg8zhUeJ",
+      "sort": 700000,
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.ZH6dmCNCUg8zhUeJ"
+    },
+    {
+      "folder": "ECEMzex66NcYtYJF",
+      "name": "Knockback Damage",
+      "type": "action",
+      "_id": "MvZVuHK8OewogzT4",
+      "img": "systems/swade/assets/icons/action.svg",
+      "system": {
+        "description": "<p>Successful attack causes the target to fly backwards [[/r 1d4]]”, plus [[/r 1d4]]” for each raise on the attack roll, and an additional +[[/r 1d6x]] damage if it hits a large solid object.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "knockback",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Actions",
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "+1d6x",
+          "additional": {
+            "nP9ti9jj": {
+              "name": "Knockback Damage",
+              "type": "damage",
+              "override": "1d6x",
+              "modifier": "",
+              "dice": null,
+              "resourcesUsed": null,
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          }
+        },
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1712542037727,
+        "modifiedTime": 1719637915274,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.MvZVuHK8OewogzT4"
+    },
+    {
+      "name": "Endurance",
+      "type": "ability",
+      "system": {
+        "description": "<p><strong>Endurance:</strong> +2 to Soak Rolls.</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "new-ability",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Special Abilities",
+        "grants": [],
+        "choiceSets": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "_id": "M2T7Z0lTGAlkxveF",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "effects": [
+        {
+          "name": "Endurance",
+          "icon": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+          "changes": [
+            {
+              "key": "system.attributes.vigor.soakBonus",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "PVUDOwsnG92ODrYc",
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p><strong>Endurance:</strong> +2 to Soak rolls.</p>",
+          "origin": null,
+          "statuses": [],
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "tint": null,
+          "_key": "!actors.items.effects!3Q5zt7znsZ0FcXhK.M2T7Z0lTGAlkxveF.PVUDOwsnG92ODrYc"
+        }
+      ],
+      "folder": null,
+      "sort": -125000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        },
+        "core": {
+          "sourceId": "Actor.3Q5zt7znsZ0FcXhK.Item.M2T7Z0lTGAlkxveF"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719637971053,
+        "modifiedTime": 1719638372892,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.M2T7Z0lTGAlkxveF"
+    },
+    {
+      "_id": "P9AqACjud2lWAlE3",
+      "effects": [
+        {
+          "_id": "kLw0l3pGFffK3kGc",
+          "changes": [
+            {
+              "key": "system.attributes.spirit.unShakeBonus",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            },
+            {
+              "key": "system.wounds.ignored",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            },
+            {
+              "key": "flags.swade-core-rules.ignoreBleedOut",
+              "mode": 2,
+              "value": "true",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {},
+          "icon": "systems/swade/assets/icons/ability.svg",
+          "name": "Construct",
+          "tint": null,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "_key": "!actors.items.effects!3Q5zt7znsZ0FcXhK.P9AqACjud2lWAlE3.kLw0l3pGFffK3kGc"
+        }
+      ],
+      "folder": null,
+      "img": "systems/swade/assets/icons/ability.svg",
+      "name": "Construct",
+      "sort": -200000,
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\"> <p>Robots, golems, and other animated objects are collectively called “constructs.” Some are sentient beings while others are mere automatons following the will of their masters.</p> <p>Whatever their origin or material, constructs have several inherent advantages over creatures of flesh and blood.</p> <p>Constructs add +2 when attempting to recover from being @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Shaken}, ignore 1 point of @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wound} penalties, don’t breathe or eat and are immune to @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04disease0000000]{disease} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04poison00000000]{poison}, don’t @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Bleed Out}, and Wounds are removed with @Compendium[swade-core-rules.swade-skills.Repair]{Repair} instead of @Compendium[swade-core-rules.swade-powers.Healing]{Healing} with no @Compendium[swade-core-rules.swade-powers.Healing]{“Golden Hour.”}</p> </article>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Special Ability",
+        "swid": "construct",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-specialabilities.Item.2uSwOIunhYr4RA7G"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719638243859,
+        "modifiedTime": 1719638251081,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.P9AqACjud2lWAlE3"
+    },
+    {
+      "_id": "tbCY7ckQZvqXedb4",
+      "name": "Darkvision",
+      "type": "ability",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "category": "New Ancestral Abilities",
+        "description": "<article class=\"swadefc\"><p><strong>Dark Vision (1):</strong> The species can see in the dark  a short distance, ignoring all illumination penalties and up to 2 points of penalties from <em>invisibility</em>  or similar powers within 10\" (20 yards) distant.</p></article>",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": false,
+        "swid": "dark-vision",
+        "grants": [],
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": -150000,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719638258510,
+        "modifiedTime": 1719638275728,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.tbCY7ckQZvqXedb4"
+    },
+    {
+      "name": "Armor +4",
+      "type": "ability",
+      "system": {
+        "description": "",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "new-ability",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Special Abilities",
+        "grants": [],
+        "choiceSets": [],
+        "subtype": "special",
+        "grantsPowers": false
+      },
+      "_id": "fVp3B4SnS6TGBRqR",
+      "img": "systems/swade/assets/icons/ability.svg",
+      "effects": [
+        {
+          "name": "Armor +4",
+          "icon": "systems/swade/assets/icons/ability.svg",
+          "changes": [
+            {
+              "key": "system.stats.toughness.armor",
+              "mode": 2,
+              "value": "4",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "5ZG0way4vgFlW3B2",
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "flags": {},
+          "_key": "!actors.items.effects!3Q5zt7znsZ0FcXhK.fVp3B4SnS6TGBRqR.5ZG0way4vgFlW3B2"
+        }
+      ],
+      "folder": null,
+      "sort": -400000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        },
+        "core": {
+          "sourceId": "Actor.3Q5zt7znsZ0FcXhK.Item.fVp3B4SnS6TGBRqR"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719638292952,
+        "modifiedTime": 1719638357628,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.fVp3B4SnS6TGBRqR"
+    },
+    {
+      "_id": "bd3icZKObqq3pUMk",
+      "effects": [
+        {
+          "name": "Size 4 (Large)",
+          "icon": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+          "changes": [
+            {
+              "key": "system.stats.size",
+              "mode": 5,
+              "value": "4",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "kwMfbClnM8Rx398R",
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "flags": {},
+          "_key": "!actors.items.effects!3Q5zt7znsZ0FcXhK.bd3icZKObqq3pUMk.kwMfbClnM8Rx398R"
+        }
+      ],
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "name": "Size 4 (Large)",
+      "sort": 800000,
+      "type": "ability",
+      "system": {
+        "source": "Eberron for Savage Worlds",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\"><p><span class=\"lead-bold\">Size 4 (Large): </span>Warforged titans have a Scale Modifier of +2 and a Toughness modifier of +4. They also have a Reach of 1 and can take one Wound before Incapacitated.</p></article>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Special Abilities",
+        "swid": "size-plus-1",
+        "favorite": false,
+        "grants": [],
+        "choiceSets": []
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-racial-abilities.Item.SIZEaFXsFJvZsIwc"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719638505049,
+        "modifiedTime": 1719638637604,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.bd3icZKObqq3pUMk"
+    },
+    {
+      "_id": "lM0pWSlYmONUHs2s",
+      "name": "Swat",
+      "type": "ability",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "category": "New Special Abilities",
+        "description": "<article class=\"swadefc\"><h3>Swat</h3>\n<p>\n    The monster has learned to hunt or deal with smaller opponents. It ignores up to 4 points of\n    @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{Scale} penalties when attacking creatures smaller than itself.\n  </p></article>",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": false,
+        "swid": "swat",
+        "grants": [],
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 900000,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.NBvS4z2OPcS2dbBX"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719638661563,
+        "modifiedTime": 1719638666112,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.lM0pWSlYmONUHs2s"
+    },
+    {
+      "_id": "rgagrMi434WbN0qU",
+      "name": "Trample",
+      "type": "ability",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "category": "New Special Abilities",
+        "description": "<article class=\"swadefc\"><h3>Trample</h3>\n<p>\n    Elephants, rhinoceroses, and other large creatures can trample smaller victims under foot when moving at least 5″\n    (10 yards) in a straight line. This usually applies only when the opponents are at least two sizes smaller. See the\n    creature's description for any special conditions or effects.\n  </p>\n<p>\n    Anyone in the creature's path must Evade or take the listed damage. Those it tramples may make an attack on it after\n    it passes, if possible (see <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03withdrawingf00#withdrawing-from-melee]{Withdrawing from Melee}</strong> in\n    <em>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor00introd.JournalEntryPage.00introduction00]{Savage Worlds}</em>), unless it has Extraction or a similar ability.\n  </p></article>",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": false,
+        "swid": "trample",
+        "grants": [
+          {
+            "name": "Trample Damage",
+            "img": "systems/swade/assets/icons/action.svg",
+            "uuid": "Compendium.savage-eberron.eberron-abilities.Item.FZLgYTjMLYpTUkAS",
+            "mutation": {}
+          }
+        ],
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 4700000,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem",
+          "sourceId": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.phxC9pyB2hIskqdT"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        },
+        "swade": {
+          "hasGranted": [
+            "6BP2dA3k5DmgehJC"
+          ]
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719638672640,
+        "modifiedTime": 1719639065671,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.rgagrMi434WbN0qU"
+    },
+    {
+      "folder": "ECEMzex66NcYtYJF",
+      "name": "Trample Damage",
+      "type": "action",
+      "_id": "6BP2dA3k5DmgehJC",
+      "img": "systems/swade/assets/icons/action.svg",
+      "system": {
+        "description": "<p><strong>Trample:</strong> Str+d8</p>",
+        "notes": "",
+        "source": "Eberron for Savage Worlds",
+        "swid": "trample",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "New Special Abilities",
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {
+            "MAt30TXZ": {
+              "name": "Trample",
+              "type": "damage",
+              "dice": null,
+              "resourcesUsed": null,
+              "modifier": "",
+              "override": "@str+d8",
+              "ap": null,
+              "macroActor": "default",
+              "isHeavyWeapon": false
+            }
+          }
+        },
+        "choiceSets": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.savage-eberron.eberron-abilities.Item.FZLgYTjMLYpTUkAS"
+        }
+      },
+      "_stats": {
+        "systemId": "swade",
+        "systemVersion": "3.4.1",
+        "coreVersion": "11.315",
+        "createdTime": 1719638868464,
+        "modifiedTime": 1719639065333,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!3Q5zt7znsZ0FcXhK.6BP2dA3k5DmgehJC"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        }
+      }
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "swade",
+    "systemVersion": "3.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1693890215641,
+    "modifiedTime": 1719639324100,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "3Q5zt7znsZ0FcXhK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_key": "!actors!3Q5zt7znsZ0FcXhK"
+}
