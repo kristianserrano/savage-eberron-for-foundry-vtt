@@ -142,7 +142,7 @@
     "additionalStats": {},
     "bennies": {
       "value": 0,
-      "max": 2
+      "max": 0
     },
     "wounds": {
       "value": 0,
@@ -1911,14 +1911,34 @@
   ],
   "effects": [],
   "flags": {
-    "core": {}
+    "core": {},
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        }
+      }
+    }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.3-dev",
+    "systemVersion": "3.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700809448814,
-    "modifiedTime": 1712544296030,
+    "modifiedTime": 1719639323897,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,

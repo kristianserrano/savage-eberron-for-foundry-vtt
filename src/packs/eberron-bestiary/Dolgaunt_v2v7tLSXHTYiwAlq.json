@@ -142,7 +142,7 @@
     "additionalStats": {},
     "bennies": {
       "value": 0,
-      "max": 2
+      "max": 0
     },
     "wounds": {
       "value": 0,
@@ -1032,13 +1032,15 @@
     }
   ],
   "effects": [],
-  "flags": {},
+  "flags": {
+    "core": {}
+  },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.3-dev",
+    "systemVersion": "3.4.1",
     "coreVersion": "11.315",
     "createdTime": 1716675779446,
-    "modifiedTime": 1716680824611,
+    "modifiedTime": 1719639323897,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "sort": 0,
