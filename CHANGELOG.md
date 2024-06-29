@@ -1,5 +1,10 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.2.3
+
+- Add Warforged Titan and related Special Abilities.
+- Fixes Bennies restore value for Extras, changing from 2 to 0.
+
 ## v1.2.2
 
 - Consolidates Siberys Dragonmark into one Edge with choice sets for Siberys Dragonmark Special Ability Item Grants (e.g., Siberys Mark of Detection).
