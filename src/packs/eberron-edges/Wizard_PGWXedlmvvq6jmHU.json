@@ -9,7 +9,7 @@
     "additionalStats": {},
     "favorite": false,
     "category": "Arcane Backgrounds",
-    "isArcaneBackground": false,
+    "isArcaneBackground": true,
     "requirements": [
       {
         "type": "rank",

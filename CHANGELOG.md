@@ -1,5 +1,9 @@
 # Eberron for Savage Worlds: Campaign Setting
 
+## v1.2.4
+
+- Fixes Arcane Backgrounds not set to `true` accordingly.
+
 ## v1.2.3
 
 - Add Warforged Titan and related Special Abilities.
