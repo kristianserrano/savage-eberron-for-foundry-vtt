@@ -1,13 +1,25 @@
 {
   "id": "savage-eberron",
   "title": "Eberron for Savage Worlds: Campaign Setting",
-  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "The Immaterial Plane",
+      "email": "contact@immaterialplane.com",
+      "url": "https://immaterialplane.com",
+      "discord": "kristianserrano"
+    }
+  ],
+  "description": "<cite>Eberron for Savage Worlds</cite> brings the cinematic “Fast! Furious! Fun!” action of the <cite>Savage Worlds</cite> roleplaying game to Khorvaire and the lands beyond, giving you the tools to create fantastic tales of adventure and intrigue!",
+  "version": "",
   "url": "",
   "download": "",
   "manifest": "",
+  "changelog": "",
+  "readme": "",
+  "bugs": "",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   "styles": [
     "savage-eberron.css"
@@ -33,13 +45,6 @@
       }
     ]
   },
-  "authors": [
-    {
-      "name": "The Immaterial Plane",
-      "email": "contact@immaterialplane.com",
-      "url": "https://immaterialplane.com"
-    }
-  ],
   "packs": [
     {
       "name": "eberron-book",
