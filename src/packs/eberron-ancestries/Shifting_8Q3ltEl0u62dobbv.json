@@ -312,7 +312,10 @@
           }
         ]
       }
-    ]
+    ],
+    "build": {
+      "cost": null
+    }
   },
   "effects": [],
   "flags": {
@@ -322,15 +325,37 @@
       "system": "swade",
       "coreVersion": "11.306",
       "systemVersion": "3.0.5"
+    },
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
     }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.4.1",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1668108180986,
-    "modifiedTime": 1719178417181,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724349259269,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "ownership": {
     "default": 0,

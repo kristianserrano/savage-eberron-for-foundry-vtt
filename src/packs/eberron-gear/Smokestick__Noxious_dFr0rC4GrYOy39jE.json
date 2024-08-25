@@ -54,7 +54,8 @@
     "trademark": 0,
     "isHeavyWeapon": false,
     "source": "Eberron for Savage Worlds",
-    "swid": "smokestick-noxious"
+    "swid": "smokestick-noxious",
+    "rangeType": 2
   },
   "effects": [],
   "sort": 0,
@@ -65,11 +66,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.5",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1691366346968,
-    "modifiedTime": 1701915710932,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345325136,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!dFr0rC4GrYOy39jE"
 }

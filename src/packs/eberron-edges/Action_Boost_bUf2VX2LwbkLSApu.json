@@ -37,11 +37,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1690669461967,
-    "modifiedTime": 1705826249966,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345314155,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!bUf2VX2LwbkLSApu"
 }

@@ -17,17 +17,18 @@
   "effects": [
     {
       "name": "Profane Gift",
-      "icon": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
       "changes": [
         {
           "key": "system.stats.globalMods.smarts",
           "mode": 2,
-          "value": "2"
+          "value": "2",
+          "priority": null
         },
         {
           "key": "system.stats.globalMods.spirit",
           "mode": 2,
-          "value": "2"
+          "value": "2",
+          "priority": null
         }
       ],
       "transfer": true,
@@ -51,7 +52,21 @@
           "loseTurnOnHold": false
         }
       },
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!dGbtlrV3hRd3KEu5.D3d9zcgpQ0gq06BK"
     }
   ],
@@ -68,11 +83,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1702867189976,
-    "modifiedTime": 1702929229981,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724345342676,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "dGbtlrV3hRd3KEu5",
   "sort": 500000,

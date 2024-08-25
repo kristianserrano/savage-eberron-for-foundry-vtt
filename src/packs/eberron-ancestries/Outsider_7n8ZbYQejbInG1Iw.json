@@ -12,18 +12,23 @@
     "grantsPowers": false,
     "grants": [
       {
-        "name": "Outsider",
-        "img": "systems/swade/assets/icons/hindrance.svg",
         "uuid": "Compendium.swade-core-rules.swade-hindrances.Item.IQgZkCUMklDKYV9x",
+        "img": "systems/swade/assets/icons/hindrance.svg",
+        "name": "Outsider",
         "mutation": {
           "system": {
-            "major": true
+            "major": true,
+            "description": "Warforged have the @Compendium[swade-core-rules.swade-hindrances.IQgZkCUMklDKYV9x]{Outsider} (Major) Hindrance. With a long history of being dedicated soldiers of war, warforged have difficulty blending into post-war Khorvaire. Most non-warforged strongly dislike the sight of warforged as they stand as living reminders of the horror that was the Last War. As such, warforged have −2 to @Compendium[swade-core-rules.swade-skills.k7fIVOghEx6y44xE]{Persuasion} rolls when interacting with non-warforged and are often treated as less than."
           }
         }
       }
     ],
     "source": "Eberron for Savage Worlds",
-    "swid": "outsider"
+    "swid": "outsider",
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    }
   },
   "effects": [],
   "folder": "gVJBnQp2agFQhF0c",
@@ -38,15 +43,37 @@
       "system": "swade",
       "coreVersion": "11.306",
       "systemVersion": "3.0.6"
+    },
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
     }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1668044956818,
-    "modifiedTime": 1700890169376,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724349259269,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "7n8ZbYQejbInG1Iw",
   "sort": 0,

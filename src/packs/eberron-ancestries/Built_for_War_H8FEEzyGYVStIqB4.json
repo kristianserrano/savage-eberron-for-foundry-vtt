@@ -12,11 +12,14 @@
     "grantsPowers": false,
     "grants": [],
     "source": "Eberron for Savage Worlds",
-    "swid": "built-for-war"
+    "swid": "built-for-war",
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    }
   },
   "effects": [
     {
-      "icon": "systems/swade/assets/icons/active-effect.svg",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -47,7 +50,21 @@
       "description": "<p>Warforged do not have @UUID[Compendium.swade-core-rules.swade-skills.Item.su7eyijoB0RFpRB1]{Common Knowledge} as a core skill. Delete this effect if the individual warforged has Common Knowledge.</p>",
       "origin": null,
       "statuses": [],
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "systems/swade/assets/icons/active-effect.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!H8FEEzyGYVStIqB4.FaSfNYNdWE9rbk67"
     }
   ],
@@ -63,15 +80,37 @@
       "system": "swade",
       "coreVersion": "11.306",
       "systemVersion": "3.0.5"
+    },
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
     }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1668044940033,
-    "modifiedTime": 1700890169485,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724349259269,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "H8FEEzyGYVStIqB4",
   "sort": 0,

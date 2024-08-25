@@ -12,7 +12,11 @@
     "grantsPowers": false,
     "grants": [],
     "source": "Eberron for Savage Worlds",
-    "swid": "dual-mind"
+    "swid": "dual-mind",
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    }
   },
   "effects": [],
   "folder": "oldWVWKsIM3coKB9",
@@ -27,15 +31,37 @@
       "coreVersion": "11.306",
       "systemVersion": "3.0.5"
     },
-    "core": {}
+    "core": {},
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
+    }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1668138532060,
-    "modifiedTime": 1700890169380,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724349259269,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "QSViCOYRActfiwRL",
   "sort": 200000,

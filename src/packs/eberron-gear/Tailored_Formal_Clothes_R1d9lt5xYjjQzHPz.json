@@ -47,7 +47,6 @@
   },
   "effects": [
     {
-      "icon": "icons/equipment/back/cloak-collared-purple-gold.webp",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -78,7 +77,21 @@
       "description": "",
       "origin": null,
       "statuses": [],
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/equipment/back/cloak-collared-purple-gold.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!R1d9lt5xYjjQzHPz.cl8kX6a07Xh6nFKP"
     }
   ],
@@ -90,11 +103,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1691344586905,
-    "modifiedTime": 1700890170146,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345325117,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!R1d9lt5xYjjQzHPz"
 }

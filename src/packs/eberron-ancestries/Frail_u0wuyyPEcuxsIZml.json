@@ -12,11 +12,14 @@
     "grantsPowers": false,
     "grants": [],
     "source": "Eberron for Savage Worlds",
-    "swid": "frail"
+    "swid": "frail",
+    "choiceSets": [],
+    "build": {
+      "cost": -1
+    }
   },
   "effects": [
     {
-      "icon": "icons/skills/wounds/bone-broken-knee-beam.webp",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -46,6 +49,21 @@
       "description": "",
       "origin": null,
       "statuses": [],
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
+      "type": "base",
+      "system": {},
+      "tint": "#ffffff",
+      "sort": 0,
       "_key": "!items.effects!u0wuyyPEcuxsIZml.uCYx83EfKy8DiDqO"
     }
   ],
@@ -61,15 +79,37 @@
       "coreVersion": "11.305",
       "systemVersion": "3.0.5"
     },
-    "core": {}
+    "core": {},
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
+    }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1671077539663,
-    "modifiedTime": 1700890169581,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724568533525,
+    "lastModifiedBy": "Xbne19Xghka479we",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "u0wuyyPEcuxsIZml",
   "sort": 300000,

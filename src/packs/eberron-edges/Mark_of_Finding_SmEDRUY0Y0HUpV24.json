@@ -19,7 +19,6 @@
   },
   "effects": [
     {
-      "icon": "icons/containers/bags/pack-leather-strapped-tan.webp",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -51,7 +50,21 @@
       "description": "<p>+1 to Survival rolls</p>",
       "origin": null,
       "statuses": [],
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/containers/bags/pack-leather-strapped-tan.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!SmEDRUY0Y0HUpV24.cvVMViEM6L6bKEAV"
     }
   ],
@@ -60,11 +73,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.4.1",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1719210084517,
-    "modifiedTime": 1719213969356,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724345314422,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 200000,
   "ownership": {

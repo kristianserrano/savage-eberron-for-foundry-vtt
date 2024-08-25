@@ -64,7 +64,8 @@
     "trademark": 0,
     "isHeavyWeapon": false,
     "source": "Eberron for Savage Worlds",
-    "swid": "mind-blade-offhand"
+    "swid": "mind-blade-offhand",
+    "rangeType": 2
   },
   "effects": [
     {
@@ -94,9 +95,8 @@
         "startRound": null,
         "startTurn": null
       },
-      "icon": "systems/swade/assets/icons/active-effect.svg",
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "flags": {
         "swade": {
           "expiration": null,
@@ -122,6 +122,20 @@
       "name": "Manifest Mind Blade (Offhand)",
       "description": "",
       "statuses": [],
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "systems/swade/assets/icons/active-effect.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!qCwIu33VcYihLb5I.NclC7yN9Y5luowfo"
     }
   ],
@@ -141,11 +155,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.4.1",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1668906766458,
-    "modifiedTime": 1719184357515,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724345314566,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "qCwIu33VcYihLb5I",
   "sort": 600000,

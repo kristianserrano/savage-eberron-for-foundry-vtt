@@ -85,11 +85,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1702868510005,
-    "modifiedTime": 1702929161974,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724345342614,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!cLDBMYggYBeEiLQ9"
 }

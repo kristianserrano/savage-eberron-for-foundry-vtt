@@ -13,7 +13,11 @@
     "grantsPowers": false,
     "grants": [],
     "source": "Eberron for Savage Worlds",
-    "swid": "low-light-vision"
+    "swid": "low-light-vision",
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    }
   },
   "effects": [],
   "ownership": {
@@ -27,15 +31,37 @@
       "system": "swade",
       "coreVersion": "11.306",
       "systemVersion": "3.0.5"
+    },
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
     }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1668045742153,
-    "modifiedTime": 1700890169375,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724349259269,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "7NLXiKXG2MOX3ZGJ",
   "sort": 0,

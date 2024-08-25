@@ -12,11 +12,14 @@
     "grantsPowers": false,
     "grants": [],
     "source": "Eberron for Savage Worlds",
-    "swid": "composite-plating"
+    "swid": "composite-plating",
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    }
   },
   "effects": [
     {
-      "icon": "icons/equipment/chest/breastplate-sculpted-grey.webp",
       "duration": {
         "rounds": null,
         "startTime": 288,
@@ -44,10 +47,24 @@
       "_id": "0X7nZmpMHpxBryJe",
       "disabled": false,
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "name": "Composite Plating Armor Bonus",
       "description": "<p>A warforged is covered in tough plating made of magically-treated woods and metals. Warforged gain +4 Armor. The composite plating is considered light armor. Warforged are unable to wear additional armor.</p>",
       "statuses": [],
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/equipment/chest/breastplate-sculpted-grey.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!k56VuD2M8GfgmQ2t.0X7nZmpMHpxBryJe"
     }
   ],
@@ -63,15 +80,37 @@
       "system": "swade",
       "coreVersion": "11.306",
       "systemVersion": "3.0.5"
+    },
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
     }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1668044951852,
-    "modifiedTime": 1700890169559,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724349259269,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "k56VuD2M8GfgmQ2t",
   "sort": 0,

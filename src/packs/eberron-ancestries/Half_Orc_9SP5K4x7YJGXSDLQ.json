@@ -1,39 +1,40 @@
 {
   "name": "Half-Orc",
-  "type": "ability",
+  "type": "ancestry",
   "_id": "9SP5K4x7YJGXSDLQ",
   "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
   "system": {
     "description": "<ul><li><p><strong>Assertive (+1):</strong> Half-orcs start with a d4 in Intimidation.</p></li><li><p><strong>Brute (+2):</strong> Inheriting some of the physical strength of their orcish ancestry, half-orcs have the Brute Edge.</p></li><li><p><strong>Darkvision (+1):</strong> Half-orcs’ eyes are attuned to habitats with dim lighting. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers.</p></li></ul>",
     "notes": "",
     "additionalStats": {},
-    "favorite": false,
-    "category": "Ancestry",
-    "subtype": "ancestry",
-    "grantsPowers": false,
     "grants": [
       {
-        "name": "Brute",
-        "img": "systems/swade/assets/icons/edge.svg",
-        "uuid": "Compendium.swade-core-rules.swade-edges.Item.rNOxB5lUz46R7AiY"
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.q0nYvk263tAxoOAv",
+        "img": "icons/skills/social/intimidation-impressing.webp",
+        "name": "Assertive"
       },
       {
-        "name": "Intimidation",
-        "img": "systems/swade/assets/icons/skills/arrest.svg",
-        "uuid": "Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId"
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.kD0rIyktsh3ryNkU",
+        "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+        "name": "Brute"
       },
       {
-        "name": "Dark Vision",
-        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
         "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+        "name": "Dark Vision",
         "mutation": {
+          "img": "icons/magic/perception/eye-slit-orange.webp",
           "name": "Darkvision",
-          "img": "icons/magic/perception/eye-slit-orange.webp"
+          "system": {
+            "description": "Half-orcs’ eyes are attuned to habitats with dim lighting. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers."
+          }
         }
       }
     ],
     "source": "Eberron for Savage Worlds",
-    "swid": "half-orc"
+    "swid": "half-orc",
+    "choiceSets": [],
+    "threshold": 2
   },
   "effects": [],
   "folder": null,
@@ -53,11 +54,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1690400937802,
-    "modifiedTime": 1700890169376,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724572636081,
+    "lastModifiedBy": "Xbne19Xghka479we",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!9SP5K4x7YJGXSDLQ"
 }

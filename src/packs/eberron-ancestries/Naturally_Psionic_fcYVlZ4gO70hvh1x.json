@@ -76,7 +76,6 @@
   },
   "effects": [
     {
-      "icon": "icons/magic/control/hypnosis-mesmerism-eye.webp",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -107,7 +106,21 @@
       "description": "",
       "origin": null,
       "statuses": [],
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!fcYVlZ4gO70hvh1x.7XvDTONypJ5jQCzN"
     }
   ],
@@ -126,11 +139,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.4.1",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1690495629038,
-    "modifiedTime": 1719171828259,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724345311199,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "fcYVlZ4gO70hvh1x",
   "sort": 0,

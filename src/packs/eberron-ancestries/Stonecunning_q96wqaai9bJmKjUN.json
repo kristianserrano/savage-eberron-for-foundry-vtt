@@ -3,7 +3,7 @@
   "type": "ability",
   "img": "icons/skills/trades/construction-mason-stonecutter-sculpture.webp",
   "system": {
-    "description": "<p>Dwarves have the Stonecunning Edge. The generations of dwelling in the Mror Holds has taught them how to sense unusual stonework.</p>",
+    "description": "<p>Dwarves have the @UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.IuRGnWAwIKFtQJoZ]{Stonecunning} Edge. The generations of dwelling in the Mror Holds has taught them how to sense unusual stonework.</p>",
     "notes": "",
     "additionalStats": {},
     "favorite": false,
@@ -18,7 +18,11 @@
       }
     ],
     "source": "Eberron for Savage Worlds",
-    "swid": "stonecunning"
+    "swid": "stonecunning",
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    }
   },
   "effects": [],
   "folder": "aXo6xVVmiLyAK44L",
@@ -37,11 +41,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1671074423996,
-    "modifiedTime": 1700890169387,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724557756199,
+    "lastModifiedBy": "Xbne19Xghka479we",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "q96wqaai9bJmKjUN",
   "sort": 50000,

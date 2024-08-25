@@ -163,7 +163,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 3,
     "height": 3,
@@ -199,7 +203,9 @@
         "min": 0,
         "max": 1
       },
-      "color": null
+      "color": null,
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
@@ -214,7 +220,23 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -255,10 +277,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712528653503,
         "modifiedTime": 1712528653503,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-core-rules.swade-skills.Item.qc2GOKFIXIJEpTw1",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.HGFebyTDthCOtpwS"
     },
@@ -300,10 +324,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712528665128,
         "modifiedTime": 1712528665128,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.QdNTUPlZ2KOdav5l"
     },
@@ -345,10 +371,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712528679602,
         "modifiedTime": 1712528679602,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-core-rules.swade-skills.Item.Y0545TlaAqRRE2P0",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.nrw9SbHZLvp85w6q"
     },
@@ -390,10 +418,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712528687311,
         "modifiedTime": 1712528687311,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-core-rules.swade-skills.Item.UOYD9aoLPoTZamDS",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.ABewwVrktDc4Aaju"
     },
@@ -435,10 +465,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712528692185,
         "modifiedTime": 1712528692185,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.mQwVwOo7RhFCXgCm"
     },
@@ -463,7 +495,6 @@
       "effects": [
         {
           "name": "Armor +2",
-          "icon": "systems/swade/assets/icons/ability.svg",
           "changes": [
             {
               "key": "system.stats.toughness.armor",
@@ -488,6 +519,21 @@
           "origin": null,
           "statuses": [],
           "flags": {},
+          "_stats": {
+            "coreVersion": "12.328",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "img": "systems/swade/assets/icons/ability.svg",
+          "type": "base",
+          "system": {},
+          "tint": "#ffffff",
+          "sort": 0,
           "_key": "!actors.items.effects!WoFPkZPiB63jpm3L.nwJoREz69E6W43XB.2hcBESIrhT4spusG"
         }
       ],
@@ -505,10 +551,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712528791327,
         "modifiedTime": 1712543195126,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.nwJoREz69E6W43XB"
     },
@@ -533,7 +581,6 @@
       "effects": [
         {
           "name": "Camouflage",
-          "icon": "systems/swade/assets/icons/ability.svg",
           "changes": [
             {
               "key": "@Skill{Stealth}[system.die.modifier]",
@@ -564,7 +611,21 @@
               "favorite": true
             }
           },
-          "tint": null,
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "12.328",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "img": "systems/swade/assets/icons/ability.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
           "_key": "!actors.items.effects!WoFPkZPiB63jpm3L.Fr5Z5PEqXXCf3LYZ.JUdOkXfujRdlDE3m"
         }
       ],
@@ -585,10 +646,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712528847927,
         "modifiedTime": 1712543195126,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Actor.WoFPkZPiB63jpm3L.Item.Fr5Z5PEqXXCf3LYZ",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.Fr5Z5PEqXXCf3LYZ"
     },
@@ -662,10 +725,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712529114914,
         "modifiedTime": 1712529136007,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.MzzF2fm74zm60fob"
     },
@@ -739,10 +804,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712540054030,
         "modifiedTime": 1712540084003,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.bg4ipcbAYxIodrjC"
     },
@@ -816,10 +883,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712540098658,
         "modifiedTime": 1712540124174,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.8qX3KhkMZEKQ1eTj"
     },
@@ -864,10 +933,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712541775975,
         "modifiedTime": 1712543198238,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.vq2CESXD3irkO7YM"
     },
@@ -904,10 +975,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712542522901,
         "modifiedTime": 1712543195126,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.QvT16YLdcHHDUyea"
     },
@@ -954,10 +1027,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712541868070,
         "modifiedTime": 1712543195126,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.savage-eberron.eberron-abilities.Item.gqE6i9uSd5OEgJj2",
+        "duplicateSource": null
       },
       "_id": "2nx1HWaGMd9S3lCu",
       "sort": 300000,
@@ -1017,10 +1092,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712542037727,
         "modifiedTime": 1712542705577,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.savage-eberron.eberron-abilities.Item.wtAdnOZFCQYkiyFH",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.EQO6zpP6kxHkWrmF"
     },
@@ -1078,10 +1155,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712542733033,
         "modifiedTime": 1712542794273,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Actor.WoFPkZPiB63jpm3L.Item.vOrRvCCm9UbrHeIo",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.vOrRvCCm9UbrHeIo"
     },
@@ -1131,10 +1210,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712543107281,
         "modifiedTime": 1712543651812,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-core-rules.swade-specialabilities.Item.Dv2xM8QDR4uEJKCe",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.MgF2ngugUkCyhAv7"
     },
@@ -1197,10 +1278,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712543188319,
         "modifiedTime": 1712543598209,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-core-rules.swade-actions.Item.4VtFDcpmEHGeyyaf",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.ZPlCrCIpCGVNE5nI"
     },
@@ -1209,7 +1292,6 @@
       "effects": [
         {
           "name": "Size 8",
-          "icon": "systems/swade/assets/icons/ability.svg",
           "duration": {
             "rounds": null,
             "startTime": 36,
@@ -1239,12 +1321,25 @@
           "description": "<p>Carcass crabs have a Toughness modifier +8 and a Scale modifier of +4.</p>",
           "origin": null,
           "statuses": [],
-          "tint": null,
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "12.328",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "img": "systems/swade/assets/icons/ability.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
           "_key": "!actors.items.effects!WoFPkZPiB63jpm3L.VXprptX1b2Vy1EMc.84dnjLGZ79flRlOw"
         },
         {
           "name": "Huge",
-          "icon": "systems/swade/assets/icons/ability.svg",
           "duration": {
             "rounds": null,
             "startTime": 36,
@@ -1273,6 +1368,21 @@
           "description": "",
           "origin": null,
           "statuses": [],
+          "_stats": {
+            "coreVersion": "12.328",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "img": "systems/swade/assets/icons/ability.svg",
+          "type": "base",
+          "system": {},
+          "tint": "#ffffff",
+          "sort": 0,
           "_key": "!actors.items.effects!WoFPkZPiB63jpm3L.VXprptX1b2Vy1EMc.ffFAOQlQpKTdGfAr"
         }
       ],
@@ -1309,10 +1419,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.3-dev",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1712543645274,
         "modifiedTime": 1712543785728,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-core-rules.swade-racial-abilities.Item.SIZEaFXsFJvZsIwc",
+        "duplicateSource": null
       },
       "_key": "!actors.items!WoFPkZPiB63jpm3L.VXprptX1b2Vy1EMc"
     }
@@ -1344,11 +1456,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.4.1",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1712528518762,
-    "modifiedTime": 1719639323897,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724345345313,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 0,
   "ownership": {

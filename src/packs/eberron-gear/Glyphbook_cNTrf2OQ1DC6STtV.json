@@ -37,7 +37,6 @@
   },
   "effects": [
     {
-      "icon": "icons/sundries/books/book-embossed-bound-brown.webp",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -69,7 +68,21 @@
       "description": "",
       "origin": null,
       "statuses": [],
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/sundries/books/book-embossed-bound-brown.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!cNTrf2OQ1DC6STtV.mXAnixevUGlK88KS"
     }
   ],
@@ -81,11 +94,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1691347651166,
-    "modifiedTime": 1700890170157,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345325133,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!cNTrf2OQ1DC6STtV"
 }

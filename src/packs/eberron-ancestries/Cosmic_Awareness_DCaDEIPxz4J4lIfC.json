@@ -26,7 +26,11 @@
       }
     ],
     "subtype": "special",
-    "grantsPowers": false
+    "grantsPowers": false,
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    }
   },
   "effects": [],
   "sort": 0,
@@ -37,11 +41,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1700895768841,
-    "modifiedTime": 1700895893766,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724349259269,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!DCaDEIPxz4J4lIfC"
 }

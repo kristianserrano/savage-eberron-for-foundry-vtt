@@ -17,7 +17,6 @@
   },
   "effects": [
     {
-      "icon": "systems/swade/assets/icons/skill.svg",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -48,7 +47,21 @@
       "description": "",
       "origin": null,
       "statuses": [],
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "systems/swade/assets/icons/skill.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!Fl45JyWxIjcUQz25.32TBtnDN750S61P8"
     }
   ],
@@ -67,11 +80,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1668046060853,
-    "modifiedTime": 1700890169478,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345311125,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "Fl45JyWxIjcUQz25",
   "sort": 0,

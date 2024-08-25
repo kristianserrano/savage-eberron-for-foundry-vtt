@@ -12,7 +12,11 @@
     "grantsPowers": false,
     "grants": [],
     "source": "Eberron for Savage Worlds",
-    "swid": "trance"
+    "swid": "trance",
+    "choiceSets": [],
+    "build": {
+      "cost": 1
+    }
   },
   "effects": [],
   "folder": "RSLTAQckZnWQhzEX",
@@ -27,15 +31,37 @@
       "coreVersion": "11.305",
       "systemVersion": "3.0.5"
     },
-    "core": {}
+    "core": {},
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
+    }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1671079425719,
-    "modifiedTime": 1700890169378,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724568542728,
+    "lastModifiedBy": "Xbne19Xghka479we",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "HJB99FcK4gTt53RM",
   "sort": 0,

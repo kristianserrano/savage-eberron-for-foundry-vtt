@@ -1,49 +1,56 @@
 {
   "name": "Dwarf",
-  "type": "ability",
+  "type": "ancestry",
   "_id": "Mpv3gzJfpDt4xqoY",
   "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
   "system": {
     "description": "<ul><li><p><strong>Darkvision (+1):</strong> Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers. </p></li><li><p><strong>Reduced Pace (−1):</strong> Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type. </p></li><li><p><strong>Stonecunning (+1):</strong> Generations of delving into the depths of the Mror Holds has taught the Dwarves how to identify unusual stonework, granting them the Stonecunning Edge.</p></li><li><p><strong>Tough (+3):</strong> Dwarves are genetically stout and tough. They start with a d6 in Vigor instead of a d4. This increases their maximum Vigor to d12+1. They also have a +1 bonus to resist poisons, powers, and supernatural abilities that behave similarly to powers.</p></li></ul>",
     "notes": "",
     "additionalStats": {},
-    "favorite": false,
-    "category": "Ancestry",
-    "subtype": "ancestry",
-    "grantsPowers": false,
     "grants": [
       {
-        "name": "Dark Vision",
-        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
         "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+        "name": "Dark Vision",
         "mutation": {
           "name": "Darkvision",
-          "img": "icons/magic/perception/eye-slit-orange.webp"
+          "img": "icons/magic/perception/eye-slit-orange.webp",
+          "system": {
+            "description": "Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers."
+          }
         }
       },
       {
-        "name": "Stability",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.JgPgk2Vv8FCuYIbr",
         "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.JgPgk2Vv8FCuYIbr"
+        "name": "Stability"
       },
       {
-        "name": "Stonecunning",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.q96wqaai9bJmKjUN",
         "img": "icons/skills/trades/construction-mason-stonecutter-sculpture.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.q96wqaai9bJmKjUN"
+        "name": "Stonecunning"
       },
       {
-        "name": "Tough",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.UsAhusaNzWYJkxqk",
         "img": "icons/magic/control/buff-strength-muscle-damage.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.UsAhusaNzWYJkxqk"
+        "name": "Tough"
       },
       {
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.RPACsFXsFJvZsIwc",
+        "img": "systems/swade/assets/icons/ability.svg",
         "name": "Reduced Pace",
-        "img": "icons/skills/movement/figure-running-gray.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.U18fu5U8IY35oqG1"
+        "mutation": {
+          "system": {
+            "description": "Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type."
+          },
+          "img": "icons/skills/movement/figure-running-gray.webp"
+        }
       }
     ],
     "source": "Eberron for Savage Worlds",
-    "swid": "dwarf"
+    "swid": "dwarf",
+    "choiceSets": [],
+    "threshold": 2
   },
   "effects": [],
   "folder": null,
@@ -58,11 +65,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1689255596862,
-    "modifiedTime": 1700890169379,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724557962835,
+    "lastModifiedBy": "Xbne19Xghka479we",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 1800000,
   "ownership": {

@@ -36,7 +36,6 @@
   },
   "effects": [
     {
-      "icon": "icons/weapons/wands/wand-gem-red.webp",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -68,7 +67,21 @@
       "description": "<p>When wielding a wand, the crafter has a +2 bonus to skill rolls to activate the power.</p>",
       "origin": null,
       "statuses": [],
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/weapons/wands/wand-gem-red.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!EqxfHhfYN1M2JKiQ.ChiFNuCQbxp6ZtQe"
     }
   ],
@@ -82,11 +95,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1690672190774,
-    "modifiedTime": 1700890169846,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345314330,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!EqxfHhfYN1M2JKiQ"
 }

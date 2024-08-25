@@ -63,7 +63,8 @@
     "trademark": 0,
     "isHeavyWeapon": false,
     "source": "Eberron for Savage Worlds",
-    "swid": "sharrash-talenta"
+    "swid": "sharrash-talenta",
+    "rangeType": 0
   },
   "effects": [],
   "sort": 0,
@@ -74,11 +75,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1691352970250,
-    "modifiedTime": 1700890170111,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345325097,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!2uRxWnWGFuEv5PuP"
 }

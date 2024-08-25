@@ -53,7 +53,8 @@
     "trademark": 0,
     "isHeavyWeapon": true,
     "source": "Eberron for Savage Worlds",
-    "swid": "alchemists-frost"
+    "swid": "alchemists-frost",
+    "rangeType": 2
   },
   "effects": [],
   "ownership": {
@@ -65,11 +66,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1691364744014,
-    "modifiedTime": 1700890170115,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345325141,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "gp7odim9pN6qpsMJ",
   "sort": 100000,

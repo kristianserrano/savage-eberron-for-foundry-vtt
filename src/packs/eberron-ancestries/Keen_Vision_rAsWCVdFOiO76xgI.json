@@ -12,7 +12,11 @@
     "grantsPowers": false,
     "grants": [],
     "source": "Eberron for Savage Worlds",
-    "swid": "keen-vision"
+    "swid": "keen-vision",
+    "choiceSets": [],
+    "build": {
+      "cost": 1
+    }
   },
   "effects": [],
   "folder": "RSLTAQckZnWQhzEX",
@@ -27,15 +31,37 @@
       "coreVersion": "11.305",
       "systemVersion": "3.0.5"
     },
-    "core": {}
+    "core": {},
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
+    }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1671077996257,
-    "modifiedTime": 1700890169387,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724568525280,
+    "lastModifiedBy": "Xbne19Xghka479we",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "rAsWCVdFOiO76xgI",
   "sort": 0,

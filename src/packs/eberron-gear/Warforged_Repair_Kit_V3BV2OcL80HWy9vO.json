@@ -37,7 +37,6 @@
   },
   "effects": [
     {
-      "icon": "icons/tools/smithing/plate-steel-grey.webp",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -68,6 +67,21 @@
       "description": "",
       "origin": null,
       "statuses": [],
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/tools/smithing/plate-steel-grey.webp",
+      "type": "base",
+      "system": {},
+      "tint": "#ffffff",
+      "sort": 0,
       "_key": "!items.effects!V3BV2OcL80HWy9vO.bDdaG6N5PJAuCOnT"
     }
   ],
@@ -79,11 +93,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1691349195332,
-    "modifiedTime": 1700890170152,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345325127,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!V3BV2OcL80HWy9vO"
 }

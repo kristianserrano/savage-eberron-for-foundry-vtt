@@ -1,50 +1,60 @@
 {
   "name": "Halfling",
-  "type": "ability",
+  "type": "ancestry",
   "_id": "l6ZMBFuf2meW7LmK",
   "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
   "system": {
-    "description": "<ul><li><p><strong>Athletic (+1):</strong> Halflings are nimble beings. They start with a d6 in Athletics instead of a d4. This increases their maximum Athletics to d12+1.</p></li><li><p><strong>Brave (+2):</strong> Halflings have the Brave Edge. Through cultural inheritance, they retain some amount of fearlessness from their Talentan origins.</p></li><li><p><strong>Lucky (+2):</strong> Halflings have the Luck Edge, seemingly able to find their way out of unideal situations.</p></li><li><p><strong>Reduced Pace (−1):</strong> Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p></li><li><p><strong>Size −1 (−1):</strong> Halflings are considered Size −1 and have −1 Toughness.</p></li><li><p><strong>Stealthy (+1):</strong> Halflings begin play with a d6 in Stealth. This increases their maximum Stealth to d12+1.</p></li></ul>",
+    "description": "<ul><li><p><strong>Athletic (+1):</strong> Halflings are nimble beings. They start with a d6 in Athletics instead of a d4. This increases their maximum Athletics to d12+1.</p></li><li><p><strong>Brave (+2):</strong> Halflings have the Brave Edge. Through cultural inheritance, they retain some amount of fearlessness from their Talentan origins.</p></li><li><p><strong>Lucky (+2):</strong> Halflings seemingly are able to find their way out of unideal situations. They draw one additional Benny per session. This stacks with Luck and Great Luck.</p></li><li><p><strong>Reduced Pace (−1):</strong> Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p></li><li><p><strong>Size −1 (−1):</strong> Halflings are considered Size −1 and have −1 Toughness.</p></li><li><p><strong>Stealthy (+1):</strong> Halflings begin play with a d6 in Stealth. This increases their maximum Stealth to d12+1.</p></li></ul>",
     "notes": "",
     "additionalStats": {},
-    "favorite": false,
-    "category": "Ancestry",
-    "subtype": "ancestry",
-    "grantsPowers": false,
     "grants": [
       {
-        "name": "Athletic",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.29clVk6oxj4dNNLd",
         "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.29clVk6oxj4dNNLd"
+        "name": "Athletic"
       },
       {
-        "name": "Brave",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.503fYtYLikz9Ki4B",
         "img": "icons/magic/control/control-influence-rally-purple.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.503fYtYLikz9Ki4B"
+        "name": "Brave"
       },
       {
-        "name": "Lucky",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.IqnRHxj6zm6zR8US",
         "img": "icons/magic/control/buff-luck-fortune-clover-green.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.IqnRHxj6zm6zR8US"
+        "name": "Lucky"
       },
       {
-        "name": "Size -1",
-        "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.NzYsygatYmC4MBOQ"
-      },
-      {
-        "name": "Stealthy",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.em0FNb3o7augNgfu",
         "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.em0FNb3o7augNgfu"
+        "name": "Stealthy"
       },
       {
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.RPACsFXsFJvZsIwc",
+        "img": "systems/swade/assets/icons/ability.svg",
         "name": "Reduced Pace",
-        "img": "icons/skills/movement/figure-running-gray.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.tLxkxKVqlU9zVX8r"
+        "mutation": {
+          "system": {
+            "description": "Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type."
+          },
+          "img": "icons/skills/movement/figure-running-gray.webp"
+        }
+      },
+      {
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.SIZEsFXsFJvZsIwc",
+        "img": "systems/swade/assets/icons/ability.svg",
+        "name": "Size -1",
+        "mutation": {
+          "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+          "system": {
+            "description": "Halflings are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}."
+          }
+        }
       }
     ],
     "source": "Eberron for Savage Worlds",
-    "swid": "halfling"
+    "swid": "halfling",
+    "choiceSets": [],
+    "threshold": 2
   },
   "effects": [],
   "folder": null,
@@ -58,11 +68,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1690319936949,
-    "modifiedTime": 1700890169386,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724559357117,
+    "lastModifiedBy": "Xbne19Xghka479we",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!l6ZMBFuf2meW7LmK"
 }

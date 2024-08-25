@@ -180,10 +180,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "aKTLoMcd3Xxijlv7",
@@ -220,10 +222,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "pKcsYaFeWbHpHiua",
@@ -260,10 +264,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "MqTnJYeByeG6WhTf",
@@ -300,10 +306,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "Ue1aS9xaAITStIFr",
@@ -340,10 +348,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "Sn8hoJ0QxpmIaxSa",
@@ -380,10 +390,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "awYUfCsmZ4OxM86n",
@@ -420,10 +432,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "6bShhxplCrzgaYvY",
@@ -460,10 +474,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "0UzgsuzFw6CzQlc8",
@@ -502,10 +518,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.0",
-        "coreVersion": "11.313",
+        "coreVersion": "12.328",
         "createdTime": 1690860753470,
         "modifiedTime": 1697662967668,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "feYBy9Z3iYeb2PWK",
@@ -544,10 +562,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.0",
-        "coreVersion": "11.313",
+        "coreVersion": "12.328",
         "createdTime": 1690860753470,
         "modifiedTime": 1697662967667,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "8jL3aLBhU67iahd7",
@@ -584,10 +604,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "UuE7084eL5IupVYM",
@@ -627,10 +649,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "Hbm8Coq6HM18S7k6",
@@ -670,10 +694,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "effects": [],
       "_id": "veYNl6NNIMykxfTO",
@@ -707,10 +733,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.328",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.qfJG4682FsV1qUsX"
     },
@@ -784,10 +812,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1690322237079,
         "modifiedTime": 1700544520859,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.rJY86rs4PwFfDqlR",
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.Xc2zKtQF7OQC2cfL"
     },
@@ -822,10 +852,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1690322403381,
         "modifiedTime": 1700544520836,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.CibOPRaQs2MMJErX"
     },
@@ -849,7 +881,6 @@
       },
       "effects": [
         {
-          "icon": "systems/swade/assets/icons/skill.svg",
           "duration": {
             "rounds": null,
             "startTime": 36,
@@ -880,7 +911,21 @@
           "description": "",
           "origin": null,
           "statuses": [],
-          "tint": null,
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "12.328",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "img": "systems/swade/assets/icons/skill.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
           "_key": "!actors.items.effects!hdY2aJN0b7jbROy8.ON2qQYABSdbJeh0G.ia6oaUEkyeWL4Uvw"
         }
       ],
@@ -900,10 +945,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1668046060853,
         "modifiedTime": 1700544562091,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_id": "ON2qQYABSdbJeh0G",
       "sort": 0,
@@ -1201,10 +1248,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1700543626775,
         "modifiedTime": 1700545398035,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Item.AotSFWCTZjoD5eI7",
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.NWfdQ53kg6O52IWE"
     },
@@ -1470,10 +1519,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1693887761723,
         "modifiedTime": 1700544650134,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-fantasy-companion.swade-fc-armor.Item.eSVI4BZBUW5B0000",
+        "duplicateSource": null
       },
       "_id": "NRvRnFG1umx03miJ",
       "_key": "!actors.items!hdY2aJN0b7jbROy8.NRvRnFG1umx03miJ"
@@ -1545,7 +1596,7 @@
         "equipStatus": 4,
         "swid": "1-fighting-short-sword",
         "choiceSets": [],
-        "rangeType": null
+        "rangeType": 0
       },
       "effects": [],
       "sort": 100000,
@@ -1568,10 +1619,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1692711325680,
         "modifiedTime": 1700544659237,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-fantasy-companion.swade-fc-weapons.Item.uzpkmDl780zz0038",
+        "duplicateSource": null
       },
       "_id": "ibkB9dzEASOQNHyP",
       "_key": "!actors.items!hdY2aJN0b7jbROy8.ibkB9dzEASOQNHyP"
@@ -1633,7 +1686,7 @@
         "swid": "bow-short",
         "equipStatus": 4,
         "choiceSets": [],
-        "rangeType": null
+        "rangeType": 2
       },
       "effects": [],
       "sort": 0,
@@ -1656,10 +1709,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1700544673443,
         "modifiedTime": 1700544673443,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-fantasy-companion.swade-fc-weapons.Item.gwkrWnCEl0V90003",
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.JJsZIgCssnukfMxd"
     },
@@ -1720,10 +1775,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1700544681987,
         "modifiedTime": 1700545386850,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-fantasy-companion.swade-fc-gear.Item.wYPPOcfBbmHR0000",
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.kXQunUBGvel6fhp4"
     },
@@ -1783,10 +1840,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1699683934897,
         "modifiedTime": 1700544705974,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Item.mQRmsGBc4vWNQ2se",
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.VUHVqV1qwLFmzWWn"
     },
@@ -1840,10 +1899,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1692123939991,
         "modifiedTime": 1700545242398,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Item.kvZJmK3jPAxq4MvX",
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.Xu4eJkOpgQsaiPki"
     },
@@ -1904,10 +1965,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1700545262858,
         "modifiedTime": 1700545386850,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-fantasy-companion.swade-fc-gear.Item.KRv4OtvuWiUW0007",
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.aUYGZlJzIt6T1uwm"
     },
@@ -1968,10 +2031,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1700545282975,
         "modifiedTime": 1700545386850,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.swade-fantasy-companion.swade-fc-gear.Item.KRv4OtvuWiUW0009",
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.Idmh0nKcf2L2vC9z"
     },
@@ -2027,10 +2092,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1691347302346,
         "modifiedTime": 1700545386850,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.savage-eberron.eberron-gear.Item.EdL1Z0EfYcIF3tK8",
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.rtuToUvXczkS829p"
     },
@@ -2086,10 +2153,12 @@
       "_stats": {
         "systemId": "swade",
         "systemVersion": "3.2.2",
-        "coreVersion": "11.315",
+        "coreVersion": "12.328",
         "createdTime": 1691347568948,
         "modifiedTime": 1700545386850,
-        "lastModifiedBy": "Xbne19Xghka479we"
+        "lastModifiedBy": "Xbne19Xghka479we",
+        "compendiumSource": "Compendium.savage-eberron.eberron-gear.Item.7aEWMIrf7xme1Z3R",
+        "duplicateSource": null
       },
       "_key": "!actors.items!hdY2aJN0b7jbROy8.pb6n46oYDhACyojX"
     }
@@ -2116,7 +2185,12 @@
       "src": "modules/swade-fantasy-companion/assets/tokens/fc_token_C_15.webp",
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
     "name": "House Orien Courier",
     "actorLink": false,
@@ -2152,11 +2226,30 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "effects": [],
   "flags": {
@@ -2172,11 +2265,13 @@
   "img": "modules/swade-fantasy-companion/assets/tokens/fc_token_C_15.webp",
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.3-dev",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1668046060853,
-    "modifiedTime": 1709268078637,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724345349094,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 193750,
   "ownership": {

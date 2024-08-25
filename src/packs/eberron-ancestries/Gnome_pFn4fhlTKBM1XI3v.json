@@ -1,45 +1,61 @@
 {
   "name": "Gnome",
-  "type": "ability",
+  "type": "ancestry",
   "_id": "pFn4fhlTKBM1XI3v",
   "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
   "system": {
     "description": "<ul><li><p><strong>Illusionist (+4):</strong> Gnomes can create imaginary images and sounds using the illusion power with the Sound Modifier at will.</p></li><li><p><strong>Knowledgeable (+1):</strong> Gnomes begin play with a d6 in Common Knowledge. This increases their maximum Common Knowledge to d12+1.</p></li><li><p><strong>Low Light Vision (+1):</strong> Gnomes’ eyes are accustomed to seeing below ground. They ignore attack penalties for Dim and Dark Illumination.</p></li><li><p><strong>Reduced Pace (−1):</strong> Gnomes have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p></li><li><p><strong>Size −1 (−1):</strong> Gnomes are considered Size −1 and have −1 Toughness.</p></li></ul>",
     "notes": "",
     "additionalStats": {},
-    "favorite": false,
-    "category": "Ancestry",
-    "subtype": "ancestry",
-    "grantsPowers": false,
     "grants": [
       {
-        "name": "Illusionist",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.69mlN7RPThOItE0Y",
         "img": "icons/magic/light/explosion-impact-purple.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.69mlN7RPThOItE0Y"
+        "name": "Illusionist"
       },
       {
-        "name": "Knowledgeable",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.PzcGVaFqhlHunIFV",
         "img": "icons/sundries/books/book-stack.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.PzcGVaFqhlHunIFV"
+        "name": "Knowledgeable"
       },
       {
-        "name": "Low Light Vision",
-        "img": "icons/magic/perception/eye-ringed-green.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.nISysFbSwDSyGQGy"
-      },
-      {
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.RPACsFXsFJvZsIwc",
+        "img": "systems/swade/assets/icons/ability.svg",
         "name": "Reduced Pace",
-        "img": "icons/skills/movement/figure-running-gray.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.zuzt8KlZWojyOykw"
+        "mutation": {
+          "img": "icons/skills/movement/figure-running-gray.webp",
+          "system": {
+            "description": "Gnomes have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type"
+          }
+        }
       },
       {
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.SIZEsFXsFJvZsIwc",
+        "img": "systems/swade/assets/icons/ability.svg",
         "name": "Size -1",
-        "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.VBhnvrcEKvXnN9S9"
+        "mutation": {
+          "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+          "system": {
+            "description": "Gnomes are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}."
+          }
+        }
+      },
+      {
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.LOWLsFXsFJvZsIwc",
+        "img": "systems/swade/assets/icons/ability.svg",
+        "name": "Low Light Vision",
+        "mutation": {
+          "img": "icons/magic/perception/eye-ringed-green.webp",
+          "system": {
+            "description": "Gnomes ignore penalties for Dim and Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} (but not Pitch Darkness)."
+          }
+        }
       }
     ],
-    "source": "Eberron for Savage Worlds",
-    "swid": "gnome"
+    "source": "SWADE Core Rules",
+    "swid": "gnome",
+    "choiceSets": [],
+    "threshold": 2
   },
   "effects": [],
   "folder": null,
@@ -51,11 +67,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1690513020903,
-    "modifiedTime": 1700890169387,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724559637378,
+    "lastModifiedBy": "Xbne19Xghka479we",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!pFn4fhlTKBM1XI3v"
 }

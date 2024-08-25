@@ -42,7 +42,6 @@
   },
   "effects": [
     {
-      "icon": "icons/creatures/abilities/cougar-pounce-stalk-black.webp",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -80,7 +79,21 @@
       "description": "<ul><li><p>+2 to Agility and Agility-based skill rolls.</p></li><li><p>+1 to Parry.</p></li></ul>",
       "origin": null,
       "statuses": [],
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/creatures/abilities/cougar-pounce-stalk-black.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!yCWGqGte7ZZBuM5l.Ye4vSQeJLQUzwIGd"
     }
   ],
@@ -89,11 +102,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.4.1",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1690315511822,
-    "modifiedTime": 1719213915408,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724345314603,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 1300000,
   "ownership": {

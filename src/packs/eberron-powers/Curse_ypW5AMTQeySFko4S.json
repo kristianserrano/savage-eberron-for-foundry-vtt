@@ -55,11 +55,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2-dev",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1705620813457,
-    "modifiedTime": 1705621518758,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724345317176,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!ypW5AMTQeySFko4S"
 }

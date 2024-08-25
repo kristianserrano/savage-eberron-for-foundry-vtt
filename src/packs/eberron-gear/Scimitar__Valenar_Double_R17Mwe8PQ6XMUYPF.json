@@ -54,7 +54,8 @@
     "trademark": 0,
     "isHeavyWeapon": false,
     "source": "Eberron for Savage Worlds",
-    "swid": "scimitar-valenar-double"
+    "swid": "scimitar-valenar-double",
+    "rangeType": 0
   },
   "effects": [],
   "sort": 0,
@@ -65,11 +66,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1691352684247,
-    "modifiedTime": 1700890170112,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345325114,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!R17Mwe8PQ6XMUYPF"
 }

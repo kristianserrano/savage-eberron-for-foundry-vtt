@@ -20,10 +20,10 @@
     "isVehicular": false,
     "mods": 1,
     "actions": {
-      "skill": "Fighting",
-      "skillMod": "",
       "dmgMod": "",
-      "additional": {}
+      "additional": {},
+      "trait": "Fighting",
+      "traitMod": ""
     },
     "bonusDamageDie": 6,
     "bonusDamageDice": 1,
@@ -40,7 +40,7 @@
     "grantOn": 1,
     "damage": "@str+d4",
     "range": "",
-    "rof": "0",
+    "rof": 0,
     "ap": 0,
     "parry": 0,
     "minStr": "d4",
@@ -52,7 +52,12 @@
     "trademark": 0,
     "isHeavyWeapon": false,
     "source": "Eberron for Savage Worlds",
-    "swid": "steel-fist-off-hand"
+    "swid": "steel-fist-off-hand",
+    "rangeType": 0,
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    }
   },
   "effects": [],
   "folder": "gVJBnQp2agFQhF0c",
@@ -71,11 +76,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1665117200190,
-    "modifiedTime": 1700890169381,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724349259269,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "SpwiET3zS4TBEcCG",
   "sort": 0,

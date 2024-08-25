@@ -14,11 +14,14 @@
     "grantsPowers": false,
     "grants": [],
     "source": "Eberron for Savage Worlds",
-    "swid": "athletic"
+    "swid": "athletic",
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    }
   },
   "effects": [
     {
-      "icon": "icons/skills/movement/feet-winged-sandals-tan.webp",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -49,7 +52,21 @@
       "description": "<p>Start with a d6 in Athletics instead of a d4. This increases their maximum Athletics to d12+1.</p>",
       "origin": null,
       "statuses": [],
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!29clVk6oxj4dNNLd.rx3YOVmYsu0KDACS"
     }
   ],
@@ -63,11 +80,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1690318710962,
-    "modifiedTime": 1700890169440,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724349259269,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!29clVk6oxj4dNNLd"
 }

@@ -53,7 +53,8 @@
     "trademark": 0,
     "isHeavyWeapon": false,
     "source": "Eberron for Savage Worlds",
-    "swid": "boomerang-xendrik"
+    "swid": "boomerang-xendrik",
+    "rangeType": 2
   },
   "effects": [],
   "ownership": {
@@ -65,11 +66,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1691353436711,
-    "modifiedTime": 1700890170111,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345325101,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "3IYVivv6ug4mzlj4",
   "sort": 0,

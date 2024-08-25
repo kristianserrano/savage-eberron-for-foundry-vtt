@@ -1,6 +1,6 @@
 {
   "name": "Empty Vessel",
-  "type": "ability",
+  "type": "ancestry",
   "_id": "haQTfIc0D9X8rc8T",
   "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
   "system": {
@@ -9,8 +9,6 @@
     "source": "Eberron for Savage Worlds",
     "swid": "empty-vessel",
     "additionalStats": {},
-    "favorite": false,
-    "category": "Ancestry",
     "grants": [
       {
         "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.DCaDEIPxz4J4lIfC",
@@ -30,8 +28,8 @@
         "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.bPCnlrru46IffO64"
       }
     ],
-    "subtype": "ancestry",
-    "grantsPowers": false
+    "choiceSets": [],
+    "threshold": 2
   },
   "effects": [],
   "folder": null,
@@ -43,11 +41,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1700896082958,
-    "modifiedTime": 1700896167830,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724349259269,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!haQTfIc0D9X8rc8T"
 }

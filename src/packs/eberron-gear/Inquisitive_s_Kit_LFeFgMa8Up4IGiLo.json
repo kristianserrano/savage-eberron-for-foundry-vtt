@@ -37,7 +37,6 @@
   },
   "effects": [
     {
-      "icon": "icons/tools/scribal/magnifying-glass.webp",
       "duration": {
         "rounds": null,
         "startTime": 0,
@@ -69,7 +68,21 @@
       "description": "",
       "origin": null,
       "statuses": [],
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/tools/scribal/magnifying-glass.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!LFeFgMa8Up4IGiLo.mcTxgcosIb1sY1SB"
     }
   ],
@@ -81,11 +94,13 @@
   "flags": {},
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1691348391743,
-    "modifiedTime": 1700890170142,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724345325110,
+    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!LFeFgMa8Up4IGiLo"
 }

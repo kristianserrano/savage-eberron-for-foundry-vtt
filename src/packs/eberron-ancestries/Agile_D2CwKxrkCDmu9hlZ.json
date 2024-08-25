@@ -12,11 +12,14 @@
     "grantsPowers": false,
     "grants": [],
     "source": "Eberron for Savage Worlds",
-    "swid": "agile"
+    "swid": "agile",
+    "choiceSets": [],
+    "build": {
+      "cost": 2
+    }
   },
   "effects": [
     {
-      "icon": "icons/magic/control/debuff-energy-snare-blue.webp",
       "duration": {
         "rounds": null,
         "startTime": 43230,
@@ -44,10 +47,24 @@
       "_id": "BqiwXPQyZARtUJM5",
       "disabled": false,
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "name": "Starting Agility d6",
       "description": "",
       "statuses": [],
+      "_stats": {
+        "coreVersion": "12.328",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!D2CwKxrkCDmu9hlZ.BqiwXPQyZARtUJM5"
     }
   ],
@@ -63,15 +80,37 @@
       "coreVersion": "11.305",
       "systemVersion": "3.0.5"
     },
-    "core": {}
+    "core": {},
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
+    }
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1671076809415,
-    "modifiedTime": 1700890169472,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724568515550,
+    "lastModifiedBy": "Xbne19Xghka479we",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "D2CwKxrkCDmu9hlZ",
   "sort": 200000,
