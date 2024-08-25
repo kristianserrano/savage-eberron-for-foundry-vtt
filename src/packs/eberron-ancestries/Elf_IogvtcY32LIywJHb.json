@@ -23,11 +23,6 @@
         "name": "Keen Vision"
       },
       {
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.HJB99FcK4gTt53RM",
-        "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
-        "name": "Trance"
-      },
-      {
         "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.LOWLsFXsFJvZsIwc",
         "img": "systems/swade/assets/icons/ability.svg",
         "name": "Low Light Vision",
@@ -37,6 +32,11 @@
             "description": "Elven eyes amplify light. Other ancestries often claim they can see stars in the elves’ eyes. They ignore penalties for Dim and Dark Illumination (but not Pitch Darkness)."
           }
         }
+      },
+      {
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.HJB99FcK4gTt53RM",
+        "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+        "name": "Trance"
       }
     ],
     "source": "Eberron for Savage Worlds",
