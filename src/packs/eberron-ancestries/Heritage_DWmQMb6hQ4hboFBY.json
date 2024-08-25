@@ -1,8 +1,9 @@
 {
   "folder": "FN4247Nt3Srx9EDb",
-  "name": "Heritage (Human)",
+  "name": "Heritage",
   "type": "ability",
-  "img": "icons/commodities/treasure/medal-ribbon-striped-gold-red.webp",
+  "_id": "DWmQMb6hQ4hboFBY",
+  "img": "icons/environment/people/group.webp",
   "system": {
     "description": "<p>Half-elves may express the grace of elves or human adaptability and ingenuity. A half-elf may either start with a free @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000#edges]{Edge} of his choice or a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
     "notes": "",
@@ -13,9 +14,14 @@
     "grantsPowers": false,
     "grants": [],
     "source": "Eberron for Savage Worlds",
-    "swid": "heritage-human"
+    "swid": "heritage",
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    }
   },
   "effects": [],
+  "sort": 0,
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3
@@ -25,13 +31,13 @@
   },
   "_stats": {
     "systemId": "swade",
-    "systemVersion": "3.2.4",
-    "coreVersion": "11.315",
+    "systemVersion": "4.1.0",
+    "coreVersion": "12.331",
     "createdTime": 1690321175145,
-    "modifiedTime": 1700890169383,
-    "lastModifiedBy": "gnhMzhHlhdZ0SrHo"
+    "modifiedTime": 1724571453372,
+    "lastModifiedBy": "Xbne19Xghka479we",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
-  "_id": "eq7dLOZfxRaO8SqU",
-  "sort": 0,
-  "_key": "!items!eq7dLOZfxRaO8SqU"
+  "_key": "!items!DWmQMb6hQ4hboFBY"
 }
