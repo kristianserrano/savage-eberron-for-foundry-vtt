@@ -15,7 +15,74 @@
     "grants": [],
     "source": "Eberron for Savage Worlds",
     "swid": "heritage",
-    "choiceSets": [],
+    "choiceSets": [
+      {
+        "title": "Half-elf Heritage",
+        "choice": null,
+        "choices": [
+          {
+            "name": "Elf",
+            "addToName": true,
+            "mutation": {
+              "effects": [
+                {
+                  "duration": {
+                    "rounds": null,
+                    "startTime": 0,
+                    "seconds": null,
+                    "combat": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "swade": {
+                      "expiration": null,
+                      "loseTurnOnHold": false
+                    }
+                  },
+                  "changes": [
+                    {
+                      "key": "system.attributes.agility.die.sides",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "name": "Starting Agility d6",
+                  "_id": "1OAqXlBm6D9gko3e",
+                  "disabled": false,
+                  "description": "<p>A half-elf may start with a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
+                  "origin": null,
+                  "statuses": [],
+                  "tint": "#ffffff",
+                  "_stats": {
+                    "coreVersion": "12.328",
+                    "systemId": null,
+                    "systemVersion": null,
+                    "createdTime": null,
+                    "modifiedTime": null,
+                    "lastModifiedBy": null,
+                    "compendiumSource": null,
+                    "duplicateSource": null
+                  },
+                  "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+                  "type": "base",
+                  "system": {},
+                  "sort": 0,
+                  "_key": "!items.effects!DWmQMb6hQ4hboFBY.1OAqXlBm6D9gko3e"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Human",
+            "addToName": true
+          }
+        ]
+      }
+    ],
     "build": {
       "cost": null
     }

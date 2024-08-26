@@ -19,11 +19,6 @@
         "name": "Changeling Instincts"
       },
       {
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.KE7TjnyaBkeVhzU8",
-        "img": "icons/skills/social/wave-halt-stop.webp",
-        "name": "Outsider"
-      },
-      {
         "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.HINDsFXsFJvZsIwc",
         "img": "systems/swade/assets/icons/ability.svg",
         "name": "Hindrance",
@@ -68,7 +63,7 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1689254362491,
-    "modifiedTime": 1724569335781,
+    "modifiedTime": 1724606730650,
     "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null

@@ -38,9 +38,58 @@
         "mutation": {}
       },
       {
-        "name": "Naturally Psionic",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.fcYVlZ4gO70hvh1x",
         "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.fcYVlZ4gO70hvh1x"
+        "name": "Naturally Psionic"
+      },
+      {
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.EDGEsFXsFJvZsIwc",
+        "img": "systems/swade/assets/icons/ability.svg",
+        "name": "Edge",
+        "mutation": {
+          "img": "icons/skills/social/diplomacy-peace-alliance.webp",
+          "name": "Charismatic",
+          "system": {
+            "description": "Kalashtar have the @Compendium[swade-core-rules.swade-edges.3jFwJEuUKJJ7YLgz]{Charismatic} Edge. Through their strong presence and psychic subtleties, they are adept at influencing others."
+          }
+        }
+      },
+      {
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.HINDsFXsFJvZsIwc",
+        "img": "systems/swade/assets/icons/ability.svg",
+        "name": "Hindrance",
+        "mutation": {
+          "name": "Enemy",
+          "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+          "system": {
+            "description": "Kalashtar are constantly hunted by the Dreaming Dark and the Inspired of Reidra."
+          }
+        }
+      },
+      {
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.HINDsFXsFJvZsIwc",
+        "img": "systems/swade/assets/icons/ability.svg",
+        "name": "Hindrance",
+        "mutation": {
+          "name": "Outsider",
+          "img": "icons/skills/social/wave-halt-stop.webp",
+          "system": {
+            "description": "If identified as kalashtar, they subtract 1 from their @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} roll as they seem to have alien dispositions with which most do not feel comfortable.",
+            "grants": [
+              {
+                "uuid": "Compendium.swade-core-rules.swade-hindrances.Item.IQgZkCUMklDKYV9x",
+                "img": "systems/swade/assets/icons/hindrance.svg",
+                "name": "Outsider",
+                "mutation": {
+                  "system": {
+                    "major": true,
+                    "description": "If identified as kalashtar, they subtract 1 from their @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} roll as they seem to have alien dispositions with which most do not feel comfortable."
+                  }
+                }
+              }
+            ]
+          }
+        }
       }
     ],
     "source": "Eberron for Savage Worlds",
@@ -62,8 +111,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1690332964983,
-    "modifiedTime": 1724349259269,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724607346197,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },
