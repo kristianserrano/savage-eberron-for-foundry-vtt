@@ -1,0 +1,96 @@
+{
+  "effects": [],
+  "img": "icons/skills/social/wave-halt-stop.webp",
+  "name": "Outsider",
+  "type": "ability",
+  "system": {
+    "source": "Eberron for Savage Worlds",
+    "additionalStats": {},
+    "build": {
+      "cost": -1
+    },
+    "description": "Changelings have the @Compendium[swade-core-rules.swade-hindrances.IQgZkCUMklDKYV9x]{Outsider} (Minor) Hindrance. If identified as a changeling, they have −1 to @Compendium[swade-core-rules.swade-skills.k7fIVOghEx6y44xE]{Persuasion} as other races tend to distrust them, but their changeling instincts still give them some advantage.",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Changeling",
+    "swid": "hindrance",
+    "choiceSets": [
+      {
+        "title": "Hindrance Type - Choose one.",
+        "choice": 0,
+        "choices": [
+          {
+            "name": "Minor",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": -1
+                },
+                "grants": [
+                  {
+                    "uuid": "Compendium.swade-core-rules.swade-hindrances.Item.IQgZkCUMklDKYV9x",
+                    "img": "systems/swade/assets/icons/hindrance.svg",
+                    "name": "Outsider",
+                    "mutation": {
+                      "system": {
+                        "description": "Changelings have the @Compendium[swade-core-rules.swade-hindrances.IQgZkCUMklDKYV9x]{Outsider} (Minor) Hindrance. If identified as a changeling, they have −1 to @Compendium[swade-core-rules.swade-skills.k7fIVOghEx6y44xE]{Persuasion} as other races tend to distrust them, but their changeling instincts still give them some advantage.",
+                        "major": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Major",
+            "addToName": true,
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": -2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "favorite": false,
+    "grants": [
+      {
+        "uuid": "Compendium.swade-core-rules.swade-hindrances.Item.IQgZkCUMklDKYV9x",
+        "img": "systems/swade/assets/icons/hindrance.svg",
+        "name": "Outsider",
+        "mutation": {
+          "system": {
+            "description": "Changelings have the @Compendium[swade-core-rules.swade-hindrances.IQgZkCUMklDKYV9x]{Outsider} (Minor) Hindrance. If identified as a changeling, they have −1 to @Compendium[swade-core-rules.swade-skills.k7fIVOghEx6y44xE]{Persuasion} as other races tend to distrust them, but their changeling instincts still give them some advantage.",
+            "major": "false"
+          },
+          "img": "icons/skills/social/wave-halt-stop.webp"
+        }
+      }
+    ]
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1724730504244,
+    "modifiedTime": 1724730623438,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "folder": "sejulRCFKEsoF9Il",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_id": "q8HZQK2uOyEiqZFZ",
+  "sort": 0,
+  "_key": "!items!q8HZQK2uOyEiqZFZ"
+}
