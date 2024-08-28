@@ -2,3 +2,4 @@
 node_modules
 savage-eberron.lock
 /packs/**/
+/tools/fvttLaunch-v*.sh
