@@ -29,17 +29,6 @@
         "name": "Stealthy"
       },
       {
-        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.RPACsFXsFJvZsIwc",
-        "img": "systems/swade/assets/icons/ability.svg",
-        "name": "Reduced Pace",
-        "mutation": {
-          "system": {
-            "description": "Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type."
-          },
-          "img": "icons/skills/movement/figure-running-gray.webp"
-        }
-      },
-      {
         "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.SIZEsFXsFJvZsIwc",
         "img": "systems/swade/assets/icons/ability.svg",
         "name": "Size -1",
@@ -49,6 +38,11 @@
             "description": "Halflings are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}."
           }
         }
+      },
+      {
+        "name": "Reduced Pace (-1)",
+        "img": "icons/skills/movement/figure-running-gray.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.BZMyvNbIMH6olaon"
       }
     ],
     "source": "Eberron for Savage Worlds",
@@ -71,7 +65,7 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1690319936949,
-    "modifiedTime": 1724559357117,
+    "modifiedTime": 1724819579581,
     "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null

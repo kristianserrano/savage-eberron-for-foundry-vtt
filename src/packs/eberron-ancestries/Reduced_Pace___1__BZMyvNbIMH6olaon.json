@@ -1,0 +1,179 @@
+{
+  "effects": [
+    {
+      "_id": "ReducedPace00000",
+      "changes": [
+        {
+          "key": "system.stats.speed.value",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.stats.speed.runningDie",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 36,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {},
+      "name": "Reduced Pace",
+      "tint": "#ffffff",
+      "transfer": true,
+      "img": "systems/swade/assets/icons/ability.svg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!BZMyvNbIMH6olaon.ReducedPace00000"
+    }
+  ],
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "name": "Reduced Pace (-1)",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules",
+    "additionalStats": {},
+    "build": {
+      "cost": -1
+    },
+    "description": "Halflings have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Negative",
+    "swid": "reduced-pace",
+    "choiceSets": [
+      {
+        "title": "Reduced Pace",
+        "choices": [
+          {
+            "name": "Reduced Pace -1",
+            "mutation": {
+              "name": "Reduced Pace (-1)",
+              "effects": [
+                {
+                  "_id": "ReducedPace00000",
+                  "changes": [
+                    {
+                      "key": "system.stats.speed.value",
+                      "mode": 2,
+                      "value": -1
+                    },
+                    {
+                      "key": "system.stats.speed.runningDie",
+                      "mode": 2,
+                      "value": -2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Reduced Pace",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": -1
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Reduced Pace -2",
+            "mutation": {
+              "name": "Reduced Pace (-2)",
+              "effects": [
+                {
+                  "_id": "ReducedPace00000",
+                  "changes": [
+                    {
+                      "key": "system.stats.speed.value",
+                      "mode": 2,
+                      "value": -3
+                    },
+                    {
+                      "key": "system.stats.speed.runningDie",
+                      "mode": 2,
+                      "value": -2
+                    },
+                    {
+                      "key": "@Skill{Athletics}[system.die.modifier]",
+                      "mode": 2,
+                      "value": -2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Reduced Pace",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": -2
+                }
+              }
+            },
+            "addToName": false
+          }
+        ],
+        "choice": 0
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1724819542331,
+    "modifiedTime": 1724819542355,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "folder": "8duy0r5LaiffI3GL",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_id": "BZMyvNbIMH6olaon",
+  "sort": 300000,
+  "_key": "!items!BZMyvNbIMH6olaon"
+}

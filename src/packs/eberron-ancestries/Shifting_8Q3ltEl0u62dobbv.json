@@ -189,7 +189,7 @@
                     {
                       "key": "@weapon{Bite}[system.favorite]",
                       "mode": 5,
-                      "value": "1"
+                      "value": "true"
                     }
                   ],
                   "transfer": true,
@@ -251,7 +251,7 @@
                     {
                       "key": "@weapon{Claws}[system.favorite]",
                       "mode": 5,
-                      "value": "1"
+                      "value": "true"
                     }
                   ],
                   "transfer": true,
