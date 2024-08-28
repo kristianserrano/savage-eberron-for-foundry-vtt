@@ -130,7 +130,7 @@
     },
     "bennies": {
       "value": 0,
-      "max": 2
+      "max": 0
     },
     "advances": {
       "mode": "expanded",
@@ -4754,8 +4754,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1702867189976,
-    "modifiedTime": 1724345349060,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724861781218,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

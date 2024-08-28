@@ -122,7 +122,7 @@
     },
     "bennies": {
       "value": 0,
-      "max": 2
+      "max": 0
     },
     "advances": {
       "mode": "expanded",
@@ -1197,62 +1197,56 @@
     },
     {
       "name": "Dwarf",
-      "type": "ability",
-      "_id": "D04tzQXjZEPc0Y5i",
+      "type": "ancestry",
+      "_id": "bCjSdcPPmjem4ARq",
       "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
       "system": {
         "description": "<ul><li><p><strong>Darkvision (+1):</strong> Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers. </p></li><li><p><strong>Reduced Pace (−1):</strong> Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type. </p></li><li><p><strong>Stonecunning (+1):</strong> Generations of delving into the depths of the Mror Holds has taught the Dwarves how to identify unusual stonework, granting them the Stonecunning Edge.</p></li><li><p><strong>Tough (+3):</strong> Dwarves are genetically stout and tough. They start with a d6 in Vigor instead of a d4. This increases their maximum Vigor to d12+1. They also have a +1 bonus to resist poisons, powers, and supernatural abilities that behave similarly to powers.</p></li></ul>",
         "notes": "",
         "additionalStats": {},
-        "favorite": false,
-        "category": "Ancestry",
-        "subtype": "ancestry",
-        "grantsPowers": false,
         "grants": [
           {
-            "name": "Dark Vision",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
             "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+            "name": "Dark Vision",
             "mutation": {
               "name": "Darkvision",
-              "img": "icons/magic/perception/eye-slit-orange.webp"
+              "img": "icons/magic/perception/eye-slit-orange.webp",
+              "system": {
+                "description": "Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers."
+              }
             }
           },
           {
-            "name": "Stability",
-            "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
             "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.JgPgk2Vv8FCuYIbr",
-            "mutation": {}
+            "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+            "name": "Stability"
           },
           {
-            "name": "Stonecunning",
-            "img": "icons/skills/trades/construction-mason-stonecutter-sculpture.webp",
             "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.q96wqaai9bJmKjUN",
-            "mutation": {}
+            "img": "icons/skills/trades/construction-mason-stonecutter-sculpture.webp",
+            "name": "Stonecunning"
           },
           {
-            "name": "Tough",
-            "img": "icons/magic/control/buff-strength-muscle-damage.webp",
             "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.UsAhusaNzWYJkxqk",
-            "mutation": {}
+            "img": "icons/magic/control/buff-strength-muscle-damage.webp",
+            "name": "Tough"
           },
           {
-            "name": "Reduced Pace",
+            "name": "Reduced Pace (-1)",
             "img": "icons/skills/movement/figure-running-gray.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.U18fu5U8IY35oqG1",
-            "mutation": {}
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.H9bzn9ERoRpjcW6i"
           }
         ],
         "source": "Eberron for Savage Worlds",
         "swid": "dwarf",
-        "choiceSets": []
+        "choiceSets": [],
+        "threshold": 2
       },
       "effects": [],
       "folder": null,
       "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-ancestries.Item.Mpv3gzJfpDt4xqoY"
-        },
+        "core": {},
         "exportSource": {
           "world": "eberron-for-savage-worlds",
           "system": "swade",
@@ -1261,49 +1255,52 @@
         },
         "swade": {
           "hasGranted": [
-            "tGXNeVKtBuy6WvL7",
-            "ElNmCVwSyIczeLyF",
-            "6BEjpSeG5XoBQy1v",
-            "n0PeUTmHawDGPCHt",
-            "phGcA8iFGQoFeeCr",
-            "UzCiidvXsSvXGcST"
+            "qrEXedDZ2Tpwp3AB",
+            "YxFTnzGBHvBIuioh",
+            "HhrU2bGY6HloDwy6",
+            "Fd7kVH1CMGzgTBv0",
+            "wJhI5VRKF0OCRHj5",
+            "9RI02vtN75gaWHLB"
           ]
         }
       },
       "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.3-dev",
-        "coreVersion": "12.328",
-        "createdTime": 1689255596862,
-        "modifiedTime": 1709267183055,
-        "lastModifiedBy": "Xbne19Xghka479we",
         "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.Mpv3gzJfpDt4xqoY",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862832421,
+        "modifiedTime": 1724862832522,
+        "lastModifiedBy": "Xbne19Xghka479we"
       },
       "sort": 1800000,
       "ownership": {
         "default": 0,
         "Xbne19Xghka479we": 3
       },
-      "_key": "!actors.items!AU02Cn7o69efYGRu.D04tzQXjZEPc0Y5i"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.bCjSdcPPmjem4ARq"
     },
     {
-      "_id": "tGXNeVKtBuy6WvL7",
+      "_id": "qrEXedDZ2Tpwp3AB",
       "name": "Darkvision",
       "type": "ability",
       "img": "icons/magic/perception/eye-slit-orange.webp",
       "system": {
         "source": "Fantasy Companion",
         "category": "New Ancestral Abilities",
-        "description": "<article class=\"swadefc\"><p><strong>Dark Vision (1):</strong> The species can see in the dark  a short distance, ignoring all illumination penalties and up to 2 points of penalties from <em>invisibility</em>  or similar powers within 10\" (20 yards) distant.</p></article>",
+        "description": "Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers.",
         "notes": "",
         "additionalStats": {},
         "subtype": "special",
         "favorite": false,
         "grantsPowers": false,
         "swid": "dark-vision",
+        "choiceSets": [],
         "grants": [],
-        "choiceSets": []
+        "build": {
+          "cost": null
+        }
       },
       "effects": [],
       "sort": 0,
@@ -1316,22 +1313,22 @@
           "module": "swade-fantasy-companion"
         }
       },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862832446,
+        "modifiedTime": 1724862832446,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
       "folder": null,
       "ownership": {
         "default": 0,
         "Xbne19Xghka479we": 3
       },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.3-dev",
-        "coreVersion": "12.328",
-        "createdTime": 1709267183012,
-        "modifiedTime": 1709267183012,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!AU02Cn7o69efYGRu.tGXNeVKtBuy6WvL7"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.qrEXedDZ2Tpwp3AB"
     },
     {
       "name": "Stability",
@@ -1348,7 +1345,10 @@
         "grants": [],
         "source": "Eberron for Savage Worlds",
         "swid": "stability",
-        "choiceSets": []
+        "choiceSets": [],
+        "build": {
+          "cost": null
+        }
       },
       "effects": [
         {
@@ -1384,20 +1384,20 @@
           "description": "",
           "statuses": [],
           "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": null
           },
           "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.ElNmCVwSyIczeLyF.1wQzbJq5vnB2AasU"
+          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.YxFTnzGBHvBIuioh.1wQzbJq5vnB2AasU"
         }
       ],
       "folder": "aXo6xVVmiLyAK44L",
@@ -1415,25 +1415,25 @@
         "core": {}
       },
       "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.3-dev",
-        "coreVersion": "12.328",
-        "createdTime": 1671074788510,
-        "modifiedTime": 1709267183012,
-        "lastModifiedBy": "Xbne19Xghka479we",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862832446,
+        "modifiedTime": 1724862832446,
+        "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_id": "ElNmCVwSyIczeLyF",
+      "_id": "YxFTnzGBHvBIuioh",
       "sort": 0,
-      "_key": "!actors.items!AU02Cn7o69efYGRu.ElNmCVwSyIczeLyF"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.YxFTnzGBHvBIuioh"
     },
     {
       "name": "Stonecunning",
       "type": "ability",
       "img": "icons/skills/trades/construction-mason-stonecutter-sculpture.webp",
       "system": {
-        "description": "<p>Dwarves have the Stonecunning Edge. The generations of dwelling in the Mror Holds has taught them how to sense unusual stonework.</p>",
+        "description": "<p>Dwarves have the @UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.IuRGnWAwIKFtQJoZ]{Stonecunning} Edge. The generations of dwelling in the Mror Holds has taught them how to sense unusual stonework.</p>",
         "notes": "",
         "additionalStats": {},
         "favorite": false,
@@ -1444,13 +1444,15 @@
           {
             "name": "Stonecunning",
             "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
-            "uuid": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.IuRGnWAwIKFtQJoZ",
-            "mutation": {}
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.IuRGnWAwIKFtQJoZ"
           }
         ],
         "source": "Eberron for Savage Worlds",
         "swid": "stonecunning",
-        "choiceSets": []
+        "choiceSets": [],
+        "build": {
+          "cost": null
+        }
       },
       "effects": [],
       "folder": "aXo6xVVmiLyAK44L",
@@ -1468,18 +1470,18 @@
         "core": {}
       },
       "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.3-dev",
-        "coreVersion": "12.328",
-        "createdTime": 1671074423996,
-        "modifiedTime": 1709267183012,
-        "lastModifiedBy": "Xbne19Xghka479we",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862832446,
+        "modifiedTime": 1724862832446,
+        "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_id": "6BEjpSeG5XoBQy1v",
+      "_id": "HhrU2bGY6HloDwy6",
       "sort": 50000,
-      "_key": "!actors.items!AU02Cn7o69efYGRu.6BEjpSeG5XoBQy1v"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.HhrU2bGY6HloDwy6"
     },
     {
       "name": "Tough",
@@ -1496,7 +1498,10 @@
         "grants": [],
         "source": "Eberron for Savage Worlds",
         "swid": "tough",
-        "choiceSets": []
+        "choiceSets": [],
+        "build": {
+          "cost": null
+        }
       },
       "effects": [
         {
@@ -1530,21 +1535,21 @@
           "origin": null,
           "statuses": [],
           "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": null
           },
           "img": "icons/magic/control/buff-strength-muscle-damage.webp",
           "type": "base",
           "system": {},
           "tint": "#ffffff",
           "sort": 0,
-          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.n0PeUTmHawDGPCHt.jmXZJ6SozUFEyZnh"
+          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.Fd7kVH1CMGzgTBv0.jmXZJ6SozUFEyZnh"
         }
       ],
       "folder": "aXo6xVVmiLyAK44L",
@@ -1562,117 +1567,21 @@
         "core": {}
       },
       "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.3-dev",
-        "coreVersion": "12.328",
-        "createdTime": 1671075836315,
-        "modifiedTime": 1709267183012,
-        "lastModifiedBy": "Xbne19Xghka479we",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862832446,
+        "modifiedTime": 1724862832446,
+        "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_id": "n0PeUTmHawDGPCHt",
+      "_id": "Fd7kVH1CMGzgTBv0",
       "sort": 0,
-      "_key": "!actors.items!AU02Cn7o69efYGRu.n0PeUTmHawDGPCHt"
+      "_key": "!actors.items!AU02Cn7o69efYGRu.Fd7kVH1CMGzgTBv0"
     },
     {
-      "name": "Reduced Pace",
-      "type": "ability",
-      "img": "icons/skills/movement/figure-running-gray.webp",
-      "system": {
-        "description": "<p>Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Dwarf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "reduced-pace",
-        "choiceSets": []
-      },
-      "effects": [
-        {
-          "name": "Reduced Pace",
-          "changes": [
-            {
-              "key": "system.stats.speed.value",
-              "mode": 2,
-              "value": "-1",
-              "priority": null
-            },
-            {
-              "key": "system.stats.speed.runningDie",
-              "mode": 2,
-              "value": "-2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "_id": "maEcJPnpc131go1w",
-          "disabled": false,
-          "duration": {
-            "startTime": 36,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "description": "",
-          "origin": null,
-          "statuses": [],
-          "flags": {},
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "icons/skills/movement/figure-running-gray.webp",
-          "type": "base",
-          "system": {},
-          "tint": "#ffffff",
-          "sort": 0,
-          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.phGcA8iFGQoFeeCr.maEcJPnpc131go1w"
-        }
-      ],
-      "folder": "aXo6xVVmiLyAK44L",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.3-dev",
-        "coreVersion": "12.328",
-        "createdTime": 1668895717346,
-        "modifiedTime": 1709267183012,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "phGcA8iFGQoFeeCr",
-      "sort": 150000,
-      "_key": "!actors.items!AU02Cn7o69efYGRu.phGcA8iFGQoFeeCr"
-    },
-    {
-      "_id": "UzCiidvXsSvXGcST",
+      "_id": "wJhI5VRKF0OCRHj5",
       "name": "Stonecunning",
       "type": "edge",
       "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
@@ -1699,9 +1608,9 @@
         ],
         "category": "Professional",
         "swid": "stonecunning",
+        "choiceSets": [],
         "favorite": false,
-        "grants": [],
-        "choiceSets": []
+        "grants": []
       },
       "effects": [
         {
@@ -1720,6 +1629,19 @@
               "conditionalEffect": false
             }
           },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+          "type": "base",
+          "system": {},
           "disabled": false,
           "duration": {
             "startTime": 36,
@@ -1732,24 +1654,11 @@
           },
           "description": "",
           "origin": null,
+          "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
-          "type": "base",
-          "system": {},
-          "tint": "#ffffff",
           "sort": 0,
-          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.UzCiidvXsSvXGcST.cqP4rHkJLTpfaEb9"
+          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.wJhI5VRKF0OCRHj5.cqP4rHkJLTpfaEb9"
         }
       ],
       "sort": 0,
@@ -1762,22 +1671,201 @@
           "module": "swade-fantasy-companion"
         }
       },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862832446,
+        "modifiedTime": 1724862832446,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
       "folder": null,
       "ownership": {
         "default": 0,
         "Xbne19Xghka479we": 3
       },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.3-dev",
-        "coreVersion": "12.328",
-        "createdTime": 1709267183012,
-        "modifiedTime": 1709267183012,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
+      "_key": "!actors.items!AU02Cn7o69efYGRu.wJhI5VRKF0OCRHj5"
+    },
+    {
+      "effects": [
+        {
+          "_id": "ReducedPace00000",
+          "changes": [
+            {
+              "key": "system.stats.speed.value",
+              "mode": 2,
+              "value": "-1",
+              "priority": null
+            },
+            {
+              "key": "system.stats.speed.runningDie",
+              "mode": 2,
+              "value": "-2",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {},
+          "name": "Reduced Pace",
+          "tint": "#ffffff",
+          "transfer": true,
+          "img": "systems/swade/assets/icons/ability.svg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!AU02Cn7o69efYGRu.9RI02vtN75gaWHLB.ReducedPace00000"
+        }
+      ],
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "name": "Reduced Pace (-1)",
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "build": {
+          "cost": -1
+        },
+        "description": "Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Negative",
+        "swid": "reduced-pace",
+        "choiceSets": [
+          {
+            "title": "Reduced Pace",
+            "choices": [
+              {
+                "name": "Reduced Pace -1",
+                "mutation": {
+                  "name": "Reduced Pace (-1)",
+                  "effects": [
+                    {
+                      "_id": "ReducedPace00000",
+                      "changes": [
+                        {
+                          "key": "system.stats.speed.value",
+                          "mode": 2,
+                          "value": -1
+                        },
+                        {
+                          "key": "system.stats.speed.runningDie",
+                          "mode": 2,
+                          "value": -2
+                        }
+                      ],
+                      "disabled": false,
+                      "duration": {
+                        "startTime": null
+                      },
+                      "flags": {},
+                      "icon": "systems/swade/assets/icons/ability.svg",
+                      "name": "Reduced Pace",
+                      "tint": null,
+                      "transfer": true
+                    }
+                  ],
+                  "system": {
+                    "build": {
+                      "cost": -1
+                    }
+                  }
+                },
+                "addToName": false
+              },
+              {
+                "name": "Reduced Pace -2",
+                "mutation": {
+                  "name": "Reduced Pace (-2)",
+                  "effects": [
+                    {
+                      "_id": "ReducedPace00000",
+                      "changes": [
+                        {
+                          "key": "system.stats.speed.value",
+                          "mode": 2,
+                          "value": -3
+                        },
+                        {
+                          "key": "system.stats.speed.runningDie",
+                          "mode": 2,
+                          "value": -2
+                        },
+                        {
+                          "key": "@Skill{Athletics}[system.die.modifier]",
+                          "mode": 2,
+                          "value": -2
+                        }
+                      ],
+                      "disabled": false,
+                      "duration": {
+                        "startTime": null
+                      },
+                      "flags": {},
+                      "icon": "systems/swade/assets/icons/ability.svg",
+                      "name": "Reduced Pace",
+                      "tint": null,
+                      "transfer": true
+                    }
+                  ],
+                  "system": {
+                    "build": {
+                      "cost": -2
+                    }
+                  }
+                },
+                "addToName": false
+              }
+            ],
+            "choice": 0
+          }
+        ],
+        "favorite": false,
+        "grants": []
       },
-      "_key": "!actors.items!AU02Cn7o69efYGRu.UzCiidvXsSvXGcST"
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862832446,
+        "modifiedTime": 1724862832446,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "folder": "aXo6xVVmiLyAK44L",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_id": "9RI02vtN75gaWHLB",
+      "sort": 0,
+      "_key": "!actors.items!AU02Cn7o69efYGRu.9RI02vtN75gaWHLB"
     }
   ],
   "effects": [],
@@ -1790,8 +1878,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1693890215641,
-    "modifiedTime": 1724345348835,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724863013233,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

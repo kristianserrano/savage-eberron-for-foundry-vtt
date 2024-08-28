@@ -130,8 +130,8 @@
       "list": []
     },
     "bennies": {
-      "value": 2,
-      "max": 2
+      "value": 0,
+      "max": 0
     },
     "status": {
       "isShaken": false,
@@ -240,304 +240,6 @@
     }
   },
   "items": [
-    {
-      "name": "Half-Elf (Elf Heritage)",
-      "type": "ability",
-      "_id": "p8S9eJB1ZlFKkDk7",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "description": "<ul><li><p><strong>Heritage (+2):</strong> Half-elves may express the grace of elves or human adaptability and ingenuity. A half-elf may either start with a free Edge of his choice or a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p></li><li><p><strong>Low Light Vision (+1):</strong> Half-elves ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).</p></li><li><p><strong>Skilled (+1):</strong> Sharing the ingenuity of their human relatives as well as having slightly longer life spans, half-elves start with a d4 in any skill based on their experiences, education, training, or culture. If the chosen skill is a core skill, it starts at d6 and the skill’s maximum increases to d12+1.</p></li></ul>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Ancestry",
-        "subtype": "ancestry",
-        "grantsPowers": false,
-        "grants": [
-          {
-            "name": "Heritage (Elf)",
-            "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.DWmQMb6hQ4hboFBY",
-            "mutation": {}
-          },
-          {
-            "name": "Low Light Vision",
-            "img": "icons/magic/perception/eye-ringed-green.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.o4Tat7oLxmyfdSX9",
-            "mutation": {}
-          },
-          {
-            "name": "Skilled",
-            "img": "icons/skills/trades/smithing-anvil-horseshoe.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.Fl45JyWxIjcUQz25",
-            "mutation": {}
-          }
-        ],
-        "source": "Eberron for Savage Worlds",
-        "swid": "half-elf-elf-heritage",
-        "choiceSets": []
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 600000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-ancestries.Item.ZiHlDK7Q8xWHFJ4P"
-        },
-        "swade": {
-          "hasGranted": [
-            "TbRKWBVS7sTTupJy",
-            "1rg1FXPesMJvkPS9",
-            "lSm7ls2UwChgcHLb"
-          ]
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.0.6",
-        "coreVersion": "12.328",
-        "createdTime": 1690320782224,
-        "modifiedTime": 1692066622173,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.ZiHlDK7Q8xWHFJ4P",
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!5l0SaRBXT8mht8dL.p8S9eJB1ZlFKkDk7"
-    },
-    {
-      "folder": "FN4247Nt3Srx9EDb",
-      "name": "Heritage (Elf)",
-      "type": "ability",
-      "_id": "TbRKWBVS7sTTupJy",
-      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
-      "system": {
-        "description": "<p>Half-elves may express the grace of elves or human adaptability and ingenuity. A half-elf may either start with a free @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000#edges]{Edge} of his choice or a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Half-elf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "heritage-elf",
-        "choiceSets": []
-      },
-      "effects": [
-        {
-          "duration": {
-            "rounds": null,
-            "startTime": 0,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "loseTurnOnHold": false
-            }
-          },
-          "changes": [
-            {
-              "key": "system.attributes.agility.die.sides",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "name": "Starting Agility d6",
-          "_id": "1OAqXlBm6D9gko3e",
-          "disabled": false,
-          "description": "<p>A half-elf may start with a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
-          "origin": null,
-          "statuses": [],
-          "tint": "#ffffff",
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
-          "type": "base",
-          "system": {},
-          "sort": 0,
-          "_key": "!actors.items.effects!5l0SaRBXT8mht8dL.TbRKWBVS7sTTupJy.1OAqXlBm6D9gko3e"
-        }
-      ],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.0.6",
-        "coreVersion": "12.328",
-        "createdTime": 1690321175145,
-        "modifiedTime": 1692066622087,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!5l0SaRBXT8mht8dL.TbRKWBVS7sTTupJy"
-    },
-    {
-      "folder": "FN4247Nt3Srx9EDb",
-      "name": "Low Light Vision",
-      "type": "ability",
-      "img": "icons/magic/perception/eye-ringed-green.webp",
-      "system": {
-        "description": "<p>Half-elves ignore penalties for Dim and Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} (but not Pitch Darkness).</p>",
-        "notes": "Racial",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Half-elf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "low-light-vision",
-        "choiceSets": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {},
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.0.6",
-        "coreVersion": "12.328",
-        "createdTime": 1668045742153,
-        "modifiedTime": 1692066622087,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "1rg1FXPesMJvkPS9",
-      "sort": 100000,
-      "_key": "!actors.items!5l0SaRBXT8mht8dL.1rg1FXPesMJvkPS9"
-    },
-    {
-      "folder": "FN4247Nt3Srx9EDb",
-      "name": "Skilled",
-      "type": "ability",
-      "img": "icons/skills/trades/smithing-anvil-horseshoe.webp",
-      "system": {
-        "description": "<p>Sharing the ingenuity of their human relatives as well as having slightly longer life spans, half-elves start with a d4 in any @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000#skills]{skill} based on their experiences, education, training, or culture. If the chosen skill is a core skill, it starts at d6 and the skill’s maximum increases to d12+1</p>",
-        "notes": "Racial",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Half-elf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "skilled",
-        "choiceSets": []
-      },
-      "effects": [
-        {
-          "duration": {
-            "rounds": null,
-            "startTime": 0,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "loseTurnOnHold": false
-            }
-          },
-          "changes": [
-            {
-              "key": "@Skill{Core Skill}[system.die.sides]",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "name": "Starting Core Skill d6",
-          "_id": "32TBtnDN750S61P8",
-          "disabled": true,
-          "description": "",
-          "origin": null,
-          "statuses": [],
-          "tint": "#ffffff",
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "systems/swade/assets/icons/skill.svg",
-          "type": "base",
-          "system": {},
-          "sort": 0,
-          "_key": "!actors.items.effects!5l0SaRBXT8mht8dL.lSm7ls2UwChgcHLb.32TBtnDN750S61P8"
-        }
-      ],
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {},
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.0.6",
-        "coreVersion": "12.328",
-        "createdTime": 1668046060853,
-        "modifiedTime": 1692066622087,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "lSm7ls2UwChgcHLb",
-      "sort": 0,
-      "_key": "!actors.items!5l0SaRBXT8mht8dL.lSm7ls2UwChgcHLb"
-    },
     {
       "_id": "aJQkIn7SHD769H3v",
       "name": "Cleric",
@@ -2950,6 +2652,803 @@
         "duplicateSource": null
       },
       "_key": "!actors.items!5l0SaRBXT8mht8dL.QO9IEAc9LaM9k8gJ"
+    },
+    {
+      "name": "Half-Elf",
+      "type": "ancestry",
+      "_id": "xASz6dtjZRrduukG",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<ul><li><p><strong>Heritage (+2):</strong> Half-elves may express the grace of elves or human adaptability and ingenuity. A half-elf may either start with a free Edge of his choice or a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p></li><li><p><strong>Low Light Vision (+1):</strong> Half-elves ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).</p></li><li><p><strong>Skilled (+1):</strong> Sharing the ingenuity of their human relatives as well as having slightly longer life spans, half-elves start with a d4 in any skill based on their experiences, education, training, or culture. If the chosen skill is a core skill, it starts at d6 and the skill’s maximum increases to d12+1.</p></li></ul>",
+        "notes": "",
+        "additionalStats": {},
+        "grants": [
+          {
+            "name": "Heritage",
+            "img": "icons/environment/people/group.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.DWmQMb6hQ4hboFBY"
+          },
+          {
+            "name": "Low Light Vision",
+            "img": "icons/magic/perception/eye-ringed-green.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.o4Tat7oLxmyfdSX9"
+          },
+          {
+            "name": "Skilled",
+            "img": "icons/skills/trades/smithing-anvil-horseshoe.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.Fl45JyWxIjcUQz25"
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "half-elf",
+        "choiceSets": [],
+        "threshold": 2
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "swade": {
+          "hasGranted": [
+            "OS0971pRwBvmBvhS",
+            "jBTiGDroPHHpjt3V",
+            "4RpRDQMJ3IHVLeDX"
+          ]
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.ZiHlDK7Q8xWHFJ4P",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724861971497,
+        "modifiedTime": 1724861973959,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!5l0SaRBXT8mht8dL.xASz6dtjZRrduukG"
+    },
+    {
+      "folder": "FN4247Nt3Srx9EDb",
+      "name": "Heritage (Elf)",
+      "type": "ability",
+      "_id": "OS0971pRwBvmBvhS",
+      "img": "icons/environment/people/group.webp",
+      "system": {
+        "description": "<p>Half-elves may express the grace of elves or human adaptability and ingenuity. A half-elf may either start with a free @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000#edges]{Edge} of his choice or a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Half-elf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "heritage",
+        "choiceSets": [
+          {
+            "title": "Half-elf Heritage",
+            "choice": 0,
+            "choices": [
+              {
+                "name": "Elf",
+                "addToName": true,
+                "mutation": {
+                  "effects": [
+                    {
+                      "duration": {
+                        "rounds": null,
+                        "startTime": 0,
+                        "seconds": null,
+                        "combat": null,
+                        "turns": null,
+                        "startRound": null,
+                        "startTurn": null
+                      },
+                      "flags": {
+                        "swade": {
+                          "expiration": null,
+                          "loseTurnOnHold": false
+                        }
+                      },
+                      "changes": [
+                        {
+                          "key": "system.attributes.agility.die.sides",
+                          "mode": 2,
+                          "value": "2",
+                          "priority": null
+                        }
+                      ],
+                      "transfer": true,
+                      "name": "Starting Agility d6",
+                      "_id": "1OAqXlBm6D9gko3e",
+                      "disabled": false,
+                      "description": "<p>A half-elf may start with a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
+                      "origin": null,
+                      "statuses": [],
+                      "tint": "#ffffff",
+                      "_stats": {
+                        "coreVersion": "12.328",
+                        "systemId": null,
+                        "systemVersion": null,
+                        "createdTime": null,
+                        "modifiedTime": null,
+                        "lastModifiedBy": null,
+                        "compendiumSource": null,
+                        "duplicateSource": null
+                      },
+                      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+                      "type": "base",
+                      "system": {},
+                      "sort": 0,
+                      "_key": "!items.effects!DWmQMb6hQ4hboFBY.1OAqXlBm6D9gko3e"
+                    }
+                  ],
+                  "name": "Heritage (Elf)"
+                }
+              },
+              {
+                "name": "Human",
+                "addToName": true
+              }
+            ]
+          }
+        ],
+        "build": {
+          "cost": null
+        }
+      },
+      "effects": [
+        {
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "changes": [
+            {
+              "key": "system.attributes.agility.die.sides",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "name": "Starting Agility d6",
+          "_id": "1OAqXlBm6D9gko3e",
+          "disabled": false,
+          "description": "<p>A half-elf may start with a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
+          "origin": null,
+          "statuses": [],
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!5l0SaRBXT8mht8dL.OS0971pRwBvmBvhS.1OAqXlBm6D9gko3e"
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724861973908,
+        "modifiedTime": 1724861973908,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!5l0SaRBXT8mht8dL.OS0971pRwBvmBvhS"
+    },
+    {
+      "folder": "FN4247Nt3Srx9EDb",
+      "name": "Skilled",
+      "type": "ability",
+      "img": "icons/skills/trades/smithing-anvil-horseshoe.webp",
+      "system": {
+        "description": "<p>Sharing the ingenuity of their human relatives as well as having slightly longer life spans, half-elves start with a d4 in any @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000#skills]{skill} based on their experiences, education, training, or culture. If the chosen skill is a core skill, it starts at d6 and the skill’s maximum increases to d12+1</p>",
+        "notes": "Racial",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Half-elf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "skilled",
+        "choiceSets": [],
+        "build": {
+          "cost": null
+        }
+      },
+      "effects": [
+        {
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "changes": [
+            {
+              "key": "@Skill{Persuasion}[system.die.sides]",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "name": "Starting Persuasion d6",
+          "_id": "32TBtnDN750S61P8",
+          "disabled": false,
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": 1724862724657,
+            "lastModifiedBy": "Xbne19Xghka479we"
+          },
+          "img": "systems/swade/assets/icons/skill.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!5l0SaRBXT8mht8dL.jBTiGDroPHHpjt3V.32TBtnDN750S61P8"
+        }
+      ],
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724861973908,
+        "modifiedTime": 1724861973908,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "jBTiGDroPHHpjt3V",
+      "sort": 0,
+      "_key": "!actors.items!5l0SaRBXT8mht8dL.jBTiGDroPHHpjt3V"
+    },
+    {
+      "folder": "FN4247Nt3Srx9EDb",
+      "name": "Low Light Vision",
+      "type": "ability",
+      "img": "icons/magic/perception/eye-ringed-green.webp",
+      "system": {
+        "description": "<p>Half-elves ignore penalties for Dim and Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} (but not Pitch Darkness).</p>",
+        "notes": "Racial",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Half-elf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "low-light-vision",
+        "choiceSets": [],
+        "build": {
+          "cost": null
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724861973908,
+        "modifiedTime": 1724861973908,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "4RpRDQMJ3IHVLeDX",
+      "sort": 100000,
+      "_key": "!actors.items!5l0SaRBXT8mht8dL.4RpRDQMJ3IHVLeDX"
+    },
+    {
+      "_id": "2Ig8ohaeiGIDEk0L",
+      "effects": [],
+      "img": "systems/swade/assets/icons/ability.svg",
+      "name": "Skill d4",
+      "sort": 0,
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "build": {
+          "cost": 1
+        },
+        "description": "<article class=\"swade-core\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Skill]{Skill} (1/skill): </span> The character starts with a d4 in a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{skill} inherent to her species or culture. For 2 points (or 1 if already a core skill), it starts at d6 and the skill’s maximum increases to d12+1.</article>",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Positive",
+        "swid": "skill",
+        "choiceSets": [
+          {
+            "title": "Pick a Skill.",
+            "choices": [
+              {
+                "name": "Academics",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Academics",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.m5TZJMJA0lePG3AB"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Battle",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Battle",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.B0IirU8L6QzIN2fI"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Boating",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Boating",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.EUG8yRxxMLXxYpnv"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Driving",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Driving",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.DW20NotDIt72nKwK"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Electronics",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Electronics",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.91f2yizlcZskP6ie"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Fighting",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Fighting",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Faith",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Faith",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.5qXzjDHdjaeYnBod"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Gambling",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Gambling",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.JhgyoJ0gUmCzrf7z"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Healing",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Healing",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.Syo1BvITMeRV2Aat"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Hacking",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Hacking",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.J88C2kh6GJScto0L"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Intimidation",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Intimidation",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Language",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Language",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.YdnNJzqn96If0E1W"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Occult",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Occult",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.XMNmVhwrZmL47Vhg"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Performance",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Performance",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.UVdSzNvdAPmGk0iO"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Piloting",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Piloting",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.5RB13H0P7WvxVDBr"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Focus",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Focus",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.3urCcNYxoelufQwp"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Psionics",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Psionics",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.bkrB9AajSCSA6eIY"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Research",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Research",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.Y1HxgTeyvoqM3SGZ"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Repair",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Repair",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.lTxygYQbGn9OoxFz"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Riding",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Riding",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.CGECIfK29PAeTupp"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Shooting",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Shooting",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.UOYD9aoLPoTZamDS"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Science",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Science",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.LMe7vPP4Y1n3c0Fb"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Spellcasting",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Spellcasting",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.Ii5r0pBeYHQvdYIp"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Survival",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Survival",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.zf0tDkEA1afk1rcs"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Taunt",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Taunt",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.yFPvkPIm0IR6eqch"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Thievery",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Thievery",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.RiG6qQrQoXtw3tvF"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              },
+              {
+                "name": "Weird Science",
+                "mutation": {
+                  "system": {
+                    "grants": [
+                      {
+                        "name": "Weird Science",
+                        "uuid": "Compendium.swade-core-rules.swade-skills.Item.VMM9LwHq3XEQFL9w"
+                      }
+                    ]
+                  }
+                },
+                "addToName": true
+              }
+            ],
+            "choice": null
+          }
+        ],
+        "favorite": false,
+        "grants": []
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.swade-core-rules.swade-racial-abilities.Item.D32Vl3sS9tQMg2UJ",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862511739,
+        "modifiedTime": 1724862511764,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_key": "!actors.items!5l0SaRBXT8mht8dL.2Ig8ohaeiGIDEk0L"
     }
   ],
   "effects": [],
@@ -2963,8 +3462,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1692124729083,
-    "modifiedTime": 1724345348702,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724863005734,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

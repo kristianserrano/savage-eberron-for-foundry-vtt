@@ -120,7 +120,7 @@
     },
     "wounds": {
       "value": 0,
-      "max": 0,
+      "max": 3,
       "ignored": 0
     },
     "woundsOrFatigue": {
@@ -153,7 +153,7 @@
       "hasQuick": false
     },
     "additionalStats": {},
-    "wildcard": false
+    "wildcard": true
   },
   "prototypeToken": {
     "name": "Chamber Observer",
@@ -1022,12 +1022,12 @@
           "origin": null,
           "statuses": [],
           "_stats": {
-            "coreVersion": "12.328",
+            "coreVersion": "12.331",
             "systemId": null,
             "systemVersion": null,
             "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
+            "modifiedTime": 1724861839008,
+            "lastModifiedBy": "Xbne19Xghka479we",
             "compendiumSource": null,
             "duplicateSource": null
           },
@@ -2632,15 +2632,35 @@
   ],
   "effects": [],
   "flags": {
-    "core": {}
+    "core": {},
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        }
+      }
+    }
   },
   "_stats": {
     "systemId": "swade",
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1692669731384,
-    "modifiedTime": 1724345348996,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724861837573,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

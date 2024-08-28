@@ -145,10 +145,10 @@
     },
     "wounds": {
       "value": 0,
-      "max": 0,
+      "max": 3,
       "ignored": 0
     },
-    "wildcard": false
+    "wildcard": true
   },
   "prototypeToken": {
     "name": "Lords of Dust Member",
@@ -3057,15 +3057,35 @@
   ],
   "effects": [],
   "flags": {
-    "core": {}
+    "core": {},
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": 5,
+          "color": "#28c7cc",
+          "alpha": 0.25,
+          "visibleTo": []
+        }
+      }
+    }
   },
   "_stats": {
     "systemId": "swade",
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1700809448814,
-    "modifiedTime": 1724345348792,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724861914570,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

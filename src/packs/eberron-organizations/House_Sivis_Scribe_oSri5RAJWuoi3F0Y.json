@@ -1602,52 +1602,56 @@
     },
     {
       "name": "Gnome",
-      "type": "ability",
-      "_id": "z9BjPUJ7RP4lIsk8",
+      "type": "ancestry",
+      "_id": "hS9KMju2q1GCw8Nr",
       "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
       "system": {
         "description": "<ul><li><p><strong>Illusionist (+4):</strong> Gnomes can create imaginary images and sounds using the illusion power with the Sound Modifier at will.</p></li><li><p><strong>Knowledgeable (+1):</strong> Gnomes begin play with a d6 in Common Knowledge. This increases their maximum Common Knowledge to d12+1.</p></li><li><p><strong>Low Light Vision (+1):</strong> Gnomes’ eyes are accustomed to seeing below ground. They ignore attack penalties for Dim and Dark Illumination.</p></li><li><p><strong>Reduced Pace (−1):</strong> Gnomes have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p></li><li><p><strong>Size −1 (−1):</strong> Gnomes are considered Size −1 and have −1 Toughness.</p></li></ul>",
         "notes": "",
         "additionalStats": {},
-        "favorite": false,
-        "category": "Ancestry",
-        "subtype": "ancestry",
-        "grantsPowers": false,
         "grants": [
           {
-            "name": "Illusionist",
-            "img": "icons/magic/light/explosion-impact-purple.webp",
             "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.69mlN7RPThOItE0Y",
-            "mutation": {}
+            "img": "icons/magic/light/explosion-impact-purple.webp",
+            "name": "Illusionist"
           },
           {
-            "name": "Knowledgeable",
-            "img": "icons/sundries/books/book-stack.webp",
             "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.PzcGVaFqhlHunIFV",
-            "mutation": {}
+            "img": "icons/sundries/books/book-stack.webp",
+            "name": "Knowledgeable"
           },
           {
+            "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.LOWLsFXsFJvZsIwc",
+            "img": "systems/swade/assets/icons/ability.svg",
             "name": "Low Light Vision",
-            "img": "icons/magic/perception/eye-ringed-green.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.nISysFbSwDSyGQGy",
-            "mutation": {}
+            "mutation": {
+              "img": "icons/magic/perception/eye-ringed-green.webp",
+              "system": {
+                "description": "Gnomes ignore penalties for Dim and Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} (but not Pitch Darkness)."
+              }
+            }
           },
           {
-            "name": "Reduced Pace",
-            "img": "icons/skills/movement/figure-running-gray.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.zuzt8KlZWojyOykw",
-            "mutation": {}
-          },
-          {
+            "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.SIZEsFXsFJvZsIwc",
+            "img": "systems/swade/assets/icons/ability.svg",
             "name": "Size -1",
-            "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.VBhnvrcEKvXnN9S9",
-            "mutation": {}
+            "mutation": {
+              "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+              "system": {
+                "description": "Gnomes are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}."
+              }
+            }
+          },
+          {
+            "name": "Reduced Pace (-1)",
+            "img": "icons/skills/movement/figure-running-gray.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.JWKIBSAQDsEIQyvi"
           }
         ],
-        "source": "Eberron for Savage Worlds",
+        "source": "SWADE Core Rules",
         "swid": "gnome",
-        "choiceSets": []
+        "choiceSets": [],
+        "threshold": 2
       },
       "effects": [],
       "folder": null,
@@ -1657,76 +1661,33 @@
         "Xbne19Xghka479we": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-ancestries.Item.pFn4fhlTKBM1XI3v"
-        },
         "swade": {
           "hasGranted": [
-            "Umqb79uz3K8BxVhA",
-            "zCAmE4MJZoTvkrNH",
-            "qGG6Xz333VNxTMWH",
-            "ON7to6oqxZQgez2b",
-            "lAkba4PEjMEyiq3Q"
+            "WcFjLAaZqBYqmtyY",
+            "fKMefVDC4Hcf8pea",
+            "mzY1EJJC92kEGqvW",
+            "Onu58Y3OLjyTTrhb",
+            "EByKazhfoQzRU5Iu"
           ]
         }
       },
       "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1690513020903,
-        "modifiedTime": 1700693002980,
-        "lastModifiedBy": "Xbne19Xghka479we",
         "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.pFn4fhlTKBM1XI3v",
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!oSri5RAJWuoi3F0Y.z9BjPUJ7RP4lIsk8"
-    },
-    {
-      "folder": "JMdHl51LHgGFlyNx",
-      "name": "Illusionist",
-      "type": "ability",
-      "_id": "Umqb79uz3K8BxVhA",
-      "img": "icons/magic/light/explosion-impact-purple.webp",
-      "system": {
-        "description": "<p>Gnomes can create imaginary images and sounds using the illusion power with the Sound Modifier at will.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Gnome",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "illusionist",
-        "choiceSets": []
-      },
-      "effects": [],
-      "sort": 100000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1689616216195,
-        "modifiedTime": 1700693002932,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863271725,
+        "modifiedTime": 1724863271814,
+        "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_key": "!actors.items!oSri5RAJWuoi3F0Y.Umqb79uz3K8BxVhA"
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.hS9KMju2q1GCw8Nr"
     },
     {
       "folder": "JMdHl51LHgGFlyNx",
       "name": "Knowledgeable",
       "type": "ability",
-      "_id": "zCAmE4MJZoTvkrNH",
+      "_id": "WcFjLAaZqBYqmtyY",
       "img": "icons/sundries/books/book-stack.webp",
       "system": {
         "description": "<p>Gnomes begin play with a d6 in @UUID[Compendium.swade-core-rules.swade-skills.Item.su7eyijoB0RFpRB1]{Common Knowledge}. This increases their maximum Common Knowledge to d12+1.</p>",
@@ -1739,7 +1700,10 @@
         "grants": [],
         "source": "Eberron for Savage Worlds",
         "swid": "knowledgeable",
-        "choiceSets": []
+        "choiceSets": [],
+        "build": {
+          "cost": 1
+        }
       },
       "effects": [
         {
@@ -1773,21 +1737,21 @@
           "origin": null,
           "statuses": [],
           "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": null
           },
           "img": "systems/swade/assets/icons/active-effect.svg",
           "type": "base",
           "system": {},
           "tint": "#ffffff",
           "sort": 0,
-          "_key": "!actors.items.effects!oSri5RAJWuoi3F0Y.zCAmE4MJZoTvkrNH.doDw2YFU5hS84V66"
+          "_key": "!actors.items.effects!oSri5RAJWuoi3F0Y.WcFjLAaZqBYqmtyY.doDw2YFU5hS84V66"
         }
       ],
       "sort": 300000,
@@ -1795,71 +1759,48 @@
         "default": 0,
         "Xbne19Xghka479we": 3
       },
-      "flags": {},
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1690513161502,
-        "modifiedTime": 1700693002932,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!oSri5RAJWuoi3F0Y.zCAmE4MJZoTvkrNH"
-    },
-    {
-      "folder": "JMdHl51LHgGFlyNx",
-      "name": "Low Light Vision",
-      "type": "ability",
-      "img": "icons/magic/perception/eye-ringed-green.webp",
-      "system": {
-        "description": "<p>Gnomes ignore penalties for Dim and Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} (but not Pitch Darkness).</p>",
-        "notes": "Racial",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Gnome",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "low-light-vision",
-        "choiceSets": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
       "flags": {
-        "core": {},
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
+        "swade": {
+          "auras": {
+            "aura1": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            },
+            "aura2": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            }
+          }
         }
       },
       "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1668045742153,
-        "modifiedTime": 1700693002932,
-        "lastModifiedBy": "Xbne19Xghka479we",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863271789,
+        "modifiedTime": 1724863271789,
+        "lastModifiedBy": "Xbne19Xghka479we"
       },
-      "_id": "qGG6Xz333VNxTMWH",
-      "sort": 400000,
-      "_key": "!actors.items!oSri5RAJWuoi3F0Y.qGG6Xz333VNxTMWH"
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.WcFjLAaZqBYqmtyY"
     },
     {
-      "name": "Reduced Pace",
+      "folder": "JMdHl51LHgGFlyNx",
+      "name": "Illusionist",
       "type": "ability",
-      "img": "icons/skills/movement/figure-running-gray.webp",
+      "_id": "fKMefVDC4Hcf8pea",
+      "img": "icons/magic/light/explosion-impact-purple.webp",
       "system": {
-        "description": "<p>Gnomes have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p>",
+        "description": "<p>Gnomes can create imaginary images and sounds using the illusion power with the Sound Modifier at will.</p>",
         "notes": "",
         "additionalStats": {},
         "favorite": false,
@@ -1868,26 +1809,98 @@
         "grantsPowers": false,
         "grants": [],
         "source": "Eberron for Savage Worlds",
-        "swid": "reduced-pace",
-        "choiceSets": []
+        "swid": "illusionist",
+        "choiceSets": [],
+        "build": {
+          "cost": 4
+        }
       },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "swade": {
+          "auras": {
+            "aura1": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            },
+            "aura2": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863271789,
+        "modifiedTime": 1724863271789,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.fKMefVDC4Hcf8pea"
+    },
+    {
+      "_id": "mzY1EJJC92kEGqvW",
+      "effects": [],
+      "img": "icons/magic/perception/eye-ringed-green.webp",
+      "name": "Low Light Vision",
+      "sort": 0,
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "build": {
+          "cost": 1
+        },
+        "description": "Gnomes ignore penalties for Dim and Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} (but not Pitch Darkness).",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Positive",
+        "swid": "low-light-vision",
+        "choiceSets": [],
+        "favorite": false,
+        "grants": []
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863271789,
+        "modifiedTime": 1724863271789,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.mzY1EJJC92kEGqvW"
+    },
+    {
       "effects": [
         {
-          "duration": {
-            "rounds": null,
-            "startTime": 36,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "loseTurnOnHold": false
-            }
-          },
+          "_id": "ReducedPace00000",
           "changes": [
             {
               "key": "system.stats.speed.value",
@@ -1902,108 +1915,172 @@
               "priority": null
             }
           ],
-          "transfer": true,
-          "_id": "d7E4snlTUokCbg8H",
           "disabled": false,
-          "origin": null,
-          "tint": "#ffffff",
-          "name": "Reduced Pace",
-          "description": "<p>Gnomes have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p>",
-          "statuses": [],
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
           },
-          "img": "icons/skills/movement/figure-running-gray.webp",
+          "flags": {},
+          "name": "Reduced Pace",
+          "tint": "#ffffff",
+          "transfer": true,
+          "img": "systems/swade/assets/icons/ability.svg",
           "type": "base",
           "system": {},
+          "description": "",
+          "origin": null,
+          "statuses": [],
           "sort": 0,
-          "_key": "!actors.items.effects!oSri5RAJWuoi3F0Y.ON7to6oqxZQgez2b.d7E4snlTUokCbg8H"
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!oSri5RAJWuoi3F0Y.Onu58Y3OLjyTTrhb.ReducedPace00000"
         }
       ],
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "name": "Reduced Pace (-1)",
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "build": {
+          "cost": -1
+        },
+        "description": "Gnomes have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Negative",
+        "swid": "reduced-pace",
+        "choiceSets": [
+          {
+            "title": "Reduced Pace",
+            "choices": [
+              {
+                "name": "Reduced Pace -1",
+                "mutation": {
+                  "name": "Reduced Pace (-1)",
+                  "effects": [
+                    {
+                      "_id": "ReducedPace00000",
+                      "changes": [
+                        {
+                          "key": "system.stats.speed.value",
+                          "mode": 2,
+                          "value": -1
+                        },
+                        {
+                          "key": "system.stats.speed.runningDie",
+                          "mode": 2,
+                          "value": -2
+                        }
+                      ],
+                      "disabled": false,
+                      "duration": {
+                        "startTime": null
+                      },
+                      "flags": {},
+                      "icon": "systems/swade/assets/icons/ability.svg",
+                      "name": "Reduced Pace",
+                      "tint": null,
+                      "transfer": true
+                    }
+                  ],
+                  "system": {
+                    "build": {
+                      "cost": -1
+                    }
+                  }
+                },
+                "addToName": false
+              },
+              {
+                "name": "Reduced Pace -2",
+                "mutation": {
+                  "name": "Reduced Pace (-2)",
+                  "effects": [
+                    {
+                      "_id": "ReducedPace00000",
+                      "changes": [
+                        {
+                          "key": "system.stats.speed.value",
+                          "mode": 2,
+                          "value": -3
+                        },
+                        {
+                          "key": "system.stats.speed.runningDie",
+                          "mode": 2,
+                          "value": -2
+                        },
+                        {
+                          "key": "@Skill{Athletics}[system.die.modifier]",
+                          "mode": 2,
+                          "value": -2
+                        }
+                      ],
+                      "disabled": false,
+                      "duration": {
+                        "startTime": null
+                      },
+                      "flags": {},
+                      "icon": "systems/swade/assets/icons/ability.svg",
+                      "name": "Reduced Pace",
+                      "tint": null,
+                      "transfer": true
+                    }
+                  ],
+                  "system": {
+                    "build": {
+                      "cost": -2
+                    }
+                  }
+                },
+                "addToName": false
+              }
+            ],
+            "choice": 0
+          }
+        ],
+        "favorite": false,
+        "grants": []
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863271789,
+        "modifiedTime": 1724863271789,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
       "folder": "JMdHl51LHgGFlyNx",
       "ownership": {
         "default": 0,
         "Xbne19Xghka479we": 3
       },
-      "flags": {
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1668895717346,
-        "modifiedTime": 1700693002932,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "ON7to6oqxZQgez2b",
-      "sort": 200000,
-      "_key": "!actors.items!oSri5RAJWuoi3F0Y.ON7to6oqxZQgez2b"
+      "flags": {},
+      "_id": "Onu58Y3OLjyTTrhb",
+      "sort": 0,
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.Onu58Y3OLjyTTrhb"
     },
     {
-      "name": "Size -1",
-      "type": "ability",
-      "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
-      "system": {
-        "description": "<p>Gnomes are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}.</p>",
-        "notes": "Racial",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Gnome",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "size-1",
-        "choiceSets": []
-      },
+      "_id": "EByKazhfoQzRU5Iu",
       "effects": [
         {
-          "duration": {
-            "rounds": null,
-            "startTime": 36,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "loseTurnOnHold": false
-            },
-            "ActiveAuras": {
-              "isAura": false,
-              "aura": "None",
-              "radius": null,
-              "alignment": "",
-              "type": "",
-              "ignoreSelf": false,
-              "height": false,
-              "hidden": false,
-              "displayTemp": false,
-              "hostile": false,
-              "onlyOnce": false,
-              "wildcard": false,
-              "extra": false
-            }
-          },
+          "_id": "zQkvgqw1kUtgBIij",
           "changes": [
             {
               "key": "system.stats.size",
@@ -2012,58 +2089,77 @@
               "priority": null
             }
           ],
-          "transfer": true,
-          "_id": "XxV5APC8EXg7pNed",
           "disabled": false,
-          "origin": null,
-          "tint": "#ffffff",
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {},
           "name": "Size -1",
-          "description": "<p>Halflings are considered Size −1 and have −1 Toughness.</p>",
-          "statuses": [],
+          "tint": "#ffffff",
+          "transfer": true,
+          "description": "<article class=\"swade-core\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Size -1]{Size -1} (1): </span> The entity is smaller than average, reducing its @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{Size} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Toughness} by 1 (see the <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06sizetable00000]{Size Table}</strong>).</article>",
           "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": null
           },
-          "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+          "img": "systems/swade/assets/icons/ability.svg",
           "type": "base",
           "system": {},
+          "origin": null,
+          "statuses": [],
           "sort": 0,
-          "_key": "!actors.items.effects!oSri5RAJWuoi3F0Y.lAkba4PEjMEyiq3Q.XxV5APC8EXg7pNed"
+          "_key": "!actors.items.effects!oSri5RAJWuoi3F0Y.EByKazhfoQzRU5Iu.zQkvgqw1kUtgBIij"
         }
       ],
-      "folder": "JMdHl51LHgGFlyNx",
+      "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+      "name": "Size -1",
+      "sort": 0,
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "build": {
+          "cost": -1
+        },
+        "description": "Gnomes are considered @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili25]{Size} −1 and have −1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000#derived-statistics]{Toughness}.",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Negative",
+        "swid": "size-minus-1",
+        "choiceSets": [],
+        "favorite": false,
+        "grants": []
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863271789,
+        "modifiedTime": 1724863271789,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "folder": null,
       "ownership": {
         "default": 0,
         "Xbne19Xghka479we": 3
       },
-      "flags": {
-        "core": {},
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1668046440817,
-        "modifiedTime": 1700693002932,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "lAkba4PEjMEyiq3Q",
-      "sort": 0,
-      "_key": "!actors.items!oSri5RAJWuoi3F0Y.lAkba4PEjMEyiq3Q"
+      "flags": {},
+      "_key": "!actors.items!oSri5RAJWuoi3F0Y.EByKazhfoQzRU5Iu"
     }
   ],
   "prototypeToken": {

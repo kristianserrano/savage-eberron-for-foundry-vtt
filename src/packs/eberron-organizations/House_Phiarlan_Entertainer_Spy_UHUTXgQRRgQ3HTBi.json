@@ -1246,418 +1246,6 @@
       "_key": "!actors.items!UHUTXgQRRgQ3HTBi.fQzo4eZx02hFffk6"
     },
     {
-      "name": "Elf",
-      "type": "ability",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "description": "<ul><li><p><strong>Agile (+2):</strong> Elves are graceful and agile. They start with a d6 in Agility instead of a d4. This increases their maximum Agility to d12+1.</p></li><li><p><strong>Frail (−1):</strong> Elves aren’t as sturdy as most other ancestries. Their Toughness is reduced by 1.</p></li><li><p><strong>Keen Vision (+1):</strong> Elves have +2 to Notice rolls to detect obscured or hidden features.</p></li><li><p><strong>Low Light Vision (+1):</strong> Elven eyes amplify light. Other ancestries often claim they can see stars in the elves’ eyes. They ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).</p></li><li><p><strong>Trance (+1):</strong> Elves don’t need sleep, but they must meditate in a semiconscious state 4 hours every day.</p></li></ul>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Ancestry",
-        "subtype": "ancestry",
-        "grantsPowers": false,
-        "grants": [
-          {
-            "name": "Agile",
-            "img": "icons/magic/control/debuff-energy-snare-blue.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.D2CwKxrkCDmu9hlZ",
-            "mutation": {}
-          },
-          {
-            "name": "Frail",
-            "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.u0wuyyPEcuxsIZml",
-            "mutation": {}
-          },
-          {
-            "name": "Keen Vision",
-            "img": "icons/creatures/eyes/human-single-blue.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.rAsWCVdFOiO76xgI",
-            "mutation": {}
-          },
-          {
-            "name": "Low Light Vision",
-            "img": "systems/swade/assets/icons/ability.svg",
-            "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.LOWLsFXsFJvZsIwc",
-            "mutation": {
-              "img": "icons/creatures/eyes/human-single-blue.webp",
-              "system": {
-                "description": "<p>Elven eyes amplify light. Other ancestries often claim they can see stars in the elves’ eyes. They ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).</p>"
-              }
-            }
-          },
-          {
-            "name": "Trance",
-            "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.HJB99FcK4gTt53RM",
-            "mutation": {}
-          }
-        ],
-        "source": "Eberron for Savage Worlds",
-        "swid": "elf",
-        "choiceSets": []
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-ancestries.Item.IogvtcY32LIywJHb"
-        },
-        "exportSource": {
-          "world": "eberron-for-savage-worlds",
-          "system": "swade",
-          "coreVersion": "11.305",
-          "systemVersion": "3.0.5"
-        },
-        "swade": {
-          "hasGranted": [
-            "Vu1ujrdFE7wBLG6G",
-            "u2vcywoCjJGp23G2",
-            "xYq8HYZ0TCdOp0bK",
-            "IBIsLXi8M7UaDAxL",
-            "3s2SqgbumWegGi95"
-          ]
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1689613170202,
-        "modifiedTime": 1700674181383,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.IogvtcY32LIywJHb",
-        "duplicateSource": null
-      },
-      "_id": "6Cncg57IhmNB8jnk",
-      "sort": 1600000,
-      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.6Cncg57IhmNB8jnk"
-    },
-    {
-      "name": "Agile",
-      "type": "ability",
-      "img": "icons/magic/control/debuff-energy-snare-blue.webp",
-      "system": {
-        "description": "<p>Elves are graceful and agile. They start with a d6 in Agility instead of a d4. This increases their maximum Agility to d12+1.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Elf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "agile",
-        "choiceSets": []
-      },
-      "effects": [
-        {
-          "duration": {
-            "rounds": null,
-            "startTime": 36,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "loseTurnOnHold": false
-            }
-          },
-          "changes": [
-            {
-              "key": "system.attributes.agility.die.sides",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "_id": "BqiwXPQyZARtUJM5",
-          "disabled": false,
-          "origin": null,
-          "tint": "#ffffff",
-          "name": "Starting Agility d6",
-          "description": "",
-          "statuses": [],
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "icons/magic/control/debuff-energy-snare-blue.webp",
-          "type": "base",
-          "system": {},
-          "sort": 0,
-          "_key": "!actors.items.effects!UHUTXgQRRgQ3HTBi.Vu1ujrdFE7wBLG6G.BqiwXPQyZARtUJM5"
-        }
-      ],
-      "folder": "RSLTAQckZnWQhzEX",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.305",
-          "systemVersion": "3.0.5"
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1671076809415,
-        "modifiedTime": 1700674181327,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "Vu1ujrdFE7wBLG6G",
-      "sort": 200000,
-      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.Vu1ujrdFE7wBLG6G"
-    },
-    {
-      "name": "Frail",
-      "type": "ability",
-      "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
-      "system": {
-        "description": "<p>Elves aren’t as sturdy as most other ancestries. Their Toughness is reduced by 1.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Elf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "frail",
-        "choiceSets": []
-      },
-      "effects": [
-        {
-          "duration": {
-            "rounds": null,
-            "startTime": 36,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null
-            }
-          },
-          "changes": [
-            {
-              "key": "system.stats.toughness.value",
-              "mode": 2,
-              "value": "-1",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "name": "Frail",
-          "_id": "uCYx83EfKy8DiDqO",
-          "disabled": false,
-          "description": "",
-          "origin": null,
-          "statuses": [],
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
-          "type": "base",
-          "system": {},
-          "tint": "#ffffff",
-          "sort": 0,
-          "_key": "!actors.items.effects!UHUTXgQRRgQ3HTBi.u2vcywoCjJGp23G2.uCYx83EfKy8DiDqO"
-        }
-      ],
-      "folder": "RSLTAQckZnWQhzEX",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.305",
-          "systemVersion": "3.0.5"
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1671077539663,
-        "modifiedTime": 1700674181327,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "u2vcywoCjJGp23G2",
-      "sort": 300000,
-      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.u2vcywoCjJGp23G2"
-    },
-    {
-      "name": "Keen Vision",
-      "type": "ability",
-      "img": "icons/creatures/eyes/human-single-blue.webp",
-      "system": {
-        "description": "<p>Elves have +2 to Notice rolls to detect obscured or hidden features.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Elf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "keen-vision",
-        "choiceSets": []
-      },
-      "effects": [],
-      "folder": "RSLTAQckZnWQhzEX",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.305",
-          "systemVersion": "3.0.5"
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1671077996257,
-        "modifiedTime": 1700674181327,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "xYq8HYZ0TCdOp0bK",
-      "sort": 0,
-      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.xYq8HYZ0TCdOp0bK"
-    },
-    {
-      "_id": "IBIsLXi8M7UaDAxL",
-      "effects": [],
-      "img": "icons/creatures/eyes/human-single-blue.webp",
-      "name": "Low Light Vision",
-      "sort": 0,
-      "type": "ability",
-      "system": {
-        "source": "SWADE Core Rules",
-        "additionalStats": {},
-        "description": "<p>Elven eyes amplify light. Other ancestries often claim they can see stars in the elves’ eyes. They ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).</p>",
-        "grantsPowers": false,
-        "notes": "",
-        "subtype": "special",
-        "category": "Positive",
-        "swid": "low-light-vision",
-        "favorite": false,
-        "grants": [],
-        "choiceSets": []
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1700674181327,
-        "modifiedTime": 1700674181327,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.IBIsLXi8M7UaDAxL"
-    },
-    {
-      "name": "Trance",
-      "type": "ability",
-      "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
-      "system": {
-        "description": "<p>Elves don’t need sleep, but they must meditate in a semiconscious state 4 hours every day.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Elf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "trance",
-        "choiceSets": []
-      },
-      "effects": [],
-      "folder": "RSLTAQckZnWQhzEX",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.305",
-          "systemVersion": "3.0.5"
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1671079425719,
-        "modifiedTime": 1700674181327,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "3s2SqgbumWegGi95",
-      "sort": 0,
-      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.3s2SqgbumWegGi95"
-    },
-    {
       "name": "+1 Studded Leather",
       "type": "armor",
       "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Armor.webp",
@@ -3585,6 +3173,504 @@
         "duplicateSource": null
       },
       "_key": "!actors.items!UHUTXgQRRgQ3HTBi.oQiLkRv4dPsJ9oxL"
+    },
+    {
+      "name": "Elf",
+      "type": "ancestry",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<ul><li><p><strong>Agile (+2):</strong> Elves are graceful and agile. They start with a d6 in Agility instead of a d4. This increases their maximum Agility to d12+1.</p></li><li><p><strong>Frail (−1):</strong> Elves aren’t as sturdy as most other ancestries. Their Toughness is reduced by 1.</p></li><li><p><strong>Keen Vision (+1):</strong> Elves have +2 to Notice rolls to detect obscured or hidden features.</p></li><li><p><strong>Low Light Vision (+1):</strong> Elven eyes amplify light. Other ancestries often claim they can see stars in the elves’ eyes. They ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).</p></li><li><p><strong>Trance (+1):</strong> Elves don’t need sleep, but they must meditate in a semiconscious state 4 hours every day.</p></li></ul>",
+        "notes": "",
+        "additionalStats": {},
+        "grants": [
+          {
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.D2CwKxrkCDmu9hlZ",
+            "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+            "name": "Agile"
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.u0wuyyPEcuxsIZml",
+            "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
+            "name": "Frail"
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.rAsWCVdFOiO76xgI",
+            "img": "icons/creatures/eyes/human-single-blue.webp",
+            "name": "Keen Vision"
+          },
+          {
+            "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.LOWLsFXsFJvZsIwc",
+            "img": "systems/swade/assets/icons/ability.svg",
+            "name": "Low Light Vision",
+            "mutation": {
+              "img": "icons/creatures/eyes/human-single-blue.webp",
+              "system": {
+                "description": "Elven eyes amplify light. Other ancestries often claim they can see stars in the elves’ eyes. They ignore penalties for Dim and Dark Illumination (but not Pitch Darkness)."
+              }
+            }
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.HJB99FcK4gTt53RM",
+            "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+            "name": "Trance"
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "elf",
+        "choiceSets": [],
+        "threshold": 2
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "exportSource": {
+          "world": "eberron-for-savage-worlds",
+          "system": "swade",
+          "coreVersion": "11.305",
+          "systemVersion": "3.0.5"
+        },
+        "swade": {
+          "hasGranted": [
+            "gWyzB4NroYNw7RdQ",
+            "LDJSf2ywlZwyUwyw",
+            "eiJfThRrrwkck9Ac",
+            "P2hmvj15NLH9TCwY",
+            "lf3rCuGZWfJmAZw2"
+          ]
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.IogvtcY32LIywJHb",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863291057,
+        "modifiedTime": 1724863291167,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "d9IVUVJ5DqoI3xCx",
+      "sort": 1600000,
+      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.d9IVUVJ5DqoI3xCx"
+    },
+    {
+      "name": "Agile",
+      "type": "ability",
+      "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+      "system": {
+        "description": "<p>Elves are graceful and agile. They start with a d6 in Agility instead of a d4. This increases their maximum Agility to d12+1.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Elf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "agile",
+        "choiceSets": [],
+        "build": {
+          "cost": 2
+        }
+      },
+      "effects": [
+        {
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "changes": [
+            {
+              "key": "system.attributes.agility.die.sides",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "BqiwXPQyZARtUJM5",
+          "disabled": false,
+          "origin": null,
+          "tint": "#ffffff",
+          "name": "Starting Agility d6",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!UHUTXgQRRgQ3HTBi.gWyzB4NroYNw7RdQ.BqiwXPQyZARtUJM5"
+        }
+      ],
+      "folder": "RSLTAQckZnWQhzEX",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.305",
+          "systemVersion": "3.0.5"
+        },
+        "core": {},
+        "swade": {
+          "auras": {
+            "aura1": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            },
+            "aura2": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863291148,
+        "modifiedTime": 1724863291148,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "gWyzB4NroYNw7RdQ",
+      "sort": 200000,
+      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.gWyzB4NroYNw7RdQ"
+    },
+    {
+      "name": "Frail",
+      "type": "ability",
+      "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
+      "system": {
+        "description": "<p>Elves aren’t as sturdy as most other ancestries. Their Toughness is reduced by 1.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Elf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "frail",
+        "choiceSets": [],
+        "build": {
+          "cost": -1
+        }
+      },
+      "effects": [
+        {
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null
+            }
+          },
+          "changes": [
+            {
+              "key": "system.stats.toughness.value",
+              "mode": 2,
+              "value": "-1",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "name": "Frail",
+          "_id": "uCYx83EfKy8DiDqO",
+          "disabled": false,
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
+          "type": "base",
+          "system": {},
+          "tint": "#ffffff",
+          "sort": 0,
+          "_key": "!actors.items.effects!UHUTXgQRRgQ3HTBi.LDJSf2ywlZwyUwyw.uCYx83EfKy8DiDqO"
+        }
+      ],
+      "folder": "RSLTAQckZnWQhzEX",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.305",
+          "systemVersion": "3.0.5"
+        },
+        "core": {},
+        "swade": {
+          "auras": {
+            "aura1": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            },
+            "aura2": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863291148,
+        "modifiedTime": 1724863291148,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "LDJSf2ywlZwyUwyw",
+      "sort": 300000,
+      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.LDJSf2ywlZwyUwyw"
+    },
+    {
+      "name": "Keen Vision",
+      "type": "ability",
+      "img": "icons/creatures/eyes/human-single-blue.webp",
+      "system": {
+        "description": "<p>Elves have +2 to Notice rolls to detect obscured or hidden features.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Elf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "keen-vision",
+        "choiceSets": [],
+        "build": {
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "folder": "RSLTAQckZnWQhzEX",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.305",
+          "systemVersion": "3.0.5"
+        },
+        "core": {},
+        "swade": {
+          "auras": {
+            "aura1": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            },
+            "aura2": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863291148,
+        "modifiedTime": 1724863291148,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "eiJfThRrrwkck9Ac",
+      "sort": 0,
+      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.eiJfThRrrwkck9Ac"
+    },
+    {
+      "_id": "P2hmvj15NLH9TCwY",
+      "effects": [],
+      "img": "icons/creatures/eyes/human-single-blue.webp",
+      "name": "Low Light Vision",
+      "sort": 0,
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "build": {
+          "cost": 1
+        },
+        "description": "Elven eyes amplify light. Other ancestries often claim they can see stars in the elves’ eyes. They ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Positive",
+        "swid": "low-light-vision",
+        "choiceSets": [],
+        "favorite": false,
+        "grants": []
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863291148,
+        "modifiedTime": 1724863291148,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.P2hmvj15NLH9TCwY"
+    },
+    {
+      "name": "Trance",
+      "type": "ability",
+      "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+      "system": {
+        "description": "<p>Elves don’t need sleep, but they must meditate in a semiconscious state 4 hours every day.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Elf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "trance",
+        "choiceSets": [],
+        "build": {
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "folder": "RSLTAQckZnWQhzEX",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.305",
+          "systemVersion": "3.0.5"
+        },
+        "core": {},
+        "swade": {
+          "auras": {
+            "aura1": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            },
+            "aura2": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863291148,
+        "modifiedTime": 1724863291148,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "lf3rCuGZWfJmAZw2",
+      "sort": 0,
+      "_key": "!actors.items!UHUTXgQRRgQ3HTBi.lf3rCuGZWfJmAZw2"
     }
   ],
   "prototypeToken": {

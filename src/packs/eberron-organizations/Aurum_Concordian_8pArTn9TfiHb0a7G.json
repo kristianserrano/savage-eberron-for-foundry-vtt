@@ -130,8 +130,8 @@
       "list": []
     },
     "bennies": {
-      "value": 2,
-      "max": 2
+      "value": 0,
+      "max": 0
     },
     "status": {
       "isShaken": false,
@@ -240,546 +240,6 @@
     }
   },
   "items": [
-    {
-      "name": "Dwarf",
-      "type": "ability",
-      "_id": "ye4RUjcRqBWifYZL",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "description": "<ul><li><p><strong>Darkvision (+1):</strong> Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers. </p></li><li><p><strong>Reduced Pace (−1):</strong> Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type. </p></li><li><p><strong>Stonecunning (+1):</strong> Generations of delving into the depths of the Mror Holds has taught the Dwarves how to identify unusual stonework, granting them the Stonecunning Edge.</p></li><li><p><strong>Tough (+3):</strong> Dwarves are genetically stout and tough. They start with a d6 in Vigor instead of a d4. This increases their maximum Vigor to d12+1. They also have a +1 bonus to resist poisons, powers, and supernatural abilities that behave similarly to powers.</p></li></ul>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Ancestry",
-        "subtype": "ancestry",
-        "grantsPowers": false,
-        "grants": [
-          {
-            "name": "Dark Vision",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-            "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
-            "mutation": {
-              "name": "Darkvision",
-              "img": "icons/magic/perception/eye-slit-orange.webp"
-            }
-          },
-          {
-            "name": "Stability",
-            "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.JgPgk2Vv8FCuYIbr",
-            "mutation": {}
-          },
-          {
-            "name": "Stonecunning",
-            "img": "icons/skills/trades/construction-mason-stonecutter-sculpture.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.q96wqaai9bJmKjUN",
-            "mutation": {}
-          },
-          {
-            "name": "Tough",
-            "img": "icons/magic/control/buff-strength-muscle-damage.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.UsAhusaNzWYJkxqk",
-            "mutation": {}
-          },
-          {
-            "name": "Reduced Pace",
-            "img": "icons/skills/movement/figure-running-gray.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.U18fu5U8IY35oqG1",
-            "mutation": {}
-          }
-        ],
-        "source": "Eberron for Savage Worlds",
-        "swid": "dwarf",
-        "choiceSets": []
-      },
-      "effects": [],
-      "folder": null,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-ancestries.Item.Mpv3gzJfpDt4xqoY"
-        },
-        "exportSource": {
-          "world": "eberron-for-savage-worlds",
-          "system": "swade",
-          "coreVersion": "11.305",
-          "systemVersion": "3.0.5"
-        },
-        "swade": {
-          "hasGranted": [
-            "EWTBz5hAJM188iBW",
-            "oI9V4XsfrMf6JP61",
-            "BM9wlc0jKRaix2wZ",
-            "3hweLUU8W71SyRyp",
-            "VoDT0SvrNEbgDBMI",
-            "zOVBNQPotTuUGQb8"
-          ]
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.0.6",
-        "coreVersion": "12.328",
-        "createdTime": 1689255596862,
-        "modifiedTime": 1692061962572,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.Mpv3gzJfpDt4xqoY",
-        "duplicateSource": null
-      },
-      "sort": 1800000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_key": "!actors.items!8pArTn9TfiHb0a7G.ye4RUjcRqBWifYZL"
-    },
-    {
-      "_id": "EWTBz5hAJM188iBW",
-      "name": "Darkvision",
-      "type": "ability",
-      "img": "icons/magic/perception/eye-slit-orange.webp",
-      "system": {
-        "description": "<article class=\"swadefc\"><p><strong>Dark Vision (1):</strong> The species can see in the dark  a short distance, ignoring all illumination penalties and up to 2 points of penalties from <em><power>invisibility</power></em>  or similar powers within 10&quot; (20 yards) distant.</p></article>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "New Ancestral Abilities",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Fantasy Companion",
-        "swid": "darkvision",
-        "choiceSets": []
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sheetClass": "swade.SWADEFCItem"
-        },
-        "singleSource": {
-          "version": "2.0.0-alpha",
-          "module": "swade-fantasy-companion"
-        }
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.0.6",
-        "coreVersion": "12.328",
-        "createdTime": 1692061962542,
-        "modifiedTime": 1692061962542,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!8pArTn9TfiHb0a7G.EWTBz5hAJM188iBW"
-    },
-    {
-      "name": "Stability",
-      "type": "ability",
-      "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
-      "system": {
-        "description": "<p>Dwarves have a +2 bonus to opposed Strength rolls for resisting Push attacks.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Dwarf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "stability",
-        "choiceSets": []
-      },
-      "effects": [
-        {
-          "duration": {
-            "rounds": null,
-            "startTime": 0,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "favorite": true
-            }
-          },
-          "changes": [
-            {
-              "key": "system.attributes.strength.die.modifier",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "_id": "1wQzbJq5vnB2AasU",
-          "disabled": true,
-          "origin": null,
-          "tint": "#ffffff",
-          "name": "Stability",
-          "description": "",
-          "statuses": [],
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
-          "type": "base",
-          "system": {},
-          "sort": 0,
-          "_key": "!actors.items.effects!8pArTn9TfiHb0a7G.oI9V4XsfrMf6JP61.1wQzbJq5vnB2AasU"
-        }
-      ],
-      "folder": "aXo6xVVmiLyAK44L",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.305",
-          "systemVersion": "3.0.5"
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.0.6",
-        "coreVersion": "12.328",
-        "createdTime": 1671074788510,
-        "modifiedTime": 1692061962542,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "oI9V4XsfrMf6JP61",
-      "sort": 0,
-      "_key": "!actors.items!8pArTn9TfiHb0a7G.oI9V4XsfrMf6JP61"
-    },
-    {
-      "name": "Stonecunning",
-      "type": "ability",
-      "img": "icons/skills/trades/construction-mason-stonecutter-sculpture.webp",
-      "system": {
-        "description": "<p>Dwarves have the Stonecunning Edge. The generations of dwelling in the Mror Holds has taught them how to sense unusual stonework.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Dwarf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [
-          {
-            "name": "Stonecunning",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
-            "uuid": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.IuRGnWAwIKFtQJoZ",
-            "mutation": {}
-          }
-        ],
-        "source": "Eberron for Savage Worlds",
-        "swid": "stonecunning",
-        "choiceSets": []
-      },
-      "effects": [],
-      "folder": "aXo6xVVmiLyAK44L",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.305",
-          "systemVersion": "3.0.5"
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.0.6",
-        "coreVersion": "12.328",
-        "createdTime": 1671074423996,
-        "modifiedTime": 1692061962542,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "BM9wlc0jKRaix2wZ",
-      "sort": 50000,
-      "_key": "!actors.items!8pArTn9TfiHb0a7G.BM9wlc0jKRaix2wZ"
-    },
-    {
-      "name": "Tough",
-      "type": "ability",
-      "img": "icons/magic/control/buff-strength-muscle-damage.webp",
-      "system": {
-        "description": "<p>Dwarves are genetically stout and tough. They start with a d6 in Vigor instead of a d4. This increases their maximum Vigor to d12+1. They also have a +1 bonus to resist poisons, powers, and supernatural abilities that behave similarly to powers.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Dwarf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "tough",
-        "choiceSets": []
-      },
-      "effects": [],
-      "folder": "aXo6xVVmiLyAK44L",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.305",
-          "systemVersion": "3.0.5"
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.0.6",
-        "coreVersion": "12.328",
-        "createdTime": 1671075836315,
-        "modifiedTime": 1692061962542,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "3hweLUU8W71SyRyp",
-      "sort": 0,
-      "_key": "!actors.items!8pArTn9TfiHb0a7G.3hweLUU8W71SyRyp"
-    },
-    {
-      "name": "Reduced Pace",
-      "type": "ability",
-      "img": "icons/skills/movement/figure-running-gray.webp",
-      "system": {
-        "description": "<p>Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Dwarf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "reduced-pace",
-        "choiceSets": []
-      },
-      "effects": [
-        {
-          "duration": {
-            "rounds": null,
-            "startTime": 0,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null
-            }
-          },
-          "changes": [
-            {
-              "key": "system.stats.speed.value",
-              "mode": 2,
-              "value": "-1",
-              "priority": null
-            },
-            {
-              "key": "system.stats.speed.runningDie",
-              "mode": 2,
-              "value": "-2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "_id": "d7E4snlTUokCbg8H",
-          "disabled": false,
-          "origin": null,
-          "tint": "#ffffff",
-          "name": "Reduced Pace",
-          "description": "",
-          "statuses": [],
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "icons/skills/movement/figure-running-gray.webp",
-          "type": "base",
-          "system": {},
-          "sort": 0,
-          "_key": "!actors.items.effects!8pArTn9TfiHb0a7G.VoDT0SvrNEbgDBMI.d7E4snlTUokCbg8H"
-        }
-      ],
-      "folder": "aXo6xVVmiLyAK44L",
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
-        },
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.0.6",
-        "coreVersion": "12.328",
-        "createdTime": 1668895717346,
-        "modifiedTime": 1692061962542,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "VoDT0SvrNEbgDBMI",
-      "sort": 150000,
-      "_key": "!actors.items!8pArTn9TfiHb0a7G.VoDT0SvrNEbgDBMI"
-    },
-    {
-      "_id": "zOVBNQPotTuUGQb8",
-      "name": "Stonecunning",
-      "type": "edge",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
-      "system": {
-        "description": "<article class=\"swadefc\"><h3>Stonecunning</h3>\n<section class=\"description\">\n<p>\n Those who spend their lives around worked stone quickly perceive imperfections or alterations within its design.\n Assuming they can see or feel the work, they get one free Notice roll at +2 to detect traps, hidden doors, or\n compartments in stonework within 10 feet of their person. Success means they know some alteration has been made,\n and a raise gives them insight into its general purpose.\n </p>\n</section></article>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Professional",
-        "isArcaneBackground": false,
-        "requirements": [
-          {
-            "type": "rank",
-            "value": 0,
-            "selector": "",
-            "combinator": "and"
-          },
-          {
-            "type": "other",
-            "label": "Repair d6+",
-            "selector": "",
-            "value": "",
-            "combinator": "and"
-          }
-        ],
-        "grants": [],
-        "source": "Fantasy Companion",
-        "swid": "stonecunning",
-        "choiceSets": []
-      },
-      "effects": [
-        {
-          "_id": "cqP4rHkJLTpfaEb9",
-          "name": "Stonecunning",
-          "changes": [
-            {
-              "key": "@Skill{Notice}[system.die.modifier]",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "flags": {
-            "swade": {
-              "conditionalEffect": false
-            }
-          },
-          "disabled": false,
-          "duration": {
-            "startTime": 0,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "description": "",
-          "origin": null,
-          "transfer": true,
-          "statuses": [],
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
-          "type": "base",
-          "system": {},
-          "tint": "#ffffff",
-          "sort": 0,
-          "_key": "!actors.items.effects!8pArTn9TfiHb0a7G.zOVBNQPotTuUGQb8.cqP4rHkJLTpfaEb9"
-        }
-      ],
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sheetClass": "swade.SWADEFCItem"
-        },
-        "singleSource": {
-          "version": "2.0.0-alpha",
-          "module": "swade-fantasy-companion"
-        }
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.0.6",
-        "coreVersion": "12.328",
-        "createdTime": 1692061962542,
-        "modifiedTime": 1692061962542,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!8pArTn9TfiHb0a7G.zOVBNQPotTuUGQb8"
-    },
     {
       "effects": [],
       "folder": "8aQxNRrcNXPC1mrR",
@@ -1922,6 +1382,678 @@
         "duplicateSource": null
       },
       "_key": "!actors.items!8pArTn9TfiHb0a7G.j4ceIsAZybipnPvc"
+    },
+    {
+      "name": "Dwarf",
+      "type": "ancestry",
+      "_id": "x33hsfQZNtPXEV3t",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<ul><li><p><strong>Darkvision (+1):</strong> Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers. </p></li><li><p><strong>Reduced Pace (−1):</strong> Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type. </p></li><li><p><strong>Stonecunning (+1):</strong> Generations of delving into the depths of the Mror Holds has taught the Dwarves how to identify unusual stonework, granting them the Stonecunning Edge.</p></li><li><p><strong>Tough (+3):</strong> Dwarves are genetically stout and tough. They start with a d6 in Vigor instead of a d4. This increases their maximum Vigor to d12+1. They also have a +1 bonus to resist poisons, powers, and supernatural abilities that behave similarly to powers.</p></li></ul>",
+        "notes": "",
+        "additionalStats": {},
+        "grants": [
+          {
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+            "name": "Dark Vision",
+            "mutation": {
+              "name": "Darkvision",
+              "img": "icons/magic/perception/eye-slit-orange.webp",
+              "system": {
+                "description": "Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers."
+              }
+            }
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.JgPgk2Vv8FCuYIbr",
+            "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+            "name": "Stability"
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.q96wqaai9bJmKjUN",
+            "img": "icons/skills/trades/construction-mason-stonecutter-sculpture.webp",
+            "name": "Stonecunning"
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.UsAhusaNzWYJkxqk",
+            "img": "icons/magic/control/buff-strength-muscle-damage.webp",
+            "name": "Tough"
+          },
+          {
+            "name": "Reduced Pace (-1)",
+            "img": "icons/skills/movement/figure-running-gray.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.H9bzn9ERoRpjcW6i"
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "dwarf",
+        "choiceSets": [],
+        "threshold": 2
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {},
+        "exportSource": {
+          "world": "eberron-for-savage-worlds",
+          "system": "swade",
+          "coreVersion": "11.305",
+          "systemVersion": "3.0.5"
+        },
+        "swade": {
+          "hasGranted": [
+            "rFWzWwVSTOU4vTK2",
+            "aN2R5mRaRQZada5Q",
+            "G2B9pdThgqoj2HXX",
+            "smL29IHN2Hubqnkv",
+            "VUN84m10DFQbuUlk",
+            "Sn0YzOboCvmwIr0a"
+          ]
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.Mpv3gzJfpDt4xqoY",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862784957,
+        "modifiedTime": 1724862785107,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "sort": 1800000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_key": "!actors.items!8pArTn9TfiHb0a7G.x33hsfQZNtPXEV3t"
+    },
+    {
+      "_id": "rFWzWwVSTOU4vTK2",
+      "name": "Darkvision",
+      "type": "ability",
+      "img": "icons/magic/perception/eye-slit-orange.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "category": "New Ancestral Abilities",
+        "description": "Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers.",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": false,
+        "swid": "dark-vision",
+        "choiceSets": [],
+        "grants": [],
+        "build": {
+          "cost": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862785075,
+        "modifiedTime": 1724862785075,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_key": "!actors.items!8pArTn9TfiHb0a7G.rFWzWwVSTOU4vTK2"
+    },
+    {
+      "name": "Stability",
+      "type": "ability",
+      "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+      "system": {
+        "description": "<p>Dwarves have a +2 bonus to opposed Strength rolls for resisting Push attacks.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Dwarf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "stability",
+        "choiceSets": [],
+        "build": {
+          "cost": null
+        }
+      },
+      "effects": [
+        {
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "favorite": true
+            }
+          },
+          "changes": [
+            {
+              "key": "system.attributes.strength.die.modifier",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "1wQzbJq5vnB2AasU",
+          "disabled": true,
+          "origin": null,
+          "tint": "#ffffff",
+          "name": "Stability",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!8pArTn9TfiHb0a7G.aN2R5mRaRQZada5Q.1wQzbJq5vnB2AasU"
+        }
+      ],
+      "folder": "aXo6xVVmiLyAK44L",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.305",
+          "systemVersion": "3.0.5"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862785075,
+        "modifiedTime": 1724862785075,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "aN2R5mRaRQZada5Q",
+      "sort": 0,
+      "_key": "!actors.items!8pArTn9TfiHb0a7G.aN2R5mRaRQZada5Q"
+    },
+    {
+      "name": "Stonecunning",
+      "type": "ability",
+      "img": "icons/skills/trades/construction-mason-stonecutter-sculpture.webp",
+      "system": {
+        "description": "<p>Dwarves have the @UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.IuRGnWAwIKFtQJoZ]{Stonecunning} Edge. The generations of dwelling in the Mror Holds has taught them how to sense unusual stonework.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Dwarf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [
+          {
+            "name": "Stonecunning",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-edges.Item.IuRGnWAwIKFtQJoZ"
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "stonecunning",
+        "choiceSets": [],
+        "build": {
+          "cost": null
+        }
+      },
+      "effects": [],
+      "folder": "aXo6xVVmiLyAK44L",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.305",
+          "systemVersion": "3.0.5"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862785075,
+        "modifiedTime": 1724862785075,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "G2B9pdThgqoj2HXX",
+      "sort": 50000,
+      "_key": "!actors.items!8pArTn9TfiHb0a7G.G2B9pdThgqoj2HXX"
+    },
+    {
+      "name": "Tough",
+      "type": "ability",
+      "img": "icons/magic/control/buff-strength-muscle-damage.webp",
+      "system": {
+        "description": "<p>Dwarves are genetically stout and tough. They start with a d6 in Vigor instead of a d4. This increases their maximum Vigor to d12+1. They also have a +1 bonus to resist poisons, powers, and supernatural abilities that behave similarly to powers.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Dwarf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "tough",
+        "choiceSets": [],
+        "build": {
+          "cost": null
+        }
+      },
+      "effects": [
+        {
+          "name": "Starting Vigor d6",
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null
+            }
+          },
+          "changes": [
+            {
+              "key": "system.attributes.vigor.die.sides",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_id": "jmXZJ6SozUFEyZnh",
+          "disabled": false,
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/magic/control/buff-strength-muscle-damage.webp",
+          "type": "base",
+          "system": {},
+          "tint": "#ffffff",
+          "sort": 0,
+          "_key": "!actors.items.effects!8pArTn9TfiHb0a7G.smL29IHN2Hubqnkv.jmXZJ6SozUFEyZnh"
+        }
+      ],
+      "folder": "aXo6xVVmiLyAK44L",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.305",
+          "systemVersion": "3.0.5"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862785075,
+        "modifiedTime": 1724862785075,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "smL29IHN2Hubqnkv",
+      "sort": 0,
+      "_key": "!actors.items!8pArTn9TfiHb0a7G.smL29IHN2Hubqnkv"
+    },
+    {
+      "effects": [
+        {
+          "_id": "ReducedPace00000",
+          "changes": [
+            {
+              "key": "system.stats.speed.value",
+              "mode": 2,
+              "value": "-1",
+              "priority": null
+            },
+            {
+              "key": "system.stats.speed.runningDie",
+              "mode": 2,
+              "value": "-2",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {},
+          "name": "Reduced Pace",
+          "tint": "#ffffff",
+          "transfer": true,
+          "img": "systems/swade/assets/icons/ability.svg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!8pArTn9TfiHb0a7G.VUN84m10DFQbuUlk.ReducedPace00000"
+        }
+      ],
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "name": "Reduced Pace (-1)",
+      "type": "ability",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "build": {
+          "cost": -1
+        },
+        "description": "Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.",
+        "grantsPowers": false,
+        "notes": "",
+        "subtype": "special",
+        "category": "Negative",
+        "swid": "reduced-pace",
+        "choiceSets": [
+          {
+            "title": "Reduced Pace",
+            "choices": [
+              {
+                "name": "Reduced Pace -1",
+                "mutation": {
+                  "name": "Reduced Pace (-1)",
+                  "effects": [
+                    {
+                      "_id": "ReducedPace00000",
+                      "changes": [
+                        {
+                          "key": "system.stats.speed.value",
+                          "mode": 2,
+                          "value": -1
+                        },
+                        {
+                          "key": "system.stats.speed.runningDie",
+                          "mode": 2,
+                          "value": -2
+                        }
+                      ],
+                      "disabled": false,
+                      "duration": {
+                        "startTime": null
+                      },
+                      "flags": {},
+                      "icon": "systems/swade/assets/icons/ability.svg",
+                      "name": "Reduced Pace",
+                      "tint": null,
+                      "transfer": true
+                    }
+                  ],
+                  "system": {
+                    "build": {
+                      "cost": -1
+                    }
+                  }
+                },
+                "addToName": false
+              },
+              {
+                "name": "Reduced Pace -2",
+                "mutation": {
+                  "name": "Reduced Pace (-2)",
+                  "effects": [
+                    {
+                      "_id": "ReducedPace00000",
+                      "changes": [
+                        {
+                          "key": "system.stats.speed.value",
+                          "mode": 2,
+                          "value": -3
+                        },
+                        {
+                          "key": "system.stats.speed.runningDie",
+                          "mode": 2,
+                          "value": -2
+                        },
+                        {
+                          "key": "@Skill{Athletics}[system.die.modifier]",
+                          "mode": 2,
+                          "value": -2
+                        }
+                      ],
+                      "disabled": false,
+                      "duration": {
+                        "startTime": null
+                      },
+                      "flags": {},
+                      "icon": "systems/swade/assets/icons/ability.svg",
+                      "name": "Reduced Pace",
+                      "tint": null,
+                      "transfer": true
+                    }
+                  ],
+                  "system": {
+                    "build": {
+                      "cost": -2
+                    }
+                  }
+                },
+                "addToName": false
+              }
+            ],
+            "choice": 0
+          }
+        ],
+        "favorite": false,
+        "grants": []
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862785075,
+        "modifiedTime": 1724862785075,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "folder": "aXo6xVVmiLyAK44L",
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_id": "VUN84m10DFQbuUlk",
+      "sort": 0,
+      "_key": "!actors.items!8pArTn9TfiHb0a7G.VUN84m10DFQbuUlk"
+    },
+    {
+      "_id": "Sn0YzOboCvmwIr0a",
+      "name": "Stonecunning",
+      "type": "edge",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "description": "<article class=\"swadefc\"><h3>Stonecunning</h3>\n<section class=\"description\">\n<p>\n Those who spend their lives around worked stone quickly perceive imperfections or alterations within its design.\n Assuming they can see or feel the work, they get one free Notice roll at +2 to detect traps, hidden doors, or\n compartments in stonework within 10 feet of their person. Success means they know some alteration has been made,\n and a raise gives them insight into its general purpose.\n </p>\n</section></article>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 0,
+            "combinator": "and"
+          },
+          {
+            "type": "skill",
+            "selector": "repair",
+            "value": 6,
+            "combinator": "and",
+            "label": "Repair"
+          }
+        ],
+        "category": "Professional",
+        "swid": "stonecunning",
+        "choiceSets": [],
+        "favorite": false,
+        "grants": []
+      },
+      "effects": [
+        {
+          "_id": "cqP4rHkJLTpfaEb9",
+          "name": "Stonecunning",
+          "changes": [
+            {
+              "key": "@Skill{Notice}[system.die.modifier]",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "swade": {
+              "conditionalEffect": false
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Edge.webp",
+          "type": "base",
+          "system": {},
+          "disabled": false,
+          "duration": {
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!8pArTn9TfiHb0a7G.Sn0YzOboCvmwIr0a.cqP4rHkJLTpfaEb9"
+        }
+      ],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862785075,
+        "modifiedTime": 1724862785075,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_key": "!actors.items!8pArTn9TfiHb0a7G.Sn0YzOboCvmwIr0a"
     }
   ],
   "effects": [],
@@ -1935,8 +2067,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1692061956178,
-    "modifiedTime": 1724345348816,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724862774191,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

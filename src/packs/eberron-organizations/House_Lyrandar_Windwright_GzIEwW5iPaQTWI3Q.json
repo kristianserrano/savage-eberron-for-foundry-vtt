@@ -505,7 +505,7 @@
         "attribute": "agility",
         "isCoreSkill": false,
         "die": {
-          "sides": 8,
+          "sides": 6,
           "modifier": 0
         },
         "wild-die": {
@@ -520,12 +520,12 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "12.328",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "coreVersion": "12.331",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1724863872113,
+        "lastModifiedBy": "Xbne19Xghka479we",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -1000,308 +1000,6 @@
         "duplicateSource": null
       },
       "_key": "!actors.items!GzIEwW5iPaQTWI3Q.IFPFCbCXJSMR1Gxn"
-    },
-    {
-      "name": "Half-Elf (Elf Heritage)",
-      "type": "ability",
-      "_id": "8xKPGja1NF8LDpWT",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "description": "<ul><li><p><strong>Heritage (+2):</strong> Half-elves may express the grace of elves or human adaptability and ingenuity. A half-elf may either start with a free Edge of his choice or a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p></li><li><p><strong>Low Light Vision (+1):</strong> Half-elves ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).</p></li><li><p><strong>Skilled (+1):</strong> Sharing the ingenuity of their human relatives as well as having slightly longer life spans, half-elves start with a d4 in any skill based on their experiences, education, training, or culture. If the chosen skill is a core skill, it starts at d6 and the skill’s maximum increases to d12+1.</p></li></ul>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Ancestry",
-        "subtype": "ancestry",
-        "grantsPowers": false,
-        "grants": [
-          {
-            "name": "Heritage (Elf)",
-            "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.DWmQMb6hQ4hboFBY",
-            "mutation": {}
-          },
-          {
-            "name": "Low Light Vision",
-            "img": "icons/magic/perception/eye-ringed-green.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.o4Tat7oLxmyfdSX9",
-            "mutation": {}
-          },
-          {
-            "name": "Skilled",
-            "img": "icons/skills/trades/smithing-anvil-horseshoe.webp",
-            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.Fl45JyWxIjcUQz25",
-            "mutation": {}
-          }
-        ],
-        "source": "Eberron for Savage Worlds",
-        "swid": "half-elf-elf-heritage",
-        "choiceSets": []
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 600000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3,
-        "gnhMzhHlhdZ0SrHo": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-ancestries.Item.ZiHlDK7Q8xWHFJ4P"
-        },
-        "swade": {
-          "hasGranted": [
-            "9A7dc1umDMRSHgyZ",
-            "TLDM5IoswazyhcFt",
-            "ch2lYo3Tpfa2RenT"
-          ]
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "12.328",
-        "createdTime": 1690320782224,
-        "modifiedTime": 1699683461564,
-        "lastModifiedBy": "gnhMzhHlhdZ0SrHo",
-        "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.ZiHlDK7Q8xWHFJ4P",
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!GzIEwW5iPaQTWI3Q.8xKPGja1NF8LDpWT"
-    },
-    {
-      "folder": "FN4247Nt3Srx9EDb",
-      "name": "Heritage (Elf)",
-      "type": "ability",
-      "_id": "9A7dc1umDMRSHgyZ",
-      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
-      "system": {
-        "description": "<p>Half-elves may express the grace of elves or human adaptability and ingenuity. A half-elf may either start with a free @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000#edges]{Edge} of his choice or a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Half-elf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "heritage-elf",
-        "choiceSets": []
-      },
-      "effects": [
-        {
-          "duration": {
-            "rounds": null,
-            "startTime": 0,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "loseTurnOnHold": false
-            }
-          },
-          "changes": [
-            {
-              "key": "system.attributes.agility.die.sides",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "name": "Starting Agility d6",
-          "_id": "1OAqXlBm6D9gko3e",
-          "disabled": false,
-          "description": "<p>A half-elf may start with a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
-          "origin": null,
-          "statuses": [],
-          "tint": "#ffffff",
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
-          "type": "base",
-          "system": {},
-          "sort": 0,
-          "_key": "!actors.items.effects!GzIEwW5iPaQTWI3Q.9A7dc1umDMRSHgyZ.1OAqXlBm6D9gko3e"
-        }
-      ],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3,
-        "gnhMzhHlhdZ0SrHo": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "12.328",
-        "createdTime": 1690321175145,
-        "modifiedTime": 1699683461526,
-        "lastModifiedBy": "gnhMzhHlhdZ0SrHo",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!GzIEwW5iPaQTWI3Q.9A7dc1umDMRSHgyZ"
-    },
-    {
-      "folder": "FN4247Nt3Srx9EDb",
-      "name": "Low Light Vision",
-      "type": "ability",
-      "img": "icons/magic/perception/eye-ringed-green.webp",
-      "system": {
-        "description": "<p>Half-elves ignore penalties for Dim and Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} (but not Pitch Darkness).</p>",
-        "notes": "Racial",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Half-elf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "low-light-vision",
-        "choiceSets": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3,
-        "gnhMzhHlhdZ0SrHo": 3
-      },
-      "flags": {
-        "core": {},
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "12.328",
-        "createdTime": 1668045742153,
-        "modifiedTime": 1699683461526,
-        "lastModifiedBy": "gnhMzhHlhdZ0SrHo",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "TLDM5IoswazyhcFt",
-      "sort": 100000,
-      "_key": "!actors.items!GzIEwW5iPaQTWI3Q.TLDM5IoswazyhcFt"
-    },
-    {
-      "folder": "FN4247Nt3Srx9EDb",
-      "name": "Skilled",
-      "type": "ability",
-      "img": "icons/skills/trades/smithing-anvil-horseshoe.webp",
-      "system": {
-        "description": "<p>Sharing the ingenuity of their human relatives as well as having slightly longer life spans, half-elves start with a d4 in any @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000#skills]{skill} based on their experiences, education, training, or culture. If the chosen skill is a core skill, it starts at d6 and the skill’s maximum increases to d12+1</p>",
-        "notes": "Racial",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Half-elf",
-        "subtype": "special",
-        "grantsPowers": false,
-        "grants": [],
-        "source": "Eberron for Savage Worlds",
-        "swid": "skilled",
-        "choiceSets": []
-      },
-      "effects": [
-        {
-          "duration": {
-            "rounds": null,
-            "startTime": 0,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "flags": {
-            "swade": {
-              "expiration": null,
-              "loseTurnOnHold": false
-            }
-          },
-          "changes": [
-            {
-              "key": "@Skill{Piloting}[system.die.sides]",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "transfer": true,
-          "name": "Starting Core Skill d6",
-          "_id": "32TBtnDN750S61P8",
-          "disabled": false,
-          "description": "",
-          "origin": null,
-          "statuses": [],
-          "tint": "#ffffff",
-          "_stats": {
-            "coreVersion": "12.328",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "systems/swade/assets/icons/skill.svg",
-          "type": "base",
-          "system": {},
-          "sort": 0,
-          "_key": "!actors.items.effects!GzIEwW5iPaQTWI3Q.ch2lYo3Tpfa2RenT.32TBtnDN750S61P8"
-        }
-      ],
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3,
-        "gnhMzhHlhdZ0SrHo": 3
-      },
-      "flags": {
-        "core": {},
-        "exportSource": {
-          "world": "convergence-manifesto",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.5"
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2-dev",
-        "coreVersion": "12.328",
-        "createdTime": 1668046060853,
-        "modifiedTime": 1699683461526,
-        "lastModifiedBy": "gnhMzhHlhdZ0SrHo",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_id": "ch2lYo3Tpfa2RenT",
-      "sort": 0,
-      "_key": "!actors.items!GzIEwW5iPaQTWI3Q.ch2lYo3Tpfa2RenT"
     },
     {
       "system": {
@@ -2456,6 +2154,373 @@
       },
       "_id": "7h2A51mB99jDg178",
       "_key": "!actors.items!GzIEwW5iPaQTWI3Q.7h2A51mB99jDg178"
+    },
+    {
+      "name": "Half-Elf",
+      "type": "ancestry",
+      "_id": "O8pcXCUV21fEaxzN",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<ul><li><p><strong>Heritage (+2):</strong> Half-elves may express the grace of elves or human adaptability and ingenuity. A half-elf may either start with a free Edge of his choice or a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p></li><li><p><strong>Low Light Vision (+1):</strong> Half-elves ignore penalties for Dim and Dark Illumination (but not Pitch Darkness).</p></li><li><p><strong>Skilled (+1):</strong> Sharing the ingenuity of their human relatives as well as having slightly longer life spans, half-elves start with a d4 in any skill based on their experiences, education, training, or culture. If the chosen skill is a core skill, it starts at d6 and the skill’s maximum increases to d12+1.</p></li></ul>",
+        "notes": "",
+        "additionalStats": {},
+        "grants": [
+          {
+            "name": "Heritage",
+            "img": "icons/environment/people/group.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.DWmQMb6hQ4hboFBY"
+          },
+          {
+            "name": "Low Light Vision",
+            "img": "icons/magic/perception/eye-ringed-green.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.o4Tat7oLxmyfdSX9"
+          },
+          {
+            "name": "Skilled",
+            "img": "icons/skills/trades/smithing-anvil-horseshoe.webp",
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.Fl45JyWxIjcUQz25"
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "half-elf",
+        "choiceSets": [],
+        "threshold": 2
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "swade": {
+          "hasGranted": [
+            "Jxll8Lmj7ExhfMLV",
+            "NkSTuYNSAzZbAcvY",
+            "R5ttqOiH90f7lwc3"
+          ]
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.ZiHlDK7Q8xWHFJ4P",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863807123,
+        "modifiedTime": 1724863810074,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!GzIEwW5iPaQTWI3Q.O8pcXCUV21fEaxzN"
+    },
+    {
+      "folder": "FN4247Nt3Srx9EDb",
+      "name": "Heritage (Elf)",
+      "type": "ability",
+      "_id": "Jxll8Lmj7ExhfMLV",
+      "img": "icons/environment/people/group.webp",
+      "system": {
+        "description": "<p>Half-elves may express the grace of elves or human adaptability and ingenuity. A half-elf may either start with a free @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000#edges]{Edge} of his choice or a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Half-elf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "heritage",
+        "choiceSets": [
+          {
+            "title": "Half-elf Heritage",
+            "choice": 0,
+            "choices": [
+              {
+                "name": "Elf",
+                "addToName": true,
+                "mutation": {
+                  "effects": [
+                    {
+                      "duration": {
+                        "rounds": null,
+                        "startTime": 0,
+                        "seconds": null,
+                        "combat": null,
+                        "turns": null,
+                        "startRound": null,
+                        "startTurn": null
+                      },
+                      "flags": {
+                        "swade": {
+                          "expiration": null,
+                          "loseTurnOnHold": false
+                        }
+                      },
+                      "changes": [
+                        {
+                          "key": "system.attributes.agility.die.sides",
+                          "mode": 2,
+                          "value": "2",
+                          "priority": null
+                        }
+                      ],
+                      "transfer": true,
+                      "name": "Starting Agility d6",
+                      "_id": "1OAqXlBm6D9gko3e",
+                      "disabled": false,
+                      "description": "<p>A half-elf may start with a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
+                      "origin": null,
+                      "statuses": [],
+                      "tint": "#ffffff",
+                      "_stats": {
+                        "coreVersion": "12.328",
+                        "systemId": null,
+                        "systemVersion": null,
+                        "createdTime": null,
+                        "modifiedTime": null,
+                        "lastModifiedBy": null,
+                        "compendiumSource": null,
+                        "duplicateSource": null
+                      },
+                      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+                      "type": "base",
+                      "system": {},
+                      "sort": 0,
+                      "_key": "!items.effects!DWmQMb6hQ4hboFBY.1OAqXlBm6D9gko3e"
+                    }
+                  ],
+                  "name": "Heritage (Elf)"
+                }
+              },
+              {
+                "name": "Human",
+                "addToName": true
+              }
+            ]
+          }
+        ],
+        "build": {
+          "cost": null
+        }
+      },
+      "effects": [
+        {
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "changes": [
+            {
+              "key": "system.attributes.agility.die.sides",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "name": "Starting Agility d6",
+          "_id": "1OAqXlBm6D9gko3e",
+          "disabled": false,
+          "description": "<p>A half-elf may start with a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12+1).</p>",
+          "origin": null,
+          "statuses": [],
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!GzIEwW5iPaQTWI3Q.Jxll8Lmj7ExhfMLV.1OAqXlBm6D9gko3e"
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863810052,
+        "modifiedTime": 1724863810052,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!GzIEwW5iPaQTWI3Q.Jxll8Lmj7ExhfMLV"
+    },
+    {
+      "folder": "FN4247Nt3Srx9EDb",
+      "name": "Skilled",
+      "type": "ability",
+      "img": "icons/skills/trades/smithing-anvil-horseshoe.webp",
+      "system": {
+        "description": "<p>Sharing the ingenuity of their human relatives as well as having slightly longer life spans, half-elves start with a d4 in any @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000#skills]{skill} based on their experiences, education, training, or culture. If the chosen skill is a core skill, it starts at d6 and the skill’s maximum increases to d12+1</p>",
+        "notes": "Racial",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Half-elf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "skilled",
+        "choiceSets": [],
+        "build": {
+          "cost": null
+        }
+      },
+      "effects": [
+        {
+          "duration": {
+            "rounds": null,
+            "startTime": 36,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "flags": {
+            "swade": {
+              "expiration": null,
+              "loseTurnOnHold": false
+            }
+          },
+          "changes": [
+            {
+              "key": "@Skill{Piloting}[system.die.sides]",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "name": "Starting Piloting d6",
+          "_id": "32TBtnDN750S61P8",
+          "disabled": false,
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "swade",
+            "systemVersion": "4.1.0",
+            "createdTime": null,
+            "modifiedTime": 1724863875798,
+            "lastModifiedBy": "Xbne19Xghka479we"
+          },
+          "img": "systems/swade/assets/icons/skill.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!GzIEwW5iPaQTWI3Q.NkSTuYNSAzZbAcvY.32TBtnDN750S61P8"
+        }
+      ],
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863810052,
+        "modifiedTime": 1724863810052,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "NkSTuYNSAzZbAcvY",
+      "sort": 0,
+      "_key": "!actors.items!GzIEwW5iPaQTWI3Q.NkSTuYNSAzZbAcvY"
+    },
+    {
+      "folder": "FN4247Nt3Srx9EDb",
+      "name": "Low Light Vision",
+      "type": "ability",
+      "img": "icons/magic/perception/eye-ringed-green.webp",
+      "system": {
+        "description": "<p>Half-elves ignore penalties for Dim and Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} (but not Pitch Darkness).</p>",
+        "notes": "Racial",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Half-elf",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [],
+        "source": "Eberron for Savage Worlds",
+        "swid": "low-light-vision",
+        "choiceSets": [],
+        "build": {
+          "cost": null
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "exportSource": {
+          "world": "convergence-manifesto",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724863810052,
+        "modifiedTime": 1724863810052,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_id": "R5ttqOiH90f7lwc3",
+      "sort": 100000,
+      "_key": "!actors.items!GzIEwW5iPaQTWI3Q.R5ttqOiH90f7lwc3"
     }
   ],
   "effects": [],
@@ -2473,8 +2538,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1699683398483,
-    "modifiedTime": 1724345348855,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724863711602,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

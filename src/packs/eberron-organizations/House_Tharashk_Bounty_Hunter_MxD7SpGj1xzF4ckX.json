@@ -126,7 +126,7 @@
     },
     "bennies": {
       "value": 0,
-      "max": 2
+      "max": 0
     },
     "advances": {
       "mode": "expanded",
@@ -242,230 +242,6 @@
     }
   },
   "items": [
-    {
-      "name": "Half-Orc",
-      "type": "ability",
-      "_id": "SlvCBWwifOB91heU",
-      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-      "system": {
-        "description": "<ul><li><p><strong>Assertive (+1):</strong> Half-orcs start with a d4 in Intimidation.</p></li><li><p><strong>Brute (+2):</strong> Inheriting some of the physical strength of their orcish ancestry, half-orcs have the Brute Edge.</p></li><li><p><strong>Darkvision (+1):</strong> Half-orcs’ eyes are attuned to habitats with dim lighting. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers.</p></li></ul>",
-        "notes": "",
-        "additionalStats": {},
-        "favorite": false,
-        "category": "Ancestry",
-        "subtype": "ancestry",
-        "grantsPowers": false,
-        "grants": [
-          {
-            "name": "Brute",
-            "img": "systems/swade/assets/icons/edge.svg",
-            "uuid": "Compendium.swade-core-rules.swade-edges.Item.rNOxB5lUz46R7AiY",
-            "mutation": {}
-          },
-          {
-            "name": "Intimidation",
-            "img": "systems/swade/assets/icons/skills/arrest.svg",
-            "uuid": "Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId",
-            "mutation": {}
-          },
-          {
-            "name": "Dark Vision",
-            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-            "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
-            "mutation": {
-              "name": "Darkvision",
-              "img": "icons/magic/perception/eye-slit-orange.webp"
-            }
-          }
-        ],
-        "source": "Eberron for Savage Worlds",
-        "swid": "half-orc",
-        "choiceSets": []
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 400000,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.savage-eberron.eberron-ancestries.Item.9SP5K4x7YJGXSDLQ"
-        },
-        "exportSource": {
-          "world": "eberron-for-savage-worlds",
-          "system": "swade",
-          "coreVersion": "11.306",
-          "systemVersion": "3.0.6"
-        },
-        "swade": {
-          "hasGranted": [
-            "I5PEQOOsei8cUJn9",
-            "lnxbGfBrXyliXUeF",
-            "Iubbo5jqSCYfgppF"
-          ]
-        }
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1690400937802,
-        "modifiedTime": 1700759034509,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.9SP5K4x7YJGXSDLQ",
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!MxD7SpGj1xzF4ckX.SlvCBWwifOB91heU"
-    },
-    {
-      "_id": "I5PEQOOsei8cUJn9",
-      "effects": [],
-      "folder": null,
-      "img": "systems/swade/assets/icons/edge.svg",
-      "name": "Brute",
-      "sort": 0,
-      "type": "edge",
-      "system": {
-        "source": "SWADE Core Rules",
-        "additionalStats": {},
-        "description": "<article class=\"swade-core\">\n<p>Brutes focus on core strength and fitness over coordination and flexibility. They treat @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} as linked to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} instead of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility} for purposes of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{Advancement}. The character may also resist Athletics @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{Tests} with Strength if she chooses. </p>\n<p>Finally, Brutes increase the @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Short Range} of any thrown item by +1. Double that for the adjusted Medium Range, and double again for Long Range. If a thrown item’s Range is 3/6/12, for example, a Brute’s Range is 4/8/16.</p>\n</article>",
-        "isArcaneBackground": false,
-        "notes": "",
-        "requirements": [
-          {
-            "type": "rank",
-            "selector": "",
-            "value": 0,
-            "combinator": "and"
-          },
-          {
-            "type": "attribute",
-            "selector": "strength",
-            "value": 6,
-            "combinator": "and"
-          },
-          {
-            "type": "attribute",
-            "selector": "vigor",
-            "value": 6,
-            "combinator": "and"
-          }
-        ],
-        "category": "Background",
-        "swid": "brute",
-        "favorite": false,
-        "grants": [],
-        "choiceSets": []
-      },
-      "ownership": {
-        "7ntJSLixH2Phv2jV": 3,
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1700759034461,
-        "modifiedTime": 1700759034461,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!MxD7SpGj1xzF4ckX.I5PEQOOsei8cUJn9"
-    },
-    {
-      "_id": "lnxbGfBrXyliXUeF",
-      "effects": [],
-      "folder": null,
-      "img": "systems/swade/assets/icons/skills/arrest.svg",
-      "name": "Intimidation",
-      "sort": 0,
-      "type": "skill",
-      "system": {
-        "source": "SWADE Core Rules",
-        "additionalStats": {},
-        "attribute": "spirit",
-        "description": "<article class=\"swade-core\">\n<p>Intimidation is the art of frightening an opponent so that he backs down, reveals information, or flees.</p>\n<p>Intimidation is an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed roll} resisted by the opponent’s @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit}. In combat, this is a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{Test}. Out of combat, a successful roll means the foe backs down for the most part, reveals some information, or slinks away when the opportunity presents itself.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise} might mean he backs down for the remainder of the scene, spills all the beans, or runs away as fast as he can.</p>\n<p>In or out of combat, a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical Failure} means the target is immune to this character’s Intimidation attempts for the remainder of this encounter!</p>\n<p><strong>Networking:</strong> Intimidation can also be used as a “macro” skill to simulate several hours of working the streets. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{Networking} to see how to crack some heads for favors or information.</p>\n</article>",
-        "die": {
-          "modifier": 0,
-          "sides": 6
-        },
-        "isCoreSkill": false,
-        "notes": "",
-        "wild-die": {
-          "sides": 6
-        },
-        "swid": "intimidation",
-        "choiceSets": []
-      },
-      "ownership": {
-        "7ntJSLixH2Phv2jV": 3,
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1700759034461,
-        "modifiedTime": 1700760515740,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!MxD7SpGj1xzF4ckX.lnxbGfBrXyliXUeF"
-    },
-    {
-      "_id": "Iubbo5jqSCYfgppF",
-      "name": "Darkvision",
-      "type": "ability",
-      "img": "icons/magic/perception/eye-slit-orange.webp",
-      "system": {
-        "source": "Fantasy Companion",
-        "category": "New Ancestral Abilities",
-        "description": "<article class=\"swadefc\"><p><strong>Dark Vision (1):</strong> The species can see in the dark  a short distance, ignoring all illumination penalties and up to 2 points of penalties from <em>invisibility</em>  or similar powers within 10\" (20 yards) distant.</p></article>",
-        "notes": "",
-        "additionalStats": {},
-        "subtype": "special",
-        "favorite": false,
-        "grantsPowers": false,
-        "swid": "dark-vision",
-        "grants": [],
-        "choiceSets": []
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sheetClass": "swade.SWADEFCItem"
-        },
-        "singleSource": {
-          "version": "2.0.0-alpha",
-          "module": "swade-fantasy-companion"
-        }
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "Xbne19Xghka479we": 3
-      },
-      "_stats": {
-        "systemId": "swade",
-        "systemVersion": "3.2.2",
-        "coreVersion": "12.328",
-        "createdTime": 1700759034461,
-        "modifiedTime": 1700759034461,
-        "lastModifiedBy": "Xbne19Xghka479we",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!MxD7SpGj1xzF4ckX.Iubbo5jqSCYfgppF"
-    },
     {
       "_id": "GsPZsIsk6qeReYw1",
       "effects": [],
@@ -2936,6 +2712,369 @@
         "duplicateSource": null
       },
       "_key": "!actors.items!MxD7SpGj1xzF4ckX.siaDUWzXyjGd99AN"
+    },
+    {
+      "name": "Half-Orc",
+      "type": "ancestry",
+      "_id": "B64g6JJcpqbEN9MV",
+      "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+      "system": {
+        "description": "<ul><li><p><strong>Assertive (+1):</strong> Half-orcs start with a d4 in Intimidation.</p></li><li><p><strong>Brute (+2):</strong> Inheriting some of the physical strength of their orcish ancestry, half-orcs have the Brute Edge.</p></li><li><p><strong>Darkvision (+1):</strong> Half-orcs’ eyes are attuned to habitats with dim lighting. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers.</p></li></ul>",
+        "notes": "",
+        "additionalStats": {},
+        "grants": [
+          {
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.q0nYvk263tAxoOAv",
+            "img": "icons/skills/social/intimidation-impressing.webp",
+            "name": "Assertive"
+          },
+          {
+            "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.kD0rIyktsh3ryNkU",
+            "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+            "name": "Brute"
+          },
+          {
+            "uuid": "Compendium.swade-fantasy-companion.swade-fc-abilities.Item.25JUPnzcOXcOQc8Y",
+            "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
+            "name": "Dark Vision",
+            "mutation": {
+              "img": "icons/magic/perception/eye-slit-orange.webp",
+              "name": "Darkvision",
+              "system": {
+                "description": "Half-orcs’ eyes are attuned to habitats with dim lighting. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers."
+              }
+            }
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "half-orc",
+        "choiceSets": [],
+        "threshold": 2
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "exportSource": {
+          "world": "eberron-for-savage-worlds",
+          "system": "swade",
+          "coreVersion": "11.306",
+          "systemVersion": "3.0.6"
+        },
+        "swade": {
+          "hasGranted": [
+            "1v0Gotn5iShm1K67",
+            "l5sl1dzHivCrYAmE",
+            "limP8m725PKNum6Y",
+            "lFET3HHhjqZFMTi0",
+            "uSDpSzCPFuS0fnl3"
+          ]
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.savage-eberron.eberron-ancestries.Item.9SP5K4x7YJGXSDLQ",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862949892,
+        "modifiedTime": 1724862950006,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.B64g6JJcpqbEN9MV"
+    },
+    {
+      "folder": "BAQqZdmyBx9yEwlf",
+      "name": "Assertive",
+      "type": "ability",
+      "_id": "1v0Gotn5iShm1K67",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "description": "<p>Half-orcs start with a d4 in @UUID[Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId]{Intimidation}.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Half-orc",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [
+          {
+            "name": "Intimidation",
+            "img": "systems/swade/assets/icons/skills/arrest.svg",
+            "uuid": "Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId"
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "assertive",
+        "choiceSets": [],
+        "build": {
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "swade": {
+          "auras": {
+            "aura1": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            },
+            "aura2": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862949975,
+        "modifiedTime": 1724862949975,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.1v0Gotn5iShm1K67"
+    },
+    {
+      "folder": "BAQqZdmyBx9yEwlf",
+      "name": "Brute",
+      "type": "ability",
+      "_id": "l5sl1dzHivCrYAmE",
+      "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+      "system": {
+        "description": "<p>Inheriting some of the physical strength of their orcish ancestry, half-orcs have the @UUID[Compendium.swade-core-rules.swade-edges.Item.rNOxB5lUz46R7AiY]{Brute} Edge.</p>",
+        "notes": "",
+        "additionalStats": {},
+        "favorite": false,
+        "category": "Half-orc",
+        "subtype": "special",
+        "grantsPowers": false,
+        "grants": [
+          {
+            "name": "Brute",
+            "img": "systems/swade/assets/icons/edge.svg",
+            "uuid": "Compendium.swade-core-rules.swade-edges.Item.rNOxB5lUz46R7AiY"
+          }
+        ],
+        "source": "Eberron for Savage Worlds",
+        "swid": "brute",
+        "choiceSets": [],
+        "build": {
+          "cost": 2
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {
+        "core": {},
+        "swade": {
+          "auras": {
+            "aura1": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            },
+            "aura2": {
+              "enabled": false,
+              "walls": false,
+              "radius": null,
+              "color": "default=",
+              "alpha": 0.5,
+              "visibleTo": []
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862949975,
+        "modifiedTime": 1724862949975,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.l5sl1dzHivCrYAmE"
+    },
+    {
+      "_id": "limP8m725PKNum6Y",
+      "name": "Darkvision",
+      "type": "ability",
+      "img": "icons/magic/perception/eye-slit-orange.webp",
+      "system": {
+        "source": "Fantasy Companion",
+        "category": "New Ancestral Abilities",
+        "description": "Half-orcs’ eyes are attuned to habitats with dim lighting. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers.",
+        "notes": "",
+        "additionalStats": {},
+        "subtype": "special",
+        "favorite": false,
+        "grantsPowers": false,
+        "swid": "dark-vision",
+        "choiceSets": [],
+        "grants": [],
+        "build": {
+          "cost": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sheetClass": "swade.SWADEFCItem"
+        },
+        "singleSource": {
+          "version": "2.0.0-alpha",
+          "module": "swade-fantasy-companion"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862949975,
+        "modifiedTime": 1724862949975,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.limP8m725PKNum6Y"
+    },
+    {
+      "_id": "lFET3HHhjqZFMTi0",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/skills/arrest.svg",
+      "name": "Intimidation",
+      "sort": 0,
+      "type": "skill",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "attribute": "spirit",
+        "description": "<article class=\"swade-core\">\n<p>Intimidation is the art of frightening an opponent so that he backs down, reveals information, or flees.</p>\n<p>Intimidation is an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed roll} resisted by the opponent’s @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit}. In combat, this is a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{Test}. Out of combat, a successful roll means the foe backs down for the most part, reveals some information, or slinks away when the opportunity presents itself.</p>\n<p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise} might mean he backs down for the remainder of the scene, spills all the beans, or runs away as fast as he can.</p>\n<p>In or out of combat, a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Critical Failure} means the target is immune to this character’s Intimidation attempts for the remainder of this encounter!</p>\n<p><strong>Networking:</strong> Intimidation can also be used as a “macro” skill to simulate several hours of working the streets. See @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{Networking} to see how to crack some heads for favors or information.</p>\n</article>",
+        "die": {
+          "modifier": 0,
+          "sides": 4
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "intimidation",
+        "choiceSets": []
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862949975,
+        "modifiedTime": 1724862949975,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.lFET3HHhjqZFMTi0"
+    },
+    {
+      "_id": "uSDpSzCPFuS0fnl3",
+      "effects": [],
+      "folder": null,
+      "img": "systems/swade/assets/icons/edge.svg",
+      "name": "Brute",
+      "sort": 0,
+      "type": "edge",
+      "system": {
+        "source": "SWADE Core Rules",
+        "additionalStats": {},
+        "description": "<article class=\"swade-core\">\n<p>Brutes focus on core strength and fitness over coordination and flexibility. They treat @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} as linked to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} instead of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility} for purposes of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{Advancement}. The character may also resist Athletics @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{Tests} with Strength if she chooses. </p>\n<p>Finally, Brutes increase the @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Short Range} of any thrown item by +1. Double that for the adjusted Medium Range, and double again for Long Range. If a thrown item’s Range is 3/6/12, for example, a Brute’s Range is 4/8/16.</p>\n</article>",
+        "isArcaneBackground": false,
+        "notes": "",
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 0,
+            "combinator": "and"
+          },
+          {
+            "type": "attribute",
+            "selector": "strength",
+            "value": 6,
+            "combinator": "and"
+          },
+          {
+            "type": "attribute",
+            "selector": "vigor",
+            "value": 6,
+            "combinator": "and"
+          }
+        ],
+        "category": "Background",
+        "swid": "brute",
+        "choiceSets": [],
+        "favorite": false,
+        "grants": []
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724862949975,
+        "modifiedTime": 1724862949975,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "ownership": {
+        "7ntJSLixH2Phv2jV": 3,
+        "default": 0,
+        "Xbne19Xghka479we": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!MxD7SpGj1xzF4ckX.uSDpSzCPFuS0fnl3"
     }
   ],
   "effects": [],
@@ -2948,8 +3087,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1700761050265,
-    "modifiedTime": 1724345348942,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724862965779,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },
