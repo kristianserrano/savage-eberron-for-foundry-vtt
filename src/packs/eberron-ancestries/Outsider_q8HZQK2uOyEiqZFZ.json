@@ -81,7 +81,7 @@
     "systemId": "swade",
     "systemVersion": "4.1.0",
     "createdTime": 1724730504244,
-    "modifiedTime": 1724730623438,
+    "modifiedTime": 1724867423400,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "folder": "sejulRCFKEsoF9Il",
@@ -89,7 +89,28 @@
     "default": 0,
     "Xbne19Xghka479we": 3
   },
-  "flags": {},
+  "flags": {
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
+    }
+  },
   "_id": "q8HZQK2uOyEiqZFZ",
   "sort": 0,
   "_key": "!items!q8HZQK2uOyEiqZFZ"

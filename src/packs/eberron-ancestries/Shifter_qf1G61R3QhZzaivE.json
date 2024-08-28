@@ -15,16 +15,21 @@
         "mutation": {}
       },
       {
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.7NLXiKXG2MOX3ZGJ",
-        "img": "icons/magic/perception/eye-ringed-green.webp",
-        "name": "Low Light Vision",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.8Q3ltEl0u62dobbv",
+        "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+        "name": "Shifting",
         "mutation": {}
       },
       {
-        "name": "Shifting",
-        "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.8Q3ltEl0u62dobbv",
-        "mutation": {}
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.LOWLsFXsFJvZsIwc",
+        "img": "systems/swade/assets/icons/ability.svg",
+        "name": "Low Light Vision",
+        "mutation": {
+          "system": {
+            "description": "Shifters ignore penalties for Dim and Dark @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00#illumination]{Illumination} (but not Pitch Darkness)."
+          },
+          "img": "icons/magic/perception/eye-ringed-green.webp"
+        }
       }
     ],
     "source": "Eberron for Savage Worlds",
@@ -51,8 +56,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1690042144702,
-    "modifiedTime": 1724349259269,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724867032578,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

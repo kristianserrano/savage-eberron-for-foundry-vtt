@@ -26,7 +26,7 @@
     "swid": "steel-fists",
     "choiceSets": [],
     "build": {
-      "cost": null
+      "cost": 1
     }
   },
   "effects": [],
@@ -69,8 +69,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1668044958921,
-    "modifiedTime": 1724349259269,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724867319333,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

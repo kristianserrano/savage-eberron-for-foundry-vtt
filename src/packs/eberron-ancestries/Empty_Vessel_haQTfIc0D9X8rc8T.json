@@ -17,15 +17,19 @@
         "mutation": {}
       },
       {
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.QuAQR9benrodui7K",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.bPCnlrru46IffO64",
         "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-        "name": "Naturally Psionic",
-        "mutation": {}
+        "name": "Socially Adept"
       },
       {
-        "name": "Socially Adept",
-        "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.bPCnlrru46IffO64"
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.fcYVlZ4gO70hvh1x",
+        "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+        "name": "Naturally Psionic",
+        "mutation": {
+          "system": {
+            "description": "Kalashtar have the Arcane Background (Psion or Soulknife) Edge with @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.iwfXTfzMqC1gWWtw]{mind link} as one of their starting powers. They also have @UUID[Compendium.swade-core-rules.swade-skills.Item.bkrB9AajSCSA6eIY]{Psionics} as a core skill."
+          }
+        }
       }
     ],
     "choiceSets": [],
@@ -44,8 +48,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1700896082958,
-    "modifiedTime": 1724349259269,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724870880211,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

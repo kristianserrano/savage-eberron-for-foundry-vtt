@@ -3,11 +3,11 @@
   "type": "ability",
   "img": "icons/skills/social/wave-halt-stop.webp",
   "system": {
-    "description": "<p>Warforged have the @Compendium[swade-core-rules.swade-hindrances.IQgZkCUMklDKYV9x]{Outsider} (Major) Hindrance. With a long history of being dedicated soldiers of war, warforged have difficulty blending into post-war Khorvaire. Most non-warforged strongly dislike the sight of warforged as they stand as living reminders of the horror that was the Last War. As such, warforged have −2 to @Compendium[swade-core-rules.swade-skills.k7fIVOghEx6y44xE]{Persuasion} rolls when interacting with non-warforged and are often treated as less than.</p>",
+    "description": "<p>If identified as kalashtar, they subtract 1 from their @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} roll as they seem to have alien dispositions with which most do not feel comfortable.</p>",
     "notes": "Racial",
     "additionalStats": {},
     "favorite": false,
-    "category": "Warforged",
+    "category": "Kalashtar",
     "subtype": "special",
     "grantsPowers": false,
     "grants": [
@@ -18,7 +18,7 @@
         "mutation": {
           "system": {
             "major": true,
-            "description": "Warforged have the @Compendium[swade-core-rules.swade-hindrances.IQgZkCUMklDKYV9x]{Outsider} (Major) Hindrance. With a long history of being dedicated soldiers of war, warforged have difficulty blending into post-war Khorvaire. Most non-warforged strongly dislike the sight of warforged as they stand as living reminders of the horror that was the Last War. As such, warforged have −2 to @Compendium[swade-core-rules.swade-skills.k7fIVOghEx6y44xE]{Persuasion} rolls when interacting with non-warforged and are often treated as less than."
+            "description": "<p>If identified as kalashtar, they subtract 1 from their @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} roll as they seem to have alien dispositions with which most do not feel comfortable.</p>",
           }
         }
       }
@@ -31,7 +31,7 @@
     }
   },
   "effects": [],
-  "folder": "gVJBnQp2agFQhF0c",
+  "folder": "oldWVWKsIM3coKB9",
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3
@@ -66,16 +66,16 @@
     }
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "swade",
     "systemVersion": "4.1.0",
-    "coreVersion": "12.331",
-    "createdTime": 1668044956818,
-    "modifiedTime": 1724871189642,
-    "lastModifiedBy": "Xbne19Xghka479we",
-    "compendiumSource": null,
-    "duplicateSource": null
+    "createdTime": 1724871229144,
+    "modifiedTime": 1724871266961,
+    "lastModifiedBy": "Xbne19Xghka479we"
   },
-  "_id": "7n8ZbYQejbInG1Iw",
+  "_id": "fOX2ghVwnQwzRMQd",
   "sort": 0,
-  "_key": "!items!7n8ZbYQejbInG1Iw"
+  "_key": "!items!fOX2ghVwnQwzRMQd"
 }

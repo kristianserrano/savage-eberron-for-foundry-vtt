@@ -26,12 +26,6 @@
         "mutation": {}
       },
       {
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.7n8ZbYQejbInG1Iw",
-        "img": "icons/skills/social/wave-halt-stop.webp",
-        "name": "Outsider",
-        "mutation": {}
-      },
-      {
         "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.pYWOMwN0Rd64OYmW",
         "img": "icons/magic/time/day-night-sunset-sunrise.webp",
         "name": "Dreamless",
@@ -41,6 +35,11 @@
         "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.fcYVlZ4gO70hvh1x",
         "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
         "name": "Naturally Psionic"
+      },
+      {
+        "name": "Outsider",
+        "img": "icons/skills/social/wave-halt-stop.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.fOX2ghVwnQwzRMQd"
       }
     ],
     "source": "Eberron for Savage Worlds",
@@ -62,7 +61,7 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1690332964983,
-    "modifiedTime": 1724820822371,
+    "modifiedTime": 1724871282128,
     "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null

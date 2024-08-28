@@ -16,7 +16,7 @@
     "swid": "skilled",
     "choiceSets": [],
     "build": {
-      "cost": null
+      "cost": 2
     }
   },
   "effects": [
@@ -106,8 +106,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1668046060853,
-    "modifiedTime": 1724349259269,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724871123815,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

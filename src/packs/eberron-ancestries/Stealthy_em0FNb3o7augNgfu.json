@@ -15,7 +15,7 @@
     "swid": "stealthy",
     "choiceSets": [],
     "build": {
-      "cost": null
+      "cost": 1
     }
   },
   "effects": [
@@ -80,6 +80,26 @@
       "system": "swade",
       "coreVersion": "11.306",
       "systemVersion": "3.0.5"
+    },
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
     }
   },
   "_stats": {
@@ -87,7 +107,7 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1668046428244,
-    "modifiedTime": 1724819542355,
+    "modifiedTime": 1724871053074,
     "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null

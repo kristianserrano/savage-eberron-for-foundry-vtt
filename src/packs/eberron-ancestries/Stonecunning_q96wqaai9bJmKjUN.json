@@ -21,7 +21,7 @@
     "swid": "stonecunning",
     "choiceSets": [],
     "build": {
-      "cost": null
+      "cost": 2
     }
   },
   "effects": [],
@@ -37,14 +37,34 @@
       "coreVersion": "11.305",
       "systemVersion": "3.0.5"
     },
-    "core": {}
+    "core": {},
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
+    }
   },
   "_stats": {
     "systemId": "swade",
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1671074423996,
-    "modifiedTime": 1724557756199,
+    "modifiedTime": 1724870392924,
     "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null

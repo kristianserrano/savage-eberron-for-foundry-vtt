@@ -4,7 +4,7 @@
   "_id": "Mpv3gzJfpDt4xqoY",
   "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_SpecialAbility.webp",
   "system": {
-    "description": "<ul><li><p><strong>Darkvision (+1):</strong> Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers. </p></li><li><p><strong>Reduced Pace (−1):</strong> Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type. </p></li><li><p><strong>Stonecunning (+1):</strong> Generations of delving into the depths of the Mror Holds has taught the Dwarves how to identify unusual stonework, granting them the Stonecunning Edge.</p></li><li><p><strong>Tough (+3):</strong> Dwarves are genetically stout and tough. They start with a d6 in Vigor instead of a d4. This increases their maximum Vigor to d12+1. They also have a +1 bonus to resist poisons, powers, and supernatural abilities that behave similarly to powers.</p></li></ul>",
+    "description": "<ul><li><p><strong>Darkvision (+1):</strong> Dwarven eyes are accustomed to the dark of the underearth. They can see in Pitch Darkness up to 10” (20 yards), ignoring all Illumination penalties and up to 2 points of penalties from invisibility or similar powers.</p></li><li><p><strong>Reduced Pace (−1):</strong> Dwarves have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type.</p></li><li><p><strong>Stonecunning (+2):</strong> Generations of delving into the depths of the Mror Holds has taught the Dwarves how to identify unusual stonework, granting them the Stonecunning Edge.</p></li><li><p><strong>Tough (+2):</strong> Dwarves are genetically stout and tough. They start with a d6 in Vigor instead of a d4. This increases their maximum Vigor to d12+1.</p></li></ul>",
     "notes": "",
     "additionalStats": {},
     "grants": [
@@ -21,11 +21,6 @@
         }
       },
       {
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.JgPgk2Vv8FCuYIbr",
-        "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
-        "name": "Stability"
-      },
-      {
         "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.q96wqaai9bJmKjUN",
         "img": "icons/skills/trades/construction-mason-stonecutter-sculpture.webp",
         "name": "Stonecunning"
@@ -36,9 +31,9 @@
         "name": "Tough"
       },
       {
-        "name": "Reduced Pace (-1)",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.H9bzn9ERoRpjcW6i",
         "img": "icons/skills/movement/figure-running-gray.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.H9bzn9ERoRpjcW6i"
+        "name": "Reduced Pace (-1)"
       }
     ],
     "source": "Eberron for Savage Worlds",
@@ -62,7 +57,7 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1689255596862,
-    "modifiedTime": 1724814060756,
+    "modifiedTime": 1724870354089,
     "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null

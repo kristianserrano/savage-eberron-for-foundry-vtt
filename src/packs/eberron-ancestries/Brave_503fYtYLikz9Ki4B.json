@@ -23,7 +23,7 @@
     "swid": "brave",
     "choiceSets": [],
     "build": {
-      "cost": null
+      "cost": 2
     }
   },
   "effects": [],
@@ -33,14 +33,34 @@
     "Xbne19Xghka479we": 3
   },
   "flags": {
-    "core": {}
+    "core": {},
+    "swade": {
+      "auras": {
+        "aura1": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        },
+        "aura2": {
+          "enabled": false,
+          "walls": false,
+          "radius": null,
+          "color": "default=",
+          "alpha": 0.5,
+          "visibleTo": []
+        }
+      }
+    }
   },
   "_stats": {
     "systemId": "swade",
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1690319435925,
-    "modifiedTime": 1724819542355,
+    "modifiedTime": 1724871033830,
     "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null

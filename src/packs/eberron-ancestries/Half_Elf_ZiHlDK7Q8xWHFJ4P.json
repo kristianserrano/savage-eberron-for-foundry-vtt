@@ -9,19 +9,25 @@
     "additionalStats": {},
     "grants": [
       {
-        "name": "Heritage",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.DWmQMb6hQ4hboFBY",
         "img": "icons/environment/people/group.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.DWmQMb6hQ4hboFBY"
+        "name": "Heritage"
       },
       {
-        "name": "Low Light Vision",
-        "img": "icons/magic/perception/eye-ringed-green.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.o4Tat7oLxmyfdSX9"
-      },
-      {
-        "name": "Skilled",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.Fl45JyWxIjcUQz25",
         "img": "icons/skills/trades/smithing-anvil-horseshoe.webp",
-        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.Fl45JyWxIjcUQz25"
+        "name": "Skilled"
+      },
+      {
+        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.LOWLsFXsFJvZsIwc",
+        "img": "systems/swade/assets/icons/ability.svg",
+        "name": "Low Light Vision",
+        "mutation": {
+          "img": "icons/magic/perception/eye-ringed-green.webp",
+          "system": {
+            "description": "Half-elves ignore penalties for Dim and Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination} (but not Pitch Darkness)."
+          }
+        }
       }
     ],
     "source": "Eberron for Savage Worlds",
@@ -44,8 +50,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1690320782224,
-    "modifiedTime": 1724349259269,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724867181224,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },
