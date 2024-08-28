@@ -81,7 +81,7 @@
         {
           "key": "@weapon{Mind Blade (Main Hand)}[system.favorite]",
           "mode": 5,
-          "value": "1",
+          "value": "true",
           "priority": null
         }
       ],
@@ -123,12 +123,12 @@
       "description": "",
       "statuses": [],
       "_stats": {
-        "coreVersion": "12.328",
-        "systemId": null,
-        "systemVersion": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1724821408381,
+        "lastModifiedBy": "Xbne19Xghka479we",
         "compendiumSource": null,
         "duplicateSource": null
       },

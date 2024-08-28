@@ -81,7 +81,7 @@
         {
           "key": "@weapon{Mind Blade (Offhand)}[system.favorite]",
           "mode": 5,
-          "value": "1",
+          "value": "true",
           "priority": null
         }
       ],
