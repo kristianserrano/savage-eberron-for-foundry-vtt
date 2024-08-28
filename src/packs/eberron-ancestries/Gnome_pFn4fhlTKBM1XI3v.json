@@ -30,15 +30,9 @@
         }
       },
       {
-        "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.RPACsFXsFJvZsIwc",
-        "img": "systems/swade/assets/icons/ability.svg",
-        "name": "Reduced Pace",
-        "mutation": {
-          "img": "icons/skills/movement/figure-running-gray.webp",
-          "system": {
-            "description": "Gnomes have short legs compared to human-sized ancestries. Decrease their Pace by 1 and their running die one die type"
-          }
-        }
+        "name": "Reduced Pace (-1)",
+        "img": "icons/skills/movement/figure-running-gray.webp",
+        "uuid": "Compendium.savage-eberron.eberron-ancestries.Item.JWKIBSAQDsEIQyvi"
       },
       {
         "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.SIZEsFXsFJvZsIwc",
@@ -70,7 +64,7 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1690513020903,
-    "modifiedTime": 1724559637378,
+    "modifiedTime": 1724862879769,
     "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
