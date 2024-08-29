@@ -12,8 +12,8 @@
     "quantity": 1,
     "weight": 0,
     "price": 25000,
-    "equippable": false,
-    "equipStatus": 1,
+    "equippable": true,
+    "equipStatus": 3,
     "isArcaneDevice": false,
     "arcaneSkillDie": {
       "sides": 4,
@@ -49,8 +49,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1699125656031,
-    "modifiedTime": 1724345328491,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724892970647,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

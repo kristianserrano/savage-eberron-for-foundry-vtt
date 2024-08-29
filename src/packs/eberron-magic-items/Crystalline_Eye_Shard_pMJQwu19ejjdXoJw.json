@@ -1,0 +1,62 @@
+{
+  "folder": "pr3UWchmNLBLAa8o",
+  "name": "Crystalline Eye Shard",
+  "type": "gear",
+  "_id": "pMJQwu19ejjdXoJw",
+  "img": "icons/magic/perception/hand-eye-black.webp",
+  "system": {
+    "description": "<p>This shard acts as an additional eye, usually embedded in the palm of the hand to allow for spying over and around obstacles. The crystalline eye also protects the bearer from any @UUID[Compendium.swade-fantasy-companion.swade-fc-abilities.Item.9ydKGVw572i3Cl3C]{Gaze} attacks.</p><p>If a character has four or more <em>crystalline eyes</em> embedded in his body and all four are exposed, he gains the beneﬁt of @UUID[Compendium.swade-fantasy-companion.swade-fc-abilities.Item.GXcBryPwtOahMYWw]{All-Around Vision}.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "quantity": 1,
+    "weight": 0,
+    "price": 9000,
+    "build": {
+      "cost": null
+    },
+    "equippable": true,
+    "equipStatus": 3,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "favorite": false,
+    "category": "Quori Embedded Shards",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1724892573940,
+    "modifiedTime": 1724894136510,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!pMJQwu19ejjdXoJw"
+}

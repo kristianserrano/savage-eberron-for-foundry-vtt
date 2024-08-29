@@ -1,0 +1,62 @@
+{
+  "folder": "pr3UWchmNLBLAa8o",
+  "name": "Ectoplasmic Fist Shard",
+  "type": "gear",
+  "_id": "zwkaO8rAR5mhQc9y",
+  "img": "icons/commodities/gems/gem-rough-square-orange-red.webp",
+  "system": {
+    "description": "<p>This shard is embedded into one limb of the bearer’s choice. When activated, it creates a ghostly outline of a quori limb surrounding it, and the bearer is not considered to be an @UUID[JournalEntry.QXqpxlBkXOAUS3vZ.JournalEntryPage.03unarmeddefen00]{Unarmed Defender}</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "quantity": 1,
+    "weight": 0,
+    "price": 1500,
+    "build": {
+      "cost": null
+    },
+    "equippable": true,
+    "equipStatus": 3,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "favorite": false,
+    "category": "Quori Embedded Shards",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1724893192964,
+    "modifiedTime": 1724894143827,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!zwkaO8rAR5mhQc9y"
+}

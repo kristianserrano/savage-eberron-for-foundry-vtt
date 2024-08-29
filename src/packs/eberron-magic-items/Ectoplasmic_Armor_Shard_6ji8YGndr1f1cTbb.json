@@ -1,0 +1,111 @@
+{
+  "folder": "pr3UWchmNLBLAa8o",
+  "name": "Ectoplasmic Armor Shard",
+  "type": "gear",
+  "_id": "6ji8YGndr1f1cTbb",
+  "img": "icons/commodities/gems/gem-faceted-rough-yellow.webp",
+  "system": {
+    "description": "<p>This shard grants +2 Armor to the bearer in the form of a barely visible ghostly quori form composed of astral ectoplasm. The Armor from additional shards stack to a maximum of +10. With each shard, the quori image becomes more visible with five shards making it appear as if it were a tangible quori form.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "quantity": 1,
+    "weight": 0,
+    "price": 8000,
+    "build": {
+      "cost": null
+    },
+    "equippable": true,
+    "equipStatus": 3,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "favorite": false,
+    "category": "Quori Embedded Shards",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false
+  },
+  "effects": [
+    {
+      "name": "Ectoplasmic Armor",
+      "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue-yellow.webp",
+      "changes": [
+        {
+          "key": "system.stats.toughness.armor",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "HhEjckCCgxMKvjJG",
+      "type": "base",
+      "system": {},
+      "disabled": false,
+      "duration": {
+        "startTime": 36,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>This shard grants +2 Armor to the bearer in the form of a barely visible ghostly quori form composed of astral ectoplasm. The Armor from additional shards stack to a maximum of +10. With each shard, the quori image becomes more visible with five shards making it appear as if it were a tangible quori form.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724893037845,
+        "modifiedTime": 1724893149196,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!items.effects!6ji8YGndr1f1cTbb.HhEjckCCgxMKvjJG"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1724892882715,
+    "modifiedTime": 1724894140259,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!6ji8YGndr1f1cTbb"
+}

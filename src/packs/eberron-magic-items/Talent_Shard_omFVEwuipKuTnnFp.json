@@ -7,13 +7,13 @@
   "system": {
     "description": "<p>This shard grants an additional +2 to rolls for either @UUID[Compendium.swade-core-rules.swade-skills.Item.qc2GOKFIXIJEpTw1]{Athletics}, @UUID[Compendium.swade-core-rules.swade-skills.Item.Y0545TlaAqRRE2P0]{Notice}, @UUID[Compendium.swade-core-rules.swade-skills.Item.bkrB9AajSCSA6eIY]{Psionics}, or @UUID[Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si]{Stealth}. Each shard is attuned to one talent.</p>",
     "notes": "",
-    "source": "",
+    "source": "Eberron for Savage Worlds",
     "swid": "talent-shard",
     "additionalStats": {},
     "quantity": 1,
     "weight": 0,
     "price": 2500,
-    "equippable": false,
+    "equippable": true,
     "equipStatus": 1,
     "isArcaneDevice": false,
     "arcaneSkillDie": {
@@ -30,7 +30,7 @@
       "additional": {}
     },
     "favorite": false,
-    "category": "",
+    "category": "Quori Embedded Shards",
     "grants": [],
     "choiceSets": [
       {
@@ -323,8 +323,8 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1702863496625,
-    "modifiedTime": 1724345328532,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1724892812375,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -1,0 +1,74 @@
+{
+  "folder": "pr3UWchmNLBLAa8o",
+  "name": "Faceted Persona Shard",
+  "type": "gear",
+  "img": "icons/commodities/gems/gem-faceted-trillion-orange.webp",
+  "system": {
+    "description": "<p>This shard carries the effects of <em>@UUID[Compendium.savage-eberron.eberron-powers.Item.CfscQ3htdj1OA6Zh]{boost Trait}</em> for one Attribute to which it is attuned.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "quantity": 1,
+    "weight": 0,
+    "price": 1250,
+    "build": {
+      "cost": null
+    },
+    "equippable": true,
+    "equipStatus": 3,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {
+        "yTjgcQC3": {
+          "name": "Switch Faceted Persona",
+          "type": "macro",
+          "override": "",
+          "modifier": "",
+          "dice": null,
+          "resourcesUsed": null,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      }
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "favorite": false,
+    "category": "Quori Embedded Shards",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1724894041116,
+    "modifiedTime": 1724894147256,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "MCSPhLVSMaNAKLQ7",
+  "sort": 0,
+  "_key": "!items!MCSPhLVSMaNAKLQ7"
+}

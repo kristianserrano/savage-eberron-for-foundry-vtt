@@ -1,0 +1,111 @@
+{
+  "folder": "pr3UWchmNLBLAa8o",
+  "name": "Aura Mask Shard",
+  "type": "gear",
+  "_id": "lEhYqVRt39LHm2C4",
+  "img": "icons/commodities/gems/gem-rough-pear-orange.webp",
+  "system": {
+    "description": "<p>A complete personality is imprinted within this shard. An aura mask grants a +2 bonus to Spirit rolls made to resist the effects of <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{detect arcana}</em> including detect alignment.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "quantity": 1,
+    "weight": 0,
+    "price": 9000,
+    "build": {
+      "cost": null
+    },
+    "equippable": true,
+    "equipStatus": 3,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "favorite": false,
+    "category": "Quori Embedded Shards",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false
+  },
+  "effects": [
+    {
+      "name": "Aura Mask",
+      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+      "changes": [
+        {
+          "key": "system.attributes.spirit.die.modifier",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "sntDQF3CZlrSSCYb",
+      "type": "base",
+      "system": {},
+      "disabled": false,
+      "duration": {
+        "startTime": 36,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>A complete personality is imprinted within this shard. An aura mask grants a +2 bonus to Spirit rolls made to resist the effects of <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{detect arcana}</em> including detect alignment.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": 1724892482803,
+        "modifiedTime": 1724892536183,
+        "lastModifiedBy": "Xbne19Xghka479we"
+      },
+      "_key": "!items.effects!lEhYqVRt39LHm2C4.sntDQF3CZlrSSCYb"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1724892082735,
+    "modifiedTime": 1724894130784,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!lEhYqVRt39LHm2C4"
+}

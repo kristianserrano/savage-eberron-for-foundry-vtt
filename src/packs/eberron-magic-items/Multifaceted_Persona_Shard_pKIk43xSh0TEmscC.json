@@ -1,0 +1,71 @@
+{
+  "folder": "pr3UWchmNLBLAa8o",
+  "name": "Multifaceted Persona Shard",
+  "type": "gear",
+  "_id": "pKIk43xSh0TEmscC",
+  "img": "icons/commodities/gems/gem-faceted-trillion-orange.webp",
+  "system": {
+    "description": "<p>This shard acts just as a <em>@UUID[Compendium.savage-eberron.eberron-magic-items.Item.MCSPhLVSMaNAKLQ7]{faceted persona shard}</em>. As an action, however, the bearer can spend 5 Power Points to switch the Attribute to which the power is applied.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "quantity": 1,
+    "weight": 0,
+    "price": 2500,
+    "build": {
+      "cost": null
+    },
+    "equippable": true,
+    "equipStatus": 3,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {
+        "yTjgcQC3": {
+          "name": "Switch Faceted Persona",
+          "type": "macro",
+          "override": "",
+          "modifier": "",
+          "dice": null,
+          "resourcesUsed": null
+        }
+      }
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "favorite": false,
+    "category": "Quori Embedded Shards",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1724893372381,
+    "modifiedTime": 1724894150658,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!items!pKIk43xSh0TEmscC"
+}
