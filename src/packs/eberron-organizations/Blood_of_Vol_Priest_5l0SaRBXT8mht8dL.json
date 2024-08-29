@@ -583,7 +583,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "athletics",
         "choiceSets": []
       },
@@ -629,7 +629,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "common-knowledge",
         "choiceSets": []
       },
@@ -675,7 +675,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "faith",
         "choiceSets": []
       },
@@ -721,7 +721,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "fighting",
         "choiceSets": []
       },
@@ -767,7 +767,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "notice",
         "choiceSets": []
       },
@@ -813,7 +813,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "occult",
         "choiceSets": []
       },
@@ -859,7 +859,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "persuasion",
         "choiceSets": []
       },
@@ -905,7 +905,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "shooting",
         "choiceSets": []
       },
@@ -951,7 +951,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "stealth",
         "choiceSets": []
       },
@@ -2412,7 +2412,7 @@
         "messageOnUse": true,
         "destroyOnEmpty": false,
         "subtype": "regular",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "actions": {
           "trait": "",
           "traitMod": "",
@@ -2477,7 +2477,7 @@
         "grants": [],
         "grantOn": 1,
         "isAmmo": false,
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "pouch",
         "choiceSets": []
       },

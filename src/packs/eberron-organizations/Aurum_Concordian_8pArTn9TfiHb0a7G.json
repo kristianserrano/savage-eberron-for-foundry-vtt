@@ -259,7 +259,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "academics",
         "choiceSets": []
       },
@@ -305,7 +305,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "athletics",
         "choiceSets": []
       },
@@ -351,7 +351,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "common-knowledge",
         "choiceSets": []
       },
@@ -397,7 +397,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "fighting",
         "choiceSets": []
       },
@@ -443,7 +443,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "notice",
         "choiceSets": []
       },
@@ -489,7 +489,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "persuasion",
         "choiceSets": []
       },
@@ -535,7 +535,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "shooting",
         "choiceSets": []
       },
@@ -581,7 +581,7 @@
         "wild-die": {
           "sides": 6
         },
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "stealth",
         "choiceSets": []
       },
@@ -1169,7 +1169,7 @@
         "grants": [],
         "grantOn": 1,
         "isAmmo": false,
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "8-rings",
         "choiceSets": []
       },

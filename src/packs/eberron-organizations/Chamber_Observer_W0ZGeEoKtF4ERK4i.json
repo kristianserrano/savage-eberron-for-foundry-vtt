@@ -482,7 +482,7 @@
         "ppReloadCost": 2,
         "trademark": 0,
         "isHeavyWeapon": false,
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "breath-weapon-ice",
         "choiceSets": [],
         "rangeType": 0
@@ -565,7 +565,7 @@
         "ppReloadCost": 2,
         "trademark": 0,
         "isHeavyWeapon": false,
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "tail-slap",
         "choiceSets": [],
         "rangeType": 0
@@ -644,7 +644,7 @@
         "ppReloadCost": 2,
         "trademark": 0,
         "isHeavyWeapon": false,
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "biteclaws",
         "choiceSets": [],
         "rangeType": 0
@@ -736,7 +736,7 @@
         "ppReloadCost": 2,
         "trademark": 0,
         "isHeavyWeapon": false,
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "breath-weapon-paralyzing",
         "choiceSets": [],
         "rangeType": 0
@@ -779,7 +779,7 @@
         "subtype": "special",
         "grantsPowers": false,
         "grants": [],
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "cloud-walker",
         "choiceSets": []
       },
@@ -821,7 +821,7 @@
         "subtype": "special",
         "grantsPowers": false,
         "grants": [],
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "dragon",
         "choiceSets": []
       },

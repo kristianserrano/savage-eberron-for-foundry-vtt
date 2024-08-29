@@ -2451,7 +2451,7 @@
         "messageOnUse": true,
         "destroyOnEmpty": false,
         "subtype": "regular",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "potion-of-healing",
         "actions": {
           "trait": "",
@@ -2493,7 +2493,7 @@
       "system": {
         "description": "",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "potion-of-boost-strength",
         "additionalStats": {},
         "quantity": 1,
@@ -2574,7 +2574,7 @@
         "messageOnUse": true,
         "destroyOnEmpty": false,
         "subtype": "regular",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "potion-of-healing",
         "actions": {
           "trait": "",
@@ -2616,7 +2616,7 @@
         "equipStatus": 0,
         "description": "",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "components",
         "additionalStats": {},
         "quantity": 1,

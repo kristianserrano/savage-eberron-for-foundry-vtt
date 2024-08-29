@@ -630,7 +630,7 @@
       "system": {
         "description": "<p>Quori cannot be affected by <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.UFQy5B0Egwhm96uM]{slumber}</em>.</p>",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "immunities-slumber",
         "additionalStats": {},
         "favorite": false,
@@ -794,7 +794,7 @@
       "system": {
         "description": "<p><strong>Possession:</strong> A quori can possess any willing human in sight as an action. The human vessel cannot be protected by any form of protection from supernatural evil. First, the quori spirit must depart its physical body on Dal Quor and become an ethereal spirit on the Ethereal Plane. The body remains in a state of suspended animation and is vulnerable to physical attacks and environmental damage. If the quori body is destroyed, the quori spirit dies with it. Casting <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.aqzVQ4fRrk7OYqgx]{dispel}</em> on the quori body returns the quori spirit to it. During possession, the quori spirit is in complete control and has access to all the human’s thoughts and memories. Physically harming the human vessel does not harm the quori. If the human vessel dies, the quori returns to the Ethereal Plane and can attempt another possession. The quori spirit can use its powers while possessing a human vessel. It can also use the higher of its or the human vessel’s Smarts and Spirit attributes and combine its skills with the human vessel’s skills. While possessed, the human vessel gains an additional +2 to @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} rolls and Tests based on Smarts- or Spirit-linked skills. Successfully casting the <em>exorcism</em> power on the possessed body as a ritual sends the quori spirit back to Dal Quor.</p>",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "possession",
         "additionalStats": {},
         "favorite": false,
@@ -1036,7 +1036,7 @@
       "system": {
         "description": "<p>A tsucora quori has dozens of eyes covering its body. It gains a +2 bonus to sight-based Notice rolls.</p>",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "new-ability",
         "additionalStats": {},
         "favorite": false,
@@ -1128,7 +1128,7 @@
         "equipStatus": 4,
         "description": "",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "pincers",
         "additionalStats": {},
         "quantity": 1,
@@ -1207,7 +1207,7 @@
         "equipStatus": 4,
         "description": "<p>If a tsucora quori successfully wounds a creature with its sting, it can automatically activate the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.FKawDwaCdCRij7eO]{fear}</em> power against it.</p>",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "terrifying-sting",
         "additionalStats": {},
         "quantity": 1,
@@ -2988,7 +2988,7 @@
       "sort": 0,
       "type": "ability",
       "system": {
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "additionalStats": {},
         "description": "<article class=\"swade-core\"><p><strong>Armor +2:</strong> Covered in plates of black chitin.</p></article>",
         "grantsPowers": false,
@@ -3031,7 +3031,7 @@
       "system": {
         "description": "<p><strong>Additional Actions:</strong> Tsucora quori ignore 2 points of Multi-Action penalties each turn.</p>",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "new-ability",
         "additionalStats": {},
         "favorite": false,

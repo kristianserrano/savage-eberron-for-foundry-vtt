@@ -1307,7 +1307,7 @@
       "system": {
         "description": "",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "new-hindrance",
         "additionalStats": {},
         "favorite": false,
@@ -1523,7 +1523,7 @@
         "equipStatus": 0,
         "description": "<p><span style=\"font-family:monospace\">[[/r 2d4]]{keys to 2d4 locked library doors}</span>.</p>",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "keys-to-locked-library-doors",
         "additionalStats": {},
         "quantity": 1,

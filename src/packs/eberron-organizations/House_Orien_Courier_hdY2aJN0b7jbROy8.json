@@ -712,7 +712,7 @@
         "notes": "",
         "additionalStats": {},
         "major": false,
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "various",
         "favorite": false,
         "grants": [],
@@ -1792,7 +1792,7 @@
       "system": {
         "description": "",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "potion-of-boost-strength",
         "additionalStats": {},
         "quantity": 1,
@@ -1874,7 +1874,7 @@
         "messageOnUse": true,
         "destroyOnEmpty": false,
         "subtype": "regular",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "potion-of-healing",
         "actions": {
           "trait": "",

@@ -2147,7 +2147,7 @@
         "equipStatus": 3,
         "description": "<p>Contains makeup and accessories to aid in disguising oneself to hide their identity. Grants a +1 bonus to Performance rolls for playing a different persona.</p>",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "disguise-kit",
         "additionalStats": {},
         "quantity": 1,
@@ -2209,7 +2209,7 @@
       "system": {
         "description": "<p>This shard grants an additional +2 to rolls for either @UUID[Compendium.swade-core-rules.swade-skills.Item.qc2GOKFIXIJEpTw1]{Athletics}, @UUID[Compendium.swade-core-rules.swade-skills.Item.Y0545TlaAqRRE2P0]{Notice}, @UUID[Compendium.swade-core-rules.swade-skills.Item.bkrB9AajSCSA6eIY]{Psionics}, or @UUID[Compendium.swade-core-rules.swade-skills.Item.bFaYnzftXwQ9p4Si]{Stealth}. Each shard is attuned to one talent.</p>",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "talent-shard",
         "additionalStats": {},
         "quantity": 1,
@@ -2900,7 +2900,7 @@
       "system": {
         "description": "<p>An Inspired may reroll an opposed psionics roll.</p>",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "new-ability",
         "additionalStats": {},
         "favorite": false,
@@ -3694,7 +3694,7 @@
       "system": {
         "description": "<p><strong>Resist Exorcism:</strong> The quori spirit possessing an Inspired can be dismissed with the <em>exorcism</em> power. With a successful <em>exorcism</em>, the quori spirit is sent back to Dal Quor for 10 minutes and an additional 10 minutes for each raise. At the end of this duration, the quori spirit can regain possession of the human vessel.</p>",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "new-ability",
         "additionalStats": {},
         "favorite": false,
@@ -3736,7 +3736,7 @@
       "system": {
         "description": "",
         "notes": "",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "swid": "new-hindrance",
         "additionalStats": {},
         "favorite": false,

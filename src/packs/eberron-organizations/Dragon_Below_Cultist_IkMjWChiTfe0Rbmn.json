@@ -2118,7 +2118,7 @@
         "messageOnUse": true,
         "destroyOnEmpty": false,
         "subtype": "regular",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "actions": {
           "trait": "",
           "traitMod": "",
@@ -2177,7 +2177,7 @@
         "messageOnUse": true,
         "destroyOnEmpty": false,
         "subtype": "regular",
-        "source": "",
+        "source": "Eberron for Savage Worlds",
         "actions": {
           "trait": "",
           "traitMod": "",
