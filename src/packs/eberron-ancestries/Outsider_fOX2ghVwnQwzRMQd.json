@@ -18,7 +18,7 @@
         "mutation": {
           "system": {
             "major": true,
-            "description": "<p>If identified as kalashtar, they subtract 1 from their @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} roll as they seem to have alien dispositions with which most do not feel comfortable.</p>",
+            "description": "<p>If identified as kalashtar, they subtract 1 from their @UUID[Compendium.swade-core-rules.swade-skills.Item.k7fIVOghEx6y44xE]{Persuasion} roll as they seem to have alien dispositions with which most do not feel comfortable.</p>"
           }
         }
       }
