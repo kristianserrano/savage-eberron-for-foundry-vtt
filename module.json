@@ -170,6 +170,7 @@
     {
       "name": "eberron-macros",
       "label": "Eberron Macros",
+      "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
       "path": "packs/eberron-macros",
       "type": "Macro",
       "ownership": {
