@@ -1,0 +1,27 @@
+{
+  "name": "Switch Faceted Personas",
+  "type": "script",
+  "command": "const ae = item.effects.find(e => e.name.includes('Faceted Persona Shard'));\nconst choiceSets = foundry.utils.deepClone(item.system.choiceSets);\nchoiceSets[0].choice = null;\nawait item.updateSource({ 'system.choiceSets': choiceSets })\nconst choiceUpdates = await item.handleChoices(item);\nconst newEffect = choiceUpdates.effects.find(e => e.name.includes('Faceted Persona Shard'));\nawait ae.update({ changes: newEffect.changes });",
+  "img": "icons/commodities/gems/gem-faceted-trillion-orange.webp",
+  "author": "Xbne19Xghka479we",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1724908926389,
+    "modifiedTime": 1724988977004,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "VYLorp3J59EneSB0",
+  "sort": 0,
+  "_key": "!macros!VYLorp3J59EneSB0"
+}

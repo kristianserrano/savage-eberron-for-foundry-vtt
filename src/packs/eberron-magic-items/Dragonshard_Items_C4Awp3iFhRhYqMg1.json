@@ -4,16 +4,19 @@
   "folder": null,
   "type": "Item",
   "_id": "C4Awp3iFhRhYqMg1",
-  "sort": 0,
+  "sort": 100000,
   "color": null,
   "flags": {},
   "_stats": {
     "systemId": "swade",
     "systemVersion": "3.2-dev",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1699126244754,
-    "modifiedTime": 1702866604107,
-    "lastModifiedBy": "Xbne19Xghka479we"
+    "modifiedTime": 1724899293738,
+    "lastModifiedBy": "Xbne19Xghka479we",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
+  "description": "",
   "_key": "!folders!C4Awp3iFhRhYqMg1"
 }

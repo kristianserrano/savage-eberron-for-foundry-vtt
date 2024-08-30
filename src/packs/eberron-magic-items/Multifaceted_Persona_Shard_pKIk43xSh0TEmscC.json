@@ -10,7 +10,269 @@
     "source": "Eberron for Savage Worlds",
     "swid": "none",
     "additionalStats": {},
-    "choiceSets": [],
+    "choiceSets": [
+      {
+        "title": "Faceted Persona",
+        "choice": null,
+        "choices": [
+          {
+            "name": "Agility",
+            "addToName": false,
+            "mutation": {
+              "effects": [
+                {
+                  "name": "Faceted Persona Shard (Agility)",
+                  "img": "icons/commodities/gems/gem-faceted-trillion-orange.webp",
+                  "changes": [
+                    {
+                      "key": "system.attributes.agility.die.sides",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "_id": "HUkD3vFZEXxULMU4",
+                  "type": "base",
+                  "system": {},
+                  "disabled": false,
+                  "duration": {
+                    "startTime": 36,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "description": "",
+                  "origin": null,
+                  "tint": "#ffffff",
+                  "statuses": [],
+                  "sort": 0,
+                  "flags": {},
+                  "_stats": {
+                    "compendiumSource": null,
+                    "duplicateSource": null,
+                    "coreVersion": "12.331",
+                    "systemId": "swade",
+                    "systemVersion": "4.1.0",
+                    "createdTime": 1724899387050,
+                    "modifiedTime": 1724899387050,
+                    "lastModifiedBy": "Xbne19Xghka479we"
+                  },
+                  "_key": "!items.effects!pKIk43xSh0TEmscC.HUkD3vFZEXxULMU4"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Smarts",
+            "addToName": false,
+            "mutation": {
+              "effects": [
+                {
+                  "name": "Faceted Persona Shard (Smarts)",
+                  "img": "icons/commodities/gems/gem-faceted-trillion-orange.webp",
+                  "changes": [
+                    {
+                      "key": "system.attributes.smarts.die.sides",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "_id": "HUkD3vFZEXxULMU4",
+                  "type": "base",
+                  "system": {},
+                  "disabled": false,
+                  "duration": {
+                    "startTime": 36,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "description": "",
+                  "origin": null,
+                  "tint": "#ffffff",
+                  "statuses": [],
+                  "sort": 0,
+                  "flags": {},
+                  "_stats": {
+                    "compendiumSource": null,
+                    "duplicateSource": null,
+                    "coreVersion": "12.331",
+                    "systemId": "swade",
+                    "systemVersion": "4.1.0",
+                    "createdTime": 1724899387050,
+                    "modifiedTime": 1724899387050,
+                    "lastModifiedBy": "Xbne19Xghka479we"
+                  },
+                  "_key": "!items.effects!pKIk43xSh0TEmscC.HUkD3vFZEXxULMU4"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Spirit",
+            "addToName": false,
+            "mutation": {
+              "effects": [
+                {
+                  "name": "Faceted Persona Shard (Spirit)",
+                  "img": "icons/commodities/gems/gem-faceted-trillion-orange.webp",
+                  "changes": [
+                    {
+                      "key": "system.attributes.spirit.die.sides",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "_id": "HUkD3vFZEXxULMU4",
+                  "type": "base",
+                  "system": {},
+                  "disabled": false,
+                  "duration": {
+                    "startTime": 36,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "description": "",
+                  "origin": null,
+                  "tint": "#ffffff",
+                  "statuses": [],
+                  "sort": 0,
+                  "flags": {},
+                  "_stats": {
+                    "compendiumSource": null,
+                    "duplicateSource": null,
+                    "coreVersion": "12.331",
+                    "systemId": "swade",
+                    "systemVersion": "4.1.0",
+                    "createdTime": 1724899387050,
+                    "modifiedTime": 1724899387050,
+                    "lastModifiedBy": "Xbne19Xghka479we"
+                  },
+                  "_key": "!items.effects!pKIk43xSh0TEmscC.HUkD3vFZEXxULMU4"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Strength",
+            "addToName": false,
+            "mutation": {
+              "effects": [
+                {
+                  "name": "Faceted Persona Shard (Strength)",
+                  "img": "icons/commodities/gems/gem-faceted-trillion-orange.webp",
+                  "changes": [
+                    {
+                      "key": "system.attributes.strength.die.sides",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "_id": "HUkD3vFZEXxULMU4",
+                  "type": "base",
+                  "system": {},
+                  "disabled": false,
+                  "duration": {
+                    "startTime": 36,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "description": "",
+                  "origin": null,
+                  "tint": "#ffffff",
+                  "statuses": [],
+                  "sort": 0,
+                  "flags": {},
+                  "_stats": {
+                    "compendiumSource": null,
+                    "duplicateSource": null,
+                    "coreVersion": "12.331",
+                    "systemId": "swade",
+                    "systemVersion": "4.1.0",
+                    "createdTime": 1724899387050,
+                    "modifiedTime": 1724899387050,
+                    "lastModifiedBy": "Xbne19Xghka479we"
+                  },
+                  "_key": "!items.effects!pKIk43xSh0TEmscC.HUkD3vFZEXxULMU4"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Vigor",
+            "addToName": false,
+            "mutation": {
+              "effects": [
+                {
+                  "name": "Faceted Persona Shard (Vigor)",
+                  "img": "icons/commodities/gems/gem-faceted-trillion-orange.webp",
+                  "changes": [
+                    {
+                      "key": "system.attributes.vigor.die.sides",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "transfer": true,
+                  "_id": "HUkD3vFZEXxULMU4",
+                  "type": "base",
+                  "system": {},
+                  "disabled": false,
+                  "duration": {
+                    "startTime": 36,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "description": "",
+                  "origin": null,
+                  "tint": "#ffffff",
+                  "statuses": [],
+                  "sort": 0,
+                  "flags": {},
+                  "_stats": {
+                    "compendiumSource": null,
+                    "duplicateSource": null,
+                    "coreVersion": "12.331",
+                    "systemId": "swade",
+                    "systemVersion": "4.1.0",
+                    "createdTime": 1724899387050,
+                    "modifiedTime": 1724899387050,
+                    "lastModifiedBy": "Xbne19Xghka479we"
+                  },
+                  "_key": "!items.effects!pKIk43xSh0TEmscC.HUkD3vFZEXxULMU4"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
     "quantity": 1,
     "weight": 0,
     "price": 2500,
@@ -38,7 +300,8 @@
           "override": "",
           "modifier": "",
           "dice": null,
-          "resourcesUsed": null
+          "resourcesUsed": null,
+          "uuid": "Compendium.savage-eberron.eberron-macros.Macro.VYLorp3J59EneSB0"
         }
       }
     },
@@ -64,7 +327,7 @@
     "systemId": "swade",
     "systemVersion": "4.1.0",
     "createdTime": 1724893372381,
-    "modifiedTime": 1724894150658,
+    "modifiedTime": 1724992031166,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "_key": "!items!pKIk43xSh0TEmscC"

@@ -6,7 +6,8 @@
       "name": "The Immaterial Plane",
       "email": "contact@immaterialplane.com",
       "url": "https://immaterialplane.com",
-      "discord": "kristianserrano"
+      "discord": "kristianserrano",
+      "flags": {}
     }
   ],
   "description": "<cite>Eberron for Savage Worlds</cite> brings the cinematic “Fast! Furious! Fun!” action of the <cite>Savage Worlds</cite> roleplaying game to Khorvaire and the lands beyond, giving you the tools to create fantastic tales of adventure and intrigue!",
@@ -157,10 +158,22 @@
     {
       "name": "eberron-magic-items",
       "label": "Eberron Magic Items",
+      "banner": "modules/savage-eberron/assets/logos/savage-eberron-logo-horizontal.webp",
       "path": "packs/eberron-magic-items",
       "type": "Item",
+      "system": "swade",
       "ownership": {
         "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eberron-macros",
+      "label": "Eberron Macros",
+      "path": "packs/eberron-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       },
       "system": "swade"
@@ -172,7 +185,8 @@
       "sorting": "m",
       "color": "#403e3f",
       "packs": [
-        "eberron-book"
+        "eberron-book",
+        "eberron-macros"
       ],
       "folders": [
         {
@@ -184,7 +198,8 @@
             "eberron-skills",
             "eberron-edges",
             "eberron-powers"
-          ]
+          ],
+          "folders": []
         },
         {
           "name": "Adventuring Equipment",
@@ -193,7 +208,8 @@
           "packs": [
             "eberron-gear",
             "eberron-magic-items"
-          ]
+          ],
+          "folders": []
         },
         {
           "name": "NPCs and Bestiary",
@@ -203,7 +219,8 @@
             "eberron-organizations",
             "eberron-abilities",
             "eberron-bestiary"
-          ]
+          ],
+          "folders": []
         }
       ]
     }
