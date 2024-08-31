@@ -1,0 +1,62 @@
+{
+  "folder": "X9UIT9nSgHXZTXb5",
+  "name": "Bracelet of Comfort",
+  "type": "gear",
+  "img": "icons/equipment/finger/ring-band-engraved-scrolls-bronze.webp",
+  "system": {
+    "description": "<p>The wearer of this trinket may use their Mark of Hospitality to activate Extra-Dimensional Space Power Modifier with the following additional benefits:</p><ul><li><p>The shelter is made of stone.</p></li><li><p>The temperature inside the shelter is always 70˚ F.</p></li><li><p>The furnishings in the shelter include five comfortable beds, five armchairs, a dining table, a writing desk, a bookshelf, a mirror, an empty basin for bathing, and a latrine with a cover.</p></li><li><p>The wearer can customize the decor of the shelter, including carpet or wall hangings.</p></li><li><p>All objects created with the shelter disappear if removed.</p></li></ul>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "bag-of-bounty",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 1,
+    "price": 30000,
+    "equippable": true,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "favorite": false,
+    "category": "Greater Dragonshard Focus Items",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false,
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1725079291300,
+    "modifiedTime": 1725081296102,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_id": "tG3Rm4kM88wHIixm",
+  "sort": 100000,
+  "_key": "!items!tG3Rm4kM88wHIixm"
+}

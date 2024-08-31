@@ -3,7 +3,7 @@
   "name": "Astral beacon",
   "type": "gear",
   "_id": "sdNZ950wcxtwELPp",
-  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Spellcasting_v1.webp",
+  "img": "icons/commodities/gems/pearl-blue-gold.webp",
   "system": {
     "description": "<p>This 8-inch sphere created from silver and crystal has a Siberys shard embedded in its core. Typically, the <em>astral beacon</em> is contained within lead or embedded into the floor of a secured chamber. This focus item acts as a beacon to Orien heirs with the Mark of Passage traversing the Astral Plane. An <em>astral beacon</em> empowers the Greater Mark of Passage’s Greater Teleport Power Modifier to reach a maximum distance equal to twice her usual maximum if her destination point is within 10 feet of an <em>astral beacon</em>. For example, if the character takes 2 rounds to activate the power, she can travel 2000 miles. This feature cannot be used with the Teleport Foe Power Modifier.</p><p>Any location within 10 feet of an <em>astral beacon</em> is always treated as if the individual with the Greater Mark of Passage has physically been to that location and activated the power with a raise, arriving on target.</p>",
     "notes": "",
@@ -42,12 +42,12 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1699127524332,
-    "modifiedTime": 1724345328494,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1725081296102,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 0,
+  "sort": 900000,
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3

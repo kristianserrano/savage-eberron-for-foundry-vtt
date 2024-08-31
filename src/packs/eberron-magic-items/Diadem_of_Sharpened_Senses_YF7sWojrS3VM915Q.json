@@ -1,0 +1,62 @@
+{
+  "folder": "X9UIT9nSgHXZTXb5",
+  "name": "Diadem of Sharpened Senses",
+  "type": "gear",
+  "img": "icons/equipment/waist/belt-thick-bossed.webp",
+  "system": {
+    "description": "<p>This brass circlet focuses the powers of the Mark of Detection, granting the following benefits:</p><p>The wearer activates any Least Dragonmark power effects without expending Power Points.</p><p>If he has the Lesser Mark of Detection, he can reduce the Power Point cost to activate any Lesser Dragonmark powers by 2 (to a minimum of 1).</p><p>When using the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{detect arcana}</em> power of the Mark of Detection to see through <em>conceal arcana</em>, he automatically reduces any penalties applied by the power or the Strong Modifier by 2.</p><p>He gains a +2 bonus Notice rolls.</p><p>A character must attune the <em>diadem</em> by wearing it for 24 hours before its effects become active.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "bag-of-bounty",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 1,
+    "price": 10000,
+    "equippable": true,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "favorite": false,
+    "category": "Greater Dragonshard Focus Items",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false,
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1725080745905,
+    "modifiedTime": 1725081296102,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_id": "YF7sWojrS3VM915Q",
+  "sort": 300000,
+  "_key": "!items!YF7sWojrS3VM915Q"
+}

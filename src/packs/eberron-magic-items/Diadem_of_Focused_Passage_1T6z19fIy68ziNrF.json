@@ -1,0 +1,62 @@
+{
+  "folder": "X9UIT9nSgHXZTXb5",
+  "name": "Diadem of Focused Passage",
+  "type": "gear",
+  "img": "icons/equipment/waist/belt-buckle-round-steel-purple.webp",
+  "system": {
+    "description": "<p>This circlet is made of pure silver and enhances the powers of the Mark of Passage. The <em>diadem</em> is a shard focus that reduces the cost of activation of any power from her mark by 2 Power Points.</p><p>In addition, if the wearer has the Greater Teleport Power Modifier of the Greater Mark of Passage, they halve the distance between where they arrive and the intended destination.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "bag-of-bounty",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 1,
+    "price": 15000,
+    "equippable": true,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "favorite": false,
+    "category": "Greater Dragonshard Focus Items",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false,
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1725079191745,
+    "modifiedTime": 1725081296102,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_id": "1T6z19fIy68ziNrF",
+  "sort": 700000,
+  "_key": "!items!1T6z19fIy68ziNrF"
+}

@@ -3,7 +3,7 @@
   "name": "Altar of Resurrection",
   "type": "gear",
   "_id": "ov871RRpMCywFTSU",
-  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Spellcasting_v1.webp",
+  "img": "icons/commodities/stone/masonry-block-cube-grey.webp",
   "system": {
     "description": "<p>A slab of marble embedded with Siberys shards, the <em>altar of resurrection</em> channels the powers of the Mark of Healing. A person with the greater Mark of Healing can spend 5 Power Points to cast resurrection on a creature resting on the <em>altar</em> as if with a raise. A character with the Siberys Mark of Healing can spend a use of their Mass Healing Epic Power Modifier to do the same. This activation of <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.OMxSkQGBaIgzvNGj]{resurrection}</em> does not require an arcane skill roll.</p>",
     "notes": "",
@@ -42,12 +42,12 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1699126954426,
-    "modifiedTime": 1724345328493,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1725081296102,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 0,
+  "sort": 800000,
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3

@@ -1,0 +1,62 @@
+{
+  "folder": "X9UIT9nSgHXZTXb5",
+  "name": "Collar of the Wild Bond",
+  "type": "gear",
+  "img": "icons/equipment/waist/belt-thick-ring-leather-tan.webp",
+  "system": {
+    "description": "<p>Studded with small Siberys dragonshards attuned to the Mark of Handling, the <em>collar of the wild bond</em> has an associated key—a small Siberys dragonshard embedded in a metal disk. A character with the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.O6mvldoWWXTYSY2F]{beast friend}</em> power of the Mark of Handling can use the disk to command the creature that is wearing the collar. This does not require expending Power Points from the dragonmark. The duration lasts as long as the target creature wears the <em>collar</em> and remains in range. The maximum range of the effect is the character’s Smarts ×2.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "bag-of-bounty",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 1,
+    "price": 5000,
+    "equippable": true,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "favorite": false,
+    "category": "Greater Dragonshard Focus Items",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false,
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1725079296379,
+    "modifiedTime": 1725081296102,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_id": "NTcBqj3P7Oo8zr4d",
+  "sort": 200000,
+  "_key": "!items!NTcBqj3P7Oo8zr4d"
+}

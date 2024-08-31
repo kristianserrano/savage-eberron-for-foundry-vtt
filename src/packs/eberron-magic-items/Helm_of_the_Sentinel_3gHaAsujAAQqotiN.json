@@ -1,0 +1,62 @@
+{
+  "folder": "X9UIT9nSgHXZTXb5",
+  "name": "Helm of the Sentinel",
+  "type": "gear",
+  "img": "icons/equipment/head/helm-barbute-rounded-purple.webp",
+  "system": {
+    "description": "<p>Engraved eyes with tiny dragonshards for pupils cover this helmet. The shards are attuned to the Mark of Sentinel. Once per day, the wearer can declare a condition that automatically triggers the activation of one of his Mark of Sentinel powers. The helm can only have one contingency active at a time.</p><p>For example, a human with the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}</em> power of the Mark of Sentinel might set the power to activate if an opponent’s attack against him is successful.</p><p>If the wearer removes the helm, the contingency is dismissed.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "bag-of-bounty",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": 3,
+    "price": 20000,
+    "equippable": true,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {}
+    },
+    "favorite": false,
+    "category": "Greater Dragonshard Focus Items",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false,
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1725080982589,
+    "modifiedTime": 1725081296102,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_id": "3gHaAsujAAQqotiN",
+  "sort": 500000,
+  "_key": "!items!3gHaAsujAAQqotiN"
+}

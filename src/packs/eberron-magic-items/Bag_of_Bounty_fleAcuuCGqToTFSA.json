@@ -3,7 +3,7 @@
   "name": "Bag of Bounty",
   "type": "gear",
   "_id": "fleAcuuCGqToTFSA",
-  "img": "modules/swade-fantasy-companion/assets/icons/Fantasy_Icons_Spellcasting_v1.webp",
+  "img": "icons/containers/bags/pack-leather-brown.webp",
   "system": {
     "description": "<p>Embedded with small Siberys dragonshards, this leather bag is designed to enhance the Mark of Hospitality. A <em>bag of bounty</em> doubles the amount of food and water created by a character with the Create Food and Water Power Modifier of the Mark of Hospitality. Additionally, the character can determine the nature and quality of the food.</p>",
     "notes": "",
@@ -42,12 +42,12 @@
     "systemVersion": "4.1.0",
     "coreVersion": "12.331",
     "createdTime": 1699127722043,
-    "modifiedTime": 1724345328493,
-    "lastModifiedBy": "gN1bsEAvBxk982pZ",
+    "modifiedTime": 1725081296102,
+    "lastModifiedBy": "Xbne19Xghka479we",
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 0,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3
