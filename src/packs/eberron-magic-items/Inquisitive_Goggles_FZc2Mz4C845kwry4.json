@@ -1,0 +1,134 @@
+{
+  "folder": "X9UIT9nSgHXZTXb5",
+  "name": "Inquisitive Goggles",
+  "type": "gear",
+  "img": "icons/equipment/head/goggles-leather-blue.webp",
+  "system": {
+    "description": "<p>These goggles have a dragonshard in between the lenses, granting humans and half-orcs with a Lesser, Greater, or Siberys Mark of Finding the ability to see more clearly the imprinted aura of living creatures on objects as outlined below.</p><ul><li><p>The wearer may make a Notice roll while using the Mark of Finding’s <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{detect arcana}</em> power to sense the aura of a creature who has touched a specific object. If the being is familiar to the wearer, the wearer knows who the owner of the aura is. If not, the wearer only knows the creature’s type. With a raise, the wearer also knows the gender and ancestry of the creature, and the wearer can ignore the −2 penalty when using locate on the target. The magic of the goggles is influenced by a creature under the effects of <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.fK9adaURLKcCGv99]{shape change}</em>, but the effects of <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.nz69DP0tjQGxYtcI]{disguise}</em> and <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.RzVIX959WTYhdwwh]{illusion}</em> are transparent.</p></li><li><p>While wearing the <em>goggles</em>, the wearer also gains a +1 bonus on Survival rolls to track the creature to which the aura belongs.</p></li><li><p>If the wearer uses the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.JT9KsqEAHjZzfCg5]{locate}</em> power of the Mark of Finding in an area through which the target has passed in the last 24 hours, he can see the path the target took.</p></li><li><p>The wearer gains a +2 bonus on all Spirit rolls to oppose a Performance or Persuasion roll made to deceive him.</p></li></ul>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "bag-of-bounty",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": null,
+    "price": 16000,
+    "equippable": true,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {
+        "PHCfp8CX": {
+          "name": "Track",
+          "type": "trait",
+          "override": "Survival",
+          "modifier": "1",
+          "dice": null,
+          "resourcesUsed": null,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        },
+        "m7v7NO4M": {
+          "name": "New Action",
+          "type": "trait",
+          "override": "",
+          "modifier": "",
+          "dice": null,
+          "resourcesUsed": null,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      }
+    },
+    "favorite": false,
+    "category": "Greater Dragonshard Focus Items",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false,
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1
+  },
+  "effects": [
+    {
+      "name": "+2 to oppose Performance or Persuasion",
+      "img": "icons/equipment/head/goggles-leather-blue.webp",
+      "duration": {
+        "rounds": null,
+        "startTime": 36,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false
+        }
+      },
+      "changes": [
+        {
+          "key": "system.stats.globalMods.spirit",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "Q4R2arMxIgmmr3pF",
+      "type": "base",
+      "system": {},
+      "disabled": true,
+      "description": "<p>The wearer gains a +2 bonus on all Spirit rolls to oppose a Performance or Persuasion roll made to deceive him.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!FZc2Mz4C845kwry4.Q4R2arMxIgmmr3pF"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1725082277831,
+    "modifiedTime": 1725082277831,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_id": "FZc2Mz4C845kwry4",
+  "sort": 0,
+  "_key": "!items!FZc2Mz4C845kwry4"
+}

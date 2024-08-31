@@ -1,0 +1,134 @@
+{
+  "folder": "X9UIT9nSgHXZTXb5",
+  "name": "Keycharm",
+  "type": "gear",
+  "img": "icons/commodities/treasure/token-runed-nyd-green.webp",
+  "system": {
+    "description": "<p>When a dwarf activates the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.WhkZOWfcSvplAtjf]{lock}</em> power of the Mark of Warding, she can use a <em>keycharm</em> as a second layer of security. The <em>lock</em> enchantment of the <em>keycharm</em> requires the <em>keycharm</em> must be in possession in addition to knowing and speaking the pass phrase. If the linked <em>lock</em> power expires, the charm becomes a mundane object, although a dwarf with the Mark of Warding could link it to a new lock.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "bag-of-bounty",
+    "additionalStats": {},
+    "quantity": 1,
+    "weight": null,
+    "price": 150,
+    "equippable": false,
+    "equipStatus": 1,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {
+        "PHCfp8CX": {
+          "name": "Track",
+          "type": "trait",
+          "override": "Survival",
+          "modifier": "1",
+          "dice": null,
+          "resourcesUsed": null,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        },
+        "m7v7NO4M": {
+          "name": "New Action",
+          "type": "trait",
+          "override": "",
+          "modifier": "",
+          "dice": null,
+          "resourcesUsed": null,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      }
+    },
+    "favorite": false,
+    "category": "Greater Dragonshard Focus Items",
+    "grants": [],
+    "grantOn": 1,
+    "isAmmo": false,
+    "choiceSets": [],
+    "build": {
+      "cost": null
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1
+  },
+  "effects": [
+    {
+      "name": "+2 to oppose Performance or Persuasion",
+      "img": "icons/equipment/head/goggles-leather-blue.webp",
+      "duration": {
+        "rounds": null,
+        "startTime": 36,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "swade": {
+          "expiration": null,
+          "loseTurnOnHold": false
+        }
+      },
+      "changes": [
+        {
+          "key": "system.stats.globalMods.spirit",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "Q4R2arMxIgmmr3pF",
+      "type": "base",
+      "system": {},
+      "disabled": true,
+      "description": "<p>The wearer gains a +2 bonus on all Spirit rolls to oppose a Performance or Persuasion roll made to deceive him.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!csbEFHKy5nNAZa6N.Q4R2arMxIgmmr3pF"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1725083061509,
+    "modifiedTime": 1725083061509,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "_id": "csbEFHKy5nNAZa6N",
+  "sort": 0,
+  "_key": "!items!csbEFHKy5nNAZa6N"
+}

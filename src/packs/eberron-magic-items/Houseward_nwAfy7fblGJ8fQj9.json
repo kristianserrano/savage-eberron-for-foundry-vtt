@@ -12,7 +12,7 @@
     "quantity": 1,
     "weight": 40,
     "price": 25000,
-    "equippable": true,
+    "equippable": false,
     "equipStatus": 1,
     "isArcaneDevice": false,
     "arcaneSkillDie": {
@@ -49,7 +49,7 @@
     "systemId": "swade",
     "systemVersion": "4.1.0",
     "createdTime": 1725081296079,
-    "modifiedTime": 1725081296102,
+    "modifiedTime": 1725083119634,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "ownership": {
