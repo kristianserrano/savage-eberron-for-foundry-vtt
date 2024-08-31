@@ -2,7 +2,16 @@
 
 ## v1.2.4
 
+- Updates manfiest for FVTT v12
 - Fixes Arcane Backgrounds not set to `true` accordingly.
+- Consolidates Half-elf into one ancestry with a choice set for Heritage.
+- Fixes/updates other ancestries and other granted items.
+- Adds ability point costs to ancestry abilities.
+- Fixes favoriting AE override value.
+- Updates NPCs with revised ancestries.
+- Consolidates Talent Shard into single Item with choice set.
+- Adds some icons, AEs, and Actions to magic items.
+- Adds more dragonshard items.
 
 ## v1.2.3
 
