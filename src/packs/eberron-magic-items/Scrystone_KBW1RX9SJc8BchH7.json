@@ -1,16 +1,16 @@
 {
   "folder": "X9UIT9nSgHXZTXb5",
-  "name": "Houseward",
+  "name": "Scrystone",
   "type": "gear",
-  "img": "icons/commodities/metal/ingot-stamped-steel.webp",
+  "img": "icons/commodities/treasure/token-brass-round.webp",
   "system": {
-    "description": "<p>This small, heavy block of lead and alchemical silver contains a Siberys dragonshard as its core. When set directly into the floor of a building, activating the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.0TRRYoKZecpUZMBv]{barrier}</em>, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{conceal arcana}, and <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cq3fgyvvCp1oCIv7]{summon ally}</em> powers of the Mark of Warding within 8” (16 yards) of the <em>houseward</em> extends the duration of these powers to days instead of rounds.</p>",
+    "description": "<p>A <em>scrystone</em> enhances the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.vcBlDkMkHzgohZvH]{scrying}</em> power of the Mark of Shadow or the Greater Scrying Epic Power Modifier of the Siberys Mark of Shadow, allowing the heir to telepathically communicate with a willing creature they can see in the <em>scrystone</em>, sending and receiving mental images for the duration of the power.</p>",
     "notes": "",
     "source": "Eberron for Savage Worlds",
     "swid": "bag-of-bounty",
     "additionalStats": {},
     "quantity": 1,
-    "weight": 40,
+    "weight": 1,
     "price": 25000,
     "equippable": false,
     "equipStatus": 1,
@@ -48,7 +48,7 @@
     "coreVersion": "12.331",
     "systemId": "swade",
     "systemVersion": "4.1.0",
-    "createdTime": 1725081296079,
+    "createdTime": 1725247652400,
     "modifiedTime": 1725247786695,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
@@ -56,7 +56,7 @@
     "default": 0,
     "Xbne19Xghka479we": 3
   },
-  "_id": "nwAfy7fblGJ8fQj9",
-  "sort": 1300000,
-  "_key": "!items!nwAfy7fblGJ8fQj9"
+  "_id": "KBW1RX9SJc8BchH7",
+  "sort": 600000,
+  "_key": "!items!KBW1RX9SJc8BchH7"
 }

@@ -1,18 +1,18 @@
 {
   "folder": "X9UIT9nSgHXZTXb5",
-  "name": "Houseward",
+  "name": "Rings of Shared Suffering",
   "type": "gear",
-  "img": "icons/commodities/metal/ingot-stamped-steel.webp",
+  "img": "icons/equipment/finger/ring-band-engraved-spirals-gold.webp",
   "system": {
-    "description": "<p>This small, heavy block of lead and alchemical silver contains a Siberys dragonshard as its core. When set directly into the floor of a building, activating the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.0TRRYoKZecpUZMBv]{barrier}</em>, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{conceal arcana}, and <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cq3fgyvvCp1oCIv7]{summon ally}</em> powers of the Mark of Warding within 8” (16 yards) of the <em>houseward</em> extends the duration of these powers to days instead of rounds.</p>",
+    "description": "<p>These paired rings link a dragonmark heir of the Mark of Sentinel with another being under her protection. At any time, the heir may activate the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cuuokKqJ5IgaYdNT]{protection}</em> power of the Mark of Sentinel, targeting whoever is currently wearing the companion <em>ring</em>. If the wearers of both <em>rings</em> have the Mark of Sentinel, either character can initiate the <em>protection</em> power and both benefit from the power. Additionally, the power’s range is unlimited.</p>",
     "notes": "",
     "source": "Eberron for Savage Worlds",
     "swid": "bag-of-bounty",
     "additionalStats": {},
-    "quantity": 1,
-    "weight": 40,
-    "price": 25000,
-    "equippable": false,
+    "quantity": 2,
+    "weight": null,
+    "price": 40000,
+    "equippable": true,
     "equipStatus": 1,
     "isArcaneDevice": false,
     "arcaneSkillDie": {
@@ -48,7 +48,7 @@
     "coreVersion": "12.331",
     "systemId": "swade",
     "systemVersion": "4.1.0",
-    "createdTime": 1725081296079,
+    "createdTime": 1725246805991,
     "modifiedTime": 1725247786695,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
@@ -56,7 +56,7 @@
     "default": 0,
     "Xbne19Xghka479we": 3
   },
-  "_id": "nwAfy7fblGJ8fQj9",
-  "sort": 1300000,
-  "_key": "!items!nwAfy7fblGJ8fQj9"
+  "_id": "Q7FyNw38RDFkc9Bv",
+  "sort": 400000,
+  "_key": "!items!Q7FyNw38RDFkc9Bv"
 }

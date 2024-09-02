@@ -1,17 +1,17 @@
 {
   "folder": "X9UIT9nSgHXZTXb5",
-  "name": "Houseward",
+  "name": "Lightning Reins",
   "type": "gear",
-  "img": "icons/commodities/metal/ingot-stamped-steel.webp",
+  "img": "icons/sundries/survival/leather-strap-brown.webp",
   "system": {
-    "description": "<p>This small, heavy block of lead and alchemical silver contains a Siberys dragonshard as its core. When set directly into the floor of a building, activating the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.0TRRYoKZecpUZMBv]{barrier}</em>, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{conceal arcana}, and <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cq3fgyvvCp1oCIv7]{summon ally}</em> powers of the Mark of Warding within 8” (16 yards) of the <em>houseward</em> extends the duration of these powers to days instead of rounds.</p>",
+    "description": "<p>These long leather cords are designed similarly to those used to control the horses pulling a coach. Attached to the helm of a lightning rail coach, the <em>lightning reins</em> allow a human with the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.4grJTfjDjDVLUi5t]{teleport}</em> power of the Lesser Mark of Passage to control the bound air elemental telepathically, directing the coach as desired.</p><p>In actuality, there is little for the driver to control other than the speed of the lightning rail coach as it must follow a path of conductor stones. An entirely uncontrolled coach will either come to a halt or accelerate until the momentum drives it off course and into the ground.</p>",
     "notes": "",
     "source": "Eberron for Savage Worlds",
     "swid": "bag-of-bounty",
     "additionalStats": {},
     "quantity": 1,
-    "weight": 40,
-    "price": 25000,
+    "weight": 1,
+    "price": 8000,
     "equippable": false,
     "equipStatus": 1,
     "isArcaneDevice": false,
@@ -48,7 +48,7 @@
     "coreVersion": "12.331",
     "systemId": "swade",
     "systemVersion": "4.1.0",
-    "createdTime": 1725081296079,
+    "createdTime": 1725244493164,
     "modifiedTime": 1725247786695,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
@@ -56,7 +56,7 @@
     "default": 0,
     "Xbne19Xghka479we": 3
   },
-  "_id": "nwAfy7fblGJ8fQj9",
-  "sort": 1300000,
-  "_key": "!items!nwAfy7fblGJ8fQj9"
+  "_id": "fmDGr3DsjqtJldbA",
+  "sort": 800000,
+  "_key": "!items!fmDGr3DsjqtJldbA"
 }

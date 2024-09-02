@@ -37,17 +37,6 @@
           "uuid": null,
           "macroActor": "default",
           "isHeavyWeapon": false
-        },
-        "m7v7NO4M": {
-          "name": "New Action",
-          "type": "trait",
-          "override": "",
-          "modifier": "",
-          "dice": null,
-          "resourcesUsed": null,
-          "uuid": null,
-          "macroActor": "default",
-          "isHeavyWeapon": false
         }
       }
     },
@@ -121,7 +110,7 @@
     "systemId": "swade",
     "systemVersion": "4.1.0",
     "createdTime": 1725082277831,
-    "modifiedTime": 1725082277831,
+    "modifiedTime": 1725247786695,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "ownership": {
@@ -129,6 +118,6 @@
     "Xbne19Xghka479we": 3
   },
   "_id": "FZc2Mz4C845kwry4",
-  "sort": 0,
+  "sort": 700000,
   "_key": "!items!FZc2Mz4C845kwry4"
 }

@@ -1,17 +1,17 @@
 {
   "folder": "X9UIT9nSgHXZTXb5",
-  "name": "Keycharm",
+  "name": "Pen of the Scribe",
   "type": "gear",
-  "img": "icons/commodities/treasure/token-runed-nyd-green.webp",
+  "img": "icons/tools/scribal/pen-steel-grey-brown.webp",
   "system": {
-    "description": "<p>When a dwarf activates the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.WhkZOWfcSvplAtjf]{lock}</em> power of the Mark of Warding, she can use a <em>keycharm</em> as a second layer of security. The <em>lock</em> enchantment of the <em>keycharm</em> requires the <em>keycharm</em> must be in possession in addition to knowing and speaking the pass phrase. If the linked <em>lock</em> power expires, the charm becomes a mundane object, although a dwarf with the Mark of Warding could link it to a new lock.</p>",
+    "description": "<p>This long ink pen, formed of silver and copper with a thin dragonshard at its core, is an invaluable tool for the scribes of House Sivis. In the hands of a gnome with the Mark of Scribing, it has the following powers.</p><ul><li><p>The <em>pen</em> never runs out of ink. The gnome can change the pen ink’s color as a free action by speaking the name of the desired color in Gnome.</p></li><li><p>A gnome can write in half the time normally required such as when he’s using <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-edges.Item.PLVkp6ufG6Gb7FIr]{illusion}</em> to create secured documents.</p></li><li><p>When creating a document secured with the <em>illusion</em> power of the Mark of Scribing, the pen of the scribe reduces the Power Point cost of the Permanent Modifier for the <em>illusion</em> power by 2.</p></li></ul>",
     "notes": "",
     "source": "Eberron for Savage Worlds",
     "swid": "bag-of-bounty",
     "additionalStats": {},
     "quantity": 1,
     "weight": null,
-    "price": 150,
+    "price": 2500,
     "equippable": false,
     "equipStatus": 1,
     "isArcaneDevice": false,
@@ -48,7 +48,7 @@
     "coreVersion": "12.331",
     "systemId": "swade",
     "systemVersion": "4.1.0",
-    "createdTime": 1725083061509,
+    "createdTime": 1725244888481,
     "modifiedTime": 1725247786695,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
@@ -56,7 +56,7 @@
     "default": 0,
     "Xbne19Xghka479we": 3
   },
-  "_id": "csbEFHKy5nNAZa6N",
-  "sort": 900000,
-  "_key": "!items!csbEFHKy5nNAZa6N"
+  "_id": "rnOvFDC4rZEqhhes",
+  "sort": 100000,
+  "_key": "!items!rnOvFDC4rZEqhhes"
 }

@@ -1,17 +1,17 @@
 {
   "folder": "X9UIT9nSgHXZTXb5",
-  "name": "Houseward",
+  "name": "Wheel of Wind and Water",
   "type": "gear",
-  "img": "icons/commodities/metal/ingot-stamped-steel.webp",
+  "img": "icons/tools/nautical/steering-wheel.webp",
   "system": {
-    "description": "<p>This small, heavy block of lead and alchemical silver contains a Siberys dragonshard as its core. When set directly into the floor of a building, activating the <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.0TRRYoKZecpUZMBv]{barrier}</em>, @UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.sXrRk20IIFPhxkC0]{conceal arcana}, and <em>@UUID[Compendium.swade-fantasy-companion.swade-fc-powers.Item.cq3fgyvvCp1oCIv7]{summon ally}</em> powers of the Mark of Warding within 8” (16 yards) of the <em>houseward</em> extends the duration of these powers to days instead of rounds.</p>",
+    "description": "<p>A <em>wheel of wind and water</em> resembles the helm of a sailing ship. This ornately carved wooden <em>wheel</em> is mounted at the helm of an elemental galleon or a House Lyrandar airship. An heir with the Lesser Mark of Storm gripping the wheel can telepathically control an elemental bound into the vessel, forcing it to move the vessel as the dragonmark heir desires.</p><p>If a <em>wheel of wind and water</em> is mounted on a mundane sailing ship, a dragonmark heir with the Lesser Mark of Storm can create an area of ideal conditions around the vessel, enabling it to sail at a rate of 6 miles per hour.</p>",
     "notes": "",
     "source": "Eberron for Savage Worlds",
     "swid": "bag-of-bounty",
     "additionalStats": {},
     "quantity": 1,
-    "weight": 40,
-    "price": 25000,
+    "weight": 30,
+    "price": 8000,
     "equippable": false,
     "equipStatus": 1,
     "isArcaneDevice": false,
@@ -48,15 +48,15 @@
     "coreVersion": "12.331",
     "systemId": "swade",
     "systemVersion": "4.1.0",
-    "createdTime": 1725081296079,
-    "modifiedTime": 1725247786695,
+    "createdTime": 1725248320557,
+    "modifiedTime": 1725248320557,
     "lastModifiedBy": "Xbne19Xghka479we"
   },
   "ownership": {
     "default": 0,
     "Xbne19Xghka479we": 3
   },
-  "_id": "nwAfy7fblGJ8fQj9",
-  "sort": 1300000,
-  "_key": "!items!nwAfy7fblGJ8fQj9"
+  "_id": "RYUAFS7cbmoL31gl",
+  "sort": 0,
+  "_key": "!items!RYUAFS7cbmoL31gl"
 }
