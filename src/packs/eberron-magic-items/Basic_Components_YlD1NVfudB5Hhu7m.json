@@ -1,0 +1,22 @@
+{
+  "name": "Basic Components",
+  "sorting": "a",
+  "folder": "wfQ3HXQeDoTlBXce",
+  "type": "Item",
+  "_id": "YlD1NVfudB5Hhu7m",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!YlD1NVfudB5Hhu7m"
+}

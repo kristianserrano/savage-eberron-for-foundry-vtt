@@ -1,0 +1,82 @@
+{
+  "name": "Armblade (attached component)",
+  "type": "weapon",
+  "img": "icons/commodities/metal/arrowhead-steel.webp",
+  "system": {
+    "description": "<p>An <em>armblade</em> consists of a metal cylinder into which the warforged slides her hand and forearm. Its end features a heavy, serrated bastard sword blade. The <em>armblade</em> gives a +1 bonus to Fighting and damage.</p><p>The warforged cannot be disarmed of the <em>armblade</em>. A defender attempting to resist being disarmed from an attack with the armblade suffers an additional −2 penalty to their Strength rolls to resist dropping the item.</p><p>While the <em>armblade</em> is attached, the warforged cannot perform other tasks with that hand.</p>",
+    "notes": "",
+    "source": "Eberron for Savage Worlds",
+    "swid": "armblade-attached-component",
+    "additionalStats": {},
+    "choiceSets": [],
+    "quantity": 1,
+    "weight": 8,
+    "price": 2300,
+    "build": {
+      "cost": null
+    },
+    "equippable": false,
+    "equipStatus": 4,
+    "isArcaneDevice": false,
+    "arcaneSkillDie": {
+      "sides": 4,
+      "modifier": 0
+    },
+    "powerPoints": {},
+    "isVehicular": false,
+    "mods": 1,
+    "actions": {
+      "trait": "Fighting",
+      "traitMod": "1",
+      "dmgMod": "1",
+      "additional": {}
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "favorite": false,
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "category": "Warforged Components",
+    "grants": [],
+    "grantOn": 1,
+    "damage": "@str+d8",
+    "range": "",
+    "rangeType": 0,
+    "rof": 1,
+    "ap": 1,
+    "parry": 0,
+    "minStr": "",
+    "shots": 0,
+    "currentShots": 0,
+    "ammo": "",
+    "reloadType": "none",
+    "ppReloadCost": 2,
+    "trademark": 0,
+    "isHeavyWeapon": false
+  },
+  "effects": [],
+  "folder": "YlD1NVfudB5Hhu7m",
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1725255061640,
+    "modifiedTime": 1725255061640,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_id": "qfaPfPj02hmRy6dW",
+  "sort": 0,
+  "_key": "!items!qfaPfPj02hmRy6dW"
+}

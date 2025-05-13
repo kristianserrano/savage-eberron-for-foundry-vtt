@@ -1,0 +1,27 @@
+{
+  "folder": "unViUG7w5W3DQumF",
+  "name": "Create 5 Additional Bolts",
+  "type": "script",
+  "_id": "efPbKcYxmYxeAPbK",
+  "author": "Xbne19Xghka479we",
+  "img": "icons/weapons/ammunition/arrows-barbed-white.webp",
+  "scope": "global",
+  "command": "await item.update({'system.currentShots': item.system.currentShots + 5});\nawait item.actor.createEmbeddedDocuments(\"ActiveEffect\", [\n    {\n      name: `Lower Vigor`,\n      description: await TextEditor.enrichHTML('As a free action, the warforged can force the <em>armbow</em> to create an additional 5 bolts by drawing on his own life force, inflicting the effects of <em>lower Vigor</em> upon the warforged as if the power were activated with a success.'),\n      changes: [\n        {\n          key: 'system.attributes.vigor.die.sides',\n          mode: 2,\n          value: -2\n        }\n      ],\n      flags: {\n        swade: {\n          removeEffect: true,\n          expiration: CONFIG.SWADE.CONST.STATUS_EFFECT_EXPIRATION.EndOfTurnPrompt,\n          favorite: true\n        }\n      },\n      duration: {\n        rounds: 1\n      }\n    }\n  ]);",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1725258279190,
+    "modifiedTime": 1725259646189,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!macros!efPbKcYxmYxeAPbK"
+}

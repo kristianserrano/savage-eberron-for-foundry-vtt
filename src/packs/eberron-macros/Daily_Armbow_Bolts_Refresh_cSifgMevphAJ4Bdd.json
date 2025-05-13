@@ -1,0 +1,27 @@
+{
+  "name": "Daily Armbow Bolts Refresh",
+  "type": "script",
+  "_id": "cSifgMevphAJ4Bdd",
+  "author": "Xbne19Xghka479we",
+  "img": "icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
+  "scope": "global",
+  "command": "await item.update({'system.currentShots': item.system.shots});",
+  "folder": "unViUG7w5W3DQumF",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1725257946401,
+    "modifiedTime": 1725258258100,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!macros!cSifgMevphAJ4Bdd"
+}

@@ -1,0 +1,27 @@
+{
+  "folder": "unViUG7w5W3DQumF",
+  "name": "Fire Bolt with Smite",
+  "type": "script",
+  "_id": "6UAbqUwUUDU0HFkE",
+  "author": "Xbne19Xghka479we",
+  "img": "icons/weapons/ammunition/arrowhead-glowing-blue.webp",
+  "scope": "global",
+  "command": "const shooting = item.actor.items.find(i => i.type === 'skill' && i.system.swid === 'shooting');\nconsole.log(shooting)\nawait item.actor.rollSkill(shooting.id);\n\n/*await item.actor.createEmbeddedDocuments(\"ActiveEffect\", [\n    {\n      name: `Lower Vigor`,\n      description: await TextEditor.enrichHTML('As a free action, the warforged can force the <em>armbow</em> to create an additional 5 bolts by drawing on his own life force, inflicting the effects of <em>lower Vigor</em> upon the warforged as if the power were activated with a success.'),\n      changes: [\n        {\n          key: 'system.attributes.vigor.die.sides',\n          mode: 2,\n          value: -2\n        }\n      ],\n      flags: {\n        swade: {\n          removeEffect: true,\n          expiration: CONFIG.SWADE.CONST.STATUS_EFFECT_EXPIRATION.EndOfTurnPrompt,\n          favorite: true\n        }\n      },\n      duration: {\n        rounds: 1\n      }\n    }\n  ]);*/",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xbne19Xghka479we": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.1.0",
+    "createdTime": 1725260199815,
+    "modifiedTime": 1725261864123,
+    "lastModifiedBy": "Xbne19Xghka479we"
+  },
+  "_key": "!macros!6UAbqUwUUDU0HFkE"
+}
