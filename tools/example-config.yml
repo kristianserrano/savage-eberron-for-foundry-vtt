@@ -1,0 +1,4 @@
+installPath: /path/to/installation
+dataPath: /path/to/data
+currentPackageId: savage-eberron
+currentPackageType: Module

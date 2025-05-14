@@ -5,10 +5,13 @@ const packs = await fs.readdir("./src/packs");
 
 for (const pack of packs) {
     if (pack === ".gitattributes" || pack === ".DS_Store" || pack === ".gitkeep") continue;
-    console.log("Packing " + pack);
+    console.log("Compiling " + pack);
     await compilePack(
         `./src/packs/${pack}`,
         `./packs/${pack}`,
-        { log: true }
+        {
+            log: true,
+            recursive: true,
+        }
     );
 }

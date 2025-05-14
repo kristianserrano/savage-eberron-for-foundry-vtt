@@ -6,11 +6,16 @@ import path from "path";
 const packs = await fs.readdir("./packs");
 for (const pack of packs) {
     if (pack === ".gitattributes" || pack === ".DS_Store" || pack === '.gitkeep') continue;
-    console.log("Unpacking " + pack);
+    console.log("Extracting " + pack);
     const directory = `./src/packs/${pack}`;
     try {
         for (const file of await fs.readdir(directory)) {
-            await fs.unlink(path.join(directory, file));
+            const filePath = path.join(directory, file)
+            if (file.endsWith(".yml") || file.endsWith(".json")) {
+                await fs.unlink(filePath);
+            } else {
+                fs.rm(filePath, { recursive: true });
+            }
         }
     } catch (error) {
         if (error.code === "ENOENT") console.log("No files inside of " + pack);
@@ -22,6 +27,8 @@ for (const pack of packs) {
         {
             clean: true,
             log: true,
+            folders: true,
+            expandAdventures: true,
         }
     );
 }

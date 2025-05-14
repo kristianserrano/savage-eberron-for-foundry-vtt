@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "createLink": "bash ./tools/createLink.sh",
-    "fvttLaunch-v11": "bash ./tools/fvttLaunch-v11.sh",
-    "fvttLaunch-v12": "bash ./tools/fvttLaunch-v12.sh",
-    "packLDB": "node ./tools/packLDB.mjs",
-    "unpackLDB": "node ./tools/unpackLDB.mjs"
+    "fvttLaunch-v12": "fvtt launch --noupnp --noipdiscovery --hotReload --world 'eberron-for-savage-worlds' --config 'tools/v12-config.yml/'",
+    "compilePacks": "node ./tools/compilePacks.mjs",
+    "extractPacks": "node ./tools/extractPacks.mjs"
   },
   "repository": {
     "type": "git",
